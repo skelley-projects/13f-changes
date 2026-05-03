@@ -1,0 +1,22 @@
+[
+  {
+    "slug": "situational-awareness",
+    "name": "Situational Awareness LP",
+    "manager_name": "Leopold Aschenbrenner",
+    "cik": "0002045724",
+    "location": "San Francisco, CA",
+    "description": "AI/AGI-thesis fund. Concentrated bets on AI compute and infrastructure.",
+    "added": "2026-05-03",
+    "active": true
+  },
+  {
+    "slug": "duquesne",
+    "name": "Duquesne Family Office LLC",
+    "manager_name": "Stanley Druckenmiller",
+    "cik": "0001536411",
+    "location": "New York, NY",
+    "description": "Macro/generalist family office. Druckenmiller's vehicle since 2010.",
+    "added": "2026-05-03",
+    "active": true
+  }
+]
