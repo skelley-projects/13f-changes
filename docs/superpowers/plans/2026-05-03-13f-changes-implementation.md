@@ -68,7 +68,9 @@ This plan creates the following files. Group A is foundational (scaffold), Group
 **Files:**
 - Create: `package.json`, `tsconfig.json`, `astro.config.mjs`, `.gitignore`, `src/pages/index.astro` (placeholder)
 
-**Why:** Astro is the static site generator. Cloudflare adapter compiles to Workers-compatible output. TypeScript strict gives us type safety for the data scripts and component props.
+**Why:** Astro is the static site generator. We deploy to Cloudflare Workers using the **Workers Static Assets** feature, which serves a `dist/` directory directly — no SSR adapter needed for our static-only use case. TypeScript strict gives us type safety for the data scripts and component props.
+
+> **Note (post Task 0.1 review):** An earlier draft of this task used `@astrojs/cloudflare` adapter. That adapter generates SSR Worker code that doesn't match the Workers Static Assets deploy model and produces a `dist/server/` + `dist/client/` layout that fights the wrangler.toml in Task 0.2. For pure static SSG, no adapter is needed — Cloudflare's Workers Static Assets feature serves the `dist/` directory directly.
 
 - [ ] **Step 1: Run `npm create astro` non-interactively in the project root**
 
@@ -81,58 +83,56 @@ Expected: an Astro `minimal` template installs with TypeScript strict mode. Exis
 
 If the command errors because the directory isn't empty: pass `--force` instead of relying on the empty-dir check.
 
-- [ ] **Step 2: Add the Cloudflare adapter for static deploys**
-
-```bash
-npm install @astrojs/cloudflare
-```
-
-- [ ] **Step 3: Update `astro.config.mjs` to use the Cloudflare adapter and static output**
+- [ ] **Step 2: Update `astro.config.mjs` for static-only output (no adapter)**
 
 ```js
 // astro.config.mjs
+// @ts-check
 import { defineConfig } from 'astro/config';
-import cloudflare from '@astrojs/cloudflare';
 
 export default defineConfig({
   output: 'static',
-  adapter: cloudflare(),
   site: 'https://13f.example.com', // overwrite when domain is decided
 });
 ```
 
-- [ ] **Step 4: Verify `astro build` runs**
+No `@astrojs/cloudflare` import — we deploy via Workers Static Assets, which serves `dist/` directly without an adapter.
+
+- [ ] **Step 3: Verify `astro build` runs**
 
 ```bash
 npm run build
 ```
 
-Expected: build succeeds, produces `dist/` with the placeholder index page.
+Expected: build succeeds, produces a flat `dist/` (NOT `dist/client/` + `dist/server/`) with the placeholder `index.html` at `dist/index.html`. If you see a `dist/server/` directory, the adapter is still configured — re-check `astro.config.mjs`.
 
-- [ ] **Step 5: Commit**
+- [ ] **Step 4: Commit**
 
 ```bash
-git add package.json package-lock.json tsconfig.json astro.config.mjs .gitignore src/
-git commit -m "scaffold: initialize Astro project with Cloudflare adapter"
+git add package.json package-lock.json tsconfig.json astro.config.mjs .gitignore src/ public/ .vscode/ README.md
+git commit -m "scaffold: initialize Astro project (static SSG, no adapter)"
 ```
 
-### Task 0.2: Add Wrangler config for Cloudflare Workers deploy
+Add `public/`, `.vscode/`, `README.md` from the Astro init alongside the originally-listed files — `npm create astro` produces those by default and they're harmless.
+
+### Task 0.2: Add Wrangler config for Cloudflare Workers Static Assets deploy
 
 **Files:**
 - Create: `wrangler.toml`
 
-**Why:** Wrangler is Cloudflare's deploy CLI. nvidia-tracker uses the same pattern — a static Astro build deployed to a Cloudflare Worker.
+**Why:** Wrangler is Cloudflare's deploy CLI. We use the Workers Static Assets feature — Cloudflare serves the `dist/` directory directly without any Worker code. No `main` field needed; the `[assets]` block tells Wrangler which directory to publish.
 
 - [ ] **Step 1: Create `wrangler.toml`**
 
 ```toml
 name = "13f-changes"
-main = "./dist/_worker.js/index.js"
 compatibility_date = "2025-01-01"
-assets = { directory = "./dist", binding = "ASSETS" }
+
+[assets]
+directory = "./dist"
 ```
 
-The `name` becomes part of the default `*.workers.dev` URL. `compatibility_date` pins the Workers runtime version. Adjust both when domain decisions are made.
+The `name` becomes part of the default `*.workers.dev` URL. `compatibility_date` pins the Workers runtime version. Adjust both when domain decisions are made. (Unlike a Worker with code, no `main` field is needed — Cloudflare auto-serves the assets.)
 
 - [ ] **Step 2: Add deploy script to `package.json`**
 
