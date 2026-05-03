@@ -48,3 +48,27 @@ describe('parseFiling — legacy fixture (Duquesne 2019, values in thousands)', 
     expect(perShare).toBeLessThan(20_000);
   });
 });
+
+describe('parseFiling — edge cases', () => {
+  it('keeps options positions distinct from the underlying common', () => {
+    const primary = readFileSync(join(fixtures, 'sa-2025-q4-primary_doc.xml'), 'utf8');
+    const table = readFileSync(join(fixtures, 'sa-2025-q4-informationtable.xml'), 'utf8');
+    const result = parseFiling({ primaryDocXml: primary, holdingsXml: table });
+
+    const bloomRows = result.positions.filter(p => p.cusip === '093712107');
+    expect(bloomRows.length).toBe(2);
+    expect(bloomRows.find(p => p.put_call === null)).toBeDefined();
+    expect(bloomRows.find(p => p.put_call === 'Call')).toBeDefined();
+  });
+
+  it('preserves letter-prefix (foreign-listed) CUSIPs', () => {
+    const primary = readFileSync(join(fixtures, 'sa-2025-q4-primary_doc.xml'), 'utf8');
+    const table = readFileSync(join(fixtures, 'sa-2025-q4-informationtable.xml'), 'utf8');
+    const result = parseFiling({ primaryDocXml: primary, holdingsXml: table });
+
+    // Bitdeer's Cayman class A ordinary shares
+    const bitdeer = result.positions.find(p => p.cusip === 'G11448100');
+    expect(bitdeer).toBeDefined();
+    expect(bitdeer!.name_of_issuer).toMatch(/BITDEER/i);
+  });
+});
