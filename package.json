@@ -12,7 +12,8 @@
     "deploy": "astro build && wrangler deploy",
     "astro": "astro",
     "test": "vitest run",
-    "test:watch": "vitest"
+    "test:watch": "vitest",
+    "classify": "tsx scripts/run-classify-securities.ts"
   },
   "dependencies": {
     "astro": "^6.2.1",
@@ -21,6 +22,7 @@
   },
   "devDependencies": {
     "@types/node": "^22.19.17",
+    "tsx": "^4.21.0",
     "typescript": "^5.9.3",
     "vitest": "^4.1.5",
     "wrangler": "^4.87.0"
