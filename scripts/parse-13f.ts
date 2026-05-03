@@ -35,7 +35,10 @@ export function parseFiling(input: ParseInput): FilingFile {
   const period_ending = normalizeMmDdYyyy(reportRaw);
   const period = toPeriodCode(period_ending);
 
-  const tableEntries = holdings.informationTable.infoTable as any[];
+  const tableEntries = (holdings.informationTable?.infoTable ?? []) as any[];
+  if (tableEntries.length === 0) {
+    throw new Error('Filing contains no positions (informationTable.infoTable is empty or missing)');
+  }
 
   // Heuristic unit detection: median per-share price across the filing.
   // If median < $1, raw values are in thousands; multiply by 1000 to normalize.
@@ -62,6 +65,14 @@ export function parseFiling(input: ParseInput): FilingFile {
   }
 
   const positions: Position[] = tableEntries.map((row) => {
+    const sharesType = row.shrsOrPrnAmt.sshPrnamtType;
+    if (sharesType !== 'SH') {
+      throw new Error(
+        `Unsupported sshPrnamtType "${sharesType}" for ${row.nameOfIssuer} (${row.cusip}). ` +
+        `Only SH (shares) is currently supported. PRN (principal/bonds) requires explicit handling — ` +
+        `add fund-specific logic if a fund's filings include bond positions.`
+      );
+    }
     const value = parseInt(row.value, 10) * scale;
 
     return {
