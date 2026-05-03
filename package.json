@@ -14,7 +14,8 @@
     "test": "vitest run",
     "test:watch": "vitest",
     "classify": "tsx scripts/run-classify-securities.ts",
-    "validate": "tsx scripts/run-validate.ts"
+    "validate": "tsx scripts/run-validate.ts",
+    "poll-edgar": "tsx scripts/run-poll-edgar.ts"
   },
   "dependencies": {
     "astro": "^6.2.1",
