@@ -1,0 +1,4 @@
+/* Resets and minimal base styles. */
+* { box-sizing: border-box; }
+html, body { margin: 0; padding: 0; background: #fff; }
+body { font-family: system-ui, -apple-system, sans-serif; }
