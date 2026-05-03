@@ -15,7 +15,8 @@
     "test:watch": "vitest"
   },
   "dependencies": {
-    "astro": "^6.2.1"
+    "astro": "^6.2.1",
+    "fast-xml-parser": "^5.7.2"
   },
   "devDependencies": {
     "@types/node": "^22.19.17",
