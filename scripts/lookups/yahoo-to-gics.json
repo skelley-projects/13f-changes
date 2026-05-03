@@ -1,0 +1,15 @@
+{
+  "sectors": {
+    "Technology": "Information Technology",
+    "Communication Services": "Communication Services",
+    "Consumer Cyclical": "Consumer Discretionary",
+    "Consumer Defensive": "Consumer Staples",
+    "Energy": "Energy",
+    "Financial Services": "Financials",
+    "Healthcare": "Health Care",
+    "Industrials": "Industrials",
+    "Basic Materials": "Materials",
+    "Real Estate": "Real Estate",
+    "Utilities": "Utilities"
+  }
+}
