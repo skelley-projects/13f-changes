@@ -550,7 +550,9 @@ git commit -m "feat(types): define shared types for filings, securities, tags, d
 - Create: `scripts/parse-13f.ts`
 - Create: `tests/parse-13f.test.ts`
 
-**Why:** Parsing the EDGAR 13F XML is the foundation. Start with the modern X02 schema (values in dollars, no normalization needed for the basic case). Use `fast-xml-parser` — small, fast, no DOM dependency.
+**Why:** Parsing the EDGAR 13F XML is the foundation. Use `fast-xml-parser` — small, fast, no DOM dependency.
+
+**Note on value units (post Task 0.5 finding):** The original plan assumed schema version (X01 = thousands, X02 = dollars) determined units. Empirical testing showed this is unreliable — Duquesne uses X0202 schema in 2026 but still reports values in thousands. The parser detects units by computing the median per-share price across the filing: if median < $1, source is in thousands. Schema version is recorded for traceability but doesn't drive unit logic. Stored values are always normalized to USD dollars.
 
 - [ ] **Step 1: Install the XML parser**
 
@@ -631,12 +633,12 @@ export function parseFiling(input: ParseInput): FilingFile {
   const holdings = xml.parse(input.holdingsXml);
 
   const submission = primary.edgarSubmission;
-  const schemaVersionStr: string = submission.headerData?.filerInfo?.schemaVersion
-    ?? submission.schemaVersion
-    ?? 'X02'; // some filings put it at the top level
-
-  const schemaVersion: SchemaVersion = schemaVersionStr.startsWith('X01') ? 'X01' : 'X02';
-  const valueUnits: ValueUnits = schemaVersion === 'X01' ? 'USD_THOUSANDS' : 'USD';
+  // Schema version is documentary only — it does NOT reliably indicate units.
+  const schemaVersionStr: string | undefined =
+    submission.schemaVersion
+    ?? submission.headerData?.filerInfo?.schemaVersion;
+  const schemaVersion: SchemaVersion =
+    schemaVersionStr?.startsWith('X02') ? 'X02' : 'X01';
 
   // periodOfReport like "12-31-2025" → 2025-12-31
   const reportRaw: string = submission.headerData.filerInfo.periodOfReport;
@@ -644,9 +646,33 @@ export function parseFiling(input: ParseInput): FilingFile {
   const period = toPeriodCode(period_ending);
 
   const tableEntries = holdings.informationTable.infoTable as any[];
+
+  // Heuristic unit detection: median per-share price across the filing.
+  // If median < $1, raw values are in thousands; multiply by 1000 to normalize.
+  const perSharePrices = tableEntries
+    .map((row) => {
+      const shares = parseInt(row.shrsOrPrnAmt.sshPrnamt, 10);
+      const value = parseInt(row.value, 10);
+      return shares > 0 ? value / shares : 0;
+    })
+    .filter((p) => p > 0)
+    .sort((a, b) => a - b);
+  const median = perSharePrices.length > 0
+    ? perSharePrices[Math.floor(perSharePrices.length / 2)]
+    : 0;
+  const valueUnits: ValueUnits = median < 1 ? 'USD_THOUSANDS' : 'USD';
+  const scale = valueUnits === 'USD_THOUSANDS' ? 1000 : 1;
+
+  // Sanity warning for ambiguous medians (between $0.50 and $2.00 raw)
+  if (median >= 0.5 && median <= 2.0) {
+    console.warn(
+      `parse-13f: ambiguous unit detection — median per-share price is $${median.toFixed(3)} ` +
+      `(raw). Picked ${valueUnits}; manual review suggested.`
+    );
+  }
+
   const positions: Position[] = tableEntries.map((row) => {
-    const rawValue = parseInt(row.value, 10);
-    const value = valueUnits === 'USD_THOUSANDS' ? rawValue * 1000 : rawValue;
+    const value = parseInt(row.value, 10) * scale;
 
     return {
       cusip: row.cusip,
@@ -711,52 +737,53 @@ git add scripts/parse-13f.ts tests/parse-13f.test.ts package.json package-lock.j
 git commit -m "feat(parse-13f): parse X02 13F filings (happy path)"
 ```
 
-### Task 1.3: Extend `parse-13f.ts` — X01 schema with thousands→dollars normalization
+### Task 1.3: Verify thousands→dollars normalization works on a values-in-thousands filing
 
 **Files:**
-- Modify: `tests/parse-13f.test.ts` (add X01 case)
-- Verify: `scripts/parse-13f.ts` already handles via `valueUnits` branch
+- Modify: `tests/parse-13f.test.ts` (add legacy-fixture case)
+- Verify: `scripts/parse-13f.ts` already handles via the heuristic + `scale` branch from Task 1.2
 
-**Why:** Older filings (pre-2022, e.g. Duquesne 2019) report values in thousands. Stored values must always be in full dollars. The parser already has the branch — this task adds the test that proves it.
+**Why:** The unit-detection heuristic (median per-share price < $1 → thousands) is the most fragile new logic. Duquesne's 2019 filing reports values in thousands and lacks a `<schemaVersion>` element, so it exercises both the legacy default-schema path AND the heuristic-detects-thousands path. Stored values must always be in full dollars.
 
-- [ ] **Step 1: Add the X01 test**
+- [ ] **Step 1: Add the legacy-fixture test**
 
 Append to `tests/parse-13f.test.ts`:
 
 ```ts
-describe('parseFiling — X01', () => {
-  it('parses a Duquesne X01 filing and normalizes values to dollars', () => {
+describe('parseFiling — legacy fixture (Duquesne 2019, values in thousands)', () => {
+  it('detects thousands via heuristic and normalizes to dollars', () => {
     const primary = readFileSync(join(fixtures, 'duquesne-2019-q2-primary_doc.xml'), 'utf8');
     const table = readFileSync(join(fixtures, 'duquesne-2019-q2-informationtable.xml'), 'utf8');
 
     const result = parseFiling({ primaryDocXml: primary, holdingsXml: table });
 
+    // Duquesne 2019 has no <schemaVersion> element — parser should default to X01.
     expect(result.schema_version).toBe('X01');
+    // Heuristic detects raw values are in thousands.
     expect(result.value_units).toBe('USD_THOUSANDS');
-    // Sanity: any non-trivial position is now in dollars (>$1k)
+    // After normalization, the largest position is non-trivial and per-share price is plausible.
     const largest = [...result.positions].sort((a, b) => b.value - a.value)[0];
     expect(largest.value).toBeGreaterThan(1_000_000);
-    // Per-share price plausibility ($1–$10,000)
     const perShare = largest.value / largest.shares;
-    expect(perShare).toBeGreaterThan(0.5);
+    expect(perShare).toBeGreaterThan(1);
     expect(perShare).toBeLessThan(20_000);
   });
 });
 ```
 
-- [ ] **Step 2: Run the test**
+- [ ] **Step 2: Run the tests**
 
 ```bash
 npm test -- parse-13f
 ```
 
-Expected: both X02 and X01 tests pass. If X01 fails because `schemaVersion` is at a different XML location, inspect `tests/fixtures/duquesne-2019-q2-primary_doc.xml` and adjust the lookup chain in `parse-13f.ts`.
+Expected: both the SA test and the Duquesne 2019 test pass. If the legacy test fails because the heuristic mis-detects, inspect the median per-share price (add a `console.log` in the parser temporarily) — likely the issue is shares=0 rows or a mismatched XML path.
 
 - [ ] **Step 3: Commit**
 
 ```bash
 git add tests/parse-13f.test.ts scripts/parse-13f.ts
-git commit -m "feat(parse-13f): handle X01 schema with thousands→dollars normalization"
+git commit -m "test(parse-13f): cover legacy filing with values in thousands"
 ```
 
 ### Task 1.4: Test options and foreign-CUSIP handling

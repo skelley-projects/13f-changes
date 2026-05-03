@@ -468,10 +468,17 @@ Cloudflare Workers (static deploy)
 - **Filing contents:** `https://www.sec.gov/Archives/edgar/data/{cik_no_zeros}/{accession_no_dashes}/index.json` lists files. Two are relevant:
   - `primary_doc.xml` — cover page, period, schema version, summary totals
   - The information table XML — **filename is filer-specific** (e.g. `SALP_13FQ425.xml`, `form13f_20251231.xml`). Discover via `index.json` rather than guessing.
-- **Schema versions:**
-  - **X01 (legacy):** value field is in **thousands of dollars**.
-  - **X02 (modern, post-2022):** value field is in **dollars**. SEC mandated this transition; some filers still use X01.
-  - The schema version is in `primary_doc.xml` as `<schemaVersion>X0202</schemaVersion>` (or X01xx). The parser MUST read this and tag the position file's `value_units` accordingly. Cross-quarter diffs normalize both sides to dollars before comparison.
+- **Schema versions:** `primary_doc.xml` may declare `<schemaVersion>X0202</schemaVersion>` (modern) or omit the element entirely (older filings). Schema version is captured for traceability but **does not reliably indicate value units** — see below.
+
+- **Value units — heuristic detection (important).** The original assumption was "X01 schema = thousands, X02 = dollars" per SEC's 2022 rule change. In practice, this is wrong. Verified examples:
+  - Situational Awareness LP, Q4 2025, X0202 schema → values in **dollars** (e.g., Bloom Energy `value=875505552` ÷ 10,076,022 shares = $86.89/share, plausible).
+  - Duquesne Family Office, Q4 2025, **also** X0202 schema → values in **thousands** (e.g., ADMA Bio `value=4600` ÷ 252,200 shares = $0.018/share at face, $18.24/share when scaled by 1000 — only the latter is plausible).
+  
+  Filers continue to report in thousands even with the modern schema. The parser must detect units by examining the data, not the metadata.
+  
+  **Heuristic:** compute the median per-share price across all positions in the filing (`value / shares`). If median < $1, multiply all values by 1000 and tag `value_units = "USD_THOUSANDS"`; otherwise tag `value_units = "USD"`. This works because U.S.-listed common stock essentially never has a median price below $1 across a multi-position portfolio. Stored values in JSON are always normalized to USD dollars regardless of source units.
+  
+  **Sanity check:** if the median falls in an ambiguous zone (e.g., $0.50–$2.00), log a warning. The parser still picks a side (the < $1 threshold), but the warning surfaces edge cases for human review.
 - **Filing windows:** 13F-HR is due 45 days after quarter end:
   - Q4 (period ending Dec 31): due Feb 14
   - Q1 (Mar 31): due May 15
@@ -497,9 +504,7 @@ For foreign-listed shares (CUSIPs starting with G/F), OpenFIGI usually resolves 
 
 ### Position-value units (critical detail)
 
-As above: X01 schema reports values in thousands of dollars; X02 reports in dollars. The parser detects via schema version and tags the output. The render and diff logic normalizes to dollars throughout.
-
-A sanity check the parser performs: pick the largest position, divide value by share count, and verify it's a plausible per-share price ($1–$10,000 range). If the result is implausible, log a warning. This catches misdetected unit conventions.
+See "Value units — heuristic detection" above under SEC EDGAR. Briefly: detect units by computing the median per-share price across the filing's positions. If median < $1, scale up by 1000 and tag the source as `USD_THOUSANDS`; otherwise tag as `USD`. Stored values are always in normalized USD dollars. The render and diff logic operates exclusively on normalized values.
 
 ## Quarterly workflow — `/update-quarter` slash command
 
@@ -621,7 +626,7 @@ Run before every commit (locally and in CI). Exits nonzero on any failure.
 - **Yahoo Finance scraping is brittle.** The `yahoo-finance2` library wraps an unofficial endpoint; Yahoo can break it without notice. Mitigation: manual override file as fallback, plus add Finnhub free tier as a secondary auto source if Yahoo fails (60 req/min, requires free API key).
 - **EDGAR rate limits.** SEC enforces 10 req/sec. Polling is far below; quarterly review fetches a few files per fund. No issue at expected scale.
 - **OpenFIGI free tier limits.** 25 jobs/min unauthenticated. A fund with ~50 holdings can be processed in 2 minutes. Plenty for our scale.
-- **Schema-version mismatches.** Older filings use X01 (thousands), newer use X02 (dollars). The parser normalizes at ingest so downstream code never sees the difference. **This is the most likely source of subtle bugs if normalization fails.** Mitigation: explicit unit testing on both schema versions, plausibility checks on per-share price after normalization, and a smoke check at validate-data time that the per-share-price ratio is plausible across all stored positions.
+- **Value-unit ambiguity (most subtle source of bugs).** Source filings may report values in either dollars or thousands of dollars regardless of schema version — verified empirically across SA (dollars) and Duquesne (thousands). The parser detects via per-share-price heuristic at ingest, normalizes to USD dollars in storage. Mitigation: explicit unit tests covering both fixtures (one of each), plausibility checks on per-share price after normalization, and a `validate-data`-time check that no stored position has a per-share price below $0.01 or above $10M. A penny stock could in theory trip the < $0.01 floor, but a fund-portfolio-level penny-stock concentration is rare enough to be worth a manual review when it happens.
 - **Options positions confusing readers.** A fund holding Bloom Energy common stock AND Bloom Energy call options shows as two rows. Mitigation: explicit "options" badge in the table, methodology footer note.
 - **Foreign-listed CUSIPs.** Some securities (Bitdeer, Bitfarms) have CUSIPs starting with letters and aren't in EDGAR's CIK→ticker mapping. OpenFIGI usually resolves these. If not, manual classification.
 - **Aschenbrenner / Druckenmiller name attribution.** Both are public figures running publicly-filed funds. The site does not need their permission to display their public 13F data; this is the same legal basis as HedgeFollow, WhaleWisdom, etc.
