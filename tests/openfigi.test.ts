@@ -16,12 +16,12 @@ describe('lookupCusips', () => {
     expect(result['INVALID00']).toBeNull();
   });
 
-  it('chunks requests when more than 25 CUSIPs are passed', async () => {
+  it('chunks requests when more than 10 CUSIPs are passed (batch=10 to fit OpenFIGI free tier)', async () => {
     const fetchMock = vi.fn(async () => new Response(JSON.stringify(
-      Array.from({ length: 25 }, (_, i) => ({ data: [{ ticker: `T${i}`, name: 'X' }] }))
+      Array.from({ length: 10 }, (_, i) => ({ data: [{ ticker: `T${i}`, name: 'X' }] }))
     )));
-    const cusips = Array.from({ length: 30 }, (_, i) => String(i).padStart(9, '0'));
+    const cusips = Array.from({ length: 25 }, (_, i) => String(i).padStart(9, '0'));
     await lookupCusips(cusips, { fetch: fetchMock });
-    expect(fetchMock).toHaveBeenCalledTimes(2);
+    expect(fetchMock).toHaveBeenCalledTimes(3);
   });
 });

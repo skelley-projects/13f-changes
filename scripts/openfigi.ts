@@ -8,7 +8,7 @@ export interface LookupOptions {
   apiKey?: string;
 }
 
-const BATCH_SIZE = 25;
+const BATCH_SIZE = 10;
 const ENDPOINT = 'https://api.openfigi.com/v3/mapping';
 
 export async function lookupCusips(
