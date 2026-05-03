@@ -27,6 +27,8 @@ export function discoverHoldingsFilename(idx: IndexJson): string {
 }
 
 export async function fetchFiling(input: FetchFilingInput): Promise<FetchFilingResult> {
+  if (!/^\d{10}$/.test(input.cik)) throw new Error(`invalid CIK: ${input.cik}`);
+  if (!/^\d{10}-\d{2}-\d{6}$/.test(input.accession)) throw new Error(`invalid accession: ${input.accession}`);
   const f = input.fetch ?? globalThis.fetch;
   const cikNoZeros = String(parseInt(input.cik, 10));
   const accNoDashes = input.accession.replace(/-/g, '');
