@@ -1,0 +1,62 @@
+---
+// src/components/HoldingsTable.astro
+import { formatUSD, formatShares, formatPct } from '../lib/format';
+import type { FilingFile, SecuritiesFile, TagsFile } from '../../scripts/types';
+
+interface Props {
+  filing: FilingFile;
+  securities: SecuritiesFile;
+  tags: TagsFile;
+  unchangedOnly: boolean;
+  unchangedCusips?: Set<string>;
+}
+const { filing, securities, tags, unchangedOnly, unchangedCusips } = Astro.props;
+// tags reserved for future filtering; reference once to satisfy unused-prop checks
+void tags.slug;
+const positions = unchangedOnly && unchangedCusips
+  ? filing.positions.filter(p => unchangedCusips.has(p.cusip))
+  : filing.positions;
+const total = filing.total_value || 1;
+const totalUnchanged = positions.reduce((s, p) => s + p.value, 0);
+---
+<details>
+  <summary>
+    <strong>{positions.length} positions held steady</strong>
+    · {formatUSD(totalUnchanged)} ({formatPct((totalUnchanged / total) * 100)} of AUM)
+    <span class="hint">click to expand</span>
+  </summary>
+  <table>
+    <thead>
+      <tr>
+        <th>Ticker</th><th>Name</th><th>Sector</th>
+        <th class="num">Shares</th><th class="num">Value</th><th class="num">% port</th>
+      </tr>
+    </thead>
+    <tbody>
+      {positions.map((p) => {
+        const sec = securities[p.cusip];
+        return (
+          <tr>
+            <td><strong>{sec?.ticker ?? p.cusip}</strong></td>
+            <td>{sec?.name ?? p.name_of_issuer}</td>
+            <td class="muted">{sec?.sector ?? '—'}</td>
+            <td class="num">{formatShares(p.shares)}</td>
+            <td class="num">{formatUSD(p.value)}</td>
+            <td class="num">{formatPct((p.value / total) * 100)}</td>
+          </tr>
+        );
+      })}
+    </tbody>
+  </table>
+</details>
+
+<style>
+  details { border: 1px dashed #ccc; border-radius: 4px; padding: 10px; margin-bottom: 12px; }
+  summary { cursor: pointer; font-size: 0.8rem; color: #555; }
+  .hint { color: #aaa; font-style: italic; margin-left: 6px; }
+  table { width: 100%; border-collapse: collapse; font-size: 0.8rem; margin-top: 10px; }
+  th { text-align: left; padding: 6px 8px; font-weight: 500; color: #555; border-bottom: 1px solid #ccc; }
+  td { padding: 5px 8px; border-bottom: 1px solid #f5f5f5; }
+  td.num, th.num { text-align: right; }
+  td.muted { color: #888; }
+</style>
