@@ -1,0 +1,68 @@
+---
+// src/components/MovementTable.astro
+import { formatUSD, formatPct } from '../lib/format';
+import type { MovementRow } from '../../scripts/types';
+
+interface Props {
+  status: 'NEW' | 'INCREASED' | 'DECREASED' | 'CLOSED';
+  rows: MovementRow[];
+}
+const { status, rows } = Astro.props;
+const styles = {
+  NEW: { color: '#2d8a3e', bg: '#e8f4ec', label: 'NEW POSITIONS' },
+  INCREASED: { color: '#2d8a3e', bg: '#f0f8f3', label: '↑ INCREASED' },
+  DECREASED: { color: '#b33', bg: '#fff5f5', label: '↓ DECREASED' },
+  CLOSED: { color: '#b33', bg: '#fde8e8', label: 'CLOSED' },
+}[status];
+
+const totalDelta = rows.reduce((s, r) => s + r.delta_value, 0);
+const summaryText =
+  status === 'NEW' ? `+${formatUSD(totalDelta)} deployed` :
+  status === 'CLOSED' ? `${formatUSD(Math.abs(totalDelta))} exited` :
+  status === 'INCREASED' ? `+${formatUSD(totalDelta)} added` :
+  `${formatUSD(Math.abs(totalDelta))} trimmed`;
+---
+{rows.length === 0 ? null : (
+  <section class="movement">
+    <header style={`background:${styles.bg};color:${styles.color};`}>
+      <span>{styles.label} ({rows.length})</span>
+      <span class="net">{summaryText}</span>
+    </header>
+    <table>
+      <tbody>
+        {rows.map((r) => (
+          <tr>
+            <td><strong>{r.ticker ?? r.cusip}</strong></td>
+            <td>{r.name}</td>
+            <td class="muted">{r.sector} / {r.industry}</td>
+            <td class="muted">{r.tags.join(', ')}</td>
+            <td class="num">
+              {status === 'NEW' && r.current_value !== null && formatUSD(r.current_value)}
+              {status === 'CLOSED' && r.prior_value !== null && `was ${formatUSD(r.prior_value)}`}
+              {(status === 'INCREASED' || status === 'DECREASED') && r.delta_pct !== null &&
+                `${r.delta_pct > 0 ? '+' : ''}${formatPct(r.delta_pct)}`}
+            </td>
+            <td class="num" style={`color:${styles.color}`}>
+              {status === 'NEW' && 'NEW'}
+              {status === 'CLOSED' && 'CLOSED'}
+              {status === 'INCREASED' && `+${formatUSD(r.delta_value)}`}
+              {status === 'DECREASED' && `−${formatUSD(Math.abs(r.delta_value))}`}
+            </td>
+          </tr>
+        ))}
+      </tbody>
+    </table>
+  </section>
+)}
+
+<style>
+  .movement { border: 1px solid #e0e0e0; border-radius: 4px; margin-bottom: 8px; overflow: hidden; }
+  header { padding: 6px 10px; font-size: 0.7rem; font-weight: 600; display: flex; justify-content: space-between; }
+  header .net { color: #555; font-weight: normal; }
+  table { width: 100%; border-collapse: collapse; font-size: 0.8rem; }
+  tr { border-bottom: 1px solid #f5f5f5; }
+  tr:last-child { border-bottom: none; }
+  td { padding: 5px 10px; }
+  td.num { text-align: right; }
+  td.muted { color: #888; }
+</style>
