@@ -1,0 +1,5 @@
+name = "13f-changes"
+compatibility_date = "2025-01-01"
+
+[assets]
+directory = "./dist"
