@@ -126,3 +126,17 @@ describe('computeDiff — theme breakdown', () => {
     expect(diff.theme_breakdown).toBeNull();
   });
 });
+
+describe('computeDiff — first filing', () => {
+  it('treats every position as NEW and produces no prior breakdowns', () => {
+    const current = filing('Q4', [pos({ cusip: 'A', value: 100 })]);
+    const diff = computeDiff({ current, prior: null, securities: NO_SECURITIES, tags: NO_TAGS });
+    expect(diff.prior_period).toBeNull();
+    expect(diff.movements.new).toHaveLength(1);
+    expect(diff.movements.closed).toHaveLength(0);
+    expect(diff.movements.increased).toHaveLength(0);
+    expect(diff.movements.decreased).toHaveLength(0);
+    expect(diff.sector_breakdown.prior).toEqual([]);
+    expect(diff.totals.prior_value).toBe(0);
+  });
+});
