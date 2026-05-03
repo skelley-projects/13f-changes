@@ -1,0 +1,44 @@
+---
+// src/components/ChangeHero.astro
+import { formatUSD } from '../lib/format';
+import type { DiffFile } from '../../scripts/types';
+
+interface Props {
+  diff: DiffFile;
+  summary: string;
+}
+const { diff, summary } = Astro.props;
+const m = diff.movements;
+const netFlow = diff.totals.net_flow;
+const flowSign = netFlow >= 0 ? '+' : '−';
+---
+{diff.prior_period === null ? (
+  <section class="hero first-filing">
+    <p class="banner">First filing on record — no prior-quarter comparison available yet.</p>
+  </section>
+) : (
+  <section class="hero">
+    <div class="label">What changed this quarter</div>
+    <p class="summary">{summary}</p>
+    <div class="counts">
+      <span><strong class="up">+{m.new.length}</strong> new</span>
+      <span><strong class="down">−{m.closed.length}</strong> closed</span>
+      <span><strong class="up">↑{m.increased.length}</strong> increased</span>
+      <span><strong class="down">↓{m.decreased.length}</strong> decreased</span>
+      <span class="muted">| {m.unchanged_count} unchanged</span>
+      <span class="net">net {flowSign}{formatUSD(Math.abs(netFlow))}</span>
+    </div>
+  </section>
+)}
+
+<style>
+  .hero { background: #f7f5f0; border-left: 4px solid #c47c4a; padding: 14px 16px; margin-bottom: 18px; border-radius: 0 4px 4px 0; }
+  .first-filing { background: #fafafa; border-left-color: #aaa; }
+  .label { font-size: 0.75rem; color: #888; text-transform: uppercase; letter-spacing: 0.5px; margin-bottom: 6px; }
+  .summary { font-size: 1rem; line-height: 1.4; margin: 0 0 10px; }
+  .counts { display: flex; gap: 18px; font-size: 0.9rem; color: #444; flex-wrap: wrap; }
+  .up { color: #2d8a3e; }
+  .down { color: #b33; }
+  .muted { color: #888; }
+  .net { font-weight: 600; }
+</style>
