@@ -63,3 +63,30 @@ describe('computeDiff — movement categorization', () => {
     expect(diff.totals).toEqual({ current_value: 1500, prior_value: 1000, net_flow: 500 });
   });
 });
+
+describe('computeDiff — sector breakdown', () => {
+  it('produces current/prior sector mixes and pp deltas', () => {
+    const securities: SecuritiesFile = {
+      A: { cusip: 'A', ticker: 'A', name: 'A', sector: 'Information Technology',
+           industry: '', ticker_source: 'openfigi', sector_source: 'yahoo-finance',
+           classified_at: '' },
+      B: { cusip: 'B', ticker: 'B', name: 'B', sector: 'Utilities',
+           industry: '', ticker_source: 'openfigi', sector_source: 'yahoo-finance',
+           classified_at: '' },
+    };
+    const prior = filing('Q3', [
+      pos({ cusip: 'A', shares: 100, value: 800 }),
+      pos({ cusip: 'B', shares: 100, value: 200 }),
+    ]);
+    const current = filing('Q4', [
+      pos({ cusip: 'A', shares: 100, value: 600 }),
+      pos({ cusip: 'B', shares: 100, value: 400 }),
+    ]);
+    const diff = computeDiff({ current, prior, securities, tags: NO_TAGS });
+
+    const utilitiesNow = diff.sector_breakdown.current.find(s => s.label === 'Utilities')!;
+    expect(utilitiesNow.pct).toBeCloseTo(40);
+    const utilitiesDelta = diff.sector_breakdown.deltas.find(d => d.label === 'Utilities')!;
+    expect(utilitiesDelta.delta_pct_pts).toBeCloseTo(20);   // 40 − 20
+  });
+});
