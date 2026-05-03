@@ -1,17 +1,114 @@
 ---
+// src/pages/index.astro
+import { loadFunds, loadFundQuarters, loadDiff } from '../lib/data';
+import { formatUSD, formatPeriod } from '../lib/format';
+import ContactCTA from '../components/ContactCTA.astro';
 
+const funds = loadFunds();
+
+interface FundRow {
+  slug: string;
+  name: string;
+  manager: string;
+  aum: string | null;
+  positions: number | null;
+  period: string | null;
+  filingDate: string | null;
+  topChanges: { ticker: string; status: string }[];
+}
+
+const rows: FundRow[] = funds.map((fund) => {
+  const q = loadFundQuarters(fund.slug);
+  const latest = q.quarters[0];
+  if (!latest) {
+    return { slug: fund.slug, name: fund.name, manager: fund.manager_name,
+             aum: null, positions: null, period: null, filingDate: null, topChanges: [] };
+  }
+  const diff = loadDiff(fund.slug, latest.period);
+  const top: { ticker: string; status: string }[] = [];
+  if (diff && diff.prior_period) {
+    const buckets = [
+      ...diff.movements.new.map(r => ({ ticker: r.ticker ?? r.cusip, status: 'NEW' })),
+      ...diff.movements.increased.slice(0, 1).map(r => ({ ticker: r.ticker ?? r.cusip, status: '↑' })),
+      ...diff.movements.closed.slice(0, 1).map(r => ({ ticker: r.ticker ?? r.cusip, status: 'X' })),
+    ];
+    top.push(...buckets.slice(0, 3));
+  }
+  return {
+    slug: fund.slug,
+    name: fund.name,
+    manager: fund.manager_name,
+    aum: formatUSD(latest.total_value),
+    positions: latest.position_count,
+    period: formatPeriod(latest.period),
+    filingDate: latest.filing_date,
+    topChanges: top,
+  };
+});
 ---
-
 <html lang="en">
-	<head>
-		<meta charset="utf-8" />
-		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-		<link rel="icon" href="/favicon.ico" />
-		<meta name="viewport" content="width=device-width" />
-		<meta name="generator" content={Astro.generator} />
-		<title>Astro</title>
-	</head>
-	<body>
-		<h1>Astro</h1>
-	</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>13f-changes — quarter-over-quarter changes in hedge fund 13F filings</title>
+    <link rel="stylesheet" href="/global.css" />
+  </head>
+  <body>
+    <main class="container">
+      <header class="site-header">
+        <h1>13f-changes</h1>
+        <p class="tagline">Tracking quarter-over-quarter changes in hedge fund 13F filings.</p>
+      </header>
+
+      <table class="funds-table">
+        <thead>
+          <tr>
+            <th>Fund</th><th>Manager</th>
+            <th class="num">AUM</th><th class="num">Positions</th>
+            <th>Latest filing</th><th>Top changes</th><th></th>
+          </tr>
+        </thead>
+        <tbody>
+          {rows.map(row => (
+            <tr>
+              <td><a href={`/funds/${row.slug}`}><strong>{row.name}</strong></a></td>
+              <td>{row.manager}</td>
+              <td class="num">{row.aum ?? '—'}</td>
+              <td class="num">{row.positions ?? '—'}</td>
+              <td>
+                {row.period ? <>{row.period} <span class="muted">({row.filingDate})</span></> : 'No filings yet'}
+              </td>
+              <td>
+                {row.topChanges.length === 0 ? '—' :
+                  row.topChanges.map(c => <span class="chip">{c.status} {c.ticker}</span>)}
+              </td>
+              <td><a href={`/funds/${row.slug}`} class="row-link">→</a></td>
+            </tr>
+          ))}
+        </tbody>
+      </table>
+
+      <ContactCTA />
+
+      <footer class="site-footer">
+        <a href="/about">About / methodology</a>
+      </footer>
+    </main>
+  </body>
 </html>
+
+<style>
+  .container { max-width: 1100px; margin: 0 auto; padding: 24px 20px; font-family: system-ui, sans-serif; color: #222; }
+  .site-header { margin-bottom: 24px; }
+  h1 { margin: 0; font-size: 1.6rem; }
+  .tagline { color: #666; margin: 4px 0 0; font-size: 0.95rem; }
+  .funds-table { width: 100%; border-collapse: collapse; font-size: 0.9rem; }
+  th { text-align: left; padding: 8px 10px; font-weight: 500; color: #555; border-bottom: 1px solid #ccc; background: #fafafa; }
+  td { padding: 10px; border-bottom: 1px solid #f0f0f0; }
+  td.num, th.num { text-align: right; }
+  .muted { color: #888; font-size: 0.85rem; }
+  .chip { display: inline-block; background: #f0f0f0; padding: 2px 6px; border-radius: 3px; font-size: 0.75rem; margin-right: 4px; }
+  .row-link { color: #4a7ec7; text-decoration: none; font-size: 1.2rem; }
+  a { color: #4a7ec7; text-decoration: none; }
+  .site-footer { margin-top: 32px; font-size: 0.85rem; }
+</style>
