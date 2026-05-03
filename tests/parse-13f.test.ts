@@ -28,3 +28,23 @@ describe('parseFiling — Situational Awareness Q4 2025 (modern X02 schema, valu
     expect(bloomCommon!.value).toBe(875505552); // already in dollars
   });
 });
+
+describe('parseFiling — legacy fixture (Duquesne 2019, values in thousands)', () => {
+  it('detects thousands via heuristic and normalizes to dollars', () => {
+    const primary = readFileSync(join(fixtures, 'duquesne-2019-q2-primary_doc.xml'), 'utf8');
+    const table = readFileSync(join(fixtures, 'duquesne-2019-q2-informationtable.xml'), 'utf8');
+
+    const result = parseFiling({ primaryDocXml: primary, holdingsXml: table });
+
+    // Duquesne 2019 has no <schemaVersion> element — parser should default to X01.
+    expect(result.schema_version).toBe('X01');
+    // Heuristic detects raw values are in thousands.
+    expect(result.value_units).toBe('USD_THOUSANDS');
+    // After normalization, the largest position is non-trivial and per-share price is plausible.
+    const largest = [...result.positions].sort((a, b) => b.value - a.value)[0];
+    expect(largest.value).toBeGreaterThan(1_000_000);
+    const perShare = largest.value / largest.shares;
+    expect(perShare).toBeGreaterThan(1);
+    expect(perShare).toBeLessThan(20_000);
+  });
+});
