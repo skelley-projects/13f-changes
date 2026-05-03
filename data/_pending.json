@@ -17,6 +17,24 @@
       "filing_date": "2026-02-17",
       "edgar_url": "https://www.sec.gov/Archives/edgar/data/1536411/000153641126000002/",
       "discovered_at": "2026-05-03T22:20:51.580Z"
+    },
+    {
+      "slug": "situational-awareness",
+      "cik": "0002045724",
+      "accession": "0002045724-25-000008",
+      "period_ending": "2025-09-30",
+      "filing_date": "2025-11-14",
+      "edgar_url": "https://www.sec.gov/Archives/edgar/data/2045724/000204572425000008/",
+      "discovered_at": "2026-05-03T22:30:00.000Z"
+    },
+    {
+      "slug": "duquesne",
+      "cik": "0001536411",
+      "accession": "0001536411-25-000017",
+      "period_ending": "2025-09-30",
+      "filing_date": "2025-11-14",
+      "edgar_url": "https://www.sec.gov/Archives/edgar/data/1536411/000153641125000017/",
+      "discovered_at": "2026-05-03T22:30:00.000Z"
     }
   ]
 }

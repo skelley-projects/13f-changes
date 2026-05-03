@@ -1,4 +1,33 @@
 {
   "slug": "situational-awareness",
-  "quarters": []
+  "quarters": [
+    {
+      "slug": "situational-awareness",
+      "period": "2025-Q4",
+      "period_ending": "2025-12-31",
+      "filing_date": "2026-02-11",
+      "accession": "0002045724-26-000002",
+      "edgar_url": "https://www.sec.gov/Archives/edgar/data/2045724/000204572426000002/",
+      "value_units": "USD",
+      "schema_version": "X02",
+      "total_value": 5516758345,
+      "position_count": 29,
+      "summary": "Doubled down on AI-power infrastructure: $911M new equity stake in Bloom Energy (after exiting Q3 convertible notes), plus a $479M Lumentum opener and $154M Cipher Mining equity. Sold the obvious AI names — closed NVIDIA (-$299M), Vistra (-$252M), the Gold Miners ETF (-$196M), and the CoreWeave puts — driving a +13pp swing into the AI-power theme.",
+      "fetched_at": "2026-05-03T22:35:00.000Z"
+    },
+    {
+      "slug": "situational-awareness",
+      "period": "2025-Q3",
+      "period_ending": "2025-09-30",
+      "filing_date": "2025-11-14",
+      "accession": "0002045724-25-000008",
+      "edgar_url": "https://www.sec.gov/Archives/edgar/data/2045724/000204572425000008/",
+      "value_units": "USD",
+      "schema_version": "X02",
+      "total_value": 4138368748,
+      "position_count": 28,
+      "summary": "",
+      "fetched_at": "2026-05-03T22:35:00.000Z"
+    }
+  ]
 }

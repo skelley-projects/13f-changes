@@ -1,0 +1,928 @@
+{
+  "slug": "situational-awareness",
+  "current_period": "2025-Q4",
+  "prior_period": "2025-Q3",
+  "totals": {
+    "current_value": 5516758345,
+    "prior_value": 4138368748,
+    "net_flow": 1378389597
+  },
+  "movements": {
+    "new": [
+      {
+        "cusip": "093712107",
+        "ticker": "BE",
+        "name": "BLOOM ENERGY CORP- A",
+        "sector": "Industrials",
+        "industry": "Electrical Equipment & Parts",
+        "tags": [
+          "ai-infra-power"
+        ],
+        "current_value": 875505552,
+        "prior_value": null,
+        "current_shares": 10076022,
+        "prior_shares": null,
+        "delta_value": 875505552,
+        "delta_shares": 10076022,
+        "delta_pct": null,
+        "current_pct_of_portfolio": 15.869927541660337
+      },
+      {
+        "cusip": "55024U109",
+        "ticker": "LITE",
+        "name": "LUMENTUM HOLDINGS INC",
+        "sector": "Information Technology",
+        "industry": "Communication Equipment",
+        "tags": [
+          "ai-compute"
+        ],
+        "current_value": 478577256,
+        "prior_value": null,
+        "current_shares": 1298400,
+        "prior_shares": null,
+        "delta_value": 478577256,
+        "delta_shares": 1298400,
+        "delta_pct": null,
+        "current_pct_of_portfolio": 8.674972258550143
+      },
+      {
+        "cusip": "17253J106",
+        "ticker": "CIFR",
+        "name": "CIPHER DIGITAL INC",
+        "sector": "Information Technology",
+        "industry": "Information Technology Services",
+        "tags": [
+          "bitcoin-mining",
+          "ai-infra-power"
+        ],
+        "current_value": 154523813,
+        "prior_value": null,
+        "current_shares": 10469093,
+        "prior_shares": null,
+        "delta_value": 154523813,
+        "delta_shares": 10469093,
+        "delta_pct": null,
+        "current_pct_of_portfolio": 2.800989337153937
+      },
+      {
+        "cusip": "49427F108",
+        "ticker": "KRC",
+        "name": "KILROY REALTY CORP",
+        "sector": "Real Estate",
+        "industry": "REIT - Office",
+        "tags": [],
+        "current_value": 49616149,
+        "prior_value": null,
+        "current_shares": 1327700,
+        "prior_shares": null,
+        "delta_value": 49616149,
+        "delta_shares": 1327700,
+        "delta_pct": null,
+        "current_pct_of_portfolio": 0.8993714405665163
+      },
+      {
+        "cusip": "26884L109",
+        "ticker": "EQT",
+        "name": "EQT CORP",
+        "sector": "Energy",
+        "industry": "Oil & Gas E&P",
+        "tags": [
+          "ai-infra-power"
+        ],
+        "current_value": 37520000,
+        "prior_value": null,
+        "current_shares": 700000,
+        "prior_shares": null,
+        "delta_value": 37520000,
+        "delta_shares": 700000,
+        "delta_pct": null,
+        "current_pct_of_portfolio": 0.680109543569286
+      },
+      {
+        "cusip": "093712107",
+        "ticker": "BE",
+        "name": "BLOOM ENERGY CORP- A",
+        "sector": "Industrials",
+        "industry": "Electrical Equipment & Parts",
+        "tags": [
+          "ai-infra-power"
+        ],
+        "current_value": 35494565,
+        "prior_value": null,
+        "current_shares": 408500,
+        "prior_shares": null,
+        "delta_value": 35494565,
+        "delta_shares": 408500,
+        "delta_pct": null,
+        "current_pct_of_portfolio": 0.6433953198651481
+      },
+      {
+        "cusip": "G96115103",
+        "ticker": "WYFI",
+        "name": "WHITEFIBER INC",
+        "sector": "Information Technology",
+        "industry": "IT Services",
+        "tags": [
+          "ai-infra-datacenter"
+        ],
+        "current_value": 27770080,
+        "prior_value": null,
+        "current_shares": 1757600,
+        "prior_shares": null,
+        "delta_value": 27770080,
+        "delta_shares": 1757600,
+        "delta_pct": null,
+        "current_pct_of_portfolio": 0.5033767706205373
+      },
+      {
+        "cusip": "73933G202",
+        "ticker": "PSIX",
+        "name": "POWER SOLUTIONS INTERNATIONA",
+        "sector": "Industrials",
+        "industry": "Specialty Industrial Machinery",
+        "tags": [
+          "ai-infra-power"
+        ],
+        "current_value": 24701622,
+        "prior_value": null,
+        "current_shares": 432300,
+        "prior_shares": null,
+        "delta_value": 24701622,
+        "delta_shares": 432300,
+        "delta_pct": null,
+        "current_pct_of_portfolio": 0.4477560997825436
+      },
+      {
+        "cusip": "18452B209",
+        "ticker": "CLSK",
+        "name": "CLEANSPARK INC",
+        "sector": "Financials",
+        "industry": "Capital Markets",
+        "tags": [
+          "bitcoin-mining"
+        ],
+        "current_value": 16600848,
+        "prior_value": null,
+        "current_shares": 1640400,
+        "prior_shares": null,
+        "delta_value": 16600848,
+        "delta_shares": 1640400,
+        "delta_pct": null,
+        "current_pct_of_portfolio": 0.3009167152490164
+      },
+      {
+        "cusip": "09173B107",
+        "ticker": "BITF",
+        "name": "BITFARMS LTD",
+        "sector": "Information Technology",
+        "industry": "IT Services",
+        "tags": [
+          "bitcoin-mining"
+        ],
+        "current_value": 16208185,
+        "prior_value": null,
+        "current_shares": 6897100,
+        "prior_shares": null,
+        "delta_value": 16208185,
+        "delta_shares": 6897100,
+        "delta_pct": null,
+        "current_pct_of_portfolio": 0.2937990752248547
+      },
+      {
+        "cusip": "53115L104",
+        "ticker": "LBRT",
+        "name": "LIBERTY ENERGY INC",
+        "sector": "Energy",
+        "industry": "Oil & Gas Equipment & Services",
+        "tags": [
+          "ai-infra-power"
+        ],
+        "current_value": 10470512,
+        "prior_value": null,
+        "current_shares": 567200,
+        "prior_shares": null,
+        "delta_value": 10470512,
+        "delta_shares": 567200,
+        "delta_pct": null,
+        "current_pct_of_portfolio": 0.18979464651537134
+      },
+      {
+        "cusip": "456788108",
+        "ticker": "INFY",
+        "name": "INFOSYS LTD-SP ADR",
+        "sector": "Information Technology",
+        "industry": "Information Technology Services",
+        "tags": [],
+        "current_value": 8910000,
+        "prior_value": null,
+        "current_shares": 500000,
+        "prior_shares": null,
+        "delta_value": 8910000,
+        "delta_shares": 500000,
+        "delta_pct": null,
+        "current_pct_of_portfolio": 0.16150789001072333
+      },
+      {
+        "cusip": "74347M108",
+        "ticker": "PUMP",
+        "name": "PROPETRO HOLDING CORP",
+        "sector": "Energy",
+        "industry": "Oil & Gas Equipment & Services",
+        "tags": [
+          "ai-infra-power"
+        ],
+        "current_value": 8656953,
+        "prior_value": null,
+        "current_shares": 910300,
+        "prior_shares": null,
+        "delta_value": 8656953,
+        "delta_shares": 910300,
+        "delta_pct": null,
+        "current_pct_of_portfolio": 0.15692101155465782
+      },
+      {
+        "cusip": "05614L209",
+        "ticker": "BW",
+        "name": "BABCOCK & WILCOX ENTERPR",
+        "sector": "Industrials",
+        "industry": "Specialty Industrial Machinery",
+        "tags": [
+          "ai-infra-power"
+        ],
+        "current_value": 8583726,
+        "prior_value": null,
+        "current_shares": 1353900,
+        "prior_shares": null,
+        "delta_value": 8583726,
+        "delta_shares": 1353900,
+        "delta_pct": null,
+        "current_pct_of_portfolio": 0.15559365596971786
+      },
+      {
+        "cusip": "458140100",
+        "ticker": "INTC",
+        "name": "INTEL CORP",
+        "sector": "Information Technology",
+        "industry": "Semiconductors",
+        "tags": [
+          "ai-compute"
+        ],
+        "current_value": 37,
+        "prior_value": null,
+        "current_shares": 1,
+        "prior_shares": null,
+        "delta_value": 37,
+        "delta_shares": 1,
+        "delta_pct": null,
+        "current_pct_of_portfolio": 6.706837183385817e-7
+      }
+    ],
+    "closed": [
+      {
+        "cusip": "67066G104",
+        "ticker": "NVDA",
+        "name": "NVIDIA CORP",
+        "sector": "Information Technology",
+        "industry": "Semiconductors",
+        "tags": [
+          "ai-compute"
+        ],
+        "current_value": null,
+        "prior_value": 298528000,
+        "current_shares": null,
+        "prior_shares": 1600000,
+        "delta_value": -298528000,
+        "delta_shares": -1600000,
+        "delta_pct": null,
+        "current_pct_of_portfolio": null
+      },
+      {
+        "cusip": "92840M102",
+        "ticker": "VST",
+        "name": "VISTRA CORP",
+        "sector": "Utilities",
+        "industry": "Utilities - Independent Power Producers",
+        "tags": [
+          "ai-infra-power"
+        ],
+        "current_value": null,
+        "prior_value": 252327327,
+        "current_shares": null,
+        "prior_shares": 1287910,
+        "delta_value": -252327327,
+        "delta_shares": -1287910,
+        "delta_pct": null,
+        "current_pct_of_portfolio": null
+      },
+      {
+        "cusip": "92189F106",
+        "ticker": "GDX",
+        "name": "VANECK GOLD MINERS ETF",
+        "sector": "Financials",
+        "industry": "Exchange Traded Fund",
+        "tags": [],
+        "current_value": null,
+        "prior_value": 195816000,
+        "current_shares": null,
+        "prior_shares": 600000,
+        "delta_value": -195816000,
+        "delta_shares": -600000,
+        "delta_pct": null,
+        "current_pct_of_portfolio": null
+      },
+      {
+        "cusip": "21873S108",
+        "ticker": "CRWV",
+        "name": "COREWEAVE INC-CL A",
+        "sector": "Information Technology",
+        "industry": "Software - Infrastructure",
+        "tags": [
+          "ai-infra-datacenter",
+          "ai-compute"
+        ],
+        "current_value": null,
+        "prior_value": 191590000,
+        "current_shares": null,
+        "prior_shares": 1400000,
+        "delta_value": -191590000,
+        "delta_shares": -1400000,
+        "delta_pct": null,
+        "current_pct_of_portfolio": null
+      },
+      {
+        "cusip": "36317J209",
+        "ticker": "GLXY",
+        "name": "GALAXY DIGITAL INC-A",
+        "sector": "Financials",
+        "industry": "Capital Markets",
+        "tags": [
+          "bitcoin-mining",
+          "ai-infra-datacenter"
+        ],
+        "current_value": null,
+        "prior_value": 92554875,
+        "current_shares": null,
+        "prior_shares": 2737500,
+        "delta_value": -92554875,
+        "delta_shares": -2737500,
+        "delta_pct": null,
+        "current_pct_of_portfolio": null
+      },
+      {
+        "cusip": "11135F101",
+        "ticker": "AVGO",
+        "name": "BROADCOM INC",
+        "sector": "Information Technology",
+        "industry": "Semiconductors",
+        "tags": [
+          "ai-compute"
+        ],
+        "current_value": null,
+        "prior_value": 75879300,
+        "current_shares": null,
+        "prior_shares": 230000,
+        "delta_value": -75879300,
+        "delta_shares": -230000,
+        "delta_pct": null,
+        "current_pct_of_portfolio": null
+      },
+      {
+        "cusip": "874039100",
+        "ticker": "TSM",
+        "name": "TAIWAN SEMICONDUCTOR-SP ADR",
+        "sector": "Information Technology",
+        "industry": "Semiconductors",
+        "tags": [
+          "ai-compute"
+        ],
+        "current_value": null,
+        "prior_value": 75408300,
+        "current_shares": null,
+        "prior_shares": 270000,
+        "delta_value": -75408300,
+        "delta_shares": -270000,
+        "delta_pct": null,
+        "current_pct_of_portfolio": null
+      },
+      {
+        "cusip": "17253JAA4",
+        "ticker": "CIFR",
+        "name": "CIPHER MINING INC - CONV NOTES",
+        "sector": "Information Technology",
+        "industry": "IT Services",
+        "tags": [
+          "bitcoin-mining",
+          "ai-infra-power"
+        ],
+        "current_value": null,
+        "prior_value": 72272807,
+        "current_shares": null,
+        "prior_shares": 5740493,
+        "delta_value": -72272807,
+        "delta_shares": -5740493,
+        "delta_pct": null,
+        "current_pct_of_portfolio": null
+      },
+      {
+        "cusip": "55024UAD1",
+        "ticker": "LITE",
+        "name": "LUMENTUM HOLDINGS INC - CONV NOTES",
+        "sector": "Information Technology",
+        "industry": "Communication Equipment",
+        "tags": [
+          "ai-compute"
+        ],
+        "current_value": null,
+        "prior_value": 67947696,
+        "current_shares": null,
+        "prior_shares": 417600,
+        "delta_value": -67947696,
+        "delta_shares": -417600,
+        "delta_pct": null,
+        "current_pct_of_portfolio": null
+      },
+      {
+        "cusip": "595112103",
+        "ticker": "MU",
+        "name": "MICRON TECHNOLOGY INC",
+        "sector": "Information Technology",
+        "industry": "Semiconductors",
+        "tags": [
+          "ai-compute"
+        ],
+        "current_value": null,
+        "prior_value": 50196000,
+        "current_shares": null,
+        "prior_shares": 300000,
+        "delta_value": -50196000,
+        "delta_shares": -300000,
+        "delta_pct": null,
+        "current_pct_of_portfolio": null
+      },
+      {
+        "cusip": "093712AH0",
+        "ticker": "BE",
+        "name": "BLOOM ENERGY CORP - CONV NOTES",
+        "sector": "Industrials",
+        "industry": "Electrical Equipment & Parts",
+        "tags": [
+          "ai-infra-power"
+        ],
+        "current_value": null,
+        "prior_value": 43890344,
+        "current_shares": null,
+        "prior_shares": 3048002,
+        "delta_value": -43890344,
+        "delta_shares": -3048002,
+        "delta_pct": null,
+        "current_pct_of_portfolio": null
+      },
+      {
+        "cusip": "958102AT2",
+        "ticker": "WDC",
+        "name": "WESTERN DIGITAL CORP - CONV NOTES",
+        "sector": "Information Technology",
+        "industry": "Computer Hardware",
+        "tags": [
+          "ai-compute"
+        ],
+        "current_value": null,
+        "prior_value": 18347689,
+        "current_shares": null,
+        "prior_shares": 152821,
+        "delta_value": -18347689,
+        "delta_shares": -152821,
+        "delta_pct": null,
+        "current_pct_of_portfolio": null
+      },
+      {
+        "cusip": "093712AH0",
+        "ticker": "BE",
+        "name": "BLOOM ENERGY CORP - CONV NOTES",
+        "sector": "Industrials",
+        "industry": "Electrical Equipment & Parts",
+        "tags": [
+          "ai-infra-power"
+        ],
+        "current_value": null,
+        "prior_value": 12330306,
+        "current_shares": null,
+        "prior_shares": 145800,
+        "delta_value": -12330306,
+        "delta_shares": -145800,
+        "delta_pct": null,
+        "current_pct_of_portfolio": null
+      },
+      {
+        "cusip": "G7997R103",
+        "ticker": "STX",
+        "name": "SEAGATE TECHNOLOGY HOLDINGS PLC",
+        "sector": "Information Technology",
+        "industry": "Computer Hardware",
+        "tags": [
+          "ai-compute"
+        ],
+        "current_value": null,
+        "prior_value": 11464726,
+        "current_shares": null,
+        "prior_shares": 48567,
+        "delta_value": -11464726,
+        "delta_shares": -48567,
+        "delta_pct": null,
+        "current_pct_of_portfolio": null
+      }
+    ],
+    "increased": [
+      {
+        "cusip": "21873S108",
+        "ticker": "CRWV",
+        "name": "COREWEAVE INC-CL A",
+        "sector": "Information Technology",
+        "industry": "Software - Infrastructure",
+        "tags": [
+          "ai-infra-datacenter",
+          "ai-compute"
+        ],
+        "current_value": 774426345,
+        "prior_value": 316739325,
+        "current_shares": 10814500,
+        "prior_shares": 2314500,
+        "delta_value": 457687020,
+        "delta_shares": 8500000,
+        "delta_pct": 367.249945992655,
+        "current_pct_of_portfolio": 14.037706503890737
+      },
+      {
+        "cusip": "80004C200",
+        "ticker": "SNDK",
+        "name": "SANDISK CORP",
+        "sector": "Information Technology",
+        "industry": "Computer Hardware",
+        "tags": [
+          "ai-compute"
+        ],
+        "current_value": 250245996,
+        "prior_value": 12903000,
+        "current_shares": 1054200,
+        "prior_shares": 115000,
+        "delta_value": 237342996,
+        "delta_shares": 939200,
+        "delta_pct": 816.6956521739131,
+        "current_pct_of_portfolio": 4.536105813422211
+      },
+      {
+        "cusip": "038169207",
+        "ticker": "APLD",
+        "name": "APPLIED DIGITAL CORP",
+        "sector": "Information Technology",
+        "industry": "Information Technology Services",
+        "tags": [
+          "ai-infra-datacenter",
+          "bitcoin-mining"
+        ],
+        "current_value": 278033751,
+        "prior_value": 139111716,
+        "current_shares": 11339060,
+        "prior_shares": 6064155,
+        "delta_value": 138922035,
+        "delta_shares": 5274905,
+        "delta_pct": 86.98499626081457,
+        "current_pct_of_portfolio": 5.039802971467658
+      },
+      {
+        "cusip": "21873S108",
+        "ticker": "CRWV",
+        "name": "COREWEAVE INC-CL A",
+        "sector": "Information Technology",
+        "industry": "Software - Infrastructure",
+        "tags": [
+          "ai-infra-datacenter",
+          "ai-compute"
+        ],
+        "current_value": 436735927,
+        "prior_value": 563200154,
+        "current_shares": 6098812,
+        "prior_shares": 4115456,
+        "delta_value": -126464227,
+        "delta_shares": 1983356,
+        "delta_pct": 48.192861252799204,
+        "current_pct_of_portfolio": 7.916531768983982
+      },
+      {
+        "cusip": "19247G107",
+        "ticker": "COHR",
+        "name": "COHERENT CORP",
+        "sector": "Information Technology",
+        "industry": "Scientific & Technical Instruments",
+        "tags": [
+          "ai-compute"
+        ],
+        "current_value": 88648971,
+        "prior_value": 16631968,
+        "current_shares": 480300,
+        "prior_shares": 154400,
+        "delta_value": 72017003,
+        "delta_shares": 325900,
+        "delta_pct": 211.07512953367876,
+        "current_pct_of_portfolio": 1.6069032837072728
+      },
+      {
+        "cusip": "26884L109",
+        "ticker": "EQT",
+        "name": "EQT CORP",
+        "sector": "Energy",
+        "industry": "Oil & Gas E&P",
+        "tags": [
+          "ai-infra-power"
+        ],
+        "current_value": 133047260,
+        "prior_value": 66262320,
+        "current_shares": 2482225,
+        "prior_shares": 1217386,
+        "delta_value": 66784940,
+        "delta_shares": 1264839,
+        "delta_pct": 103.89794198389006,
+        "current_pct_of_portfolio": 2.4116927311232446
+      },
+      {
+        "cusip": "21874A106",
+        "ticker": "CORZ",
+        "name": "CORE SCIENTIFIC INC",
+        "sector": "Information Technology",
+        "industry": "Software - Infrastructure",
+        "tags": [
+          "bitcoin-mining",
+          "ai-infra-datacenter"
+        ],
+        "current_value": 418694320,
+        "prior_value": 362038780,
+        "current_shares": 28756478,
+        "prior_shares": 20180534,
+        "delta_value": 56655540,
+        "delta_shares": 8575944,
+        "delta_pct": 42.49612027114843,
+        "current_pct_of_portfolio": 7.589499010401189
+      },
+      {
+        "cusip": "M87915274",
+        "ticker": "TSEM",
+        "name": "TOWER SEMICONDUCTOR LTD",
+        "sector": "Information Technology",
+        "industry": "Semiconductors",
+        "tags": [
+          "ai-compute"
+        ],
+        "current_value": 84895130,
+        "prior_value": 34024380,
+        "current_shares": 723004,
+        "prior_shares": 470600,
+        "delta_value": 50870750,
+        "delta_shares": 252404,
+        "delta_pct": 53.63450913727157,
+        "current_pct_of_portfolio": 1.53885895830371
+      },
+      {
+        "cusip": "83418M103",
+        "ticker": "SEI",
+        "name": "SOLARIS ENERGY INFRASTRUCTUR",
+        "sector": "Energy",
+        "industry": "Oil & Gas Equipment & Services",
+        "tags": [
+          "ai-infra-power"
+        ],
+        "current_value": 85803005,
+        "prior_value": 45977491,
+        "current_shares": 1866500,
+        "prior_shares": 1150300,
+        "delta_value": 39825514,
+        "delta_shares": 716200,
+        "delta_pct": 62.26201860384247,
+        "current_pct_of_portfolio": 1.555315633460106
+      },
+      {
+        "cusip": "44812J104",
+        "ticker": "HUT",
+        "name": "HUT 8 CORP",
+        "sector": "Financials",
+        "industry": "Capital Markets",
+        "tags": [
+          "bitcoin-mining",
+          "ai-infra-power"
+        ],
+        "current_value": 39517588,
+        "prior_value": 20851190,
+        "current_shares": 860200,
+        "prior_shares": 599000,
+        "delta_value": 18666398,
+        "delta_shares": 261200,
+        "delta_pct": 43.60601001669449,
+        "current_pct_of_portfolio": 0.7163189962057328
+      },
+      {
+        "cusip": "Q4982L109",
+        "ticker": "IREN",
+        "name": "IREN LIMITED",
+        "sector": "Information Technology",
+        "industry": "IT Services",
+        "tags": [
+          "bitcoin-mining",
+          "ai-infra-datacenter"
+        ],
+        "current_value": 328622455,
+        "prior_value": 338854358,
+        "current_shares": 8700621,
+        "prior_shares": 7220421,
+        "delta_value": -10231903,
+        "delta_shares": 1480200,
+        "delta_pct": 20.500189670380717,
+        "current_pct_of_portfolio": 5.956803514836574
+      },
+      {
+        "cusip": "767292105",
+        "ticker": "RIOT",
+        "name": "RIOT PLATFORMS INC",
+        "sector": "Financials",
+        "industry": "Capital Markets",
+        "tags": [
+          "bitcoin-mining"
+        ],
+        "current_value": 78144759,
+        "prior_value": 68369062,
+        "current_shares": 6167700,
+        "prior_shares": 3592699,
+        "delta_value": 9775697,
+        "delta_shares": 2575001,
+        "delta_pct": 71.6731627113766,
+        "current_pct_of_portfolio": 1.416497771210604
+      },
+      {
+        "cusip": "G11448100",
+        "ticker": "BTDR",
+        "name": "BITDEER TECHNOLOGIES GROUP",
+        "sector": "Information Technology",
+        "industry": "IT Services",
+        "tags": [
+          "bitcoin-mining",
+          "ai-infra-power"
+        ],
+        "current_value": 20043480,
+        "prior_value": 15886864,
+        "current_shares": 1788000,
+        "prior_shares": 929600,
+        "delta_value": 4156616,
+        "delta_shares": 858400,
+        "delta_pct": 92.3407917383821,
+        "current_pct_of_portfolio": 0.36331988364445933
+      }
+    ],
+    "decreased": [],
+    "unchanged_count": 1,
+    "unchanged_value": 746760060
+  },
+  "sector_breakdown": {
+    "current": [
+      {
+        "label": "Information Technology",
+        "value": 4113095806,
+        "pct": 74.55638889326772
+      },
+      {
+        "label": "Industrials",
+        "value": 944285465,
+        "pct": 17.116672617277747
+      },
+      {
+        "label": "Energy",
+        "value": 275497730,
+        "pct": 4.993833566222666
+      },
+      {
+        "label": "Financials",
+        "value": 134263195,
+        "pct": 2.433733482665353
+      },
+      {
+        "label": "Real Estate",
+        "value": 49616149,
+        "pct": 0.8993714405665163
+      }
+    ],
+    "prior": [
+      {
+        "label": "Information Technology",
+        "value": 3339989833,
+        "pct": 80.70788362236105
+      },
+      {
+        "label": "Financials",
+        "value": 377591127,
+        "pct": 9.124153742521932
+      },
+      {
+        "label": "Utilities",
+        "value": 252327327,
+        "pct": 6.097265429088341
+      },
+      {
+        "label": "Energy",
+        "value": 112239811,
+        "pct": 2.7121752031943385
+      },
+      {
+        "label": "Industrials",
+        "value": 56220650,
+        "pct": 1.3585220028343399
+      }
+    ],
+    "deltas": [
+      {
+        "label": "Industrials",
+        "delta_pct_pts": 15.758150614443407
+      },
+      {
+        "label": "Financials",
+        "delta_pct_pts": -6.6904202598565785
+      },
+      {
+        "label": "Information Technology",
+        "delta_pct_pts": -6.151494729093329
+      },
+      {
+        "label": "Utilities",
+        "delta_pct_pts": -6.097265429088341
+      },
+      {
+        "label": "Energy",
+        "delta_pct_pts": 2.281658363028327
+      },
+      {
+        "label": "Real Estate",
+        "delta_pct_pts": 0.8993714405665163
+      }
+    ]
+  },
+  "theme_breakdown": {
+    "current": [
+      {
+        "label": "AI compute",
+        "value": 2860289722,
+        "pct": 51.84729043990779
+      },
+      {
+        "label": "AI infrastructure - datacenter",
+        "value": 2264282878,
+        "pct": 41.04372054020068
+      },
+      {
+        "label": "AI infrastructure - power",
+        "value": 1433868076,
+        "pct": 25.99113440050454
+      },
+      {
+        "label": "Bitcoin mining",
+        "value": 1350389199,
+        "pct": 24.477947275394023
+      }
+    ],
+    "prior": [
+      {
+        "label": "AI compute",
+        "value": 2411825308,
+        "pct": 58.279613414478646
+      },
+      {
+        "label": "AI infrastructure - datacenter",
+        "value": 2004089208,
+        "pct": 48.427033211299516
+      },
+      {
+        "label": "Bitcoin mining",
+        "value": 1109939652,
+        "pct": 26.820704475318063
+      },
+      {
+        "label": "AI infrastructure - power",
+        "value": 529798649,
+        "pct": 12.802113133491119
+      }
+    ],
+    "deltas": [
+      {
+        "label": "AI infrastructure - power",
+        "delta_pct_pts": 13.18902126701342
+      },
+      {
+        "label": "AI infrastructure - datacenter",
+        "delta_pct_pts": -7.383312671098835
+      },
+      {
+        "label": "AI compute",
+        "delta_pct_pts": -6.432322974570859
+      },
+      {
+        "label": "Bitcoin mining",
+        "delta_pct_pts": -2.3427571999240406
+      }
+    ]
+  }
+}

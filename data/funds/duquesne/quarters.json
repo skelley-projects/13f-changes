@@ -1,4 +1,33 @@
 {
   "slug": "duquesne",
-  "quarters": []
+  "quarters": [
+    {
+      "slug": "duquesne",
+      "period": "2025-Q4",
+      "period_ending": "2025-12-31",
+      "filing_date": "2026-02-17",
+      "accession": "0001536411-26-000002",
+      "edgar_url": "https://www.sec.gov/Archives/edgar/data/1536411/000153641126000002/",
+      "value_units": "USD_THOUSANDS",
+      "schema_version": "X02",
+      "total_value": 4494450000,
+      "position_count": 62,
+      "summary": "Big rotation into broad-market and emerging-markets ETFs — opened $301M in XLF, $225M in RSP, and ~$247M total in Brazil (EWZ). Trimmed health care hard: closed Verona Pharma (-$107M), cut Teva (-$152M) and Insmed (-$91M). Net Financials weight up +10.7pp, Health Care down -6.9pp.",
+      "fetched_at": "2026-05-03T22:35:00.000Z"
+    },
+    {
+      "slug": "duquesne",
+      "period": "2025-Q3",
+      "period_ending": "2025-09-30",
+      "filing_date": "2025-11-14",
+      "accession": "0001536411-25-000017",
+      "edgar_url": "https://www.sec.gov/Archives/edgar/data/1536411/000153641125000017/",
+      "value_units": "USD_THOUSANDS",
+      "schema_version": "X02",
+      "total_value": 4062003000,
+      "position_count": 65,
+      "summary": "",
+      "fetched_at": "2026-05-03T22:35:00.000Z"
+    }
+  ]
 }

@@ -1,5 +1,76 @@
 {
   "slug": "situational-awareness",
-  "taxonomy": [],
-  "assignments": {}
+  "taxonomy": [
+    {
+      "id": "ai-compute",
+      "label": "AI compute",
+      "description": "GPU/accelerator chips, AI servers, foundries, HBM/storage media for AI workloads, optical interconnects."
+    },
+    {
+      "id": "ai-infra-power",
+      "label": "AI infrastructure - power",
+      "description": "Power generation, fuel cells, nuclear, gas peakers, nat-gas E&P, generators, and grid hardware aimed at AI data centers."
+    },
+    {
+      "id": "ai-infra-cooling",
+      "label": "AI infrastructure - cooling",
+      "description": "Cooling systems, datacenter HVAC, immersion cooling."
+    },
+    {
+      "id": "ai-infra-datacenter",
+      "label": "AI infrastructure - datacenter",
+      "description": "Datacenter REITs, networking, hardware, colocation/hosting infrastructure aimed at AI tenants."
+    },
+    {
+      "id": "bitcoin-mining",
+      "label": "Bitcoin mining",
+      "description": "Companies whose primary business is bitcoin/crypto mining (often dual-classified with ai-infra-power because of GPU/HPC pivot)."
+    },
+    {
+      "id": "hyperscalers",
+      "label": "Hyperscalers",
+      "description": "Big-tech cloud platforms (AWS, Azure, GCP) and the public companies that operate them."
+    },
+    {
+      "id": "ai-applications",
+      "label": "AI applications",
+      "description": "Software/services that consume AI."
+    }
+  ],
+  "assignments": {
+    "038169207": ["ai-infra-datacenter", "bitcoin-mining"],
+    "05614L209": ["ai-infra-power"],
+    "G11448100": ["bitcoin-mining", "ai-infra-power"],
+    "09173B107": ["bitcoin-mining"],
+    "093712107": ["ai-infra-power"],
+    "093712AH0": ["ai-infra-power"],
+    "17253J106": ["bitcoin-mining", "ai-infra-power"],
+    "17253JAA4": ["bitcoin-mining", "ai-infra-power"],
+    "18452B209": ["bitcoin-mining"],
+    "19247G107": ["ai-compute"],
+    "21874A106": ["bitcoin-mining", "ai-infra-datacenter"],
+    "21873S108": ["ai-infra-datacenter", "ai-compute"],
+    "26884L109": ["ai-infra-power"],
+    "44812J104": ["bitcoin-mining", "ai-infra-power"],
+    "Q4982L109": ["bitcoin-mining", "ai-infra-datacenter"],
+    "458140100": ["ai-compute"],
+    "53115L104": ["ai-infra-power"],
+    "55024U109": ["ai-compute"],
+    "55024UAD1": ["ai-compute"],
+    "73933G202": ["ai-infra-power"],
+    "74347M108": ["ai-infra-power"],
+    "767292105": ["bitcoin-mining"],
+    "80004C200": ["ai-compute"],
+    "83418M103": ["ai-infra-power"],
+    "M87915274": ["ai-compute"],
+    "G96115103": ["ai-infra-datacenter"],
+    "11135F101": ["ai-compute"],
+    "36317J209": ["bitcoin-mining", "ai-infra-datacenter"],
+    "595112103": ["ai-compute"],
+    "67066G104": ["ai-compute"],
+    "874039100": ["ai-compute"],
+    "92840M102": ["ai-infra-power"],
+    "G7997R103": ["ai-compute"],
+    "958102AT2": ["ai-compute"]
+  }
 }
