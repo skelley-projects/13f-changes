@@ -1,0 +1,37 @@
+---
+// src/components/FundHeader.astro
+import { formatUSD, formatPeriod } from '../lib/format';
+import type { FundsFile, QuarterEntry } from '../../scripts/types';
+
+interface Props {
+  fund: FundsFile;
+  quarter: QuarterEntry;
+  priorPeriod: string | null;
+}
+
+const { fund, quarter, priorPeriod } = Astro.props;
+---
+<header class="fund-header">
+  <div class="row">
+    <h1>{fund.name}</h1>
+    <span class="meta">
+      {formatPeriod(quarter.period)} · filed {quarter.filing_date} ·
+      <a href={quarter.edgar_url} target="_blank" rel="noopener">SEC 13F-HR ↗</a>
+    </span>
+  </div>
+  <div class="row stats">
+    <span><strong>{formatUSD(quarter.total_value)}</strong> reported</span>
+    <span><strong>{quarter.position_count}</strong> positions</span>
+    <span class="manager">{fund.manager_name}</span>
+    {priorPeriod && <span class="versus">vs. {formatPeriod(priorPeriod)}</span>}
+  </div>
+</header>
+
+<style>
+  .fund-header { border-bottom: 1px solid #ddd; padding-bottom: 12px; margin-bottom: 20px; }
+  .row { display: flex; justify-content: space-between; align-items: baseline; flex-wrap: wrap; gap: 8px; }
+  h1 { margin: 0; font-size: 1.4rem; }
+  .meta { color: #666; font-size: 0.85rem; }
+  .stats { margin-top: 8px; gap: 24px; color: #444; font-size: 0.9rem; }
+  .manager, .versus { color: #888; }
+</style>
