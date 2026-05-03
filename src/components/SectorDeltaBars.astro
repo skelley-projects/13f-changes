@@ -1,0 +1,60 @@
+---
+// src/components/SectorDeltaBars.astro
+import { formatPctDelta } from '../lib/format';
+import type { Breakdown } from '../../scripts/types';
+
+interface Props {
+  title: string;
+  breakdown: Breakdown;
+  /** Optional: limit to top-N by absolute delta. Default 8. */
+  limit?: number;
+}
+const { title, breakdown, limit = 8 } = Astro.props;
+const rows = breakdown.deltas.slice(0, limit);
+const max = rows.reduce((m, r) => Math.max(m, Math.abs(r.delta_pct_pts)), 0) || 1;
+---
+<section class="delta-panel">
+  <div class="label">{title}</div>
+  {rows.length === 0 ? (
+    <p class="empty">No changes between quarters.</p>
+  ) : (
+    <div class="bars">
+      {rows.map((row) => {
+        const widthPct = (Math.abs(row.delta_pct_pts) / max) * 50;
+        const isPositive = row.delta_pct_pts >= 0;
+        return (
+          <div class="bar-row">
+            <div class="row-label">{row.label}</div>
+            <div class="bar-track">
+              <div
+                class={`bar ${isPositive ? 'pos' : 'neg'}`}
+                style={`width:${widthPct}%; ${isPositive ? 'left' : 'right'}: 50%;`}
+              />
+            </div>
+            <div class={`row-value ${isPositive ? 'pos' : 'neg'}`}>
+              {formatPctDelta(row.delta_pct_pts)}
+            </div>
+          </div>
+        );
+      })}
+      <div class="centerline-note">center line = no change</div>
+    </div>
+  )}
+</section>
+
+<style>
+  .delta-panel { border: 1px solid #e0e0e0; border-radius: 4px; padding: 12px; }
+  .label { font-size: 0.7rem; color: #888; text-transform: uppercase; letter-spacing: 0.5px; margin-bottom: 8px; }
+  .bars { font-size: 0.8rem; }
+  .bar-row { display: grid; grid-template-columns: 130px 1fr 50px; align-items: center; margin-bottom: 4px; }
+  .row-label { text-align: right; padding-right: 8px; color: #444; }
+  .bar-track { position: relative; height: 14px; }
+  .bar-track::before { content: ''; position: absolute; left: 50%; top: 0; bottom: 0; border-left: 1px solid #ccc; }
+  .bar { position: absolute; height: 14px; top: 0; }
+  .bar.pos { background: #2d8a3e; }
+  .bar.neg { background: #b33; }
+  .row-value.pos { color: #2d8a3e; font-weight: 600; }
+  .row-value.neg { color: #b33; font-weight: 600; }
+  .centerline-note { font-size: 0.65rem; color: #aaa; text-align: center; margin-top: 6px; }
+  .empty { color: #aaa; font-size: 0.8rem; font-style: italic; }
+</style>
