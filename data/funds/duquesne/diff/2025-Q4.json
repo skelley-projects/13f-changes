@@ -14,7 +14,7 @@
         "ticker": "XLF",
         "name": "FINANCIAL SELECT SECTOR SPDR ETF",
         "sector": "Financials",
-        "industry": "Exchange Traded Fund",
+        "industry": "Diversified Financials ETF",
         "tags": [],
         "current_value": 300994000,
         "prior_value": null,
@@ -29,8 +29,8 @@
         "cusip": "46137V357",
         "ticker": "RSP",
         "name": "INVESCO S&P 500 EQUAL WEIGHT ETF",
-        "sector": "Financials",
-        "industry": "Exchange Traded Fund",
+        "sector": "Information Technology",
+        "industry": "Diversified ETF",
         "tags": [],
         "current_value": 224877000,
         "prior_value": null,
@@ -46,7 +46,7 @@
         "ticker": "EWZ",
         "name": "ISHARES MSCI BRAZIL ETF",
         "sector": "Financials",
-        "industry": "Exchange Traded Fund",
+        "industry": "Emerging Markets ETF",
         "tags": [],
         "current_value": 134324000,
         "prior_value": null,
@@ -62,7 +62,7 @@
         "ticker": "EWZ",
         "name": "ISHARES MSCI BRAZIL ETF",
         "sector": "Financials",
-        "industry": "Exchange Traded Fund",
+        "industry": "Emerging Markets ETF",
         "tags": [],
         "current_value": 112865000,
         "prior_value": null,
@@ -672,7 +672,7 @@
         "ticker": "KBE",
         "name": "SPDR S&P BANK ETF",
         "sector": "Financials",
-        "industry": "Exchange Traded Fund",
+        "industry": "Banks ETF",
         "tags": [],
         "current_value": null,
         "prior_value": 28646000,
@@ -848,7 +848,7 @@
         "ticker": "ARGT",
         "name": "GLOBAL X MSCI ARGENTINA ETF",
         "sector": "Financials",
-        "industry": "Exchange Traded Fund",
+        "industry": "Emerging Markets ETF",
         "tags": [],
         "current_value": null,
         "prior_value": 17722000,
@@ -1220,7 +1220,7 @@
         "ticker": "EEM",
         "name": "ISHARES MSCI EMERGING MARKETS ETF",
         "sector": "Financials",
-        "industry": "Exchange Traded Fund",
+        "industry": "Emerging Markets ETF",
         "tags": [],
         "current_value": 49376000,
         "prior_value": 101460000,
@@ -1435,9 +1435,9 @@
         "pct": 28.89234500328183
       },
       {
-        "label": "Financials",
-        "value": 1027082000,
-        "pct": 22.852228860038494
+        "label": "Information Technology",
+        "value": 771812000,
+        "pct": 17.17255726507137
       },
       {
         "label": "Consumer Discretionary",
@@ -1445,14 +1445,14 @@
         "pct": 15.892979118690832
       },
       {
-        "label": "Information Technology",
-        "value": 485562000,
-        "pct": 10.803591095684679
+        "label": "Financials",
+        "value": 685200000,
+        "pct": 15.24546941227514
       },
       {
         "label": "Industrials",
-        "value": 435119000,
-        "pct": 9.68125132107377
+        "value": 490751000,
+        "pct": 10.919044599450434
       },
       {
         "label": "Communication Services",
@@ -1488,18 +1488,18 @@
       },
       {
         "label": "Information Technology",
-        "value": 569211000,
-        "pct": 14.013062028757734
-      },
-      {
-        "label": "Financials",
-        "value": 493969000,
-        "pct": 12.16072464742148
+        "value": 629167000,
+        "pct": 15.489082602843968
       },
       {
         "label": "Industrials",
-        "value": 352450000,
-        "pct": 8.676753808404376
+        "value": 407133000,
+        "pct": 10.022961578314934
+      },
+      {
+        "label": "Financials",
+        "value": 379330000,
+        "pct": 9.338496303424689
       },
       {
         "label": "Communication Services",
@@ -1529,16 +1529,12 @@
     ],
     "deltas": [
       {
-        "label": "Financials",
-        "delta_pct_pts": 10.691504212617014
-      },
-      {
         "label": "Health Care",
         "delta_pct_pts": -6.847091919832206
       },
       {
-        "label": "Information Technology",
-        "delta_pct_pts": -3.209470933073055
+        "label": "Financials",
+        "delta_pct_pts": 5.906973108850451
       },
       {
         "label": "Materials",
@@ -1549,12 +1545,12 @@
         "delta_pct_pts": -1.740840664076319
       },
       {
-        "label": "Communication Services",
-        "delta_pct_pts": -1.414550320690827
+        "label": "Information Technology",
+        "delta_pct_pts": 1.6834746622274004
       },
       {
-        "label": "Industrials",
-        "delta_pct_pts": 1.0044975126693938
+        "label": "Communication Services",
+        "delta_pct_pts": -1.414550320690827
       },
       {
         "label": "Consumer Staples",
@@ -1563,6 +1559,10 @@
       {
         "label": "Energy",
         "delta_pct_pts": -0.9227193808164943
+      },
+      {
+        "label": "Industrials",
+        "delta_pct_pts": 0.8960830211354995
       },
       {
         "label": "Consumer Discretionary",

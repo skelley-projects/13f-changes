@@ -318,8 +318,8 @@
         "cusip": "92189F106",
         "ticker": "GDX",
         "name": "VANECK GOLD MINERS ETF",
-        "sector": "Financials",
-        "industry": "Exchange Traded Fund",
+        "sector": "Materials",
+        "industry": "Gold Miners ETF",
         "tags": [],
         "current_value": null,
         "prior_value": 195816000,
@@ -814,14 +814,19 @@
         "pct": 80.70788362236105
       },
       {
-        "label": "Financials",
-        "value": 377591127,
-        "pct": 9.124153742521932
-      },
-      {
         "label": "Utilities",
         "value": 252327327,
         "pct": 6.097265429088341
+      },
+      {
+        "label": "Materials",
+        "value": 195816000,
+        "pct": 4.731719475086274
+      },
+      {
+        "label": "Financials",
+        "value": 181775127,
+        "pct": 4.392434267435657
       },
       {
         "label": "Energy",
@@ -840,10 +845,6 @@
         "delta_pct_pts": 15.758150614443407
       },
       {
-        "label": "Financials",
-        "delta_pct_pts": -6.6904202598565785
-      },
-      {
         "label": "Information Technology",
         "delta_pct_pts": -6.151494729093329
       },
@@ -852,8 +853,16 @@
         "delta_pct_pts": -6.097265429088341
       },
       {
+        "label": "Materials",
+        "delta_pct_pts": -4.731719475086274
+      },
+      {
         "label": "Energy",
         "delta_pct_pts": 2.281658363028327
+      },
+      {
+        "label": "Financials",
+        "delta_pct_pts": -1.9587007847703042
       },
       {
         "label": "Real Estate",

@@ -1043,11 +1043,11 @@
     "cusip": "92189F106",
     "ticker": "GDX",
     "name": "VANECK GOLD MINERS ETF",
-    "sector": "Financials",
-    "industry": "Exchange Traded Fund",
+    "sector": "Materials",
+    "industry": "Gold Miners ETF",
     "ticker_source": "openfigi",
     "sector_source": "manual-override",
-    "manual_override_reason": "Yahoo Finance has no asset profile for ETFs; GDX is a basket of gold-mining equities — classified Financials/ETF for editorial consistency. Underlying exposure is gold miners (Materials).",
+    "manual_override_reason": "Sector-specific ETF holding gold-mining equities (Newmont, Barrick, Agnico, etc.). Re-classified from default Financials/ETF to Materials to match underlying single-sector exposure.",
     "classified_at": "2026-05-03T22:40:00.000Z"
   },
   "G0896C103": {
@@ -1098,11 +1098,11 @@
     "cusip": "46137V357",
     "ticker": "RSP",
     "name": "INVESCO S&P 500 EQUAL WEIGHT ETF",
-    "sector": "Financials",
-    "industry": "Exchange Traded Fund",
+    "sector": "Information Technology",
+    "industry": "Diversified ETF",
     "ticker_source": "openfigi",
     "sector_source": "manual-override",
-    "manual_override_reason": "Equal-weighted broad-market ETF; Yahoo Finance has no asset profile for ETFs.",
+    "manual_override_reason": "Broad-market US large-cap ETF (equal-weight S&P 500). No clean GICS bucket for diversified ETFs; classified Information Technology since US large-cap is now ~30% IT — the dominant economic exposure and a less-misleading default than Financials.",
     "classified_at": "2026-05-03T22:40:00.000Z"
   },
   "464286400": {
@@ -1110,10 +1110,10 @@
     "ticker": "EWZ",
     "name": "ISHARES MSCI BRAZIL ETF",
     "sector": "Financials",
-    "industry": "Exchange Traded Fund",
+    "industry": "Emerging Markets ETF",
     "ticker_source": "openfigi",
     "sector_source": "manual-override",
-    "manual_override_reason": "Brazil equity ETF; Yahoo has no asset profile for ETFs.",
+    "manual_override_reason": "Country-broad Brazil equity ETF. No clean GICS bucket for country ETFs; classified Financials since Brazilian equity indices are typically ~25% financials (Itau, Bradesco, etc.) — the largest single sector weighting.",
     "classified_at": "2026-05-03T22:40:00.000Z"
   },
   "464287234": {
@@ -1121,21 +1121,21 @@
     "ticker": "EEM",
     "name": "ISHARES MSCI EMERGING MARKETS ETF",
     "sector": "Financials",
-    "industry": "Exchange Traded Fund",
+    "industry": "Emerging Markets ETF",
     "ticker_source": "openfigi",
     "sector_source": "manual-override",
-    "manual_override_reason": "Broad emerging markets ETF; Yahoo has no asset profile for ETFs.",
+    "manual_override_reason": "Broad emerging-markets ETF. No clean GICS bucket for diversified country/region ETFs; classified Financials since EM equity indices are typically ~25% financials — the dominant single-sector exposure.",
     "classified_at": "2026-05-03T22:40:00.000Z"
   },
   "464287655": {
     "cusip": "464287655",
     "ticker": "IWM",
     "name": "ISHARES RUSSELL 2000 ETF",
-    "sector": "Financials",
-    "industry": "Exchange Traded Fund",
+    "sector": "Industrials",
+    "industry": "Diversified ETF",
     "ticker_source": "openfigi",
     "sector_source": "manual-override",
-    "manual_override_reason": "Small-cap ETF (Russell 2000); Yahoo has no asset profile for ETFs.",
+    "manual_override_reason": "US small-cap broad-market ETF (Russell 2000). No clean GICS bucket; classified Industrials since the small-cap universe skews more heavily toward Industrials and Financials than the large-cap-tilted IT sector — Industrials is the most defensible single bucket for small-cap broad market.",
     "classified_at": "2026-05-03T22:40:00.000Z"
   },
   "N62509109": {
@@ -1154,21 +1154,21 @@
     "ticker": "XLF",
     "name": "FINANCIAL SELECT SECTOR SPDR ETF",
     "sector": "Financials",
-    "industry": "Exchange Traded Fund",
+    "industry": "Diversified Financials ETF",
     "ticker_source": "openfigi",
     "sector_source": "manual-override",
-    "manual_override_reason": "Financial-sector ETF; Yahoo has no asset profile for ETFs.",
+    "manual_override_reason": "Sector-specific ETF holding S&P 500 financials (banks, insurance, capital markets). Financials bucket is exact for this product.",
     "classified_at": "2026-05-03T22:40:00.000Z"
   },
   "78462F103": {
     "cusip": "78462F103",
     "ticker": "SPY",
     "name": "SPDR S&P 500 ETF TRUST",
-    "sector": "Financials",
-    "industry": "Exchange Traded Fund",
+    "sector": "Information Technology",
+    "industry": "Diversified ETF",
     "ticker_source": "openfigi",
     "sector_source": "manual-override",
-    "manual_override_reason": "Flagship S&P 500 ETF; Yahoo has no asset profile for ETFs.",
+    "manual_override_reason": "Flagship US large-cap broad-market ETF (S&P 500). No clean GICS bucket for diversified ETFs; classified Information Technology since the S&P 500 is now ~30% IT — the dominant economic exposure and a less-misleading default than Financials.",
     "classified_at": "2026-05-03T22:40:00.000Z"
   },
   "Y95308105": {
@@ -1187,10 +1187,10 @@
     "ticker": "ARGT",
     "name": "GLOBAL X MSCI ARGENTINA ETF",
     "sector": "Financials",
-    "industry": "Exchange Traded Fund",
+    "industry": "Emerging Markets ETF",
     "ticker_source": "openfigi",
     "sector_source": "manual-override",
-    "manual_override_reason": "Argentina country ETF; Yahoo has no asset profile for ETFs.",
+    "manual_override_reason": "Argentina country-broad equity ETF. No clean GICS bucket for country ETFs; classified Financials since Latin American equity indices typically have financials as the largest single weighting (banks like Grupo Galicia, BBVA Argentina dominate the Argentine free-float).",
     "classified_at": "2026-05-03T22:40:00.000Z"
   },
   "G6683N103": {
@@ -1209,10 +1209,10 @@
     "ticker": "KBE",
     "name": "SPDR S&P BANK ETF",
     "sector": "Financials",
-    "industry": "Exchange Traded Fund",
+    "industry": "Banks ETF",
     "ticker_source": "openfigi",
     "sector_source": "manual-override",
-    "manual_override_reason": "Banks-sector ETF; Yahoo has no asset profile for ETFs.",
+    "manual_override_reason": "Sector-specific ETF holding S&P 500 banks (regional + diversified). Financials/Banks bucket is exact for this product.",
     "classified_at": "2026-05-03T22:40:00.000Z"
   },
   "925050106": {
