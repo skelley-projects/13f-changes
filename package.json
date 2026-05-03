@@ -13,7 +13,8 @@
     "astro": "astro",
     "test": "vitest run",
     "test:watch": "vitest",
-    "classify": "tsx scripts/run-classify-securities.ts"
+    "classify": "tsx scripts/run-classify-securities.ts",
+    "validate": "tsx scripts/run-validate.ts"
   },
   "dependencies": {
     "astro": "^6.2.1",
