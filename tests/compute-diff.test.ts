@@ -90,3 +90,39 @@ describe('computeDiff — sector breakdown', () => {
     expect(utilitiesDelta.delta_pct_pts).toBeCloseTo(20);   // 40 − 20
   });
 });
+
+describe('computeDiff — theme breakdown', () => {
+  it('aggregates by tag IDs and replicates values across multi-tag positions', () => {
+    const securities: SecuritiesFile = { /* not relevant for grouping */
+      A: { cusip: 'A', ticker: 'A', name: 'A', sector: 'X', industry: '',
+           ticker_source: 'openfigi', sector_source: 'yahoo-finance', classified_at: '' },
+      B: { cusip: 'B', ticker: 'B', name: 'B', sector: 'Y', industry: '',
+           ticker_source: 'openfigi', sector_source: 'yahoo-finance', classified_at: '' },
+    };
+    const tags: TagsFile = {
+      slug: 'test',
+      taxonomy: [
+        { id: 'ai-compute', label: 'AI compute', description: '' },
+        { id: 'ai-power', label: 'AI power', description: '' },
+      ],
+      assignments: { A: ['ai-compute', 'ai-power'], B: ['ai-power'] },
+    };
+    const current = filing('Q4', [
+      pos({ cusip: 'A', value: 600 }), pos({ cusip: 'B', value: 400 }),
+    ]);
+    const prior = filing('Q3', [
+      pos({ cusip: 'A', value: 200 }), pos({ cusip: 'B', value: 800 }),
+    ]);
+    const diff = computeDiff({ current, prior, securities, tags });
+    expect(diff.theme_breakdown).not.toBeNull();
+    const aiPower = diff.theme_breakdown!.current.find(e => e.label === 'AI power')!;
+    expect(aiPower.value).toBe(1000); // both A and B count
+  });
+
+  it('returns null theme_breakdown when fund has no tags', () => {
+    const current = filing('Q4', [pos({ cusip: 'A', value: 100 })]);
+    const prior = filing('Q3', [pos({ cusip: 'A', value: 100 })]);
+    const diff = computeDiff({ current, prior, securities: NO_SECURITIES, tags: NO_TAGS });
+    expect(diff.theme_breakdown).toBeNull();
+  });
+});

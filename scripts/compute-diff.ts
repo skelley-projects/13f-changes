@@ -102,8 +102,55 @@ export function computeDiff(input: ComputeDiffInput): DiffFile {
     },
     movements,
     sector_breakdown: buildBreakdown(current, prior, sectorKey),
-    theme_breakdown: null,                  // filled in next task
+    theme_breakdown: buildThemeBreakdown(current, prior, tags),
   };
+}
+
+function buildThemeBreakdown(
+  current: FilingFile,
+  prior: FilingFile | null,
+  tags: TagsFile,
+): Breakdown | null {
+  if (tags.taxonomy.length === 0) return null;
+  const labelById = new Map(tags.taxonomy.map(t => [t.id, t.label]));
+
+  // For themes, expand each position into one entry per assigned tag.
+  const expandedAggregate = (filing: FilingFile): Map<string, number> => {
+    const out = new Map<string, number>();
+    for (const p of filing.positions) {
+      const ids = tags.assignments[p.cusip] ?? [];
+      for (const id of ids) {
+        const label = labelById.get(id);
+        if (!label) continue;
+        out.set(label, (out.get(label) ?? 0) + p.value);
+      }
+    }
+    return out;
+  };
+
+  const currentMix = expandedAggregate(current);
+  const priorMix = prior ? expandedAggregate(prior) : new Map();
+  const labels = new Set([...currentMix.keys(), ...priorMix.keys()]);
+
+  const currentTotal = current.total_value || 1;
+  const priorTotal = prior?.total_value || 1;
+
+  const currentEntries: BreakdownEntry[] = [];
+  const priorEntries: BreakdownEntry[] = [];
+  const deltas: BreakdownDelta[] = [];
+  for (const label of labels) {
+    const cv = currentMix.get(label) ?? 0;
+    const pv = priorMix.get(label) ?? 0;
+    const cPct = (cv / currentTotal) * 100;
+    const pPct = (pv / priorTotal) * 100;
+    if (cv > 0) currentEntries.push({ label, value: cv, pct: cPct });
+    if (pv > 0) priorEntries.push({ label, value: pv, pct: pPct });
+    deltas.push({ label, delta_pct_pts: cPct - pPct });
+  }
+  currentEntries.sort((a, b) => b.value - a.value);
+  priorEntries.sort((a, b) => b.value - a.value);
+  deltas.sort((a, b) => Math.abs(b.delta_pct_pts) - Math.abs(a.delta_pct_pts));
+  return { current: currentEntries, prior: priorEntries, deltas };
 }
 
 function buildBreakdown(
