@@ -1,19 +1,48 @@
 ---
 import { formatUSD, formatShares, formatPct } from '../lib/format';
-import type { FilingFile, SecuritiesFile } from '../../scripts/types';
+import type { FilingFile, SecuritiesFile, TaxonomyEntry } from '../../scripts/types';
 
 interface Props {
   filing: FilingFile;
   securities: SecuritiesFile;
   unchangedOnly: boolean;
   unchangedCusips?: Set<string>;
+  taxonomy: TaxonomyEntry[];
+  /** assignments map from the same fund's tags.json. CUSIP -> tag ids. */
+  assignments?: Record<string, string[]>;
 }
-const { filing, securities, unchangedOnly, unchangedCusips } = Astro.props;
+const { filing, securities, unchangedOnly, unchangedCusips, taxonomy } = Astro.props;
 const positions = unchangedOnly && unchangedCusips
   ? filing.positions.filter(p => unchangedCusips.has(p.cusip))
   : filing.positions;
 const total = filing.total_value || 1;
 const totalUnchanged = positions.reduce((s, p) => s + p.value, 0);
+
+const tagById = new Map(taxonomy.map(t => [t.id, t]));
+const assignmentsMap = Astro.props.assignments ?? {};
+
+function broadLabelsFor(cusip: string): string[] {
+  const labels = new Set<string>();
+  const ids = assignmentsMap[cusip] ?? [];
+  for (const id of ids) {
+    const entry = tagById.get(id);
+    if (!entry) continue;
+    const broadId = entry.parent ?? entry.id;
+    const broadEntry = tagById.get(broadId);
+    if (broadEntry) labels.add(broadEntry.label);
+  }
+  return Array.from(labels);
+}
+
+function granularLabelsFor(cusip: string): string[] {
+  const labels: string[] = [];
+  const ids = assignmentsMap[cusip] ?? [];
+  for (const id of ids) {
+    const entry = tagById.get(id);
+    if (entry?.parent !== undefined) labels.push(entry.label);
+  }
+  return labels;
+}
 ---
 <details>
   <summary>
@@ -25,17 +54,22 @@ const totalUnchanged = positions.reduce((s, p) => s + p.value, 0);
     <thead>
       <tr>
         <th>Ticker</th><th>Name</th><th>Sector</th>
+        <th>Themes</th><th class="granular-col">Granular</th>
         <th class="num">Shares</th><th class="num">Value</th><th class="num">% port</th>
       </tr>
     </thead>
     <tbody>
       {positions.map((p) => {
         const sec = securities[p.cusip];
+        const broad = broadLabelsFor(p.cusip);
+        const granular = granularLabelsFor(p.cusip);
         return (
           <tr>
             <td class="ticker">{sec?.ticker ?? p.cusip}</td>
             <td>{sec?.name ?? p.name_of_issuer}</td>
             <td class="muted">{sec?.sector ?? '—'}</td>
+            <td class="muted">{broad.length === 0 ? '—' : broad.join(', ')}</td>
+            <td class="muted granular-col">{granular.length === 0 ? '—' : granular.join(', ')}</td>
             <td class="num">{formatShares(p.shares)}</td>
             <td class="num">{formatUSD(p.value)}</td>
             <td class="num">{formatPct((p.value / total) * 100)}</td>
@@ -96,4 +130,8 @@ const totalUnchanged = positions.reduce((s, p) => s + p.value, 0);
   td.num, th.num { text-align: right; font-family: var(--font-mono); }
   td.muted { color: var(--fg-muted); }
   td.ticker { font-family: var(--font-mono); font-weight: 600; }
+
+  @media (max-width: 700px) {
+    th.granular-col, td.granular-col { display: none; }
+  }
 </style>
