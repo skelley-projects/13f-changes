@@ -1,5 +1,5 @@
 ---
-// src/pages/funds/[slug].astro
+import Layout from '../../components/Layout.astro';
 import FundHeader from '../../components/FundHeader.astro';
 import ChangeHero from '../../components/ChangeHero.astro';
 import SectorDeltaBars from '../../components/SectorDeltaBars.astro';
@@ -45,62 +45,70 @@ for (const p of filing.positions) {
   if (!inDiff.has(p.cusip)) unchangedCusips.add(p.cusip);
 }
 ---
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>{fund.name} — 13f-changes</title>
-    <link rel="stylesheet" href="/global.css" />
-  </head>
-  <body>
-    <main class="container">
-      <nav class="topnav"><a href="/">← All funds</a></nav>
-      <FundHeader fund={fund} quarter={currentQuarter} priorPeriod={priorQuarter?.period ?? null} />
-      <ChangeHero diff={diff} summary={currentQuarter.summary} />
+<Layout title={`${fund.name} — 13f-changes`} width="default">
+  <nav class="topnav"><a href="/">← All funds</a></nav>
+  <FundHeader fund={fund} quarter={currentQuarter} priorPeriod={priorQuarter?.period ?? null} />
+  <ChangeHero diff={diff} summary={currentQuarter.summary} />
 
-      {diff.prior_period && (
-        <div class="breakdown-grid">
-          <SectorDeltaBars title="Sector shifts" breakdown={diff.sector_breakdown} />
-          {diff.theme_breakdown && (
-            <SectorDeltaBars title="Theme shifts" breakdown={diff.theme_breakdown} />
-          )}
-        </div>
+  {diff.prior_period && (
+    <div class="breakdown-grid">
+      <SectorDeltaBars title="Sector shifts" breakdown={diff.sector_breakdown} />
+      {diff.theme_breakdown && (
+        <SectorDeltaBars title="Theme shifts" breakdown={diff.theme_breakdown} />
       )}
+    </div>
+  )}
 
-      {diff.prior_period && (
-        <section class="movements">
-          <div class="section-label">Position movements</div>
-          <MovementTable status="NEW" rows={diff.movements.new} />
-          <MovementTable status="INCREASED" rows={diff.movements.increased} />
-          <MovementTable status="DECREASED" rows={diff.movements.decreased} />
-          <MovementTable status="CLOSED" rows={diff.movements.closed} />
-        </section>
-      )}
+  {diff.prior_period && (
+    <section class="movements">
+      <div class="section-label">Position movements</div>
+      <MovementTable status="NEW" rows={diff.movements.new} />
+      <MovementTable status="INCREASED" rows={diff.movements.increased} />
+      <MovementTable status="DECREASED" rows={diff.movements.decreased} />
+      <MovementTable status="CLOSED" rows={diff.movements.closed} />
+    </section>
+  )}
 
-      <HoldingsTable
-        filing={filing}
-        securities={securities}
-        unchangedOnly={diff.prior_period !== null}
-        unchangedCusips={unchangedCusips}
-      />
+  <HoldingsTable
+    filing={filing}
+    securities={securities}
+    unchangedOnly={diff.prior_period !== null}
+    unchangedCusips={unchangedCusips}
+  />
 
-      <footer class="methodology">
-        <strong>Methodology:</strong> Data from SEC 13F-HR filings. GICS sector/industry via OpenFIGI + Yahoo Finance. Themes assigned editorially per-fund. <a href="/about">More →</a>
-      </footer>
+  <footer class="methodology">
+    <strong>Methodology:</strong> Data from SEC 13F-HR filings. GICS sector/industry via OpenFIGI + Yahoo Finance. Themes assigned editorially per-fund. <a href="/about">More →</a>
+  </footer>
 
-      <ContactCTA />
-    </main>
-  </body>
-</html>
+  <ContactCTA />
+</Layout>
 
 <style>
-  .container { max-width: 960px; margin: 0 auto; padding: 24px 20px; font-family: system-ui, sans-serif; color: #222; }
-  .topnav { font-size: 0.85rem; margin-bottom: 16px; }
-  .topnav a { color: #4a7ec7; text-decoration: none; }
-  .breakdown-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 14px; margin-bottom: 20px; }
-  .section-label { font-size: 0.75rem; color: #888; text-transform: uppercase; letter-spacing: 0.5px; margin-bottom: 8px; }
-  .movements { margin-bottom: 20px; }
-  .methodology { font-size: 0.75rem; color: #777; line-height: 1.5; padding-top: 12px; border-top: 1px solid #eee; margin-top: 24px; }
+  .topnav {
+    font-family: var(--font-mono);
+    font-size: 0.75rem;
+    margin-bottom: 16px;
+  }
+  .topnav a { color: var(--fg-muted); }
+  .topnav a:hover { color: var(--accent); text-decoration: none; }
+  .breakdown-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; margin-bottom: 24px; }
+  .section-label {
+    font-family: var(--font-mono);
+    font-size: 0.7rem;
+    color: var(--accent);
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    margin: 24px 0 12px;
+  }
+  .movements { margin-bottom: 24px; }
+  .methodology {
+    font-size: 0.75rem;
+    color: var(--fg-muted);
+    line-height: 1.5;
+    padding-top: 16px;
+    border-top: 1px solid var(--border);
+    margin-top: 32px;
+  }
   @media (max-width: 700px) {
     .breakdown-grid { grid-template-columns: 1fr; }
   }
