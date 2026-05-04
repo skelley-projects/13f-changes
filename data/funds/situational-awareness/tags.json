@@ -35,6 +35,54 @@
       "id": "ai-applications",
       "label": "AI applications",
       "description": "Software/services that consume AI."
+    },
+    {
+      "id": "photonics",
+      "label": "Photonics",
+      "description": "Optical interconnects, transceivers, silicon photonics, lasers — components specific to high-bandwidth data center networking.",
+      "parent": "ai-compute"
+    },
+    {
+      "id": "hbm-memory",
+      "label": "HBM memory",
+      "description": "High-bandwidth memory (HBM) chips and the DRAM makers producing them — a known supply bottleneck for AI accelerators.",
+      "parent": "ai-compute"
+    },
+    {
+      "id": "ai-foundry",
+      "label": "AI foundries",
+      "description": "Pure-play foundries fabricating leading-edge AI chips (e.g., TSMC).",
+      "parent": "ai-compute"
+    },
+    {
+      "id": "gpu-accelerator",
+      "label": "GPU / accelerator",
+      "description": "The GPU and custom-accelerator vendors themselves (NVIDIA, AMD, etc.) as opposed to suppliers further up the stack.",
+      "parent": "ai-compute"
+    },
+    {
+      "id": "nuclear-power",
+      "label": "Nuclear power",
+      "description": "Existing fission generation and the next-gen nuclear plays specifically positioned for AI-load growth.",
+      "parent": "ai-infra-power"
+    },
+    {
+      "id": "gas-power",
+      "label": "Gas peakers / nat-gas E&P",
+      "description": "Gas-fired peaker plants and the natural gas exploration & production companies feeding them.",
+      "parent": "ai-infra-power"
+    },
+    {
+      "id": "grid-hardware",
+      "label": "Grid hardware",
+      "description": "Transformers, switchgear, transmission equipment that lets new AI loads connect to the grid.",
+      "parent": "ai-infra-power"
+    },
+    {
+      "id": "datacenter-reit",
+      "label": "Datacenter REITs",
+      "description": "Public datacenter REITs (Equinix, Digital Realty, etc.) as opposed to networking gear or colocation services.",
+      "parent": "ai-infra-datacenter"
     }
   ],
   "assignments": {
