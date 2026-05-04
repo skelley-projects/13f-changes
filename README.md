@@ -11,7 +11,7 @@ Currently tracks:
 - **Astro 6** static site generator, deployed to **Cloudflare Workers Static Assets**
 - **JSON files** under `data/` are the source of truth — no database
 - **GitHub Actions** poll SEC EDGAR daily during the four 45-day filing windows
-- **Resend** sends a weekly email reminder when a new filing is queued for review
+- **Resend** emails you immediately when the EDGAR poll detects a new filing (per-detection notification, not a weekly digest)
 - **Manual quarterly review** via the `/update-quarter` Claude Code slash command — fetches, classifies new positions, prompts for thematic tags, writes editorial summaries, commits
 
 See `docs/superpowers/specs/2026-05-03-13f-changes-design.md` for the full design and `docs/superpowers/plans/2026-05-03-13f-changes-implementation.md` for the implementation plan.
@@ -23,7 +23,7 @@ See `docs/superpowers/specs/2026-05-03-13f-changes-design.md` for the full desig
 - **Node 22+** (Astro 6 requires this; see `package.json` `engines`)
 - npm
 - A **Cloudflare account** with Wrangler authenticated locally (`wrangler login`)
-- A **Resend account** (free tier) for the weekly reminder email
+- A **Resend account** (free tier) for filing-detection email notifications
 
 ### Install
 

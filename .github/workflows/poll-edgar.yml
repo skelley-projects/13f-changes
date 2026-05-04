@@ -3,10 +3,11 @@ name: Poll EDGAR for new 13F filings
 
 on:
   schedule:
-    # Daily at 13:00 UTC (8am ET) during filing windows.
-    # Cron doesn't natively support "first 18 days of these months", so we run
-    # daily across all 4 months and the script no-ops when nothing changes.
-    - cron: '0 13 1-18 2,5,8,11 *'
+    # Every 4 hours during days 1-18 of the four filing-window months
+    # (Feb / May / Aug / Nov). Worst-case lag from EDGAR-publish to our queue
+    # is ~4 hours. Most polls are silent no-ops; only commits + emails when
+    # a fund actually files.
+    - cron: '0 */4 1-18 2,5,8,11 *'
   workflow_dispatch:
 
 permissions:
@@ -22,7 +23,7 @@ jobs:
           node-version: 22
       - run: npm ci
       - run: npm run poll-edgar
-      - name: Commit and push if changed
+      - name: Commit, push, and email if a new filing was queued
         run: |
           if [[ -n "$(git status --porcelain data/_pending.json)" ]]; then
             git config user.name "github-actions[bot]"
@@ -30,4 +31,9 @@ jobs:
             git add data/_pending.json
             git commit -m "chore: queue new 13F filing(s) for review"
             git push
+            npm run remind
           fi
+        env:
+          RESEND_API_KEY: ${{ secrets.RESEND_API_KEY }}
+          EMAIL_TO: ${{ secrets.EMAIL_TO }}
+          EMAIL_FROM: ${{ secrets.EMAIL_FROM }}
