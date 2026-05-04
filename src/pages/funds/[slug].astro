@@ -75,13 +75,13 @@ for (const p of filing.positions) {
     <section class="movements">
       <div class="section-label">Position movements</div>
       <p class="pricing-note">
-        Price = reported fair value divided by reported shares at quarter-end. Est. gain uses the latest daily Yahoo Finance quote snapshot and excludes rows where price math would be misleading.
+        Price = reported fair value divided by reported shares at quarter-end. Sold/closed ordinary-equity rows show the stock's market range during the quarter. Est. gain uses the latest daily Yahoo Finance quote snapshot and excludes rows where price math would be misleading.
       </p>
-      <ActivityTable rows={diff.movements.activity ?? []} taxonomy={tagsFile.taxonomy} prices={prices} />
-      <MovementTable status="NEW" rows={diff.movements.new} taxonomy={tagsFile.taxonomy} prices={prices} />
-      <MovementTable status="INCREASED" rows={diff.movements.increased} taxonomy={tagsFile.taxonomy} prices={prices} />
-      <MovementTable status="DECREASED" rows={diff.movements.decreased} taxonomy={tagsFile.taxonomy} prices={prices} />
-      <MovementTable status="CLOSED" rows={diff.movements.closed} taxonomy={tagsFile.taxonomy} prices={prices} />
+      <ActivityTable rows={diff.movements.activity ?? []} taxonomy={tagsFile.taxonomy} prices={prices} currentPeriod={diff.current_period} />
+      <MovementTable status="NEW" rows={diff.movements.new} taxonomy={tagsFile.taxonomy} prices={prices} currentPeriod={diff.current_period} />
+      <MovementTable status="INCREASED" rows={diff.movements.increased} taxonomy={tagsFile.taxonomy} prices={prices} currentPeriod={diff.current_period} />
+      <MovementTable status="DECREASED" rows={diff.movements.decreased} taxonomy={tagsFile.taxonomy} prices={prices} currentPeriod={diff.current_period} />
+      <MovementTable status="CLOSED" rows={diff.movements.closed} taxonomy={tagsFile.taxonomy} prices={prices} currentPeriod={diff.current_period} />
     </section>
   )}
 

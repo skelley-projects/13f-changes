@@ -15,7 +15,15 @@ export interface YahooClient {
     regularMarketTime?: Date | string;
     currency?: string;
     marketState?: string;
-    quoteSourceName?: string;
+      quoteSourceName?: string;
+    }>>;
+  historical?: (
+    ticker: string,
+    opts: { period1: string; period2: string; interval: '1d' },
+  ) => Promise<Array<{
+    date: Date;
+    low?: number;
+    high?: number;
   }>>;
 }
 
@@ -26,7 +34,7 @@ function getDefaultClient(): YahooClient {
   if (_defaultClient) return _defaultClient;
   // yahoo-finance2 v3+ requires `new YahooFinance()` to instantiate.
   _defaultClient = new (YahooFinance as unknown as new (opts?: unknown) => YahooClient)({
-    suppressNotices: ['yahooSurvey'],
+    suppressNotices: ['yahooSurvey', 'ripHistorical'],
   });
   return _defaultClient;
 }
@@ -99,4 +107,72 @@ export async function lookupTickerPrices(
     records,
     failures,
   };
+}
+
+export interface PriceRangeRequest {
+  ticker: string;
+  period: string;
+  start: string;
+  end: string;
+}
+
+function nextUtcDate(date: string): string {
+  const d = new Date(`${date}T00:00:00.000Z`);
+  d.setUTCDate(d.getUTCDate() + 1);
+  return d.toISOString().slice(0, 10);
+}
+
+export async function lookupTickerPriceRanges(
+  requests: PriceRangeRequest[],
+  opts: { yahoo?: YahooClient } = {},
+) {
+  const client = opts.yahoo ?? getDefaultClient();
+  if (!client.historical) {
+    throw new Error('Yahoo client does not implement historical()');
+  }
+
+  const ranges: Record<string, import('./types.js').PriceRangeRecord> = {};
+  const failures: Record<string, string> = {};
+  const unique = new Map<string, PriceRangeRequest>();
+  for (const request of requests) {
+    const ticker = request.ticker.trim().toUpperCase();
+    if (!ticker) continue;
+    const normalized = { ...request, ticker };
+    unique.set(priceRangeKey(ticker, request.period), normalized);
+  }
+
+  for (const [key, request] of unique.entries()) {
+    try {
+      const history = await client.historical(request.ticker, {
+        period1: request.start,
+        // Yahoo treats period2 as an exclusive-ish bound in common usage; add one day to include quarter end.
+        period2: nextUtcDate(request.end),
+        interval: '1d',
+      });
+      const lows = history.map(row => row.low).filter((v): v is number => typeof v === 'number' && v > 0);
+      const highs = history.map(row => row.high).filter((v): v is number => typeof v === 'number' && v > 0);
+      if (lows.length === 0 || highs.length === 0) {
+        failures[key] = 'missing historical low/high';
+        continue;
+      }
+      ranges[key] = {
+        ticker: request.ticker,
+        period: request.period,
+        start: request.start,
+        end: request.end,
+        low: Math.min(...lows),
+        high: Math.max(...highs),
+        currency: 'USD',
+        source: 'yahoo-finance',
+      };
+    } catch (error) {
+      failures[key] = error instanceof Error ? error.message : String(error);
+    }
+  }
+
+  return { ranges, failures };
+}
+
+export function priceRangeKey(ticker: string, period: string): string {
+  return `${ticker.trim().toUpperCase()}:${period}`;
 }

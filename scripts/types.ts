@@ -118,10 +118,22 @@ export interface PriceRecord {
   source: 'yahoo-finance';
 }
 
+export interface PriceRangeRecord {
+  ticker: string;
+  period: Period;
+  start: string;
+  end: string;
+  low: number;
+  high: number;
+  currency: string | null;
+  source: 'yahoo-finance';
+}
+
 export interface PriceSnapshotFile {
   fetched_at: string;
   source: 'yahoo-finance';
   records: Record<string, PriceRecord>;
+  ranges?: Record<string, PriceRangeRecord>;
   failures: Record<string, string>;
 }
 
@@ -133,6 +145,9 @@ export interface MovementRow {
   cusip: CUSIP;
   ticker: string | null;
   name: string;
+  title_of_class: string;
+  shares_type: Position['shares_type'];
+  put_call: Position['put_call'];
   sector: SectorName;
   industry: IndustryName;
   tags: TagId[];
@@ -151,9 +166,6 @@ export interface MovementActivity {
   key: string;
   ticker: string | null;
   name: string;
-  title_of_class: string;
-  shares_type: Position['shares_type'];
-  put_call: Position['put_call'];
   sector: SectorName;
   industry: IndustryName;
   tags: TagId[];

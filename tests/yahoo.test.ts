@@ -1,5 +1,5 @@
 import { describe, it, expect, vi } from 'vitest';
-import { lookupTickerPrices, lookupTickerSector } from '../scripts/yahoo';
+import { lookupTickerPriceRanges, lookupTickerPrices, lookupTickerSector, priceRangeKey } from '../scripts/yahoo';
 
 describe('lookupTickerSector', () => {
   it('returns Yahoo sector mapped to GICS, plus industry', async () => {
@@ -55,5 +55,31 @@ describe('lookupTickerPrices', () => {
     });
     expect(result.failures.MISS).toMatch(/regularMarketPrice/);
     expect(yahoo.quote).toHaveBeenCalledWith(['NVDA', 'MISS'], expect.objectContaining({ return: 'object' }));
+  });
+});
+
+describe('lookupTickerPriceRanges', () => {
+  it('returns quarter low/high ranges from historical prices', async () => {
+    const yahoo = {
+      historical: vi.fn(async () => [
+        { date: new Date('2025-10-01'), low: 10, high: 12 },
+        { date: new Date('2025-10-02'), low: 8, high: 15 },
+      ]),
+    } as any;
+
+    const result = await lookupTickerPriceRanges([
+      { ticker: 'lite', period: '2025-Q4', start: '2025-10-01', end: '2025-12-31' },
+    ], { yahoo });
+
+    expect(result.ranges[priceRangeKey('LITE', '2025-Q4')]).toMatchObject({
+      ticker: 'LITE',
+      period: '2025-Q4',
+      low: 8,
+      high: 15,
+    });
+    expect(yahoo.historical).toHaveBeenCalledWith('LITE', expect.objectContaining({
+      period1: '2025-10-01',
+      period2: '2026-01-01',
+    }));
   });
 });

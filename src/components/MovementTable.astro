@@ -1,6 +1,6 @@
 ---
 import { formatUSD, formatPct, formatPrice } from '../lib/format';
-import { estimateLatestGain, impliedPositionPrice } from '../lib/implied-price';
+import { estimateLatestGain, impliedPositionPrice, priceRangeFor, priceUnsupportedLabel } from '../lib/implied-price';
 import type { MovementRow, PriceSnapshotFile, TaxonomyEntry } from '../../scripts/types';
 
 interface Props {
@@ -8,8 +8,9 @@ interface Props {
   rows: MovementRow[];
   taxonomy: TaxonomyEntry[];
   prices: PriceSnapshotFile | null;
+  currentPeriod: string;
 }
-const { status, rows, taxonomy, prices } = Astro.props;
+const { status, rows, taxonomy, prices, currentPeriod } = Astro.props;
 
 const tagById = new Map(taxonomy.map(t => [t.id, t]));
 
@@ -53,16 +54,23 @@ function signedUSD(value: number): string {
 }
 
 function priceText(row: MovementRow): string {
+  const unsupported = priceUnsupportedLabel(row);
+  if (unsupported) return unsupported;
   const current = impliedPositionPrice(row, 'current');
   const prior = impliedPositionPrice(row, 'prior');
   if (status === 'NEW') return current === null ? '-' : formatPrice(current);
-  if (status === 'CLOSED') return prior === null ? '-' : formatPrice(prior);
+  if (status === 'CLOSED') {
+    const range = priceRangeFor(row, currentPeriod, prices);
+    if (range) return `${formatPrice(range.low)}-${formatPrice(range.high)}`;
+    return prior === null ? '-' : formatPrice(prior);
+  }
   if (current === null || prior === null) return '-';
   return `${formatPrice(prior)} -> ${formatPrice(current)}`;
 }
 
 function gainText(row: MovementRow): { text: string; tone: 'pos' | 'neg' | 'muted' } {
   if (status === 'CLOSED') return { text: '-', tone: 'muted' };
+  if (priceUnsupportedLabel(row)) return { text: 'n/a', tone: 'muted' };
   const gain = estimateLatestGain(row, prices);
   if (!gain) return { text: '-', tone: 'muted' };
   return {
@@ -179,6 +187,7 @@ function gainText(row: MovementRow): { text: string; tone: 'pos' | 'neg' | 'mute
   tr:last-child { border-bottom: none; }
   tr:hover { background: var(--bg-tinted); }
   td { padding: 6px 12px; color: var(--fg); }
+  td:last-child, th:last-child { padding-right: 22px; }
   td.num { text-align: right; font-family: var(--font-mono); }
   td.muted { color: var(--fg-muted); font-size: 0.8rem; }
   td.ticker { font-family: var(--font-mono); font-weight: 600; color: var(--fg); }

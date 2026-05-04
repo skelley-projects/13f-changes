@@ -1,14 +1,20 @@
 ---
 import { formatUSD, formatPrice } from '../lib/format';
-import { estimateLatestGainForRows, weightedImpliedPositionPrice } from '../lib/implied-price';
+import {
+  estimateLatestGainForRows,
+  priceRangeFor,
+  priceUnsupportedLabel,
+  weightedImpliedPositionPrice,
+} from '../lib/implied-price';
 import type { MovementActivity, PriceSnapshotFile, TaxonomyEntry } from '../../scripts/types';
 
 interface Props {
   rows: MovementActivity[];
   taxonomy: TaxonomyEntry[];
   prices: PriceSnapshotFile | null;
+  currentPeriod: string;
 }
-const { rows, taxonomy, prices } = Astro.props;
+const { rows, taxonomy, prices, currentPeriod } = Astro.props;
 
 const tagById = new Map(taxonomy.map(t => [t.id, t]));
 
@@ -39,10 +45,16 @@ const net = totalBought - totalSold;
 
 function priceParts(row: MovementActivity): { buy: string; sell: string } {
   const boughtPrice = weightedImpliedPositionPrice(row.bought, 'current');
-  const soldPrice = weightedImpliedPositionPrice(row.sold, 'prior');
+  const soldRange = row.sold[0] ? priceRangeFor(row.sold[0], currentPeriod, prices) : null;
+  const soldPrice = soldRange
+    ? `${formatPrice(soldRange.low)}-${formatPrice(soldRange.high)}`
+    : weightedImpliedPositionPrice(row.sold, 'prior');
+  const soldUnsupported = row.sold.map(priceUnsupportedLabel).find(Boolean);
   return {
     buy: boughtPrice === null ? '-' : formatPrice(boughtPrice),
-    sell: soldPrice === null ? '-' : formatPrice(soldPrice),
+    sell: typeof soldPrice === 'number'
+      ? formatPrice(soldPrice)
+      : soldPrice ?? soldUnsupported ?? '-',
   };
 }
 
@@ -171,6 +183,7 @@ function gainParts(row: MovementActivity): { text: string; tone: 'pos' | 'neg' |
   tr:last-child { border-bottom: none; }
   tr:hover { background: var(--bg-tinted); }
   td { padding: 6px 12px; color: var(--fg); }
+  td:last-child, th:last-child { padding-right: 22px; }
   td.num { text-align: right; font-family: var(--font-mono); }
   td.muted { color: var(--fg-muted); font-size: 0.8rem; }
   td.ticker {

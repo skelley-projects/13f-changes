@@ -7,6 +7,13 @@ function isOrdinaryShareRow(row: MovementRow): boolean {
   return !/\b(CONV|NOTE|NOTES|DEBENTURE)\b/i.test(`${row.name} ${row.title_of_class}`);
 }
 
+export function priceUnsupportedLabel(row: MovementRow): string | null {
+  if (row.put_call) return `${row.put_call} option`;
+  if (row.shares_type === 'PRN') return 'principal amt.';
+  if (/\b(CONV|NOTE|NOTES|DEBENTURE)\b/i.test(`${row.name} ${row.title_of_class}`)) return 'conv. note';
+  return null;
+}
+
 export function impliedPositionPrice(row: MovementRow, side: PriceSide): number | null {
   if (!isOrdinaryShareRow(row)) return null;
   const value = side === 'current' ? row.current_value : row.prior_value;
@@ -77,4 +84,13 @@ export function estimateLatestGainForRows(
     pct: ((latestValue - basis) / basis) * 100,
     as_of: latestAsOf,
   };
+}
+
+export function priceRangeFor(
+  row: MovementRow,
+  period: string,
+  prices: PriceSnapshotFile | null,
+) {
+  if (!prices?.ranges || !row.ticker || !isOrdinaryShareRow(row)) return null;
+  return prices.ranges[`${row.ticker.toUpperCase()}:${period}`] ?? null;
 }

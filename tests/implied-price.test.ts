@@ -3,6 +3,8 @@ import {
   estimateLatestGain,
   estimateLatestGainForRows,
   impliedPositionPrice,
+  priceRangeFor,
+  priceUnsupportedLabel,
   weightedImpliedPositionPrice,
 } from '../src/lib/implied-price';
 import type { MovementRow, PriceSnapshotFile } from '../scripts/types';
@@ -40,6 +42,8 @@ describe('implied 13F price helpers', () => {
     expect(impliedPositionPrice(row({ put_call: 'Put' }), 'current')).toBeNull();
     expect(impliedPositionPrice(row({ shares_type: 'PRN' }), 'prior')).toBeNull();
     expect(impliedPositionPrice(row({ name: 'XYZ Corp - Conv Notes' }), 'current')).toBeNull();
+    expect(priceUnsupportedLabel(row({ put_call: 'Call' }))).toBe('Call option');
+    expect(priceUnsupportedLabel(row({ name: 'XYZ Corp - Conv Notes' }))).toBe('conv. note');
   });
 
   it('computes weighted side prices across eligible rows only', () => {
@@ -71,5 +75,27 @@ describe('implied 13F price helpers', () => {
     expect(estimateLatestGain(row(), prices)).toMatchObject({ value: 200, pct: 20 });
     expect(estimateLatestGainForRows([row(), row({ current_value: 2_000, current_shares: 100 })], prices))
       .toMatchObject({ value: -600, pct: -20 });
+  });
+
+  it('looks up period price ranges by ticker and period', () => {
+    const prices: PriceSnapshotFile = {
+      fetched_at: '2026-05-04T22:00:00.000Z',
+      source: 'yahoo-finance',
+      records: {},
+      ranges: {
+        'XYZ:2025-Q4': {
+          ticker: 'XYZ',
+          period: '2025-Q4',
+          start: '2025-10-01',
+          end: '2025-12-31',
+          low: 7,
+          high: 13,
+          currency: 'USD',
+          source: 'yahoo-finance',
+        },
+      },
+      failures: {},
+    };
+    expect(priceRangeFor(row(), '2025-Q4', prices)).toMatchObject({ low: 7, high: 13 });
   });
 });
