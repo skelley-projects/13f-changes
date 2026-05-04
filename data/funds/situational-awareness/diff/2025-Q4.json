@@ -34,7 +34,8 @@
         "sector": "Information Technology",
         "industry": "Communication Equipment",
         "tags": [
-          "ai-compute"
+          "ai-compute",
+          "photonics"
         ],
         "current_value": 478577256,
         "prior_value": null,
@@ -87,7 +88,8 @@
         "sector": "Energy",
         "industry": "Oil & Gas E&P",
         "tags": [
-          "ai-infra-power"
+          "ai-infra-power",
+          "gas-power"
         ],
         "current_value": 37520000,
         "prior_value": null,
@@ -285,7 +287,8 @@
         "sector": "Information Technology",
         "industry": "Semiconductors",
         "tags": [
-          "ai-compute"
+          "ai-compute",
+          "gpu-accelerator"
         ],
         "current_value": null,
         "prior_value": 298528000,
@@ -303,7 +306,8 @@
         "sector": "Utilities",
         "industry": "Utilities - Independent Power Producers",
         "tags": [
-          "ai-infra-power"
+          "ai-infra-power",
+          "nuclear-power"
         ],
         "current_value": null,
         "prior_value": 252327327,
@@ -393,7 +397,8 @@
         "sector": "Information Technology",
         "industry": "Semiconductors",
         "tags": [
-          "ai-compute"
+          "ai-compute",
+          "ai-foundry"
         ],
         "current_value": null,
         "prior_value": 75408300,
@@ -430,7 +435,8 @@
         "sector": "Information Technology",
         "industry": "Communication Equipment",
         "tags": [
-          "ai-compute"
+          "ai-compute",
+          "photonics"
         ],
         "current_value": null,
         "prior_value": 67947696,
@@ -615,7 +621,8 @@
         "sector": "Information Technology",
         "industry": "Scientific & Technical Instruments",
         "tags": [
-          "ai-compute"
+          "ai-compute",
+          "photonics"
         ],
         "current_value": 88648971,
         "prior_value": 16631968,
@@ -633,7 +640,8 @@
         "sector": "Energy",
         "industry": "Oil & Gas E&P",
         "tags": [
-          "ai-infra-power"
+          "ai-infra-power",
+          "gas-power"
         ],
         "current_value": 133047260,
         "prior_value": 66262320,
@@ -934,6 +942,68 @@
       }
     ]
   },
-  "granular_breakdown": null,
-  "granular_coverage_pct": null
+  "granular_breakdown": {
+    "current": [
+      {
+        "label": "Photonics",
+        "value": 567226227,
+        "pct": 10.281875542257415
+      },
+      {
+        "label": "Gas peakers / nat-gas E&P",
+        "value": 170567260,
+        "pct": 3.0918022746925304
+      }
+    ],
+    "prior": [
+      {
+        "label": "GPU / accelerator",
+        "value": 298528000,
+        "pct": 7.213663599800604
+      },
+      {
+        "label": "Nuclear power",
+        "value": 252327327,
+        "pct": 6.097265429088341
+      },
+      {
+        "label": "Photonics",
+        "value": 84579664,
+        "pct": 2.0437923527446857
+      },
+      {
+        "label": "AI foundries",
+        "value": 75408300,
+        "pct": 1.8221744989844972
+      },
+      {
+        "label": "Gas peakers / nat-gas E&P",
+        "value": 66262320,
+        "pct": 1.6011700270069797
+      }
+    ],
+    "deltas": [
+      {
+        "label": "Photonics",
+        "delta_pct_pts": 8.238083189512729
+      },
+      {
+        "label": "GPU / accelerator",
+        "delta_pct_pts": -7.213663599800604
+      },
+      {
+        "label": "Nuclear power",
+        "delta_pct_pts": -6.097265429088341
+      },
+      {
+        "label": "AI foundries",
+        "delta_pct_pts": -1.8221744989844972
+      },
+      {
+        "label": "Gas peakers / nat-gas E&P",
+        "delta_pct_pts": 1.4906322476855507
+      }
+    ]
+  },
+  "granular_coverage_pct": 13.373677816949947
 }
