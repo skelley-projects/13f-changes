@@ -75,7 +75,7 @@ for (const p of filing.positions) {
     <section class="movements">
       <div class="section-label">Position movements</div>
       <p class="pricing-note">
-        Price = reported fair value divided by reported shares at quarter-end. Sold/closed ordinary-equity rows show the stock's market range during the quarter. Est. gain applies to ordinary shares; option rows show underlying stock move for directional context, not option P/L.
+        Price = reported fair value divided by reported shares at quarter-end. Since q-end shows price change since the end of the reported quarter; ordinary-share rows also include estimated value move, while option rows show underlying stock move only.
       </p>
       <ActivityTable rows={diff.movements.activity ?? []} taxonomy={tagsFile.taxonomy} prices={prices} currentPeriod={diff.current_period} />
       <MovementTable status="NEW" rows={diff.movements.new} taxonomy={tagsFile.taxonomy} prices={prices} currentPeriod={diff.current_period} />
