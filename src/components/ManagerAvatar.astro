@@ -1,0 +1,63 @@
+---
+// Renders a circular manager avatar. Uses the photo if provided,
+// otherwise falls back to a gradient circle with the manager's initials.
+interface Props {
+  photo?: string | null;
+  name: string;
+  size?: 'sm' | 'md' | 'lg';
+}
+const { photo, name, size = 'md' } = Astro.props;
+
+const initials = name
+  .split(/\s+/)
+  .filter(Boolean)
+  .map(part => part[0]?.toUpperCase() ?? '')
+  .filter(Boolean)
+  .slice(0, 2)
+  .join('');
+
+const sizes = { sm: 22, md: 38, lg: 56 };
+const px = sizes[size];
+---
+{photo ? (
+  <span class={`avatar avatar-${size}`} style={`width:${px}px;height:${px}px;`}>
+    <img src={photo} alt={name} loading="lazy" width={px} height={px} />
+  </span>
+) : (
+  <span class={`avatar avatar-${size} avatar-fallback`} style={`width:${px}px;height:${px}px;`}>
+    <span class="initials">{initials}</span>
+  </span>
+)}
+
+<style>
+  .avatar {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    overflow: hidden;
+    flex-shrink: 0;
+    border: 1px solid var(--accent);
+    background: var(--bg-elev);
+    vertical-align: middle;
+  }
+  .avatar img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+  }
+  .avatar-fallback {
+    background: linear-gradient(135deg, var(--accent-hover), #78350f);
+    color: var(--bg);
+  }
+  .initials {
+    font-family: var(--font-mono);
+    font-weight: 600;
+    font-size: 0.45em;
+    letter-spacing: 0.5px;
+  }
+  .avatar-sm .initials { font-size: 9px; }
+  .avatar-md .initials { font-size: 14px; }
+  .avatar-lg .initials { font-size: 20px; }
+</style>
