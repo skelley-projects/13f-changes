@@ -140,3 +140,117 @@ describe('computeDiff — first filing', () => {
     expect(diff.totals.prior_value).toBe(0);
   });
 });
+
+import type { Position } from '../scripts/types.js';
+
+function mkPos(cusip: string, value: number, shares = 100): Position {
+  return {
+    cusip,
+    name_of_issuer: cusip,
+    title_of_class: 'COM',
+    shares,
+    shares_type: 'SH',
+    value,
+    put_call: null,
+    investment_discretion: 'SOLE',
+    voting_sole: shares,
+    voting_shared: 0,
+    voting_none: 0,
+  };
+}
+
+function mkFiling(period: string, positions: Position[]): FilingFile {
+  return {
+    slug: 'test',
+    period,
+    period_ending: '2025-12-31',
+    filing_date: '2026-02-15',
+    accession: '0000000000-00-000000',
+    edgar_url: 'https://example.com',
+    value_units: 'USD',
+    schema_version: 'X02',
+    total_value: positions.reduce((s, p) => s + p.value, 0),
+    position_count: positions.length,
+    positions,
+  };
+}
+
+const emptySecurities: SecuritiesFile = {};
+
+describe('computeDiff: granular theme breakdown', () => {
+  const tags: TagsFile = {
+    slug: 'test',
+    taxonomy: [
+      { id: 'ai-compute', label: 'AI compute', description: '' },
+      { id: 'photonics', label: 'Photonics', description: '', parent: 'ai-compute' },
+      { id: 'ai-applications', label: 'AI applications', description: '' },
+    ],
+    assignments: {
+      'A111': ['photonics'],          // sub-tag only — rolls up to ai-compute
+      'B222': ['ai-compute'],         // top-level only — appears in broad, not granular
+      'C333': ['ai-compute', 'photonics'], // both — counts once in broad (de-duped)
+      'D444': ['ai-applications'],    // top-level only, different theme
+      'E555': [],                     // untagged — appears in neither
+    },
+  };
+
+  it('rolls sub-tags up to parents in theme_breakdown without double-counting', () => {
+    const current = mkFiling('2025-Q4', [
+      mkPos('A111', 100),
+      mkPos('B222', 200),
+      mkPos('C333', 400),
+      mkPos('D444', 50),
+    ]);
+    const diff = computeDiff({ current, prior: null, securities: emptySecurities, tags });
+    const aiCompute = diff.theme_breakdown!.current.find(e => e.label === 'AI compute');
+    const aiApps = diff.theme_breakdown!.current.find(e => e.label === 'AI applications');
+    // A (photonics → ai-compute) + B (ai-compute) + C (both → ai-compute once) = 700
+    expect(aiCompute?.value).toBe(700);
+    expect(aiApps?.value).toBe(50);
+    // Photonics SHOULD NOT appear in theme_breakdown — it's a sub-tag, rolled up only
+    const photonics = diff.theme_breakdown!.current.find(e => e.label === 'Photonics');
+    expect(photonics).toBeUndefined();
+  });
+
+  it('aggregates only sub-tagged positions into granular_breakdown', () => {
+    const current = mkFiling('2025-Q4', [
+      mkPos('A111', 100),  // photonics
+      mkPos('B222', 200),  // ai-compute (top-level only — excluded)
+      mkPos('C333', 400),  // photonics (also top-level)
+      mkPos('D444', 50),   // ai-applications (top-level only — excluded)
+    ]);
+    const diff = computeDiff({ current, prior: null, securities: emptySecurities, tags });
+    expect(diff.granular_breakdown).not.toBeNull();
+    const photonics = diff.granular_breakdown!.current.find(e => e.label === 'Photonics');
+    expect(photonics?.value).toBe(500);  // A + C
+    // No top-level tags in granular_breakdown
+    const aiCompute = diff.granular_breakdown!.current.find(e => e.label === 'AI compute');
+    expect(aiCompute).toBeUndefined();
+  });
+
+  it('computes granular_coverage_pct as the share of AUM with at least one sub-tag', () => {
+    const current = mkFiling('2025-Q4', [
+      mkPos('A111', 100),  // photonics — counts
+      mkPos('B222', 200),  // top-level only — does not count
+      mkPos('C333', 400),  // photonics — counts
+      mkPos('D444', 50),   // top-level only — does not count
+    ]);
+    const diff = computeDiff({ current, prior: null, securities: emptySecurities, tags });
+    // (100 + 400) / 750 = 0.6667
+    expect(diff.granular_coverage_pct).toBeCloseTo(66.67, 1);
+  });
+
+  it('returns null granular_breakdown when no sub-tags are defined', () => {
+    const flatTags: TagsFile = {
+      slug: 'test',
+      taxonomy: [
+        { id: 'ai-compute', label: 'AI compute', description: '' },
+      ],
+      assignments: { 'A111': ['ai-compute'] },
+    };
+    const current = mkFiling('2025-Q4', [mkPos('A111', 100)]);
+    const diff = computeDiff({ current, prior: null, securities: emptySecurities, tags: flatTags });
+    expect(diff.granular_breakdown).toBeNull();
+    expect(diff.granular_coverage_pct).toBeNull();
+  });
+});

@@ -933,5 +933,7 @@
         "delta_pct_pts": -2.3427571999240406
       }
     ]
-  }
+  },
+  "granular_breakdown": null,
+  "granular_coverage_pct": null
 }

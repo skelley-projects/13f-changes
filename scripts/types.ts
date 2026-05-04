@@ -166,4 +166,6 @@ export interface DiffFile {
   };
   sector_breakdown: Breakdown;
   theme_breakdown: Breakdown | null;  // null when fund has no tags
+  granular_breakdown: Breakdown | null;     // null when fund has zero sub-tags or zero granularly-tagged positions
+  granular_coverage_pct: number | null;     // 0-100, null when granular_breakdown is null
 }

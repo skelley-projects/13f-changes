@@ -91,6 +91,8 @@ export function computeDiff(input: ComputeDiffInput): DiffFile {
   const sectorKey = (p: Position): string =>
     securities[p.cusip]?.sector ?? 'Unclassified';
 
+  const granular = buildGranularBreakdown(current, prior, tags);
+
   return {
     slug: current.slug,
     current_period: current.period,
@@ -103,6 +105,8 @@ export function computeDiff(input: ComputeDiffInput): DiffFile {
     movements,
     sector_breakdown: buildBreakdown(current, prior, sectorKey),
     theme_breakdown: buildThemeBreakdown(current, prior, tags),
+    granular_breakdown: granular.breakdown,
+    granular_coverage_pct: granular.coverage_pct,
   };
 }
 
@@ -113,23 +117,36 @@ function buildThemeBreakdown(
 ): Breakdown | null {
   if (tags.taxonomy.length === 0) return null;
   const labelById = new Map(tags.taxonomy.map(t => [t.id, t.label]));
+  const parentById = new Map(tags.taxonomy.map(t => [t.id, t.parent]));
 
-  // For themes, expand each position into one entry per assigned tag.
-  const expandedAggregate = (filing: FilingFile): Map<string, number> => {
+  // Resolve a position's tag ids to the SET of broad theme labels it counts toward.
+  // Sub-tags are rolled up to their parent. Top-level tags map to themselves.
+  // De-duplicated so a position tagged ["ai-compute", "photonics"] counts toward
+  // "AI compute" exactly once.
+  const broadLabelsForPosition = (cusip: string): Set<string> => {
+    const labels = new Set<string>();
+    const ids = tags.assignments[cusip] ?? [];
+    for (const id of ids) {
+      const parent = parentById.get(id);
+      const broadId = parent ?? id;
+      const label = labelById.get(broadId);
+      if (label) labels.add(label);
+    }
+    return labels;
+  };
+
+  const aggregateBroad = (filing: FilingFile): Map<string, number> => {
     const out = new Map<string, number>();
     for (const p of filing.positions) {
-      const ids = tags.assignments[p.cusip] ?? [];
-      for (const id of ids) {
-        const label = labelById.get(id);
-        if (!label) continue;
+      for (const label of broadLabelsForPosition(p.cusip)) {
         out.set(label, (out.get(label) ?? 0) + p.value);
       }
     }
     return out;
   };
 
-  const currentMix = expandedAggregate(current);
-  const priorMix = prior ? expandedAggregate(prior) : new Map();
+  const currentMix = aggregateBroad(current);
+  const priorMix = prior ? aggregateBroad(prior) : new Map<string, number>();
   const labels = new Set([...currentMix.keys(), ...priorMix.keys()]);
 
   const currentTotal = current.total_value || 1;
@@ -151,6 +168,74 @@ function buildThemeBreakdown(
   priorEntries.sort((a, b) => b.value - a.value);
   deltas.sort((a, b) => Math.abs(b.delta_pct_pts) - Math.abs(a.delta_pct_pts));
   return { current: currentEntries, prior: priorEntries, deltas };
+}
+
+function buildGranularBreakdown(
+  current: FilingFile,
+  prior: FilingFile | null,
+  tags: TagsFile,
+): { breakdown: Breakdown | null; coverage_pct: number | null } {
+  const subTagIds = new Set(
+    tags.taxonomy.filter(t => t.parent !== undefined).map(t => t.id),
+  );
+  if (subTagIds.size === 0) {
+    return { breakdown: null, coverage_pct: null };
+  }
+  const labelById = new Map(tags.taxonomy.map(t => [t.id, t.label]));
+
+  const aggregateGranular = (filing: FilingFile): Map<string, number> => {
+    const out = new Map<string, number>();
+    for (const p of filing.positions) {
+      const ids = tags.assignments[p.cusip] ?? [];
+      for (const id of ids) {
+        if (!subTagIds.has(id)) continue;
+        const label = labelById.get(id);
+        if (!label) continue;
+        out.set(label, (out.get(label) ?? 0) + p.value);
+      }
+    }
+    return out;
+  };
+
+  // Coverage: % of current AUM held by positions that have at least one sub-tag.
+  let coveredValue = 0;
+  for (const p of current.positions) {
+    const ids = tags.assignments[p.cusip] ?? [];
+    if (ids.some(id => subTagIds.has(id))) coveredValue += p.value;
+  }
+  const coveragePct = current.total_value > 0
+    ? (coveredValue / current.total_value) * 100
+    : 0;
+
+  const currentMix = aggregateGranular(current);
+  if (currentMix.size === 0 && (!prior || aggregateGranular(prior).size === 0)) {
+    return { breakdown: null, coverage_pct: null };
+  }
+  const priorMix = prior ? aggregateGranular(prior) : new Map<string, number>();
+  const labels = new Set([...currentMix.keys(), ...priorMix.keys()]);
+
+  const currentTotal = current.total_value || 1;
+  const priorTotal = prior?.total_value || 1;
+
+  const currentEntries: BreakdownEntry[] = [];
+  const priorEntries: BreakdownEntry[] = [];
+  const deltas: BreakdownDelta[] = [];
+  for (const label of labels) {
+    const cv = currentMix.get(label) ?? 0;
+    const pv = priorMix.get(label) ?? 0;
+    const cPct = (cv / currentTotal) * 100;
+    const pPct = (pv / priorTotal) * 100;
+    if (cv > 0) currentEntries.push({ label, value: cv, pct: cPct });
+    if (pv > 0) priorEntries.push({ label, value: pv, pct: pPct });
+    deltas.push({ label, delta_pct_pts: cPct - pPct });
+  }
+  currentEntries.sort((a, b) => b.value - a.value);
+  priorEntries.sort((a, b) => b.value - a.value);
+  deltas.sort((a, b) => Math.abs(b.delta_pct_pts) - Math.abs(a.delta_pct_pts));
+  return {
+    breakdown: { current: currentEntries, prior: priorEntries, deltas },
+    coverage_pct: coveragePct,
+  };
 }
 
 function buildBreakdown(
