@@ -1,5 +1,4 @@
 ---
-// src/components/ContactCTA.astro
 ---
 <aside class="cta">
   <p>
@@ -11,8 +10,19 @@
 </aside>
 
 <style>
-  .cta { border: 1px solid #e0e0e0; border-radius: 4px; padding: 14px; text-align: center; margin: 32px 0; background: #fafafa; }
-  .cta p { margin: 0; font-size: 0.95rem; color: #555; }
-  .cta a { color: #4a7ec7; text-decoration: none; }
-  .cta a:hover { text-decoration: underline; }
+  .cta {
+    border: 1px solid var(--border);
+    border-radius: 4px;
+    padding: 16px;
+    text-align: center;
+    margin: 40px 0;
+    background: var(--bg-elev);
+  }
+  .cta p {
+    margin: 0;
+    font-size: 0.95rem;
+    color: var(--fg-muted);
+  }
+  .cta a { color: var(--accent); }
+  .cta a:hover { color: var(--accent-hover); text-decoration: underline; }
 </style>
