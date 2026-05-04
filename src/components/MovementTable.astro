@@ -1,5 +1,4 @@
 ---
-// src/components/MovementTable.astro
 import { formatUSD, formatPct } from '../lib/format';
 import type { MovementRow } from '../../scripts/types';
 
@@ -8,11 +7,12 @@ interface Props {
   rows: MovementRow[];
 }
 const { status, rows } = Astro.props;
+
 const styles = {
-  NEW: { color: '#2d8a3e', bg: '#e8f4ec', label: 'NEW POSITIONS' },
-  INCREASED: { color: '#2d8a3e', bg: '#f0f8f3', label: '↑ INCREASED' },
-  DECREASED: { color: '#b33', bg: '#fff5f5', label: '↓ DECREASED' },
-  CLOSED: { color: '#b33', bg: '#fde8e8', label: 'CLOSED' },
+  NEW: { tone: 'pos', label: 'NEW POSITIONS' },
+  INCREASED: { tone: 'pos', label: '↑ INCREASED' },
+  DECREASED: { tone: 'neg', label: '↓ DECREASED' },
+  CLOSED: { tone: 'neg', label: 'CLOSED' },
 }[status];
 
 const totalDelta = rows.reduce((s, r) => s + r.delta_value, 0);
@@ -23,26 +23,26 @@ const summaryText =
   `${formatUSD(Math.abs(totalDelta))} trimmed`;
 ---
 {rows.length === 0 ? null : (
-  <section class="movement">
-    <header style={`background:${styles.bg};color:${styles.color};`}>
-      <span>{styles.label} ({rows.length})</span>
+  <section class={`movement movement-${styles.tone}`}>
+    <header>
+      <span class="status-label">{styles.label} ({rows.length})</span>
       <span class="net">{summaryText}</span>
     </header>
     <table>
       <tbody>
         {rows.map((r) => (
           <tr>
-            <td><strong>{r.ticker ?? r.cusip}</strong></td>
+            <td class="ticker">{r.ticker ?? r.cusip}</td>
             <td>{r.name}</td>
             <td class="muted">{r.sector} / {r.industry}</td>
             <td class="muted">{r.tags.join(', ')}</td>
-            <td class="num">
+            <td class="num muted">
               {status === 'NEW' && r.current_value !== null && formatUSD(r.current_value)}
               {status === 'CLOSED' && r.prior_value !== null && `was ${formatUSD(r.prior_value)}`}
               {(status === 'INCREASED' || status === 'DECREASED') && r.delta_pct !== null &&
                 `${r.delta_pct > 0 ? '+' : ''}${formatPct(r.delta_pct)}`}
             </td>
-            <td class="num" style={`color:${styles.color}`}>
+            <td class={`num delta delta-${styles.tone}`}>
               {status === 'NEW' && 'NEW'}
               {status === 'CLOSED' && 'CLOSED'}
               {status === 'INCREASED' && `+${formatUSD(r.delta_value)}`}
@@ -56,13 +56,45 @@ const summaryText =
 )}
 
 <style>
-  .movement { border: 1px solid #e0e0e0; border-radius: 4px; margin-bottom: 8px; overflow: hidden; }
-  header { padding: 6px 10px; font-size: 0.7rem; font-weight: 600; display: flex; justify-content: space-between; }
-  header .net { color: #555; font-weight: normal; }
-  table { width: 100%; border-collapse: collapse; font-size: 0.8rem; }
-  tr { border-bottom: 1px solid #f5f5f5; }
+  .movement {
+    border: 1px solid var(--border);
+    border-radius: 4px;
+    margin-bottom: 12px;
+    overflow: hidden;
+    background: var(--bg-elev);
+  }
+  .movement-pos { border-left: 3px solid var(--pos); }
+  .movement-neg { border-left: 3px solid var(--neg); }
+  header {
+    padding: 8px 12px;
+    font-family: var(--font-mono);
+    font-size: 0.7rem;
+    font-weight: 600;
+    display: flex;
+    justify-content: space-between;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    background: var(--bg-tinted);
+    border-bottom: 1px solid var(--border);
+  }
+  .movement-pos .status-label { color: var(--pos); }
+  .movement-neg .status-label { color: var(--neg); }
+  header .net {
+    color: var(--fg-muted);
+    font-weight: 400;
+    text-transform: none;
+    letter-spacing: 0;
+    font-family: var(--font-mono);
+  }
+  table { width: 100%; border-collapse: collapse; font-size: 0.825rem; }
+  tr { border-bottom: 1px solid var(--border); }
   tr:last-child { border-bottom: none; }
-  td { padding: 5px 10px; }
-  td.num { text-align: right; }
-  td.muted { color: #888; }
+  tr:hover { background: var(--bg-tinted); }
+  td { padding: 6px 12px; color: var(--fg); }
+  td.num { text-align: right; font-family: var(--font-mono); }
+  td.muted { color: var(--fg-muted); font-size: 0.8rem; }
+  td.ticker { font-family: var(--font-mono); font-weight: 600; color: var(--fg); }
+  td.delta { font-weight: 600; }
+  td.delta-pos { color: var(--pos); }
+  td.delta-neg { color: var(--neg); }
 </style>
