@@ -68,7 +68,7 @@ Claude will fetch any pending filings, classify new CUSIPs, prompt for theme tag
 
 ## Deploy
 
-Pushing to `main` triggers `.github/workflows/deploy.yml`, which runs the test suite, builds the Astro site, and deploys to Cloudflare Workers Static Assets via `wrangler deploy`. The configured worker name is `13f-changes` (see `wrangler.toml`); the default URL will be `https://13f-changes.<your-subdomain>.workers.dev` until you point a custom domain at it.
+Pushing to `main` triggers `.github/workflows/deploy.yml`, which runs the test suite, builds the Astro site, and deploys to Cloudflare Workers Static Assets via `wrangler deploy`. The site is live at [https://13f-changes.seankel.com](https://13f-changes.seankel.com); the worker name is `13f-changes` (see `wrangler.toml`).
 
 To deploy manually from your machine:
 
