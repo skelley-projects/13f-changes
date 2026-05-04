@@ -59,15 +59,17 @@ const max = rows.reduce((m, r) => Math.max(m, Math.abs(r.delta_pct_pts)), 0) || 
   .bars { font-size: 0.8rem; }
   .bar-row {
     display: grid;
-    grid-template-columns: 130px 1fr 60px;
+    grid-template-columns: 180px 1fr 70px;
     align-items: center;
-    margin-bottom: 6px;
+    column-gap: 12px;
+    margin-bottom: 8px;
   }
   .row-label {
     text-align: right;
-    padding-right: 10px;
     color: var(--fg);
     font-size: 0.8rem;
+    line-height: 1.25;
+    min-width: 0;
   }
   .bar-track { position: relative; height: 14px; }
   .bar-track::before {
