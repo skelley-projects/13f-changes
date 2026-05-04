@@ -1,5 +1,4 @@
 ---
-// src/components/HoldingsTable.astro
 import { formatUSD, formatShares, formatPct } from '../lib/format';
 import type { FilingFile, SecuritiesFile } from '../../scripts/types';
 
@@ -19,7 +18,7 @@ const totalUnchanged = positions.reduce((s, p) => s + p.value, 0);
 <details>
   <summary>
     <strong>{positions.length} {positions.length === 1 ? 'position' : 'positions'} held steady</strong>
-    · {formatUSD(totalUnchanged)} ({formatPct((totalUnchanged / total) * 100)} of AUM)
+    · <span class="num">{formatUSD(totalUnchanged)}</span> ({formatPct((totalUnchanged / total) * 100)} of AUM)
     <span class="hint">click to expand</span>
   </summary>
   <table>
@@ -34,7 +33,7 @@ const totalUnchanged = positions.reduce((s, p) => s + p.value, 0);
         const sec = securities[p.cusip];
         return (
           <tr>
-            <td><strong>{sec?.ticker ?? p.cusip}</strong></td>
+            <td class="ticker">{sec?.ticker ?? p.cusip}</td>
             <td>{sec?.name ?? p.name_of_issuer}</td>
             <td class="muted">{sec?.sector ?? '—'}</td>
             <td class="num">{formatShares(p.shares)}</td>
@@ -48,12 +47,53 @@ const totalUnchanged = positions.reduce((s, p) => s + p.value, 0);
 </details>
 
 <style>
-  details { border: 1px dashed #ccc; border-radius: 4px; padding: 10px; margin-bottom: 12px; }
-  summary { cursor: pointer; font-size: 0.8rem; color: #555; }
-  .hint { color: #aaa; font-style: italic; margin-left: 6px; }
-  table { width: 100%; border-collapse: collapse; font-size: 0.8rem; margin-top: 10px; }
-  th { text-align: left; padding: 6px 8px; font-weight: 500; color: #555; border-bottom: 1px solid #ccc; }
-  td { padding: 5px 8px; border-bottom: 1px solid #f5f5f5; }
-  td.num, th.num { text-align: right; }
-  td.muted { color: #888; }
+  details {
+    border: 1px solid var(--border);
+    border-radius: 4px;
+    padding: 12px 14px;
+    margin-bottom: 16px;
+    background: var(--bg-elev);
+  }
+  summary {
+    cursor: pointer;
+    font-size: 0.825rem;
+    color: var(--fg);
+    list-style: none;
+  }
+  summary::-webkit-details-marker { display: none; }
+  summary::before {
+    content: '▸ ';
+    color: var(--accent);
+    font-family: var(--font-mono);
+  }
+  details[open] summary::before { content: '▾ '; }
+  .hint {
+    color: var(--fg-dim);
+    font-style: italic;
+    margin-left: 6px;
+    font-size: 0.75rem;
+  }
+  .num { font-family: var(--font-mono); }
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 0.8rem;
+    margin-top: 12px;
+  }
+  th {
+    text-align: left;
+    padding: 6px 10px;
+    font-family: var(--font-mono);
+    font-weight: 500;
+    font-size: 0.7rem;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    color: var(--accent);
+    border-bottom: 1px solid var(--border-strong);
+  }
+  td { padding: 5px 10px; border-bottom: 1px solid var(--border); }
+  tr:last-child td { border-bottom: none; }
+  td.num, th.num { text-align: right; font-family: var(--font-mono); }
+  td.muted { color: var(--fg-muted); }
+  td.ticker { font-family: var(--font-mono); font-weight: 600; }
 </style>
