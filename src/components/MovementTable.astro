@@ -1,12 +1,38 @@
 ---
 import { formatUSD, formatPct } from '../lib/format';
-import type { MovementRow } from '../../scripts/types';
+import type { MovementRow, TaxonomyEntry } from '../../scripts/types';
 
 interface Props {
   status: 'NEW' | 'INCREASED' | 'DECREASED' | 'CLOSED';
   rows: MovementRow[];
+  taxonomy: TaxonomyEntry[];
 }
-const { status, rows } = Astro.props;
+const { status, rows, taxonomy } = Astro.props;
+
+// Build a lookup map from tag id → entry. Used to (a) determine sub-tag vs broad,
+// (b) resolve display labels, (c) roll sub-tags up to parents for the Themes col.
+const tagById = new Map(taxonomy.map(t => [t.id, t]));
+
+function broadLabelsFor(tagIds: string[]): string[] {
+  const labels = new Set<string>();
+  for (const id of tagIds) {
+    const entry = tagById.get(id);
+    if (!entry) continue;
+    const broadId = entry.parent ?? entry.id;
+    const broadEntry = tagById.get(broadId);
+    if (broadEntry) labels.add(broadEntry.label);
+  }
+  return Array.from(labels);
+}
+
+function granularLabelsFor(tagIds: string[]): string[] {
+  const labels: string[] = [];
+  for (const id of tagIds) {
+    const entry = tagById.get(id);
+    if (entry?.parent !== undefined) labels.push(entry.label);
+  }
+  return labels;
+}
 
 const styles = {
   NEW: { tone: 'pos', label: 'NEW POSITIONS' },
@@ -30,26 +56,31 @@ const summaryText =
     </header>
     <table>
       <tbody>
-        {rows.map((r) => (
-          <tr>
-            <td class="ticker">{r.ticker ?? r.cusip}</td>
-            <td>{r.name}</td>
-            <td class="muted">{r.sector} / {r.industry}</td>
-            <td class="muted">{r.tags.join(', ')}</td>
-            <td class="num muted">
-              {status === 'NEW' && r.current_value !== null && formatUSD(r.current_value)}
-              {status === 'CLOSED' && r.prior_value !== null && `was ${formatUSD(r.prior_value)}`}
-              {(status === 'INCREASED' || status === 'DECREASED') && r.delta_pct !== null &&
-                `${r.delta_pct > 0 ? '+' : ''}${formatPct(r.delta_pct)}`}
-            </td>
-            <td class={`num delta delta-${styles.tone}`}>
-              {status === 'NEW' && 'NEW'}
-              {status === 'CLOSED' && 'CLOSED'}
-              {status === 'INCREASED' && `+${formatUSD(r.delta_value)}`}
-              {status === 'DECREASED' && `−${formatUSD(Math.abs(r.delta_value))}`}
-            </td>
-          </tr>
-        ))}
+        {rows.map((r) => {
+          const broad = broadLabelsFor(r.tags);
+          const granular = granularLabelsFor(r.tags);
+          return (
+            <tr>
+              <td class="ticker">{r.ticker ?? r.cusip}</td>
+              <td>{r.name}</td>
+              <td class="muted">{r.sector} / {r.industry}</td>
+              <td class="muted">{broad.length === 0 ? '—' : broad.join(', ')}</td>
+              <td class="muted granular">{granular.length === 0 ? '—' : granular.join(', ')}</td>
+              <td class="num muted">
+                {status === 'NEW' && r.current_value !== null && formatUSD(r.current_value)}
+                {status === 'CLOSED' && r.prior_value !== null && `was ${formatUSD(r.prior_value)}`}
+                {(status === 'INCREASED' || status === 'DECREASED') && r.delta_pct !== null &&
+                  `${r.delta_pct > 0 ? '+' : ''}${formatPct(r.delta_pct)}`}
+              </td>
+              <td class={`num delta delta-${styles.tone}`}>
+                {status === 'NEW' && 'NEW'}
+                {status === 'CLOSED' && 'CLOSED'}
+                {status === 'INCREASED' && `+${formatUSD(r.delta_value)}`}
+                {status === 'DECREASED' && `−${formatUSD(Math.abs(r.delta_value))}`}
+              </td>
+            </tr>
+          );
+        })}
       </tbody>
     </table>
   </section>
@@ -97,4 +128,8 @@ const summaryText =
   td.delta { font-weight: 600; }
   td.delta-pos { color: var(--pos); }
   td.delta-neg { color: var(--neg); }
+
+  @media (max-width: 700px) {
+    td.granular { display: none; }
+  }
 </style>
