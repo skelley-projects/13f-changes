@@ -42,6 +42,7 @@ describe('computeDiff — movement categorization', () => {
     expect(diff.movements.closed.map(r => r.cusip)).toEqual(['B']);
     expect(diff.movements.increased.map(r => r.cusip)).toEqual(['A']);
     expect(diff.movements.decreased.map(r => r.cusip)).toEqual(['D']);
+    expect(diff.movements.activity).toEqual([]);
     expect(diff.movements.unchanged_count).toBe(1);
   });
 
@@ -54,6 +55,45 @@ describe('computeDiff — movement categorization', () => {
     const diff = computeDiff({ current, prior, securities: NO_SECURITIES, tags: NO_TAGS });
     expect(diff.movements.new).toHaveLength(1);
     expect(diff.movements.new[0].cusip).toBe('X');
+  });
+
+  it('moves simultaneous same-ticker buys and sells into activity', () => {
+    const securities: SecuritiesFile = {
+      EQTYCUSP1: { cusip: 'EQTYCUSP1', ticker: 'LITE', name: 'Lumentum Holdings Inc',
+        sector: 'Information Technology', industry: 'Communication Equipment',
+        ticker_source: 'manual-override', sector_source: 'manual-override', classified_at: '' },
+      NOTECUSP1: { cusip: 'NOTECUSP1', ticker: 'LITE', name: 'Lumentum Holdings Inc - Conv Notes',
+        sector: 'Information Technology', industry: 'Communication Equipment',
+        ticker_source: 'manual-override', sector_source: 'manual-override', classified_at: '' },
+      TRUEBUY01: { cusip: 'TRUEBUY01', ticker: 'NEWC', name: 'True New Co',
+        sector: 'Industrials', industry: 'Machinery',
+        ticker_source: 'manual-override', sector_source: 'manual-override', classified_at: '' },
+      TRUESELL1: { cusip: 'TRUESELL1', ticker: 'EXIT', name: 'True Exit Co',
+        sector: 'Industrials', industry: 'Machinery',
+        ticker_source: 'manual-override', sector_source: 'manual-override', classified_at: '' },
+    };
+    const prior = filing('Q3', [
+      pos({ cusip: 'NOTECUSP1', shares: 100, value: 70_000 }),
+      pos({ cusip: 'TRUESELL1', shares: 100, value: 10_000 }),
+    ]);
+    const current = filing('Q4', [
+      pos({ cusip: 'EQTYCUSP1', shares: 300, value: 480_000 }),
+      pos({ cusip: 'TRUEBUY01', shares: 100, value: 20_000 }),
+    ]);
+
+    const diff = computeDiff({ current, prior, securities, tags: NO_TAGS });
+
+    expect(diff.movements.new.map(r => r.cusip)).toEqual(['TRUEBUY01']);
+    expect(diff.movements.closed.map(r => r.cusip)).toEqual(['TRUESELL1']);
+    expect(diff.movements.activity).toHaveLength(1);
+    expect(diff.movements.activity[0]).toMatchObject({
+      ticker: 'LITE',
+      current_value: 480_000,
+      prior_value: 70_000,
+      net_delta_value: 410_000,
+    });
+    expect(diff.movements.activity[0].bought.map(r => r.cusip)).toEqual(['EQTYCUSP1']);
+    expect(diff.movements.activity[0].sold.map(r => r.cusip)).toEqual(['NOTECUSP1']);
   });
 
   it('totals are computed correctly', () => {

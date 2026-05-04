@@ -1,5 +1,5 @@
 import type {
-  FilingFile, Position, SecuritiesFile, TagsFile, MovementRow, DiffFile, Breakdown,
+  FilingFile, Position, SecuritiesFile, TagsFile, MovementRow, MovementActivity, DiffFile, Breakdown,
   BreakdownDelta, BreakdownEntry,
 } from './types.js';
 
@@ -52,6 +52,7 @@ export function computeDiff(input: ComputeDiffInput): DiffFile {
     closed: [] as MovementRow[],
     increased: [] as MovementRow[],
     decreased: [] as MovementRow[],
+    activity: [] as MovementActivity[],
     unchanged_count: 0,
     unchanged_value: 0,
   };
@@ -83,10 +84,15 @@ export function computeDiff(input: ComputeDiffInput): DiffFile {
     movements.closed.push(row);
   }
 
+  movements.activity = extractBuySellActivity(movements.new, movements.closed);
+
   // sort each bucket by absolute |delta_value| desc
   for (const bucket of ['new', 'closed', 'increased', 'decreased'] as const) {
     movements[bucket].sort((a, b) => Math.abs(b.delta_value) - Math.abs(a.delta_value));
   }
+  movements.activity.sort((a, b) =>
+    Math.max(b.current_value, b.prior_value) - Math.max(a.current_value, a.prior_value),
+  );
 
   const sectorKey = (p: Position): string =>
     securities[p.cusip]?.sector ?? 'Unclassified';
@@ -108,6 +114,76 @@ export function computeDiff(input: ComputeDiffInput): DiffFile {
     granular_breakdown: granular.breakdown,
     granular_coverage_pct: granular.coverage_pct,
   };
+}
+
+function activityKey(row: MovementRow): string | null {
+  if (row.ticker) return `ticker:${row.ticker.toUpperCase()}`;
+  const normalized = row.name
+    .toUpperCase()
+    .replace(/\b(CONV|CONVERTIBLE)\b.*$/g, '')
+    .replace(/\b(CL|CLASS)\s+[A-Z]\b/g, '')
+    .replace(/\b(COM|COMMON|INC|CORP|LTD|PLC|HLDGS|HOLDINGS)\b/g, '')
+    .replace(/[^A-Z0-9]/g, '');
+  return normalized.length >= 4 ? `name:${normalized}` : null;
+}
+
+function groupRows(rows: MovementRow[]): Map<string, MovementRow[]> {
+  const grouped = new Map<string, MovementRow[]>();
+  for (const row of rows) {
+    const key = activityKey(row);
+    if (!key) continue;
+    const bucket = grouped.get(key) ?? [];
+    bucket.push(row);
+    grouped.set(key, bucket);
+  }
+  return grouped;
+}
+
+function sumRows(rows: MovementRow[], field: 'current_value' | 'prior_value'): number {
+  return rows.reduce((sum, row) => sum + (row[field] ?? 0), 0);
+}
+
+function extractBuySellActivity(newRows: MovementRow[], closedRows: MovementRow[]): MovementActivity[] {
+  const newByKey = groupRows(newRows);
+  const closedByKey = groupRows(closedRows);
+  const activityKeys = new Set(
+    [...newByKey.keys()].filter(key => closedByKey.has(key)),
+  );
+  if (activityKeys.size === 0) return [];
+
+  const activity: MovementActivity[] = [];
+  for (const key of activityKeys) {
+    const bought = newByKey.get(key)!;
+    const sold = closedByKey.get(key)!;
+    const representative = bought[0] ?? sold[0];
+    const tags = Array.from(new Set([...bought, ...sold].flatMap(row => row.tags)));
+    const currentValue = sumRows(bought, 'current_value');
+    const priorValue = sumRows(sold, 'prior_value');
+    activity.push({
+      key,
+      ticker: representative.ticker,
+      name: representative.name,
+      sector: representative.sector,
+      industry: representative.industry,
+      tags,
+      bought,
+      sold,
+      current_value: currentValue,
+      prior_value: priorValue,
+      net_delta_value: currentValue - priorValue,
+    });
+  }
+
+  for (let i = newRows.length - 1; i >= 0; i--) {
+    const key = activityKey(newRows[i]);
+    if (key && activityKeys.has(key)) newRows.splice(i, 1);
+  }
+  for (let i = closedRows.length - 1; i >= 0; i--) {
+    const key = activityKey(closedRows[i]);
+    if (key && activityKeys.has(key)) closedRows.splice(i, 1);
+  }
+
+  return activity;
 }
 
 function buildThemeBreakdown(

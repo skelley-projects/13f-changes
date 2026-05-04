@@ -1,0 +1,132 @@
+---
+import { formatPct, formatShares, formatUSD } from '../lib/format';
+import { buildPositionPerformance } from '../lib/performance';
+import type { FilingFile, PriceSnapshotFile, SecuritiesFile } from '../../scripts/types';
+
+interface Props {
+  filing: FilingFile;
+  securities: SecuritiesFile;
+  prices: PriceSnapshotFile | null;
+}
+
+const { filing, securities, prices } = Astro.props;
+const rows = buildPositionPerformance(filing, securities, prices);
+const totalDelta = rows.reduce((sum, row) => sum + row.delta_value, 0);
+const latestAsOf = rows
+  .map(row => row.as_of)
+  .sort()
+  .at(-1);
+
+function formatPrice(price: number): string {
+  return `$${price.toFixed(price >= 100 ? 2 : 2)}`;
+}
+---
+{rows.length === 0 ? null : (
+  <details class="performance" open>
+    <summary>
+      <strong>Mark-to-market since quarter-end</strong>
+      {' '}<span class={`num ${totalDelta >= 0 ? 'pos' : 'neg'}`}>
+        {totalDelta >= 0 ? '+' : '-'}{formatUSD(Math.abs(totalDelta))}
+      </span>
+      {latestAsOf && (
+        <span class="hint">latest quotes: {new Date(latestAsOf).toLocaleDateString('en-US')}</span>
+      )}
+    </summary>
+    <p class="note">
+      Estimated from reported quarter-end value per share versus latest Yahoo Finance quotes. This is not cost basis or realized fund P/L.
+    </p>
+    <table>
+      <thead>
+        <tr>
+          <th>Ticker</th><th>Name</th>
+          <th class="num">Shares</th><th class="num">13F price</th>
+          <th class="num">Latest</th><th class="num">Move</th><th class="num">Est. value move</th>
+        </tr>
+      </thead>
+      <tbody>
+        {rows.map(row => (
+          <tr>
+            <td class="ticker">{row.ticker}</td>
+            <td>{row.name}</td>
+            <td class="num muted">{formatShares(row.shares)}</td>
+            <td class="num muted">{formatPrice(row.reported_price)}</td>
+            <td class="num">{formatPrice(row.latest_price)}</td>
+            <td class={`num ${row.delta_pct >= 0 ? 'pos' : 'neg'}`}>
+              {row.delta_pct >= 0 ? '+' : ''}{formatPct(row.delta_pct)}
+            </td>
+            <td class={`num ${row.delta_value >= 0 ? 'pos' : 'neg'}`}>
+              {row.delta_value >= 0 ? '+' : '-'}{formatUSD(Math.abs(row.delta_value))}
+            </td>
+          </tr>
+        ))}
+      </tbody>
+    </table>
+  </details>
+)}
+
+<style>
+  .performance {
+    border: 1px solid var(--border);
+    border-radius: 4px;
+    padding: 12px 14px;
+    margin-bottom: 16px;
+    background: var(--bg-elev);
+  }
+  summary {
+    cursor: pointer;
+    font-size: 0.825rem;
+    color: var(--fg);
+    list-style: none;
+  }
+  summary::-webkit-details-marker { display: none; }
+  summary::before {
+    content: '> ';
+    color: var(--accent);
+    font-family: var(--font-mono);
+  }
+  details[open] summary::before { content: 'v '; }
+  .hint {
+    color: var(--fg-dim);
+    font-style: italic;
+    margin-left: 6px;
+    font-size: 0.75rem;
+  }
+  .note {
+    color: var(--fg-muted);
+    font-size: 0.75rem;
+    line-height: 1.45;
+    margin: 8px 0 0;
+  }
+  .num { font-family: var(--font-mono); }
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 0.8rem;
+    margin-top: 12px;
+  }
+  th {
+    text-align: left;
+    padding: 6px 10px;
+    font-family: var(--font-mono);
+    font-weight: 500;
+    font-size: 0.7rem;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    color: var(--accent);
+    border-bottom: 1px solid var(--border-strong);
+  }
+  td { padding: 5px 10px; border-bottom: 1px solid var(--border); }
+  tr:last-child td { border-bottom: none; }
+  td.num, th.num { text-align: right; font-family: var(--font-mono); }
+  td.muted { color: var(--fg-muted); }
+  td.ticker { font-family: var(--font-mono); font-weight: 600; }
+  .pos { color: var(--pos); }
+  .neg { color: var(--neg); }
+
+  @media (max-width: 700px) {
+    th:nth-child(3), td:nth-child(3),
+    th:nth-child(4), td:nth-child(4) {
+      display: none;
+    }
+  }
+</style>

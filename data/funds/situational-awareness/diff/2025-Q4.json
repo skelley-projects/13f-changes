@@ -10,62 +10,6 @@
   "movements": {
     "new": [
       {
-        "cusip": "093712107",
-        "ticker": "BE",
-        "name": "BLOOM ENERGY CORP- A",
-        "sector": "Industrials",
-        "industry": "Electrical Equipment & Parts",
-        "tags": [
-          "ai-infra-power"
-        ],
-        "current_value": 875505552,
-        "prior_value": null,
-        "current_shares": 10076022,
-        "prior_shares": null,
-        "delta_value": 875505552,
-        "delta_shares": 10076022,
-        "delta_pct": null,
-        "current_pct_of_portfolio": 15.869927541660337
-      },
-      {
-        "cusip": "55024U109",
-        "ticker": "LITE",
-        "name": "LUMENTUM HOLDINGS INC",
-        "sector": "Information Technology",
-        "industry": "Communication Equipment",
-        "tags": [
-          "ai-compute",
-          "photonics"
-        ],
-        "current_value": 478577256,
-        "prior_value": null,
-        "current_shares": 1298400,
-        "prior_shares": null,
-        "delta_value": 478577256,
-        "delta_shares": 1298400,
-        "delta_pct": null,
-        "current_pct_of_portfolio": 8.674972258550143
-      },
-      {
-        "cusip": "17253J106",
-        "ticker": "CIFR",
-        "name": "CIPHER MINING INC",
-        "sector": "Information Technology",
-        "industry": "Information Technology Services",
-        "tags": [
-          "bitcoin-mining",
-          "ai-infra-power"
-        ],
-        "current_value": 154523813,
-        "prior_value": null,
-        "current_shares": 10469093,
-        "prior_shares": null,
-        "delta_value": 154523813,
-        "delta_shares": 10469093,
-        "delta_pct": null,
-        "current_pct_of_portfolio": 2.800989337153937
-      },
-      {
         "cusip": "49427F108",
         "ticker": "KRC",
         "name": "KILROY REALTY CORP",
@@ -99,24 +43,6 @@
         "delta_shares": 700000,
         "delta_pct": null,
         "current_pct_of_portfolio": 0.680109543569286
-      },
-      {
-        "cusip": "093712107",
-        "ticker": "BE",
-        "name": "BLOOM ENERGY CORP- A",
-        "sector": "Industrials",
-        "industry": "Electrical Equipment & Parts",
-        "tags": [
-          "ai-infra-power"
-        ],
-        "current_value": 35494565,
-        "prior_value": null,
-        "current_shares": 408500,
-        "prior_shares": null,
-        "delta_value": 35494565,
-        "delta_shares": 408500,
-        "delta_pct": null,
-        "current_pct_of_portfolio": 0.6433953198651481
       },
       {
         "cusip": "G96115103",
@@ -410,44 +336,6 @@
         "current_pct_of_portfolio": null
       },
       {
-        "cusip": "17253JAA4",
-        "ticker": "CIFR",
-        "name": "CIPHER MINING INC - CONV NOTES",
-        "sector": "Information Technology",
-        "industry": "IT Services",
-        "tags": [
-          "bitcoin-mining",
-          "ai-infra-power"
-        ],
-        "current_value": null,
-        "prior_value": 72272807,
-        "current_shares": null,
-        "prior_shares": 5740493,
-        "delta_value": -72272807,
-        "delta_shares": -5740493,
-        "delta_pct": null,
-        "current_pct_of_portfolio": null
-      },
-      {
-        "cusip": "55024UAD1",
-        "ticker": "LITE",
-        "name": "LUMENTUM HOLDINGS INC - CONV NOTES",
-        "sector": "Information Technology",
-        "industry": "Communication Equipment",
-        "tags": [
-          "ai-compute",
-          "photonics"
-        ],
-        "current_value": null,
-        "prior_value": 67947696,
-        "current_shares": null,
-        "prior_shares": 417600,
-        "delta_value": -67947696,
-        "delta_shares": -417600,
-        "delta_pct": null,
-        "current_pct_of_portfolio": null
-      },
-      {
         "cusip": "595112103",
         "ticker": "MU",
         "name": "MICRON TECHNOLOGY INC",
@@ -466,24 +354,6 @@
         "current_pct_of_portfolio": null
       },
       {
-        "cusip": "093712AH0",
-        "ticker": "BE",
-        "name": "BLOOM ENERGY CORP - CONV NOTES",
-        "sector": "Industrials",
-        "industry": "Electrical Equipment & Parts",
-        "tags": [
-          "ai-infra-power"
-        ],
-        "current_value": null,
-        "prior_value": 43890344,
-        "current_shares": null,
-        "prior_shares": 3048002,
-        "delta_value": -43890344,
-        "delta_shares": -3048002,
-        "delta_pct": null,
-        "current_pct_of_portfolio": null
-      },
-      {
         "cusip": "958102AT2",
         "ticker": "WDC",
         "name": "WESTERN DIGITAL CORP - CONV NOTES",
@@ -498,24 +368,6 @@
         "prior_shares": 152821,
         "delta_value": -18347689,
         "delta_shares": -152821,
-        "delta_pct": null,
-        "current_pct_of_portfolio": null
-      },
-      {
-        "cusip": "093712AH0",
-        "ticker": "BE",
-        "name": "BLOOM ENERGY CORP - CONV NOTES",
-        "sector": "Industrials",
-        "industry": "Electrical Equipment & Parts",
-        "tags": [
-          "ai-infra-power"
-        ],
-        "current_value": null,
-        "prior_value": 12330306,
-        "current_shares": null,
-        "prior_shares": 145800,
-        "delta_value": -12330306,
-        "delta_shares": -145800,
         "delta_pct": null,
         "current_pct_of_portfolio": null
       },
@@ -784,6 +636,209 @@
       }
     ],
     "decreased": [],
+    "activity": [
+      {
+        "key": "ticker:BE",
+        "ticker": "BE",
+        "name": "BLOOM ENERGY CORP- A",
+        "sector": "Industrials",
+        "industry": "Electrical Equipment & Parts",
+        "tags": [
+          "ai-infra-power"
+        ],
+        "bought": [
+          {
+            "cusip": "093712107",
+            "ticker": "BE",
+            "name": "BLOOM ENERGY CORP- A",
+            "sector": "Industrials",
+            "industry": "Electrical Equipment & Parts",
+            "tags": [
+              "ai-infra-power"
+            ],
+            "current_value": 875505552,
+            "prior_value": null,
+            "current_shares": 10076022,
+            "prior_shares": null,
+            "delta_value": 875505552,
+            "delta_shares": 10076022,
+            "delta_pct": null,
+            "current_pct_of_portfolio": 15.869927541660337
+          },
+          {
+            "cusip": "093712107",
+            "ticker": "BE",
+            "name": "BLOOM ENERGY CORP- A",
+            "sector": "Industrials",
+            "industry": "Electrical Equipment & Parts",
+            "tags": [
+              "ai-infra-power"
+            ],
+            "current_value": 35494565,
+            "prior_value": null,
+            "current_shares": 408500,
+            "prior_shares": null,
+            "delta_value": 35494565,
+            "delta_shares": 408500,
+            "delta_pct": null,
+            "current_pct_of_portfolio": 0.6433953198651481
+          }
+        ],
+        "sold": [
+          {
+            "cusip": "093712AH0",
+            "ticker": "BE",
+            "name": "BLOOM ENERGY CORP - CONV NOTES",
+            "sector": "Industrials",
+            "industry": "Electrical Equipment & Parts",
+            "tags": [
+              "ai-infra-power"
+            ],
+            "current_value": null,
+            "prior_value": 43890344,
+            "current_shares": null,
+            "prior_shares": 3048002,
+            "delta_value": -43890344,
+            "delta_shares": -3048002,
+            "delta_pct": null,
+            "current_pct_of_portfolio": null
+          },
+          {
+            "cusip": "093712AH0",
+            "ticker": "BE",
+            "name": "BLOOM ENERGY CORP - CONV NOTES",
+            "sector": "Industrials",
+            "industry": "Electrical Equipment & Parts",
+            "tags": [
+              "ai-infra-power"
+            ],
+            "current_value": null,
+            "prior_value": 12330306,
+            "current_shares": null,
+            "prior_shares": 145800,
+            "delta_value": -12330306,
+            "delta_shares": -145800,
+            "delta_pct": null,
+            "current_pct_of_portfolio": null
+          }
+        ],
+        "current_value": 911000117,
+        "prior_value": 56220650,
+        "net_delta_value": 854779467
+      },
+      {
+        "key": "ticker:LITE",
+        "ticker": "LITE",
+        "name": "LUMENTUM HOLDINGS INC",
+        "sector": "Information Technology",
+        "industry": "Communication Equipment",
+        "tags": [
+          "ai-compute",
+          "photonics"
+        ],
+        "bought": [
+          {
+            "cusip": "55024U109",
+            "ticker": "LITE",
+            "name": "LUMENTUM HOLDINGS INC",
+            "sector": "Information Technology",
+            "industry": "Communication Equipment",
+            "tags": [
+              "ai-compute",
+              "photonics"
+            ],
+            "current_value": 478577256,
+            "prior_value": null,
+            "current_shares": 1298400,
+            "prior_shares": null,
+            "delta_value": 478577256,
+            "delta_shares": 1298400,
+            "delta_pct": null,
+            "current_pct_of_portfolio": 8.674972258550143
+          }
+        ],
+        "sold": [
+          {
+            "cusip": "55024UAD1",
+            "ticker": "LITE",
+            "name": "LUMENTUM HOLDINGS INC - CONV NOTES",
+            "sector": "Information Technology",
+            "industry": "Communication Equipment",
+            "tags": [
+              "ai-compute",
+              "photonics"
+            ],
+            "current_value": null,
+            "prior_value": 67947696,
+            "current_shares": null,
+            "prior_shares": 417600,
+            "delta_value": -67947696,
+            "delta_shares": -417600,
+            "delta_pct": null,
+            "current_pct_of_portfolio": null
+          }
+        ],
+        "current_value": 478577256,
+        "prior_value": 67947696,
+        "net_delta_value": 410629560
+      },
+      {
+        "key": "ticker:CIFR",
+        "ticker": "CIFR",
+        "name": "CIPHER MINING INC",
+        "sector": "Information Technology",
+        "industry": "Information Technology Services",
+        "tags": [
+          "bitcoin-mining",
+          "ai-infra-power"
+        ],
+        "bought": [
+          {
+            "cusip": "17253J106",
+            "ticker": "CIFR",
+            "name": "CIPHER MINING INC",
+            "sector": "Information Technology",
+            "industry": "Information Technology Services",
+            "tags": [
+              "bitcoin-mining",
+              "ai-infra-power"
+            ],
+            "current_value": 154523813,
+            "prior_value": null,
+            "current_shares": 10469093,
+            "prior_shares": null,
+            "delta_value": 154523813,
+            "delta_shares": 10469093,
+            "delta_pct": null,
+            "current_pct_of_portfolio": 2.800989337153937
+          }
+        ],
+        "sold": [
+          {
+            "cusip": "17253JAA4",
+            "ticker": "CIFR",
+            "name": "CIPHER MINING INC - CONV NOTES",
+            "sector": "Information Technology",
+            "industry": "IT Services",
+            "tags": [
+              "bitcoin-mining",
+              "ai-infra-power"
+            ],
+            "current_value": null,
+            "prior_value": 72272807,
+            "current_shares": null,
+            "prior_shares": 5740493,
+            "delta_value": -72272807,
+            "delta_shares": -5740493,
+            "delta_pct": null,
+            "current_pct_of_portfolio": null
+          }
+        ],
+        "current_value": 154523813,
+        "prior_value": 72272807,
+        "net_delta_value": 82251006
+      }
+    ],
     "unchanged_count": 1,
     "unchanged_value": 746760060
   },

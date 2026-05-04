@@ -3,11 +3,13 @@ import Layout from '../../components/Layout.astro';
 import FundHeader from '../../components/FundHeader.astro';
 import ChangeHero from '../../components/ChangeHero.astro';
 import SectorDeltaBars from '../../components/SectorDeltaBars.astro';
+import ActivityTable from '../../components/ActivityTable.astro';
 import MovementTable from '../../components/MovementTable.astro';
+import PerformanceTable from '../../components/PerformanceTable.astro';
 import HoldingsTable from '../../components/HoldingsTable.astro';
 import ContactCTA from '../../components/ContactCTA.astro';
 import {
-  loadFunds, loadFundQuarters, loadFiling, loadDiff, loadSecurities, loadFundTags,
+  loadFunds, loadFundQuarters, loadFiling, loadDiff, loadSecurities, loadFundTags, loadPriceSnapshot,
 } from '../../lib/data';
 
 export async function getStaticPaths() {
@@ -30,20 +32,20 @@ const filing = loadFiling(slug!, currentQuarter.period);
 const diff = loadDiff(slug!, currentQuarter.period);
 const securities = loadSecurities();
 const tagsFile = loadFundTags(slug!);
+const prices = loadPriceSnapshot();
 
 if (!filing || !diff) {
   throw new Error(`Missing filing or diff for ${slug} ${currentQuarter.period}`);
 }
 
-const unchangedCusips = new Set<string>();
-const inDiff = new Set([
-  ...diff.movements.new.map(r => r.cusip),
-  ...diff.movements.closed.map(r => r.cusip),
-  ...diff.movements.increased.map(r => r.cusip),
-  ...diff.movements.decreased.map(r => r.cusip),
-]);
+const priorFiling = priorQuarter ? loadFiling(slug!, priorQuarter.period) : null;
+const positionKey = (p: { cusip: string; title_of_class: string; put_call: string | null }) =>
+  `${p.cusip}|${p.title_of_class}|${p.put_call ?? ''}`;
+const priorPositions = new Map((priorFiling?.positions ?? []).map(p => [positionKey(p), p]));
+const unchangedKeys = new Set<string>();
 for (const p of filing.positions) {
-  if (!inDiff.has(p.cusip)) unchangedCusips.add(p.cusip);
+  const priorPosition = priorPositions.get(positionKey(p));
+  if (priorPosition && priorPosition.shares === p.shares) unchangedKeys.add(positionKey(p));
 }
 ---
 <Layout title={`${fund.name} — 13f-changes`} width="default">
@@ -72,6 +74,7 @@ for (const p of filing.positions) {
   {diff.prior_period && (
     <section class="movements">
       <div class="section-label">Position movements</div>
+      <ActivityTable rows={diff.movements.activity ?? []} taxonomy={tagsFile.taxonomy} />
       <MovementTable status="NEW" rows={diff.movements.new} taxonomy={tagsFile.taxonomy} />
       <MovementTable status="INCREASED" rows={diff.movements.increased} taxonomy={tagsFile.taxonomy} />
       <MovementTable status="DECREASED" rows={diff.movements.decreased} taxonomy={tagsFile.taxonomy} />
@@ -79,11 +82,13 @@ for (const p of filing.positions) {
     </section>
   )}
 
+  <PerformanceTable filing={filing} securities={securities} prices={prices} />
+
   <HoldingsTable
     filing={filing}
     securities={securities}
     unchangedOnly={diff.prior_period !== null}
-    unchangedCusips={unchangedCusips}
+    unchangedKeys={unchangedKeys}
     taxonomy={tagsFile.taxonomy}
     assignments={tagsFile.assignments}
   />

@@ -9,11 +9,12 @@ interface Props {
 const { diff, summary } = Astro.props;
 const m = diff.movements;
 const netFlow = diff.totals.net_flow;
-const flowSign = netFlow >= 0 ? '+' : '−';
+const activityCount = m.activity?.length ?? 0;
+const flowSign = netFlow >= 0 ? '+' : '-';
 ---
 {diff.prior_period === null ? (
   <section class="hero first-filing">
-    <p class="banner">First filing on record — no prior-quarter comparison available yet.</p>
+    <p class="banner">First filing on record &mdash; no prior-quarter comparison available yet.</p>
   </section>
 ) : (
   <section class="hero">
@@ -21,9 +22,12 @@ const flowSign = netFlow >= 0 ? '+' : '−';
     <p class="summary">{summary}</p>
     <div class="counts">
       <span><strong class="up">+{m.new.length}</strong> new</span>
-      <span><strong class="down">−{m.closed.length}</strong> closed</span>
-      <span><strong class="up">↑{m.increased.length}</strong> increased</span>
-      <span><strong class="down">↓{m.decreased.length}</strong> decreased</span>
+      <span><strong class="down">&minus;{m.closed.length}</strong> closed</span>
+      {activityCount > 0 && (
+        <span><strong class="activity">&harr;{activityCount}</strong> activity</span>
+      )}
+      <span><strong class="up">&uarr;{m.increased.length}</strong> increased</span>
+      <span><strong class="down">&darr;{m.decreased.length}</strong> decreased</span>
       <span class="muted">| {m.unchanged_count} unchanged</span>
       <span class="net">net <span class={netFlow >= 0 ? 'up' : 'down'}>{flowSign}{formatUSD(Math.abs(netFlow))}</span></span>
     </div>
@@ -67,6 +71,7 @@ const flowSign = netFlow >= 0 ? '+' : '−';
   .counts strong { font-family: var(--font-mono); }
   .up { color: var(--pos); }
   .down { color: var(--neg); }
+  .activity { color: var(--accent); }
   .muted { color: var(--fg-muted); }
   .net { font-weight: 600; font-family: var(--font-mono); }
 </style>

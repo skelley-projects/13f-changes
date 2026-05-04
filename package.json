@@ -16,7 +16,8 @@
     "classify": "tsx scripts/run-classify-securities.ts",
     "validate": "tsx scripts/run-validate.ts",
     "poll-edgar": "tsx scripts/run-poll-edgar.ts",
-    "remind": "tsx scripts/run-remind.ts"
+    "remind": "tsx scripts/run-remind.ts",
+    "refresh-prices": "tsx scripts/run-refresh-prices.ts"
   },
   "dependencies": {
     "astro": "^6.2.1",

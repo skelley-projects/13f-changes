@@ -1,0 +1,729 @@
+{
+  "fetched_at": "2026-05-04T14:26:18.764Z",
+  "source": "yahoo-finance",
+  "records": {
+    "AA": {
+      "ticker": "AA",
+      "price": 62.45,
+      "currency": "USD",
+      "as_of": "2026-05-04T14:26:09.000Z",
+      "market_state": "REGULAR",
+      "quote_source": "Nasdaq Real Time Price",
+      "source": "yahoo-finance"
+    },
+    "AAL": {
+      "ticker": "AAL",
+      "price": 11.965,
+      "currency": "USD",
+      "as_of": "2026-05-04T14:26:08.000Z",
+      "market_state": "REGULAR",
+      "quote_source": "Nasdaq Real Time Price",
+      "source": "yahoo-finance"
+    },
+    "ADMA": {
+      "ticker": "ADMA",
+      "price": 10.515,
+      "currency": "USD",
+      "as_of": "2026-05-04T14:26:10.000Z",
+      "market_state": "REGULAR",
+      "quote_source": "Nasdaq Real Time Price",
+      "source": "yahoo-finance"
+    },
+    "AEVA": {
+      "ticker": "AEVA",
+      "price": 15.93,
+      "currency": "USD",
+      "as_of": "2026-05-04T14:25:54.000Z",
+      "market_state": "REGULAR",
+      "quote_source": "Nasdaq Real Time Price",
+      "source": "yahoo-finance"
+    },
+    "AGX": {
+      "ticker": "AGX",
+      "price": 698.62,
+      "currency": "USD",
+      "as_of": "2026-05-04T14:25:57.000Z",
+      "market_state": "REGULAR",
+      "quote_source": "Nasdaq Real Time Price",
+      "source": "yahoo-finance"
+    },
+    "ALM": {
+      "ticker": "ALM",
+      "price": 20.37,
+      "currency": "USD",
+      "as_of": "2026-05-04T14:26:10.000Z",
+      "market_state": "REGULAR",
+      "quote_source": "Nasdaq Real Time Price",
+      "source": "yahoo-finance"
+    },
+    "AMZN": {
+      "ticker": "AMZN",
+      "price": 271.63,
+      "currency": "USD",
+      "as_of": "2026-05-04T14:26:11.000Z",
+      "market_state": "REGULAR",
+      "quote_source": "Delayed Quote",
+      "source": "yahoo-finance"
+    },
+    "APLD": {
+      "ticker": "APLD",
+      "price": 34.25,
+      "currency": "USD",
+      "as_of": "2026-05-04T14:26:10.000Z",
+      "market_state": "REGULAR",
+      "quote_source": "Nasdaq Real Time Price",
+      "source": "yahoo-finance"
+    },
+    "BE": {
+      "ticker": "BE",
+      "price": 289.61,
+      "currency": "USD",
+      "as_of": "2026-05-04T14:26:10.000Z",
+      "market_state": "REGULAR",
+      "quote_source": "Nasdaq Real Time Price",
+      "source": "yahoo-finance"
+    },
+    "BITF": {
+      "ticker": "BITF",
+      "price": 1.98,
+      "currency": "USD",
+      "as_of": "2026-04-02T20:00:02.000Z",
+      "market_state": "REGULAR",
+      "quote_source": "Nasdaq Real Time Price",
+      "source": "yahoo-finance"
+    },
+    "BTDR": {
+      "ticker": "BTDR",
+      "price": 12.145,
+      "currency": "USD",
+      "as_of": "2026-05-04T14:26:09.000Z",
+      "market_state": "REGULAR",
+      "quote_source": "Nasdaq Real Time Price",
+      "source": "yahoo-finance"
+    },
+    "BW": {
+      "ticker": "BW",
+      "price": 13.835,
+      "currency": "USD",
+      "as_of": "2026-05-04T14:26:07.000Z",
+      "market_state": "REGULAR",
+      "quote_source": "Nasdaq Real Time Price",
+      "source": "yahoo-finance"
+    },
+    "CIFR": {
+      "ticker": "CIFR",
+      "price": 17.7,
+      "currency": "USD",
+      "as_of": "2026-05-04T14:26:10.000Z",
+      "market_state": "REGULAR",
+      "quote_source": "Nasdaq Real Time Price",
+      "source": "yahoo-finance"
+    },
+    "CLF": {
+      "ticker": "CLF",
+      "price": 10.425,
+      "currency": "USD",
+      "as_of": "2026-05-04T14:26:06.000Z",
+      "market_state": "REGULAR",
+      "quote_source": "Nasdaq Real Time Price",
+      "source": "yahoo-finance"
+    },
+    "CLSK": {
+      "ticker": "CLSK",
+      "price": 12.52,
+      "currency": "USD",
+      "as_of": "2026-05-04T14:26:09.000Z",
+      "market_state": "REGULAR",
+      "quote_source": "Nasdaq Real Time Price",
+      "source": "yahoo-finance"
+    },
+    "CMG": {
+      "ticker": "CMG",
+      "price": 32.82,
+      "currency": "USD",
+      "as_of": "2026-05-04T14:26:09.000Z",
+      "market_state": "REGULAR",
+      "quote_source": "Nasdaq Real Time Price",
+      "source": "yahoo-finance"
+    },
+    "COGT": {
+      "ticker": "COGT",
+      "price": 36.9385,
+      "currency": "USD",
+      "as_of": "2026-05-04T14:26:10.000Z",
+      "market_state": "REGULAR",
+      "quote_source": "Nasdaq Real Time Price",
+      "source": "yahoo-finance"
+    },
+    "COHR": {
+      "ticker": "COHR",
+      "price": 327.3601,
+      "currency": "USD",
+      "as_of": "2026-05-04T14:26:08.000Z",
+      "market_state": "REGULAR",
+      "quote_source": "Nasdaq Real Time Price",
+      "source": "yahoo-finance"
+    },
+    "CORZ": {
+      "ticker": "CORZ",
+      "price": 20.65,
+      "currency": "USD",
+      "as_of": "2026-05-04T14:26:08.000Z",
+      "market_state": "REGULAR",
+      "quote_source": "Nasdaq Real Time Price",
+      "source": "yahoo-finance"
+    },
+    "CPNG": {
+      "ticker": "CPNG",
+      "price": 20.715,
+      "currency": "USD",
+      "as_of": "2026-05-04T14:26:07.000Z",
+      "market_state": "REGULAR",
+      "quote_source": "Nasdaq Real Time Price",
+      "source": "yahoo-finance"
+    },
+    "CRH": {
+      "ticker": "CRH",
+      "price": 113.09,
+      "currency": "USD",
+      "as_of": "2026-05-04T14:26:09.000Z",
+      "market_state": "REGULAR",
+      "quote_source": "Nasdaq Real Time Price",
+      "source": "yahoo-finance"
+    },
+    "CRWV": {
+      "ticker": "CRWV",
+      "price": 127.835,
+      "currency": "USD",
+      "as_of": "2026-05-04T14:26:10.000Z",
+      "market_state": "REGULAR",
+      "quote_source": "Nasdaq Real Time Price",
+      "source": "yahoo-finance"
+    },
+    "DAKT": {
+      "ticker": "DAKT",
+      "price": 19.63,
+      "currency": "USD",
+      "as_of": "2026-05-04T14:25:51.000Z",
+      "market_state": "REGULAR",
+      "quote_source": "Nasdaq Real Time Price",
+      "source": "yahoo-finance"
+    },
+    "DAL": {
+      "ticker": "DAL",
+      "price": 69.845,
+      "currency": "USD",
+      "as_of": "2026-05-04T14:25:58.000Z",
+      "market_state": "REGULAR",
+      "quote_source": "Nasdaq Real Time Price",
+      "source": "yahoo-finance"
+    },
+    "DASH": {
+      "ticker": "DASH",
+      "price": 175.98,
+      "currency": "USD",
+      "as_of": "2026-05-04T14:26:06.000Z",
+      "market_state": "REGULAR",
+      "quote_source": "Nasdaq Real Time Price",
+      "source": "yahoo-finance"
+    },
+    "DOCU": {
+      "ticker": "DOCU",
+      "price": 49.53,
+      "currency": "USD",
+      "as_of": "2026-05-04T14:26:10.000Z",
+      "market_state": "REGULAR",
+      "quote_source": "Nasdaq Real Time Price",
+      "source": "yahoo-finance"
+    },
+    "EEM": {
+      "ticker": "EEM",
+      "price": 64.81,
+      "currency": "USD",
+      "as_of": "2026-05-04T14:26:08.000Z",
+      "market_state": "REGULAR",
+      "quote_source": "Nasdaq Real Time Price",
+      "source": "yahoo-finance"
+    },
+    "ENTG": {
+      "ticker": "ENTG",
+      "price": 137.68,
+      "currency": "USD",
+      "as_of": "2026-05-04T14:26:00.000Z",
+      "market_state": "REGULAR",
+      "quote_source": "Nasdaq Real Time Price",
+      "source": "yahoo-finance"
+    },
+    "EQT": {
+      "ticker": "EQT",
+      "price": 59.29,
+      "currency": "USD",
+      "as_of": "2026-05-04T14:26:00.000Z",
+      "market_state": "REGULAR",
+      "quote_source": "Nasdaq Real Time Price",
+      "source": "yahoo-finance"
+    },
+    "EWZ": {
+      "ticker": "EWZ",
+      "price": 39.62,
+      "currency": "USD",
+      "as_of": "2026-05-04T14:26:03.000Z",
+      "market_state": "REGULAR",
+      "quote_source": "Nasdaq Real Time Price",
+      "source": "yahoo-finance"
+    },
+    "FIGR": {
+      "ticker": "FIGR",
+      "price": 36.72,
+      "currency": "USD",
+      "as_of": "2026-05-04T14:26:07.000Z",
+      "market_state": "REGULAR",
+      "quote_source": "Nasdaq Real Time Price",
+      "source": "yahoo-finance"
+    },
+    "FLUT": {
+      "ticker": "FLUT",
+      "price": 107.52,
+      "currency": "USD",
+      "as_of": "2026-05-04T14:26:03.000Z",
+      "market_state": "REGULAR",
+      "quote_source": "Nasdaq Real Time Price",
+      "source": "yahoo-finance"
+    },
+    "GOOGL": {
+      "ticker": "GOOGL",
+      "price": 382.39,
+      "currency": "USD",
+      "as_of": "2026-05-04T14:26:10.000Z",
+      "market_state": "REGULAR",
+      "quote_source": "Nasdaq Real Time Price",
+      "source": "yahoo-finance"
+    },
+    "GS": {
+      "ticker": "GS",
+      "price": 913.58,
+      "currency": "USD",
+      "as_of": "2026-05-04T14:26:08.000Z",
+      "market_state": "REGULAR",
+      "quote_source": "Nasdaq Real Time Price",
+      "source": "yahoo-finance"
+    },
+    "HUT": {
+      "ticker": "HUT",
+      "price": 75.23,
+      "currency": "USD",
+      "as_of": "2026-05-04T14:26:10.000Z",
+      "market_state": "REGULAR",
+      "quote_source": "Nasdaq Real Time Price",
+      "source": "yahoo-finance"
+    },
+    "INSM": {
+      "ticker": "INSM",
+      "price": 136.77,
+      "currency": "USD",
+      "as_of": "2026-05-04T14:25:42.000Z",
+      "market_state": "REGULAR",
+      "quote_source": "Nasdaq Real Time Price",
+      "source": "yahoo-finance"
+    },
+    "INTC": {
+      "ticker": "INTC",
+      "price": 98.76,
+      "currency": "USD",
+      "as_of": "2026-05-04T14:26:10.000Z",
+      "market_state": "REGULAR",
+      "quote_source": "Nasdaq Real Time Price",
+      "source": "yahoo-finance"
+    },
+    "IREN": {
+      "ticker": "IREN",
+      "price": 50.49,
+      "currency": "USD",
+      "as_of": "2026-05-04T14:26:10.000Z",
+      "market_state": "REGULAR",
+      "quote_source": "Nasdaq Real Time Price",
+      "source": "yahoo-finance"
+    },
+    "KRC": {
+      "ticker": "KRC",
+      "price": 33.605,
+      "currency": "USD",
+      "as_of": "2026-05-04T14:25:50.000Z",
+      "market_state": "REGULAR",
+      "quote_source": "Nasdaq Real Time Price",
+      "source": "yahoo-finance"
+    },
+    "LBRT": {
+      "ticker": "LBRT",
+      "price": 32.5,
+      "currency": "USD",
+      "as_of": "2026-05-04T14:26:07.000Z",
+      "market_state": "REGULAR",
+      "quote_source": "Nasdaq Real Time Price",
+      "source": "yahoo-finance"
+    },
+    "LITE": {
+      "ticker": "LITE",
+      "price": 960.15,
+      "currency": "USD",
+      "as_of": "2026-05-04T14:26:10.000Z",
+      "market_state": "REGULAR",
+      "quote_source": "Nasdaq Real Time Price",
+      "source": "yahoo-finance"
+    },
+    "LSCC": {
+      "ticker": "LSCC",
+      "price": 123.075,
+      "currency": "USD",
+      "as_of": "2026-05-04T14:26:03.000Z",
+      "market_state": "REGULAR",
+      "quote_source": "Nasdaq Real Time Price",
+      "source": "yahoo-finance"
+    },
+    "MELI": {
+      "ticker": "MELI",
+      "price": 1855.43,
+      "currency": "USD",
+      "as_of": "2026-05-04T14:26:00.000Z",
+      "market_state": "REGULAR",
+      "quote_source": "Nasdaq Real Time Price",
+      "source": "yahoo-finance"
+    },
+    "NAMS": {
+      "ticker": "NAMS",
+      "price": 28.89,
+      "currency": "USD",
+      "as_of": "2026-05-04T14:25:35.000Z",
+      "market_state": "REGULAR",
+      "quote_source": "Nasdaq Real Time Price",
+      "source": "yahoo-finance"
+    },
+    "NP": {
+      "ticker": "NP",
+      "price": 25.19,
+      "currency": "USD",
+      "as_of": "2026-05-04T14:24:18.000Z",
+      "market_state": "REGULAR",
+      "quote_source": "Nasdaq Real Time Price",
+      "source": "yahoo-finance"
+    },
+    "NTRA": {
+      "ticker": "NTRA",
+      "price": 208.93,
+      "currency": "USD",
+      "as_of": "2026-05-04T14:26:10.000Z",
+      "market_state": "REGULAR",
+      "quote_source": "Nasdaq Real Time Price",
+      "source": "yahoo-finance"
+    },
+    "ON": {
+      "ticker": "ON",
+      "price": 103.96,
+      "currency": "USD",
+      "as_of": "2026-05-04T14:26:08.000Z",
+      "market_state": "REGULAR",
+      "quote_source": "Nasdaq Real Time Price",
+      "source": "yahoo-finance"
+    },
+    "OPCH": {
+      "ticker": "OPCH",
+      "price": 21.15,
+      "currency": "USD",
+      "as_of": "2026-05-04T14:26:00.000Z",
+      "market_state": "REGULAR",
+      "quote_source": "Nasdaq Real Time Price",
+      "source": "yahoo-finance"
+    },
+    "PCT": {
+      "ticker": "PCT",
+      "price": 7.695,
+      "currency": "USD",
+      "as_of": "2026-05-04T14:25:30.000Z",
+      "market_state": "REGULAR",
+      "quote_source": "Nasdaq Real Time Price",
+      "source": "yahoo-finance"
+    },
+    "PGNY": {
+      "ticker": "PGNY",
+      "price": 19.09,
+      "currency": "USD",
+      "as_of": "2026-05-04T14:26:01.000Z",
+      "market_state": "REGULAR",
+      "quote_source": "Nasdaq Real Time Price",
+      "source": "yahoo-finance"
+    },
+    "PM": {
+      "ticker": "PM",
+      "price": 170.64,
+      "currency": "USD",
+      "as_of": "2026-05-04T14:25:58.000Z",
+      "market_state": "REGULAR",
+      "quote_source": "Nasdaq Real Time Price",
+      "source": "yahoo-finance"
+    },
+    "PSIX": {
+      "ticker": "PSIX",
+      "price": 71,
+      "currency": "USD",
+      "as_of": "2026-05-04T14:23:56.000Z",
+      "market_state": "REGULAR",
+      "quote_source": "Nasdaq Real Time Price",
+      "source": "yahoo-finance"
+    },
+    "PTGX": {
+      "ticker": "PTGX",
+      "price": 100.53,
+      "currency": "USD",
+      "as_of": "2026-05-04T14:25:58.000Z",
+      "market_state": "REGULAR",
+      "quote_source": "Nasdaq Real Time Price",
+      "source": "yahoo-finance"
+    },
+    "PUMP": {
+      "ticker": "PUMP",
+      "price": 15.995,
+      "currency": "USD",
+      "as_of": "2026-05-04T14:26:02.000Z",
+      "market_state": "REGULAR",
+      "quote_source": "Nasdaq Real Time Price",
+      "source": "yahoo-finance"
+    },
+    "QSR": {
+      "ticker": "QSR",
+      "price": 81,
+      "currency": "USD",
+      "as_of": "2026-05-04T14:25:49.000Z",
+      "market_state": "REGULAR",
+      "quote_source": "Nasdaq Real Time Price",
+      "source": "yahoo-finance"
+    },
+    "RH": {
+      "ticker": "RH",
+      "price": 127.9101,
+      "currency": "USD",
+      "as_of": "2026-05-04T14:26:06.000Z",
+      "market_state": "REGULAR",
+      "quote_source": "Nasdaq Real Time Price",
+      "source": "yahoo-finance"
+    },
+    "RIOT": {
+      "ticker": "RIOT",
+      "price": 18.39,
+      "currency": "USD",
+      "as_of": "2026-05-04T14:26:09.000Z",
+      "market_state": "REGULAR",
+      "quote_source": "Nasdaq Real Time Price",
+      "source": "yahoo-finance"
+    },
+    "ROKU": {
+      "ticker": "ROKU",
+      "price": 127.015,
+      "currency": "USD",
+      "as_of": "2026-05-04T14:26:09.000Z",
+      "market_state": "REGULAR",
+      "quote_source": "Nasdaq Real Time Price",
+      "source": "yahoo-finance"
+    },
+    "RSP": {
+      "ticker": "RSP",
+      "price": 203.3599,
+      "currency": "USD",
+      "as_of": "2026-05-04T14:26:10.000Z",
+      "market_state": "REGULAR",
+      "quote_source": "Nasdaq Real Time Price",
+      "source": "yahoo-finance"
+    },
+    "SATS": {
+      "ticker": "SATS",
+      "price": 119.89,
+      "currency": "USD",
+      "as_of": "2026-05-04T14:26:07.000Z",
+      "market_state": "REGULAR",
+      "quote_source": "Nasdaq Real Time Price",
+      "source": "yahoo-finance"
+    },
+    "SCCO": {
+      "ticker": "SCCO",
+      "price": 168.505,
+      "currency": "USD",
+      "as_of": "2026-05-04T14:25:46.000Z",
+      "market_state": "REGULAR",
+      "quote_source": "Nasdaq Real Time Price",
+      "source": "yahoo-finance"
+    },
+    "SE": {
+      "ticker": "SE",
+      "price": 86.235,
+      "currency": "USD",
+      "as_of": "2026-05-04T14:25:55.000Z",
+      "market_state": "REGULAR",
+      "quote_source": "Nasdaq Real Time Price",
+      "source": "yahoo-finance"
+    },
+    "SEI": {
+      "ticker": "SEI",
+      "price": 71.95,
+      "currency": "USD",
+      "as_of": "2026-05-04T14:26:06.000Z",
+      "market_state": "REGULAR",
+      "quote_source": "Nasdaq Real Time Price",
+      "source": "yahoo-finance"
+    },
+    "SNDK": {
+      "ticker": "SNDK",
+      "price": 1248.14,
+      "currency": "USD",
+      "as_of": "2026-05-04T14:26:10.000Z",
+      "market_state": "REGULAR",
+      "quote_source": "Nasdaq Real Time Price",
+      "source": "yahoo-finance"
+    },
+    "STM": {
+      "ticker": "STM",
+      "price": 55.48,
+      "currency": "USD",
+      "as_of": "2026-05-04T14:26:05.000Z",
+      "market_state": "REGULAR",
+      "quote_source": "Nasdaq Real Time Price",
+      "source": "yahoo-finance"
+    },
+    "STUB": {
+      "ticker": "STUB",
+      "price": 7.465,
+      "currency": "USD",
+      "as_of": "2026-05-04T14:26:10.000Z",
+      "market_state": "REGULAR",
+      "quote_source": "Nasdaq Real Time Price",
+      "source": "yahoo-finance"
+    },
+    "TBBB": {
+      "ticker": "TBBB",
+      "price": 36.9,
+      "currency": "USD",
+      "as_of": "2026-05-04T14:25:17.000Z",
+      "market_state": "REGULAR",
+      "quote_source": "Nasdaq Real Time Price",
+      "source": "yahoo-finance"
+    },
+    "TEVA": {
+      "ticker": "TEVA",
+      "price": 35.635,
+      "currency": "USD",
+      "as_of": "2026-05-04T14:26:10.000Z",
+      "market_state": "REGULAR",
+      "quote_source": "Nasdaq Real Time Price",
+      "source": "yahoo-finance"
+    },
+    "TSEM": {
+      "ticker": "TSEM",
+      "price": 212,
+      "currency": "USD",
+      "as_of": "2026-05-04T14:26:07.000Z",
+      "market_state": "REGULAR",
+      "quote_source": "Nasdaq Real Time Price",
+      "source": "yahoo-finance"
+    },
+    "TSM": {
+      "ticker": "TSM",
+      "price": 403.1224,
+      "currency": "USD",
+      "as_of": "2026-05-04T14:26:09.000Z",
+      "market_state": "REGULAR",
+      "quote_source": "Nasdaq Real Time Price",
+      "source": "yahoo-finance"
+    },
+    "U": {
+      "ticker": "U",
+      "price": 27.77,
+      "currency": "USD",
+      "as_of": "2026-05-04T14:26:00.000Z",
+      "market_state": "REGULAR",
+      "quote_source": "Nasdaq Real Time Price",
+      "source": "yahoo-finance"
+    },
+    "UAL": {
+      "ticker": "UAL",
+      "price": 92.77,
+      "currency": "USD",
+      "as_of": "2026-05-04T14:26:04.000Z",
+      "market_state": "REGULAR",
+      "quote_source": "Nasdaq Real Time Price",
+      "source": "yahoo-finance"
+    },
+    "WAB": {
+      "ticker": "WAB",
+      "price": 265.5,
+      "currency": "USD",
+      "as_of": "2026-05-04T14:25:47.000Z",
+      "market_state": "REGULAR",
+      "quote_source": "Nasdaq Real Time Price",
+      "source": "yahoo-finance"
+    },
+    "WOLF": {
+      "ticker": "WOLF",
+      "price": 36.31,
+      "currency": "USD",
+      "as_of": "2026-05-04T14:26:07.000Z",
+      "market_state": "REGULAR",
+      "quote_source": "Nasdaq Real Time Price",
+      "source": "yahoo-finance"
+    },
+    "WVE": {
+      "ticker": "WVE",
+      "price": 7.39,
+      "currency": "USD",
+      "as_of": "2026-05-04T14:26:04.000Z",
+      "market_state": "REGULAR",
+      "quote_source": "Nasdaq Real Time Price",
+      "source": "yahoo-finance"
+    },
+    "WWD": {
+      "ticker": "WWD",
+      "price": 361.305,
+      "currency": "USD",
+      "as_of": "2026-05-04T14:24:01.000Z",
+      "market_state": "REGULAR",
+      "quote_source": "Nasdaq Real Time Price",
+      "source": "yahoo-finance"
+    },
+    "WYFI": {
+      "ticker": "WYFI",
+      "price": 16.735,
+      "currency": "USD",
+      "as_of": "2026-05-04T14:26:07.000Z",
+      "market_state": "REGULAR",
+      "quote_source": "Nasdaq Real Time Price",
+      "source": "yahoo-finance"
+    },
+    "XLF": {
+      "ticker": "XLF",
+      "price": 52.165,
+      "currency": "USD",
+      "as_of": "2026-05-04T14:26:06.000Z",
+      "market_state": "REGULAR",
+      "quote_source": "Nasdaq Real Time Price",
+      "source": "yahoo-finance"
+    },
+    "YPF": {
+      "ticker": "YPF",
+      "price": 44.152,
+      "currency": "USD",
+      "as_of": "2026-05-04T14:24:59.000Z",
+      "market_state": "REGULAR",
+      "quote_source": "Nasdaq Real Time Price",
+      "source": "yahoo-finance"
+    },
+    "Z": {
+      "ticker": "Z",
+      "price": 45.36,
+      "currency": "USD",
+      "as_of": "2026-05-04T14:26:06.000Z",
+      "market_state": "REGULAR",
+      "quote_source": "Nasdaq Real Time Price",
+      "source": "yahoo-finance"
+    }
+  },
+  "failures": {
+    "CDTX": "missing regularMarketPrice"
+  }
+}

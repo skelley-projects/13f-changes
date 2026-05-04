@@ -214,7 +214,7 @@ describe('validateAll', () => {
         current_period: '2025-Q4',
         prior_period: '2025-Q3',
         totals: { current_value: 10_000, prior_value: 0, net_flow: 10_000 },
-        movements: { new: [], closed: [], increased: [], decreased: [], unchanged_count: 0, unchanged_value: 0 },
+        movements: { new: [], closed: [], increased: [], decreased: [], activity: [], unchanged_count: 0, unchanged_value: 0 },
         sector_breakdown: { current: [], prior: [], deltas: [] },
         theme_breakdown: null,
       } as any,

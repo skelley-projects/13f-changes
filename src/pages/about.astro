@@ -2,8 +2,8 @@
 import Layout from '../components/Layout.astro';
 import ContactCTA from '../components/ContactCTA.astro';
 ---
-<Layout title="About — 13f-changes" width="narrow">
-  <nav class="topnav"><a href="/">← Home</a></nav>
+<Layout title="About - 13f-changes" width="narrow">
+  <nav class="topnav"><a href="/">&larr; Home</a></nav>
   <article>
     <h1>About 13f-changes</h1>
 
@@ -15,8 +15,8 @@ import ContactCTA from '../components/ContactCTA.astro';
     <h2>What 13Fs cover</h2>
     <ul>
       <li>Long equity positions in U.S.-listed common stock, ADRs, and certain ETFs.</li>
-      <li>Listed call and put options (reported separately from the underlying).</li>
-      <li>Convertible debt, certain warrants.</li>
+      <li>Listed call and put options, reported separately from the underlying.</li>
+      <li>Convertible debt and certain warrants.</li>
     </ul>
 
     <h2>What 13Fs don't cover</h2>
@@ -31,18 +31,20 @@ import ContactCTA from '../components/ContactCTA.astro';
 
     <h2>Data sources</h2>
     <ul>
-      <li><strong>Filings:</strong> SEC EDGAR (<code>www.sec.gov</code>) — the primary source.</li>
-      <li><strong>CUSIP → ticker:</strong> OpenFIGI free API.</li>
+      <li><strong>Filings:</strong> SEC EDGAR (<code>www.sec.gov</code>), the primary source.</li>
+      <li><strong>CUSIP to ticker:</strong> OpenFIGI free API.</li>
       <li><strong>Sector / industry:</strong> Yahoo Finance via the <code>yahoo-finance2</code> library, mapped to canonical GICS top-level sectors.</li>
-      <li><strong>Themes:</strong> assigned editorially per-fund during a quarterly review session. Themes are an opinionated layer on top of the canonical sector data — Amazon's primary GICS classification stays "Consumer Discretionary," but it can also be tagged "AI infrastructure" if that frames the fund's thesis better.</li>
+      <li><strong>Latest prices:</strong> Yahoo Finance quotes refreshed into a static JSON snapshot.</li>
+      <li><strong>Themes:</strong> assigned editorially per-fund during a quarterly review session. Themes are an opinionated layer on top of the canonical sector data.</li>
     </ul>
 
     <h2>Refresh cadence</h2>
-    <p>A GitHub Action polls EDGAR daily during the four 45-day filing windows (mid-Feb, mid-May, mid-Aug, mid-Nov). When a new filing lands, a manual review session ingests it, classifies any new positions, computes the diff, and ships.</p>
+    <p>A GitHub Action polls EDGAR daily during the four 45-day filing windows (mid-Feb, mid-May, mid-Aug, mid-Nov). When a new filing lands, a manual review session ingests it, classifies any new positions, computes the diff, and ships. A separate weekday workflow refreshes the latest-price snapshot after the U.S. market close.</p>
 
     <h2>Limitations</h2>
     <ul>
-      <li><strong>Filing-snapshot values.</strong> Position values are as of the filing's quarter-end date — not refreshed with current market prices.</li>
+      <li><strong>No trade tape.</strong> 13Fs disclose quarter-end holdings, not the date, price, or sequence of buys and sells. "New," "closed," and "buy / sell activity" are inferred from adjacent quarter-end snapshots.</li>
+      <li><strong>Price movement is not cost basis.</strong> The mark-to-market table compares the filing's reported value per share to the latest quote for still-held ordinary equity rows. It does not estimate realized P/L, execution price, taxes, fees, or short exposure.</li>
       <li><strong>Options vs. underlying.</strong> Listed options on the same security are shown as separate rows, with a "Call" or "Put" annotation.</li>
       <li><strong>Foreign-listed shares.</strong> Some foreign-listed CUSIPs (G-prefix) are present; resolution to local tickers is best-effort.</li>
       <li><strong>Theme tags are editorial.</strong> Different observers would categorize positions differently; tags are one perspective.</li>

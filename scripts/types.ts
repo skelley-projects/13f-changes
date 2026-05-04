@@ -108,6 +108,23 @@ export interface PendingFile {
   pending: PendingEntry[];
 }
 
+export interface PriceRecord {
+  ticker: string;
+  price: number;
+  currency: string | null;
+  as_of: string;
+  market_state: string | null;
+  quote_source: string | null;
+  source: 'yahoo-finance';
+}
+
+export interface PriceSnapshotFile {
+  fetched_at: string;
+  source: 'yahoo-finance';
+  records: Record<string, PriceRecord>;
+  failures: Record<string, string>;
+}
+
 /* Diff-related types live below */
 
 export type MovementStatus = 'NEW' | 'INCREASED' | 'DECREASED' | 'CLOSED' | 'UNCHANGED';
@@ -128,6 +145,20 @@ export interface MovementRow {
   delta_shares: number;
   delta_pct: number | null;     // null for NEW/CLOSED
   current_pct_of_portfolio: number | null;
+}
+
+export interface MovementActivity {
+  key: string;
+  ticker: string | null;
+  name: string;
+  sector: SectorName;
+  industry: IndustryName;
+  tags: TagId[];
+  bought: MovementRow[];
+  sold: MovementRow[];
+  current_value: number;
+  prior_value: number;
+  net_delta_value: number;
 }
 
 export interface BreakdownEntry {
@@ -161,6 +192,7 @@ export interface DiffFile {
     closed: MovementRow[];
     increased: MovementRow[];
     decreased: MovementRow[];
+    activity: MovementActivity[];
     unchanged_count: number;
     unchanged_value: number;
   };

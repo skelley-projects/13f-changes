@@ -1,13 +1,12 @@
 ---
-import { formatUSD, formatPct } from '../lib/format';
-import type { MovementRow, TaxonomyEntry } from '../../scripts/types';
+import { formatUSD } from '../lib/format';
+import type { MovementActivity, TaxonomyEntry } from '../../scripts/types';
 
 interface Props {
-  status: 'NEW' | 'INCREASED' | 'DECREASED' | 'CLOSED';
-  rows: MovementRow[];
+  rows: MovementActivity[];
   taxonomy: TaxonomyEntry[];
 }
-const { status, rows, taxonomy } = Astro.props;
+const { rows, taxonomy } = Astro.props;
 
 const tagById = new Map(taxonomy.map(t => [t.id, t]));
 
@@ -32,55 +31,36 @@ function granularLabelsFor(tagIds: string[]): string[] {
   return labels;
 }
 
-const styles = {
-  NEW: { tone: 'pos', label: 'NEW POSITIONS' },
-  INCREASED: { tone: 'pos', label: 'INCREASED' },
-  DECREASED: { tone: 'neg', label: 'DECREASED' },
-  CLOSED: { tone: 'neg', label: 'CLOSED' },
-}[status];
-
-const totalDelta = rows.reduce((s, r) => s + r.delta_value, 0);
-const summaryText =
-  status === 'NEW' ? `+${formatUSD(totalDelta)} deployed` :
-  status === 'CLOSED' ? `${formatUSD(Math.abs(totalDelta))} exited` :
-  status === 'INCREASED' ? `${signedUSD(totalDelta)} value change on added shares` :
-  `${signedUSD(totalDelta)} value change on trimmed shares`;
-
-function signedUSD(value: number): string {
-  return `${value >= 0 ? '+' : '-'}${formatUSD(Math.abs(value))}`;
-}
+const totalBought = rows.reduce((s, r) => s + r.current_value, 0);
+const totalSold = rows.reduce((s, r) => s + r.prior_value, 0);
+const net = totalBought - totalSold;
 ---
 {rows.length === 0 ? null : (
-  <section class={`movement movement-${styles.tone}`}>
+  <section class="movement movement-activity">
     <header>
-      <span class="status-label">{styles.label} ({rows.length})</span>
-      <span class="net">{summaryText}</span>
+      <span class="status-label">BUY / SELL ACTIVITY ({rows.length})</span>
+      <span class="net">
+        bought {formatUSD(totalBought)} / sold {formatUSD(totalSold)}
+        {' '}(<span class={net >= 0 ? 'pos' : 'neg'}>{net >= 0 ? '+' : '-'}{formatUSD(Math.abs(net))}</span> net)
+      </span>
     </header>
     <table>
       <tbody>
         {rows.map((r) => {
           const broad = broadLabelsFor(r.tags);
           const granular = granularLabelsFor(r.tags);
-          const valueTone = (status === 'INCREASED' || status === 'DECREASED')
-            ? (r.delta_value >= 0 ? 'pos' : 'neg')
-            : styles.tone;
           return (
             <tr>
-              <td class="ticker">{r.ticker ?? r.cusip}</td>
+              <td class="ticker">{r.ticker ?? r.key}</td>
               <td>{r.name}</td>
               <td class="muted">{r.sector} / {r.industry}</td>
               <td class="muted">{broad.length === 0 ? '-' : broad.join(', ')}</td>
               <td class="muted granular">{granular.length === 0 ? '-' : granular.join(', ')}</td>
               <td class="num muted">
-                {status === 'NEW' && r.current_value !== null && formatUSD(r.current_value)}
-                {status === 'CLOSED' && r.prior_value !== null && `was ${formatUSD(r.prior_value)}`}
-                {(status === 'INCREASED' || status === 'DECREASED') && r.delta_pct !== null &&
-                  `${r.delta_pct > 0 ? '+' : ''}${formatPct(r.delta_pct)}`}
+                bought {formatUSD(r.current_value)} / sold {formatUSD(r.prior_value)}
               </td>
-              <td class={`num delta delta-${valueTone}`}>
-                {status === 'NEW' && 'NEW'}
-                {status === 'CLOSED' && 'CLOSED'}
-                {(status === 'INCREASED' || status === 'DECREASED') && signedUSD(r.delta_value)}
+              <td class={`num delta ${r.net_delta_value >= 0 ? 'delta-pos' : 'delta-neg'}`}>
+                {r.net_delta_value >= 0 ? '+' : '-'}{formatUSD(Math.abs(r.net_delta_value))}
               </td>
             </tr>
           );
@@ -93,13 +73,12 @@ function signedUSD(value: number): string {
 <style>
   .movement {
     border: 1px solid var(--border);
+    border-left: 3px solid var(--accent);
     border-radius: 4px;
     margin-bottom: 12px;
     overflow: hidden;
     background: var(--bg-elev);
   }
-  .movement-pos { border-left: 3px solid var(--pos); }
-  .movement-neg { border-left: 3px solid var(--neg); }
   header {
     padding: 8px 12px;
     font-family: var(--font-mono);
@@ -112,8 +91,7 @@ function signedUSD(value: number): string {
     background: var(--bg-tinted);
     border-bottom: 1px solid var(--border);
   }
-  .movement-pos .status-label { color: var(--pos); }
-  .movement-neg .status-label { color: var(--neg); }
+  .status-label { color: var(--accent); }
   header .net {
     color: var(--fg-muted);
     font-weight: 400;
@@ -130,10 +108,14 @@ function signedUSD(value: number): string {
   td.muted { color: var(--fg-muted); font-size: 0.8rem; }
   td.ticker { font-family: var(--font-mono); font-weight: 600; color: var(--fg); }
   td.delta { font-weight: 600; }
-  td.delta-pos { color: var(--pos); }
-  td.delta-neg { color: var(--neg); }
+  .pos, td.delta-pos { color: var(--pos); }
+  .neg, td.delta-neg { color: var(--neg); }
 
   @media (max-width: 700px) {
+    header {
+      flex-direction: column;
+      gap: 4px;
+    }
     td.granular { display: none; }
   }
 </style>

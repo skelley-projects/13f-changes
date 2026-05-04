@@ -6,14 +6,16 @@ interface Props {
   filing: FilingFile;
   securities: SecuritiesFile;
   unchangedOnly: boolean;
-  unchangedCusips?: Set<string>;
+  unchangedKeys?: Set<string>;
   taxonomy: TaxonomyEntry[];
   /** assignments map from the same fund's tags.json. CUSIP -> tag ids. */
   assignments?: Record<string, string[]>;
 }
-const { filing, securities, unchangedOnly, unchangedCusips, taxonomy } = Astro.props;
-const positions = unchangedOnly && unchangedCusips
-  ? filing.positions.filter(p => unchangedCusips.has(p.cusip))
+const { filing, securities, unchangedOnly, unchangedKeys, taxonomy } = Astro.props;
+const positionKey = (p: { cusip: string; title_of_class: string; put_call: string | null }) =>
+  `${p.cusip}|${p.title_of_class}|${p.put_call ?? ''}`;
+const positions = unchangedOnly && unchangedKeys
+  ? filing.positions.filter(p => unchangedKeys.has(positionKey(p)))
   : filing.positions;
 const total = filing.total_value || 1;
 const totalUnchanged = positions.reduce((s, p) => s + p.value, 0);

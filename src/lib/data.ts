@@ -2,7 +2,7 @@
 import { readFileSync, existsSync } from 'node:fs';
 import { join } from 'node:path';
 import type {
-  FundsFile, QuartersFile, FilingFile, TagsFile, SecuritiesFile, DiffFile, PendingFile,
+  FundsFile, QuartersFile, FilingFile, TagsFile, SecuritiesFile, DiffFile, PendingFile, PriceSnapshotFile,
 } from '../../scripts/types.js';
 
 const ROOT = process.cwd();
@@ -15,6 +15,10 @@ export function loadSecurities(): SecuritiesFile {
 }
 export function loadPending(): PendingFile {
   return JSON.parse(readFileSync(join(ROOT, 'data/_pending.json'), 'utf8'));
+}
+export function loadPriceSnapshot(): PriceSnapshotFile | null {
+  const path = join(ROOT, 'data/prices/latest.json');
+  return existsSync(path) ? JSON.parse(readFileSync(path, 'utf8')) : null;
 }
 export function loadFundQuarters(slug: string): QuartersFile {
   return JSON.parse(readFileSync(join(ROOT, `data/funds/${slug}/quarters.json`), 'utf8'));

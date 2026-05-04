@@ -47,6 +47,7 @@ npm run validate     # zod-based validation of all JSON files
 npm run poll-edgar   # check EDGAR for new 13F-HR filings, append to data/_pending.json
 npm run classify <slug> <period>   # batch-classify CUSIPs via OpenFIGI + Yahoo Finance
 npm run remind       # build the reminder email body (sends via Resend if RESEND_API_KEY is set)
+npm run refresh-prices   # refresh data/prices/latest.json via Yahoo Finance quotes
 ```
 
 ### Quarterly review (semi-automated)
@@ -95,6 +96,8 @@ The CI workflows require these to be configured in **Settings → Secrets and va
 - `data/funds/<slug>/tags.json` — per-fund thematic taxonomy + CUSIP → tag-IDs assignments
 - `data/funds/<slug>/<period>.json` — full holdings for one filing
 - `data/funds/<slug>/diff/<period>.json` — derived diff for one filing vs. its prior quarter
+
+- `data/prices/latest.json` - latest Yahoo Finance quote snapshot for current, price-eligible holdings
 
 ## Methodology, limitations
 
