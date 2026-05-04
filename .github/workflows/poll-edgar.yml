@@ -3,11 +3,14 @@ name: Poll EDGAR for new 13F filings
 
 on:
   schedule:
-    # Every 4 hours during days 1-18 of the four filing-window months
-    # (Feb / May / Aug / Nov). Worst-case lag from EDGAR-publish to our queue
-    # is ~4 hours. Most polls are silent no-ops; only commits + emails when
-    # a fund actually files.
-    - cron: '0 */4 1-18 2,5,8,11 *'
+    # Every 4 hours during days 9-18 of the four filing-window months
+    # (Feb / May / Aug / Nov). The 10-day window covers the actual filing
+    # cluster — historically funds file 0-5 days before the deadline (which
+    # falls on the 14th or 15th, rolling to ~17th when on a weekend), plus
+    # a small buffer for late filings and amendments. Days 1-8 are skipped
+    # because no fund in our sample has ever filed that early. Worst-case
+    # lag from EDGAR-publish to our queue is ~4 hours.
+    - cron: '0 */4 9-18 2,5,8,11 *'
   workflow_dispatch:
 
 permissions:
