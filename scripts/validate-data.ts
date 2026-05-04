@@ -162,13 +162,13 @@ export function validateAll(d: DatasetForValidation): { errors: string[]; warnin
       for (const issue of tagsResult.error.issues) {
         errors.push(`${slug}/tags.json: ${issue.message}`);
       }
-    }
-
-    // taxonomy ID coverage
-    const taxonomyIds = new Set(pf.tags.taxonomy.map(t => t.id));
-    for (const [cusip, ids] of Object.entries(pf.tags.assignments)) {
-      for (const id of ids) {
-        if (!taxonomyIds.has(id)) errors.push(`${slug}/tags.json: assignment ${cusip} references unknown tag ${id}`);
+    } else {
+      // taxonomy ID coverage (only when the tags shape itself is valid)
+      const taxonomyIds = new Set(pf.tags.taxonomy.map(t => t.id));
+      for (const [cusip, ids] of Object.entries(pf.tags.assignments)) {
+        for (const id of ids) {
+          if (!taxonomyIds.has(id)) errors.push(`${slug}/tags.json: assignment ${cusip} references unknown tag ${id}`);
+        }
       }
     }
 

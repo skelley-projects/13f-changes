@@ -156,6 +156,45 @@ describe('validateAll', () => {
     expect(result.errors.some(e => /does not match quarters\.json entry/i.test(e))).toBe(true);
   });
 
+  it('accepts a tag with a valid parent', () => {
+    const dataset = baseDataset();
+    dataset.perFund.x.tags.taxonomy = [
+      { id: 'broad', label: 'Broad', description: '' },
+      { id: 'narrow', label: 'Narrow', description: '', parent: 'broad' },
+    ];
+    const result = validateAll(dataset);
+    expect(result.errors.filter(e => /tags\.json/.test(e))).toEqual([]);
+  });
+
+  it('rejects a tag whose parent does not exist in taxonomy', () => {
+    const dataset = baseDataset();
+    dataset.perFund.x.tags.taxonomy = [
+      { id: 'orphan', label: 'Orphan', description: '', parent: 'missing' },
+    ];
+    const result = validateAll(dataset);
+    expect(result.errors.some(e => /does not exist in taxonomy/i.test(e))).toBe(true);
+  });
+
+  it('rejects a tag whose parent is itself', () => {
+    const dataset = baseDataset();
+    dataset.perFund.x.tags.taxonomy = [
+      { id: 'self', label: 'Self', description: '', parent: 'self' },
+    ];
+    const result = validateAll(dataset);
+    expect(result.errors.some(e => /cannot be its own parent/i.test(e))).toBe(true);
+  });
+
+  it('rejects a tag whose parent itself has a parent (no grandchildren)', () => {
+    const dataset = baseDataset();
+    dataset.perFund.x.tags.taxonomy = [
+      { id: 'a', label: 'A', description: '' },
+      { id: 'b', label: 'B', description: '', parent: 'a' },
+      { id: 'c', label: 'C', description: '', parent: 'b' }, // grandchild — invalid
+    ];
+    const result = validateAll(dataset);
+    expect(result.errors.some(e => /must be a top-level tag/i.test(e))).toBe(true);
+  });
+
   it('rejects a diff that references a non-existent prior_period file', () => {
     const dataset = baseDataset();
     const filing = makeFiling('2025-Q4', '2025-12-31', 'A1', [
