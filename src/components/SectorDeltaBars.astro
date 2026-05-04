@@ -1,5 +1,4 @@
 ---
-// src/components/SectorDeltaBars.astro
 import { formatPctDelta } from '../lib/format';
 import type { Breakdown } from '../../scripts/types';
 
@@ -31,7 +30,7 @@ const max = rows.reduce((m, r) => Math.max(m, Math.abs(r.delta_pct_pts)), 0) || 
                 style={`width:${widthPct}%; ${isPositive ? 'left' : 'right'}: 50%;`}
               />
             </div>
-            <div class={`row-value ${isPositive ? 'pos' : 'neg'}`}>
+            <div class={`row-value num ${isPositive ? 'pos' : 'neg'}`}>
               {formatPctDelta(row.delta_pct_pts)}
             </div>
           </div>
@@ -43,18 +42,58 @@ const max = rows.reduce((m, r) => Math.max(m, Math.abs(r.delta_pct_pts)), 0) || 
 </section>
 
 <style>
-  .delta-panel { border: 1px solid #e0e0e0; border-radius: 4px; padding: 12px; }
-  .label { font-size: 0.7rem; color: #888; text-transform: uppercase; letter-spacing: 0.5px; margin-bottom: 8px; }
+  .delta-panel {
+    background: var(--bg-elev);
+    border: 1px solid var(--border);
+    border-radius: 4px;
+    padding: 14px;
+  }
+  .label {
+    font-family: var(--font-mono);
+    font-size: 0.7rem;
+    color: var(--accent);
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    margin-bottom: 10px;
+  }
   .bars { font-size: 0.8rem; }
-  .bar-row { display: grid; grid-template-columns: 130px 1fr 50px; align-items: center; margin-bottom: 4px; }
-  .row-label { text-align: right; padding-right: 8px; color: #444; }
+  .bar-row {
+    display: grid;
+    grid-template-columns: 130px 1fr 60px;
+    align-items: center;
+    margin-bottom: 6px;
+  }
+  .row-label {
+    text-align: right;
+    padding-right: 10px;
+    color: var(--fg);
+    font-size: 0.8rem;
+  }
   .bar-track { position: relative; height: 14px; }
-  .bar-track::before { content: ''; position: absolute; left: 50%; top: 0; bottom: 0; border-left: 1px solid #ccc; }
+  .bar-track::before {
+    content: '';
+    position: absolute;
+    left: 50%;
+    top: 0;
+    bottom: 0;
+    border-left: 1px solid var(--border-strong);
+  }
   .bar { position: absolute; height: 14px; top: 0; }
-  .bar.pos { background: #2d8a3e; }
-  .bar.neg { background: #b33; }
-  .row-value.pos { color: #2d8a3e; font-weight: 600; }
-  .row-value.neg { color: #b33; font-weight: 600; }
-  .centerline-note { font-size: 0.65rem; color: #aaa; text-align: center; margin-top: 6px; }
-  .empty { color: #aaa; font-size: 0.8rem; font-style: italic; }
+  .bar.pos { background: var(--pos); }
+  .bar.neg { background: var(--neg); }
+  .row-value { font-family: var(--font-mono); }
+  .row-value.pos { color: var(--pos); font-weight: 600; }
+  .row-value.neg { color: var(--neg); font-weight: 600; }
+  .centerline-note {
+    font-family: var(--font-mono);
+    font-size: 0.65rem;
+    color: var(--fg-dim);
+    text-align: center;
+    margin-top: 8px;
+  }
+  .empty {
+    color: var(--fg-dim);
+    font-size: 0.8rem;
+    font-style: italic;
+  }
 </style>
