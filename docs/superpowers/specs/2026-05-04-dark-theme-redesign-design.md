@@ -27,6 +27,7 @@ Defined once in `public/global.css` under `:root`. Every component references th
 | `--fg-dim` | `#555555` | De-emphasized text |
 | `--accent` | `#f59e0b` | Labels, links, focal accents (amber) |
 | `--accent-hover` | `#fbbf24` | Hover state |
+| `--accent-dark` | `#78350f` | Dark-amber gradient stop (initials avatar fallback) |
 | `--pos` | `#22c55e` | Gains, increases, new positions |
 | `--neg` | `#ef4444` | Losses, decreases, closed positions |
 | `--font-sans` | `ui-sans-serif, system-ui, -apple-system, sans-serif` | Body |
