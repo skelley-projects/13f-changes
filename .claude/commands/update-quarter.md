@@ -8,7 +8,7 @@ For EACH pending filing:
 
 ## 1. Fetch and parse
 
-Use `tsx scripts/run-fetch-and-parse.ts <slug> <accession>` to download the filing and write the parsed JSON to `data/funds/<slug>/<period>.json`. (If this script doesn't exist yet, create it as a thin wrapper around `fetch-filing.ts` + `parse-13f.ts` that also writes the output file. Look at `scripts/fetch-filing.ts` and `scripts/parse-13f.ts` for the building blocks.)
+Use `tsx scripts/run-fetch-and-parse.ts <slug> <accession>` to download the filing and write the parsed JSON to `data/funds/<slug>/<period>.json`. The wrapper at `scripts/run-fetch-and-parse.ts` handles fetch + parse + write.
 
 After parsing, briefly summarize the filing for the user: "Period ending {date}, {N} positions, total ${value} ({units}), schema {X01|X02}."
 
@@ -37,7 +37,7 @@ After user approves, write to `data/securities.json` with `ticker_source: "manua
 
 ## 3. Compute the diff
 
-Run `tsx scripts/run-compute-diff.ts <slug> <period>` (create as a thin wrapper if it doesn't exist) which writes `data/funds/<slug>/diff/<period>.json`.
+Run `tsx scripts/run-compute-diff.ts <slug> <period>` which writes `data/funds/<slug>/diff/<period>.json`.
 
 ## 4. Propose theme tags for new positions
 

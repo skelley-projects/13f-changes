@@ -84,6 +84,7 @@ The CI workflows require these to be configured in **Settings → Secrets and va
 - `CLOUDFLARE_ACCOUNT_ID` — visible in the Cloudflare dashboard URL or "Account home"
 - `RESEND_API_KEY` — from your Resend dashboard
 - `EMAIL_TO` — the address that receives the reminder
+- `EMAIL_FROM` — the sender address; must be a verified Resend sender domain (the default placeholder `reminders@13f-changes.example.com` will be rejected by Resend)
 
 ## Data files
 
