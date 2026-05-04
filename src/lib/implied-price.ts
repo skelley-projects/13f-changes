@@ -42,6 +42,11 @@ export interface EstimatedGain {
   as_of: string;
 }
 
+export interface UnderlyingMove {
+  pct: number;
+  as_of: string;
+}
+
 export function estimateLatestGain(
   row: MovementRow,
   prices: PriceSnapshotFile | null,
@@ -83,6 +88,27 @@ export function estimateLatestGainForRows(
     value,
     pct: ((latestValue - basis) / basis) * 100,
     as_of: latestAsOf,
+  };
+}
+
+export function estimateUnderlyingMove(
+  row: MovementRow,
+  prices: PriceSnapshotFile | null,
+): UnderlyingMove | null {
+  if (!prices || !row.ticker || !row.put_call) return null;
+  const quote = prices.records[row.ticker.toUpperCase()];
+  if (!quote || quote.currency !== 'USD' || quote.price <= 0) return null;
+  const current = row.current_value !== null && row.current_shares !== null && row.current_shares > 0
+    ? row.current_value / row.current_shares
+    : null;
+  const prior = row.prior_value !== null && row.prior_shares !== null && row.prior_shares > 0
+    ? row.prior_value / row.prior_shares
+    : null;
+  const reference = current ?? prior;
+  if (reference === null || reference <= 0) return null;
+  return {
+    pct: ((quote.price - reference) / reference) * 100,
+    as_of: quote.as_of,
   };
 }
 

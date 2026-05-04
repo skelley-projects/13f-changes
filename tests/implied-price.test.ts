@@ -2,6 +2,7 @@ import { describe, expect, it } from 'vitest';
 import {
   estimateLatestGain,
   estimateLatestGainForRows,
+  estimateUnderlyingMove,
   impliedPositionPrice,
   priceRangeFor,
   priceUnsupportedLabel,
@@ -75,6 +76,27 @@ describe('implied 13F price helpers', () => {
     expect(estimateLatestGain(row(), prices)).toMatchObject({ value: 200, pct: 20 });
     expect(estimateLatestGainForRows([row(), row({ current_value: 2_000, current_shares: 100 })], prices))
       .toMatchObject({ value: -600, pct: -20 });
+  });
+
+  it('estimates underlying stock move for option rows without implying option P/L', () => {
+    const prices: PriceSnapshotFile = {
+      fetched_at: '2026-05-04T22:00:00.000Z',
+      source: 'yahoo-finance',
+      records: {
+        XYZ: {
+          ticker: 'XYZ',
+          price: 15,
+          currency: 'USD',
+          as_of: '2026-05-04T22:00:00.000Z',
+          market_state: 'POST',
+          quote_source: 'Test',
+          source: 'yahoo-finance',
+        },
+      },
+      failures: {},
+    };
+    expect(estimateUnderlyingMove(row({ put_call: 'Call' }), prices)).toMatchObject({ pct: 50 });
+    expect(estimateUnderlyingMove(row(), prices)).toBeNull();
   });
 
   it('looks up period price ranges by ticker and period', () => {

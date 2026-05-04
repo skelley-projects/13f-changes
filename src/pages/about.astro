@@ -47,7 +47,7 @@ import ContactCTA from '../components/ContactCTA.astro';
       <li><strong>13F price is a quarter-end mark.</strong> The 13F price columns divide reported value by reported shares for ordinary share rows. They are not the fund's execution price.</li>
       <li><strong>Closed-position gains are not knowable from 13Fs alone.</strong> A closed row only says the position was present at the prior quarter-end and absent at the current quarter-end. The site can show the stock's market range during that quarter, but not the fund's realized gain or cost basis.</li>
       <li><strong>Estimated gain is mark-to-market.</strong> Estimated gain compares the latest price snapshot to the quarter-end 13F price for still-held ordinary equity rows. It does not estimate realized P/L, execution price, taxes, fees, or short exposure.</li>
-      <li><strong>Options vs. underlying.</strong> Listed options on the same security are shown as separate rows, with a "Call" or "Put" annotation.</li>
+      <li><strong>Options vs. underlying.</strong> Listed options on the same security are shown as separate rows, with a "Call" or "Put" annotation. Option rows may show the underlying stock's move since the 13F mark, but that is directional context rather than option P/L.</li>
       <li><strong>Foreign-listed shares.</strong> Some foreign-listed CUSIPs (G-prefix) are present; resolution to local tickers is best-effort.</li>
       <li><strong>Theme tags are editorial.</strong> Different observers would categorize positions differently; tags are one perspective.</li>
     </ul>

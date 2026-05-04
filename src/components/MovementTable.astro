@@ -1,6 +1,12 @@
 ---
 import { formatUSD, formatPct, formatPrice } from '../lib/format';
-import { estimateLatestGain, impliedPositionPrice, priceRangeFor, priceUnsupportedLabel } from '../lib/implied-price';
+import {
+  estimateLatestGain,
+  estimateUnderlyingMove,
+  impliedPositionPrice,
+  priceRangeFor,
+  priceUnsupportedLabel,
+} from '../lib/implied-price';
 import type { MovementRow, PriceSnapshotFile, TaxonomyEntry } from '../../scripts/types';
 
 interface Props {
@@ -70,6 +76,14 @@ function priceText(row: MovementRow): string {
 
 function gainText(row: MovementRow): { text: string; tone: 'pos' | 'neg' | 'muted' } {
   if (status === 'CLOSED') return { text: '-', tone: 'muted' };
+  if (row.put_call) {
+    const move = estimateUnderlyingMove(row, prices);
+    if (!move) return { text: 'underlying n/a', tone: 'muted' };
+    return {
+      text: `underlying ${move.pct >= 0 ? '+' : ''}${formatPct(move.pct)}`,
+      tone: move.pct >= 0 ? 'pos' : 'neg',
+    };
+  }
   if (priceUnsupportedLabel(row)) return { text: 'n/a', tone: 'muted' };
   const gain = estimateLatestGain(row, prices);
   if (!gain) return { text: '-', tone: 'muted' };
@@ -94,7 +108,7 @@ function gainText(row: MovementRow): { text: string; tone: 'pos' | 'neg' | 'mute
           <th>Themes</th>
           <th class="granular">Granular</th>
           <th class="num price">Price*</th>
-          <th class="num gain-head">Est. gain</th>
+          <th class="num gain-head">Est. gain / stock move</th>
           <th class="num">Size</th>
           <th class="num">Change</th>
         </tr>
