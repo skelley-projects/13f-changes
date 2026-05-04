@@ -56,6 +56,48 @@ const positionSchema = z.object({
   voting_none: z.number(),
 });
 
+const taxonomyEntrySchema = z.object({
+  id: z.string().min(1),
+  label: z.string().min(1),
+  description: z.string(),
+  parent: z.string().optional(),
+});
+
+const tagsFileSchema = z.object({
+  slug: z.string().min(1),
+  taxonomy: z.array(taxonomyEntrySchema),
+  assignments: z.record(z.string(), z.array(z.string())),
+}).superRefine((data, ctx) => {
+  const ids = new Set(data.taxonomy.map(t => t.id));
+  const parentMap = new Map(data.taxonomy.map(t => [t.id, t.parent]));
+  for (const tag of data.taxonomy) {
+    if (tag.parent === undefined) continue;
+    if (tag.parent === tag.id) {
+      ctx.addIssue({
+        code: z.ZodIssueCode.custom,
+        path: ['taxonomy'],
+        message: `tag "${tag.id}" cannot be its own parent`,
+      });
+      continue;
+    }
+    if (!ids.has(tag.parent)) {
+      ctx.addIssue({
+        code: z.ZodIssueCode.custom,
+        path: ['taxonomy'],
+        message: `tag "${tag.id}" parent "${tag.parent}" does not exist in taxonomy`,
+      });
+      continue;
+    }
+    if (parentMap.get(tag.parent) !== undefined) {
+      ctx.addIssue({
+        code: z.ZodIssueCode.custom,
+        path: ['taxonomy'],
+        message: `tag "${tag.id}" parent "${tag.parent}" must be a top-level tag (no grandchildren)`,
+      });
+    }
+  }
+});
+
 /** Verify an MM-DD pair represents a valid quarter end. */
 function isValidQuarterEnding(periodEnding: string): boolean {
   // YYYY-MM-DD; MM in {03,06,09,12}; for Mar/Dec → 31, for Jun/Sep → 30
@@ -113,6 +155,14 @@ export function validateAll(d: DatasetForValidation): { errors: string[]; warnin
   for (const [slug, pf] of Object.entries(d.perFund)) {
     if (pf.quarters.slug !== slug) errors.push(`${slug}/quarters.json: slug mismatch`);
     if (pf.tags.slug !== slug) errors.push(`${slug}/tags.json: slug mismatch`);
+
+    // tags.json shape + parent-depth validation
+    const tagsResult = tagsFileSchema.safeParse(pf.tags);
+    if (!tagsResult.success) {
+      for (const issue of tagsResult.error.issues) {
+        errors.push(`${slug}/tags.json: ${issue.message}`);
+      }
+    }
 
     // taxonomy ID coverage
     const taxonomyIds = new Set(pf.tags.taxonomy.map(t => t.id));

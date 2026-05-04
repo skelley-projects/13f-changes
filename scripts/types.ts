@@ -71,6 +71,8 @@ export interface TaxonomyEntry {
   id: TagId;
   label: string;
   description: string;
+  /** Points to another tag's id in the same fund's taxonomy. Absent = top-level tag. */
+  parent?: TagId;
 }
 
 export interface TagsFile {
