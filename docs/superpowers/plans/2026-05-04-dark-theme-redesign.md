@@ -66,8 +66,8 @@ Current file is ~5 lines of minimal resets. Replace its entire content with:
   --bg: #0a0a0a;
   --bg-elev: #111111;
   --bg-tinted: #1a1a1a;
-  --border: #1f1f1f;
-  --border-strong: #333333;
+  --border: #262626;
+  --border-strong: #383838;
 
   --fg: #e5e5e5;
   --fg-muted: #888888;

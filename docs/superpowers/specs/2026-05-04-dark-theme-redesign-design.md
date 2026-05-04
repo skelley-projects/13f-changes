@@ -20,8 +20,8 @@ Defined once in `public/global.css` under `:root`. Every component references th
 | `--bg` | `#0a0a0a` | Page background |
 | `--bg-elev` | `#111111` | Elevated surfaces (cards, hero, CTA) |
 | `--bg-tinted` | `#1a1a1a` | Table headers, chips |
-| `--border` | `#1f1f1f` | Hairline borders |
-| `--border-strong` | `#333333` | Stronger dividers, chip outlines |
+| `--border` | `#262626` | Hairline borders |
+| `--border-strong` | `#383838` | Stronger dividers, chip outlines |
 | `--fg` | `#e5e5e5` | Primary text |
 | `--fg-muted` | `#888888` | Muted/meta text |
 | `--fg-dim` | `#555555` | De-emphasized text |
