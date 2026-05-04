@@ -7,7 +7,7 @@ import MovementTable from '../../components/MovementTable.astro';
 import HoldingsTable from '../../components/HoldingsTable.astro';
 import ContactCTA from '../../components/ContactCTA.astro';
 import {
-  loadFunds, loadFundQuarters, loadFiling, loadDiff, loadSecurities,
+  loadFunds, loadFundQuarters, loadFiling, loadDiff, loadSecurities, loadFundTags,
 } from '../../lib/data';
 
 export async function getStaticPaths() {
@@ -29,6 +29,7 @@ if (!currentQuarter) {
 const filing = loadFiling(slug!, currentQuarter.period);
 const diff = loadDiff(slug!, currentQuarter.period);
 const securities = loadSecurities();
+const tagsFile = loadFundTags(slug!);
 
 if (!filing || !diff) {
   throw new Error(`Missing filing or diff for ${slug} ${currentQuarter.period}`);
@@ -59,13 +60,22 @@ for (const p of filing.positions) {
     </div>
   )}
 
+  {diff.granular_breakdown && (
+    <section class="granular-section">
+      <div class="coverage-note">
+        Granular coverage: {(diff.granular_coverage_pct ?? 0).toFixed(1)}% of AUM
+      </div>
+      <SectorDeltaBars title="Granular theme shifts" breakdown={diff.granular_breakdown} />
+    </section>
+  )}
+
   {diff.prior_period && (
     <section class="movements">
       <div class="section-label">Position movements</div>
-      <MovementTable status="NEW" rows={diff.movements.new} />
-      <MovementTable status="INCREASED" rows={diff.movements.increased} />
-      <MovementTable status="DECREASED" rows={diff.movements.decreased} />
-      <MovementTable status="CLOSED" rows={diff.movements.closed} />
+      <MovementTable status="NEW" rows={diff.movements.new} taxonomy={tagsFile.taxonomy} />
+      <MovementTable status="INCREASED" rows={diff.movements.increased} taxonomy={tagsFile.taxonomy} />
+      <MovementTable status="DECREASED" rows={diff.movements.decreased} taxonomy={tagsFile.taxonomy} />
+      <MovementTable status="CLOSED" rows={diff.movements.closed} taxonomy={tagsFile.taxonomy} />
     </section>
   )}
 
@@ -74,6 +84,7 @@ for (const p of filing.positions) {
     securities={securities}
     unchangedOnly={diff.prior_period !== null}
     unchangedCusips={unchangedCusips}
+    taxonomy={tagsFile.taxonomy}
   />
 
   <footer class="methodology">
@@ -101,6 +112,18 @@ for (const p of filing.positions) {
     margin: 24px 0 12px;
   }
   .movements { margin-bottom: 24px; }
+  .granular-section {
+    margin-top: 28px;
+    margin-bottom: 24px;
+  }
+  .coverage-note {
+    font-family: var(--font-mono);
+    font-size: 0.7rem;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    color: var(--accent);
+    margin-bottom: 10px;
+  }
   .methodology {
     font-size: 0.75rem;
     color: var(--fg-muted);
