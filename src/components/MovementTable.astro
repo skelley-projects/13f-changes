@@ -1,5 +1,6 @@
 ---
-import { formatUSD, formatPct } from '../lib/format';
+import { formatUSD, formatPct, formatPrice } from '../lib/format';
+import { impliedPositionPrice } from '../lib/implied-price';
 import type { MovementRow, TaxonomyEntry } from '../../scripts/types';
 
 interface Props {
@@ -49,6 +50,15 @@ const summaryText =
 function signedUSD(value: number): string {
   return `${value >= 0 ? '+' : '-'}${formatUSD(Math.abs(value))}`;
 }
+
+function priceText(row: MovementRow): string {
+  const current = impliedPositionPrice(row, 'current');
+  const prior = impliedPositionPrice(row, 'prior');
+  if (status === 'NEW') return current === null ? '-' : `13F px ${formatPrice(current)}`;
+  if (status === 'CLOSED') return prior === null ? '-' : `13F px ${formatPrice(prior)}`;
+  if (current === null || prior === null) return '-';
+  return `13F px ${formatPrice(prior)} -> ${formatPrice(current)}`;
+}
 ---
 {rows.length === 0 ? null : (
   <section class={`movement movement-${styles.tone}`}>
@@ -71,6 +81,9 @@ function signedUSD(value: number): string {
               <td class="muted">{r.sector} / {r.industry}</td>
               <td class="muted">{broad.length === 0 ? '-' : broad.join(', ')}</td>
               <td class="muted granular">{granular.length === 0 ? '-' : granular.join(', ')}</td>
+              <td class="num muted price" title="Implied quarter-end price from 13F reported value divided by reported shares.">
+                {priceText(r)}
+              </td>
               <td class="num muted">
                 {status === 'NEW' && r.current_value !== null && formatUSD(r.current_value)}
                 {status === 'CLOSED' && r.prior_value !== null && `was ${formatUSD(r.prior_value)}`}
@@ -129,11 +142,13 @@ function signedUSD(value: number): string {
   td.num { text-align: right; font-family: var(--font-mono); }
   td.muted { color: var(--fg-muted); font-size: 0.8rem; }
   td.ticker { font-family: var(--font-mono); font-weight: 600; color: var(--fg); }
+  td.price { white-space: nowrap; }
   td.delta { font-weight: 600; }
   td.delta-pos { color: var(--pos); }
   td.delta-neg { color: var(--neg); }
 
   @media (max-width: 700px) {
+    td.price { display: none; }
     td.granular { display: none; }
   }
 </style>

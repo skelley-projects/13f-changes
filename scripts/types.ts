@@ -151,6 +151,9 @@ export interface MovementActivity {
   key: string;
   ticker: string | null;
   name: string;
+  title_of_class: string;
+  shares_type: Position['shares_type'];
+  put_call: Position['put_call'];
   sector: SectorName;
   industry: IndustryName;
   tags: TagId[];

@@ -5,6 +5,14 @@ export function formatUSD(usd: number): string {
   if (abs >= 1e3) return `$${(usd / 1e3).toFixed(0)}K`;
   return `$${usd.toFixed(0)}`;
 }
+export function formatPrice(usd: number): string {
+  return usd.toLocaleString('en-US', {
+    style: 'currency',
+    currency: 'USD',
+    minimumFractionDigits: 2,
+    maximumFractionDigits: 2,
+  });
+}
 export function formatPct(pct: number): string {
   return `${pct.toFixed(1)}%`;
 }

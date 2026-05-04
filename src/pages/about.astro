@@ -44,6 +44,7 @@ import ContactCTA from '../components/ContactCTA.astro';
     <h2>Limitations</h2>
     <ul>
       <li><strong>No trade tape.</strong> 13Fs disclose quarter-end holdings, not the date, price, or sequence of buys and sells. "New," "closed," and "buy / sell activity" are inferred from adjacent quarter-end snapshots.</li>
+      <li><strong>13F price is a quarter-end mark.</strong> The 13F price columns divide reported value by reported shares for ordinary share rows. They are not the fund's execution price.</li>
       <li><strong>Price movement is not cost basis.</strong> The mark-to-market table compares the filing's reported value per share to the latest quote for still-held ordinary equity rows. It does not estimate realized P/L, execution price, taxes, fees, or short exposure.</li>
       <li><strong>Options vs. underlying.</strong> Listed options on the same security are shown as separate rows, with a "Call" or "Put" annotation.</li>
       <li><strong>Foreign-listed shares.</strong> Some foreign-listed CUSIPs (G-prefix) are present; resolution to local tickers is best-effort.</li>

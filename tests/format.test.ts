@@ -1,5 +1,5 @@
 import { describe, it, expect } from 'vitest';
-import { formatUSD, formatPct, formatPctDelta, formatShares, formatPeriod } from '../src/lib/format';
+import { formatUSD, formatPrice, formatPct, formatPctDelta, formatShares, formatPeriod } from '../src/lib/format';
 
 describe('formatters', () => {
   it('formatUSD renders compact ($420M, $1.2B, $5.5B)', () => {
@@ -10,6 +10,9 @@ describe('formatters', () => {
   });
   it('formatPct rounds to 1 decimal', () => {
     expect(formatPct(17.456)).toBe('17.5%');
+  });
+  it('formatPrice renders cents', () => {
+    expect(formatPrice(86.8912)).toBe('$86.89');
   });
   it('formatPctDelta shows sign and pp', () => {
     expect(formatPctDelta(8)).toBe('+8 pp');
