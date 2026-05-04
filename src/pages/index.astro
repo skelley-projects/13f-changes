@@ -27,12 +27,17 @@ const rows: FundRow[] = funds.map((fund) => {
   const diff = loadDiff(fund.slug, latest.period);
   const top: { ticker: string; status: string }[] = [];
   if (diff && diff.prior_period) {
-    const buckets = [
-      ...diff.movements.new.map(r => ({ ticker: r.ticker ?? r.cusip, status: 'NEW' })),
-      ...diff.movements.increased.slice(0, 1).map(r => ({ ticker: r.ticker ?? r.cusip, status: '↑' })),
-      ...diff.movements.closed.slice(0, 1).map(r => ({ ticker: r.ticker ?? r.cusip, status: 'X' })),
+    // Take the top 3 by absolute |delta_value| across all four buckets, so the
+    // homepage shows a mix of NEW / ↑ / ↓ / X rather than always 3 NEWs when
+    // there are many.
+    const allMoves = [
+      ...diff.movements.new.map(r => ({ ticker: r.ticker ?? r.cusip, status: 'NEW', dv: r.delta_value })),
+      ...diff.movements.increased.map(r => ({ ticker: r.ticker ?? r.cusip, status: '↑', dv: r.delta_value })),
+      ...diff.movements.decreased.map(r => ({ ticker: r.ticker ?? r.cusip, status: '↓', dv: r.delta_value })),
+      ...diff.movements.closed.map(r => ({ ticker: r.ticker ?? r.cusip, status: 'X', dv: r.delta_value })),
     ];
-    top.push(...buckets.slice(0, 3));
+    allMoves.sort((a, b) => Math.abs(b.dv) - Math.abs(a.dv));
+    top.push(...allMoves.slice(0, 3).map(({ ticker, status }) => ({ ticker, status })));
   }
   return {
     slug: fund.slug,

@@ -1,18 +1,15 @@
 ---
 // src/components/HoldingsTable.astro
 import { formatUSD, formatShares, formatPct } from '../lib/format';
-import type { FilingFile, SecuritiesFile, TagsFile } from '../../scripts/types';
+import type { FilingFile, SecuritiesFile } from '../../scripts/types';
 
 interface Props {
   filing: FilingFile;
   securities: SecuritiesFile;
-  tags: TagsFile;
   unchangedOnly: boolean;
   unchangedCusips?: Set<string>;
 }
-const { filing, securities, tags, unchangedOnly, unchangedCusips } = Astro.props;
-// tags reserved for future filtering; reference once to satisfy unused-prop checks
-void tags.slug;
+const { filing, securities, unchangedOnly, unchangedCusips } = Astro.props;
 const positions = unchangedOnly && unchangedCusips
   ? filing.positions.filter(p => unchangedCusips.has(p.cusip))
   : filing.positions;
@@ -21,7 +18,7 @@ const totalUnchanged = positions.reduce((s, p) => s + p.value, 0);
 ---
 <details>
   <summary>
-    <strong>{positions.length} positions held steady</strong>
+    <strong>{positions.length} {positions.length === 1 ? 'position' : 'positions'} held steady</strong>
     · {formatUSD(totalUnchanged)} ({formatPct((totalUnchanged / total) * 100)} of AUM)
     <span class="hint">click to expand</span>
   </summary>

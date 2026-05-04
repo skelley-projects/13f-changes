@@ -7,7 +7,7 @@ import MovementTable from '../../components/MovementTable.astro';
 import HoldingsTable from '../../components/HoldingsTable.astro';
 import ContactCTA from '../../components/ContactCTA.astro';
 import {
-  loadFunds, loadFundQuarters, loadFiling, loadDiff, loadSecurities, loadFundTags,
+  loadFunds, loadFundQuarters, loadFiling, loadDiff, loadSecurities,
 } from '../../lib/data';
 
 export async function getStaticPaths() {
@@ -29,7 +29,6 @@ if (!currentQuarter) {
 const filing = loadFiling(slug!, currentQuarter.period);
 const diff = loadDiff(slug!, currentQuarter.period);
 const securities = loadSecurities();
-const tags = loadFundTags(slug!);
 
 if (!filing || !diff) {
   throw new Error(`Missing filing or diff for ${slug} ${currentQuarter.period}`);
@@ -81,7 +80,6 @@ for (const p of filing.positions) {
       <HoldingsTable
         filing={filing}
         securities={securities}
-        tags={tags}
         unchangedOnly={diff.prior_period !== null}
         unchangedCusips={unchangedCusips}
       />
