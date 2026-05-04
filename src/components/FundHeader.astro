@@ -1,5 +1,5 @@
 ---
-// src/components/FundHeader.astro
+import ManagerAvatar from './ManagerAvatar.astro';
 import { formatUSD, formatPeriod } from '../lib/format';
 import type { FundsFile, QuarterEntry } from '../../scripts/types';
 
@@ -12,26 +12,104 @@ interface Props {
 const { fund, quarter, priorPeriod } = Astro.props;
 ---
 <header class="fund-header">
-  <div class="row">
-    <h1>{fund.name}</h1>
-    <span class="meta">
-      {formatPeriod(quarter.period)} · filed {quarter.filing_date} ·
-      <a href={quarter.edgar_url} target="_blank" rel="noopener">SEC 13F-HR ↗</a>
-    </span>
+  <div class="lead">
+    <ManagerAvatar photo={fund.manager_photo ?? null} name={fund.manager_name} size="lg" />
+    <div class="lead-text">
+      <div class="lead-label">Lead Investor</div>
+      <h1>{fund.manager_name}</h1>
+      <div class="fund-name">{fund.name}</div>
+    </div>
+    <div class="meta">
+      <div class="period">{formatPeriod(quarter.period)}</div>
+      <div class="filed">filed {quarter.filing_date}</div>
+      <a href={quarter.edgar_url} target="_blank" rel="noopener" class="edgar-link">
+        SEC 13F-HR ↗
+      </a>
+    </div>
   </div>
-  <div class="row stats">
-    <span><strong>{formatUSD(quarter.total_value)}</strong> reported</span>
-    <span><strong>{quarter.position_count}</strong> positions</span>
-    <span class="manager">{fund.manager_name}</span>
-    {priorPeriod && <span class="versus">vs. {formatPeriod(priorPeriod)}</span>}
+  <div class="stats">
+    <div class="stat">
+      <div class="stat-label">AUM Reported</div>
+      <div class="stat-value num">{formatUSD(quarter.total_value)}</div>
+    </div>
+    <div class="stat">
+      <div class="stat-label">Positions</div>
+      <div class="stat-value num">{quarter.position_count}</div>
+    </div>
+    {priorPeriod && (
+      <div class="stat">
+        <div class="stat-label">Versus</div>
+        <div class="stat-value">{formatPeriod(priorPeriod)}</div>
+      </div>
+    )}
   </div>
 </header>
 
 <style>
-  .fund-header { border-bottom: 1px solid #ddd; padding-bottom: 12px; margin-bottom: 20px; }
-  .row { display: flex; justify-content: space-between; align-items: baseline; flex-wrap: wrap; gap: 8px; }
-  h1 { margin: 0; font-size: 1.4rem; }
-  .meta { color: #666; font-size: 0.85rem; }
-  .stats { margin-top: 8px; gap: 24px; color: #444; font-size: 0.9rem; }
-  .manager, .versus { color: #888; }
+  .fund-header {
+    border-bottom: 1px solid var(--border);
+    padding-bottom: 24px;
+    margin-bottom: 24px;
+  }
+  .lead {
+    display: flex;
+    align-items: flex-start;
+    gap: 16px;
+    flex-wrap: wrap;
+  }
+  .lead-text { flex: 1; min-width: 200px; }
+  .lead-label {
+    font-family: var(--font-mono);
+    font-size: 0.7rem;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    color: var(--accent);
+    margin-bottom: 4px;
+  }
+  .fund-header h1 {
+    margin: 0 0 4px;
+    font-size: 1.5rem;
+    color: var(--fg);
+    font-weight: 600;
+  }
+  .fund-name {
+    color: var(--fg-muted);
+    font-size: 0.95rem;
+  }
+  .meta {
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+    text-align: right;
+    font-family: var(--font-mono);
+    font-size: 0.75rem;
+    color: var(--fg-muted);
+  }
+  .period { color: var(--fg); }
+  .edgar-link { font-size: 0.75rem; }
+  .stats {
+    display: flex;
+    gap: 32px;
+    margin-top: 20px;
+    flex-wrap: wrap;
+  }
+  .stat-label {
+    font-family: var(--font-mono);
+    font-size: 0.65rem;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    color: var(--fg-muted);
+    margin-bottom: 2px;
+  }
+  .stat-value {
+    font-size: 1.1rem;
+    color: var(--fg);
+    font-weight: 600;
+  }
+  .num { font-family: var(--font-mono); }
+
+  @media (max-width: 600px) {
+    .meta { text-align: left; width: 100%; }
+    .stats { gap: 20px; }
+  }
 </style>
