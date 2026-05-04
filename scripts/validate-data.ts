@@ -5,6 +5,7 @@ const fundSchema = z.object({
   slug: z.string().min(1),
   name: z.string().min(1),
   manager_name: z.string(),
+  manager_photo: z.string().regex(/^\/managers\/.+\.(jpg|jpeg|png|webp)$/).optional(),
   cik: z.string().regex(/^\d{10}$/),
   location: z.string(),
   description: z.string(),

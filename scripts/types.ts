@@ -83,6 +83,8 @@ export interface FundsFile {
   slug: Slug;
   name: string;
   manager_name: string;
+  /** Optional path under public/, e.g. "/managers/leopold-aschenbrenner.jpg". Renders an avatar when present. */
+  manager_photo?: string;
   cik: CIK;
   location: string;
   description: string;
