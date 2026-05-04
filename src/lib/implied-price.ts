@@ -1,9 +1,10 @@
-import type { MovementRow } from '../../scripts/types';
+import type { MovementRow, PriceSnapshotFile } from '../../scripts/types';
 
 type PriceSide = 'current' | 'prior';
 
 function isOrdinaryShareRow(row: MovementRow): boolean {
-  return row.put_call === null && row.shares_type === 'SH';
+  if (row.put_call !== null || row.shares_type !== 'SH') return false;
+  return !/\b(CONV|NOTE|NOTES|DEBENTURE)\b/i.test(`${row.name} ${row.title_of_class}`);
 }
 
 export function impliedPositionPrice(row: MovementRow, side: PriceSide): number | null {
@@ -26,4 +27,54 @@ export function weightedImpliedPositionPrice(rows: MovementRow[], side: PriceSid
     shares += rowShares;
   }
   return shares > 0 ? value / shares : null;
+}
+
+export interface EstimatedGain {
+  value: number;
+  pct: number;
+  as_of: string;
+}
+
+export function estimateLatestGain(
+  row: MovementRow,
+  prices: PriceSnapshotFile | null,
+): EstimatedGain | null {
+  if (!prices || !row.ticker || !isOrdinaryShareRow(row)) return null;
+  if (row.current_value === null || row.current_shares === null || row.current_shares <= 0) return null;
+  const quote = prices.records[row.ticker.toUpperCase()];
+  if (!quote || quote.currency !== 'USD' || quote.price <= 0) return null;
+  const cost = impliedPositionPrice(row, 'current');
+  if (cost === null || cost <= 0) return null;
+  const value = (quote.price - cost) * row.current_shares;
+  return {
+    value,
+    pct: ((quote.price - cost) / cost) * 100,
+    as_of: quote.as_of,
+  };
+}
+
+export function estimateLatestGainForRows(
+  rows: MovementRow[],
+  prices: PriceSnapshotFile | null,
+): EstimatedGain | null {
+  let value = 0;
+  let basis = 0;
+  let latestValue = 0;
+  let latestAsOf = '';
+
+  for (const row of rows) {
+    const gain = estimateLatestGain(row, prices);
+    if (!gain || row.current_value === null) continue;
+    value += gain.value;
+    basis += row.current_value;
+    latestValue += row.current_value + gain.value;
+    if (gain.as_of > latestAsOf) latestAsOf = gain.as_of;
+  }
+
+  if (basis <= 0) return null;
+  return {
+    value,
+    pct: ((latestValue - basis) / basis) * 100,
+    as_of: latestAsOf,
+  };
 }

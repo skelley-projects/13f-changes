@@ -2,8 +2,8 @@ name: Refresh latest prices
 
 on:
   schedule:
-    # After the US close on weekdays. The committed JSON snapshot triggers deploy.yml.
-    - cron: '30 22 * * 1-5'
+    # 6pm EST on weekdays. The committed JSON snapshot triggers deploy.yml.
+    - cron: '0 23 * * 1-5'
   workflow_dispatch:
 
 permissions:

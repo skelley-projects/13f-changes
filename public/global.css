@@ -1,21 +1,23 @@
 /* === Theme tokens === */
 :root {
-  --bg: #0a0a0a;
-  --bg-elev: #111111;
-  --bg-tinted: #1a1a1a;
-  --border: #262626;
-  --border-strong: #383838;
+  --bg: #08090b;
+  --bg-elev: #101216;
+  --bg-tinted: #161a20;
+  --border: #242a32;
+  --border-strong: #333b46;
 
-  --fg: #e5e5e5;
-  --fg-muted: #888888;
-  --fg-dim: #555555;
+  --fg: #f0ede6;
+  --fg-muted: #a09a90;
+  --fg-dim: #6a665f;
 
-  --accent: #f59e0b;
-  --accent-hover: #fbbf24;
-  --accent-dark: #78350f;
+  --accent: #d9a441;
+  --accent-hover: #f0bf63;
+  --accent-dark: #6f5120;
 
-  --pos: #22c55e;
-  --neg: #ef4444;
+  --pos: #49c878;
+  --neg: #e4535a;
+  --buy: #49c878;
+  --sell: #e4535a;
 
   --font-sans: ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
   --font-mono: ui-monospace, "SF Mono", Consolas, "Liberation Mono", Menlo, monospace;

@@ -45,8 +45,9 @@ const max = rows.reduce((m, r) => Math.max(m, Math.abs(r.delta_pct_pts)), 0) || 
   .delta-panel {
     background: var(--bg-elev);
     border: 1px solid var(--border);
-    border-radius: 4px;
-    padding: 14px;
+    border-radius: 8px;
+    padding: 16px;
+    box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.02);
   }
   .label {
     font-family: var(--font-mono);
@@ -80,7 +81,7 @@ const max = rows.reduce((m, r) => Math.max(m, Math.abs(r.delta_pct_pts)), 0) || 
     bottom: 0;
     border-left: 1px solid var(--border-strong);
   }
-  .bar { position: absolute; height: 14px; top: 0; }
+  .bar { position: absolute; height: 14px; top: 0; border-radius: 2px; }
   .bar.pos { background: var(--pos); }
   .bar.neg { background: var(--neg); }
   .row-value { font-family: var(--font-mono); }

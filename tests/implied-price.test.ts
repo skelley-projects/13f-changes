@@ -1,6 +1,11 @@
 import { describe, expect, it } from 'vitest';
-import { impliedPositionPrice, weightedImpliedPositionPrice } from '../src/lib/implied-price';
-import type { MovementRow } from '../scripts/types';
+import {
+  estimateLatestGain,
+  estimateLatestGainForRows,
+  impliedPositionPrice,
+  weightedImpliedPositionPrice,
+} from '../src/lib/implied-price';
+import type { MovementRow, PriceSnapshotFile } from '../scripts/types';
 
 function row(overrides: Partial<MovementRow> = {}): MovementRow {
   return {
@@ -34,6 +39,7 @@ describe('implied 13F price helpers', () => {
   it('does not price options or PRN rows', () => {
     expect(impliedPositionPrice(row({ put_call: 'Put' }), 'current')).toBeNull();
     expect(impliedPositionPrice(row({ shares_type: 'PRN' }), 'prior')).toBeNull();
+    expect(impliedPositionPrice(row({ name: 'XYZ Corp - Conv Notes' }), 'current')).toBeNull();
   });
 
   it('computes weighted side prices across eligible rows only', () => {
@@ -43,5 +49,27 @@ describe('implied 13F price helpers', () => {
       row({ current_value: 500, current_shares: 50, put_call: 'Call' }),
     ];
     expect(weightedImpliedPositionPrice(rows, 'current')).toBe(20);
+  });
+
+  it('estimates latest gain from current quarter-end price', () => {
+    const prices: PriceSnapshotFile = {
+      fetched_at: '2026-05-04T22:00:00.000Z',
+      source: 'yahoo-finance',
+      records: {
+        XYZ: {
+          ticker: 'XYZ',
+          price: 12,
+          currency: 'USD',
+          as_of: '2026-05-04T22:00:00.000Z',
+          market_state: 'POST',
+          quote_source: 'Test',
+          source: 'yahoo-finance',
+        },
+      },
+      failures: {},
+    };
+    expect(estimateLatestGain(row(), prices)).toMatchObject({ value: 200, pct: 20 });
+    expect(estimateLatestGainForRows([row(), row({ current_value: 2_000, current_shares: 100 })], prices))
+      .toMatchObject({ value: -600, pct: -20 });
   });
 });

@@ -1,14 +1,15 @@
 ---
 import { formatUSD, formatPct, formatPrice } from '../lib/format';
-import { impliedPositionPrice } from '../lib/implied-price';
-import type { MovementRow, TaxonomyEntry } from '../../scripts/types';
+import { estimateLatestGain, impliedPositionPrice } from '../lib/implied-price';
+import type { MovementRow, PriceSnapshotFile, TaxonomyEntry } from '../../scripts/types';
 
 interface Props {
   status: 'NEW' | 'INCREASED' | 'DECREASED' | 'CLOSED';
   rows: MovementRow[];
   taxonomy: TaxonomyEntry[];
+  prices: PriceSnapshotFile | null;
 }
-const { status, rows, taxonomy } = Astro.props;
+const { status, rows, taxonomy, prices } = Astro.props;
 
 const tagById = new Map(taxonomy.map(t => [t.id, t]));
 
@@ -54,10 +55,20 @@ function signedUSD(value: number): string {
 function priceText(row: MovementRow): string {
   const current = impliedPositionPrice(row, 'current');
   const prior = impliedPositionPrice(row, 'prior');
-  if (status === 'NEW') return current === null ? '-' : `13F px ${formatPrice(current)}`;
-  if (status === 'CLOSED') return prior === null ? '-' : `13F px ${formatPrice(prior)}`;
+  if (status === 'NEW') return current === null ? '-' : formatPrice(current);
+  if (status === 'CLOSED') return prior === null ? '-' : formatPrice(prior);
   if (current === null || prior === null) return '-';
-  return `13F px ${formatPrice(prior)} -> ${formatPrice(current)}`;
+  return `${formatPrice(prior)} -> ${formatPrice(current)}`;
+}
+
+function gainText(row: MovementRow): { text: string; tone: 'pos' | 'neg' | 'muted' } {
+  if (status === 'CLOSED') return { text: '-', tone: 'muted' };
+  const gain = estimateLatestGain(row, prices);
+  if (!gain) return { text: '-', tone: 'muted' };
+  return {
+    text: `${gain.value >= 0 ? '+' : '-'}${formatUSD(Math.abs(gain.value))} (${gain.pct >= 0 ? '+' : ''}${formatPct(gain.pct)})`,
+    tone: gain.value >= 0 ? 'pos' : 'neg',
+  };
 }
 ---
 {rows.length === 0 ? null : (
@@ -67,6 +78,19 @@ function priceText(row: MovementRow): string {
       <span class="net">{summaryText}</span>
     </header>
     <table>
+      <thead>
+        <tr>
+          <th>Ticker</th>
+          <th>Name</th>
+          <th>Sector</th>
+          <th>Themes</th>
+          <th class="granular">Granular</th>
+          <th class="num price">Price*</th>
+          <th class="num gain-head">Est. gain</th>
+          <th class="num">Size</th>
+          <th class="num">Change</th>
+        </tr>
+      </thead>
       <tbody>
         {rows.map((r) => {
           const broad = broadLabelsFor(r.tags);
@@ -74,6 +98,7 @@ function priceText(row: MovementRow): string {
           const valueTone = (status === 'INCREASED' || status === 'DECREASED')
             ? (r.delta_value >= 0 ? 'pos' : 'neg')
             : styles.tone;
+          const gain = gainText(r);
           return (
             <tr>
               <td class="ticker">{r.ticker ?? r.cusip}</td>
@@ -81,9 +106,10 @@ function priceText(row: MovementRow): string {
               <td class="muted">{r.sector} / {r.industry}</td>
               <td class="muted">{broad.length === 0 ? '-' : broad.join(', ')}</td>
               <td class="muted granular">{granular.length === 0 ? '-' : granular.join(', ')}</td>
-              <td class="num muted price" title="Implied quarter-end price from 13F reported value divided by reported shares.">
+              <td class="num muted price" title="Quarter-end price: reported fair value divided by reported shares.">
                 {priceText(r)}
               </td>
+              <td class={`num gain ${gain.tone}`}>{gain.text}</td>
               <td class="num muted">
                 {status === 'NEW' && r.current_value !== null && formatUSD(r.current_value)}
                 {status === 'CLOSED' && r.prior_value !== null && `was ${formatUSD(r.prior_value)}`}
@@ -106,10 +132,11 @@ function priceText(row: MovementRow): string {
 <style>
   .movement {
     border: 1px solid var(--border);
-    border-radius: 4px;
-    margin-bottom: 12px;
+    border-radius: 8px;
+    margin-bottom: 14px;
     overflow: hidden;
     background: var(--bg-elev);
+    box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.02);
   }
   .movement-pos { border-left: 3px solid var(--pos); }
   .movement-neg { border-left: 3px solid var(--neg); }
@@ -135,6 +162,19 @@ function priceText(row: MovementRow): string {
     font-family: var(--font-mono);
   }
   table { width: 100%; border-collapse: collapse; font-size: 0.825rem; }
+  th {
+    text-align: left;
+    padding: 7px 12px;
+    font-family: var(--font-mono);
+    font-size: 0.62rem;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 0.55px;
+    color: var(--fg-dim);
+    border-bottom: 1px solid var(--border);
+    background: rgba(255, 255, 255, 0.012);
+  }
+  th.num { text-align: right; }
   tr { border-bottom: 1px solid var(--border); }
   tr:last-child { border-bottom: none; }
   tr:hover { background: var(--bg-tinted); }
@@ -143,12 +183,24 @@ function priceText(row: MovementRow): string {
   td.muted { color: var(--fg-muted); font-size: 0.8rem; }
   td.ticker { font-family: var(--font-mono); font-weight: 600; color: var(--fg); }
   td.price { white-space: nowrap; }
+  td.gain {
+    white-space: nowrap;
+    font-size: 0.78rem;
+    font-family: var(--font-mono);
+  }
+  td.gain.muted { color: var(--fg-dim); }
+  td.gain.pos { color: var(--pos); }
+  td.gain.neg { color: var(--neg); }
   td.delta { font-weight: 600; }
   td.delta-pos { color: var(--pos); }
   td.delta-neg { color: var(--neg); }
 
   @media (max-width: 700px) {
+    th.gain-head { display: none; }
+    td.gain { display: none; }
     td.price { display: none; }
+    th.price { display: none; }
+    th.granular { display: none; }
     td.granular { display: none; }
   }
 </style>

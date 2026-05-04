@@ -74,11 +74,14 @@ for (const p of filing.positions) {
   {diff.prior_period && (
     <section class="movements">
       <div class="section-label">Position movements</div>
-      <ActivityTable rows={diff.movements.activity ?? []} taxonomy={tagsFile.taxonomy} />
-      <MovementTable status="NEW" rows={diff.movements.new} taxonomy={tagsFile.taxonomy} />
-      <MovementTable status="INCREASED" rows={diff.movements.increased} taxonomy={tagsFile.taxonomy} />
-      <MovementTable status="DECREASED" rows={diff.movements.decreased} taxonomy={tagsFile.taxonomy} />
-      <MovementTable status="CLOSED" rows={diff.movements.closed} taxonomy={tagsFile.taxonomy} />
+      <p class="pricing-note">
+        Price = reported fair value divided by reported shares at quarter-end. Est. gain uses the latest daily Yahoo Finance quote snapshot and excludes rows where price math would be misleading.
+      </p>
+      <ActivityTable rows={diff.movements.activity ?? []} taxonomy={tagsFile.taxonomy} prices={prices} />
+      <MovementTable status="NEW" rows={diff.movements.new} taxonomy={tagsFile.taxonomy} prices={prices} />
+      <MovementTable status="INCREASED" rows={diff.movements.increased} taxonomy={tagsFile.taxonomy} prices={prices} />
+      <MovementTable status="DECREASED" rows={diff.movements.decreased} taxonomy={tagsFile.taxonomy} prices={prices} />
+      <MovementTable status="CLOSED" rows={diff.movements.closed} taxonomy={tagsFile.taxonomy} prices={prices} />
     </section>
   )}
 
@@ -94,7 +97,7 @@ for (const p of filing.positions) {
   />
 
   <footer class="methodology">
-    <strong>Methodology:</strong> Data from SEC 13F-HR filings. GICS sector/industry via OpenFIGI + Yahoo Finance. Themes assigned editorially per-fund. <a href="/about">More →</a>
+    <strong>Methodology:</strong> Data from SEC 13F-HR filings. Prices are quarter-end filing marks and latest Yahoo Finance snapshots. Themes assigned editorially per-fund. <a href="/about">More →</a>
   </footer>
 
   <ContactCTA />
@@ -118,6 +121,13 @@ for (const p of filing.positions) {
     margin: 24px 0 12px;
   }
   .movements { margin-bottom: 24px; }
+  .pricing-note {
+    max-width: 760px;
+    margin: -4px 0 14px;
+    color: var(--fg-muted);
+    font-size: 0.76rem;
+    line-height: 1.5;
+  }
   .granular-section {
     margin-top: 28px;
     margin-bottom: 24px;

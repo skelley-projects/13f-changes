@@ -39,13 +39,13 @@ import ContactCTA from '../components/ContactCTA.astro';
     </ul>
 
     <h2>Refresh cadence</h2>
-    <p>A GitHub Action polls EDGAR daily during the four 45-day filing windows (mid-Feb, mid-May, mid-Aug, mid-Nov). When a new filing lands, a manual review session ingests it, classifies any new positions, computes the diff, and ships. A separate weekday workflow refreshes the latest-price snapshot after the U.S. market close.</p>
+    <p>A GitHub Action polls EDGAR daily during the four 45-day filing windows (mid-Feb, mid-May, mid-Aug, mid-Nov). When a new filing lands, a manual review session ingests it, classifies any new positions, computes the diff, and ships. A separate weekday workflow refreshes the latest-price snapshot around 6pm EST.</p>
 
     <h2>Limitations</h2>
     <ul>
       <li><strong>No trade tape.</strong> 13Fs disclose quarter-end holdings, not the date, price, or sequence of buys and sells. "New," "closed," and "buy / sell activity" are inferred from adjacent quarter-end snapshots.</li>
       <li><strong>13F price is a quarter-end mark.</strong> The 13F price columns divide reported value by reported shares for ordinary share rows. They are not the fund's execution price.</li>
-      <li><strong>Price movement is not cost basis.</strong> The mark-to-market table compares the filing's reported value per share to the latest quote for still-held ordinary equity rows. It does not estimate realized P/L, execution price, taxes, fees, or short exposure.</li>
+      <li><strong>Estimated gain is mark-to-market.</strong> Estimated gain compares the latest price snapshot to the quarter-end 13F price for still-held ordinary equity rows. It does not estimate realized P/L, execution price, taxes, fees, or short exposure.</li>
       <li><strong>Options vs. underlying.</strong> Listed options on the same security are shown as separate rows, with a "Call" or "Put" annotation.</li>
       <li><strong>Foreign-listed shares.</strong> Some foreign-listed CUSIPs (G-prefix) are present; resolution to local tickers is best-effort.</li>
       <li><strong>Theme tags are editorial.</strong> Different observers would categorize positions differently; tags are one perspective.</li>

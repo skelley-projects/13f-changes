@@ -1,13 +1,14 @@
 ---
 import { formatUSD, formatPrice } from '../lib/format';
-import { weightedImpliedPositionPrice } from '../lib/implied-price';
-import type { MovementActivity, TaxonomyEntry } from '../../scripts/types';
+import { estimateLatestGainForRows, weightedImpliedPositionPrice } from '../lib/implied-price';
+import type { MovementActivity, PriceSnapshotFile, TaxonomyEntry } from '../../scripts/types';
 
 interface Props {
   rows: MovementActivity[];
   taxonomy: TaxonomyEntry[];
+  prices: PriceSnapshotFile | null;
 }
-const { rows, taxonomy } = Astro.props;
+const { rows, taxonomy, prices } = Astro.props;
 
 const tagById = new Map(taxonomy.map(t => [t.id, t]));
 
@@ -36,12 +37,26 @@ const totalBought = rows.reduce((s, r) => s + r.current_value, 0);
 const totalSold = rows.reduce((s, r) => s + r.prior_value, 0);
 const net = totalBought - totalSold;
 
-function priceText(row: MovementActivity): string {
+function priceParts(row: MovementActivity): { buy: string; sell: string } {
   const boughtPrice = weightedImpliedPositionPrice(row.bought, 'current');
   const soldPrice = weightedImpliedPositionPrice(row.sold, 'prior');
-  const buy = boughtPrice === null ? '-' : formatPrice(boughtPrice);
-  const sell = soldPrice === null ? '-' : formatPrice(soldPrice);
-  return `13F px buy ${buy} / sell ${sell}`;
+  return {
+    buy: boughtPrice === null ? '-' : formatPrice(boughtPrice),
+    sell: soldPrice === null ? '-' : formatPrice(soldPrice),
+  };
+}
+
+function signedUSD(value: number): string {
+  return `${value >= 0 ? '+' : '-'}${formatUSD(Math.abs(value))}`;
+}
+
+function gainParts(row: MovementActivity): { text: string; tone: 'pos' | 'neg' | 'muted' } {
+  const gain = estimateLatestGainForRows(row.bought, prices);
+  if (!gain) return { text: '-', tone: 'muted' };
+  return {
+    text: `${signedUSD(gain.value)} (${gain.pct >= 0 ? '+' : ''}${gain.pct.toFixed(1)}%)`,
+    tone: gain.value >= 0 ? 'pos' : 'neg',
+  };
 }
 ---
 {rows.length === 0 ? null : (
@@ -54,25 +69,51 @@ function priceText(row: MovementActivity): string {
       </span>
     </header>
     <table>
+      <thead>
+        <tr>
+          <th>Ticker</th>
+          <th>Name</th>
+          <th>Sector</th>
+          <th>Themes</th>
+          <th class="granular">Granular</th>
+          <th>Price* / value</th>
+          <th class="num gain-head">Est. gain</th>
+          <th class="num">Net</th>
+        </tr>
+      </thead>
       <tbody>
         {rows.map((r) => {
           const broad = broadLabelsFor(r.tags);
           const granular = granularLabelsFor(r.tags);
+          const prices = priceParts(r);
+          const gain = gainParts(r);
           return (
-            <tr>
-              <td class="ticker">{r.ticker ?? r.key}</td>
-              <td>{r.name}</td>
+            <tr class="activity-row">
+              <td class="ticker">
+                <span>{r.ticker ?? r.key}</span>
+                <span class="activity-chip">activity</span>
+              </td>
+              <td class="issuer">{r.name}</td>
               <td class="muted">{r.sector} / {r.industry}</td>
               <td class="muted">{broad.length === 0 ? '-' : broad.join(', ')}</td>
               <td class="muted granular">{granular.length === 0 ? '-' : granular.join(', ')}</td>
-              <td class="num muted price" title="Implied quarter-end price from 13F reported value divided by reported shares.">
-                {priceText(r)}
+              <td class="activity-stack" title="Quarter-end price: reported fair value divided by reported shares.">
+                <div class="leg buy">
+                  <span class="leg-label">Bought</span>
+                  <span class="leg-price num">{prices.buy}</span>
+                  <span class="leg-value num">{formatUSD(r.current_value)}</span>
+                </div>
+                <div class="leg sell">
+                  <span class="leg-label">Sold</span>
+                  <span class="leg-price num">{prices.sell}</span>
+                  <span class="leg-value num">{formatUSD(r.prior_value)}</span>
+                </div>
               </td>
-              <td class="num muted">
-                bought {formatUSD(r.current_value)} / sold {formatUSD(r.prior_value)}
+              <td class={`num gain ${gain.tone}`}>
+                {gain.text}
               </td>
               <td class={`num delta ${r.net_delta_value >= 0 ? 'delta-pos' : 'delta-neg'}`}>
-                {r.net_delta_value >= 0 ? '+' : '-'}{formatUSD(Math.abs(r.net_delta_value))}
+                {signedUSD(r.net_delta_value)}
               </td>
             </tr>
           );
@@ -86,10 +127,11 @@ function priceText(row: MovementActivity): string {
   .movement {
     border: 1px solid var(--border);
     border-left: 3px solid var(--accent);
-    border-radius: 4px;
-    margin-bottom: 12px;
+    border-radius: 6px;
+    margin-bottom: 14px;
     overflow: hidden;
     background: var(--bg-elev);
+    box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.02);
   }
   header {
     padding: 8px 12px;
@@ -112,14 +154,76 @@ function priceText(row: MovementActivity): string {
     font-family: var(--font-mono);
   }
   table { width: 100%; border-collapse: collapse; font-size: 0.825rem; }
+  th {
+    text-align: left;
+    padding: 7px 12px;
+    font-family: var(--font-mono);
+    font-size: 0.62rem;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 0.55px;
+    color: var(--fg-dim);
+    border-bottom: 1px solid var(--border);
+    background: rgba(255, 255, 255, 0.012);
+  }
+  th.num { text-align: right; }
   tr { border-bottom: 1px solid var(--border); }
   tr:last-child { border-bottom: none; }
   tr:hover { background: var(--bg-tinted); }
   td { padding: 6px 12px; color: var(--fg); }
   td.num { text-align: right; font-family: var(--font-mono); }
   td.muted { color: var(--fg-muted); font-size: 0.8rem; }
-  td.ticker { font-family: var(--font-mono); font-weight: 600; color: var(--fg); }
-  td.price { white-space: nowrap; }
+  td.ticker {
+    font-family: var(--font-mono);
+    font-weight: 600;
+    color: var(--fg);
+    vertical-align: top;
+  }
+  .ticker span { display: block; }
+  .activity-chip {
+    color: var(--accent);
+    font-size: 0.62rem;
+    font-weight: 500;
+    margin-top: 2px;
+    text-transform: uppercase;
+    letter-spacing: 0.4px;
+  }
+  .issuer { vertical-align: top; }
+  .activity-stack {
+    min-width: 190px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+  }
+  .leg {
+    display: grid;
+    grid-template-columns: 58px minmax(64px, 1fr) minmax(60px, 1fr);
+    gap: 10px;
+    align-items: baseline;
+    line-height: 1.35;
+  }
+  .leg + .leg {
+    margin-top: 4px;
+    padding-top: 4px;
+    border-top: 1px solid var(--border);
+  }
+  .leg-label {
+    font-family: var(--font-mono);
+    font-size: 0.64rem;
+    text-transform: uppercase;
+    letter-spacing: 0.4px;
+  }
+  .leg.buy .leg-label { color: var(--buy); }
+  .leg.sell .leg-label { color: var(--sell); }
+  .leg-price { color: var(--fg); }
+  .leg-value { color: var(--fg-muted); text-align: right; }
+  td.gain {
+    white-space: nowrap;
+    font-size: 0.78rem;
+    font-family: var(--font-mono);
+  }
+  td.gain.muted { color: var(--fg-dim); }
+  td.gain.pos { color: var(--pos); }
+  td.gain.neg { color: var(--neg); }
   td.delta { font-weight: 600; }
   .pos, td.delta-pos { color: var(--pos); }
   .neg, td.delta-neg { color: var(--neg); }
@@ -129,7 +233,12 @@ function priceText(row: MovementActivity): string {
       flex-direction: column;
       gap: 4px;
     }
-    td.price { display: none; }
+    th.gain-head { display: none; }
+    td.gain { display: none; }
+    th.granular { display: none; }
     td.granular { display: none; }
+    .activity-stack { min-width: 160px; }
+    .leg { grid-template-columns: 54px 1fr; }
+    .leg-value { display: none; }
   }
 </style>
