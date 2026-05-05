@@ -3,6 +3,7 @@ import Layout from '../../components/Layout.astro';
 import ManagerAvatar from '../../components/ManagerAvatar.astro';
 import { loadDiff, loadFiling, loadFundQuarters, loadFundTags, loadFunds, loadSecurities } from '../../lib/data';
 import { formatPct, formatPeriod, formatUSD } from '../../lib/format';
+import { getSegmentPrimer } from '../../lib/segment-primers';
 import { themeSlug } from '../../lib/theme';
 import type { MovementActivity, MovementRow, Position, TaxonomyEntry } from '../../../scripts/types';
 
@@ -22,6 +23,7 @@ const { theme } = Astro.params;
 const { label } = Astro.props;
 const funds = loadFunds();
 const securities = loadSecurities();
+const primer = getSegmentPrimer(theme!);
 
 function matchingEntries(taxonomy: TaxonomyEntry[], targetTheme: string): TaxonomyEntry[] {
   return taxonomy.filter(entry => themeSlug(entry.label) === targetTheme);
@@ -139,10 +141,10 @@ function movementRows(view: NonNullable<(typeof fundViews)[number]>): Array<{ ti
   <nav class="topnav"><a href="/">&larr; All funds</a></nav>
 
   <header class="theme-header">
-    <div class="kicker">Theme</div>
+    <div class="kicker">{primer ? 'Granular segment' : 'Theme'}</div>
     <h1>{label}</h1>
     <p>
-      Current exposure and quarter activity across tracked funds. Theme classifications are editorial and may vary by fund taxonomy.
+      {primer?.summary ?? 'Current exposure and quarter activity across tracked funds. Theme classifications are editorial and may vary by fund taxonomy.'}
     </p>
   </header>
 
@@ -153,73 +155,118 @@ function movementRows(view: NonNullable<(typeof fundViews)[number]>): Array<{ ti
     <div><span>Tracked funds</span><strong>{fundViews.length}</strong></div>
   </section>
 
+  {primer && (
+    <section class="primer-panel">
+      <div class="primer-copy">
+        <div class="section-label">Segment overview</div>
+        {primer.overview.map(paragraph => <p>{paragraph}</p>)}
+
+        <div class="primer-lists">
+          <div>
+            <div class="mini-label">What it covers</div>
+            <ul>
+              {primer.marketMap.map(item => <li>{item}</li>)}
+            </ul>
+          </div>
+          <div>
+            <div class="mini-label">What to watch</div>
+            <ul>
+              {primer.watchItems.map(item => <li>{item}</li>)}
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <aside class="major-names">
+        <div class="section-label">Major names</div>
+        <p>
+          Broader segment comps and key players, not limited to the tracked fund holdings below.
+        </p>
+        <div class="players">
+          {primer.majorPlayers.map(player => (
+            <div class="player">
+              <div>
+                <strong>{player.name}</strong>
+                <span>{player.role}</span>
+              </div>
+              <em>{player.ticker ?? player.kind ?? 'Private'}</em>
+            </div>
+          ))}
+        </div>
+      </aside>
+    </section>
+  )}
+
   {fundViews.length === 0 ? (
     <p class="empty">No active fund currently has this theme assigned.</p>
   ) : (
-    <div class="fund-theme-stack">
-      {fundViews.map((view) => (
-        <section class="fund-theme">
-          <header>
-            <div class="manager-line">
-              <ManagerAvatar photo={view.fund.manager_photo ?? null} name={view.fund.manager_name} size="sm" />
-              <div>
-                <h2><a href={`/funds/${view.fund.slug}`}>{view.fund.name}</a></h2>
-                <p>{view.fund.manager_name} &middot; {formatPeriod(view.period)} filed {view.filingDate}</p>
+    <section class="tracked-funds">
+      <div class="section-label">Tracked fund exposure</div>
+      <div class="fund-theme-stack">
+        {fundViews.map((view) => (
+          <section class="fund-theme">
+            <header>
+              <div class="manager-line">
+                <ManagerAvatar photo={view.fund.manager_photo ?? null} name={view.fund.manager_name} size="sm" />
+                <div>
+                  <h2><a href={`/funds/${view.fund.slug}`}>{view.fund.name}</a></h2>
+                  <p>{view.fund.manager_name} &middot; {formatPeriod(view.period)} filed {view.filingDate}</p>
+                </div>
               </div>
-            </div>
-            <div class="fund-metric">
-              <span>{formatPct((view.exposureValue / view.aum) * 100)} of reported 13F</span>
-              <strong>{formatUSD(view.exposureValue)}</strong>
-            </div>
-          </header>
+              <div class="fund-metric">
+                <span>{formatPct((view.exposureValue / view.aum) * 100)} of reported 13F</span>
+                <strong>{formatUSD(view.exposureValue)}</strong>
+              </div>
+            </header>
 
-          {view.definitions.length > 0 && (
-            <p class="definition">{Array.from(new Set(view.definitions)).join(' ')}</p>
-          )}
+            {view.definitions.length > 0 && (
+              <p class="definition">{Array.from(new Set(view.definitions)).join(' ')}</p>
+            )}
 
-          <div class="split">
-            <div>
-              <div class="section-label">Largest current positions</div>
-              <table>
-                <thead><tr><th>Ticker</th><th>Name</th><th class="num">Value</th><th>Instrument</th></tr></thead>
-                <tbody>
-                  {view.positions.slice(0, 8).map((position) => (
-                    <tr>
-                      <td class="ticker">{position.ticker}</td>
-                      <td>{position.name}</td>
-                      <td class="num">{formatUSD(position.value)}</td>
-                      <td class="muted">{position.instrument}</td>
-                    </tr>
-                  ))}
-                </tbody>
-              </table>
-            </div>
-
-            <div>
-              <div class="section-label">Quarter activity</div>
-              {movementRows(view).length === 0 ? (
-                <p class="empty small">No active movement in this theme this quarter.</p>
-              ) : (
+            <div class="split">
+              <div>
+                <div class="section-label">Largest tracked holdings</div>
                 <table>
-                  <thead><tr><th>Ticker</th><th>Action</th><th class="num">Value</th></tr></thead>
+                  <thead><tr><th>Ticker</th><th>Name</th><th class="num">Value</th><th>Instrument</th></tr></thead>
                   <tbody>
-                    {movementRows(view).slice(0, 8).map((row) => (
+                    {view.positions.slice(0, 8).map((position) => (
                       <tr>
-                        <td class="ticker">{row.ticker}</td>
-                        <td>{row.status}</td>
-                        <td class={`num ${row.value >= 0 ? 'pos' : 'neg'}`}>
-                          {row.value >= 0 ? '+' : '-'}{formatUSD(Math.abs(row.value))}
-                        </td>
+                        <td class="ticker">{position.ticker}</td>
+                        <td>{position.name}</td>
+                        <td class="num">{formatUSD(position.value)}</td>
+                        <td class="muted">{position.instrument}</td>
                       </tr>
                     ))}
                   </tbody>
                 </table>
-              )}
+              </div>
+
+              <div>
+                <div class="section-label">Quarter activity</div>
+                {movementRows(view).length === 0 ? (
+                  <p class="empty small">No active movement in this theme this quarter.</p>
+                ) : (
+                  <table>
+                    <thead><tr><th>Ticker</th><th>Action</th><th class="num">Value</th></tr></thead>
+                    <tbody>
+                      {movementRows(view).slice(0, 8).map((row) => (
+                        <tr>
+                          <td class="ticker">{row.ticker}</td>
+                          <td>{row.status}</td>
+                          <td class={`num ${row.value >= 0 ? 'pos' : 'neg'}`}>
+                            {row.value >= 0 ? '+' : '-'}{formatUSD(Math.abs(row.value))}
+                          </td>
+                        </tr>
+                      ))}
+                    </tbody>
+                  </table>
+                )}
+              </div>
             </div>
-          </div>
-        </section>
-      ))}
-    </div>
+          </section>
+        ))}
+      </div>
+    </section>
   )}
 </Layout>
 
@@ -283,6 +330,86 @@ function movementRows(view: NonNullable<(typeof fundViews)[number]>): Array<{ ti
     color: var(--fg);
     font-family: var(--font-mono);
     font-size: 1.05rem;
+  }
+  .primer-panel {
+    display: grid;
+    gap: 18px;
+    grid-template-columns: minmax(0, 1.3fr) minmax(300px, 0.7fr);
+    margin: 20px 0 24px;
+  }
+  .primer-copy,
+  .major-names {
+    background: var(--bg-elev);
+    border: 1px solid var(--border);
+    border-radius: 6px;
+    padding: 18px;
+  }
+  .primer-copy p,
+  .major-names p {
+    color: var(--fg-muted);
+    font-size: 0.9rem;
+    line-height: 1.6;
+    margin: 0 0 12px;
+  }
+  .primer-lists {
+    border-top: 1px solid var(--border);
+    display: grid;
+    gap: 16px;
+    grid-template-columns: 1fr 1fr;
+    margin-top: 14px;
+    padding-top: 14px;
+  }
+  .mini-label {
+    color: var(--fg-dim);
+    font-size: 0.62rem;
+    font-weight: 700;
+    letter-spacing: 0.7px;
+    margin-bottom: 7px;
+    text-transform: uppercase;
+  }
+  ul {
+    color: var(--fg);
+    margin: 0;
+    padding-left: 18px;
+  }
+  li {
+    color: var(--fg-muted);
+    font-size: 0.82rem;
+    line-height: 1.5;
+    margin-bottom: 5px;
+  }
+  .players {
+    display: grid;
+    gap: 8px;
+  }
+  .player {
+    border-top: 1px solid var(--border);
+    display: flex;
+    gap: 12px;
+    justify-content: space-between;
+    padding-top: 9px;
+  }
+  .player strong {
+    color: var(--fg);
+    display: block;
+    font-size: 0.84rem;
+  }
+  .player span {
+    color: var(--fg-muted);
+    display: block;
+    font-size: 0.75rem;
+    line-height: 1.4;
+    margin-top: 2px;
+  }
+  .player em {
+    color: var(--accent-soft);
+    flex: 0 0 auto;
+    font-family: var(--font-mono);
+    font-size: 0.72rem;
+    font-style: normal;
+  }
+  .tracked-funds {
+    margin-top: 18px;
   }
   .fund-theme-stack {
     display: grid;
@@ -380,6 +507,8 @@ function movementRows(view: NonNullable<(typeof fundViews)[number]>): Array<{ ti
 
   @media (max-width: 800px) {
     .theme-stats,
+    .primer-panel,
+    .primer-lists,
     .split {
       grid-template-columns: 1fr;
     }
