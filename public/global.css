@@ -1,25 +1,28 @@
 /* === Theme tokens === */
 :root {
-  --bg: #08090b;
-  --bg-elev: #101216;
-  --bg-tinted: #161a20;
-  --border: #242a32;
-  --border-strong: #333b46;
+  --bg: #090908;
+  --bg-elev: #12110f;
+  --bg-tinted: #191713;
+  --bg-soft: #0d0c0b;
+  --border: #2b2822;
+  --border-strong: #403a2f;
 
-  --fg: #f0ede6;
-  --fg-muted: #a09a90;
-  --fg-dim: #6a665f;
+  --fg: #f3eee5;
+  --fg-muted: #b0a797;
+  --fg-dim: #756d60;
 
-  --accent: #d9a441;
-  --accent-hover: #f0bf63;
-  --accent-dark: #6f5120;
+  --accent: #c99a49;
+  --accent-hover: #e1b86d;
+  --accent-dark: #705124;
+  --accent-soft: #ead8b4;
 
-  --pos: #49c878;
-  --neg: #e4535a;
-  --buy: #49c878;
-  --sell: #e4535a;
+  --pos: #65c987;
+  --neg: #df6a62;
+  --buy: #65c987;
+  --sell: #df6a62;
 
   --font-sans: ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+  --font-serif: "Iowan Old Style", "Palatino Linotype", Georgia, serif;
   --font-mono: ui-monospace, "SF Mono", Consolas, "Liberation Mono", Menlo, monospace;
 }
 
@@ -28,7 +31,9 @@
 html, body { margin: 0; padding: 0; }
 
 body {
-  background: var(--bg);
+  background:
+    linear-gradient(180deg, #0d0c0b 0%, var(--bg) 360px),
+    var(--bg);
   color: var(--fg);
   font-family: var(--font-sans);
   font-variant-numeric: tabular-nums;
@@ -45,9 +50,10 @@ a:hover { color: var(--accent-hover); text-decoration: underline; }
 
 /* Uppercase mono label, used widely */
 .label {
-  font-family: var(--font-mono);
+  font-family: var(--font-sans);
+  font-weight: 700;
   font-size: 0.7rem;
-  letter-spacing: 0.5px;
+  letter-spacing: 0.7px;
   text-transform: uppercase;
   color: var(--accent);
 }

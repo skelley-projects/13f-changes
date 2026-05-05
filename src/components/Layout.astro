@@ -28,30 +28,42 @@ const { title, width = 'default' } = Astro.props;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 14px 28px;
+    padding: 15px 28px;
     border-bottom: 1px solid var(--border);
-    background: rgba(8, 9, 11, 0.94);
+    background: rgba(9, 9, 8, 0.92);
     backdrop-filter: blur(10px);
+    position: sticky;
+    top: 0;
+    z-index: 10;
   }
   .wordmark {
-    font-family: var(--font-mono);
-    font-size: 0.82rem;
-    color: var(--accent);
-    letter-spacing: 0.5px;
+    font-family: var(--font-serif);
+    font-size: 1.02rem;
+    color: var(--fg);
+    letter-spacing: 0.1px;
     text-decoration: none;
+  }
+  .wordmark::after {
+    content: '';
+    display: inline-block;
+    width: 28px;
+    margin-left: 10px;
+    border-top: 1px solid var(--accent);
+    transform: translateY(-4px);
   }
   .wordmark:hover { color: var(--accent-hover); text-decoration: none; }
   .site-nav a {
-    font-family: var(--font-mono);
-    font-size: 0.75rem;
+    font-family: var(--font-sans);
+    font-size: 0.68rem;
+    font-weight: 700;
     text-transform: uppercase;
-    letter-spacing: 0.5px;
+    letter-spacing: 0.8px;
     color: var(--fg-muted);
   }
   .site-nav a:hover { color: var(--accent); text-decoration: none; }
   .container {
     margin: 0 auto;
-    padding: 36px 28px 72px;
+    padding: 38px 28px 72px;
   }
   .container-narrow { max-width: 720px; }
   .container-default { max-width: 960px; }

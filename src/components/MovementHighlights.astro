@@ -128,21 +128,23 @@ const exits: Highlight[] = [
   }
   .highlight-group {
     border: 1px solid var(--border);
-    border-radius: 8px;
+    border-radius: 6px;
     background: var(--bg-elev);
     overflow: hidden;
+    box-shadow: 0 12px 30px rgba(0, 0, 0, 0.12);
   }
   .highlight-group.add { border-left: 3px solid var(--pos); }
   .highlight-group.exit { border-left: 3px solid var(--neg); }
   .group-label {
-    padding: 8px 12px;
+    padding: 9px 12px;
     border-bottom: 1px solid var(--border);
     background: var(--bg-tinted);
-    color: var(--fg-muted);
-    font-family: var(--font-mono);
+    color: var(--accent);
+    font-family: var(--font-sans);
     font-size: 0.68rem;
+    font-weight: 700;
     text-transform: uppercase;
-    letter-spacing: 0.5px;
+    letter-spacing: 0.75px;
   }
   .item {
     display: grid;

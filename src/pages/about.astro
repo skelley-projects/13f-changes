@@ -59,25 +59,32 @@ import ContactCTA from '../components/ContactCTA.astro';
 
 <style>
   .topnav {
-    font-family: var(--font-mono);
-    font-size: 0.75rem;
+    font-family: var(--font-sans);
+    font-size: 0.72rem;
+    font-weight: 700;
+    letter-spacing: 0.45px;
+    text-transform: uppercase;
     margin-bottom: 16px;
   }
   .topnav a { color: var(--fg-muted); }
   .topnav a:hover { color: var(--accent); text-decoration: none; }
   article { line-height: 1.6; }
   h1 {
-    font-size: 1.5rem;
+    font-family: var(--font-serif);
+    font-size: clamp(2rem, 5vw, 3rem);
+    font-weight: 500;
     color: var(--fg);
     margin: 0 0 16px;
+    line-height: 1.06;
   }
   h2 {
-    font-size: 1.05rem;
+    font-size: 0.72rem;
     margin-top: 28px;
     color: var(--accent);
-    font-family: var(--font-mono);
+    font-family: var(--font-sans);
+    font-weight: 700;
     text-transform: uppercase;
-    letter-spacing: 0.5px;
+    letter-spacing: 0.75px;
   }
   p, li { color: var(--fg); }
   ul { padding-left: 20px; }

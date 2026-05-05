@@ -48,8 +48,8 @@ const { fund, quarter, priorPeriod } = Astro.props;
 <style>
   .fund-header {
     border-bottom: 1px solid var(--border);
-    padding-bottom: 26px;
-    margin-bottom: 26px;
+    padding-bottom: 28px;
+    margin-bottom: 28px;
   }
   .lead {
     display: flex;
@@ -59,19 +59,22 @@ const { fund, quarter, priorPeriod } = Astro.props;
   }
   .lead-text { flex: 1; min-width: 200px; }
   .lead-label {
-    font-family: var(--font-mono);
-    font-size: 0.7rem;
+    font-family: var(--font-sans);
+    font-size: 0.68rem;
+    font-weight: 700;
     text-transform: uppercase;
-    letter-spacing: 0.5px;
+    letter-spacing: 0.75px;
     color: var(--accent);
     margin-bottom: 4px;
   }
   .fund-header h1 {
     margin: 0 0 4px;
-    font-size: 1.65rem;
+    font-family: var(--font-serif);
+    font-size: clamp(2rem, 4vw, 3rem);
     color: var(--fg);
-    font-weight: 600;
+    font-weight: 500;
     letter-spacing: 0;
+    line-height: 1.04;
   }
   .fund-name {
     color: var(--fg-muted);
@@ -80,30 +83,37 @@ const { fund, quarter, priorPeriod } = Astro.props;
   .meta {
     display: flex;
     flex-direction: column;
-    gap: 2px;
+    gap: 4px;
     text-align: right;
     font-family: var(--font-mono);
     font-size: 0.75rem;
     color: var(--fg-muted);
+    padding-top: 2px;
   }
   .period { color: var(--fg); }
   .edgar-link { font-size: 0.75rem; }
   .stats {
     display: flex;
-    gap: 32px;
-    margin-top: 20px;
+    gap: 12px;
+    margin-top: 24px;
     flex-wrap: wrap;
   }
+  .stat {
+    min-width: 142px;
+    border-top: 1px solid var(--border);
+    padding-top: 10px;
+  }
   .stat-label {
-    font-family: var(--font-mono);
-    font-size: 0.65rem;
+    font-family: var(--font-sans);
+    font-size: 0.64rem;
+    font-weight: 700;
     text-transform: uppercase;
-    letter-spacing: 0.5px;
+    letter-spacing: 0.75px;
     color: var(--fg-muted);
     margin-bottom: 2px;
   }
   .stat-value {
-    font-size: 1.16rem;
+    font-size: 1.08rem;
     color: var(--fg);
     font-weight: 600;
   }
