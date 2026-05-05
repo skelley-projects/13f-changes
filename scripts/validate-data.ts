@@ -110,6 +110,13 @@ function isValidQuarterEnding(periodEnding: string): boolean {
   return false;
 }
 
+const ambiguousClosedValuePattern = /\b(?:closed|exited|sold|trimmed|reduced|cut)\b[^.?!;]*\(\s*[-−]\$/i;
+
+function validateSummaryLanguage(summary: string): string | null {
+  if (!ambiguousClosedValuePattern.test(summary)) return null;
+  return 'closed/sold/reduced values must not be written as negative dollar parentheticals; use "prior-quarter stake worth $X exited" or "reduced reported exposure by $X" so readers do not mistake 13F value changes for realized losses';
+}
+
 export interface DatasetForValidation {
   funds: FundsFile[];
   securities: SecuritiesFile;
@@ -195,6 +202,10 @@ export function validateAll(d: DatasetForValidation): { errors: string[]; warnin
     for (const q of qs) {
       if (!isValidQuarterEnding(q.period_ending)) {
         errors.push(`${slug}/quarters.json: invalid quarter-end period_ending "${q.period_ending}" for period ${q.period}`);
+      }
+      const summaryError = validateSummaryLanguage(q.summary ?? '');
+      if (summaryError) {
+        errors.push(`${slug}/quarters.json ${q.period}: ${summaryError}`);
       }
     }
 

@@ -43,7 +43,12 @@ export interface FilingFile extends FilingMeta {
 }
 
 export interface QuarterEntry extends FilingMeta {
-  /** Editorial summary, written during /update-quarter. */
+  /**
+   * Editorial summary, written during /update-quarter.
+   * Closed/sold/reduced dollar figures are 13F reported value/exposure changes,
+   * not realized P/L. Avoid negative dollar parentheticals such as
+   * "closed XYZ (-$100M)"; validation rejects that phrasing.
+   */
   summary: string;
   fetched_at: string;           // ISO timestamp
 }

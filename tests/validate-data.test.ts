@@ -121,6 +121,34 @@ describe('validateAll', () => {
     expect(result.errors.some(e => /invalid quarter-end/i.test(e))).toBe(true);
   });
 
+  it('rejects closed-position summary values that look like realized losses', () => {
+    const dataset = baseDataset();
+    dataset.perFund.x.quarters.quarters = [{
+      slug: 'x', period: '2025-Q4', period_ending: '2025-12-31',
+      filing_date: '2026-02-17', accession: 'A1', edgar_url: '',
+      value_units: 'USD', schema_version: 'X02',
+      total_value: 0, position_count: 0,
+      summary: 'Closed NVIDIA (-$299M) and trimmed health care hard.',
+      fetched_at: '2026-01-01T00:00:00Z',
+    }];
+    const result = validateAll(dataset);
+    expect(result.errors.some(e => /realized losses/i.test(e))).toBe(true);
+  });
+
+  it('accepts closed-position summary values phrased as reported exposure', () => {
+    const dataset = baseDataset();
+    dataset.perFund.x.quarters.quarters = [{
+      slug: 'x', period: '2025-Q4', period_ending: '2025-12-31',
+      filing_date: '2026-02-17', accession: 'A1', edgar_url: '',
+      value_units: 'USD', schema_version: 'X02',
+      total_value: 0, position_count: 0,
+      summary: 'Exited a prior NVIDIA stake worth $299M and reduced reported health-care exposure by $152M.',
+      fetched_at: '2026-01-01T00:00:00Z',
+    }];
+    const result = validateAll(dataset);
+    expect(result.errors.filter(e => /summary|realized losses/i.test(e))).toEqual([]);
+  });
+
   it('rejects an implausible per-share price', () => {
     const dataset = baseDataset();
     // 1,000,000 shares at $1 each = $1M total — but value field expressed as 50 → per-share $0.00005, way below 0.01 floor.
