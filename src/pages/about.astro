@@ -39,7 +39,7 @@ import ContactCTA from '../components/ContactCTA.astro';
     </ul>
 
     <h2>Refresh cadence</h2>
-    <p>A GitHub Action polls EDGAR daily during the four 45-day filing windows (mid-Feb, mid-May, mid-Aug, mid-Nov). When a new filing lands, a manual review session ingests it, classifies any new positions, computes the diff, and ships. A separate weekday workflow refreshes the latest-price snapshot around 6pm EST.</p>
+    <p>A GitHub Action polls EDGAR every 30 minutes during the active filing-window days in February, May, August, and November. When a new filing lands, a manual review session ingests it, classifies any new positions, computes the diff, and ships. A separate weekday workflow refreshes the latest-price snapshot around 6pm EST.</p>
 
     <h2>Limitations</h2>
     <ul>
