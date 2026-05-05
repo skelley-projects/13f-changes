@@ -1,0 +1,391 @@
+---
+import Layout from '../../components/Layout.astro';
+import ManagerAvatar from '../../components/ManagerAvatar.astro';
+import { loadDiff, loadFiling, loadFundQuarters, loadFundTags, loadFunds, loadSecurities } from '../../lib/data';
+import { formatPct, formatPeriod, formatUSD } from '../../lib/format';
+import { themeSlug } from '../../lib/theme';
+import type { MovementActivity, MovementRow, Position, TaxonomyEntry } from '../../../scripts/types';
+
+export async function getStaticPaths() {
+  const seen = new Map<string, string>();
+  for (const fund of loadFunds()) {
+    const tags = loadFundTags(fund.slug);
+    for (const entry of tags.taxonomy) {
+      const slug = themeSlug(entry.label);
+      if (!seen.has(slug)) seen.set(slug, entry.label);
+    }
+  }
+  return Array.from(seen.entries()).map(([theme, label]) => ({ params: { theme }, props: { label } }));
+}
+
+const { theme } = Astro.params;
+const { label } = Astro.props;
+const funds = loadFunds();
+const securities = loadSecurities();
+
+function matchingEntries(taxonomy: TaxonomyEntry[], targetTheme: string): TaxonomyEntry[] {
+  return taxonomy.filter(entry => themeSlug(entry.label) === targetTheme);
+}
+
+function hasMatch(tagIds: string[], ids: Set<string>): boolean {
+  return tagIds.some(id => ids.has(id));
+}
+
+function positionKey(position: Position): string {
+  return `${position.cusip}|${position.title_of_class}|${position.put_call ?? ''}`;
+}
+
+function addedValue(row: MovementRow): number {
+  if (
+    row.delta_shares > 0 &&
+    row.current_shares !== null &&
+    row.current_shares > 0 &&
+    row.current_value !== null
+  ) {
+    return (row.current_value / row.current_shares) * row.delta_shares;
+  }
+  return Math.max(row.delta_value, 0);
+}
+
+function soldValue(row: MovementRow): number {
+  if (row.prior_value !== null && row.delta_shares < 0 && row.prior_shares !== null && row.prior_shares > 0) {
+    return (row.prior_value / row.prior_shares) * Math.abs(row.delta_shares);
+  }
+  return Math.max(-row.delta_value, 0);
+}
+
+const fundViews = funds.map((fund) => {
+  const quarters = loadFundQuarters(fund.slug);
+  const latest = quarters.quarters[0];
+  if (!latest) return null;
+
+  const tags = loadFundTags(fund.slug);
+  const entries = matchingEntries(tags.taxonomy, theme!);
+  if (entries.length === 0) return null;
+
+  const ids = new Set(entries.map(entry => entry.id));
+  const filing = loadFiling(fund.slug, latest.period);
+  const diff = loadDiff(fund.slug, latest.period);
+  if (!filing || !diff) return null;
+
+  const positions = filing.positions
+    .filter(position => hasMatch(tags.assignments[position.cusip] ?? [], ids))
+    .map((position) => {
+      const security = securities[position.cusip];
+      return {
+        key: positionKey(position),
+        ticker: security?.ticker ?? position.cusip,
+        name: security?.name ?? position.name_of_issuer,
+        value: position.value,
+        shares: position.shares,
+        instrument: position.put_call ?? position.shares_type,
+      };
+    })
+    .sort((a, b) => b.value - a.value);
+
+  const movements = {
+    new: diff.movements.new.filter(row => hasMatch(row.tags, ids)),
+    increased: diff.movements.increased.filter(row => hasMatch(row.tags, ids)),
+    decreased: diff.movements.decreased.filter(row => hasMatch(row.tags, ids)),
+    closed: diff.movements.closed.filter(row => hasMatch(row.tags, ids)),
+    activity: diff.movements.activity.filter(row => hasMatch(row.tags, ids)),
+  };
+
+  const activityBought =
+    movements.new.reduce((sum, row) => sum + (row.current_value ?? 0), 0) +
+    movements.increased.reduce((sum, row) => sum + addedValue(row), 0) +
+    movements.activity.reduce((sum, row) => sum + row.current_value, 0);
+  const activitySold =
+    movements.closed.reduce((sum, row) => sum + (row.prior_value ?? 0), 0) +
+    movements.decreased.reduce((sum, row) => sum + soldValue(row), 0) +
+    movements.activity.reduce((sum, row) => sum + row.prior_value, 0);
+
+  return {
+    fund,
+    period: latest.period,
+    filingDate: latest.filing_date,
+    aum: latest.total_value,
+    definitions: entries.map(entry => entry.description).filter(Boolean),
+    positions,
+    exposureValue: positions.reduce((sum, position) => sum + position.value, 0),
+    activityBought,
+    activitySold,
+    movementCount:
+      movements.new.length +
+      movements.increased.length +
+      movements.decreased.length +
+      movements.closed.length +
+      movements.activity.length,
+    movements,
+  };
+}).filter(Boolean);
+
+const totalExposure = fundViews.reduce((sum, view) => sum + view!.exposureValue, 0);
+const totalBought = fundViews.reduce((sum, view) => sum + view!.activityBought, 0);
+const totalSold = fundViews.reduce((sum, view) => sum + view!.activitySold, 0);
+
+function movementRows(view: NonNullable<(typeof fundViews)[number]>): Array<{ ticker: string; name: string; status: string; value: number; tone: 'pos' | 'neg' | 'activity' }> {
+  const rows = [
+    ...view.movements.new.map(row => ({ ticker: row.ticker ?? row.cusip, name: row.name, status: 'New', value: row.current_value ?? 0, tone: 'pos' as const })),
+    ...view.movements.increased.map(row => ({ ticker: row.ticker ?? row.cusip, name: row.name, status: 'Added', value: addedValue(row), tone: 'pos' as const })),
+    ...view.movements.activity.map((row: MovementActivity) => ({ ticker: row.ticker ?? row.key, name: row.name, status: 'Bought / sold', value: row.net_delta_value, tone: 'activity' as const })),
+    ...view.movements.decreased.map(row => ({ ticker: row.ticker ?? row.cusip, name: row.name, status: 'Trimmed', value: -soldValue(row), tone: 'neg' as const })),
+    ...view.movements.closed.map(row => ({ ticker: row.ticker ?? row.cusip, name: row.name, status: 'Closed', value: -(row.prior_value ?? 0), tone: 'neg' as const })),
+  ];
+  return rows.sort((a, b) => Math.abs(b.value) - Math.abs(a.value));
+}
+---
+<Layout title={`${label} - 13f-changes`} width="wide">
+  <nav class="topnav"><a href="/">&larr; All funds</a></nav>
+
+  <header class="theme-header">
+    <div class="kicker">Theme</div>
+    <h1>{label}</h1>
+    <p>
+      Current exposure and quarter activity across tracked funds. Theme classifications are editorial and may vary by fund taxonomy.
+    </p>
+  </header>
+
+  <section class="theme-stats">
+    <div><span>Current reported exposure</span><strong>{formatUSD(totalExposure)}</strong></div>
+    <div><span>Tagged bought / added</span><strong class="pos">{formatUSD(totalBought)}</strong></div>
+    <div><span>Tagged sold / reduced</span><strong class="neg">{formatUSD(totalSold)}</strong></div>
+    <div><span>Tracked funds</span><strong>{fundViews.length}</strong></div>
+  </section>
+
+  {fundViews.length === 0 ? (
+    <p class="empty">No active fund currently has this theme assigned.</p>
+  ) : (
+    <div class="fund-theme-stack">
+      {fundViews.map((view) => (
+        <section class="fund-theme">
+          <header>
+            <div class="manager-line">
+              <ManagerAvatar photo={view.fund.manager_photo ?? null} name={view.fund.manager_name} size="sm" />
+              <div>
+                <h2><a href={`/funds/${view.fund.slug}`}>{view.fund.name}</a></h2>
+                <p>{view.fund.manager_name} &middot; {formatPeriod(view.period)} filed {view.filingDate}</p>
+              </div>
+            </div>
+            <div class="fund-metric">
+              <span>{formatPct((view.exposureValue / view.aum) * 100)} of reported 13F</span>
+              <strong>{formatUSD(view.exposureValue)}</strong>
+            </div>
+          </header>
+
+          {view.definitions.length > 0 && (
+            <p class="definition">{Array.from(new Set(view.definitions)).join(' ')}</p>
+          )}
+
+          <div class="split">
+            <div>
+              <div class="section-label">Largest current positions</div>
+              <table>
+                <thead><tr><th>Ticker</th><th>Name</th><th class="num">Value</th><th>Instrument</th></tr></thead>
+                <tbody>
+                  {view.positions.slice(0, 8).map((position) => (
+                    <tr>
+                      <td class="ticker">{position.ticker}</td>
+                      <td>{position.name}</td>
+                      <td class="num">{formatUSD(position.value)}</td>
+                      <td class="muted">{position.instrument}</td>
+                    </tr>
+                  ))}
+                </tbody>
+              </table>
+            </div>
+
+            <div>
+              <div class="section-label">Quarter activity</div>
+              {movementRows(view).length === 0 ? (
+                <p class="empty small">No active movement in this theme this quarter.</p>
+              ) : (
+                <table>
+                  <thead><tr><th>Ticker</th><th>Action</th><th class="num">Value</th></tr></thead>
+                  <tbody>
+                    {movementRows(view).slice(0, 8).map((row) => (
+                      <tr>
+                        <td class="ticker">{row.ticker}</td>
+                        <td>{row.status}</td>
+                        <td class={`num ${row.value >= 0 ? 'pos' : 'neg'}`}>
+                          {row.value >= 0 ? '+' : '-'}{formatUSD(Math.abs(row.value))}
+                        </td>
+                      </tr>
+                    ))}
+                  </tbody>
+                </table>
+              )}
+            </div>
+          </div>
+        </section>
+      ))}
+    </div>
+  )}
+</Layout>
+
+<style>
+  .topnav {
+    font-family: var(--font-sans);
+    font-size: 0.72rem;
+    font-weight: 700;
+    letter-spacing: 0.45px;
+    margin-bottom: 22px;
+    text-transform: uppercase;
+  }
+  .topnav a { color: var(--fg-muted); }
+  .topnav a:hover { color: var(--accent); text-decoration: none; }
+  .theme-header {
+    border-bottom: 1px solid var(--border);
+    margin-bottom: 18px;
+    padding-bottom: 20px;
+  }
+  .kicker {
+    color: var(--accent);
+    font-family: var(--font-sans);
+    font-size: 0.68rem;
+    font-weight: 700;
+    letter-spacing: 0.75px;
+    text-transform: uppercase;
+  }
+  h1 {
+    color: var(--fg);
+    font-family: var(--font-serif);
+    font-size: clamp(2.2rem, 5vw, 3.6rem);
+    font-weight: 500;
+    line-height: 1.04;
+    margin: 4px 0 8px;
+  }
+  .theme-header p {
+    color: var(--fg-muted);
+    margin: 0;
+    max-width: 720px;
+  }
+  .theme-stats {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 12px;
+    margin-bottom: 18px;
+  }
+  .theme-stats div {
+    border-top: 1px solid var(--border);
+    padding-top: 10px;
+  }
+  .theme-stats span {
+    color: var(--fg-muted);
+    display: block;
+    font-size: 0.68rem;
+    font-weight: 700;
+    letter-spacing: 0.7px;
+    margin-bottom: 2px;
+    text-transform: uppercase;
+  }
+  .theme-stats strong {
+    color: var(--fg);
+    font-family: var(--font-mono);
+    font-size: 1.05rem;
+  }
+  .fund-theme-stack {
+    display: grid;
+    gap: 16px;
+  }
+  .fund-theme {
+    background: var(--bg-elev);
+    border: 1px solid var(--border);
+    border-radius: 6px;
+    padding: 18px;
+  }
+  .fund-theme header {
+    align-items: flex-start;
+    display: flex;
+    gap: 18px;
+    justify-content: space-between;
+  }
+  .manager-line {
+    align-items: center;
+    display: flex;
+    gap: 10px;
+  }
+  h2 {
+    font-size: 1rem;
+    margin: 0;
+  }
+  h2 a { color: var(--fg); }
+  h2 a:hover { color: var(--accent-hover); text-decoration: none; }
+  .manager-line p,
+  .definition {
+    color: var(--fg-muted);
+    font-size: 0.78rem;
+    margin: 2px 0 0;
+  }
+  .fund-metric {
+    color: var(--fg-muted);
+    font-family: var(--font-mono);
+    text-align: right;
+  }
+  .fund-metric span {
+    display: block;
+    font-size: 0.7rem;
+  }
+  .fund-metric strong {
+    color: var(--fg);
+    font-size: 1rem;
+  }
+  .definition {
+    border-top: 1px solid var(--border);
+    line-height: 1.5;
+    margin-top: 14px;
+    padding-top: 12px;
+  }
+  .split {
+    display: grid;
+    gap: 16px;
+    grid-template-columns: 1.15fr 0.85fr;
+    margin-top: 14px;
+  }
+  .section-label {
+    color: var(--accent);
+    font-size: 0.68rem;
+    font-weight: 700;
+    letter-spacing: 0.75px;
+    margin-bottom: 8px;
+    text-transform: uppercase;
+  }
+  table {
+    border-collapse: collapse;
+    font-size: 0.8rem;
+    width: 100%;
+  }
+  th {
+    border-bottom: 1px solid var(--border);
+    color: var(--fg-dim);
+    font-size: 0.62rem;
+    font-weight: 700;
+    letter-spacing: 0.7px;
+    padding: 7px 8px;
+    text-align: left;
+    text-transform: uppercase;
+  }
+  td {
+    border-bottom: 1px solid var(--border);
+    color: var(--fg);
+    padding: 7px 8px;
+  }
+  tr:last-child td { border-bottom: none; }
+  .ticker, .num { font-family: var(--font-mono); }
+  .num { text-align: right; }
+  .muted, .empty { color: var(--fg-muted); }
+  .empty.small { font-size: 0.8rem; margin: 0; }
+  .pos { color: var(--pos); }
+  .neg { color: var(--neg); }
+
+  @media (max-width: 800px) {
+    .theme-stats,
+    .split {
+      grid-template-columns: 1fr;
+    }
+    .fund-theme header {
+      flex-direction: column;
+    }
+    .fund-metric { text-align: left; }
+  }
+</style>

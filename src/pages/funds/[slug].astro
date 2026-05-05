@@ -9,6 +9,7 @@ import MovementTable from '../../components/MovementTable.astro';
 import MovementHighlights from '../../components/MovementHighlights.astro';
 import PerformanceTable from '../../components/PerformanceTable.astro';
 import HoldingsTable from '../../components/HoldingsTable.astro';
+import DataFreshness from '../../components/DataFreshness.astro';
 import ContactCTA from '../../components/ContactCTA.astro';
 import {
   loadFunds, loadFundQuarters, loadFiling, loadDiff, loadSecurities, loadFundTags, loadPriceSnapshot,
@@ -53,6 +54,7 @@ for (const p of filing.positions) {
 <Layout title={`${fund.name} — 13f-changes`} width="default">
   <nav class="topnav"><a href="/">← All funds</a></nav>
   <FundHeader fund={fund} quarter={currentQuarter} priorPeriod={priorQuarter?.period ?? null} />
+  <DataFreshness quarter={currentQuarter} prices={prices} />
   <ChangeHero diff={diff} summary={currentQuarter.summary} />
 
   {diff.prior_period && (
@@ -64,7 +66,7 @@ for (const p of filing.positions) {
       <div class="breakdown-grid">
         <SectorDeltaBars title="Sector exposure shifts" breakdown={diff.sector_breakdown} />
         {diff.theme_breakdown && (
-          <SectorDeltaBars title="Theme exposure shifts" breakdown={diff.theme_breakdown} />
+          <SectorDeltaBars title="Theme exposure shifts" breakdown={diff.theme_breakdown} linkLabels />
         )}
       </div>
     </section>
@@ -75,7 +77,7 @@ for (const p of filing.positions) {
       <div class="coverage-note">
         Granular exposure coverage: {(diff.granular_coverage_pct ?? 0).toFixed(1)}% of AUM
       </div>
-      <SectorDeltaBars title="Granular exposure shifts" breakdown={diff.granular_breakdown} />
+      <SectorDeltaBars title="Granular exposure shifts" breakdown={diff.granular_breakdown} linkLabels />
     </section>
   )}
 
@@ -91,6 +93,7 @@ for (const p of filing.positions) {
           breakdown={diff.theme_activity_breakdown}
           note="Estimated capital bought/sold from new, closed, increased, decreased, and buy/sell activity rows. Unchanged positions are excluded so market gains do not drive this view. Multi-theme positions count once in each assigned theme."
           totalsLabel="theme-tagged"
+          linkLabels
         />
         {diff.granular_activity_breakdown && (
           <CapitalFlowBars
@@ -98,6 +101,7 @@ for (const p of filing.positions) {
             breakdown={diff.granular_activity_breakdown}
             note="Grouped by granular sub-tags using the same estimated buy/sell methodology."
             totalsLabel="granular-tagged"
+            linkLabels
           />
         )}
       </div>
@@ -109,7 +113,7 @@ for (const p of filing.positions) {
       <div class="section-label">Position movements</div>
       <MovementHighlights diff={diff} />
       <p class="pricing-note">
-        Price = reported fair value divided by reported shares at quarter-end. Since q-end shows price change since the end of the reported quarter; ordinary-share rows also include estimated value move, while option rows show underlying stock move only.
+        Price = reported fair value divided by reported shares at quarter-end. Since q-end shows price change since the end of the reported quarter; ordinary-share rows also include estimated value move, while shaded option rows show underlying stock move only and sort after ordinary equity.
       </p>
       <ActivityTable rows={diff.movements.activity ?? []} taxonomy={tagsFile.taxonomy} prices={prices} currentPeriod={diff.current_period} />
       <MovementTable status="NEW" rows={diff.movements.new} taxonomy={tagsFile.taxonomy} prices={prices} currentPeriod={diff.current_period} />

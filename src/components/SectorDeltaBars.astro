@@ -1,5 +1,6 @@
 ---
 import { formatPctDelta } from '../lib/format';
+import ThemeLinks from './ThemeLinks.astro';
 import type { Breakdown } from '../../scripts/types';
 
 interface Props {
@@ -7,8 +8,9 @@ interface Props {
   breakdown: Breakdown;
   /** Optional: limit to top-N by absolute delta. Default 8. */
   limit?: number;
+  linkLabels?: boolean;
 }
-const { title, breakdown, limit = 8 } = Astro.props;
+const { title, breakdown, limit = 8, linkLabels = false } = Astro.props;
 const rows = breakdown.deltas.slice(0, limit);
 const max = rows.reduce((m, r) => Math.max(m, Math.abs(r.delta_pct_pts)), 0) || 1;
 ---
@@ -23,7 +25,9 @@ const max = rows.reduce((m, r) => Math.max(m, Math.abs(r.delta_pct_pts)), 0) || 
         const isPositive = row.delta_pct_pts >= 0;
         return (
           <div class="bar-row">
-            <div class="row-label">{row.label}</div>
+            <div class="row-label">
+              {linkLabels ? <ThemeLinks labels={[row.label]} muted={false} /> : row.label}
+            </div>
             <div class="bar-track">
               <div
                 class={`bar ${isPositive ? 'pos' : 'neg'}`}

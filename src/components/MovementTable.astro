@@ -7,6 +7,8 @@ import {
   priceRangeFor,
   priceUnsupportedLabel,
 } from '../lib/implied-price';
+import ThemeLinks from './ThemeLinks.astro';
+import { themeLabelsFor } from '../lib/theme';
 import type { MovementRow, PriceSnapshotFile, TaxonomyEntry } from '../../scripts/types';
 
 interface Props {
@@ -17,29 +19,7 @@ interface Props {
   currentPeriod: string;
 }
 const { status, rows, taxonomy, prices, currentPeriod } = Astro.props;
-
-const tagById = new Map(taxonomy.map(t => [t.id, t]));
-
-function broadLabelsFor(tagIds: string[]): string[] {
-  const labels = new Set<string>();
-  for (const id of tagIds) {
-    const entry = tagById.get(id);
-    if (!entry) continue;
-    const broadId = entry.parent ?? entry.id;
-    const broadEntry = tagById.get(broadId);
-    if (broadEntry) labels.add(broadEntry.label);
-  }
-  return Array.from(labels);
-}
-
-function granularLabelsFor(tagIds: string[]): string[] {
-  const labels: string[] = [];
-  for (const id of tagIds) {
-    const entry = tagById.get(id);
-    if (entry?.parent !== undefined) labels.push(entry.label);
-  }
-  return labels;
-}
+const displayRows = [...rows].sort((a, b) => Number(Boolean(a.put_call)) - Number(Boolean(b.put_call)));
 
 const styles = {
   NEW: { tone: 'pos', label: 'NEW POSITIONS' },
@@ -51,12 +31,17 @@ const styles = {
 const totalDelta = rows.reduce((s, r) => s + r.delta_value, 0);
 const summaryText =
   status === 'NEW' ? `+${formatUSD(totalDelta)} deployed` :
-  status === 'CLOSED' ? `${formatUSD(Math.abs(totalDelta))} exited` :
+  status === 'CLOSED' ? `${formatUSD(Math.abs(totalDelta))} prior value exited` :
   status === 'INCREASED' ? `${signedUSD(totalDelta)} value change on added shares` :
   `${signedUSD(totalDelta)} value change on trimmed shares`;
 
 function signedUSD(value: number): string {
   return `${value >= 0 ? '+' : '-'}${formatUSD(Math.abs(value))}`;
+}
+
+function csvCell(value: string | number | null | undefined): string {
+  const text = value === null || value === undefined ? '' : String(value);
+  return `"${text.replace(/"/g, '""')}"`;
 }
 
 function priceText(row: MovementRow): string {
@@ -92,13 +77,47 @@ function gainText(row: MovementRow): { text: string; tone: 'pos' | 'neg' | 'mute
     tone: gain.value >= 0 ? 'pos' : 'neg',
   };
 }
+
+const csvRows = [
+  ['Ticker', 'Name', 'Sector', 'Industry', 'Themes', 'Granular', 'Price', 'Since q-end', 'Size', 'Change', 'Instrument'],
+  ...displayRows.map((row) => {
+    const gain = gainText(row);
+    return [
+      row.ticker ?? row.cusip,
+      row.name,
+      row.sector,
+      row.industry,
+      themeLabelsFor(row.tags, taxonomy).join(' | '),
+      themeLabelsFor(row.tags, taxonomy, true).join(' | '),
+      priceText(row),
+      gain.text,
+      status === 'NEW' ? (row.current_value === null ? '' : row.current_value) :
+        status === 'CLOSED' ? (row.prior_value === null ? '' : row.prior_value) :
+        row.delta_pct ?? '',
+      status === 'NEW' ? 'NEW' :
+        status === 'CLOSED' ? 'CLOSED' :
+        row.delta_value,
+      row.put_call ?? row.shares_type,
+    ];
+  }),
+];
+const csvText = csvRows.map(row => row.map(csvCell).join(',')).join('\n');
+const csvFilename = `${currentPeriod}-${status.toLowerCase()}-positions.csv`;
 ---
 {rows.length === 0 ? null : (
   <section class={`movement movement-${styles.tone}`}>
     <header>
       <span class="status-label">{styles.label} ({rows.length})</span>
-      <span class="net">{summaryText}</span>
+      <span class="header-actions">
+        <button type="button" class="csv-button" data-filename={csvFilename} data-csv={csvText}>CSV</button>
+        <span class="net">{summaryText}</span>
+      </span>
     </header>
+    {status === 'CLOSED' && (
+      <p class="table-note">
+        Closed value is the prior quarter-end reported stake value, not realized sale proceeds or fund P/L.
+      </p>
+    )}
     <table>
       <thead>
         <tr>
@@ -114,31 +133,31 @@ function gainText(row: MovementRow): { text: string; tone: 'pos' | 'neg' | 'mute
         </tr>
       </thead>
       <tbody>
-        {rows.map((r) => {
-          const broad = broadLabelsFor(r.tags);
-          const granular = granularLabelsFor(r.tags);
+        {displayRows.map((r) => {
+          const broad = themeLabelsFor(r.tags, taxonomy);
+          const granular = themeLabelsFor(r.tags, taxonomy, true);
           const valueTone = (status === 'INCREASED' || status === 'DECREASED')
             ? (r.delta_value >= 0 ? 'pos' : 'neg')
             : styles.tone;
           const gain = gainText(r);
           return (
-            <tr>
-              <td class="ticker">{r.ticker ?? r.cusip}</td>
-              <td>{r.name}</td>
-              <td class="muted">{r.sector} / {r.industry}</td>
-              <td class="muted">{broad.length === 0 ? '-' : broad.join(', ')}</td>
-              <td class="muted granular">{granular.length === 0 ? '-' : granular.join(', ')}</td>
-              <td class="num muted price" title="Quarter-end price: reported fair value divided by reported shares.">
+            <tr class={r.put_call ? 'option-row' : ''}>
+              <td class="ticker" data-label="Ticker">{r.ticker ?? r.cusip}</td>
+              <td data-label="Name">{r.name}</td>
+              <td class="muted" data-label="Sector">{r.sector} / {r.industry}</td>
+              <td class="muted" data-label="Themes"><ThemeLinks labels={broad} /></td>
+              <td class="muted granular" data-label="Granular"><ThemeLinks labels={granular} /></td>
+              <td class="num muted price" data-label="Price" title="Quarter-end price: reported fair value divided by reported shares.">
                 {priceText(r)}
               </td>
-              <td class={`num gain ${gain.tone}`}>{gain.text}</td>
-              <td class="num muted">
+              <td class={`num gain ${gain.tone}`} data-label="Since q-end">{gain.text}</td>
+              <td class="num muted" data-label="Size">
                 {status === 'NEW' && r.current_value !== null && formatUSD(r.current_value)}
                 {status === 'CLOSED' && r.prior_value !== null && `was ${formatUSD(r.prior_value)}`}
                 {(status === 'INCREASED' || status === 'DECREASED') && r.delta_pct !== null &&
                   `${r.delta_pct > 0 ? '+' : ''}${formatPct(r.delta_pct)}`}
               </td>
-              <td class={`num delta delta-${valueTone}`}>
+              <td class={`num delta delta-${valueTone}`} data-label="Change">
                 {status === 'NEW' && 'NEW'}
                 {status === 'CLOSED' && 'CLOSED'}
                 {(status === 'INCREASED' || status === 'DECREASED') && signedUSD(r.delta_value)}
@@ -183,6 +202,35 @@ function gainText(row: MovementRow): { text: string; tone: 'pos' | 'neg' | 'mute
     letter-spacing: 0;
     font-family: var(--font-mono);
   }
+  .header-actions {
+    display: inline-flex;
+    align-items: baseline;
+    gap: 10px;
+  }
+  .csv-button {
+    border: 1px solid var(--border-strong);
+    border-radius: 999px;
+    background: rgba(255, 255, 255, 0.018);
+    color: var(--fg-muted);
+    cursor: pointer;
+    font: inherit;
+    font-size: 0.62rem;
+    letter-spacing: 0.7px;
+    padding: 2px 7px;
+  }
+  .csv-button:hover {
+    border-color: var(--accent);
+    color: var(--accent-hover);
+  }
+  .table-note {
+    margin: 0;
+    padding: 8px 14px;
+    color: var(--fg-muted);
+    border-bottom: 1px solid var(--border);
+    background: rgba(201, 154, 73, 0.035);
+    font-size: 0.74rem;
+    line-height: 1.45;
+  }
   table { width: 100%; border-collapse: collapse; font-size: 0.825rem; }
   th {
     text-align: left;
@@ -200,6 +248,8 @@ function gainText(row: MovementRow): { text: string; tone: 'pos' | 'neg' | 'mute
   tr { border-bottom: 1px solid var(--border); }
   tr:last-child { border-bottom: none; }
   tr:hover { background: rgba(255, 255, 255, 0.024); }
+  tr.option-row { background: rgba(201, 154, 73, 0.035); }
+  tr.option-row:hover { background: rgba(201, 154, 73, 0.06); }
   td { padding: 8px 14px; color: var(--fg); }
   td:last-child, th:last-child { padding-right: 26px; }
   td.num { text-align: right; font-family: var(--font-mono); }
@@ -219,11 +269,68 @@ function gainText(row: MovementRow): { text: string; tone: 'pos' | 'neg' | 'mute
   td.delta-neg { color: var(--neg); }
 
   @media (max-width: 700px) {
-    th.gain-head { display: none; }
-    td.gain { display: none; }
-    td.price { display: none; }
-    th.price { display: none; }
-    th.granular { display: none; }
-    td.granular { display: none; }
+    table, tbody { display: block; }
+    thead { display: none; }
+    tr {
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: 4px;
+      padding: 12px 14px;
+    }
+    header {
+      align-items: flex-start;
+      flex-direction: column;
+      gap: 6px;
+    }
+    .header-actions {
+      align-items: flex-start;
+      flex-direction: column;
+      gap: 4px;
+    }
+    td {
+      display: grid;
+      grid-template-columns: 92px 1fr;
+      gap: 10px;
+      padding: 0;
+      border: 0;
+      text-align: left;
+    }
+    td::before {
+      content: attr(data-label);
+      color: var(--fg-dim);
+      font-family: var(--font-sans);
+      font-size: 0.62rem;
+      font-weight: 700;
+      letter-spacing: 0.7px;
+      text-transform: uppercase;
+    }
+    td.num { text-align: left; }
+    td.ticker {
+      display: block;
+      font-size: 0.95rem;
+      margin-bottom: 2px;
+    }
+    td.ticker::before { content: ''; display: none; }
   }
 </style>
+
+<script>
+  if (!window.__csvDownloadsBound) {
+    window.__csvDownloadsBound = true;
+    document.addEventListener('click', (event) => {
+      const button = event.target.closest('[data-csv]');
+      if (!button) return;
+      const csv = button.getAttribute('data-csv') || '';
+      const filename = button.getAttribute('data-filename') || '13f-changes.csv';
+      const blob = new Blob([csv], { type: 'text/csv;charset=utf-8' });
+      const url = URL.createObjectURL(blob);
+      const link = document.createElement('a');
+      link.href = url;
+      link.download = filename;
+      document.body.appendChild(link);
+      link.click();
+      link.remove();
+      URL.revokeObjectURL(url);
+    });
+  }
+</script>

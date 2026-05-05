@@ -1,0 +1,35 @@
+---
+import { themeHref } from '../lib/theme';
+
+interface Props {
+  labels: string[];
+  muted?: boolean;
+}
+
+const { labels, muted = true } = Astro.props;
+---
+{labels.length === 0 ? (
+  <span class={muted ? 'muted-text' : ''}>-</span>
+) : (
+  <span class="theme-links">
+    {labels.map((label, index) => (
+      <>
+        <a href={themeHref(label)}>{label}</a>{index < labels.length - 1 && <span>, </span>}
+      </>
+    ))}
+  </span>
+)}
+
+<style>
+  .theme-links a {
+    color: inherit;
+    text-decoration: underline;
+    text-decoration-color: rgba(201, 154, 73, 0.38);
+    text-underline-offset: 3px;
+  }
+  .theme-links a:hover {
+    color: var(--accent-hover);
+    text-decoration-color: var(--accent-hover);
+  }
+  .muted-text { color: var(--fg-muted); }
+</style>

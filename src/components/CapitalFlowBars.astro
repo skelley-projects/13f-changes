@@ -1,5 +1,6 @@
 ---
 import { formatUSD } from '../lib/format';
+import ThemeLinks from './ThemeLinks.astro';
 import type { ActivityBreakdown } from '../../scripts/types';
 
 interface Props {
@@ -8,9 +9,10 @@ interface Props {
   note?: string;
   limit?: number;
   totalsLabel?: string;
+  linkLabels?: boolean;
 }
 
-const { title, breakdown, note, limit = 8, totalsLabel = 'tagged' } = Astro.props;
+const { title, breakdown, note, limit = 8, totalsLabel = 'tagged', linkLabels = false } = Astro.props;
 const rows = breakdown.entries.slice(0, limit);
 const max = rows.reduce((m, row) => Math.max(m, row.bought, row.sold), 0) || 1;
 
@@ -40,7 +42,9 @@ function signedUSD(value: number): string {
         const netPositive = row.net >= 0;
         return (
           <div class="bar-row">
-            <div class="row-label">{row.label}</div>
+            <div class="row-label">
+              {linkLabels ? <ThemeLinks labels={[row.label]} muted={false} /> : row.label}
+            </div>
             <div class="bar-track">
               <div class="bar sell-bar" style={`width:${sellWidth}%; right: 50%;`} />
               <div class="bar buy-bar" style={`width:${buyWidth}%; left: 50%;`} />
