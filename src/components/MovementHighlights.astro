@@ -1,0 +1,188 @@
+---
+import { formatUSD } from '../lib/format';
+import type { DiffFile, MovementRow } from '../../scripts/types';
+
+interface Props {
+  diff: DiffFile;
+  limit?: number;
+}
+
+const { diff, limit = 3 } = Astro.props;
+
+type Highlight = {
+  ticker: string;
+  name: string;
+  label: string;
+  value: number;
+};
+
+function tickerFor(row: MovementRow): string {
+  return row.ticker ?? row.cusip;
+}
+
+function estimateAddedValue(row: MovementRow): number {
+  if (
+    row.delta_shares > 0 &&
+    row.current_shares !== null &&
+    row.current_shares > 0 &&
+    row.current_value !== null
+  ) {
+    return (row.current_value / row.current_shares) * row.delta_shares;
+  }
+  return Math.max(row.delta_value, 0);
+}
+
+function estimateReducedValue(row: MovementRow): number {
+  if (
+    row.delta_shares < 0 &&
+    row.prior_shares !== null &&
+    row.prior_shares > 0 &&
+    row.prior_value !== null
+  ) {
+    return (row.prior_value / row.prior_shares) * Math.abs(row.delta_shares);
+  }
+  return Math.max(-row.delta_value, 0);
+}
+
+const adds: Highlight[] = [
+  ...diff.movements.new.map(row => ({
+    ticker: tickerFor(row),
+    name: row.name,
+    label: 'new',
+    value: row.current_value ?? 0,
+  })),
+  ...diff.movements.increased.map(row => ({
+    ticker: tickerFor(row),
+    name: row.name,
+    label: 'added',
+    value: estimateAddedValue(row),
+  })),
+  ...diff.movements.activity.flatMap(activity => activity.bought.map(row => ({
+    ticker: tickerFor(row),
+    name: row.name,
+    label: 'bought',
+    value: row.current_value ?? 0,
+  }))),
+].filter(row => row.value > 0).sort((a, b) => b.value - a.value).slice(0, limit);
+
+const exits: Highlight[] = [
+  ...diff.movements.closed.map(row => ({
+    ticker: tickerFor(row),
+    name: row.name,
+    label: 'closed',
+    value: row.prior_value ?? 0,
+  })),
+  ...diff.movements.decreased.map(row => ({
+    ticker: tickerFor(row),
+    name: row.name,
+    label: 'trimmed',
+    value: estimateReducedValue(row),
+  })),
+  ...diff.movements.activity.flatMap(activity => activity.sold.map(row => ({
+    ticker: tickerFor(row),
+    name: row.name,
+    label: 'sold',
+    value: row.prior_value ?? 0,
+  }))),
+].filter(row => row.value > 0).sort((a, b) => b.value - a.value).slice(0, limit);
+---
+{adds.length === 0 && exits.length === 0 ? null : (
+  <section class="movement-highlights">
+    <div class="highlight-group add">
+      <div class="group-label">Largest adds</div>
+      <div class="items">
+        {adds.map((item) => (
+          <div class="item">
+            <div class="ticker">{item.ticker}</div>
+            <div class="body">
+              <div class="name">{item.name}</div>
+              <div class="meta"><span>{item.label}</span><strong>{formatUSD(item.value)}</strong></div>
+            </div>
+          </div>
+        ))}
+      </div>
+    </div>
+    <div class="highlight-group exit">
+      <div class="group-label">Largest exits / trims</div>
+      <div class="items">
+        {exits.map((item) => (
+          <div class="item">
+            <div class="ticker">{item.ticker}</div>
+            <div class="body">
+              <div class="name">{item.name}</div>
+              <div class="meta"><span>{item.label}</span><strong>{formatUSD(item.value)}</strong></div>
+            </div>
+          </div>
+        ))}
+      </div>
+    </div>
+  </section>
+)}
+
+<style>
+  .movement-highlights {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 14px;
+    margin: 0 0 14px;
+  }
+  .highlight-group {
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    background: var(--bg-elev);
+    overflow: hidden;
+  }
+  .highlight-group.add { border-left: 3px solid var(--pos); }
+  .highlight-group.exit { border-left: 3px solid var(--neg); }
+  .group-label {
+    padding: 8px 12px;
+    border-bottom: 1px solid var(--border);
+    background: var(--bg-tinted);
+    color: var(--fg-muted);
+    font-family: var(--font-mono);
+    font-size: 0.68rem;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+  }
+  .item {
+    display: grid;
+    grid-template-columns: 60px 1fr;
+    gap: 10px;
+    padding: 9px 12px;
+    border-bottom: 1px solid var(--border);
+  }
+  .item:last-child { border-bottom: none; }
+  .ticker {
+    color: var(--fg);
+    font-family: var(--font-mono);
+    font-weight: 700;
+    font-size: 0.84rem;
+  }
+  .name {
+    color: var(--fg);
+    font-size: 0.8rem;
+    line-height: 1.25;
+  }
+  .meta {
+    display: flex;
+    gap: 8px;
+    align-items: baseline;
+    margin-top: 2px;
+    color: var(--fg-muted);
+    font-family: var(--font-mono);
+    font-size: 0.68rem;
+    text-transform: uppercase;
+    letter-spacing: 0.35px;
+  }
+  .meta strong {
+    color: var(--fg);
+    font-size: 0.75rem;
+    letter-spacing: 0;
+  }
+  .add .meta strong { color: var(--pos); }
+  .exit .meta strong { color: var(--neg); }
+
+  @media (max-width: 700px) {
+    .movement-highlights { grid-template-columns: 1fr; }
+  }
+</style>

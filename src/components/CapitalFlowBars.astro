@@ -7,9 +7,10 @@ interface Props {
   breakdown: ActivityBreakdown;
   note?: string;
   limit?: number;
+  totalsLabel?: string;
 }
 
-const { title, breakdown, note, limit = 8 } = Astro.props;
+const { title, breakdown, note, limit = 8, totalsLabel = 'tagged' } = Astro.props;
 const rows = breakdown.entries.slice(0, limit);
 const max = rows.reduce((m, row) => Math.max(m, row.bought, row.sold), 0) || 1;
 
@@ -23,7 +24,7 @@ function signedUSD(value: number): string {
   <header>
     <div class="label">{title}</div>
     <div class="totals">
-      <span class="buy">bought {formatUSD(breakdown.total_bought)}</span>
+      <span class="buy">{totalsLabel} bought {formatUSD(breakdown.total_bought)}</span>
       <span class="sell">sold {formatUSD(breakdown.total_sold)}</span>
       <span class={breakdown.net >= 0 ? 'buy' : 'sell'}>net {signedUSD(breakdown.net)}</span>
     </div>

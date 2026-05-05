@@ -6,6 +6,7 @@ import SectorDeltaBars from '../../components/SectorDeltaBars.astro';
 import CapitalFlowBars from '../../components/CapitalFlowBars.astro';
 import ActivityTable from '../../components/ActivityTable.astro';
 import MovementTable from '../../components/MovementTable.astro';
+import MovementHighlights from '../../components/MovementHighlights.astro';
 import PerformanceTable from '../../components/PerformanceTable.astro';
 import HoldingsTable from '../../components/HoldingsTable.astro';
 import ContactCTA from '../../components/ContactCTA.astro';
@@ -55,18 +56,24 @@ for (const p of filing.positions) {
   <ChangeHero diff={diff} summary={currentQuarter.summary} />
 
   {diff.prior_period && (
-    <div class="breakdown-grid">
-      <SectorDeltaBars title="Sector exposure shifts" breakdown={diff.sector_breakdown} />
-      {diff.theme_breakdown && (
-        <SectorDeltaBars title="Theme exposure shifts" breakdown={diff.theme_breakdown} />
-      )}
-    </div>
+    <section class="analysis-section">
+      <div class="analysis-heading">
+        <div class="analysis-kicker">Exposure view</div>
+        <p>Quarter-end weights. Market performance can move these bars even when shares are unchanged.</p>
+      </div>
+      <div class="breakdown-grid">
+        <SectorDeltaBars title="Sector exposure shifts" breakdown={diff.sector_breakdown} />
+        {diff.theme_breakdown && (
+          <SectorDeltaBars title="Theme exposure shifts" breakdown={diff.theme_breakdown} />
+        )}
+      </div>
+    </section>
   )}
 
   {diff.granular_breakdown && (
     <section class="granular-section">
       <div class="coverage-note">
-        Granular coverage: {(diff.granular_coverage_pct ?? 0).toFixed(1)}% of AUM
+        Granular exposure coverage: {(diff.granular_coverage_pct ?? 0).toFixed(1)}% of AUM
       </div>
       <SectorDeltaBars title="Granular exposure shifts" breakdown={diff.granular_breakdown} />
     </section>
@@ -74,20 +81,23 @@ for (const p of filing.positions) {
 
   {diff.theme_activity_breakdown && (
     <section class="activity-section">
-      <div class="coverage-note">
-        Capital reallocation: active share-count changes only
+      <div class="analysis-heading">
+        <div class="analysis-kicker">Activity view</div>
+        <p>Estimated buy/sell decisions from active share-count changes. Unchanged winners are excluded.</p>
       </div>
       <div class="activity-grid">
         <CapitalFlowBars
           title="Theme activity"
           breakdown={diff.theme_activity_breakdown}
           note="Estimated capital bought/sold from new, closed, increased, decreased, and buy/sell activity rows. Unchanged positions are excluded so market gains do not drive this view. Multi-theme positions count once in each assigned theme."
+          totalsLabel="theme-tagged"
         />
         {diff.granular_activity_breakdown && (
           <CapitalFlowBars
             title="Granular activity"
             breakdown={diff.granular_activity_breakdown}
             note="Grouped by granular sub-tags using the same estimated buy/sell methodology."
+            totalsLabel="granular-tagged"
           />
         )}
       </div>
@@ -97,6 +107,7 @@ for (const p of filing.positions) {
   {diff.prior_period && (
     <section class="movements">
       <div class="section-label">Position movements</div>
+      <MovementHighlights diff={diff} />
       <p class="pricing-note">
         Price = reported fair value divided by reported shares at quarter-end. Since q-end shows price change since the end of the reported quarter; ordinary-share rows also include estimated value move, while option rows show underlying stock move only.
       </p>
@@ -136,6 +147,29 @@ for (const p of filing.positions) {
   .topnav a:hover { color: var(--accent); text-decoration: none; }
   .breakdown-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; margin-bottom: 24px; }
   .activity-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; }
+  .analysis-section { margin-bottom: 24px; }
+  .analysis-heading {
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+    gap: 18px;
+    margin: 0 0 10px;
+  }
+  .analysis-kicker {
+    font-family: var(--font-mono);
+    font-size: 0.7rem;
+    color: var(--accent);
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    white-space: nowrap;
+  }
+  .analysis-heading p {
+    margin: 0;
+    color: var(--fg-muted);
+    font-size: 0.76rem;
+    line-height: 1.4;
+    text-align: right;
+  }
   .section-label {
     font-family: var(--font-mono);
     font-size: 0.7rem;
@@ -179,5 +213,11 @@ for (const p of filing.positions) {
   @media (max-width: 700px) {
     .breakdown-grid { grid-template-columns: 1fr; }
     .activity-grid { grid-template-columns: 1fr; }
+    .analysis-heading {
+      align-items: flex-start;
+      flex-direction: column;
+      gap: 4px;
+    }
+    .analysis-heading p { text-align: left; }
   }
 </style>

@@ -29,7 +29,7 @@ const flowSign = netFlow >= 0 ? '+' : '-';
       <span><strong class="up">&uarr;{m.increased.length}</strong> increased</span>
       <span><strong class="down">&darr;{m.decreased.length}</strong> decreased</span>
       <span class="muted">| {m.unchanged_count} unchanged</span>
-      <span class="net">net <span class={netFlow >= 0 ? 'up' : 'down'}>{flowSign}{formatUSD(Math.abs(netFlow))}</span></span>
+      <span class="net">reported AUM change <span class={netFlow >= 0 ? 'up' : 'down'}>{flowSign}{formatUSD(Math.abs(netFlow))}</span></span>
     </div>
   </section>
 )}
