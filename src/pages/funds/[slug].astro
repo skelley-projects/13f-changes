@@ -3,6 +3,7 @@ import Layout from '../../components/Layout.astro';
 import FundHeader from '../../components/FundHeader.astro';
 import ChangeHero from '../../components/ChangeHero.astro';
 import SectorDeltaBars from '../../components/SectorDeltaBars.astro';
+import CapitalFlowBars from '../../components/CapitalFlowBars.astro';
 import ActivityTable from '../../components/ActivityTable.astro';
 import MovementTable from '../../components/MovementTable.astro';
 import PerformanceTable from '../../components/PerformanceTable.astro';
@@ -55,9 +56,9 @@ for (const p of filing.positions) {
 
   {diff.prior_period && (
     <div class="breakdown-grid">
-      <SectorDeltaBars title="Sector shifts" breakdown={diff.sector_breakdown} />
+      <SectorDeltaBars title="Sector exposure shifts" breakdown={diff.sector_breakdown} />
       {diff.theme_breakdown && (
-        <SectorDeltaBars title="Theme shifts" breakdown={diff.theme_breakdown} />
+        <SectorDeltaBars title="Theme exposure shifts" breakdown={diff.theme_breakdown} />
       )}
     </div>
   )}
@@ -67,7 +68,29 @@ for (const p of filing.positions) {
       <div class="coverage-note">
         Granular coverage: {(diff.granular_coverage_pct ?? 0).toFixed(1)}% of AUM
       </div>
-      <SectorDeltaBars title="Granular theme shifts" breakdown={diff.granular_breakdown} />
+      <SectorDeltaBars title="Granular exposure shifts" breakdown={diff.granular_breakdown} />
+    </section>
+  )}
+
+  {diff.theme_activity_breakdown && (
+    <section class="activity-section">
+      <div class="coverage-note">
+        Capital reallocation: active share-count changes only
+      </div>
+      <div class="activity-grid">
+        <CapitalFlowBars
+          title="Theme activity"
+          breakdown={diff.theme_activity_breakdown}
+          note="Estimated capital bought/sold from new, closed, increased, decreased, and buy/sell activity rows. Unchanged positions are excluded so market gains do not drive this view. Multi-theme positions count once in each assigned theme."
+        />
+        {diff.granular_activity_breakdown && (
+          <CapitalFlowBars
+            title="Granular activity"
+            breakdown={diff.granular_activity_breakdown}
+            note="Grouped by granular sub-tags using the same estimated buy/sell methodology."
+          />
+        )}
+      </div>
     </section>
   )}
 
@@ -112,6 +135,7 @@ for (const p of filing.positions) {
   .topnav a { color: var(--fg-muted); }
   .topnav a:hover { color: var(--accent); text-decoration: none; }
   .breakdown-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; margin-bottom: 24px; }
+  .activity-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; }
   .section-label {
     font-family: var(--font-mono);
     font-size: 0.7rem;
@@ -129,6 +153,10 @@ for (const p of filing.positions) {
     line-height: 1.5;
   }
   .granular-section {
+    margin-top: 28px;
+    margin-bottom: 24px;
+  }
+  .activity-section {
     margin-top: 28px;
     margin-bottom: 24px;
   }
@@ -150,5 +178,6 @@ for (const p of filing.positions) {
   }
   @media (max-width: 700px) {
     .breakdown-grid { grid-template-columns: 1fr; }
+    .activity-grid { grid-template-columns: 1fr; }
   }
 </style>

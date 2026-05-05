@@ -294,3 +294,61 @@ describe('computeDiff: granular theme breakdown', () => {
     expect(diff.granular_coverage_pct).toBeNull();
   });
 });
+
+describe('computeDiff: activity breakdowns', () => {
+  const tags: TagsFile = {
+    slug: 'test',
+    taxonomy: [
+      { id: 'ai-compute', label: 'AI compute', description: '' },
+      { id: 'photonics', label: 'Photonics', description: '', parent: 'ai-compute' },
+      { id: 'consumer', label: 'Consumer', description: '' },
+    ],
+    assignments: {
+      A: ['ai-compute', 'photonics'],
+      B: ['ai-compute', 'photonics'],
+      C: ['ai-compute', 'photonics'],
+      D: ['consumer'],
+      E: ['consumer'],
+    },
+  };
+
+  it('aggregates active buy/sell decisions and excludes unchanged market drift', () => {
+    const prior = mkFiling('2025-Q3', [
+      mkPos('A', 100, 100),  // unchanged shares, later marked much higher
+      mkPos('B', 200, 100),  // increased
+      mkPos('C', 400, 100),  // decreased
+      mkPos('E', 60, 100),   // closed
+    ]);
+    const current = mkFiling('2025-Q4', [
+      mkPos('A', 1000, 100), // should not count as activity
+      mkPos('B', 450, 150),  // added 50 shares at current 13F mark = 150
+      mkPos('C', 500, 50),   // sold 50 shares at prior 13F mark = 200
+      mkPos('D', 80, 100),   // new
+    ]);
+
+    const diff = computeDiff({ current, prior, securities: emptySecurities, tags });
+
+    const ai = diff.theme_activity_breakdown!.entries.find(e => e.label === 'AI compute')!;
+    expect(ai.bought).toBeCloseTo(150);
+    expect(ai.sold).toBeCloseTo(200);
+    expect(ai.net).toBeCloseTo(-50);
+
+    const consumer = diff.theme_activity_breakdown!.entries.find(e => e.label === 'Consumer')!;
+    expect(consumer.bought).toBeCloseTo(80);
+    expect(consumer.sold).toBeCloseTo(60);
+    expect(consumer.net).toBeCloseTo(20);
+
+    const photonics = diff.granular_activity_breakdown!.entries.find(e => e.label === 'Photonics')!;
+    expect(photonics.bought).toBeCloseTo(150);
+    expect(photonics.sold).toBeCloseTo(200);
+  });
+
+  it('returns null activity breakdowns when a fund has no tags', () => {
+    const prior = mkFiling('2025-Q3', [mkPos('A', 100, 100)]);
+    const current = mkFiling('2025-Q4', [mkPos('A', 200, 200)]);
+    const diff = computeDiff({ current, prior, securities: emptySecurities, tags: NO_TAGS });
+
+    expect(diff.theme_activity_breakdown).toBeNull();
+    expect(diff.granular_activity_breakdown).toBeNull();
+  });
+});

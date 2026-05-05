@@ -2494,5 +2494,187 @@
       }
     ]
   },
-  "granular_coverage_pct": 100
+  "granular_coverage_pct": 100,
+  "theme_activity_breakdown": {
+    "entries": [
+      {
+        "label": "Consumer platforms",
+        "bought": 425857348.4852215,
+        "sold": 385054493.77580684,
+        "net": 40802854.70941466
+      },
+      {
+        "label": "Health care",
+        "bought": 131769073.18133226,
+        "sold": 607748648.5618984,
+        "net": -475979575.3805661
+      },
+      {
+        "label": "Industrial & real assets",
+        "bought": 295151472.40905696,
+        "sold": 261955548.6003968,
+        "net": 33195923.80866015
+      },
+      {
+        "label": "Market beta & EM",
+        "bought": 472066000,
+        "sold": 70988500,
+        "net": 401077500
+      },
+      {
+        "label": "Financials & credit",
+        "bought": 325750000,
+        "sold": 205017965.17662066,
+        "net": 120732034.82337934
+      },
+      {
+        "label": "Semis & AI hardware",
+        "bought": 191611000,
+        "sold": 146231499.06873092,
+        "net": 45379500.93126908
+      }
+    ],
+    "total_bought": 1842204894.0756106,
+    "total_sold": 1676996655.1834536,
+    "net": 165208238.8921571
+  },
+  "granular_activity_breakdown": {
+    "entries": [
+      {
+        "label": "Therapeutics biotech",
+        "bought": 99713135.76044393,
+        "sold": 261936817.65427998,
+        "net": -162223681.89383605
+      },
+      {
+        "label": "Financial ETFs",
+        "bought": 300994000,
+        "sold": 28646000,
+        "net": 272348000
+      },
+      {
+        "label": "EM / country ETFs",
+        "bought": 247189000,
+        "sold": 70988500,
+        "net": 176200500
+      },
+      {
+        "label": "Digital media & apps",
+        "bought": 88516400,
+        "sold": 215585532.47730142,
+        "net": -127069132.47730142
+      },
+      {
+        "label": "E-commerce marketplaces",
+        "bought": 236598657.86343518,
+        "sold": 26161961.298505414,
+        "net": 210436696.56492975
+      },
+      {
+        "label": "Broad-market ETFs",
+        "bought": 224877000,
+        "sold": 0,
+        "net": 224877000
+      },
+      {
+        "label": "Pharma / generics",
+        "bought": 0,
+        "sold": 216524798.41610804,
+        "net": -216524798.41610804
+      },
+      {
+        "label": "Power & electrification",
+        "bought": 73746000,
+        "sold": 118257000,
+        "net": -44511000
+      },
+      {
+        "label": "Metals & materials",
+        "bought": 104722582.4025434,
+        "sold": 65853283.54330607,
+        "net": 38869298.85923733
+      },
+      {
+        "label": "Edge / power semis",
+        "bought": 120491000,
+        "sold": 45299000,
+        "net": 75192000
+      },
+      {
+        "label": "Banks & credit",
+        "bought": 24756000,
+        "sold": 131232000,
+        "net": -106476000
+      },
+      {
+        "label": "Housing & retail",
+        "bought": 28943000,
+        "sold": 119397000,
+        "net": -90454000
+      },
+      {
+        "label": "Diagnostics & research",
+        "bought": 0,
+        "sold": 129287032.49151042,
+        "net": -129287032.49151042
+      },
+      {
+        "label": "Aerospace & transport",
+        "bought": 93939000,
+        "sold": 11096365.67117516,
+        "net": 82842634.32882485
+      },
+      {
+        "label": "Restaurants & staples",
+        "bought": 71799290.62178627,
+        "sold": 23910000,
+        "net": 47889290.62178627
+      },
+      {
+        "label": "Energy resources",
+        "bought": 17801583.147992555,
+        "sold": 54532000,
+        "net": -36730416.85200745
+      },
+      {
+        "label": "Semicap materials",
+        "bought": 71120000,
+        "sold": 0,
+        "net": 71120000
+      },
+      {
+        "label": "AI foundry",
+        "bought": 0,
+        "sold": 62002499.06873092,
+        "net": -62002499.06873092
+      },
+      {
+        "label": "Fintech / capital markets",
+        "bought": 0,
+        "sold": 45139965.17662065,
+        "net": -45139965.17662065
+      },
+      {
+        "label": "Storage hardware",
+        "bought": 0,
+        "sold": 38930000,
+        "net": -38930000
+      },
+      {
+        "label": "Care delivery",
+        "bought": 32055937.420888342,
+        "sold": 0,
+        "net": 32055937.420888342
+      },
+      {
+        "label": "Industrial tech",
+        "bought": 4942306.858520987,
+        "sold": 12216899.385915587,
+        "net": -7274592.527394599
+      }
+    ],
+    "total_bought": 1842204894.0756106,
+    "total_sold": 1676996655.1834536,
+    "net": 165208238.89215705
+  }
 }

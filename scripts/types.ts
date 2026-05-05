@@ -193,6 +193,20 @@ export interface Breakdown {
   deltas: BreakdownDelta[];     // sorted by absolute delta desc
 }
 
+export interface ActivityBreakdownEntry {
+  label: string;
+  bought: number;
+  sold: number;
+  net: number;
+}
+
+export interface ActivityBreakdown {
+  entries: ActivityBreakdownEntry[];   // sorted by total activity desc
+  total_bought: number;
+  total_sold: number;
+  net: number;
+}
+
 export interface DiffFile {
   slug: Slug;
   current_period: Period;
@@ -215,4 +229,6 @@ export interface DiffFile {
   theme_breakdown: Breakdown | null;  // null when fund has no tags
   granular_breakdown: Breakdown | null;     // null when fund has zero sub-tags or zero granularly-tagged positions
   granular_coverage_pct: number | null;     // 0-100, null when granular_breakdown is null
+  theme_activity_breakdown: ActivityBreakdown | null;     // active buy/sell/reallocation estimate, excluding unchanged positions
+  granular_activity_breakdown: ActivityBreakdown | null;  // same activity estimate, grouped by sub-tags only
 }

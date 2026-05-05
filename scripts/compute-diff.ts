@@ -1,6 +1,6 @@
 import type {
   FilingFile, Position, SecuritiesFile, TagsFile, MovementRow, MovementActivity, DiffFile, Breakdown,
-  BreakdownDelta, BreakdownEntry,
+  BreakdownDelta, BreakdownEntry, ActivityBreakdown,
 } from './types.js';
 
 export interface ComputeDiffInput {
@@ -101,6 +101,7 @@ export function computeDiff(input: ComputeDiffInput): DiffFile {
     securities[p.cusip]?.sector ?? 'Unclassified';
 
   const granular = buildGranularBreakdown(current, prior, tags);
+  const activity = buildActivityBreakdowns(movements, tags);
 
   return {
     slug: current.slug,
@@ -116,6 +117,8 @@ export function computeDiff(input: ComputeDiffInput): DiffFile {
     theme_breakdown: buildThemeBreakdown(current, prior, tags),
     granular_breakdown: granular.breakdown,
     granular_coverage_pct: granular.coverage_pct,
+    theme_activity_breakdown: activity.theme,
+    granular_activity_breakdown: activity.granular,
   };
 }
 
@@ -247,6 +250,132 @@ function buildThemeBreakdown(
   priorEntries.sort((a, b) => b.value - a.value);
   deltas.sort((a, b) => Math.abs(b.delta_pct_pts) - Math.abs(a.delta_pct_pts));
   return { current: currentEntries, prior: priorEntries, deltas };
+}
+
+function buildActivityBreakdowns(
+  movements: {
+    new: MovementRow[];
+    closed: MovementRow[];
+    increased: MovementRow[];
+    decreased: MovementRow[];
+    activity: MovementActivity[];
+  },
+  tags: TagsFile,
+): { theme: ActivityBreakdown | null; granular: ActivityBreakdown | null } {
+  if (tags.taxonomy.length === 0) return { theme: null, granular: null };
+
+  const labelById = new Map(tags.taxonomy.map(t => [t.id, t.label]));
+  const parentById = new Map(tags.taxonomy.map(t => [t.id, t.parent]));
+  const subTagIds = new Set(tags.taxonomy.filter(t => t.parent !== undefined).map(t => t.id));
+
+  const broadLabelsForTags = (ids: string[]): Set<string> => {
+    const labels = new Set<string>();
+    for (const id of ids) {
+      const broadId = parentById.get(id) ?? id;
+      const label = labelById.get(broadId);
+      if (label) labels.add(label);
+    }
+    return labels;
+  };
+
+  const granularLabelsForTags = (ids: string[]): Set<string> => {
+    const labels = new Set<string>();
+    for (const id of ids) {
+      if (!subTagIds.has(id)) continue;
+      const label = labelById.get(id);
+      if (label) labels.add(label);
+    }
+    return labels;
+  };
+
+  type ActivityLeg = { tags: string[]; bought: number; sold: number };
+  const legs: ActivityLeg[] = [];
+
+  for (const row of movements.new) {
+    legs.push({ tags: row.tags, bought: row.current_value ?? 0, sold: 0 });
+  }
+  for (const row of movements.closed) {
+    legs.push({ tags: row.tags, bought: 0, sold: row.prior_value ?? 0 });
+  }
+  for (const row of movements.increased) {
+    legs.push({ tags: row.tags, bought: estimateAddedValue(row), sold: 0 });
+  }
+  for (const row of movements.decreased) {
+    legs.push({ tags: row.tags, bought: 0, sold: estimateReducedValue(row) });
+  }
+  for (const activity of movements.activity) {
+    for (const row of activity.bought) {
+      legs.push({ tags: row.tags, bought: row.current_value ?? 0, sold: 0 });
+    }
+    for (const row of activity.sold) {
+      legs.push({ tags: row.tags, bought: 0, sold: row.prior_value ?? 0 });
+    }
+  }
+
+  return {
+    theme: aggregateActivity(legs, broadLabelsForTags),
+    granular: subTagIds.size === 0 ? null : aggregateActivity(legs, granularLabelsForTags),
+  };
+}
+
+function estimateAddedValue(row: MovementRow): number {
+  if (
+    row.delta_shares > 0 &&
+    row.current_shares !== null &&
+    row.current_shares > 0 &&
+    row.current_value !== null
+  ) {
+    return (row.current_value / row.current_shares) * row.delta_shares;
+  }
+  return Math.max(row.delta_value, 0);
+}
+
+function estimateReducedValue(row: MovementRow): number {
+  if (
+    row.delta_shares < 0 &&
+    row.prior_shares !== null &&
+    row.prior_shares > 0 &&
+    row.prior_value !== null
+  ) {
+    return (row.prior_value / row.prior_shares) * Math.abs(row.delta_shares);
+  }
+  return Math.max(-row.delta_value, 0);
+}
+
+function aggregateActivity(
+  legs: Array<{ tags: string[]; bought: number; sold: number }>,
+  labelsForTags: (ids: string[]) => Set<string>,
+): ActivityBreakdown | null {
+  const byLabel = new Map<string, { bought: number; sold: number }>();
+
+  for (const leg of legs) {
+    if (leg.bought === 0 && leg.sold === 0) continue;
+    for (const label of labelsForTags(leg.tags)) {
+      const entry = byLabel.get(label) ?? { bought: 0, sold: 0 };
+      entry.bought += leg.bought;
+      entry.sold += leg.sold;
+      byLabel.set(label, entry);
+    }
+  }
+
+  const entries = [...byLabel.entries()]
+    .map(([label, value]) => ({
+      label,
+      bought: value.bought,
+      sold: value.sold,
+      net: value.bought - value.sold,
+    }))
+    .filter(entry => entry.bought > 0 || entry.sold > 0)
+    .sort((a, b) => (b.bought + b.sold) - (a.bought + a.sold));
+
+  if (entries.length === 0) return null;
+
+  return {
+    entries,
+    total_bought: entries.reduce((sum, entry) => sum + entry.bought, 0),
+    total_sold: entries.reduce((sum, entry) => sum + entry.sold, 0),
+    net: entries.reduce((sum, entry) => sum + entry.net, 0),
+  };
 }
 
 function buildGranularBreakdown(

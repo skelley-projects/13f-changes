@@ -1,0 +1,152 @@
+---
+import { formatUSD } from '../lib/format';
+import type { ActivityBreakdown } from '../../scripts/types';
+
+interface Props {
+  title: string;
+  breakdown: ActivityBreakdown;
+  note?: string;
+  limit?: number;
+}
+
+const { title, breakdown, note, limit = 8 } = Astro.props;
+const rows = breakdown.entries.slice(0, limit);
+const max = rows.reduce((m, row) => Math.max(m, row.bought, row.sold), 0) || 1;
+
+function signedUSD(value: number): string {
+  if (value > 0) return `+${formatUSD(value)}`;
+  if (value < 0) return `-${formatUSD(Math.abs(value))}`;
+  return '$0';
+}
+---
+<section class="flow-panel">
+  <header>
+    <div class="label">{title}</div>
+    <div class="totals">
+      <span class="buy">bought {formatUSD(breakdown.total_bought)}</span>
+      <span class="sell">sold {formatUSD(breakdown.total_sold)}</span>
+      <span class={breakdown.net >= 0 ? 'buy' : 'sell'}>net {signedUSD(breakdown.net)}</span>
+    </div>
+  </header>
+  {note && <p class="note">{note}</p>}
+  {rows.length === 0 ? (
+    <p class="empty">No active buy/sell changes between quarters.</p>
+  ) : (
+    <div class="bars">
+      {rows.map((row) => {
+        const buyWidth = (row.bought / max) * 50;
+        const sellWidth = (row.sold / max) * 50;
+        const netPositive = row.net >= 0;
+        return (
+          <div class="bar-row">
+            <div class="row-label">{row.label}</div>
+            <div class="bar-track">
+              <div class="bar sell-bar" style={`width:${sellWidth}%; right: 50%;`} />
+              <div class="bar buy-bar" style={`width:${buyWidth}%; left: 50%;`} />
+            </div>
+            <div class={`net num ${netPositive ? 'buy' : 'sell'}`}>{signedUSD(row.net)}</div>
+          </div>
+        );
+      })}
+      <div class="centerline-note">left = sold / reduced, right = bought / added</div>
+    </div>
+  )}
+</section>
+
+<style>
+  .flow-panel {
+    background: var(--bg-elev);
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    padding: 16px;
+    box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.02);
+  }
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    gap: 16px;
+    margin-bottom: 10px;
+  }
+  .label {
+    font-family: var(--font-mono);
+    font-size: 0.7rem;
+    color: var(--accent);
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+  }
+  .totals {
+    display: flex;
+    gap: 12px;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    font-family: var(--font-mono);
+    font-size: 0.68rem;
+    color: var(--fg-muted);
+  }
+  .note {
+    max-width: 760px;
+    margin: -2px 0 14px;
+    color: var(--fg-muted);
+    font-size: 0.74rem;
+    line-height: 1.45;
+  }
+  .bars { font-size: 0.8rem; }
+  .bar-row {
+    display: grid;
+    grid-template-columns: 180px 1fr 82px;
+    align-items: center;
+    column-gap: 12px;
+    margin-bottom: 8px;
+  }
+  .row-label {
+    text-align: right;
+    color: var(--fg);
+    font-size: 0.8rem;
+    line-height: 1.25;
+    min-width: 0;
+  }
+  .bar-track {
+    position: relative;
+    height: 14px;
+  }
+  .bar-track::before {
+    content: '';
+    position: absolute;
+    left: 50%;
+    top: 0;
+    bottom: 0;
+    border-left: 1px solid var(--border-strong);
+  }
+  .bar {
+    position: absolute;
+    top: 0;
+    height: 14px;
+    border-radius: 2px;
+  }
+  .buy-bar { background: var(--pos); }
+  .sell-bar { background: var(--neg); }
+  .buy { color: var(--pos); font-weight: 600; }
+  .sell { color: var(--neg); font-weight: 600; }
+  .net { font-family: var(--font-mono); text-align: right; }
+  .centerline-note {
+    font-family: var(--font-mono);
+    font-size: 0.65rem;
+    color: var(--fg-dim);
+    text-align: center;
+    margin-top: 8px;
+  }
+  .empty {
+    color: var(--fg-dim);
+    font-size: 0.8rem;
+    font-style: italic;
+  }
+  @media (max-width: 700px) {
+    header { align-items: flex-start; flex-direction: column; }
+    .totals { justify-content: flex-start; }
+    .bar-row {
+      grid-template-columns: minmax(96px, 0.85fr) 1fr 74px;
+      column-gap: 8px;
+    }
+  }
+</style>

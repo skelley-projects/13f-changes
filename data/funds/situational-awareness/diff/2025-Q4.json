@@ -1358,5 +1358,139 @@
       }
     ]
   },
-  "granular_coverage_pct": 98.93912066942276
+  "granular_coverage_pct": 98.93912066942276,
+  "theme_activity_breakdown": {
+    "entries": [
+      {
+        "label": "AI compute",
+        "bought": 1542026352.8476484,
+        "sold": 789361711,
+        "net": 752664641.8476484
+      },
+      {
+        "label": "AI infrastructure - power",
+        "bought": 1277798019.4,
+        "sold": 380820784,
+        "net": 896977235.4000001
+      },
+      {
+        "label": "AI infrastructure - datacenter",
+        "bought": 1088596772.2694063,
+        "sold": 284144875,
+        "net": 804451897.2694063
+      },
+      {
+        "label": "Bitcoin mining",
+        "bought": 551693869.8834716,
+        "sold": 164827682,
+        "net": 386866187.8834716
+      }
+    ],
+    "total_bought": 4460115014.400526,
+    "total_sold": 1619155052,
+    "net": 2840959962.400526
+  },
+  "granular_activity_breakdown": {
+    "entries": [
+      {
+        "label": "Fuel cells",
+        "bought": 911000117,
+        "sold": 56220650,
+        "net": 854779467
+      },
+      {
+        "label": "Accelerated cloud",
+        "bought": 750713123.0559349,
+        "sold": 191590000,
+        "net": 559123123.0559349
+      },
+      {
+        "label": "Photonics",
+        "bought": 538728619,
+        "sold": 67947696,
+        "net": 470780923
+      },
+      {
+        "label": "AI datacenter hosting",
+        "bought": 337883649.2134716,
+        "sold": 92554875,
+        "net": 245328774.2134716
+      },
+      {
+        "label": "Bitcoin / HPC miners",
+        "bought": 241580300.67000002,
+        "sold": 72272807,
+        "net": 169307493.67000002
+      },
+      {
+        "label": "GPU / accelerator",
+        "bought": 0,
+        "sold": 298528000,
+        "net": -298528000
+      },
+      {
+        "label": "Storage media",
+        "bought": 222947296,
+        "sold": 29812415,
+        "net": 193134881
+      },
+      {
+        "label": "Nuclear power",
+        "bought": 0,
+        "sold": 252327327,
+        "net": -252327327
+      },
+      {
+        "label": "Gas peakers / nat-gas E&P",
+        "bought": 105315370.4,
+        "sold": 0,
+        "net": 105315370.4
+      },
+      {
+        "label": "AI networking silicon",
+        "bought": 0,
+        "sold": 75879300,
+        "net": -75879300
+      },
+      {
+        "label": "AI foundries",
+        "bought": 0,
+        "sold": 75408300,
+        "net": -75408300
+      },
+      {
+        "label": "Oilfield power services",
+        "bought": 52051179,
+        "sold": 0,
+        "net": 52051179
+      },
+      {
+        "label": "HBM memory",
+        "bought": 0,
+        "sold": 50196000,
+        "net": -50196000
+      },
+      {
+        "label": "Power equipment",
+        "bought": 33285348,
+        "sold": 0,
+        "net": 33285348
+      },
+      {
+        "label": "Specialty foundry",
+        "bought": 29637277.79171346,
+        "sold": 0,
+        "net": 29637277.79171346
+      },
+      {
+        "label": "Platform silicon",
+        "bought": 37,
+        "sold": 0,
+        "net": 37
+      }
+    ],
+    "total_bought": 3223142317.1311197,
+    "total_sold": 1262737370,
+    "net": 1960404947.13112
+  }
 }
