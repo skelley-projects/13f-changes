@@ -15,6 +15,7 @@
     "test:watch": "vitest",
     "classify": "tsx scripts/run-classify-securities.ts",
     "validate": "tsx scripts/run-validate.ts",
+    "tag-audit": "tsx scripts/run-tag-audit.ts",
     "poll-edgar": "tsx scripts/run-poll-edgar.ts",
     "remind": "tsx scripts/run-remind.ts",
     "refresh-prices": "tsx scripts/run-refresh-prices.ts"

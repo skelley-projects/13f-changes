@@ -83,42 +83,102 @@
       "label": "Datacenter REITs",
       "description": "Public datacenter REITs (Equinix, Digital Realty, etc.) as opposed to networking gear or colocation services.",
       "parent": "ai-infra-datacenter"
+    },
+    {
+      "id": "fuel-cells",
+      "label": "Fuel cells",
+      "description": "Fuel-cell power systems and adjacent distributed power equipment for datacenter-scale load growth.",
+      "parent": "ai-infra-power"
+    },
+    {
+      "id": "power-equipment",
+      "label": "Power equipment",
+      "description": "Generators, boilers, engines, and power-system equipment that support new AI power demand.",
+      "parent": "ai-infra-power"
+    },
+    {
+      "id": "oilfield-power-services",
+      "label": "Oilfield power services",
+      "description": "Oilfield and energy-service companies exposed to gas supply, pressure pumping, or distributed power infrastructure.",
+      "parent": "ai-infra-power"
+    },
+    {
+      "id": "accelerated-cloud",
+      "label": "Accelerated cloud",
+      "description": "GPU cloud and accelerated-compute platforms serving AI training and inference workloads.",
+      "parent": "ai-infra-datacenter"
+    },
+    {
+      "id": "ai-datacenter-hosting",
+      "label": "AI datacenter hosting",
+      "description": "Colocation, hosting, and infrastructure operators pivoting capacity toward AI/HPC tenants.",
+      "parent": "ai-infra-datacenter"
+    },
+    {
+      "id": "bitcoin-hpc-miners",
+      "label": "Bitcoin / HPC miners",
+      "description": "Bitcoin miners whose power and site portfolios can also support HPC or AI hosting.",
+      "parent": "bitcoin-mining"
+    },
+    {
+      "id": "storage-media",
+      "label": "Storage media",
+      "description": "Hard-drive, NAND, and storage-media suppliers tied to AI data retention and datacenter buildouts.",
+      "parent": "ai-compute"
+    },
+    {
+      "id": "platform-silicon",
+      "label": "Platform silicon",
+      "description": "Broad compute silicon platforms, including CPU and accelerator-adjacent suppliers.",
+      "parent": "ai-compute"
+    },
+    {
+      "id": "ai-networking-silicon",
+      "label": "AI networking silicon",
+      "description": "Custom ASIC, switching, and networking silicon suppliers for scale-out AI clusters.",
+      "parent": "ai-compute"
+    },
+    {
+      "id": "specialty-foundry",
+      "label": "Specialty foundry",
+      "description": "Specialty semiconductor foundries and analog/mixed-signal fabs adjacent to AI hardware supply chains.",
+      "parent": "ai-compute"
     }
   ],
   "assignments": {
-    "038169207": ["ai-infra-datacenter", "bitcoin-mining"],
-    "05614L209": ["ai-infra-power"],
-    "G11448100": ["bitcoin-mining", "ai-infra-power"],
-    "09173B107": ["bitcoin-mining"],
-    "093712107": ["ai-infra-power"],
-    "093712AH0": ["ai-infra-power"],
-    "17253J106": ["bitcoin-mining", "ai-infra-power"],
-    "17253JAA4": ["bitcoin-mining", "ai-infra-power"],
-    "18452B209": ["bitcoin-mining"],
+    "038169207": ["ai-infra-datacenter", "bitcoin-mining", "ai-datacenter-hosting"],
+    "05614L209": ["ai-infra-power", "power-equipment"],
+    "G11448100": ["bitcoin-mining", "ai-infra-power", "bitcoin-hpc-miners"],
+    "09173B107": ["bitcoin-mining", "bitcoin-hpc-miners"],
+    "093712107": ["ai-infra-power", "fuel-cells"],
+    "093712AH0": ["ai-infra-power", "fuel-cells"],
+    "17253J106": ["bitcoin-mining", "ai-infra-power", "bitcoin-hpc-miners"],
+    "17253JAA4": ["bitcoin-mining", "ai-infra-power", "bitcoin-hpc-miners"],
+    "18452B209": ["bitcoin-mining", "bitcoin-hpc-miners"],
     "19247G107": ["ai-compute", "photonics"],
-    "21874A106": ["bitcoin-mining", "ai-infra-datacenter"],
-    "21873S108": ["ai-infra-datacenter", "ai-compute"],
+    "21874A106": ["bitcoin-mining", "ai-infra-datacenter", "ai-datacenter-hosting"],
+    "21873S108": ["ai-infra-datacenter", "ai-compute", "accelerated-cloud"],
     "26884L109": ["ai-infra-power", "gas-power"],
-    "44812J104": ["bitcoin-mining", "ai-infra-power"],
-    "Q4982L109": ["bitcoin-mining", "ai-infra-datacenter"],
-    "458140100": ["ai-compute"],
-    "53115L104": ["ai-infra-power"],
+    "44812J104": ["bitcoin-mining", "ai-infra-power", "bitcoin-hpc-miners"],
+    "Q4982L109": ["bitcoin-mining", "ai-infra-datacenter", "ai-datacenter-hosting"],
+    "458140100": ["ai-compute", "platform-silicon"],
+    "53115L104": ["ai-infra-power", "oilfield-power-services"],
     "55024U109": ["ai-compute", "photonics"],
     "55024UAD1": ["ai-compute", "photonics"],
-    "73933G202": ["ai-infra-power"],
-    "74347M108": ["ai-infra-power"],
-    "767292105": ["bitcoin-mining"],
-    "80004C200": ["ai-compute"],
-    "83418M103": ["ai-infra-power"],
-    "M87915274": ["ai-compute"],
-    "G96115103": ["ai-infra-datacenter"],
-    "11135F101": ["ai-compute"],
-    "36317J209": ["bitcoin-mining", "ai-infra-datacenter"],
-    "595112103": ["ai-compute"],
+    "73933G202": ["ai-infra-power", "power-equipment"],
+    "74347M108": ["ai-infra-power", "oilfield-power-services"],
+    "767292105": ["bitcoin-mining", "bitcoin-hpc-miners"],
+    "80004C200": ["ai-compute", "storage-media"],
+    "83418M103": ["ai-infra-power", "oilfield-power-services"],
+    "M87915274": ["ai-compute", "specialty-foundry"],
+    "G96115103": ["ai-infra-datacenter", "ai-datacenter-hosting"],
+    "11135F101": ["ai-compute", "ai-networking-silicon"],
+    "36317J209": ["bitcoin-mining", "ai-infra-datacenter", "ai-datacenter-hosting"],
+    "595112103": ["ai-compute", "hbm-memory"],
     "67066G104": ["ai-compute", "gpu-accelerator"],
     "874039100": ["ai-compute", "ai-foundry"],
     "92840M102": ["ai-infra-power", "nuclear-power"],
-    "G7997R103": ["ai-compute"],
-    "958102AT2": ["ai-compute"]
+    "G7997R103": ["ai-compute", "storage-media"],
+    "958102AT2": ["ai-compute", "storage-media"]
   }
 }

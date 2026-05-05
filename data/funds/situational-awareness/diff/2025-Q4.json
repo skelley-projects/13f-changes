@@ -60,7 +60,8 @@
         "sector": "Information Technology",
         "industry": "IT Services",
         "tags": [
-          "ai-infra-datacenter"
+          "ai-infra-datacenter",
+          "ai-datacenter-hosting"
         ],
         "current_value": 27770080,
         "prior_value": null,
@@ -81,7 +82,8 @@
         "sector": "Industrials",
         "industry": "Specialty Industrial Machinery",
         "tags": [
-          "ai-infra-power"
+          "ai-infra-power",
+          "power-equipment"
         ],
         "current_value": 24701622,
         "prior_value": null,
@@ -102,7 +104,8 @@
         "sector": "Financials",
         "industry": "Capital Markets",
         "tags": [
-          "bitcoin-mining"
+          "bitcoin-mining",
+          "bitcoin-hpc-miners"
         ],
         "current_value": 16600848,
         "prior_value": null,
@@ -123,7 +126,8 @@
         "sector": "Information Technology",
         "industry": "IT Services",
         "tags": [
-          "bitcoin-mining"
+          "bitcoin-mining",
+          "bitcoin-hpc-miners"
         ],
         "current_value": 16208185,
         "prior_value": null,
@@ -144,7 +148,8 @@
         "sector": "Energy",
         "industry": "Oil & Gas Equipment & Services",
         "tags": [
-          "ai-infra-power"
+          "ai-infra-power",
+          "oilfield-power-services"
         ],
         "current_value": 10470512,
         "prior_value": null,
@@ -184,7 +189,8 @@
         "sector": "Energy",
         "industry": "Oil & Gas Equipment & Services",
         "tags": [
-          "ai-infra-power"
+          "ai-infra-power",
+          "oilfield-power-services"
         ],
         "current_value": 8656953,
         "prior_value": null,
@@ -205,7 +211,8 @@
         "sector": "Industrials",
         "industry": "Specialty Industrial Machinery",
         "tags": [
-          "ai-infra-power"
+          "ai-infra-power",
+          "power-equipment"
         ],
         "current_value": 8583726,
         "prior_value": null,
@@ -226,7 +233,8 @@
         "sector": "Information Technology",
         "industry": "Semiconductors",
         "tags": [
-          "ai-compute"
+          "ai-compute",
+          "platform-silicon"
         ],
         "current_value": 37,
         "prior_value": null,
@@ -313,7 +321,8 @@
         "industry": "Software - Infrastructure",
         "tags": [
           "ai-infra-datacenter",
-          "ai-compute"
+          "ai-compute",
+          "accelerated-cloud"
         ],
         "current_value": null,
         "prior_value": 191590000,
@@ -335,7 +344,8 @@
         "industry": "Capital Markets",
         "tags": [
           "bitcoin-mining",
-          "ai-infra-datacenter"
+          "ai-infra-datacenter",
+          "ai-datacenter-hosting"
         ],
         "current_value": null,
         "prior_value": 92554875,
@@ -356,7 +366,8 @@
         "sector": "Information Technology",
         "industry": "Semiconductors",
         "tags": [
-          "ai-compute"
+          "ai-compute",
+          "ai-networking-silicon"
         ],
         "current_value": null,
         "prior_value": 75879300,
@@ -399,7 +410,8 @@
         "sector": "Information Technology",
         "industry": "Semiconductors",
         "tags": [
-          "ai-compute"
+          "ai-compute",
+          "hbm-memory"
         ],
         "current_value": null,
         "prior_value": 50196000,
@@ -420,7 +432,8 @@
         "sector": "Information Technology",
         "industry": "Computer Hardware",
         "tags": [
-          "ai-compute"
+          "ai-compute",
+          "storage-media"
         ],
         "current_value": null,
         "prior_value": 18347689,
@@ -441,7 +454,8 @@
         "sector": "Information Technology",
         "industry": "Computer Hardware",
         "tags": [
-          "ai-compute"
+          "ai-compute",
+          "storage-media"
         ],
         "current_value": null,
         "prior_value": 11464726,
@@ -465,7 +479,8 @@
         "industry": "Software - Infrastructure",
         "tags": [
           "ai-infra-datacenter",
-          "ai-compute"
+          "ai-compute",
+          "accelerated-cloud"
         ],
         "current_value": 774426345,
         "prior_value": 316739325,
@@ -486,7 +501,8 @@
         "sector": "Information Technology",
         "industry": "Computer Hardware",
         "tags": [
-          "ai-compute"
+          "ai-compute",
+          "storage-media"
         ],
         "current_value": 250245996,
         "prior_value": 12903000,
@@ -508,7 +524,8 @@
         "industry": "Information Technology Services",
         "tags": [
           "ai-infra-datacenter",
-          "bitcoin-mining"
+          "bitcoin-mining",
+          "ai-datacenter-hosting"
         ],
         "current_value": 278033751,
         "prior_value": 139111716,
@@ -530,7 +547,8 @@
         "industry": "Software - Infrastructure",
         "tags": [
           "ai-infra-datacenter",
-          "ai-compute"
+          "ai-compute",
+          "accelerated-cloud"
         ],
         "current_value": 436735927,
         "prior_value": 563200154,
@@ -596,7 +614,8 @@
         "industry": "Software - Infrastructure",
         "tags": [
           "bitcoin-mining",
-          "ai-infra-datacenter"
+          "ai-infra-datacenter",
+          "ai-datacenter-hosting"
         ],
         "current_value": 418694320,
         "prior_value": 362038780,
@@ -617,7 +636,8 @@
         "sector": "Information Technology",
         "industry": "Semiconductors",
         "tags": [
-          "ai-compute"
+          "ai-compute",
+          "specialty-foundry"
         ],
         "current_value": 84895130,
         "prior_value": 34024380,
@@ -638,7 +658,8 @@
         "sector": "Energy",
         "industry": "Oil & Gas Equipment & Services",
         "tags": [
-          "ai-infra-power"
+          "ai-infra-power",
+          "oilfield-power-services"
         ],
         "current_value": 85803005,
         "prior_value": 45977491,
@@ -660,7 +681,8 @@
         "industry": "Capital Markets",
         "tags": [
           "bitcoin-mining",
-          "ai-infra-power"
+          "ai-infra-power",
+          "bitcoin-hpc-miners"
         ],
         "current_value": 39517588,
         "prior_value": 20851190,
@@ -682,7 +704,8 @@
         "industry": "IT Services",
         "tags": [
           "bitcoin-mining",
-          "ai-infra-datacenter"
+          "ai-infra-datacenter",
+          "ai-datacenter-hosting"
         ],
         "current_value": 328622455,
         "prior_value": 338854358,
@@ -703,7 +726,8 @@
         "sector": "Financials",
         "industry": "Capital Markets",
         "tags": [
-          "bitcoin-mining"
+          "bitcoin-mining",
+          "bitcoin-hpc-miners"
         ],
         "current_value": 78144759,
         "prior_value": 68369062,
@@ -725,7 +749,8 @@
         "industry": "IT Services",
         "tags": [
           "bitcoin-mining",
-          "ai-infra-power"
+          "ai-infra-power",
+          "bitcoin-hpc-miners"
         ],
         "current_value": 20043480,
         "prior_value": 15886864,
@@ -746,7 +771,8 @@
         "sector": "Industrials",
         "industry": "Electrical Equipment & Parts",
         "tags": [
-          "ai-infra-power"
+          "ai-infra-power",
+          "fuel-cells"
         ],
         "bought": [
           {
@@ -759,7 +785,8 @@
             "sector": "Industrials",
             "industry": "Electrical Equipment & Parts",
             "tags": [
-              "ai-infra-power"
+              "ai-infra-power",
+              "fuel-cells"
             ],
             "current_value": 875505552,
             "prior_value": null,
@@ -780,7 +807,8 @@
             "sector": "Industrials",
             "industry": "Electrical Equipment & Parts",
             "tags": [
-              "ai-infra-power"
+              "ai-infra-power",
+              "fuel-cells"
             ],
             "current_value": 35494565,
             "prior_value": null,
@@ -803,7 +831,8 @@
             "sector": "Industrials",
             "industry": "Electrical Equipment & Parts",
             "tags": [
-              "ai-infra-power"
+              "ai-infra-power",
+              "fuel-cells"
             ],
             "current_value": null,
             "prior_value": 43890344,
@@ -824,7 +853,8 @@
             "sector": "Industrials",
             "industry": "Electrical Equipment & Parts",
             "tags": [
-              "ai-infra-power"
+              "ai-infra-power",
+              "fuel-cells"
             ],
             "current_value": null,
             "prior_value": 12330306,
@@ -910,7 +940,8 @@
         "industry": "Information Technology Services",
         "tags": [
           "bitcoin-mining",
-          "ai-infra-power"
+          "ai-infra-power",
+          "bitcoin-hpc-miners"
         ],
         "bought": [
           {
@@ -924,7 +955,8 @@
             "industry": "Information Technology Services",
             "tags": [
               "bitcoin-mining",
-              "ai-infra-power"
+              "ai-infra-power",
+              "bitcoin-hpc-miners"
             ],
             "current_value": 154523813,
             "prior_value": null,
@@ -948,7 +980,8 @@
             "industry": "IT Services",
             "tags": [
               "bitcoin-mining",
-              "ai-infra-power"
+              "ai-infra-power",
+              "bitcoin-hpc-miners"
             ],
             "current_value": null,
             "prior_value": 72272807,
@@ -1126,17 +1159,77 @@
   "granular_breakdown": {
     "current": [
       {
+        "label": "Accelerated cloud",
+        "value": 1211162272,
+        "pct": 21.954238272874722
+      },
+      {
+        "label": "AI datacenter hosting",
+        "value": 1053120606,
+        "pct": 19.08948226732596
+      },
+      {
+        "label": "Fuel cells",
+        "value": 911000117,
+        "pct": 16.513322861525484
+      },
+      {
+        "label": "Platform silicon",
+        "value": 746760097,
+        "pct": 13.536211853049728
+      },
+      {
         "label": "Photonics",
         "value": 567226227,
         "pct": 10.281875542257415
       },
       {
+        "label": "Bitcoin / HPC miners",
+        "value": 325038673,
+        "pct": 5.891841778688605
+      },
+      {
+        "label": "Storage media",
+        "value": 250245996,
+        "pct": 4.536105813422211
+      },
+      {
         "label": "Gas peakers / nat-gas E&P",
         "value": 170567260,
         "pct": 3.0918022746925304
+      },
+      {
+        "label": "Oilfield power services",
+        "value": 104930470,
+        "pct": 1.902031291530135
+      },
+      {
+        "label": "Specialty foundry",
+        "value": 84895130,
+        "pct": 1.53885895830371
+      },
+      {
+        "label": "Power equipment",
+        "value": 33285348,
+        "pct": 0.6033497557522615
       }
     ],
     "prior": [
+      {
+        "label": "Accelerated cloud",
+        "value": 1071529479,
+        "pct": 25.89255680798989
+      },
+      {
+        "label": "AI datacenter hosting",
+        "value": 932559729,
+        "pct": 22.534476403309625
+      },
+      {
+        "label": "Platform silicon",
+        "value": 678964770,
+        "pct": 16.406579774413085
+      },
       {
         "label": "GPU / accelerator",
         "value": 298528000,
@@ -1148,9 +1241,19 @@
         "pct": 6.097265429088341
       },
       {
+        "label": "Bitcoin / HPC miners",
+        "value": 177379923,
+        "pct": 4.286228072008435
+      },
+      {
         "label": "Photonics",
         "value": 84579664,
         "pct": 2.0437923527446857
+      },
+      {
+        "label": "AI networking silicon",
+        "value": 75879300,
+        "pct": 1.833555795062272
       },
       {
         "label": "AI foundries",
@@ -1161,9 +1264,38 @@
         "label": "Gas peakers / nat-gas E&P",
         "value": 66262320,
         "pct": 1.6011700270069797
+      },
+      {
+        "label": "Fuel cells",
+        "value": 56220650,
+        "pct": 1.3585220028343399
+      },
+      {
+        "label": "HBM memory",
+        "value": 50196000,
+        "pct": 1.2129416940976765
+      },
+      {
+        "label": "Oilfield power services",
+        "value": 45977491,
+        "pct": 1.111005176187359
+      },
+      {
+        "label": "Storage media",
+        "value": 42715415,
+        "pct": 1.0321800110404276
+      },
+      {
+        "label": "Specialty foundry",
+        "value": 34024380,
+        "pct": 0.8221688803455076
       }
     ],
     "deltas": [
+      {
+        "label": "Fuel cells",
+        "delta_pct_pts": 15.154800858691145
+      },
       {
         "label": "Photonics",
         "delta_pct_pts": 8.238083189512729
@@ -1177,14 +1309,54 @@
         "delta_pct_pts": -6.097265429088341
       },
       {
+        "label": "Accelerated cloud",
+        "delta_pct_pts": -3.938318535115169
+      },
+      {
+        "label": "Storage media",
+        "delta_pct_pts": 3.503925802381784
+      },
+      {
+        "label": "AI datacenter hosting",
+        "delta_pct_pts": -3.4449941359836664
+      },
+      {
+        "label": "Platform silicon",
+        "delta_pct_pts": -2.870367921363357
+      },
+      {
+        "label": "AI networking silicon",
+        "delta_pct_pts": -1.833555795062272
+      },
+      {
         "label": "AI foundries",
         "delta_pct_pts": -1.8221744989844972
       },
       {
+        "label": "Bitcoin / HPC miners",
+        "delta_pct_pts": 1.6056137066801695
+      },
+      {
         "label": "Gas peakers / nat-gas E&P",
         "delta_pct_pts": 1.4906322476855507
+      },
+      {
+        "label": "HBM memory",
+        "delta_pct_pts": -1.2129416940976765
+      },
+      {
+        "label": "Oilfield power services",
+        "delta_pct_pts": 0.791026115342776
+      },
+      {
+        "label": "Specialty foundry",
+        "delta_pct_pts": 0.7166900779582024
+      },
+      {
+        "label": "Power equipment",
+        "delta_pct_pts": 0.6033497557522615
       }
     ]
   },
-  "granular_coverage_pct": 13.373677816949947
+  "granular_coverage_pct": 98.93912066942276
 }
