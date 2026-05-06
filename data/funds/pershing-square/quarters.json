@@ -1,0 +1,33 @@
+{
+  "slug": "pershing-square",
+  "quarters": [
+    {
+      "slug": "pershing-square",
+      "period": "2025-Q4",
+      "period_ending": "2025-12-31",
+      "filing_date": "2026-02-17",
+      "accession": "0001172661-26-001091",
+      "edgar_url": "https://www.sec.gov/Archives/edgar/data/1336528/000117266126001091/",
+      "value_units": "USD",
+      "schema_version": "X02",
+      "total_value": 15526737802,
+      "position_count": 11,
+      "summary": "$15.5B reported 13F value across the latest filing. Largest new stake: META PLATFORMS INC-CLASS A (META) at $1.8B. Largest closed prior-quarter stake: CHIPOTLE MEXICAN GRILL INC (CMG) worth $844M. Largest added reported exposure: AMAZON.COM INC (AMZN) by $939M. Largest reduced reported exposure: ALPHABET INC-CL A (GOOGL) by $965M.",
+      "fetched_at": "2026-05-06T08:07:06.025Z"
+    },
+    {
+      "slug": "pershing-square",
+      "period": "2025-Q3",
+      "period_ending": "2025-09-30",
+      "filing_date": "2025-11-14",
+      "accession": "0001172661-25-005039",
+      "edgar_url": "https://www.sec.gov/Archives/edgar/data/1336528/000117266125005039/",
+      "value_units": "USD",
+      "schema_version": "X02",
+      "total_value": 14643293767,
+      "position_count": 11,
+      "summary": "Prior-quarter baseline imported for comparison against 2025-Q4.",
+      "fetched_at": "2026-05-06T08:07:06.025Z"
+    }
+  ]
+}

@@ -1,5 +1,5 @@
 import { describe, it, expect, vi } from 'vitest';
-import { lookupTickerPriceRanges, lookupTickerPrices, lookupTickerSector, priceRangeKey } from '../scripts/yahoo';
+import { lookupSegmentMetrics, lookupTickerPriceRanges, lookupTickerPrices, lookupTickerSector, priceRangeKey } from '../scripts/yahoo';
 
 describe('lookupTickerSector', () => {
   it('returns Yahoo sector mapped to GICS, plus industry', async () => {
@@ -80,6 +80,52 @@ describe('lookupTickerPriceRanges', () => {
     expect(yahoo.historical).toHaveBeenCalledWith('LITE', expect.objectContaining({
       period1: '2025-10-01',
       period2: '2026-01-01',
+    }));
+  });
+});
+
+describe('lookupSegmentMetrics', () => {
+  it('returns market cap and trailing performance aligned to the latest quote date', async () => {
+    const yahoo = {
+      quote: vi.fn(async () => ({
+        TEST: {
+          symbol: 'TEST',
+          regularMarketPrice: 120,
+          regularMarketTime: new Date('2026-05-04T20:00:00.000Z'),
+          marketCap: 12_000_000_000,
+          currency: 'USD',
+          marketState: 'POST',
+          quoteSourceName: 'Delayed Quote',
+        },
+      })),
+      historical: vi.fn(async () => [
+        { date: new Date('2021-05-04T00:00:00.000Z'), close: 40 },
+        { date: new Date('2025-05-02T00:00:00.000Z'), close: 80 },
+        { date: new Date('2026-04-03T00:00:00.000Z'), close: 100 },
+        { date: new Date('2026-04-26T00:00:00.000Z'), close: 110 },
+      ]),
+    } as any;
+
+    const result = await lookupSegmentMetrics(['test'], {
+      yahoo,
+      now: new Date('2026-05-04T21:00:00.000Z'),
+    });
+
+    expect(result.records.TEST).toMatchObject({
+      ticker: 'TEST',
+      price: 120,
+      market_cap: 12_000_000_000,
+      as_of: '2026-05-04T20:00:00.000Z',
+      performance: {
+        one_week: expect.closeTo(9.09, 2),
+        one_month: 20,
+        one_year: 50,
+        five_year: 200,
+      },
+    });
+    expect(yahoo.historical).toHaveBeenCalledWith('TEST', expect.objectContaining({
+      period1: '2021-04-24',
+      period2: '2026-05-05',
     }));
   });
 });

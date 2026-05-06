@@ -1,13 +1,22 @@
 {
-  "fetched_at": "2026-05-05T23:43:05.037Z",
+  "fetched_at": "2026-05-06T08:26:03.717Z",
   "source": "yahoo-finance",
   "records": {
+    "A": {
+      "ticker": "A",
+      "price": 117.53,
+      "currency": "USD",
+      "as_of": "2026-05-05T20:00:03.000Z",
+      "market_state": "PRE",
+      "quote_source": "Delayed Quote",
+      "source": "yahoo-finance"
+    },
     "AA": {
       "ticker": "AA",
       "price": 63.06,
       "currency": "USD",
       "as_of": "2026-05-05T20:02:16.000Z",
-      "market_state": "POST",
+      "market_state": "PRE",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -16,7 +25,43 @@
       "price": 12.37,
       "currency": "USD",
       "as_of": "2026-05-05T20:00:00.000Z",
-      "market_state": "POST",
+      "market_state": "PRE",
+      "quote_source": "Delayed Quote",
+      "source": "yahoo-finance"
+    },
+    "AAPL": {
+      "ticker": "AAPL",
+      "price": 284.18,
+      "currency": "USD",
+      "as_of": "2026-05-05T20:00:00.000Z",
+      "market_state": "PRE",
+      "quote_source": "Delayed Quote",
+      "source": "yahoo-finance"
+    },
+    "ABBV": {
+      "ticker": "ABBV",
+      "price": 206.11,
+      "currency": "USD",
+      "as_of": "2026-05-05T20:02:08.000Z",
+      "market_state": "PRE",
+      "quote_source": "Delayed Quote",
+      "source": "yahoo-finance"
+    },
+    "ABNB": {
+      "ticker": "ABNB",
+      "price": 139.73,
+      "currency": "USD",
+      "as_of": "2026-05-05T20:00:01.000Z",
+      "market_state": "PRE",
+      "quote_source": "Delayed Quote",
+      "source": "yahoo-finance"
+    },
+    "ADBE": {
+      "ticker": "ADBE",
+      "price": 255.62,
+      "currency": "USD",
+      "as_of": "2026-05-05T20:00:01.000Z",
+      "market_state": "PRE",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -25,7 +70,52 @@
       "price": 10.25,
       "currency": "USD",
       "as_of": "2026-05-05T20:00:01.000Z",
-      "market_state": "POST",
+      "market_state": "PRE",
+      "quote_source": "Delayed Quote",
+      "source": "yahoo-finance"
+    },
+    "ADP": {
+      "ticker": "ADP",
+      "price": 210.6,
+      "currency": "USD",
+      "as_of": "2026-05-05T20:00:01.000Z",
+      "market_state": "PRE",
+      "quote_source": "Delayed Quote",
+      "source": "yahoo-finance"
+    },
+    "ADPT": {
+      "ticker": "ADPT",
+      "price": 13.78,
+      "currency": "USD",
+      "as_of": "2026-05-05T20:00:01.000Z",
+      "market_state": "PRE",
+      "quote_source": "Delayed Quote",
+      "source": "yahoo-finance"
+    },
+    "ADSK": {
+      "ticker": "ADSK",
+      "price": 249.43,
+      "currency": "USD",
+      "as_of": "2026-05-05T20:00:01.000Z",
+      "market_state": "PRE",
+      "quote_source": "Delayed Quote",
+      "source": "yahoo-finance"
+    },
+    "ADT": {
+      "ticker": "ADT",
+      "price": 7.01,
+      "currency": "USD",
+      "as_of": "2026-05-05T20:00:02.000Z",
+      "market_state": "PRE",
+      "quote_source": "Delayed Quote",
+      "source": "yahoo-finance"
+    },
+    "AEP": {
+      "ticker": "AEP",
+      "price": 137.04,
+      "currency": "USD",
+      "as_of": "2026-05-05T20:00:00.000Z",
+      "market_state": "PRE",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -34,7 +124,7 @@
       "price": 15.24,
       "currency": "USD",
       "as_of": "2026-05-05T20:00:01.000Z",
-      "market_state": "POST",
+      "market_state": "PRE",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -43,7 +133,43 @@
       "price": 720,
       "currency": "USD",
       "as_of": "2026-05-05T20:00:02.000Z",
-      "market_state": "POST",
+      "market_state": "PRE",
+      "quote_source": "Delayed Quote",
+      "source": "yahoo-finance"
+    },
+    "AIG": {
+      "ticker": "AIG",
+      "price": 78.47,
+      "currency": "USD",
+      "as_of": "2026-05-05T20:00:03.000Z",
+      "market_state": "PRE",
+      "quote_source": "Delayed Quote",
+      "source": "yahoo-finance"
+    },
+    "AJG": {
+      "ticker": "AJG",
+      "price": 205.8,
+      "currency": "USD",
+      "as_of": "2026-05-05T20:00:03.000Z",
+      "market_state": "PRE",
+      "quote_source": "Delayed Quote",
+      "source": "yahoo-finance"
+    },
+    "ALB": {
+      "ticker": "ALB",
+      "price": 194.82,
+      "currency": "USD",
+      "as_of": "2026-05-05T20:00:03.000Z",
+      "market_state": "PRE",
+      "quote_source": "Delayed Quote",
+      "source": "yahoo-finance"
+    },
+    "ALL": {
+      "ticker": "ALL",
+      "price": 218.51,
+      "currency": "USD",
+      "as_of": "2026-05-05T20:00:03.000Z",
+      "market_state": "PRE",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -52,7 +178,79 @@
       "price": 20.03,
       "currency": "USD",
       "as_of": "2026-05-05T20:00:01.000Z",
-      "market_state": "POST",
+      "market_state": "PRE",
+      "quote_source": "Delayed Quote",
+      "source": "yahoo-finance"
+    },
+    "ALNY": {
+      "ticker": "ALNY",
+      "price": 301.11,
+      "currency": "USD",
+      "as_of": "2026-05-05T20:00:01.000Z",
+      "market_state": "PRE",
+      "quote_source": "Delayed Quote",
+      "source": "yahoo-finance"
+    },
+    "AMAT": {
+      "ticker": "AMAT",
+      "price": 410.82,
+      "currency": "USD",
+      "as_of": "2026-05-05T20:00:01.000Z",
+      "market_state": "PRE",
+      "quote_source": "Delayed Quote",
+      "source": "yahoo-finance"
+    },
+    "AMC": {
+      "ticker": "AMC",
+      "price": 1.59,
+      "currency": "USD",
+      "as_of": "2026-05-05T20:00:03.000Z",
+      "market_state": "PRE",
+      "quote_source": "Delayed Quote",
+      "source": "yahoo-finance"
+    },
+    "AMD": {
+      "ticker": "AMD",
+      "price": 355.26,
+      "currency": "USD",
+      "as_of": "2026-05-05T20:00:01.000Z",
+      "market_state": "PRE",
+      "quote_source": "Delayed Quote",
+      "source": "yahoo-finance"
+    },
+    "AME": {
+      "ticker": "AME",
+      "price": 234.54,
+      "currency": "USD",
+      "as_of": "2026-05-05T20:00:03.000Z",
+      "market_state": "PRE",
+      "quote_source": "Delayed Quote",
+      "source": "yahoo-finance"
+    },
+    "AMG": {
+      "ticker": "AMG",
+      "price": 303.64,
+      "currency": "USD",
+      "as_of": "2026-05-05T20:00:03.000Z",
+      "market_state": "PRE",
+      "quote_source": "Delayed Quote",
+      "source": "yahoo-finance"
+    },
+    "AMP": {
+      "ticker": "AMP",
+      "price": 474.65,
+      "currency": "USD",
+      "as_of": "2026-05-05T20:00:02.000Z",
+      "market_state": "PRE",
+      "quote_source": "Delayed Quote",
+      "source": "yahoo-finance"
+    },
+    "AMT": {
+      "ticker": "AMT",
+      "price": 178.12,
+      "currency": "USD",
+      "as_of": "2026-05-05T20:00:03.000Z",
+      "market_state": "PRE",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -61,7 +259,61 @@
       "price": 273.55,
       "currency": "USD",
       "as_of": "2026-05-05T20:00:03.000Z",
-      "market_state": "POST",
+      "market_state": "PRE",
+      "quote_source": "Delayed Quote",
+      "source": "yahoo-finance"
+    },
+    "ANET": {
+      "ticker": "ANET",
+      "price": 170.22,
+      "currency": "USD",
+      "as_of": "2026-05-05T20:00:02.000Z",
+      "market_state": "PRE",
+      "quote_source": "Delayed Quote",
+      "source": "yahoo-finance"
+    },
+    "ANF": {
+      "ticker": "ANF",
+      "price": 78.51,
+      "currency": "USD",
+      "as_of": "2026-05-05T20:03:22.000Z",
+      "market_state": "PRE",
+      "quote_source": "Delayed Quote",
+      "source": "yahoo-finance"
+    },
+    "APD": {
+      "ticker": "APD",
+      "price": 303.93,
+      "currency": "USD",
+      "as_of": "2026-05-05T20:00:03.000Z",
+      "market_state": "PRE",
+      "quote_source": "Delayed Quote",
+      "source": "yahoo-finance"
+    },
+    "APG": {
+      "ticker": "APG",
+      "price": 45.59,
+      "currency": "USD",
+      "as_of": "2026-05-05T20:00:03.000Z",
+      "market_state": "PRE",
+      "quote_source": "Delayed Quote",
+      "source": "yahoo-finance"
+    },
+    "APH": {
+      "ticker": "APH",
+      "price": 136.69,
+      "currency": "USD",
+      "as_of": "2026-05-05T20:00:03.000Z",
+      "market_state": "PRE",
+      "quote_source": "Delayed Quote",
+      "source": "yahoo-finance"
+    },
+    "API": {
+      "ticker": "API",
+      "price": 3.89,
+      "currency": "USD",
+      "as_of": "2026-05-05T20:00:01.000Z",
+      "market_state": "PRE",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -70,7 +322,241 @@
       "price": 39.88,
       "currency": "USD",
       "as_of": "2026-05-05T20:00:01.000Z",
-      "market_state": "POST",
+      "market_state": "PRE",
+      "quote_source": "Delayed Quote",
+      "source": "yahoo-finance"
+    },
+    "APO": {
+      "ticker": "APO",
+      "price": 130.3,
+      "currency": "USD",
+      "as_of": "2026-05-05T20:00:03.000Z",
+      "market_state": "PRE",
+      "quote_source": "Delayed Quote",
+      "source": "yahoo-finance"
+    },
+    "APP": {
+      "ticker": "APP",
+      "price": 478.11,
+      "currency": "USD",
+      "as_of": "2026-05-05T20:00:01.000Z",
+      "market_state": "PRE",
+      "quote_source": "Delayed Quote",
+      "source": "yahoo-finance"
+    },
+    "ARE": {
+      "ticker": "ARE",
+      "price": 43.8,
+      "currency": "USD",
+      "as_of": "2026-05-05T20:00:03.000Z",
+      "market_state": "PRE",
+      "quote_source": "Delayed Quote",
+      "source": "yahoo-finance"
+    },
+    "ARES": {
+      "ticker": "ARES",
+      "price": 122.96,
+      "currency": "USD",
+      "as_of": "2026-05-05T20:00:03.000Z",
+      "market_state": "PRE",
+      "quote_source": "Delayed Quote",
+      "source": "yahoo-finance"
+    },
+    "ARGT": {
+      "ticker": "ARGT",
+      "price": 90.34,
+      "currency": "USD",
+      "as_of": "2026-05-05T20:00:00.000Z",
+      "market_state": "PRE",
+      "quote_source": "Delayed Quote",
+      "source": "yahoo-finance"
+    },
+    "ARGX": {
+      "ticker": "ARGX",
+      "price": 794.7,
+      "currency": "USD",
+      "as_of": "2026-05-05T20:00:01.000Z",
+      "market_state": "PRE",
+      "quote_source": "Delayed Quote",
+      "source": "yahoo-finance"
+    },
+    "ARM": {
+      "ticker": "ARM",
+      "price": 208.84,
+      "currency": "USD",
+      "as_of": "2026-05-05T20:00:03.000Z",
+      "market_state": "PRE",
+      "quote_source": "Delayed Quote",
+      "source": "yahoo-finance"
+    },
+    "ARMK": {
+      "ticker": "ARMK",
+      "price": 45.26,
+      "currency": "USD",
+      "as_of": "2026-05-05T20:00:03.000Z",
+      "market_state": "PRE",
+      "quote_source": "Delayed Quote",
+      "source": "yahoo-finance"
+    },
+    "ARW": {
+      "ticker": "ARW",
+      "price": 186.41,
+      "currency": "USD",
+      "as_of": "2026-05-05T20:00:03.000Z",
+      "market_state": "PRE",
+      "quote_source": "Delayed Quote",
+      "source": "yahoo-finance"
+    },
+    "AUR": {
+      "ticker": "AUR",
+      "price": 6.53,
+      "currency": "USD",
+      "as_of": "2026-05-05T20:00:01.000Z",
+      "market_state": "PRE",
+      "quote_source": "Delayed Quote",
+      "source": "yahoo-finance"
+    },
+    "AVGO": {
+      "ticker": "AVGO",
+      "price": 427.36,
+      "currency": "USD",
+      "as_of": "2026-05-05T20:00:03.000Z",
+      "market_state": "PRE",
+      "quote_source": "Delayed Quote",
+      "source": "yahoo-finance"
+    },
+    "AWI": {
+      "ticker": "AWI",
+      "price": 164.38,
+      "currency": "USD",
+      "as_of": "2026-05-05T20:00:03.000Z",
+      "market_state": "PRE",
+      "quote_source": "Delayed Quote",
+      "source": "yahoo-finance"
+    },
+    "AXON": {
+      "ticker": "AXON",
+      "price": 380.6,
+      "currency": "USD",
+      "as_of": "2026-05-05T20:00:03.000Z",
+      "market_state": "PRE",
+      "quote_source": "Delayed Quote",
+      "source": "yahoo-finance"
+    },
+    "AYI": {
+      "ticker": "AYI",
+      "price": 291.03,
+      "currency": "USD",
+      "as_of": "2026-05-05T20:00:03.000Z",
+      "market_state": "PRE",
+      "quote_source": "Delayed Quote",
+      "source": "yahoo-finance"
+    },
+    "AZN": {
+      "ticker": "AZN",
+      "price": 181.24,
+      "currency": "USD",
+      "as_of": "2026-05-05T20:00:02.000Z",
+      "market_state": "PRE",
+      "quote_source": "Delayed Quote",
+      "source": "yahoo-finance"
+    },
+    "AZO": {
+      "ticker": "AZO",
+      "price": 3540.92,
+      "currency": "USD",
+      "as_of": "2026-05-05T20:00:03.000Z",
+      "market_state": "PRE",
+      "quote_source": "Delayed Quote",
+      "source": "yahoo-finance"
+    },
+    "B": {
+      "ticker": "B",
+      "price": 38.72,
+      "currency": "USD",
+      "as_of": "2026-05-05T20:01:23.000Z",
+      "market_state": "PRE",
+      "quote_source": "Delayed Quote",
+      "source": "yahoo-finance"
+    },
+    "BA": {
+      "ticker": "BA",
+      "price": 224.38,
+      "currency": "USD",
+      "as_of": "2026-05-05T20:00:02.000Z",
+      "market_state": "PRE",
+      "quote_source": "Delayed Quote",
+      "source": "yahoo-finance"
+    },
+    "BABA": {
+      "ticker": "BABA",
+      "price": 132.26,
+      "currency": "USD",
+      "as_of": "2026-05-05T20:00:03.000Z",
+      "market_state": "PRE",
+      "quote_source": "Delayed Quote",
+      "source": "yahoo-finance"
+    },
+    "BAC": {
+      "ticker": "BAC",
+      "price": 53.12,
+      "currency": "USD",
+      "as_of": "2026-05-05T20:00:02.000Z",
+      "market_state": "PRE",
+      "quote_source": "Delayed Quote",
+      "source": "yahoo-finance"
+    },
+    "BAH": {
+      "ticker": "BAH",
+      "price": 76.26,
+      "currency": "USD",
+      "as_of": "2026-05-05T20:00:02.000Z",
+      "market_state": "PRE",
+      "quote_source": "Delayed Quote",
+      "source": "yahoo-finance"
+    },
+    "BALL": {
+      "ticker": "BALL",
+      "price": 57.11,
+      "currency": "USD",
+      "as_of": "2026-05-05T20:00:02.000Z",
+      "market_state": "PRE",
+      "quote_source": "Delayed Quote",
+      "source": "yahoo-finance"
+    },
+    "BBIO": {
+      "ticker": "BBIO",
+      "price": 68.78,
+      "currency": "USD",
+      "as_of": "2026-05-05T20:00:01.000Z",
+      "market_state": "PRE",
+      "quote_source": "Delayed Quote",
+      "source": "yahoo-finance"
+    },
+    "BBWI": {
+      "ticker": "BBWI",
+      "price": 18.4,
+      "currency": "USD",
+      "as_of": "2026-05-05T20:00:02.000Z",
+      "market_state": "PRE",
+      "quote_source": "Delayed Quote",
+      "source": "yahoo-finance"
+    },
+    "BBY": {
+      "ticker": "BBY",
+      "price": 57.27,
+      "currency": "USD",
+      "as_of": "2026-05-05T20:00:03.000Z",
+      "market_state": "PRE",
+      "quote_source": "Delayed Quote",
+      "source": "yahoo-finance"
+    },
+    "BDX": {
+      "ticker": "BDX",
+      "price": 144.17,
+      "currency": "USD",
+      "as_of": "2026-05-05T20:00:02.000Z",
+      "market_state": "PRE",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -79,7 +565,34 @@
       "price": 295.25,
       "currency": "USD",
       "as_of": "2026-05-05T20:00:03.000Z",
-      "market_state": "POST",
+      "market_state": "PRE",
+      "quote_source": "Delayed Quote",
+      "source": "yahoo-finance"
+    },
+    "BHC": {
+      "ticker": "BHC",
+      "price": 5.64,
+      "currency": "USD",
+      "as_of": "2026-05-05T20:00:02.000Z",
+      "market_state": "PRE",
+      "quote_source": "Delayed Quote",
+      "source": "yahoo-finance"
+    },
+    "BIDU": {
+      "ticker": "BIDU",
+      "price": 126.24,
+      "currency": "USD",
+      "as_of": "2026-05-05T20:00:00.000Z",
+      "market_state": "PRE",
+      "quote_source": "Delayed Quote",
+      "source": "yahoo-finance"
+    },
+    "BIIB": {
+      "ticker": "BIIB",
+      "price": 189.13,
+      "currency": "USD",
+      "as_of": "2026-05-05T20:00:01.000Z",
+      "market_state": "PRE",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -88,7 +601,106 @@
       "price": 1.98,
       "currency": "USD",
       "as_of": "2026-04-02T20:00:02.000Z",
-      "market_state": "POST",
+      "market_state": "PRE",
+      "quote_source": "Delayed Quote",
+      "source": "yahoo-finance"
+    },
+    "BK": {
+      "ticker": "BK",
+      "price": 132.36,
+      "currency": "USD",
+      "as_of": "2026-05-05T20:00:02.000Z",
+      "market_state": "PRE",
+      "quote_source": "Delayed Quote",
+      "source": "yahoo-finance"
+    },
+    "BKNG": {
+      "ticker": "BKNG",
+      "price": 167.63,
+      "currency": "USD",
+      "as_of": "2026-05-05T20:00:01.000Z",
+      "market_state": "PRE",
+      "quote_source": "Delayed Quote",
+      "source": "yahoo-finance"
+    },
+    "BLK": {
+      "ticker": "BLK",
+      "price": 1048.91,
+      "currency": "USD",
+      "as_of": "2026-05-05T20:00:03.000Z",
+      "market_state": "PRE",
+      "quote_source": "Delayed Quote",
+      "source": "yahoo-finance"
+    },
+    "BMRN": {
+      "ticker": "BMRN",
+      "price": 53.24,
+      "currency": "USD",
+      "as_of": "2026-05-05T20:00:01.000Z",
+      "market_state": "PRE",
+      "quote_source": "Delayed Quote",
+      "source": "yahoo-finance"
+    },
+    "BMY": {
+      "ticker": "BMY",
+      "price": 56.95,
+      "currency": "USD",
+      "as_of": "2026-05-05T20:00:03.000Z",
+      "market_state": "PRE",
+      "quote_source": "Delayed Quote",
+      "source": "yahoo-finance"
+    },
+    "BN": {
+      "ticker": "BN",
+      "price": 45.84,
+      "currency": "USD",
+      "as_of": "2026-05-05T20:00:02.000Z",
+      "market_state": "PRE",
+      "quote_source": "Delayed Quote",
+      "source": "yahoo-finance"
+    },
+    "BNS": {
+      "ticker": "BNS",
+      "price": 76.67,
+      "currency": "USD",
+      "as_of": "2026-05-05T20:00:02.000Z",
+      "market_state": "PRE",
+      "quote_source": "Delayed Quote",
+      "source": "yahoo-finance"
+    },
+    "BPOP": {
+      "ticker": "BPOP",
+      "price": 148.37,
+      "currency": "USD",
+      "as_of": "2026-05-05T20:00:01.000Z",
+      "market_state": "PRE",
+      "quote_source": "Delayed Quote",
+      "source": "yahoo-finance"
+    },
+    "BRK-B": {
+      "ticker": "BRK-B",
+      "price": 465.52,
+      "currency": "USD",
+      "as_of": "2026-05-05T20:00:02.000Z",
+      "market_state": "PRE",
+      "quote_source": "Delayed Quote",
+      "source": "yahoo-finance"
+    },
+    "BROS": {
+      "ticker": "BROS",
+      "price": 57.17,
+      "currency": "USD",
+      "as_of": "2026-05-05T20:00:02.000Z",
+      "market_state": "PRE",
+      "quote_source": "Delayed Quote",
+      "source": "yahoo-finance"
+    },
+    "BSX": {
+      "ticker": "BSX",
+      "price": 55.98,
+      "currency": "USD",
+      "as_of": "2026-05-05T20:00:02.000Z",
+      "market_state": "PRE",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -97,7 +709,7 @@
       "price": 12.48,
       "currency": "USD",
       "as_of": "2026-05-05T20:00:01.000Z",
-      "market_state": "POST",
+      "market_state": "PRE",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -106,7 +718,223 @@
       "price": 15.46,
       "currency": "USD",
       "as_of": "2026-05-05T20:00:02.000Z",
-      "market_state": "POST",
+      "market_state": "PRE",
+      "quote_source": "Delayed Quote",
+      "source": "yahoo-finance"
+    },
+    "BWA": {
+      "ticker": "BWA",
+      "price": 57.26,
+      "currency": "USD",
+      "as_of": "2026-05-05T20:00:02.000Z",
+      "market_state": "PRE",
+      "quote_source": "Delayed Quote",
+      "source": "yahoo-finance"
+    },
+    "BX": {
+      "ticker": "BX",
+      "price": 122.72,
+      "currency": "USD",
+      "as_of": "2026-05-05T20:00:02.000Z",
+      "market_state": "PRE",
+      "quote_source": "Delayed Quote",
+      "source": "yahoo-finance"
+    },
+    "BYND": {
+      "ticker": "BYND",
+      "price": 0.9186,
+      "currency": "USD",
+      "as_of": "2026-05-05T20:00:03.000Z",
+      "market_state": "PRE",
+      "quote_source": "Delayed Quote",
+      "source": "yahoo-finance"
+    },
+    "C": {
+      "ticker": "C",
+      "price": 128.01,
+      "currency": "USD",
+      "as_of": "2026-05-05T20:04:13.000Z",
+      "market_state": "PRE",
+      "quote_source": "Delayed Quote",
+      "source": "yahoo-finance"
+    },
+    "CAH": {
+      "ticker": "CAH",
+      "price": 197,
+      "currency": "USD",
+      "as_of": "2026-05-05T20:00:02.000Z",
+      "market_state": "PRE",
+      "quote_source": "Delayed Quote",
+      "source": "yahoo-finance"
+    },
+    "CAI": {
+      "ticker": "CAI",
+      "price": 18.95,
+      "currency": "USD",
+      "as_of": "2026-05-05T20:00:01.000Z",
+      "market_state": "PRE",
+      "quote_source": "Delayed Quote",
+      "source": "yahoo-finance"
+    },
+    "CART": {
+      "ticker": "CART",
+      "price": 43.74,
+      "currency": "USD",
+      "as_of": "2026-05-05T20:00:01.000Z",
+      "market_state": "PRE",
+      "quote_source": "Delayed Quote",
+      "source": "yahoo-finance"
+    },
+    "CASY": {
+      "ticker": "CASY",
+      "price": 862.35,
+      "currency": "USD",
+      "as_of": "2026-05-05T20:00:01.000Z",
+      "market_state": "PRE",
+      "quote_source": "Delayed Quote",
+      "source": "yahoo-finance"
+    },
+    "CAT": {
+      "ticker": "CAT",
+      "price": 904.59,
+      "currency": "USD",
+      "as_of": "2026-05-05T20:00:02.000Z",
+      "market_state": "PRE",
+      "quote_source": "Delayed Quote",
+      "source": "yahoo-finance"
+    },
+    "CBRE": {
+      "ticker": "CBRE",
+      "price": 142.57,
+      "currency": "USD",
+      "as_of": "2026-05-05T20:00:02.000Z",
+      "market_state": "PRE",
+      "quote_source": "Delayed Quote",
+      "source": "yahoo-finance"
+    },
+    "CCK": {
+      "ticker": "CCK",
+      "price": 98.66,
+      "currency": "USD",
+      "as_of": "2026-05-05T20:00:02.000Z",
+      "market_state": "PRE",
+      "quote_source": "Delayed Quote",
+      "source": "yahoo-finance"
+    },
+    "CCL": {
+      "ticker": "CCL",
+      "price": 25.77,
+      "currency": "USD",
+      "as_of": "2026-05-05T20:00:03.000Z",
+      "market_state": "PRE",
+      "quote_source": "Delayed Quote",
+      "source": "yahoo-finance"
+    },
+    "CDNS": {
+      "ticker": "CDNS",
+      "price": 353.63,
+      "currency": "USD",
+      "as_of": "2026-05-05T20:00:01.000Z",
+      "market_state": "PRE",
+      "quote_source": "Delayed Quote",
+      "source": "yahoo-finance"
+    },
+    "CEG": {
+      "ticker": "CEG",
+      "price": 320.42,
+      "currency": "USD",
+      "as_of": "2026-05-05T20:00:01.000Z",
+      "market_state": "PRE",
+      "quote_source": "Delayed Quote",
+      "source": "yahoo-finance"
+    },
+    "CFG": {
+      "ticker": "CFG",
+      "price": 64.36,
+      "currency": "USD",
+      "as_of": "2026-05-05T20:00:03.000Z",
+      "market_state": "PRE",
+      "quote_source": "Delayed Quote",
+      "source": "yahoo-finance"
+    },
+    "CG": {
+      "ticker": "CG",
+      "price": 51.29,
+      "currency": "USD",
+      "as_of": "2026-05-05T20:00:01.000Z",
+      "market_state": "PRE",
+      "quote_source": "Delayed Quote",
+      "source": "yahoo-finance"
+    },
+    "CHA": {
+      "ticker": "CHA",
+      "price": 10.88,
+      "currency": "USD",
+      "as_of": "2026-05-05T20:00:01.000Z",
+      "market_state": "PRE",
+      "quote_source": "Delayed Quote",
+      "source": "yahoo-finance"
+    },
+    "CHPT": {
+      "ticker": "CHPT",
+      "price": 6.33,
+      "currency": "USD",
+      "as_of": "2026-05-05T20:00:03.000Z",
+      "market_state": "PRE",
+      "quote_source": "Delayed Quote",
+      "source": "yahoo-finance"
+    },
+    "CHRW": {
+      "ticker": "CHRW",
+      "price": 167.13,
+      "currency": "USD",
+      "as_of": "2026-05-05T20:00:01.000Z",
+      "market_state": "PRE",
+      "quote_source": "Delayed Quote",
+      "source": "yahoo-finance"
+    },
+    "CHTR": {
+      "ticker": "CHTR",
+      "price": 158.23,
+      "currency": "USD",
+      "as_of": "2026-05-05T20:00:01.000Z",
+      "market_state": "PRE",
+      "quote_source": "Delayed Quote",
+      "source": "yahoo-finance"
+    },
+    "CHWY": {
+      "ticker": "CHWY",
+      "price": 24.54,
+      "currency": "USD",
+      "as_of": "2026-05-05T20:00:03.000Z",
+      "market_state": "PRE",
+      "quote_source": "Delayed Quote",
+      "source": "yahoo-finance"
+    },
+    "CHYM": {
+      "ticker": "CHYM",
+      "price": 20.79,
+      "currency": "USD",
+      "as_of": "2026-05-05T20:00:01.000Z",
+      "market_state": "PRE",
+      "quote_source": "Delayed Quote",
+      "source": "yahoo-finance"
+    },
+    "CI": {
+      "ticker": "CI",
+      "price": 275.66,
+      "currency": "USD",
+      "as_of": "2026-05-05T20:00:02.000Z",
+      "market_state": "PRE",
+      "quote_source": "Delayed Quote",
+      "source": "yahoo-finance"
+    },
+    "CIEN": {
+      "ticker": "CIEN",
+      "price": 544.75,
+      "currency": "USD",
+      "as_of": "2026-05-05T20:00:02.000Z",
+      "market_state": "PRE",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -115,7 +943,16 @@
       "price": 22.1,
       "currency": "USD",
       "as_of": "2026-05-05T20:00:01.000Z",
-      "market_state": "POST",
+      "market_state": "PRE",
+      "quote_source": "Delayed Quote",
+      "source": "yahoo-finance"
+    },
+    "CL": {
+      "ticker": "CL",
+      "price": 86.33,
+      "currency": "USD",
+      "as_of": "2026-05-05T20:00:02.000Z",
+      "market_state": "PRE",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -124,7 +961,16 @@
       "price": 10.65,
       "currency": "USD",
       "as_of": "2026-05-05T20:00:02.000Z",
-      "market_state": "POST",
+      "market_state": "PRE",
+      "quote_source": "Delayed Quote",
+      "source": "yahoo-finance"
+    },
+    "CLS": {
+      "ticker": "CLS",
+      "price": 417.66,
+      "currency": "USD",
+      "as_of": "2026-05-05T20:00:03.000Z",
+      "market_state": "PRE",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -133,7 +979,25 @@
       "price": 13.41,
       "currency": "USD",
       "as_of": "2026-05-05T20:00:01.000Z",
-      "market_state": "POST",
+      "market_state": "PRE",
+      "quote_source": "Delayed Quote",
+      "source": "yahoo-finance"
+    },
+    "CMCSA": {
+      "ticker": "CMCSA",
+      "price": 26.46,
+      "currency": "USD",
+      "as_of": "2026-05-05T20:00:01.000Z",
+      "market_state": "PRE",
+      "quote_source": "Delayed Quote",
+      "source": "yahoo-finance"
+    },
+    "CME": {
+      "ticker": "CME",
+      "price": 286.82,
+      "currency": "USD",
+      "as_of": "2026-05-05T20:00:01.000Z",
+      "market_state": "PRE",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -142,7 +1006,52 @@
       "price": 32.31,
       "currency": "USD",
       "as_of": "2026-05-05T20:00:03.000Z",
-      "market_state": "POST",
+      "market_state": "PRE",
+      "quote_source": "Delayed Quote",
+      "source": "yahoo-finance"
+    },
+    "CMI": {
+      "ticker": "CMI",
+      "price": 674.88,
+      "currency": "USD",
+      "as_of": "2026-05-05T20:00:03.000Z",
+      "market_state": "PRE",
+      "quote_source": "Delayed Quote",
+      "source": "yahoo-finance"
+    },
+    "CNC": {
+      "ticker": "CNC",
+      "price": 52.98,
+      "currency": "USD",
+      "as_of": "2026-05-05T20:01:58.000Z",
+      "market_state": "PRE",
+      "quote_source": "Delayed Quote",
+      "source": "yahoo-finance"
+    },
+    "CNP": {
+      "ticker": "CNP",
+      "price": 43.53,
+      "currency": "USD",
+      "as_of": "2026-05-05T20:00:02.000Z",
+      "market_state": "PRE",
+      "quote_source": "Delayed Quote",
+      "source": "yahoo-finance"
+    },
+    "CNXC": {
+      "ticker": "CNXC",
+      "price": 23.85,
+      "currency": "USD",
+      "as_of": "2026-05-05T20:00:01.000Z",
+      "market_state": "PRE",
+      "quote_source": "Delayed Quote",
+      "source": "yahoo-finance"
+    },
+    "COF": {
+      "ticker": "COF",
+      "price": 189.68,
+      "currency": "USD",
+      "as_of": "2026-05-05T20:00:02.000Z",
+      "market_state": "PRE",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -151,7 +1060,7 @@
       "price": 36.98,
       "currency": "USD",
       "as_of": "2026-05-05T20:00:03.000Z",
-      "market_state": "POST",
+      "market_state": "PRE",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -160,7 +1069,43 @@
       "price": 335.73,
       "currency": "USD",
       "as_of": "2026-05-05T20:00:03.000Z",
-      "market_state": "POST",
+      "market_state": "PRE",
+      "quote_source": "Delayed Quote",
+      "source": "yahoo-finance"
+    },
+    "COIN": {
+      "ticker": "COIN",
+      "price": 197.75,
+      "currency": "USD",
+      "as_of": "2026-05-05T20:00:01.000Z",
+      "market_state": "PRE",
+      "quote_source": "Delayed Quote",
+      "source": "yahoo-finance"
+    },
+    "COKE": {
+      "ticker": "COKE",
+      "price": 215.4,
+      "currency": "USD",
+      "as_of": "2026-05-05T20:00:01.000Z",
+      "market_state": "PRE",
+      "quote_source": "Delayed Quote",
+      "source": "yahoo-finance"
+    },
+    "COP": {
+      "ticker": "COP",
+      "price": 123.32,
+      "currency": "USD",
+      "as_of": "2026-05-05T20:00:02.000Z",
+      "market_state": "PRE",
+      "quote_source": "Delayed Quote",
+      "source": "yahoo-finance"
+    },
+    "COR": {
+      "ticker": "COR",
+      "price": 305.9,
+      "currency": "USD",
+      "as_of": "2026-05-05T20:00:02.000Z",
+      "market_state": "PRE",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -169,7 +1114,25 @@
       "price": 22.19,
       "currency": "USD",
       "as_of": "2026-05-05T20:00:01.000Z",
-      "market_state": "POST",
+      "market_state": "PRE",
+      "quote_source": "Delayed Quote",
+      "source": "yahoo-finance"
+    },
+    "COST": {
+      "ticker": "COST",
+      "price": 1016.42,
+      "currency": "USD",
+      "as_of": "2026-05-05T20:00:00.000Z",
+      "market_state": "PRE",
+      "quote_source": "Delayed Quote",
+      "source": "yahoo-finance"
+    },
+    "CPAY": {
+      "ticker": "CPAY",
+      "price": 303.68,
+      "currency": "USD",
+      "as_of": "2026-05-05T20:00:02.000Z",
+      "market_state": "PRE",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -178,7 +1141,34 @@
       "price": 20.76,
       "currency": "USD",
       "as_of": "2026-05-05T20:00:02.000Z",
-      "market_state": "POST",
+      "market_state": "PRE",
+      "quote_source": "Delayed Quote",
+      "source": "yahoo-finance"
+    },
+    "CPRT": {
+      "ticker": "CPRT",
+      "price": 33.15,
+      "currency": "USD",
+      "as_of": "2026-05-05T20:00:01.000Z",
+      "market_state": "PRE",
+      "quote_source": "Delayed Quote",
+      "source": "yahoo-finance"
+    },
+    "CPT": {
+      "ticker": "CPT",
+      "price": 104.73,
+      "currency": "USD",
+      "as_of": "2026-05-05T20:00:03.000Z",
+      "market_state": "PRE",
+      "quote_source": "Delayed Quote",
+      "source": "yahoo-finance"
+    },
+    "CRCL": {
+      "ticker": "CRCL",
+      "price": 114.19,
+      "currency": "USD",
+      "as_of": "2026-05-05T20:00:02.000Z",
+      "market_state": "PRE",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -187,7 +1177,34 @@
       "price": 112.5,
       "currency": "USD",
       "as_of": "2026-05-05T20:00:02.000Z",
-      "market_state": "POST",
+      "market_state": "PRE",
+      "quote_source": "Delayed Quote",
+      "source": "yahoo-finance"
+    },
+    "CRM": {
+      "ticker": "CRM",
+      "price": 186.99,
+      "currency": "USD",
+      "as_of": "2026-05-05T20:00:02.000Z",
+      "market_state": "PRE",
+      "quote_source": "Delayed Quote",
+      "source": "yahoo-finance"
+    },
+    "CRS": {
+      "ticker": "CRS",
+      "price": 444.99,
+      "currency": "USD",
+      "as_of": "2026-05-05T20:00:02.000Z",
+      "market_state": "PRE",
+      "quote_source": "Delayed Quote",
+      "source": "yahoo-finance"
+    },
+    "CRWD": {
+      "ticker": "CRWD",
+      "price": 476.53,
+      "currency": "USD",
+      "as_of": "2026-05-05T20:00:00.000Z",
+      "market_state": "PRE",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -196,7 +1213,124 @@
       "price": 127.89,
       "currency": "USD",
       "as_of": "2026-05-05T20:00:01.000Z",
-      "market_state": "POST",
+      "market_state": "PRE",
+      "quote_source": "Delayed Quote",
+      "source": "yahoo-finance"
+    },
+    "CSCO": {
+      "ticker": "CSCO",
+      "price": 94.3,
+      "currency": "USD",
+      "as_of": "2026-05-05T20:00:00.000Z",
+      "market_state": "PRE",
+      "quote_source": "Delayed Quote",
+      "source": "yahoo-finance"
+    },
+    "CSGP": {
+      "ticker": "CSGP",
+      "price": 34.9,
+      "currency": "USD",
+      "as_of": "2026-05-05T20:00:01.000Z",
+      "market_state": "PRE",
+      "quote_source": "Delayed Quote",
+      "source": "yahoo-finance"
+    },
+    "CSX": {
+      "ticker": "CSX",
+      "price": 45.03,
+      "currency": "USD",
+      "as_of": "2026-05-05T20:00:01.000Z",
+      "market_state": "PRE",
+      "quote_source": "Delayed Quote",
+      "source": "yahoo-finance"
+    },
+    "CTAS": {
+      "ticker": "CTAS",
+      "price": 169.25,
+      "currency": "USD",
+      "as_of": "2026-05-05T20:00:01.000Z",
+      "market_state": "PRE",
+      "quote_source": "Delayed Quote",
+      "source": "yahoo-finance"
+    },
+    "CTEV": {
+      "ticker": "CTEV",
+      "price": 26.37,
+      "currency": "USD",
+      "as_of": "2026-05-05T20:00:02.000Z",
+      "market_state": "PRE",
+      "quote_source": "Delayed Quote",
+      "source": "yahoo-finance"
+    },
+    "CTSH": {
+      "ticker": "CTSH",
+      "price": 51.87,
+      "currency": "USD",
+      "as_of": "2026-05-05T20:00:01.000Z",
+      "market_state": "PRE",
+      "quote_source": "Delayed Quote",
+      "source": "yahoo-finance"
+    },
+    "CVNA": {
+      "ticker": "CVNA",
+      "price": 379.09,
+      "currency": "USD",
+      "as_of": "2026-05-05T20:00:02.000Z",
+      "market_state": "PRE",
+      "quote_source": "Delayed Quote",
+      "source": "yahoo-finance"
+    },
+    "CVS": {
+      "ticker": "CVS",
+      "price": 80.69,
+      "currency": "USD",
+      "as_of": "2026-05-05T20:00:02.000Z",
+      "market_state": "PRE",
+      "quote_source": "Delayed Quote",
+      "source": "yahoo-finance"
+    },
+    "CVX": {
+      "ticker": "CVX",
+      "price": 192.64,
+      "currency": "USD",
+      "as_of": "2026-05-05T20:02:52.000Z",
+      "market_state": "PRE",
+      "quote_source": "Delayed Quote",
+      "source": "yahoo-finance"
+    },
+    "CW": {
+      "ticker": "CW",
+      "price": 728.95,
+      "currency": "USD",
+      "as_of": "2026-05-05T20:00:02.000Z",
+      "market_state": "PRE",
+      "quote_source": "Delayed Quote",
+      "source": "yahoo-finance"
+    },
+    "CYH": {
+      "ticker": "CYH",
+      "price": 2.82,
+      "currency": "USD",
+      "as_of": "2026-05-05T20:00:02.000Z",
+      "market_state": "PRE",
+      "quote_source": "Delayed Quote",
+      "source": "yahoo-finance"
+    },
+    "CZR": {
+      "ticker": "CZR",
+      "price": 28.1,
+      "currency": "USD",
+      "as_of": "2026-05-05T20:00:00.000Z",
+      "market_state": "PRE",
+      "quote_source": "Delayed Quote",
+      "source": "yahoo-finance"
+    },
+    "D": {
+      "ticker": "D",
+      "price": 62.99,
+      "currency": "USD",
+      "as_of": "2026-05-05T20:00:03.000Z",
+      "market_state": "PRE",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -205,7 +1339,7 @@
       "price": 19.71,
       "currency": "USD",
       "as_of": "2026-05-05T20:00:01.000Z",
-      "market_state": "POST",
+      "market_state": "PRE",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -214,7 +1348,16 @@
       "price": 70.86,
       "currency": "USD",
       "as_of": "2026-05-05T20:00:02.000Z",
-      "market_state": "POST",
+      "market_state": "PRE",
+      "quote_source": "Delayed Quote",
+      "source": "yahoo-finance"
+    },
+    "DAR": {
+      "ticker": "DAR",
+      "price": 64.84,
+      "currency": "USD",
+      "as_of": "2026-05-05T20:00:03.000Z",
+      "market_state": "PRE",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -223,7 +1366,124 @@
       "price": 166.14,
       "currency": "USD",
       "as_of": "2026-05-05T20:00:01.000Z",
-      "market_state": "POST",
+      "market_state": "PRE",
+      "quote_source": "Delayed Quote",
+      "source": "yahoo-finance"
+    },
+    "DD": {
+      "ticker": "DD",
+      "price": 49.24,
+      "currency": "USD",
+      "as_of": "2026-05-05T20:01:55.000Z",
+      "market_state": "PRE",
+      "quote_source": "Delayed Quote",
+      "source": "yahoo-finance"
+    },
+    "DDOG": {
+      "ticker": "DDOG",
+      "price": 145.73,
+      "currency": "USD",
+      "as_of": "2026-05-05T20:00:01.000Z",
+      "market_state": "PRE",
+      "quote_source": "Delayed Quote",
+      "source": "yahoo-finance"
+    },
+    "DECK": {
+      "ticker": "DECK",
+      "price": 98.54,
+      "currency": "USD",
+      "as_of": "2026-05-05T20:00:03.000Z",
+      "market_state": "PRE",
+      "quote_source": "Delayed Quote",
+      "source": "yahoo-finance"
+    },
+    "DELL": {
+      "ticker": "DELL",
+      "price": 216.32,
+      "currency": "USD",
+      "as_of": "2026-05-05T20:03:09.000Z",
+      "market_state": "PRE",
+      "quote_source": "Delayed Quote",
+      "source": "yahoo-finance"
+    },
+    "DG": {
+      "ticker": "DG",
+      "price": 117.01,
+      "currency": "USD",
+      "as_of": "2026-05-05T20:02:01.000Z",
+      "market_state": "PRE",
+      "quote_source": "Delayed Quote",
+      "source": "yahoo-finance"
+    },
+    "DHI": {
+      "ticker": "DHI",
+      "price": 146.47,
+      "currency": "USD",
+      "as_of": "2026-05-05T20:00:03.000Z",
+      "market_state": "PRE",
+      "quote_source": "Delayed Quote",
+      "source": "yahoo-finance"
+    },
+    "DHR": {
+      "ticker": "DHR",
+      "price": 174.63,
+      "currency": "USD",
+      "as_of": "2026-05-05T20:00:03.000Z",
+      "market_state": "PRE",
+      "quote_source": "Delayed Quote",
+      "source": "yahoo-finance"
+    },
+    "DINO": {
+      "ticker": "DINO",
+      "price": 74.5,
+      "currency": "USD",
+      "as_of": "2026-05-05T20:00:02.000Z",
+      "market_state": "PRE",
+      "quote_source": "Delayed Quote",
+      "source": "yahoo-finance"
+    },
+    "DIS": {
+      "ticker": "DIS",
+      "price": 100.48,
+      "currency": "USD",
+      "as_of": "2026-05-05T20:00:26.000Z",
+      "market_state": "PRE",
+      "quote_source": "Delayed Quote",
+      "source": "yahoo-finance"
+    },
+    "DKNG": {
+      "ticker": "DKNG",
+      "price": 24.17,
+      "currency": "USD",
+      "as_of": "2026-05-05T20:00:01.000Z",
+      "market_state": "PRE",
+      "quote_source": "Delayed Quote",
+      "source": "yahoo-finance"
+    },
+    "DKS": {
+      "ticker": "DKS",
+      "price": 215.49,
+      "currency": "USD",
+      "as_of": "2026-05-05T20:00:02.000Z",
+      "market_state": "PRE",
+      "quote_source": "Delayed Quote",
+      "source": "yahoo-finance"
+    },
+    "DLR": {
+      "ticker": "DLR",
+      "price": 196.69,
+      "currency": "USD",
+      "as_of": "2026-05-05T20:00:02.000Z",
+      "market_state": "PRE",
+      "quote_source": "Delayed Quote",
+      "source": "yahoo-finance"
+    },
+    "DNA": {
+      "ticker": "DNA",
+      "price": 9.71,
+      "currency": "USD",
+      "as_of": "2026-05-05T20:00:02.000Z",
+      "market_state": "PRE",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -232,7 +1492,97 @@
       "price": 48.38,
       "currency": "USD",
       "as_of": "2026-05-05T20:00:01.000Z",
-      "market_state": "POST",
+      "market_state": "PRE",
+      "quote_source": "Delayed Quote",
+      "source": "yahoo-finance"
+    },
+    "DOV": {
+      "ticker": "DOV",
+      "price": 223.47,
+      "currency": "USD",
+      "as_of": "2026-05-05T20:00:02.000Z",
+      "market_state": "PRE",
+      "quote_source": "Delayed Quote",
+      "source": "yahoo-finance"
+    },
+    "DTE": {
+      "ticker": "DTE",
+      "price": 143.5,
+      "currency": "USD",
+      "as_of": "2026-05-05T20:00:03.000Z",
+      "market_state": "PRE",
+      "quote_source": "Delayed Quote",
+      "source": "yahoo-finance"
+    },
+    "DUOL": {
+      "ticker": "DUOL",
+      "price": 104.03,
+      "currency": "USD",
+      "as_of": "2026-05-05T20:00:01.000Z",
+      "market_state": "PRE",
+      "quote_source": "Delayed Quote",
+      "source": "yahoo-finance"
+    },
+    "DVN": {
+      "ticker": "DVN",
+      "price": 50.99,
+      "currency": "USD",
+      "as_of": "2026-05-05T20:00:03.000Z",
+      "market_state": "PRE",
+      "quote_source": "Delayed Quote",
+      "source": "yahoo-finance"
+    },
+    "DXCM": {
+      "ticker": "DXCM",
+      "price": 59.48,
+      "currency": "USD",
+      "as_of": "2026-05-05T20:00:01.000Z",
+      "market_state": "PRE",
+      "quote_source": "Delayed Quote",
+      "source": "yahoo-finance"
+    },
+    "DY": {
+      "ticker": "DY",
+      "price": 457.14,
+      "currency": "USD",
+      "as_of": "2026-05-05T20:00:02.000Z",
+      "market_state": "PRE",
+      "quote_source": "Delayed Quote",
+      "source": "yahoo-finance"
+    },
+    "EA": {
+      "ticker": "EA",
+      "price": 201.57,
+      "currency": "USD",
+      "as_of": "2026-05-05T20:00:01.000Z",
+      "market_state": "PRE",
+      "quote_source": "Delayed Quote",
+      "source": "yahoo-finance"
+    },
+    "EBAY": {
+      "ticker": "EBAY",
+      "price": 105.26,
+      "currency": "USD",
+      "as_of": "2026-05-05T20:00:03.000Z",
+      "market_state": "PRE",
+      "quote_source": "Delayed Quote",
+      "source": "yahoo-finance"
+    },
+    "ECL": {
+      "ticker": "ECL",
+      "price": 257.65,
+      "currency": "USD",
+      "as_of": "2026-05-05T20:00:02.000Z",
+      "market_state": "PRE",
+      "quote_source": "Delayed Quote",
+      "source": "yahoo-finance"
+    },
+    "ED": {
+      "ticker": "ED",
+      "price": 109.15,
+      "currency": "USD",
+      "as_of": "2026-05-05T20:00:03.000Z",
+      "market_state": "PRE",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -241,7 +1591,61 @@
       "price": 65.4,
       "currency": "USD",
       "as_of": "2026-05-05T20:00:00.000Z",
-      "market_state": "POST",
+      "market_state": "PRE",
+      "quote_source": "Delayed Quote",
+      "source": "yahoo-finance"
+    },
+    "EIX": {
+      "ticker": "EIX",
+      "price": 68.87,
+      "currency": "USD",
+      "as_of": "2026-05-05T20:00:02.000Z",
+      "market_state": "PRE",
+      "quote_source": "Delayed Quote",
+      "source": "yahoo-finance"
+    },
+    "ELAN": {
+      "ticker": "ELAN",
+      "price": 22.99,
+      "currency": "USD",
+      "as_of": "2026-05-05T20:02:22.000Z",
+      "market_state": "PRE",
+      "quote_source": "Delayed Quote",
+      "source": "yahoo-finance"
+    },
+    "ELV": {
+      "ticker": "ELV",
+      "price": 369.07,
+      "currency": "USD",
+      "as_of": "2026-05-05T20:00:02.000Z",
+      "market_state": "PRE",
+      "quote_source": "Delayed Quote",
+      "source": "yahoo-finance"
+    },
+    "ELVN": {
+      "ticker": "ELVN",
+      "price": 41.58,
+      "currency": "USD",
+      "as_of": "2026-05-05T20:00:01.000Z",
+      "market_state": "PRE",
+      "quote_source": "Delayed Quote",
+      "source": "yahoo-finance"
+    },
+    "EME": {
+      "ticker": "EME",
+      "price": 933.27,
+      "currency": "USD",
+      "as_of": "2026-05-05T20:00:02.000Z",
+      "market_state": "PRE",
+      "quote_source": "Delayed Quote",
+      "source": "yahoo-finance"
+    },
+    "ENPH": {
+      "ticker": "ENPH",
+      "price": 36.02,
+      "currency": "USD",
+      "as_of": "2026-05-05T20:00:01.000Z",
+      "market_state": "PRE",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -250,7 +1654,16 @@
       "price": 149.29,
       "currency": "USD",
       "as_of": "2026-05-05T20:00:01.000Z",
-      "market_state": "POST",
+      "market_state": "PRE",
+      "quote_source": "Delayed Quote",
+      "source": "yahoo-finance"
+    },
+    "EQIX": {
+      "ticker": "EQIX",
+      "price": 1078.46,
+      "currency": "USD",
+      "as_of": "2026-05-05T20:00:01.000Z",
+      "market_state": "PRE",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -259,7 +1672,43 @@
       "price": 58.72,
       "currency": "USD",
       "as_of": "2026-05-05T20:00:02.000Z",
-      "market_state": "POST",
+      "market_state": "PRE",
+      "quote_source": "Delayed Quote",
+      "source": "yahoo-finance"
+    },
+    "ET": {
+      "ticker": "ET",
+      "price": 20.39,
+      "currency": "USD",
+      "as_of": "2026-05-05T20:00:03.000Z",
+      "market_state": "PRE",
+      "quote_source": "Delayed Quote",
+      "source": "yahoo-finance"
+    },
+    "ETSY": {
+      "ticker": "ETSY",
+      "price": 62.95,
+      "currency": "USD",
+      "as_of": "2026-05-05T20:00:02.000Z",
+      "market_state": "PRE",
+      "quote_source": "Delayed Quote",
+      "source": "yahoo-finance"
+    },
+    "EVR": {
+      "ticker": "EVR",
+      "price": 326.33,
+      "currency": "USD",
+      "as_of": "2026-05-05T20:02:13.000Z",
+      "market_state": "PRE",
+      "quote_source": "Delayed Quote",
+      "source": "yahoo-finance"
+    },
+    "EW": {
+      "ticker": "EW",
+      "price": 82.91,
+      "currency": "USD",
+      "as_of": "2026-05-05T20:00:03.000Z",
+      "market_state": "PRE",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -268,7 +1717,124 @@
       "price": 39.71,
       "currency": "USD",
       "as_of": "2026-05-05T20:00:00.000Z",
-      "market_state": "POST",
+      "market_state": "PRE",
+      "quote_source": "Delayed Quote",
+      "source": "yahoo-finance"
+    },
+    "EXC": {
+      "ticker": "EXC",
+      "price": 46.18,
+      "currency": "USD",
+      "as_of": "2026-05-05T20:00:01.000Z",
+      "market_state": "PRE",
+      "quote_source": "Delayed Quote",
+      "source": "yahoo-finance"
+    },
+    "EXEL": {
+      "ticker": "EXEL",
+      "price": 44.42,
+      "currency": "USD",
+      "as_of": "2026-05-05T20:00:01.000Z",
+      "market_state": "PRE",
+      "quote_source": "Delayed Quote",
+      "source": "yahoo-finance"
+    },
+    "EXPD": {
+      "ticker": "EXPD",
+      "price": 153.08,
+      "currency": "USD",
+      "as_of": "2026-05-05T20:00:03.000Z",
+      "market_state": "PRE",
+      "quote_source": "Delayed Quote",
+      "source": "yahoo-finance"
+    },
+    "EXPE": {
+      "ticker": "EXPE",
+      "price": 248.65,
+      "currency": "USD",
+      "as_of": "2026-05-05T20:00:01.000Z",
+      "market_state": "PRE",
+      "quote_source": "Delayed Quote",
+      "source": "yahoo-finance"
+    },
+    "EXR": {
+      "ticker": "EXR",
+      "price": 139.79,
+      "currency": "USD",
+      "as_of": "2026-05-05T20:00:03.000Z",
+      "market_state": "PRE",
+      "quote_source": "Delayed Quote",
+      "source": "yahoo-finance"
+    },
+    "FCNCA": {
+      "ticker": "FCNCA",
+      "price": 2002.14,
+      "currency": "USD",
+      "as_of": "2026-05-05T20:00:01.000Z",
+      "market_state": "PRE",
+      "quote_source": "Delayed Quote",
+      "source": "yahoo-finance"
+    },
+    "FCX": {
+      "ticker": "FCX",
+      "price": 57.68,
+      "currency": "USD",
+      "as_of": "2026-05-05T20:02:28.000Z",
+      "market_state": "PRE",
+      "quote_source": "Delayed Quote",
+      "source": "yahoo-finance"
+    },
+    "FDX": {
+      "ticker": "FDX",
+      "price": 362.75,
+      "currency": "USD",
+      "as_of": "2026-05-05T20:00:02.000Z",
+      "market_state": "PRE",
+      "quote_source": "Delayed Quote",
+      "source": "yahoo-finance"
+    },
+    "FE": {
+      "ticker": "FE",
+      "price": 45.88,
+      "currency": "USD",
+      "as_of": "2026-05-05T20:00:02.000Z",
+      "market_state": "PRE",
+      "quote_source": "Delayed Quote",
+      "source": "yahoo-finance"
+    },
+    "FFIV": {
+      "ticker": "FFIV",
+      "price": 339.9,
+      "currency": "USD",
+      "as_of": "2026-05-05T20:00:01.000Z",
+      "market_state": "PRE",
+      "quote_source": "Delayed Quote",
+      "source": "yahoo-finance"
+    },
+    "FHN": {
+      "ticker": "FHN",
+      "price": 24.78,
+      "currency": "USD",
+      "as_of": "2026-05-05T20:00:03.000Z",
+      "market_state": "PRE",
+      "quote_source": "Delayed Quote",
+      "source": "yahoo-finance"
+    },
+    "FICO": {
+      "ticker": "FICO",
+      "price": 1066.27,
+      "currency": "USD",
+      "as_of": "2026-05-05T20:00:03.000Z",
+      "market_state": "PRE",
+      "quote_source": "Delayed Quote",
+      "source": "yahoo-finance"
+    },
+    "FIG": {
+      "ticker": "FIG",
+      "price": 19.42,
+      "currency": "USD",
+      "as_of": "2026-05-05T20:00:02.000Z",
+      "market_state": "PRE",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -277,7 +1843,52 @@
       "price": 37.3,
       "currency": "USD",
       "as_of": "2026-05-05T20:00:01.000Z",
-      "market_state": "POST",
+      "market_state": "PRE",
+      "quote_source": "Delayed Quote",
+      "source": "yahoo-finance"
+    },
+    "FIS": {
+      "ticker": "FIS",
+      "price": 46.61,
+      "currency": "USD",
+      "as_of": "2026-05-05T20:00:03.000Z",
+      "market_state": "PRE",
+      "quote_source": "Delayed Quote",
+      "source": "yahoo-finance"
+    },
+    "FIVE": {
+      "ticker": "FIVE",
+      "price": 226.72,
+      "currency": "USD",
+      "as_of": "2026-05-05T20:00:03.000Z",
+      "market_state": "PRE",
+      "quote_source": "Delayed Quote",
+      "source": "yahoo-finance"
+    },
+    "FIX": {
+      "ticker": "FIX",
+      "price": 1967.24,
+      "currency": "USD",
+      "as_of": "2026-05-05T20:01:59.000Z",
+      "market_state": "PRE",
+      "quote_source": "Delayed Quote",
+      "source": "yahoo-finance"
+    },
+    "FLR": {
+      "ticker": "FLR",
+      "price": 52.99,
+      "currency": "USD",
+      "as_of": "2026-05-05T20:00:03.000Z",
+      "market_state": "PRE",
+      "quote_source": "Delayed Quote",
+      "source": "yahoo-finance"
+    },
+    "FLS": {
+      "ticker": "FLS",
+      "price": 70.22,
+      "currency": "USD",
+      "as_of": "2026-05-05T20:00:02.000Z",
+      "market_state": "PRE",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -286,7 +1897,223 @@
       "price": 103.33,
       "currency": "USD",
       "as_of": "2026-05-05T20:00:02.000Z",
-      "market_state": "POST",
+      "market_state": "PRE",
+      "quote_source": "Delayed Quote",
+      "source": "yahoo-finance"
+    },
+    "FLYX": {
+      "ticker": "FLYX",
+      "price": 2.23,
+      "currency": "USD",
+      "as_of": "2026-05-05T20:00:00.000Z",
+      "market_state": "PRE",
+      "quote_source": "Delayed Quote",
+      "source": "yahoo-finance"
+    },
+    "FND": {
+      "ticker": "FND",
+      "price": 48.3,
+      "currency": "USD",
+      "as_of": "2026-05-05T20:00:03.000Z",
+      "market_state": "PRE",
+      "quote_source": "Delayed Quote",
+      "source": "yahoo-finance"
+    },
+    "FNF": {
+      "ticker": "FNF",
+      "price": 51.18,
+      "currency": "USD",
+      "as_of": "2026-05-05T20:00:03.000Z",
+      "market_state": "PRE",
+      "quote_source": "Delayed Quote",
+      "source": "yahoo-finance"
+    },
+    "FSLR": {
+      "ticker": "FSLR",
+      "price": 219.38,
+      "currency": "USD",
+      "as_of": "2026-05-05T20:00:03.000Z",
+      "market_state": "PRE",
+      "quote_source": "Delayed Quote",
+      "source": "yahoo-finance"
+    },
+    "FTNT": {
+      "ticker": "FTNT",
+      "price": 89.92,
+      "currency": "USD",
+      "as_of": "2026-05-05T20:00:01.000Z",
+      "market_state": "PRE",
+      "quote_source": "Delayed Quote",
+      "source": "yahoo-finance"
+    },
+    "FTV": {
+      "ticker": "FTV",
+      "price": 60.69,
+      "currency": "USD",
+      "as_of": "2026-05-05T20:00:02.000Z",
+      "market_state": "PRE",
+      "quote_source": "Delayed Quote",
+      "source": "yahoo-finance"
+    },
+    "FUTU": {
+      "ticker": "FUTU",
+      "price": 157.21,
+      "currency": "USD",
+      "as_of": "2026-05-05T20:00:03.000Z",
+      "market_state": "PRE",
+      "quote_source": "Delayed Quote",
+      "source": "yahoo-finance"
+    },
+    "FWONK": {
+      "ticker": "FWONK",
+      "price": 87.4,
+      "currency": "USD",
+      "as_of": "2026-05-05T20:00:01.000Z",
+      "market_state": "PRE",
+      "quote_source": "Delayed Quote",
+      "source": "yahoo-finance"
+    },
+    "GAP": {
+      "ticker": "GAP",
+      "price": 23.64,
+      "currency": "USD",
+      "as_of": "2026-05-05T20:00:02.000Z",
+      "market_state": "PRE",
+      "quote_source": "Delayed Quote",
+      "source": "yahoo-finance"
+    },
+    "GD": {
+      "ticker": "GD",
+      "price": 349.16,
+      "currency": "USD",
+      "as_of": "2026-05-05T20:00:03.000Z",
+      "market_state": "PRE",
+      "quote_source": "Delayed Quote",
+      "source": "yahoo-finance"
+    },
+    "GDDY": {
+      "ticker": "GDDY",
+      "price": 87.49,
+      "currency": "USD",
+      "as_of": "2026-05-05T20:00:02.000Z",
+      "market_state": "PRE",
+      "quote_source": "Delayed Quote",
+      "source": "yahoo-finance"
+    },
+    "GDX": {
+      "ticker": "GDX",
+      "price": 85.81,
+      "currency": "USD",
+      "as_of": "2026-05-05T20:00:00.000Z",
+      "market_state": "PRE",
+      "quote_source": "Delayed Quote",
+      "source": "yahoo-finance"
+    },
+    "GE": {
+      "ticker": "GE",
+      "price": 286.68,
+      "currency": "USD",
+      "as_of": "2026-05-05T20:00:03.000Z",
+      "market_state": "PRE",
+      "quote_source": "Delayed Quote",
+      "source": "yahoo-finance"
+    },
+    "GEMI": {
+      "ticker": "GEMI",
+      "price": 4.8,
+      "currency": "USD",
+      "as_of": "2026-05-05T20:00:01.000Z",
+      "market_state": "PRE",
+      "quote_source": "Delayed Quote",
+      "source": "yahoo-finance"
+    },
+    "GEV": {
+      "ticker": "GEV",
+      "price": 1095.21,
+      "currency": "USD",
+      "as_of": "2026-05-05T20:00:02.000Z",
+      "market_state": "PRE",
+      "quote_source": "Delayed Quote",
+      "source": "yahoo-finance"
+    },
+    "GILD": {
+      "ticker": "GILD",
+      "price": 133.48,
+      "currency": "USD",
+      "as_of": "2026-05-05T20:00:01.000Z",
+      "market_state": "PRE",
+      "quote_source": "Delayed Quote",
+      "source": "yahoo-finance"
+    },
+    "GIS": {
+      "ticker": "GIS",
+      "price": 34.55,
+      "currency": "USD",
+      "as_of": "2026-05-05T20:00:02.000Z",
+      "market_state": "PRE",
+      "quote_source": "Delayed Quote",
+      "source": "yahoo-finance"
+    },
+    "GKOS": {
+      "ticker": "GKOS",
+      "price": 133.42,
+      "currency": "USD",
+      "as_of": "2026-05-05T20:00:02.000Z",
+      "market_state": "PRE",
+      "quote_source": "Delayed Quote",
+      "source": "yahoo-finance"
+    },
+    "GL": {
+      "ticker": "GL",
+      "price": 154.14,
+      "currency": "USD",
+      "as_of": "2026-05-05T20:00:02.000Z",
+      "market_state": "PRE",
+      "quote_source": "Delayed Quote",
+      "source": "yahoo-finance"
+    },
+    "GLW": {
+      "ticker": "GLW",
+      "price": 162.1,
+      "currency": "USD",
+      "as_of": "2026-05-05T20:02:31.000Z",
+      "market_state": "PRE",
+      "quote_source": "Delayed Quote",
+      "source": "yahoo-finance"
+    },
+    "GLXY": {
+      "ticker": "GLXY",
+      "price": 30.32,
+      "currency": "USD",
+      "as_of": "2026-05-05T20:00:01.000Z",
+      "market_state": "PRE",
+      "quote_source": "Delayed Quote",
+      "source": "yahoo-finance"
+    },
+    "GM": {
+      "ticker": "GM",
+      "price": 76.15,
+      "currency": "USD",
+      "as_of": "2026-05-05T20:00:03.000Z",
+      "market_state": "PRE",
+      "quote_source": "Delayed Quote",
+      "source": "yahoo-finance"
+    },
+    "GNRC": {
+      "ticker": "GNRC",
+      "price": 263.68,
+      "currency": "USD",
+      "as_of": "2026-05-05T20:00:02.000Z",
+      "market_state": "PRE",
+      "quote_source": "Delayed Quote",
+      "source": "yahoo-finance"
+    },
+    "GOOG": {
+      "ticker": "GOOG",
+      "price": 384.27,
+      "currency": "USD",
+      "as_of": "2026-05-05T20:00:03.000Z",
+      "market_state": "PRE",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -295,7 +2122,16 @@
       "price": 388.43,
       "currency": "USD",
       "as_of": "2026-05-05T20:00:03.000Z",
-      "market_state": "POST",
+      "market_state": "PRE",
+      "quote_source": "Delayed Quote",
+      "source": "yahoo-finance"
+    },
+    "GPC": {
+      "ticker": "GPC",
+      "price": 104.29,
+      "currency": "USD",
+      "as_of": "2026-05-05T20:00:02.000Z",
+      "market_state": "PRE",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -304,7 +2140,187 @@
       "price": 918.89,
       "currency": "USD",
       "as_of": "2026-05-05T20:00:02.000Z",
-      "market_state": "POST",
+      "market_state": "PRE",
+      "quote_source": "Delayed Quote",
+      "source": "yahoo-finance"
+    },
+    "GT": {
+      "ticker": "GT",
+      "price": 7.08,
+      "currency": "USD",
+      "as_of": "2026-05-05T20:00:01.000Z",
+      "market_state": "PRE",
+      "quote_source": "Delayed Quote",
+      "source": "yahoo-finance"
+    },
+    "GTLS": {
+      "ticker": "GTLS",
+      "price": 207.75,
+      "currency": "USD",
+      "as_of": "2026-05-05T20:00:03.000Z",
+      "market_state": "PRE",
+      "quote_source": "Delayed Quote",
+      "source": "yahoo-finance"
+    },
+    "GVA": {
+      "ticker": "GVA",
+      "price": 141.66,
+      "currency": "USD",
+      "as_of": "2026-05-05T20:00:03.000Z",
+      "market_state": "PRE",
+      "quote_source": "Delayed Quote",
+      "source": "yahoo-finance"
+    },
+    "GWRE": {
+      "ticker": "GWRE",
+      "price": 140.02,
+      "currency": "USD",
+      "as_of": "2026-05-05T20:00:02.000Z",
+      "market_state": "PRE",
+      "quote_source": "Delayed Quote",
+      "source": "yahoo-finance"
+    },
+    "HAE": {
+      "ticker": "HAE",
+      "price": 55.62,
+      "currency": "USD",
+      "as_of": "2026-05-05T20:00:03.000Z",
+      "market_state": "PRE",
+      "quote_source": "Delayed Quote",
+      "source": "yahoo-finance"
+    },
+    "HAS": {
+      "ticker": "HAS",
+      "price": 94.76,
+      "currency": "USD",
+      "as_of": "2026-05-05T20:00:01.000Z",
+      "market_state": "PRE",
+      "quote_source": "Delayed Quote",
+      "source": "yahoo-finance"
+    },
+    "HCA": {
+      "ticker": "HCA",
+      "price": 428.79,
+      "currency": "USD",
+      "as_of": "2026-05-05T20:00:02.000Z",
+      "market_state": "PRE",
+      "quote_source": "Delayed Quote",
+      "source": "yahoo-finance"
+    },
+    "HD": {
+      "ticker": "HD",
+      "price": 315.42,
+      "currency": "USD",
+      "as_of": "2026-05-05T20:00:03.000Z",
+      "market_state": "PRE",
+      "quote_source": "Delayed Quote",
+      "source": "yahoo-finance"
+    },
+    "HHH": {
+      "ticker": "HHH",
+      "price": 63.33,
+      "currency": "USD",
+      "as_of": "2026-05-05T20:00:02.000Z",
+      "market_state": "PRE",
+      "quote_source": "Delayed Quote",
+      "source": "yahoo-finance"
+    },
+    "HIG": {
+      "ticker": "HIG",
+      "price": 134.15,
+      "currency": "USD",
+      "as_of": "2026-05-05T20:00:02.000Z",
+      "market_state": "PRE",
+      "quote_source": "Delayed Quote",
+      "source": "yahoo-finance"
+    },
+    "HII": {
+      "ticker": "HII",
+      "price": 326.13,
+      "currency": "USD",
+      "as_of": "2026-05-05T20:00:03.000Z",
+      "market_state": "PRE",
+      "quote_source": "Delayed Quote",
+      "source": "yahoo-finance"
+    },
+    "HLT": {
+      "ticker": "HLT",
+      "price": 312.77,
+      "currency": "USD",
+      "as_of": "2026-05-05T20:00:03.000Z",
+      "market_state": "PRE",
+      "quote_source": "Delayed Quote",
+      "source": "yahoo-finance"
+    },
+    "HNGE": {
+      "ticker": "HNGE",
+      "price": 49.75,
+      "currency": "USD",
+      "as_of": "2026-05-05T20:00:02.000Z",
+      "market_state": "PRE",
+      "quote_source": "Delayed Quote",
+      "source": "yahoo-finance"
+    },
+    "HON": {
+      "ticker": "HON",
+      "price": 209.06,
+      "currency": "USD",
+      "as_of": "2026-05-05T20:00:01.000Z",
+      "market_state": "PRE",
+      "quote_source": "Delayed Quote",
+      "source": "yahoo-finance"
+    },
+    "HOOD": {
+      "ticker": "HOOD",
+      "price": 77.03,
+      "currency": "USD",
+      "as_of": "2026-05-05T20:00:01.000Z",
+      "market_state": "PRE",
+      "quote_source": "Delayed Quote",
+      "source": "yahoo-finance"
+    },
+    "HPQ": {
+      "ticker": "HPQ",
+      "price": 21.15,
+      "currency": "USD",
+      "as_of": "2026-05-05T20:00:02.000Z",
+      "market_state": "PRE",
+      "quote_source": "Delayed Quote",
+      "source": "yahoo-finance"
+    },
+    "HSY": {
+      "ticker": "HSY",
+      "price": 184.91,
+      "currency": "USD",
+      "as_of": "2026-05-05T20:00:02.000Z",
+      "market_state": "PRE",
+      "quote_source": "Delayed Quote",
+      "source": "yahoo-finance"
+    },
+    "HTZ": {
+      "ticker": "HTZ",
+      "price": 6.09,
+      "currency": "USD",
+      "as_of": "2026-05-05T20:00:01.000Z",
+      "market_state": "PRE",
+      "quote_source": "Delayed Quote",
+      "source": "yahoo-finance"
+    },
+    "HUBS": {
+      "ticker": "HUBS",
+      "price": 246.08,
+      "currency": "USD",
+      "as_of": "2026-05-05T20:00:03.000Z",
+      "market_state": "PRE",
+      "quote_source": "Delayed Quote",
+      "source": "yahoo-finance"
+    },
+    "HUM": {
+      "ticker": "HUM",
+      "price": 239.53,
+      "currency": "USD",
+      "as_of": "2026-05-05T20:00:02.000Z",
+      "market_state": "PRE",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -313,7 +2329,88 @@
       "price": 80.51,
       "currency": "USD",
       "as_of": "2026-05-05T20:00:03.000Z",
-      "market_state": "POST",
+      "market_state": "PRE",
+      "quote_source": "Delayed Quote",
+      "source": "yahoo-finance"
+    },
+    "HWM": {
+      "ticker": "HWM",
+      "price": 242.69,
+      "currency": "USD",
+      "as_of": "2026-05-05T20:00:03.000Z",
+      "market_state": "PRE",
+      "quote_source": "Delayed Quote",
+      "source": "yahoo-finance"
+    },
+    "IBM": {
+      "ticker": "IBM",
+      "price": 229.03,
+      "currency": "USD",
+      "as_of": "2026-05-05T20:00:03.000Z",
+      "market_state": "PRE",
+      "quote_source": "Delayed Quote",
+      "source": "yahoo-finance"
+    },
+    "ICE": {
+      "ticker": "ICE",
+      "price": 155.28,
+      "currency": "USD",
+      "as_of": "2026-05-05T20:00:03.000Z",
+      "market_state": "PRE",
+      "quote_source": "Delayed Quote",
+      "source": "yahoo-finance"
+    },
+    "IEX": {
+      "ticker": "IEX",
+      "price": 215.76,
+      "currency": "USD",
+      "as_of": "2026-05-05T20:00:03.000Z",
+      "market_state": "PRE",
+      "quote_source": "Delayed Quote",
+      "source": "yahoo-finance"
+    },
+    "IFF": {
+      "ticker": "IFF",
+      "price": 70.77,
+      "currency": "USD",
+      "as_of": "2026-05-05T20:00:02.000Z",
+      "market_state": "PRE",
+      "quote_source": "Delayed Quote",
+      "source": "yahoo-finance"
+    },
+    "ILMN": {
+      "ticker": "ILMN",
+      "price": 139.07,
+      "currency": "USD",
+      "as_of": "2026-05-05T20:00:01.000Z",
+      "market_state": "PRE",
+      "quote_source": "Delayed Quote",
+      "source": "yahoo-finance"
+    },
+    "INBX": {
+      "ticker": "INBX",
+      "price": 128.12,
+      "currency": "USD",
+      "as_of": "2026-05-05T20:00:00.000Z",
+      "market_state": "PRE",
+      "quote_source": "Delayed Quote",
+      "source": "yahoo-finance"
+    },
+    "INCY": {
+      "ticker": "INCY",
+      "price": 97.47,
+      "currency": "USD",
+      "as_of": "2026-05-05T20:00:01.000Z",
+      "market_state": "PRE",
+      "quote_source": "Delayed Quote",
+      "source": "yahoo-finance"
+    },
+    "INFY": {
+      "ticker": "INFY",
+      "price": 12.46,
+      "currency": "USD",
+      "as_of": "2026-05-05T20:00:02.000Z",
+      "market_state": "PRE",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -322,7 +2419,7 @@
       "price": 139.44,
       "currency": "USD",
       "as_of": "2026-05-05T20:00:01.000Z",
-      "market_state": "POST",
+      "market_state": "PRE",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -331,7 +2428,25 @@
       "price": 108.15,
       "currency": "USD",
       "as_of": "2026-05-05T20:00:03.000Z",
-      "market_state": "POST",
+      "market_state": "PRE",
+      "quote_source": "Delayed Quote",
+      "source": "yahoo-finance"
+    },
+    "INTU": {
+      "ticker": "INTU",
+      "price": 398.32,
+      "currency": "USD",
+      "as_of": "2026-05-05T20:00:01.000Z",
+      "market_state": "PRE",
+      "quote_source": "Delayed Quote",
+      "source": "yahoo-finance"
+    },
+    "IQV": {
+      "ticker": "IQV",
+      "price": 176.42,
+      "currency": "USD",
+      "as_of": "2026-05-05T20:00:03.000Z",
+      "market_state": "PRE",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -340,7 +2455,196 @@
       "price": 54.74,
       "currency": "USD",
       "as_of": "2026-05-05T20:00:01.000Z",
-      "market_state": "POST",
+      "market_state": "PRE",
+      "quote_source": "Delayed Quote",
+      "source": "yahoo-finance"
+    },
+    "ISRG": {
+      "ticker": "ISRG",
+      "price": 451.38,
+      "currency": "USD",
+      "as_of": "2026-05-05T20:00:01.000Z",
+      "market_state": "PRE",
+      "quote_source": "Delayed Quote",
+      "source": "yahoo-finance"
+    },
+    "IT": {
+      "ticker": "IT",
+      "price": 149.49,
+      "currency": "USD",
+      "as_of": "2026-05-05T20:00:02.000Z",
+      "market_state": "PRE",
+      "quote_source": "Delayed Quote",
+      "source": "yahoo-finance"
+    },
+    "ITGR": {
+      "ticker": "ITGR",
+      "price": 85.85,
+      "currency": "USD",
+      "as_of": "2026-05-05T20:00:02.000Z",
+      "market_state": "PRE",
+      "quote_source": "Delayed Quote",
+      "source": "yahoo-finance"
+    },
+    "ITUB": {
+      "ticker": "ITUB",
+      "price": 8.57,
+      "currency": "USD",
+      "as_of": "2026-05-05T20:00:03.000Z",
+      "market_state": "PRE",
+      "quote_source": "Delayed Quote",
+      "source": "yahoo-finance"
+    },
+    "IWM": {
+      "ticker": "IWM",
+      "price": 282.56,
+      "currency": "USD",
+      "as_of": "2026-05-05T20:00:03.000Z",
+      "market_state": "PRE",
+      "quote_source": "Delayed Quote",
+      "source": "yahoo-finance"
+    },
+    "J": {
+      "ticker": "J",
+      "price": 136.55,
+      "currency": "USD",
+      "as_of": "2026-05-05T20:01:55.000Z",
+      "market_state": "PRE",
+      "quote_source": "Delayed Quote",
+      "source": "yahoo-finance"
+    },
+    "JBHT": {
+      "ticker": "JBHT",
+      "price": 243.04,
+      "currency": "USD",
+      "as_of": "2026-05-05T20:00:01.000Z",
+      "market_state": "PRE",
+      "quote_source": "Delayed Quote",
+      "source": "yahoo-finance"
+    },
+    "JD": {
+      "ticker": "JD",
+      "price": 29.68,
+      "currency": "USD",
+      "as_of": "2026-05-05T20:00:01.000Z",
+      "market_state": "PRE",
+      "quote_source": "Delayed Quote",
+      "source": "yahoo-finance"
+    },
+    "JEF": {
+      "ticker": "JEF",
+      "price": 50.06,
+      "currency": "USD",
+      "as_of": "2026-05-05T20:04:53.000Z",
+      "market_state": "PRE",
+      "quote_source": "Delayed Quote",
+      "source": "yahoo-finance"
+    },
+    "JLL": {
+      "ticker": "JLL",
+      "price": 318.13,
+      "currency": "USD",
+      "as_of": "2026-05-05T20:00:02.000Z",
+      "market_state": "PRE",
+      "quote_source": "Delayed Quote",
+      "source": "yahoo-finance"
+    },
+    "JNJ": {
+      "ticker": "JNJ",
+      "price": 225.55,
+      "currency": "USD",
+      "as_of": "2026-05-05T20:00:03.000Z",
+      "market_state": "PRE",
+      "quote_source": "Delayed Quote",
+      "source": "yahoo-finance"
+    },
+    "JOYY": {
+      "ticker": "JOYY",
+      "price": 58.75,
+      "currency": "USD",
+      "as_of": "2026-05-05T20:00:01.000Z",
+      "market_state": "PRE",
+      "quote_source": "Delayed Quote",
+      "source": "yahoo-finance"
+    },
+    "JPM": {
+      "ticker": "JPM",
+      "price": 309.4,
+      "currency": "USD",
+      "as_of": "2026-05-05T20:00:02.000Z",
+      "market_state": "PRE",
+      "quote_source": "Delayed Quote",
+      "source": "yahoo-finance"
+    },
+    "KBE": {
+      "ticker": "KBE",
+      "price": 64.08,
+      "currency": "USD",
+      "as_of": "2026-05-05T20:00:00.000Z",
+      "market_state": "PRE",
+      "quote_source": "Delayed Quote",
+      "source": "yahoo-finance"
+    },
+    "KDP": {
+      "ticker": "KDP",
+      "price": 28.92,
+      "currency": "USD",
+      "as_of": "2026-05-05T20:00:01.000Z",
+      "market_state": "PRE",
+      "quote_source": "Delayed Quote",
+      "source": "yahoo-finance"
+    },
+    "KEY": {
+      "ticker": "KEY",
+      "price": 21.87,
+      "currency": "USD",
+      "as_of": "2026-05-05T20:00:02.000Z",
+      "market_state": "PRE",
+      "quote_source": "Delayed Quote",
+      "source": "yahoo-finance"
+    },
+    "KKR": {
+      "ticker": "KKR",
+      "price": 102,
+      "currency": "USD",
+      "as_of": "2026-05-05T20:00:03.000Z",
+      "market_state": "PRE",
+      "quote_source": "Delayed Quote",
+      "source": "yahoo-finance"
+    },
+    "KMB": {
+      "ticker": "KMB",
+      "price": 97.2,
+      "currency": "USD",
+      "as_of": "2026-05-05T20:00:00.000Z",
+      "market_state": "PRE",
+      "quote_source": "Delayed Quote",
+      "source": "yahoo-finance"
+    },
+    "KMI": {
+      "ticker": "KMI",
+      "price": 32.29,
+      "currency": "USD",
+      "as_of": "2026-05-05T20:00:02.000Z",
+      "market_state": "PRE",
+      "quote_source": "Delayed Quote",
+      "source": "yahoo-finance"
+    },
+    "KMX": {
+      "ticker": "KMX",
+      "price": 37.25,
+      "currency": "USD",
+      "as_of": "2026-05-05T20:00:02.000Z",
+      "market_state": "PRE",
+      "quote_source": "Delayed Quote",
+      "source": "yahoo-finance"
+    },
+    "KR": {
+      "ticker": "KR",
+      "price": 66.92,
+      "currency": "USD",
+      "as_of": "2026-05-05T20:00:02.000Z",
+      "market_state": "PRE",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -349,7 +2653,34 @@
       "price": 33.54,
       "currency": "USD",
       "as_of": "2026-05-05T20:00:03.000Z",
-      "market_state": "POST",
+      "market_state": "PRE",
+      "quote_source": "Delayed Quote",
+      "source": "yahoo-finance"
+    },
+    "KVUE": {
+      "ticker": "KVUE",
+      "price": 17.37,
+      "currency": "USD",
+      "as_of": "2026-05-05T20:00:02.000Z",
+      "market_state": "PRE",
+      "quote_source": "Delayed Quote",
+      "source": "yahoo-finance"
+    },
+    "LAB": {
+      "ticker": "LAB",
+      "price": 0.979,
+      "currency": "USD",
+      "as_of": "2026-05-05T20:00:01.000Z",
+      "market_state": "PRE",
+      "quote_source": "Delayed Quote",
+      "source": "yahoo-finance"
+    },
+    "LAMR": {
+      "ticker": "LAMR",
+      "price": 138.52,
+      "currency": "USD",
+      "as_of": "2026-05-05T20:00:01.000Z",
+      "market_state": "PRE",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -358,7 +2689,61 @@
       "price": 33.7,
       "currency": "USD",
       "as_of": "2026-05-05T20:00:02.000Z",
-      "market_state": "POST",
+      "market_state": "PRE",
+      "quote_source": "Delayed Quote",
+      "source": "yahoo-finance"
+    },
+    "LCID": {
+      "ticker": "LCID",
+      "price": 6.25,
+      "currency": "USD",
+      "as_of": "2026-05-05T20:00:01.000Z",
+      "market_state": "PRE",
+      "quote_source": "Delayed Quote",
+      "source": "yahoo-finance"
+    },
+    "LDOS": {
+      "ticker": "LDOS",
+      "price": 137.19,
+      "currency": "USD",
+      "as_of": "2026-05-05T20:00:03.000Z",
+      "market_state": "PRE",
+      "quote_source": "Delayed Quote",
+      "source": "yahoo-finance"
+    },
+    "LECO": {
+      "ticker": "LECO",
+      "price": 266.68,
+      "currency": "USD",
+      "as_of": "2026-05-05T20:00:01.000Z",
+      "market_state": "PRE",
+      "quote_source": "Delayed Quote",
+      "source": "yahoo-finance"
+    },
+    "LEN": {
+      "ticker": "LEN",
+      "price": 86.2,
+      "currency": "USD",
+      "as_of": "2026-05-05T20:00:02.000Z",
+      "market_state": "PRE",
+      "quote_source": "Delayed Quote",
+      "source": "yahoo-finance"
+    },
+    "LHX": {
+      "ticker": "LHX",
+      "price": 302.65,
+      "currency": "USD",
+      "as_of": "2026-05-05T20:00:03.000Z",
+      "market_state": "PRE",
+      "quote_source": "Delayed Quote",
+      "source": "yahoo-finance"
+    },
+    "LII": {
+      "ticker": "LII",
+      "price": 522.2,
+      "currency": "USD",
+      "as_of": "2026-05-05T20:00:02.000Z",
+      "market_state": "PRE",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -367,7 +2752,61 @@
       "price": 994.56,
       "currency": "USD",
       "as_of": "2026-05-05T20:00:01.000Z",
-      "market_state": "POST",
+      "market_state": "PRE",
+      "quote_source": "Delayed Quote",
+      "source": "yahoo-finance"
+    },
+    "LLY": {
+      "ticker": "LLY",
+      "price": 988.87,
+      "currency": "USD",
+      "as_of": "2026-05-05T20:02:41.000Z",
+      "market_state": "PRE",
+      "quote_source": "Delayed Quote",
+      "source": "yahoo-finance"
+    },
+    "LMT": {
+      "ticker": "LMT",
+      "price": 508.93,
+      "currency": "USD",
+      "as_of": "2026-05-05T20:00:38.000Z",
+      "market_state": "PRE",
+      "quote_source": "Delayed Quote",
+      "source": "yahoo-finance"
+    },
+    "LNG": {
+      "ticker": "LNG",
+      "price": 269.52,
+      "currency": "USD",
+      "as_of": "2026-05-05T20:00:02.000Z",
+      "market_state": "PRE",
+      "quote_source": "Delayed Quote",
+      "source": "yahoo-finance"
+    },
+    "LOW": {
+      "ticker": "LOW",
+      "price": 225.23,
+      "currency": "USD",
+      "as_of": "2026-05-05T20:02:26.000Z",
+      "market_state": "PRE",
+      "quote_source": "Delayed Quote",
+      "source": "yahoo-finance"
+    },
+    "LPLA": {
+      "ticker": "LPLA",
+      "price": 327.58,
+      "currency": "USD",
+      "as_of": "2026-05-05T20:00:01.000Z",
+      "market_state": "PRE",
+      "quote_source": "Delayed Quote",
+      "source": "yahoo-finance"
+    },
+    "LRCX": {
+      "ticker": "LRCX",
+      "price": 275.8,
+      "currency": "USD",
+      "as_of": "2026-05-05T20:00:01.000Z",
+      "market_state": "PRE",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -376,7 +2815,151 @@
       "price": 122.27,
       "currency": "USD",
       "as_of": "2026-05-05T20:00:01.000Z",
-      "market_state": "POST",
+      "market_state": "PRE",
+      "quote_source": "Delayed Quote",
+      "source": "yahoo-finance"
+    },
+    "LULU": {
+      "ticker": "LULU",
+      "price": 130.21,
+      "currency": "USD",
+      "as_of": "2026-05-05T20:00:01.000Z",
+      "market_state": "PRE",
+      "quote_source": "Delayed Quote",
+      "source": "yahoo-finance"
+    },
+    "LVS": {
+      "ticker": "LVS",
+      "price": 52.26,
+      "currency": "USD",
+      "as_of": "2026-05-05T20:00:02.000Z",
+      "market_state": "PRE",
+      "quote_source": "Delayed Quote",
+      "source": "yahoo-finance"
+    },
+    "LYFT": {
+      "ticker": "LYFT",
+      "price": 14.09,
+      "currency": "USD",
+      "as_of": "2026-05-05T20:00:01.000Z",
+      "market_state": "PRE",
+      "quote_source": "Delayed Quote",
+      "source": "yahoo-finance"
+    },
+    "LYV": {
+      "ticker": "LYV",
+      "price": 157.26,
+      "currency": "USD",
+      "as_of": "2026-05-05T20:00:03.000Z",
+      "market_state": "PRE",
+      "quote_source": "Delayed Quote",
+      "source": "yahoo-finance"
+    },
+    "MA": {
+      "ticker": "MA",
+      "price": 497.08,
+      "currency": "USD",
+      "as_of": "2026-05-05T20:00:03.000Z",
+      "market_state": "PRE",
+      "quote_source": "Delayed Quote",
+      "source": "yahoo-finance"
+    },
+    "MAA": {
+      "ticker": "MAA",
+      "price": 130.16,
+      "currency": "USD",
+      "as_of": "2026-05-05T20:00:02.000Z",
+      "market_state": "PRE",
+      "quote_source": "Delayed Quote",
+      "source": "yahoo-finance"
+    },
+    "MANH": {
+      "ticker": "MANH",
+      "price": 141.15,
+      "currency": "USD",
+      "as_of": "2026-05-05T20:00:01.000Z",
+      "market_state": "PRE",
+      "quote_source": "Delayed Quote",
+      "source": "yahoo-finance"
+    },
+    "MAR": {
+      "ticker": "MAR",
+      "price": 354.52,
+      "currency": "USD",
+      "as_of": "2026-05-05T20:00:00.000Z",
+      "market_state": "PRE",
+      "quote_source": "Delayed Quote",
+      "source": "yahoo-finance"
+    },
+    "MASI": {
+      "ticker": "MASI",
+      "price": 178.58,
+      "currency": "USD",
+      "as_of": "2026-05-05T20:00:01.000Z",
+      "market_state": "PRE",
+      "quote_source": "Delayed Quote",
+      "source": "yahoo-finance"
+    },
+    "MBLY": {
+      "ticker": "MBLY",
+      "price": 8.77,
+      "currency": "USD",
+      "as_of": "2026-05-05T20:00:01.000Z",
+      "market_state": "PRE",
+      "quote_source": "Delayed Quote",
+      "source": "yahoo-finance"
+    },
+    "MCD": {
+      "ticker": "MCD",
+      "price": 285.17,
+      "currency": "USD",
+      "as_of": "2026-05-05T20:00:02.000Z",
+      "market_state": "PRE",
+      "quote_source": "Delayed Quote",
+      "source": "yahoo-finance"
+    },
+    "MCK": {
+      "ticker": "MCK",
+      "price": 801.01,
+      "currency": "USD",
+      "as_of": "2026-05-05T20:00:02.000Z",
+      "market_state": "PRE",
+      "quote_source": "Delayed Quote",
+      "source": "yahoo-finance"
+    },
+    "MCO": {
+      "ticker": "MCO",
+      "price": 454.55,
+      "currency": "USD",
+      "as_of": "2026-05-05T20:00:02.000Z",
+      "market_state": "PRE",
+      "quote_source": "Delayed Quote",
+      "source": "yahoo-finance"
+    },
+    "MDB": {
+      "ticker": "MDB",
+      "price": 266.68,
+      "currency": "USD",
+      "as_of": "2026-05-05T20:00:00.000Z",
+      "market_state": "PRE",
+      "quote_source": "Delayed Quote",
+      "source": "yahoo-finance"
+    },
+    "MDLN": {
+      "ticker": "MDLN",
+      "price": 45.32,
+      "currency": "USD",
+      "as_of": "2026-05-05T20:00:01.000Z",
+      "market_state": "PRE",
+      "quote_source": "Delayed Quote",
+      "source": "yahoo-finance"
+    },
+    "MEDP": {
+      "ticker": "MEDP",
+      "price": 430.32,
+      "currency": "USD",
+      "as_of": "2026-05-05T20:00:01.000Z",
+      "market_state": "PRE",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -385,7 +2968,259 @@
       "price": 1817.31,
       "currency": "USD",
       "as_of": "2026-05-05T20:00:03.000Z",
-      "market_state": "POST",
+      "market_state": "PRE",
+      "quote_source": "Delayed Quote",
+      "source": "yahoo-finance"
+    },
+    "MET": {
+      "ticker": "MET",
+      "price": 79.9,
+      "currency": "USD",
+      "as_of": "2026-05-05T20:00:02.000Z",
+      "market_state": "PRE",
+      "quote_source": "Delayed Quote",
+      "source": "yahoo-finance"
+    },
+    "META": {
+      "ticker": "META",
+      "price": 604.96,
+      "currency": "USD",
+      "as_of": "2026-05-05T20:00:01.000Z",
+      "market_state": "PRE",
+      "quote_source": "Delayed Quote",
+      "source": "yahoo-finance"
+    },
+    "MGM": {
+      "ticker": "MGM",
+      "price": 37.91,
+      "currency": "USD",
+      "as_of": "2026-05-05T20:00:02.000Z",
+      "market_state": "PRE",
+      "quote_source": "Delayed Quote",
+      "source": "yahoo-finance"
+    },
+    "MHK": {
+      "ticker": "MHK",
+      "price": 97.39,
+      "currency": "USD",
+      "as_of": "2026-05-05T20:00:02.000Z",
+      "market_state": "PRE",
+      "quote_source": "Delayed Quote",
+      "source": "yahoo-finance"
+    },
+    "MKTX": {
+      "ticker": "MKTX",
+      "price": 151.29,
+      "currency": "USD",
+      "as_of": "2026-05-05T20:00:00.000Z",
+      "market_state": "PRE",
+      "quote_source": "Delayed Quote",
+      "source": "yahoo-finance"
+    },
+    "MLI": {
+      "ticker": "MLI",
+      "price": 136.26,
+      "currency": "USD",
+      "as_of": "2026-05-05T20:00:02.000Z",
+      "market_state": "PRE",
+      "quote_source": "Delayed Quote",
+      "source": "yahoo-finance"
+    },
+    "MMM": {
+      "ticker": "MMM",
+      "price": 142.82,
+      "currency": "USD",
+      "as_of": "2026-05-05T20:00:02.000Z",
+      "market_state": "PRE",
+      "quote_source": "Delayed Quote",
+      "source": "yahoo-finance"
+    },
+    "MNST": {
+      "ticker": "MNST",
+      "price": 75.8,
+      "currency": "USD",
+      "as_of": "2026-05-05T20:00:01.000Z",
+      "market_state": "PRE",
+      "quote_source": "Delayed Quote",
+      "source": "yahoo-finance"
+    },
+    "MNTN": {
+      "ticker": "MNTN",
+      "price": 11.36,
+      "currency": "USD",
+      "as_of": "2026-05-05T20:00:02.000Z",
+      "market_state": "PRE",
+      "quote_source": "Delayed Quote",
+      "source": "yahoo-finance"
+    },
+    "MO": {
+      "ticker": "MO",
+      "price": 72.79,
+      "currency": "USD",
+      "as_of": "2026-05-05T20:00:02.000Z",
+      "market_state": "PRE",
+      "quote_source": "Delayed Quote",
+      "source": "yahoo-finance"
+    },
+    "MOH": {
+      "ticker": "MOH",
+      "price": 192.17,
+      "currency": "USD",
+      "as_of": "2026-05-05T20:00:02.000Z",
+      "market_state": "PRE",
+      "quote_source": "Delayed Quote",
+      "source": "yahoo-finance"
+    },
+    "MOS": {
+      "ticker": "MOS",
+      "price": 23.26,
+      "currency": "USD",
+      "as_of": "2026-05-05T20:00:02.000Z",
+      "market_state": "PRE",
+      "quote_source": "Delayed Quote",
+      "source": "yahoo-finance"
+    },
+    "MPC": {
+      "ticker": "MPC",
+      "price": 260.51,
+      "currency": "USD",
+      "as_of": "2026-05-05T20:00:03.000Z",
+      "market_state": "PRE",
+      "quote_source": "Delayed Quote",
+      "source": "yahoo-finance"
+    },
+    "MPLX": {
+      "ticker": "MPLX",
+      "price": 55.66,
+      "currency": "USD",
+      "as_of": "2026-05-05T20:00:03.000Z",
+      "market_state": "PRE",
+      "quote_source": "Delayed Quote",
+      "source": "yahoo-finance"
+    },
+    "MPT": {
+      "ticker": "MPT",
+      "price": 5.03,
+      "currency": "USD",
+      "as_of": "2026-05-05T20:00:02.000Z",
+      "market_state": "PRE",
+      "quote_source": "Delayed Quote",
+      "source": "yahoo-finance"
+    },
+    "MRK": {
+      "ticker": "MRK",
+      "price": 113.15,
+      "currency": "USD",
+      "as_of": "2026-05-05T20:01:12.000Z",
+      "market_state": "PRE",
+      "quote_source": "Delayed Quote",
+      "source": "yahoo-finance"
+    },
+    "MRNA": {
+      "ticker": "MRNA",
+      "price": 46.71,
+      "currency": "USD",
+      "as_of": "2026-05-05T20:00:01.000Z",
+      "market_state": "PRE",
+      "quote_source": "Delayed Quote",
+      "source": "yahoo-finance"
+    },
+    "MRSH": {
+      "ticker": "MRSH",
+      "price": 167.27,
+      "currency": "USD",
+      "as_of": "2026-05-05T20:00:02.000Z",
+      "market_state": "PRE",
+      "quote_source": "Delayed Quote",
+      "source": "yahoo-finance"
+    },
+    "MRVL": {
+      "ticker": "MRVL",
+      "price": 168.75,
+      "currency": "USD",
+      "as_of": "2026-05-05T20:00:03.000Z",
+      "market_state": "PRE",
+      "quote_source": "Delayed Quote",
+      "source": "yahoo-finance"
+    },
+    "MS": {
+      "ticker": "MS",
+      "price": 189.25,
+      "currency": "USD",
+      "as_of": "2026-05-05T20:01:27.000Z",
+      "market_state": "PRE",
+      "quote_source": "Delayed Quote",
+      "source": "yahoo-finance"
+    },
+    "MSCI": {
+      "ticker": "MSCI",
+      "price": 580.88,
+      "currency": "USD",
+      "as_of": "2026-05-05T20:00:02.000Z",
+      "market_state": "PRE",
+      "quote_source": "Delayed Quote",
+      "source": "yahoo-finance"
+    },
+    "MSFT": {
+      "ticker": "MSFT",
+      "price": 411.38,
+      "currency": "USD",
+      "as_of": "2026-05-05T20:00:03.000Z",
+      "market_state": "PRE",
+      "quote_source": "Delayed Quote",
+      "source": "yahoo-finance"
+    },
+    "MSTR": {
+      "ticker": "MSTR",
+      "price": 186.9,
+      "currency": "USD",
+      "as_of": "2026-05-05T20:00:01.000Z",
+      "market_state": "PRE",
+      "quote_source": "Delayed Quote",
+      "source": "yahoo-finance"
+    },
+    "MTCH": {
+      "ticker": "MTCH",
+      "price": 37.65,
+      "currency": "USD",
+      "as_of": "2026-05-05T20:00:01.000Z",
+      "market_state": "PRE",
+      "quote_source": "Delayed Quote",
+      "source": "yahoo-finance"
+    },
+    "MTG": {
+      "ticker": "MTG",
+      "price": 26.24,
+      "currency": "USD",
+      "as_of": "2026-05-05T20:00:02.000Z",
+      "market_state": "PRE",
+      "quote_source": "Delayed Quote",
+      "source": "yahoo-finance"
+    },
+    "MTZ": {
+      "ticker": "MTZ",
+      "price": 437.51,
+      "currency": "USD",
+      "as_of": "2026-05-05T20:00:02.000Z",
+      "market_state": "PRE",
+      "quote_source": "Delayed Quote",
+      "source": "yahoo-finance"
+    },
+    "MU": {
+      "ticker": "MU",
+      "price": 640.2,
+      "currency": "USD",
+      "as_of": "2026-05-05T20:00:03.000Z",
+      "market_state": "PRE",
+      "quote_source": "Delayed Quote",
+      "source": "yahoo-finance"
+    },
+    "MUSA": {
+      "ticker": "MUSA",
+      "price": 604.52,
+      "currency": "USD",
+      "as_of": "2026-05-05T20:00:03.000Z",
+      "market_state": "PRE",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -394,7 +3229,106 @@
       "price": 29.85,
       "currency": "USD",
       "as_of": "2026-05-05T20:00:03.000Z",
-      "market_state": "POST",
+      "market_state": "PRE",
+      "quote_source": "Delayed Quote",
+      "source": "yahoo-finance"
+    },
+    "NAVN": {
+      "ticker": "NAVN",
+      "price": 18.57,
+      "currency": "USD",
+      "as_of": "2026-05-05T20:00:00.000Z",
+      "market_state": "PRE",
+      "quote_source": "Delayed Quote",
+      "source": "yahoo-finance"
+    },
+    "NBIX": {
+      "ticker": "NBIX",
+      "price": 135.06,
+      "currency": "USD",
+      "as_of": "2026-05-05T20:00:00.000Z",
+      "market_state": "PRE",
+      "quote_source": "Delayed Quote",
+      "source": "yahoo-finance"
+    },
+    "NDAQ": {
+      "ticker": "NDAQ",
+      "price": 89,
+      "currency": "USD",
+      "as_of": "2026-05-05T20:00:00.000Z",
+      "market_state": "PRE",
+      "quote_source": "Delayed Quote",
+      "source": "yahoo-finance"
+    },
+    "NDSN": {
+      "ticker": "NDSN",
+      "price": 282.69,
+      "currency": "USD",
+      "as_of": "2026-05-05T20:00:00.000Z",
+      "market_state": "PRE",
+      "quote_source": "Delayed Quote",
+      "source": "yahoo-finance"
+    },
+    "NEE": {
+      "ticker": "NEE",
+      "price": 96.28,
+      "currency": "USD",
+      "as_of": "2026-05-05T20:00:02.000Z",
+      "market_state": "PRE",
+      "quote_source": "Delayed Quote",
+      "source": "yahoo-finance"
+    },
+    "NEM": {
+      "ticker": "NEM",
+      "price": 109.01,
+      "currency": "USD",
+      "as_of": "2026-05-05T20:00:02.000Z",
+      "market_state": "PRE",
+      "quote_source": "Delayed Quote",
+      "source": "yahoo-finance"
+    },
+    "NFG": {
+      "ticker": "NFG",
+      "price": 82.04,
+      "currency": "USD",
+      "as_of": "2026-05-05T20:00:02.000Z",
+      "market_state": "PRE",
+      "quote_source": "Delayed Quote",
+      "source": "yahoo-finance"
+    },
+    "NFLX": {
+      "ticker": "NFLX",
+      "price": 87.89,
+      "currency": "USD",
+      "as_of": "2026-05-05T20:00:00.000Z",
+      "market_state": "PRE",
+      "quote_source": "Delayed Quote",
+      "source": "yahoo-finance"
+    },
+    "NKE": {
+      "ticker": "NKE",
+      "price": 43.06,
+      "currency": "USD",
+      "as_of": "2026-05-05T20:00:02.000Z",
+      "market_state": "PRE",
+      "quote_source": "Delayed Quote",
+      "source": "yahoo-finance"
+    },
+    "NOC": {
+      "ticker": "NOC",
+      "price": 558.6,
+      "currency": "USD",
+      "as_of": "2026-05-05T20:00:02.000Z",
+      "market_state": "PRE",
+      "quote_source": "Delayed Quote",
+      "source": "yahoo-finance"
+    },
+    "NOW": {
+      "ticker": "NOW",
+      "price": 92.01,
+      "currency": "USD",
+      "as_of": "2026-05-05T20:00:03.000Z",
+      "market_state": "PRE",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -403,7 +3337,43 @@
       "price": 24.89,
       "currency": "USD",
       "as_of": "2026-05-05T20:00:02.000Z",
-      "market_state": "POST",
+      "market_state": "PRE",
+      "quote_source": "Delayed Quote",
+      "source": "yahoo-finance"
+    },
+    "NRG": {
+      "ticker": "NRG",
+      "price": 157.43,
+      "currency": "USD",
+      "as_of": "2026-05-05T20:00:02.000Z",
+      "market_state": "PRE",
+      "quote_source": "Delayed Quote",
+      "source": "yahoo-finance"
+    },
+    "NSC": {
+      "ticker": "NSC",
+      "price": 313.57,
+      "currency": "USD",
+      "as_of": "2026-05-05T20:00:02.000Z",
+      "market_state": "PRE",
+      "quote_source": "Delayed Quote",
+      "source": "yahoo-finance"
+    },
+    "NTAP": {
+      "ticker": "NTAP",
+      "price": 114.14,
+      "currency": "USD",
+      "as_of": "2026-05-05T20:00:03.000Z",
+      "market_state": "PRE",
+      "quote_source": "Delayed Quote",
+      "source": "yahoo-finance"
+    },
+    "NTNX": {
+      "ticker": "NTNX",
+      "price": 43.43,
+      "currency": "USD",
+      "as_of": "2026-05-05T20:00:00.000Z",
+      "market_state": "PRE",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -412,7 +3382,115 @@
       "price": 206.77,
       "currency": "USD",
       "as_of": "2026-05-05T20:00:00.000Z",
-      "market_state": "POST",
+      "market_state": "PRE",
+      "quote_source": "Delayed Quote",
+      "source": "yahoo-finance"
+    },
+    "NTRS": {
+      "ticker": "NTRS",
+      "price": 161.6,
+      "currency": "USD",
+      "as_of": "2026-05-05T20:00:00.000Z",
+      "market_state": "PRE",
+      "quote_source": "Delayed Quote",
+      "source": "yahoo-finance"
+    },
+    "NTSK": {
+      "ticker": "NTSK",
+      "price": 10.77,
+      "currency": "USD",
+      "as_of": "2026-05-05T20:00:00.000Z",
+      "market_state": "PRE",
+      "quote_source": "Delayed Quote",
+      "source": "yahoo-finance"
+    },
+    "NU": {
+      "ticker": "NU",
+      "price": 14.25,
+      "currency": "USD",
+      "as_of": "2026-05-05T20:00:02.000Z",
+      "market_state": "PRE",
+      "quote_source": "Delayed Quote",
+      "source": "yahoo-finance"
+    },
+    "NVAX": {
+      "ticker": "NVAX",
+      "price": 8.1,
+      "currency": "USD",
+      "as_of": "2026-05-05T20:00:03.000Z",
+      "market_state": "PRE",
+      "quote_source": "Delayed Quote",
+      "source": "yahoo-finance"
+    },
+    "NVDA": {
+      "ticker": "NVDA",
+      "price": 196.5,
+      "currency": "USD",
+      "as_of": "2026-05-05T20:00:03.000Z",
+      "market_state": "PRE",
+      "quote_source": "Delayed Quote",
+      "source": "yahoo-finance"
+    },
+    "NVO": {
+      "ticker": "NVO",
+      "price": 44.87,
+      "currency": "USD",
+      "as_of": "2026-05-05T20:02:38.000Z",
+      "market_state": "PRE",
+      "quote_source": "Delayed Quote",
+      "source": "yahoo-finance"
+    },
+    "NWSA": {
+      "ticker": "NWSA",
+      "price": 25.44,
+      "currency": "USD",
+      "as_of": "2026-05-05T20:00:00.000Z",
+      "market_state": "PRE",
+      "quote_source": "Delayed Quote",
+      "source": "yahoo-finance"
+    },
+    "NYT": {
+      "ticker": "NYT",
+      "price": 77.26,
+      "currency": "USD",
+      "as_of": "2026-05-05T20:00:02.000Z",
+      "market_state": "PRE",
+      "quote_source": "Delayed Quote",
+      "source": "yahoo-finance"
+    },
+    "OC": {
+      "ticker": "OC",
+      "price": 122.9,
+      "currency": "USD",
+      "as_of": "2026-05-05T20:00:03.000Z",
+      "market_state": "PRE",
+      "quote_source": "Delayed Quote",
+      "source": "yahoo-finance"
+    },
+    "OKLO": {
+      "ticker": "OKLO",
+      "price": 68.38,
+      "currency": "USD",
+      "as_of": "2026-05-05T20:00:02.000Z",
+      "market_state": "PRE",
+      "quote_source": "Delayed Quote",
+      "source": "yahoo-finance"
+    },
+    "OLPX": {
+      "ticker": "OLPX",
+      "price": 2.035,
+      "currency": "USD",
+      "as_of": "2026-05-05T20:00:00.000Z",
+      "market_state": "PRE",
+      "quote_source": "Delayed Quote",
+      "source": "yahoo-finance"
+    },
+    "OMC": {
+      "ticker": "OMC",
+      "price": 77.64,
+      "currency": "USD",
+      "as_of": "2026-05-05T20:00:02.000Z",
+      "market_state": "PRE",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -421,7 +3499,7 @@
       "price": 102.67,
       "currency": "USD",
       "as_of": "2026-05-05T20:00:03.000Z",
-      "market_state": "POST",
+      "market_state": "PRE",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -430,7 +3508,133 @@
       "price": 21.3,
       "currency": "USD",
       "as_of": "2026-05-05T20:00:00.000Z",
-      "market_state": "POST",
+      "market_state": "PRE",
+      "quote_source": "Delayed Quote",
+      "source": "yahoo-finance"
+    },
+    "ORCL": {
+      "ticker": "ORCL",
+      "price": 185.35,
+      "currency": "USD",
+      "as_of": "2026-05-05T20:04:04.000Z",
+      "market_state": "PRE",
+      "quote_source": "Delayed Quote",
+      "source": "yahoo-finance"
+    },
+    "ORI": {
+      "ticker": "ORI",
+      "price": 39.25,
+      "currency": "USD",
+      "as_of": "2026-05-05T20:00:02.000Z",
+      "market_state": "PRE",
+      "quote_source": "Delayed Quote",
+      "source": "yahoo-finance"
+    },
+    "ORIC": {
+      "ticker": "ORIC",
+      "price": 9.57,
+      "currency": "USD",
+      "as_of": "2026-05-05T20:00:00.000Z",
+      "market_state": "PRE",
+      "quote_source": "Delayed Quote",
+      "source": "yahoo-finance"
+    },
+    "ORKA": {
+      "ticker": "ORKA",
+      "price": 68.95,
+      "currency": "USD",
+      "as_of": "2026-05-05T20:00:00.000Z",
+      "market_state": "PRE",
+      "quote_source": "Delayed Quote",
+      "source": "yahoo-finance"
+    },
+    "ORLY": {
+      "ticker": "ORLY",
+      "price": 95,
+      "currency": "USD",
+      "as_of": "2026-05-05T20:00:00.000Z",
+      "market_state": "PRE",
+      "quote_source": "Delayed Quote",
+      "source": "yahoo-finance"
+    },
+    "OSK": {
+      "ticker": "OSK",
+      "price": 153.27,
+      "currency": "USD",
+      "as_of": "2026-05-05T20:00:02.000Z",
+      "market_state": "PRE",
+      "quote_source": "Delayed Quote",
+      "source": "yahoo-finance"
+    },
+    "OTIS": {
+      "ticker": "OTIS",
+      "price": 75.62,
+      "currency": "USD",
+      "as_of": "2026-05-05T20:00:03.000Z",
+      "market_state": "PRE",
+      "quote_source": "Delayed Quote",
+      "source": "yahoo-finance"
+    },
+    "OVV": {
+      "ticker": "OVV",
+      "price": 63.08,
+      "currency": "USD",
+      "as_of": "2026-05-05T20:00:02.000Z",
+      "market_state": "PRE",
+      "quote_source": "Delayed Quote",
+      "source": "yahoo-finance"
+    },
+    "P": {
+      "ticker": "P",
+      "price": 74.63,
+      "currency": "USD",
+      "as_of": "2026-05-05T20:03:17.000Z",
+      "market_state": "PRE",
+      "quote_source": "Delayed Quote",
+      "source": "yahoo-finance"
+    },
+    "PANW": {
+      "ticker": "PANW",
+      "price": 183.98,
+      "currency": "USD",
+      "as_of": "2026-05-05T20:00:00.000Z",
+      "market_state": "PRE",
+      "quote_source": "Delayed Quote",
+      "source": "yahoo-finance"
+    },
+    "PATH": {
+      "ticker": "PATH",
+      "price": 10.7,
+      "currency": "USD",
+      "as_of": "2026-05-05T20:00:03.000Z",
+      "market_state": "PRE",
+      "quote_source": "Delayed Quote",
+      "source": "yahoo-finance"
+    },
+    "PB": {
+      "ticker": "PB",
+      "price": 69.55,
+      "currency": "USD",
+      "as_of": "2026-05-05T20:00:02.000Z",
+      "market_state": "PRE",
+      "quote_source": "Delayed Quote",
+      "source": "yahoo-finance"
+    },
+    "PCG": {
+      "ticker": "PCG",
+      "price": 16.33,
+      "currency": "USD",
+      "as_of": "2026-05-05T20:00:02.000Z",
+      "market_state": "PRE",
+      "quote_source": "Delayed Quote",
+      "source": "yahoo-finance"
+    },
+    "PCOR": {
+      "ticker": "PCOR",
+      "price": 54.69,
+      "currency": "USD",
+      "as_of": "2026-05-05T20:00:03.000Z",
+      "market_state": "PRE",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -439,7 +3643,88 @@
       "price": 7.65,
       "currency": "USD",
       "as_of": "2026-05-05T20:00:00.000Z",
-      "market_state": "POST",
+      "market_state": "PRE",
+      "quote_source": "Delayed Quote",
+      "source": "yahoo-finance"
+    },
+    "PDD": {
+      "ticker": "PDD",
+      "price": 96.75,
+      "currency": "USD",
+      "as_of": "2026-05-05T20:00:00.000Z",
+      "market_state": "PRE",
+      "quote_source": "Delayed Quote",
+      "source": "yahoo-finance"
+    },
+    "PEG": {
+      "ticker": "PEG",
+      "price": 79.73,
+      "currency": "USD",
+      "as_of": "2026-05-05T20:00:02.000Z",
+      "market_state": "PRE",
+      "quote_source": "Delayed Quote",
+      "source": "yahoo-finance"
+    },
+    "PEGA": {
+      "ticker": "PEGA",
+      "price": 36.95,
+      "currency": "USD",
+      "as_of": "2026-05-05T20:00:00.000Z",
+      "market_state": "PRE",
+      "quote_source": "Delayed Quote",
+      "source": "yahoo-finance"
+    },
+    "PEN": {
+      "ticker": "PEN",
+      "price": 323.86,
+      "currency": "USD",
+      "as_of": "2026-05-05T20:00:03.000Z",
+      "market_state": "PRE",
+      "quote_source": "Delayed Quote",
+      "source": "yahoo-finance"
+    },
+    "PEP": {
+      "ticker": "PEP",
+      "price": 155.04,
+      "currency": "USD",
+      "as_of": "2026-05-05T20:00:00.000Z",
+      "market_state": "PRE",
+      "quote_source": "Delayed Quote",
+      "source": "yahoo-finance"
+    },
+    "PEPG": {
+      "ticker": "PEPG",
+      "price": 1.93,
+      "currency": "USD",
+      "as_of": "2026-05-05T20:00:00.000Z",
+      "market_state": "PRE",
+      "quote_source": "Delayed Quote",
+      "source": "yahoo-finance"
+    },
+    "PFE": {
+      "ticker": "PFE",
+      "price": 26.45,
+      "currency": "USD",
+      "as_of": "2026-05-05T20:03:50.000Z",
+      "market_state": "PRE",
+      "quote_source": "Delayed Quote",
+      "source": "yahoo-finance"
+    },
+    "PFG": {
+      "ticker": "PFG",
+      "price": 100.87,
+      "currency": "USD",
+      "as_of": "2026-05-05T20:00:00.000Z",
+      "market_state": "PRE",
+      "quote_source": "Delayed Quote",
+      "source": "yahoo-finance"
+    },
+    "PG": {
+      "ticker": "PG",
+      "price": 144.9,
+      "currency": "USD",
+      "as_of": "2026-05-05T20:01:09.000Z",
+      "market_state": "PRE",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -448,7 +3733,70 @@
       "price": 18.98,
       "currency": "USD",
       "as_of": "2026-05-05T20:00:00.000Z",
-      "market_state": "POST",
+      "market_state": "PRE",
+      "quote_source": "Delayed Quote",
+      "source": "yahoo-finance"
+    },
+    "PGR": {
+      "ticker": "PGR",
+      "price": 197.74,
+      "currency": "USD",
+      "as_of": "2026-05-05T20:00:02.000Z",
+      "market_state": "PRE",
+      "quote_source": "Delayed Quote",
+      "source": "yahoo-finance"
+    },
+    "PH": {
+      "ticker": "PH",
+      "price": 872.69,
+      "currency": "USD",
+      "as_of": "2026-05-05T20:00:02.000Z",
+      "market_state": "PRE",
+      "quote_source": "Delayed Quote",
+      "source": "yahoo-finance"
+    },
+    "PINS": {
+      "ticker": "PINS",
+      "price": 22.28,
+      "currency": "USD",
+      "as_of": "2026-05-05T20:00:03.000Z",
+      "market_state": "PRE",
+      "quote_source": "Delayed Quote",
+      "source": "yahoo-finance"
+    },
+    "PKG": {
+      "ticker": "PKG",
+      "price": 222.71,
+      "currency": "USD",
+      "as_of": "2026-05-05T20:00:02.000Z",
+      "market_state": "PRE",
+      "quote_source": "Delayed Quote",
+      "source": "yahoo-finance"
+    },
+    "PLD": {
+      "ticker": "PLD",
+      "price": 140.27,
+      "currency": "USD",
+      "as_of": "2026-05-05T20:00:03.000Z",
+      "market_state": "PRE",
+      "quote_source": "Delayed Quote",
+      "source": "yahoo-finance"
+    },
+    "PLTR": {
+      "ticker": "PLTR",
+      "price": 135.91,
+      "currency": "USD",
+      "as_of": "2026-05-05T20:00:03.000Z",
+      "market_state": "PRE",
+      "quote_source": "Delayed Quote",
+      "source": "yahoo-finance"
+    },
+    "PLUG": {
+      "ticker": "PLUG",
+      "price": 3.32,
+      "currency": "USD",
+      "as_of": "2026-05-05T20:00:03.000Z",
+      "market_state": "PRE",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -457,7 +3805,61 @@
       "price": 169.46,
       "currency": "USD",
       "as_of": "2026-05-05T20:00:02.000Z",
-      "market_state": "POST",
+      "market_state": "PRE",
+      "quote_source": "Delayed Quote",
+      "source": "yahoo-finance"
+    },
+    "PNC": {
+      "ticker": "PNC",
+      "price": 221.63,
+      "currency": "USD",
+      "as_of": "2026-05-05T20:00:02.000Z",
+      "market_state": "PRE",
+      "quote_source": "Delayed Quote",
+      "source": "yahoo-finance"
+    },
+    "PONY": {
+      "ticker": "PONY",
+      "price": 10.2,
+      "currency": "USD",
+      "as_of": "2026-05-05T20:00:00.000Z",
+      "market_state": "PRE",
+      "quote_source": "Delayed Quote",
+      "source": "yahoo-finance"
+    },
+    "POST": {
+      "ticker": "POST",
+      "price": 103.71,
+      "currency": "USD",
+      "as_of": "2026-05-05T20:00:03.000Z",
+      "market_state": "PRE",
+      "quote_source": "Delayed Quote",
+      "source": "yahoo-finance"
+    },
+    "PPC": {
+      "ticker": "PPC",
+      "price": 31.32,
+      "currency": "USD",
+      "as_of": "2026-05-05T20:00:00.000Z",
+      "market_state": "PRE",
+      "quote_source": "Delayed Quote",
+      "source": "yahoo-finance"
+    },
+    "PRMB": {
+      "ticker": "PRMB",
+      "price": 20.27,
+      "currency": "USD",
+      "as_of": "2026-05-05T20:00:02.000Z",
+      "market_state": "PRE",
+      "quote_source": "Delayed Quote",
+      "source": "yahoo-finance"
+    },
+    "PSA": {
+      "ticker": "PSA",
+      "price": 298.82,
+      "currency": "USD",
+      "as_of": "2026-05-05T20:00:03.000Z",
+      "market_state": "PRE",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -466,7 +3868,16 @@
       "price": 69.09,
       "currency": "USD",
       "as_of": "2026-05-05T20:00:00.000Z",
-      "market_state": "POST",
+      "market_state": "PRE",
+      "quote_source": "Delayed Quote",
+      "source": "yahoo-finance"
+    },
+    "PSX": {
+      "ticker": "PSX",
+      "price": 180.26,
+      "currency": "USD",
+      "as_of": "2026-05-05T20:00:03.000Z",
+      "market_state": "PRE",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -475,7 +3886,16 @@
       "price": 99.21,
       "currency": "USD",
       "as_of": "2026-05-05T20:00:00.000Z",
-      "market_state": "POST",
+      "market_state": "PRE",
+      "quote_source": "Delayed Quote",
+      "source": "yahoo-finance"
+    },
+    "PTON": {
+      "ticker": "PTON",
+      "price": 5.16,
+      "currency": "USD",
+      "as_of": "2026-05-05T20:00:00.000Z",
+      "market_state": "PRE",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -484,7 +3904,52 @@
       "price": 16.61,
       "currency": "USD",
       "as_of": "2026-05-05T20:00:02.000Z",
-      "market_state": "POST",
+      "market_state": "PRE",
+      "quote_source": "Delayed Quote",
+      "source": "yahoo-finance"
+    },
+    "PYPL": {
+      "ticker": "PYPL",
+      "price": 46.49,
+      "currency": "USD",
+      "as_of": "2026-05-05T20:00:03.000Z",
+      "market_state": "PRE",
+      "quote_source": "Delayed Quote",
+      "source": "yahoo-finance"
+    },
+    "QCOM": {
+      "ticker": "QCOM",
+      "price": 186.55,
+      "currency": "USD",
+      "as_of": "2026-05-05T20:00:03.000Z",
+      "market_state": "PRE",
+      "quote_source": "Delayed Quote",
+      "source": "yahoo-finance"
+    },
+    "QQQ": {
+      "ticker": "QQQ",
+      "price": 681.61,
+      "currency": "USD",
+      "as_of": "2026-05-05T20:00:03.000Z",
+      "market_state": "PRE",
+      "quote_source": "Delayed Quote",
+      "source": "yahoo-finance"
+    },
+    "QRVO": {
+      "ticker": "QRVO",
+      "price": 96.35,
+      "currency": "USD",
+      "as_of": "2026-05-05T20:00:00.000Z",
+      "market_state": "PRE",
+      "quote_source": "Delayed Quote",
+      "source": "yahoo-finance"
+    },
+    "QS": {
+      "ticker": "QS",
+      "price": 7.26,
+      "currency": "USD",
+      "as_of": "2026-05-05T20:00:00.000Z",
+      "market_state": "PRE",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -493,7 +3958,70 @@
       "price": 81.67,
       "currency": "USD",
       "as_of": "2026-05-05T20:01:52.000Z",
-      "market_state": "POST",
+      "market_state": "PRE",
+      "quote_source": "Delayed Quote",
+      "source": "yahoo-finance"
+    },
+    "RAL": {
+      "ticker": "RAL",
+      "price": 46.45,
+      "currency": "USD",
+      "as_of": "2026-05-05T20:00:02.000Z",
+      "market_state": "PRE",
+      "quote_source": "Delayed Quote",
+      "source": "yahoo-finance"
+    },
+    "RBLX": {
+      "ticker": "RBLX",
+      "price": 44.04,
+      "currency": "USD",
+      "as_of": "2026-05-05T20:03:25.000Z",
+      "market_state": "PRE",
+      "quote_source": "Delayed Quote",
+      "source": "yahoo-finance"
+    },
+    "RDDT": {
+      "ticker": "RDDT",
+      "price": 171.63,
+      "currency": "USD",
+      "as_of": "2026-05-05T20:03:03.000Z",
+      "market_state": "PRE",
+      "quote_source": "Delayed Quote",
+      "source": "yahoo-finance"
+    },
+    "REGN": {
+      "ticker": "REGN",
+      "price": 702.27,
+      "currency": "USD",
+      "as_of": "2026-05-05T20:00:03.000Z",
+      "market_state": "PRE",
+      "quote_source": "Delayed Quote",
+      "source": "yahoo-finance"
+    },
+    "RERE": {
+      "ticker": "RERE",
+      "price": 4.41,
+      "currency": "USD",
+      "as_of": "2026-05-05T20:00:03.000Z",
+      "market_state": "PRE",
+      "quote_source": "Delayed Quote",
+      "source": "yahoo-finance"
+    },
+    "RGA": {
+      "ticker": "RGA",
+      "price": 213.46,
+      "currency": "USD",
+      "as_of": "2026-05-05T20:00:03.000Z",
+      "market_state": "PRE",
+      "quote_source": "Delayed Quote",
+      "source": "yahoo-finance"
+    },
+    "RGLD": {
+      "ticker": "RGLD",
+      "price": 225.9,
+      "currency": "USD",
+      "as_of": "2026-05-05T20:00:00.000Z",
+      "market_state": "PRE",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -502,7 +4030,16 @@
       "price": 123.48,
       "currency": "USD",
       "as_of": "2026-05-05T20:00:03.000Z",
-      "market_state": "POST",
+      "market_state": "PRE",
+      "quote_source": "Delayed Quote",
+      "source": "yahoo-finance"
+    },
+    "RHI": {
+      "ticker": "RHI",
+      "price": 26.83,
+      "currency": "USD",
+      "as_of": "2026-05-05T20:00:02.000Z",
+      "market_state": "PRE",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -511,7 +4048,52 @@
       "price": 20.35,
       "currency": "USD",
       "as_of": "2026-05-05T20:00:03.000Z",
-      "market_state": "POST",
+      "market_state": "PRE",
+      "quote_source": "Delayed Quote",
+      "source": "yahoo-finance"
+    },
+    "RJF": {
+      "ticker": "RJF",
+      "price": 158.87,
+      "currency": "USD",
+      "as_of": "2026-05-05T20:00:02.000Z",
+      "market_state": "PRE",
+      "quote_source": "Delayed Quote",
+      "source": "yahoo-finance"
+    },
+    "RKLB": {
+      "ticker": "RKLB",
+      "price": 78.76,
+      "currency": "USD",
+      "as_of": "2026-05-05T20:00:00.000Z",
+      "market_state": "PRE",
+      "quote_source": "Delayed Quote",
+      "source": "yahoo-finance"
+    },
+    "RKT": {
+      "ticker": "RKT",
+      "price": 14.09,
+      "currency": "USD",
+      "as_of": "2026-05-05T20:00:02.000Z",
+      "market_state": "PRE",
+      "quote_source": "Delayed Quote",
+      "source": "yahoo-finance"
+    },
+    "RL": {
+      "ticker": "RL",
+      "price": 360.02,
+      "currency": "USD",
+      "as_of": "2026-05-05T20:00:02.000Z",
+      "market_state": "PRE",
+      "quote_source": "Delayed Quote",
+      "source": "yahoo-finance"
+    },
+    "RNG": {
+      "ticker": "RNG",
+      "price": 47.75,
+      "currency": "USD",
+      "as_of": "2026-05-05T20:00:03.000Z",
+      "market_state": "PRE",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -520,7 +4102,43 @@
       "price": 124.41,
       "currency": "USD",
       "as_of": "2026-05-05T20:00:03.000Z",
-      "market_state": "POST",
+      "market_state": "PRE",
+      "quote_source": "Delayed Quote",
+      "source": "yahoo-finance"
+    },
+    "ROP": {
+      "ticker": "ROP",
+      "price": 356.56,
+      "currency": "USD",
+      "as_of": "2026-05-05T20:00:00.000Z",
+      "market_state": "PRE",
+      "quote_source": "Delayed Quote",
+      "source": "yahoo-finance"
+    },
+    "ROST": {
+      "ticker": "ROST",
+      "price": 227.42,
+      "currency": "USD",
+      "as_of": "2026-05-05T20:00:00.000Z",
+      "market_state": "PRE",
+      "quote_source": "Delayed Quote",
+      "source": "yahoo-finance"
+    },
+    "RRX": {
+      "ticker": "RRX",
+      "price": 222.02,
+      "currency": "USD",
+      "as_of": "2026-05-05T20:00:02.000Z",
+      "market_state": "PRE",
+      "quote_source": "Delayed Quote",
+      "source": "yahoo-finance"
+    },
+    "RSG": {
+      "ticker": "RSG",
+      "price": 203.88,
+      "currency": "USD",
+      "as_of": "2026-05-05T20:00:02.000Z",
+      "market_state": "PRE",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -529,7 +4147,34 @@
       "price": 203.24,
       "currency": "USD",
       "as_of": "2026-05-05T20:00:00.000Z",
-      "market_state": "POST",
+      "market_state": "PRE",
+      "quote_source": "Delayed Quote",
+      "source": "yahoo-finance"
+    },
+    "RTX": {
+      "ticker": "RTX",
+      "price": 172.87,
+      "currency": "USD",
+      "as_of": "2026-05-05T20:00:02.000Z",
+      "market_state": "PRE",
+      "quote_source": "Delayed Quote",
+      "source": "yahoo-finance"
+    },
+    "RYAN": {
+      "ticker": "RYAN",
+      "price": 30.55,
+      "currency": "USD",
+      "as_of": "2026-05-05T20:00:02.000Z",
+      "market_state": "PRE",
+      "quote_source": "Delayed Quote",
+      "source": "yahoo-finance"
+    },
+    "SAIA": {
+      "ticker": "SAIA",
+      "price": 422.31,
+      "currency": "USD",
+      "as_of": "2026-05-05T20:00:00.000Z",
+      "market_state": "PRE",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -538,7 +4183,7 @@
       "price": 117.34,
       "currency": "USD",
       "as_of": "2026-05-05T20:00:00.000Z",
-      "market_state": "POST",
+      "market_state": "PRE",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -547,7 +4192,16 @@
       "price": 171.03,
       "currency": "USD",
       "as_of": "2026-05-05T20:00:02.000Z",
-      "market_state": "POST",
+      "market_state": "PRE",
+      "quote_source": "Delayed Quote",
+      "source": "yahoo-finance"
+    },
+    "SCHW": {
+      "ticker": "SCHW",
+      "price": 92.4,
+      "currency": "USD",
+      "as_of": "2026-05-05T20:00:02.000Z",
+      "market_state": "PRE",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -556,7 +4210,16 @@
       "price": 84.48,
       "currency": "USD",
       "as_of": "2026-05-05T20:00:02.000Z",
-      "market_state": "POST",
+      "market_state": "PRE",
+      "quote_source": "Delayed Quote",
+      "source": "yahoo-finance"
+    },
+    "SEG": {
+      "ticker": "SEG",
+      "price": 22.44,
+      "currency": "USD",
+      "as_of": "2026-05-05T20:00:02.000Z",
+      "market_state": "PRE",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -565,7 +4228,115 @@
       "price": 75.68,
       "currency": "USD",
       "as_of": "2026-05-05T20:00:02.000Z",
-      "market_state": "POST",
+      "market_state": "PRE",
+      "quote_source": "Delayed Quote",
+      "source": "yahoo-finance"
+    },
+    "SF": {
+      "ticker": "SF",
+      "price": 77.75,
+      "currency": "USD",
+      "as_of": "2026-05-05T20:00:02.000Z",
+      "market_state": "PRE",
+      "quote_source": "Delayed Quote",
+      "source": "yahoo-finance"
+    },
+    "SFIX": {
+      "ticker": "SFIX",
+      "price": 3.71,
+      "currency": "USD",
+      "as_of": "2026-05-05T20:00:00.000Z",
+      "market_state": "PRE",
+      "quote_source": "Delayed Quote",
+      "source": "yahoo-finance"
+    },
+    "SFM": {
+      "ticker": "SFM",
+      "price": 78.75,
+      "currency": "USD",
+      "as_of": "2026-05-05T20:00:00.000Z",
+      "market_state": "PRE",
+      "quote_source": "Delayed Quote",
+      "source": "yahoo-finance"
+    },
+    "SGI": {
+      "ticker": "SGI",
+      "price": 74.5,
+      "currency": "USD",
+      "as_of": "2026-05-05T20:00:02.000Z",
+      "market_state": "PRE",
+      "quote_source": "Delayed Quote",
+      "source": "yahoo-finance"
+    },
+    "SHOP": {
+      "ticker": "SHOP",
+      "price": 107.63,
+      "currency": "USD",
+      "as_of": "2026-05-05T20:00:03.000Z",
+      "market_state": "PRE",
+      "quote_source": "Delayed Quote",
+      "source": "yahoo-finance"
+    },
+    "SHW": {
+      "ticker": "SHW",
+      "price": 312.46,
+      "currency": "USD",
+      "as_of": "2026-05-05T20:00:02.000Z",
+      "market_state": "PRE",
+      "quote_source": "Delayed Quote",
+      "source": "yahoo-finance"
+    },
+    "SIGI": {
+      "ticker": "SIGI",
+      "price": 82.15,
+      "currency": "USD",
+      "as_of": "2026-05-05T20:00:00.000Z",
+      "market_state": "PRE",
+      "quote_source": "Delayed Quote",
+      "source": "yahoo-finance"
+    },
+    "SION": {
+      "ticker": "SION",
+      "price": 40.97,
+      "currency": "USD",
+      "as_of": "2026-05-05T20:00:00.000Z",
+      "market_state": "PRE",
+      "quote_source": "Delayed Quote",
+      "source": "yahoo-finance"
+    },
+    "SJM": {
+      "ticker": "SJM",
+      "price": 96.69,
+      "currency": "USD",
+      "as_of": "2026-05-05T20:00:02.000Z",
+      "market_state": "PRE",
+      "quote_source": "Delayed Quote",
+      "source": "yahoo-finance"
+    },
+    "SLB": {
+      "ticker": "SLB",
+      "price": 56,
+      "currency": "USD",
+      "as_of": "2026-05-05T20:00:02.000Z",
+      "market_state": "PRE",
+      "quote_source": "Delayed Quote",
+      "source": "yahoo-finance"
+    },
+    "SMCI": {
+      "ticker": "SMCI",
+      "price": 27.83,
+      "currency": "USD",
+      "as_of": "2026-05-05T20:00:00.000Z",
+      "market_state": "PRE",
+      "quote_source": "Delayed Quote",
+      "source": "yahoo-finance"
+    },
+    "SMTC": {
+      "ticker": "SMTC",
+      "price": 112.98,
+      "currency": "USD",
+      "as_of": "2026-05-05T20:00:00.000Z",
+      "market_state": "PRE",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -574,7 +4345,97 @@
       "price": 1406.32,
       "currency": "USD",
       "as_of": "2026-05-05T20:00:00.000Z",
-      "market_state": "POST",
+      "market_state": "PRE",
+      "quote_source": "Delayed Quote",
+      "source": "yahoo-finance"
+    },
+    "SNOW": {
+      "ticker": "SNOW",
+      "price": 141.71,
+      "currency": "USD",
+      "as_of": "2026-05-05T20:00:03.000Z",
+      "market_state": "PRE",
+      "quote_source": "Delayed Quote",
+      "source": "yahoo-finance"
+    },
+    "SNPS": {
+      "ticker": "SNPS",
+      "price": 502.51,
+      "currency": "USD",
+      "as_of": "2026-05-05T20:00:00.000Z",
+      "market_state": "PRE",
+      "quote_source": "Delayed Quote",
+      "source": "yahoo-finance"
+    },
+    "SOFI": {
+      "ticker": "SOFI",
+      "price": 16.02,
+      "currency": "USD",
+      "as_of": "2026-05-05T20:00:00.000Z",
+      "market_state": "PRE",
+      "quote_source": "Delayed Quote",
+      "source": "yahoo-finance"
+    },
+    "SPGI": {
+      "ticker": "SPGI",
+      "price": 423.87,
+      "currency": "USD",
+      "as_of": "2026-05-05T20:00:02.000Z",
+      "market_state": "PRE",
+      "quote_source": "Delayed Quote",
+      "source": "yahoo-finance"
+    },
+    "SPRY": {
+      "ticker": "SPRY",
+      "price": 9.03,
+      "currency": "USD",
+      "as_of": "2026-05-05T20:00:00.000Z",
+      "market_state": "PRE",
+      "quote_source": "Delayed Quote",
+      "source": "yahoo-finance"
+    },
+    "SPY": {
+      "ticker": "SPY",
+      "price": 723.77,
+      "currency": "USD",
+      "as_of": "2026-05-05T20:00:03.000Z",
+      "market_state": "PRE",
+      "quote_source": "Delayed Quote",
+      "source": "yahoo-finance"
+    },
+    "SRE": {
+      "ticker": "SRE",
+      "price": 94.37,
+      "currency": "USD",
+      "as_of": "2026-05-05T20:00:03.000Z",
+      "market_state": "PRE",
+      "quote_source": "Delayed Quote",
+      "source": "yahoo-finance"
+    },
+    "SRTA": {
+      "ticker": "SRTA",
+      "price": 4.82,
+      "currency": "USD",
+      "as_of": "2026-05-05T20:00:00.000Z",
+      "market_state": "PRE",
+      "quote_source": "Delayed Quote",
+      "source": "yahoo-finance"
+    },
+    "SSNC": {
+      "ticker": "SSNC",
+      "price": 69.28,
+      "currency": "USD",
+      "as_of": "2026-05-05T20:00:00.000Z",
+      "market_state": "PRE",
+      "quote_source": "Delayed Quote",
+      "source": "yahoo-finance"
+    },
+    "STEP": {
+      "ticker": "STEP",
+      "price": 55.03,
+      "currency": "USD",
+      "as_of": "2026-05-05T20:00:00.000Z",
+      "market_state": "PRE",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -583,7 +4444,16 @@
       "price": 57.18,
       "currency": "USD",
       "as_of": "2026-05-05T20:00:02.000Z",
-      "market_state": "POST",
+      "market_state": "PRE",
+      "quote_source": "Delayed Quote",
+      "source": "yahoo-finance"
+    },
+    "STT": {
+      "ticker": "STT",
+      "price": 148.68,
+      "currency": "USD",
+      "as_of": "2026-05-05T20:00:02.000Z",
+      "market_state": "PRE",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -592,7 +4462,70 @@
       "price": 7.6,
       "currency": "USD",
       "as_of": "2026-05-05T20:00:02.000Z",
-      "market_state": "POST",
+      "market_state": "PRE",
+      "quote_source": "Delayed Quote",
+      "source": "yahoo-finance"
+    },
+    "STX": {
+      "ticker": "STX",
+      "price": 771.01,
+      "currency": "USD",
+      "as_of": "2026-05-05T20:00:00.000Z",
+      "market_state": "PRE",
+      "quote_source": "Delayed Quote",
+      "source": "yahoo-finance"
+    },
+    "SU": {
+      "ticker": "SU",
+      "price": 69.65,
+      "currency": "USD",
+      "as_of": "2026-05-05T20:04:02.000Z",
+      "market_state": "PRE",
+      "quote_source": "Delayed Quote",
+      "source": "yahoo-finance"
+    },
+    "SWKS": {
+      "ticker": "SWKS",
+      "price": 72.56,
+      "currency": "USD",
+      "as_of": "2026-05-05T20:00:00.000Z",
+      "market_state": "PRE",
+      "quote_source": "Delayed Quote",
+      "source": "yahoo-finance"
+    },
+    "SYF": {
+      "ticker": "SYF",
+      "price": 73.78,
+      "currency": "USD",
+      "as_of": "2026-05-05T20:00:03.000Z",
+      "market_state": "PRE",
+      "quote_source": "Delayed Quote",
+      "source": "yahoo-finance"
+    },
+    "SYY": {
+      "ticker": "SYY",
+      "price": 72.84,
+      "currency": "USD",
+      "as_of": "2026-05-05T20:00:02.000Z",
+      "market_state": "PRE",
+      "quote_source": "Delayed Quote",
+      "source": "yahoo-finance"
+    },
+    "T": {
+      "ticker": "T",
+      "price": 25.9,
+      "currency": "USD",
+      "as_of": "2026-05-05T20:03:26.000Z",
+      "market_state": "PRE",
+      "quote_source": "Delayed Quote",
+      "source": "yahoo-finance"
+    },
+    "TAC": {
+      "ticker": "TAC",
+      "price": 12.6,
+      "currency": "USD",
+      "as_of": "2026-05-05T20:00:02.000Z",
+      "market_state": "PRE",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -601,7 +4534,34 @@
       "price": 38.2,
       "currency": "USD",
       "as_of": "2026-05-05T20:00:02.000Z",
-      "market_state": "POST",
+      "market_state": "PRE",
+      "quote_source": "Delayed Quote",
+      "source": "yahoo-finance"
+    },
+    "TDS": {
+      "ticker": "TDS",
+      "price": 45.38,
+      "currency": "USD",
+      "as_of": "2026-05-05T20:00:02.000Z",
+      "market_state": "PRE",
+      "quote_source": "Delayed Quote",
+      "source": "yahoo-finance"
+    },
+    "TEAM": {
+      "ticker": "TEAM",
+      "price": 92.35,
+      "currency": "USD",
+      "as_of": "2026-05-05T20:00:00.000Z",
+      "market_state": "PRE",
+      "quote_source": "Delayed Quote",
+      "source": "yahoo-finance"
+    },
+    "TER": {
+      "ticker": "TER",
+      "price": 357.1,
+      "currency": "USD",
+      "as_of": "2026-05-05T20:00:00.000Z",
+      "market_state": "PRE",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -610,7 +4570,151 @@
       "price": 35.86,
       "currency": "USD",
       "as_of": "2026-05-05T20:00:03.000Z",
-      "market_state": "POST",
+      "market_state": "PRE",
+      "quote_source": "Delayed Quote",
+      "source": "yahoo-finance"
+    },
+    "TFC": {
+      "ticker": "TFC",
+      "price": 49.95,
+      "currency": "USD",
+      "as_of": "2026-05-05T20:00:03.000Z",
+      "market_state": "PRE",
+      "quote_source": "Delayed Quote",
+      "source": "yahoo-finance"
+    },
+    "TFIN": {
+      "ticker": "TFIN",
+      "price": 67.36,
+      "currency": "USD",
+      "as_of": "2026-05-05T20:00:03.000Z",
+      "market_state": "PRE",
+      "quote_source": "Delayed Quote",
+      "source": "yahoo-finance"
+    },
+    "TFX": {
+      "ticker": "TFX",
+      "price": 120.69,
+      "currency": "USD",
+      "as_of": "2026-05-05T20:00:02.000Z",
+      "market_state": "PRE",
+      "quote_source": "Delayed Quote",
+      "source": "yahoo-finance"
+    },
+    "TGT": {
+      "ticker": "TGT",
+      "price": 128.82,
+      "currency": "USD",
+      "as_of": "2026-05-05T20:00:02.000Z",
+      "market_state": "PRE",
+      "quote_source": "Delayed Quote",
+      "source": "yahoo-finance"
+    },
+    "THC": {
+      "ticker": "THC",
+      "price": 186.91,
+      "currency": "USD",
+      "as_of": "2026-05-05T20:00:03.000Z",
+      "market_state": "PRE",
+      "quote_source": "Delayed Quote",
+      "source": "yahoo-finance"
+    },
+    "TIC": {
+      "ticker": "TIC",
+      "price": 9.5,
+      "currency": "USD",
+      "as_of": "2026-05-05T20:00:02.000Z",
+      "market_state": "PRE",
+      "quote_source": "Delayed Quote",
+      "source": "yahoo-finance"
+    },
+    "TJX": {
+      "ticker": "TJX",
+      "price": 154.96,
+      "currency": "USD",
+      "as_of": "2026-05-05T20:00:02.000Z",
+      "market_state": "PRE",
+      "quote_source": "Delayed Quote",
+      "source": "yahoo-finance"
+    },
+    "TLN": {
+      "ticker": "TLN",
+      "price": 384.9,
+      "currency": "USD",
+      "as_of": "2026-05-05T20:00:00.000Z",
+      "market_state": "PRE",
+      "quote_source": "Delayed Quote",
+      "source": "yahoo-finance"
+    },
+    "TMHC": {
+      "ticker": "TMHC",
+      "price": 59.44,
+      "currency": "USD",
+      "as_of": "2026-05-05T20:00:03.000Z",
+      "market_state": "PRE",
+      "quote_source": "Delayed Quote",
+      "source": "yahoo-finance"
+    },
+    "TMO": {
+      "ticker": "TMO",
+      "price": 466.76,
+      "currency": "USD",
+      "as_of": "2026-05-05T20:00:02.000Z",
+      "market_state": "PRE",
+      "quote_source": "Delayed Quote",
+      "source": "yahoo-finance"
+    },
+    "TMUS": {
+      "ticker": "TMUS",
+      "price": 194.31,
+      "currency": "USD",
+      "as_of": "2026-05-05T20:00:03.000Z",
+      "market_state": "PRE",
+      "quote_source": "Delayed Quote",
+      "source": "yahoo-finance"
+    },
+    "TOL": {
+      "ticker": "TOL",
+      "price": 137.28,
+      "currency": "USD",
+      "as_of": "2026-05-05T20:00:02.000Z",
+      "market_state": "PRE",
+      "quote_source": "Delayed Quote",
+      "source": "yahoo-finance"
+    },
+    "TPG": {
+      "ticker": "TPG",
+      "price": 45.61,
+      "currency": "USD",
+      "as_of": "2026-05-05T20:00:00.000Z",
+      "market_state": "PRE",
+      "quote_source": "Delayed Quote",
+      "source": "yahoo-finance"
+    },
+    "TPR": {
+      "ticker": "TPR",
+      "price": 141.39,
+      "currency": "USD",
+      "as_of": "2026-05-05T20:00:03.000Z",
+      "market_state": "PRE",
+      "quote_source": "Delayed Quote",
+      "source": "yahoo-finance"
+    },
+    "TRV": {
+      "ticker": "TRV",
+      "price": 301.35,
+      "currency": "USD",
+      "as_of": "2026-05-05T20:00:03.000Z",
+      "market_state": "PRE",
+      "quote_source": "Delayed Quote",
+      "source": "yahoo-finance"
+    },
+    "TRVI": {
+      "ticker": "TRVI",
+      "price": 14.66,
+      "currency": "USD",
+      "as_of": "2026-05-05T20:00:00.000Z",
+      "market_state": "PRE",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -619,7 +4723,16 @@
       "price": 225.53,
       "currency": "USD",
       "as_of": "2026-05-05T20:00:00.000Z",
-      "market_state": "POST",
+      "market_state": "PRE",
+      "quote_source": "Delayed Quote",
+      "source": "yahoo-finance"
+    },
+    "TSLA": {
+      "ticker": "TSLA",
+      "price": 389.37,
+      "currency": "USD",
+      "as_of": "2026-05-05T20:00:03.000Z",
+      "market_state": "PRE",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -628,7 +4741,97 @@
       "price": 394.41,
       "currency": "USD",
       "as_of": "2026-05-05T20:00:02.000Z",
-      "market_state": "POST",
+      "market_state": "PRE",
+      "quote_source": "Delayed Quote",
+      "source": "yahoo-finance"
+    },
+    "TSN": {
+      "ticker": "TSN",
+      "price": 68.44,
+      "currency": "USD",
+      "as_of": "2026-05-05T20:00:02.000Z",
+      "market_state": "PRE",
+      "quote_source": "Delayed Quote",
+      "source": "yahoo-finance"
+    },
+    "TTC": {
+      "ticker": "TTC",
+      "price": 94.04,
+      "currency": "USD",
+      "as_of": "2026-05-05T20:00:02.000Z",
+      "market_state": "PRE",
+      "quote_source": "Delayed Quote",
+      "source": "yahoo-finance"
+    },
+    "TTD": {
+      "ticker": "TTD",
+      "price": 24.61,
+      "currency": "USD",
+      "as_of": "2026-05-05T20:00:00.000Z",
+      "market_state": "PRE",
+      "quote_source": "Delayed Quote",
+      "source": "yahoo-finance"
+    },
+    "TTWO": {
+      "ticker": "TTWO",
+      "price": 223.11,
+      "currency": "USD",
+      "as_of": "2026-05-05T20:00:00.000Z",
+      "market_state": "PRE",
+      "quote_source": "Delayed Quote",
+      "source": "yahoo-finance"
+    },
+    "TW": {
+      "ticker": "TW",
+      "price": 110.21,
+      "currency": "USD",
+      "as_of": "2026-05-05T20:00:00.000Z",
+      "market_state": "PRE",
+      "quote_source": "Delayed Quote",
+      "source": "yahoo-finance"
+    },
+    "TWLO": {
+      "ticker": "TWLO",
+      "price": 195.58,
+      "currency": "USD",
+      "as_of": "2026-05-05T20:00:02.000Z",
+      "market_state": "PRE",
+      "quote_source": "Delayed Quote",
+      "source": "yahoo-finance"
+    },
+    "TXN": {
+      "ticker": "TXN",
+      "price": 281,
+      "currency": "USD",
+      "as_of": "2026-05-05T20:00:00.000Z",
+      "market_state": "PRE",
+      "quote_source": "Delayed Quote",
+      "source": "yahoo-finance"
+    },
+    "TXNM": {
+      "ticker": "TXNM",
+      "price": 59.17,
+      "currency": "USD",
+      "as_of": "2026-05-05T20:00:02.000Z",
+      "market_state": "PRE",
+      "quote_source": "Delayed Quote",
+      "source": "yahoo-finance"
+    },
+    "TXRH": {
+      "ticker": "TXRH",
+      "price": 158.03,
+      "currency": "USD",
+      "as_of": "2026-05-05T20:00:00.000Z",
+      "market_state": "PRE",
+      "quote_source": "Delayed Quote",
+      "source": "yahoo-finance"
+    },
+    "TXT": {
+      "ticker": "TXT",
+      "price": 91.63,
+      "currency": "USD",
+      "as_of": "2026-05-05T20:00:02.000Z",
+      "market_state": "PRE",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -637,7 +4840,7 @@
       "price": 27.34,
       "currency": "USD",
       "as_of": "2026-05-05T20:00:02.000Z",
-      "market_state": "POST",
+      "market_state": "PRE",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -646,7 +4849,178 @@
       "price": 93.67,
       "currency": "USD",
       "as_of": "2026-05-05T20:00:00.000Z",
-      "market_state": "POST",
+      "market_state": "PRE",
+      "quote_source": "Delayed Quote",
+      "source": "yahoo-finance"
+    },
+    "UBER": {
+      "ticker": "UBER",
+      "price": 72.95,
+      "currency": "USD",
+      "as_of": "2026-05-05T20:00:03.000Z",
+      "market_state": "PRE",
+      "quote_source": "Delayed Quote",
+      "source": "yahoo-finance"
+    },
+    "UNH": {
+      "ticker": "UNH",
+      "price": 363.87,
+      "currency": "USD",
+      "as_of": "2026-05-05T20:00:02.000Z",
+      "market_state": "PRE",
+      "quote_source": "Delayed Quote",
+      "source": "yahoo-finance"
+    },
+    "UNM": {
+      "ticker": "UNM",
+      "price": 80.83,
+      "currency": "USD",
+      "as_of": "2026-05-05T20:00:02.000Z",
+      "market_state": "PRE",
+      "quote_source": "Delayed Quote",
+      "source": "yahoo-finance"
+    },
+    "UNP": {
+      "ticker": "UNP",
+      "price": 264.01,
+      "currency": "USD",
+      "as_of": "2026-05-05T20:00:02.000Z",
+      "market_state": "PRE",
+      "quote_source": "Delayed Quote",
+      "source": "yahoo-finance"
+    },
+    "UPS": {
+      "ticker": "UPS",
+      "price": 98.07,
+      "currency": "USD",
+      "as_of": "2026-05-05T20:00:02.000Z",
+      "market_state": "PRE",
+      "quote_source": "Delayed Quote",
+      "source": "yahoo-finance"
+    },
+    "UPST": {
+      "ticker": "UPST",
+      "price": 31.17,
+      "currency": "USD",
+      "as_of": "2026-05-05T20:00:00.000Z",
+      "market_state": "PRE",
+      "quote_source": "Delayed Quote",
+      "source": "yahoo-finance"
+    },
+    "URI": {
+      "ticker": "URI",
+      "price": 933.95,
+      "currency": "USD",
+      "as_of": "2026-05-05T20:00:02.000Z",
+      "market_state": "PRE",
+      "quote_source": "Delayed Quote",
+      "source": "yahoo-finance"
+    },
+    "USB": {
+      "ticker": "USB",
+      "price": 55.6,
+      "currency": "USD",
+      "as_of": "2026-05-05T20:00:02.000Z",
+      "market_state": "PRE",
+      "quote_source": "Delayed Quote",
+      "source": "yahoo-finance"
+    },
+    "UTHR": {
+      "ticker": "UTHR",
+      "price": 572.2,
+      "currency": "USD",
+      "as_of": "2026-05-05T20:00:00.000Z",
+      "market_state": "PRE",
+      "quote_source": "Delayed Quote",
+      "source": "yahoo-finance"
+    },
+    "V": {
+      "ticker": "V",
+      "price": 322.03,
+      "currency": "USD",
+      "as_of": "2026-05-05T20:00:02.000Z",
+      "market_state": "PRE",
+      "quote_source": "Delayed Quote",
+      "source": "yahoo-finance"
+    },
+    "VEEV": {
+      "ticker": "VEEV",
+      "price": 171.19,
+      "currency": "USD",
+      "as_of": "2026-05-05T20:01:59.000Z",
+      "market_state": "PRE",
+      "quote_source": "Delayed Quote",
+      "source": "yahoo-finance"
+    },
+    "VIA": {
+      "ticker": "VIA",
+      "price": 16.57,
+      "currency": "USD",
+      "as_of": "2026-05-05T20:00:02.000Z",
+      "market_state": "PRE",
+      "quote_source": "Delayed Quote",
+      "source": "yahoo-finance"
+    },
+    "VLTO": {
+      "ticker": "VLTO",
+      "price": 88.13,
+      "currency": "USD",
+      "as_of": "2026-05-05T20:00:02.000Z",
+      "market_state": "PRE",
+      "quote_source": "Delayed Quote",
+      "source": "yahoo-finance"
+    },
+    "VRSK": {
+      "ticker": "VRSK",
+      "price": 180.45,
+      "currency": "USD",
+      "as_of": "2026-05-05T20:00:00.000Z",
+      "market_state": "PRE",
+      "quote_source": "Delayed Quote",
+      "source": "yahoo-finance"
+    },
+    "VRSN": {
+      "ticker": "VRSN",
+      "price": 275.77,
+      "currency": "USD",
+      "as_of": "2026-05-05T20:00:00.000Z",
+      "market_state": "PRE",
+      "quote_source": "Delayed Quote",
+      "source": "yahoo-finance"
+    },
+    "VRT": {
+      "ticker": "VRT",
+      "price": 341.02,
+      "currency": "USD",
+      "as_of": "2026-05-05T20:00:03.000Z",
+      "market_state": "PRE",
+      "quote_source": "Delayed Quote",
+      "source": "yahoo-finance"
+    },
+    "VST": {
+      "ticker": "VST",
+      "price": 160.38,
+      "currency": "USD",
+      "as_of": "2026-05-05T20:00:02.000Z",
+      "market_state": "PRE",
+      "quote_source": "Delayed Quote",
+      "source": "yahoo-finance"
+    },
+    "VTR": {
+      "ticker": "VTR",
+      "price": 86.78,
+      "currency": "USD",
+      "as_of": "2026-05-05T20:00:03.000Z",
+      "market_state": "PRE",
+      "quote_source": "Delayed Quote",
+      "source": "yahoo-finance"
+    },
+    "VZ": {
+      "ticker": "VZ",
+      "price": 47.34,
+      "currency": "USD",
+      "as_of": "2026-05-05T20:00:02.000Z",
+      "market_state": "PRE",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -655,7 +5029,97 @@
       "price": 263.44,
       "currency": "USD",
       "as_of": "2026-05-05T20:00:02.000Z",
-      "market_state": "POST",
+      "market_state": "PRE",
+      "quote_source": "Delayed Quote",
+      "source": "yahoo-finance"
+    },
+    "WAL": {
+      "ticker": "WAL",
+      "price": 81.86,
+      "currency": "USD",
+      "as_of": "2026-05-05T20:00:02.000Z",
+      "market_state": "PRE",
+      "quote_source": "Delayed Quote",
+      "source": "yahoo-finance"
+    },
+    "WAT": {
+      "ticker": "WAT",
+      "price": 342.75,
+      "currency": "USD",
+      "as_of": "2026-05-05T20:00:03.000Z",
+      "market_state": "PRE",
+      "quote_source": "Delayed Quote",
+      "source": "yahoo-finance"
+    },
+    "WBD": {
+      "ticker": "WBD",
+      "price": 27.22,
+      "currency": "USD",
+      "as_of": "2026-05-05T20:00:03.000Z",
+      "market_state": "PRE",
+      "quote_source": "Delayed Quote",
+      "source": "yahoo-finance"
+    },
+    "WDAY": {
+      "ticker": "WDAY",
+      "price": 128.875,
+      "currency": "USD",
+      "as_of": "2026-05-05T20:00:00.000Z",
+      "market_state": "PRE",
+      "quote_source": "Delayed Quote",
+      "source": "yahoo-finance"
+    },
+    "WDC": {
+      "ticker": "WDC",
+      "price": 465.26,
+      "currency": "USD",
+      "as_of": "2026-05-05T20:00:00.000Z",
+      "market_state": "PRE",
+      "quote_source": "Delayed Quote",
+      "source": "yahoo-finance"
+    },
+    "WFC": {
+      "ticker": "WFC",
+      "price": 79.89,
+      "currency": "USD",
+      "as_of": "2026-05-05T20:02:37.000Z",
+      "market_state": "PRE",
+      "quote_source": "Delayed Quote",
+      "source": "yahoo-finance"
+    },
+    "WHR": {
+      "ticker": "WHR",
+      "price": 54.19,
+      "currency": "USD",
+      "as_of": "2026-05-05T20:00:02.000Z",
+      "market_state": "PRE",
+      "quote_source": "Delayed Quote",
+      "source": "yahoo-finance"
+    },
+    "WLTH": {
+      "ticker": "WLTH",
+      "price": 11.12,
+      "currency": "USD",
+      "as_of": "2026-05-05T20:00:00.000Z",
+      "market_state": "PRE",
+      "quote_source": "Delayed Quote",
+      "source": "yahoo-finance"
+    },
+    "WMB": {
+      "ticker": "WMB",
+      "price": 76.12,
+      "currency": "USD",
+      "as_of": "2026-05-05T20:00:02.000Z",
+      "market_state": "PRE",
+      "quote_source": "Delayed Quote",
+      "source": "yahoo-finance"
+    },
+    "WMT": {
+      "ticker": "WMT",
+      "price": 130.79,
+      "currency": "USD",
+      "as_of": "2026-05-05T20:00:00.000Z",
+      "market_state": "PRE",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -664,7 +5128,16 @@
       "price": 36.63,
       "currency": "USD",
       "as_of": "2026-05-05T20:04:01.000Z",
-      "market_state": "POST",
+      "market_state": "PRE",
+      "quote_source": "Delayed Quote",
+      "source": "yahoo-finance"
+    },
+    "WST": {
+      "ticker": "WST",
+      "price": 309.97,
+      "currency": "USD",
+      "as_of": "2026-05-05T20:00:02.000Z",
+      "market_state": "PRE",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -673,7 +5146,7 @@
       "price": 7.18,
       "currency": "USD",
       "as_of": "2026-05-05T20:00:00.000Z",
-      "market_state": "POST",
+      "market_state": "PRE",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -682,7 +5155,7 @@
       "price": 365.58,
       "currency": "USD",
       "as_of": "2026-05-05T20:00:00.000Z",
-      "market_state": "POST",
+      "market_state": "PRE",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -691,7 +5164,16 @@
       "price": 19.56,
       "currency": "USD",
       "as_of": "2026-05-05T20:00:00.000Z",
-      "market_state": "POST",
+      "market_state": "PRE",
+      "quote_source": "Delayed Quote",
+      "source": "yahoo-finance"
+    },
+    "XEL": {
+      "ticker": "XEL",
+      "price": 81.45,
+      "currency": "USD",
+      "as_of": "2026-05-05T20:00:00.000Z",
+      "market_state": "PRE",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -700,7 +5182,25 @@
       "price": 51.59,
       "currency": "USD",
       "as_of": "2026-05-05T20:00:00.000Z",
-      "market_state": "POST",
+      "market_state": "PRE",
+      "quote_source": "Delayed Quote",
+      "source": "yahoo-finance"
+    },
+    "XOM": {
+      "ticker": "XOM",
+      "price": 154.88,
+      "currency": "USD",
+      "as_of": "2026-05-05T20:04:15.000Z",
+      "market_state": "PRE",
+      "quote_source": "Delayed Quote",
+      "source": "yahoo-finance"
+    },
+    "XYZ": {
+      "ticker": "XYZ",
+      "price": 71.25,
+      "currency": "USD",
+      "as_of": "2026-05-05T20:03:56.000Z",
+      "market_state": "PRE",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -709,7 +5209,7 @@
       "price": 43.97,
       "currency": "USD",
       "as_of": "2026-05-05T20:00:03.000Z",
-      "market_state": "POST",
+      "market_state": "PRE",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -718,16 +5218,142 @@
       "price": 43.54,
       "currency": "USD",
       "as_of": "2026-05-05T20:00:00.000Z",
-      "market_state": "POST",
+      "market_state": "PRE",
+      "quote_source": "Delayed Quote",
+      "source": "yahoo-finance"
+    },
+    "ZG": {
+      "ticker": "ZG",
+      "price": 43.88,
+      "currency": "USD",
+      "as_of": "2026-05-05T20:00:00.000Z",
+      "market_state": "PRE",
+      "quote_source": "Delayed Quote",
+      "source": "yahoo-finance"
+    },
+    "ZION": {
+      "ticker": "ZION",
+      "price": 63.13,
+      "currency": "USD",
+      "as_of": "2026-05-05T20:00:00.000Z",
+      "market_state": "PRE",
+      "quote_source": "Delayed Quote",
+      "source": "yahoo-finance"
+    },
+    "ZM": {
+      "ticker": "ZM",
+      "price": 109.1,
+      "currency": "USD",
+      "as_of": "2026-05-05T20:00:00.000Z",
+      "market_state": "PRE",
+      "quote_source": "Delayed Quote",
+      "source": "yahoo-finance"
+    },
+    "ZS": {
+      "ticker": "ZS",
+      "price": 141.36,
+      "currency": "USD",
+      "as_of": "2026-05-05T20:00:00.000Z",
+      "market_state": "PRE",
+      "quote_source": "Delayed Quote",
+      "source": "yahoo-finance"
+    },
+    "ZTS": {
+      "ticker": "ZTS",
+      "price": 112.54,
+      "currency": "USD",
+      "as_of": "2026-05-05T20:00:03.000Z",
+      "market_state": "PRE",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     }
   },
   "failures": {
     "CDTX": "missing regularMarketPrice",
+    "CDTX:2025-Q4": "No data found, symbol may be delisted",
     "VRNA:2025-Q4": "No data found, symbol may be delisted"
   },
   "ranges": {
+    "ABNB:2025-Q4": {
+      "ticker": "ABNB",
+      "period": "2025-Q4",
+      "start": "2025-10-01",
+      "end": "2025-12-31",
+      "low": 110.80999755859375,
+      "high": 138.52000427246094,
+      "currency": "USD",
+      "source": "yahoo-finance"
+    },
+    "ALM:2025-Q4": {
+      "ticker": "ALM",
+      "period": "2025-Q4",
+      "start": "2025-10-01",
+      "end": "2025-12-31",
+      "low": 5.434999942779541,
+      "high": 10.680000305175781,
+      "currency": "USD",
+      "source": "yahoo-finance"
+    },
+    "AMC:2025-Q4": {
+      "ticker": "AMC",
+      "period": "2025-Q4",
+      "start": "2025-10-01",
+      "end": "2025-12-31",
+      "low": 1.5399999618530273,
+      "high": 3.180000066757202,
+      "currency": "USD",
+      "source": "yahoo-finance"
+    },
+    "APG:2025-Q4": {
+      "ticker": "APG",
+      "period": "2025-Q4",
+      "start": "2025-10-01",
+      "end": "2025-12-31",
+      "low": 33.52000045776367,
+      "high": 40.58000183105469,
+      "currency": "USD",
+      "source": "yahoo-finance"
+    },
+    "API:2025-Q4": {
+      "ticker": "API",
+      "period": "2025-Q4",
+      "start": "2025-10-01",
+      "end": "2025-12-31",
+      "low": 3.140000104904175,
+      "high": 4.079999923706055,
+      "currency": "USD",
+      "source": "yahoo-finance"
+    },
+    "APLD:2025-Q4": {
+      "ticker": "APLD",
+      "period": "2025-Q4",
+      "start": "2025-10-01",
+      "end": "2025-12-31",
+      "low": 19.0049991607666,
+      "high": 40.20000076293945,
+      "currency": "USD",
+      "source": "yahoo-finance"
+    },
+    "APO:2025-Q4": {
+      "ticker": "APO",
+      "period": "2025-Q4",
+      "start": "2025-10-01",
+      "end": "2025-12-31",
+      "low": 118.13999938964844,
+      "high": 151.86000061035156,
+      "currency": "USD",
+      "source": "yahoo-finance"
+    },
+    "APP:2025-Q4": {
+      "ticker": "APP",
+      "period": "2025-Q4",
+      "start": "2025-10-01",
+      "end": "2025-12-31",
+      "low": 489.29998779296875,
+      "high": 738.010009765625,
+      "currency": "USD",
+      "source": "yahoo-finance"
+    },
     "ARGT:2025-Q4": {
       "ticker": "ARGT",
       "period": "2025-Q4",
@@ -748,6 +5374,26 @@
       "currency": "USD",
       "source": "yahoo-finance"
     },
+    "AZN:2025-Q4": {
+      "ticker": "AZN",
+      "period": "2025-Q4",
+      "start": "2025-10-01",
+      "end": "2025-12-31",
+      "low": 160.9600067138672,
+      "high": 188.0399932861328,
+      "currency": "USD",
+      "source": "yahoo-finance"
+    },
+    "BABA:2025-Q4": {
+      "ticker": "BABA",
+      "period": "2025-Q4",
+      "start": "2025-10-01",
+      "end": "2025-12-31",
+      "low": 145.63999938964844,
+      "high": 192.6699981689453,
+      "currency": "USD",
+      "source": "yahoo-finance"
+    },
     "BAC:2025-Q4": {
       "ticker": "BAC",
       "period": "2025-Q4",
@@ -755,6 +5401,76 @@
       "end": "2025-12-31",
       "low": 48.529998779296875,
       "high": 56.54999923706055,
+      "currency": "USD",
+      "source": "yahoo-finance"
+    },
+    "BE:2025-Q4": {
+      "ticker": "BE",
+      "period": "2025-Q4",
+      "start": "2025-10-01",
+      "end": "2025-12-31",
+      "low": 75.69999694824219,
+      "high": 147.86000061035156,
+      "currency": "USD",
+      "source": "yahoo-finance"
+    },
+    "BIDU:2025-Q4": {
+      "ticker": "BIDU",
+      "period": "2025-Q4",
+      "start": "2025-10-01",
+      "end": "2025-12-31",
+      "low": 108.01000213623047,
+      "high": 149.50999450683594,
+      "currency": "USD",
+      "source": "yahoo-finance"
+    },
+    "BLK:2025-Q4": {
+      "ticker": "BLK",
+      "period": "2025-Q4",
+      "start": "2025-10-01",
+      "end": "2025-12-31",
+      "low": 990.5800170898438,
+      "high": 1219.93994140625,
+      "currency": "USD",
+      "source": "yahoo-finance"
+    },
+    "BPOP:2025-Q4": {
+      "ticker": "BPOP",
+      "period": "2025-Q4",
+      "start": "2025-10-01",
+      "end": "2025-12-31",
+      "low": 108.73999786376953,
+      "high": 128.9600067138672,
+      "currency": "USD",
+      "source": "yahoo-finance"
+    },
+    "BRK-B:2025-Q4": {
+      "ticker": "BRK-B",
+      "period": "2025-Q4",
+      "start": "2025-10-01",
+      "end": "2025-12-31",
+      "low": 473.1499938964844,
+      "high": 516.8499755859375,
+      "currency": "USD",
+      "source": "yahoo-finance"
+    },
+    "BROS:2025-Q4": {
+      "ticker": "BROS",
+      "period": "2025-Q4",
+      "start": "2025-10-01",
+      "end": "2025-12-31",
+      "low": 47.15999984741211,
+      "high": 65.93000030517578,
+      "currency": "USD",
+      "source": "yahoo-finance"
+    },
+    "BYND:2025-Q4": {
+      "ticker": "BYND",
+      "period": "2025-Q4",
+      "start": "2025-10-01",
+      "end": "2025-12-31",
+      "low": 0.5,
+      "high": 7.690000057220459,
       "currency": "USD",
       "source": "yahoo-finance"
     },
@@ -768,6 +5484,76 @@
       "currency": "USD",
       "source": "yahoo-finance"
     },
+    "CART:2025-Q4": {
+      "ticker": "CART",
+      "period": "2025-Q4",
+      "start": "2025-10-01",
+      "end": "2025-12-31",
+      "low": 34.779998779296875,
+      "high": 47.290000915527344,
+      "currency": "USD",
+      "source": "yahoo-finance"
+    },
+    "CBRE:2025-Q4": {
+      "ticker": "CBRE",
+      "period": "2025-Q4",
+      "start": "2025-10-01",
+      "end": "2025-12-31",
+      "low": 146.67999267578125,
+      "high": 171,
+      "currency": "USD",
+      "source": "yahoo-finance"
+    },
+    "CDNS:2025-Q4": {
+      "ticker": "CDNS",
+      "period": "2025-Q4",
+      "start": "2025-10-01",
+      "end": "2025-12-31",
+      "low": 295.17999267578125,
+      "high": 357.5299987792969,
+      "currency": "USD",
+      "source": "yahoo-finance"
+    },
+    "CFG:2025-Q4": {
+      "ticker": "CFG",
+      "period": "2025-Q4",
+      "start": "2025-10-01",
+      "end": "2025-12-31",
+      "low": 47.95500183105469,
+      "high": 60.099998474121094,
+      "currency": "USD",
+      "source": "yahoo-finance"
+    },
+    "CHA:2025-Q4": {
+      "ticker": "CHA",
+      "period": "2025-Q4",
+      "start": "2025-10-01",
+      "end": "2025-12-31",
+      "low": 10.260000228881836,
+      "high": 17.65999984741211,
+      "currency": "USD",
+      "source": "yahoo-finance"
+    },
+    "CHPT:2025-Q4": {
+      "ticker": "CHPT",
+      "period": "2025-Q4",
+      "start": "2025-10-01",
+      "end": "2025-12-31",
+      "low": 6.630000114440918,
+      "high": 12.609999656677246,
+      "currency": "USD",
+      "source": "yahoo-finance"
+    },
+    "CHRW:2025-Q4": {
+      "ticker": "CHRW",
+      "period": "2025-Q4",
+      "start": "2025-10-01",
+      "end": "2025-12-31",
+      "low": 123.63999938964844,
+      "high": 167.89999389648438,
+      "currency": "USD",
+      "source": "yahoo-finance"
+    },
     "CHYM:2025-Q4": {
       "ticker": "CHYM",
       "period": "2025-Q4",
@@ -775,6 +5561,46 @@
       "end": "2025-12-31",
       "low": 16.170000076293945,
       "high": 27.889999389648438,
+      "currency": "USD",
+      "source": "yahoo-finance"
+    },
+    "CIEN:2025-Q4": {
+      "ticker": "CIEN",
+      "period": "2025-Q4",
+      "start": "2025-10-01",
+      "end": "2025-12-31",
+      "low": 143.19000244140625,
+      "high": 248,
+      "currency": "USD",
+      "source": "yahoo-finance"
+    },
+    "CIFR:2025-Q4": {
+      "ticker": "CIFR",
+      "period": "2025-Q4",
+      "start": "2025-10-01",
+      "end": "2025-12-31",
+      "low": 12.40999984741211,
+      "high": 25.520000457763672,
+      "currency": "USD",
+      "source": "yahoo-finance"
+    },
+    "CLSK:2025-Q4": {
+      "ticker": "CLSK",
+      "period": "2025-Q4",
+      "start": "2025-10-01",
+      "end": "2025-12-31",
+      "low": 9.0600004196167,
+      "high": 23.610000610351562,
+      "currency": "USD",
+      "source": "yahoo-finance"
+    },
+    "CMG:2025-Q4": {
+      "ticker": "CMG",
+      "period": "2025-Q4",
+      "start": "2025-10-01",
+      "end": "2025-12-31",
+      "low": 29.75,
+      "high": 42.81999969482422,
       "currency": "USD",
       "source": "yahoo-finance"
     },
@@ -788,6 +5614,56 @@
       "currency": "USD",
       "source": "yahoo-finance"
     },
+    "COR:2025-Q4": {
+      "ticker": "COR",
+      "period": "2025-Q4",
+      "start": "2025-10-01",
+      "end": "2025-12-31",
+      "low": 296.0799865722656,
+      "high": 377.5400085449219,
+      "currency": "USD",
+      "source": "yahoo-finance"
+    },
+    "CORZ:2025-Q4": {
+      "ticker": "CORZ",
+      "period": "2025-Q4",
+      "start": "2025-10-01",
+      "end": "2025-12-31",
+      "low": 13.354999542236328,
+      "high": 23.6299991607666,
+      "currency": "USD",
+      "source": "yahoo-finance"
+    },
+    "CPAY:2025-Q4": {
+      "ticker": "CPAY",
+      "period": "2025-Q4",
+      "start": "2025-10-01",
+      "end": "2025-12-31",
+      "low": 252.83999633789062,
+      "high": 319.55999755859375,
+      "currency": "USD",
+      "source": "yahoo-finance"
+    },
+    "CPNG:2025-Q4": {
+      "ticker": "CPNG",
+      "period": "2025-Q4",
+      "start": "2025-10-01",
+      "end": "2025-12-31",
+      "low": 22.079999923706055,
+      "high": 32.957000732421875,
+      "currency": "USD",
+      "source": "yahoo-finance"
+    },
+    "CPT:2025-Q4": {
+      "ticker": "CPT",
+      "period": "2025-Q4",
+      "start": "2025-10-01",
+      "end": "2025-12-31",
+      "low": 97.16999816894531,
+      "high": 110.86000061035156,
+      "currency": "USD",
+      "source": "yahoo-finance"
+    },
     "CRS:2025-Q4": {
       "ticker": "CRS",
       "period": "2025-Q4",
@@ -795,6 +5671,76 @@
       "end": "2025-12-31",
       "low": 233.77999877929688,
       "high": 342.1099853515625,
+      "currency": "USD",
+      "source": "yahoo-finance"
+    },
+    "CRWD:2025-Q4": {
+      "ticker": "CRWD",
+      "period": "2025-Q4",
+      "start": "2025-10-01",
+      "end": "2025-12-31",
+      "low": 468.3999938964844,
+      "high": 566.9000244140625,
+      "currency": "USD",
+      "source": "yahoo-finance"
+    },
+    "CRWV:2025-Q4": {
+      "ticker": "CRWV",
+      "period": "2025-Q4",
+      "start": "2025-10-01",
+      "end": "2025-12-31",
+      "low": 63.79999923706055,
+      "high": 153.1999969482422,
+      "currency": "USD",
+      "source": "yahoo-finance"
+    },
+    "CVNA:2025-Q4": {
+      "ticker": "CVNA",
+      "period": "2025-Q4",
+      "start": "2025-10-01",
+      "end": "2025-12-31",
+      "low": 285.0249938964844,
+      "high": 485.3299865722656,
+      "currency": "USD",
+      "source": "yahoo-finance"
+    },
+    "CYH:2025-Q4": {
+      "ticker": "CYH",
+      "period": "2025-Q4",
+      "start": "2025-10-01",
+      "end": "2025-12-31",
+      "low": 2.8399999141693115,
+      "high": 4.429999828338623,
+      "currency": "USD",
+      "source": "yahoo-finance"
+    },
+    "CZR:2025-Q4": {
+      "ticker": "CZR",
+      "period": "2025-Q4",
+      "start": "2025-10-01",
+      "end": "2025-12-31",
+      "low": 18.25,
+      "high": 27.5049991607666,
+      "currency": "USD",
+      "source": "yahoo-finance"
+    },
+    "DAL:2025-Q4": {
+      "ticker": "DAL",
+      "period": "2025-Q4",
+      "start": "2025-10-01",
+      "end": "2025-12-31",
+      "low": 55.029998779296875,
+      "high": 72.33999633789062,
+      "currency": "USD",
+      "source": "yahoo-finance"
+    },
+    "DECK:2025-Q4": {
+      "ticker": "DECK",
+      "period": "2025-Q4",
+      "start": "2025-10-01",
+      "end": "2025-12-31",
+      "low": 78.91000366210938,
+      "high": 105.83999633789062,
       "currency": "USD",
       "source": "yahoo-finance"
     },
@@ -808,6 +5754,26 @@
       "currency": "USD",
       "source": "yahoo-finance"
     },
+    "DHR:2025-Q4": {
+      "ticker": "DHR",
+      "period": "2025-Q4",
+      "start": "2025-10-01",
+      "end": "2025-12-31",
+      "low": 198.6300048828125,
+      "high": 234.99000549316406,
+      "currency": "USD",
+      "source": "yahoo-finance"
+    },
+    "DKNG:2025-Q4": {
+      "ticker": "DKNG",
+      "period": "2025-Q4",
+      "start": "2025-10-01",
+      "end": "2025-12-31",
+      "low": 26.229999542236328,
+      "high": 38.060001373291016,
+      "currency": "USD",
+      "source": "yahoo-finance"
+    },
     "DKS:2025-Q4": {
       "ticker": "DKS",
       "period": "2025-Q4",
@@ -815,6 +5781,16 @@
       "end": "2025-12-31",
       "low": 197.17999267578125,
       "high": 237.30999755859375,
+      "currency": "USD",
+      "source": "yahoo-finance"
+    },
+    "EEM:2025-Q4": {
+      "ticker": "EEM",
+      "period": "2025-Q4",
+      "start": "2025-10-01",
+      "end": "2025-12-31",
+      "low": 51.81999969482422,
+      "high": 56.310001373291016,
       "currency": "USD",
       "source": "yahoo-finance"
     },
@@ -828,6 +5804,26 @@
       "currency": "USD",
       "source": "yahoo-finance"
     },
+    "ENPH:2025-Q4": {
+      "ticker": "ENPH",
+      "period": "2025-Q4",
+      "start": "2025-10-01",
+      "end": "2025-12-31",
+      "low": 25.780000686645508,
+      "high": 39.54999923706055,
+      "currency": "USD",
+      "source": "yahoo-finance"
+    },
+    "ENTG:2025-Q4": {
+      "ticker": "ENTG",
+      "period": "2025-Q4",
+      "start": "2025-10-01",
+      "end": "2025-12-31",
+      "low": 67.97000122070312,
+      "high": 101.4800033569336,
+      "currency": "USD",
+      "source": "yahoo-finance"
+    },
     "EQT:2025-Q4": {
       "ticker": "EQT",
       "period": "2025-Q4",
@@ -838,6 +5834,146 @@
       "currency": "USD",
       "source": "yahoo-finance"
     },
+    "ET:2025-Q4": {
+      "ticker": "ET",
+      "period": "2025-Q4",
+      "start": "2025-10-01",
+      "end": "2025-12-31",
+      "low": 16.18000030517578,
+      "high": 17.110000610351562,
+      "currency": "USD",
+      "source": "yahoo-finance"
+    },
+    "EVR:2025-Q4": {
+      "ticker": "EVR",
+      "period": "2025-Q4",
+      "start": "2025-10-01",
+      "end": "2025-12-31",
+      "low": 288,
+      "high": 353.29998779296875,
+      "currency": "USD",
+      "source": "yahoo-finance"
+    },
+    "EW:2025-Q4": {
+      "ticker": "EW",
+      "period": "2025-Q4",
+      "start": "2025-10-01",
+      "end": "2025-12-31",
+      "low": 72.30000305175781,
+      "high": 87.88999938964844,
+      "currency": "USD",
+      "source": "yahoo-finance"
+    },
+    "EWZ:2025-Q4": {
+      "ticker": "EWZ",
+      "period": "2025-Q4",
+      "start": "2025-10-01",
+      "end": "2025-12-31",
+      "low": 28.65999984741211,
+      "high": 34.79999923706055,
+      "currency": "USD",
+      "source": "yahoo-finance"
+    },
+    "EXPE:2025-Q4": {
+      "ticker": "EXPE",
+      "period": "2025-Q4",
+      "start": "2025-10-01",
+      "end": "2025-12-31",
+      "low": 208.44000244140625,
+      "high": 292.4200134277344,
+      "currency": "USD",
+      "source": "yahoo-finance"
+    },
+    "FCNCA:2025-Q4": {
+      "ticker": "FCNCA",
+      "period": "2025-Q4",
+      "start": "2025-10-01",
+      "end": "2025-12-31",
+      "low": 1623.760009765625,
+      "high": 2201.780029296875,
+      "currency": "USD",
+      "source": "yahoo-finance"
+    },
+    "FCX:2025-Q4": {
+      "ticker": "FCX",
+      "period": "2025-Q4",
+      "start": "2025-10-01",
+      "end": "2025-12-31",
+      "low": 38.189998626708984,
+      "high": 53.77000045776367,
+      "currency": "USD",
+      "source": "yahoo-finance"
+    },
+    "FIG:2025-Q4": {
+      "ticker": "FIG",
+      "period": "2025-Q4",
+      "start": "2025-10-01",
+      "end": "2025-12-31",
+      "low": 32.83000183105469,
+      "high": 71.4800033569336,
+      "currency": "USD",
+      "source": "yahoo-finance"
+    },
+    "FIGR:2025-Q4": {
+      "ticker": "FIGR",
+      "period": "2025-Q4",
+      "start": "2025-10-01",
+      "end": "2025-12-31",
+      "low": 32.79999923706055,
+      "high": 49.5,
+      "currency": "USD",
+      "source": "yahoo-finance"
+    },
+    "FLUT:2025-Q4": {
+      "ticker": "FLUT",
+      "period": "2025-Q4",
+      "start": "2025-10-01",
+      "end": "2025-12-31",
+      "low": 189.3300018310547,
+      "high": 261.2200012207031,
+      "currency": "USD",
+      "source": "yahoo-finance"
+    },
+    "FND:2025-Q4": {
+      "ticker": "FND",
+      "period": "2025-Q4",
+      "start": "2025-10-01",
+      "end": "2025-12-31",
+      "low": 55.11000061035156,
+      "high": 75.75,
+      "currency": "USD",
+      "source": "yahoo-finance"
+    },
+    "FNF:2025-Q4": {
+      "ticker": "FNF",
+      "period": "2025-Q4",
+      "start": "2025-10-01",
+      "end": "2025-12-31",
+      "low": 52.41080093383789,
+      "high": 58.57280731201172,
+      "currency": "USD",
+      "source": "yahoo-finance"
+    },
+    "FSLR:2025-Q4": {
+      "ticker": "FSLR",
+      "period": "2025-Q4",
+      "start": "2025-10-01",
+      "end": "2025-12-31",
+      "low": 216.6300048828125,
+      "high": 285.989990234375,
+      "currency": "USD",
+      "source": "yahoo-finance"
+    },
+    "FUTU:2025-Q4": {
+      "ticker": "FUTU",
+      "period": "2025-Q4",
+      "start": "2025-10-01",
+      "end": "2025-12-31",
+      "low": 151.59100341796875,
+      "high": 202.52999877929688,
+      "currency": "USD",
+      "source": "yahoo-finance"
+    },
     "FWONK:2025-Q4": {
       "ticker": "FWONK",
       "period": "2025-Q4",
@@ -845,6 +5981,36 @@
       "end": "2025-12-31",
       "low": 90.2699966430664,
       "high": 109.36299896240234,
+      "currency": "USD",
+      "source": "yahoo-finance"
+    },
+    "GDX:2025-Q4": {
+      "ticker": "GDX",
+      "period": "2025-Q4",
+      "start": "2025-10-01",
+      "end": "2025-12-31",
+      "low": 68.12999725341797,
+      "high": 91.66999816894531,
+      "currency": "USD",
+      "source": "yahoo-finance"
+    },
+    "GE:2025-Q4": {
+      "ticker": "GE",
+      "period": "2025-Q4",
+      "start": "2025-10-01",
+      "end": "2025-12-31",
+      "low": 279.6400146484375,
+      "high": 318.05999755859375,
+      "currency": "USD",
+      "source": "yahoo-finance"
+    },
+    "GEMI:2025-Q4": {
+      "ticker": "GEMI",
+      "period": "2025-Q4",
+      "start": "2025-10-01",
+      "end": "2025-12-31",
+      "low": 9.670000076293945,
+      "high": 26.75,
       "currency": "USD",
       "source": "yahoo-finance"
     },
@@ -868,6 +6034,26 @@
       "currency": "USD",
       "source": "yahoo-finance"
     },
+    "GOOG:2025-Q4": {
+      "ticker": "GOOG",
+      "period": "2025-Q4",
+      "start": "2025-10-01",
+      "end": "2025-12-31",
+      "low": 236.68499755859375,
+      "high": 328.6700134277344,
+      "currency": "USD",
+      "source": "yahoo-finance"
+    },
+    "GOOGL:2025-Q4": {
+      "ticker": "GOOGL",
+      "period": "2025-Q4",
+      "start": "2025-10-01",
+      "end": "2025-12-31",
+      "low": 235.83999633789062,
+      "high": 328.8299865722656,
+      "currency": "USD",
+      "source": "yahoo-finance"
+    },
     "GPC:2025-Q4": {
       "ticker": "GPC",
       "period": "2025-Q4",
@@ -875,6 +6061,116 @@
       "end": "2025-12-31",
       "low": 121.5999984741211,
       "high": 140.75999450683594,
+      "currency": "USD",
+      "source": "yahoo-finance"
+    },
+    "HNGE:2025-Q4": {
+      "ticker": "HNGE",
+      "period": "2025-Q4",
+      "start": "2025-10-01",
+      "end": "2025-12-31",
+      "low": 39.189998626708984,
+      "high": 54.400001525878906,
+      "currency": "USD",
+      "source": "yahoo-finance"
+    },
+    "HTZ:2025-Q4": {
+      "ticker": "HTZ",
+      "period": "2025-Q4",
+      "start": "2025-10-01",
+      "end": "2025-12-31",
+      "low": 4.670000076293945,
+      "high": 7.150000095367432,
+      "currency": "USD",
+      "source": "yahoo-finance"
+    },
+    "HUM:2025-Q4": {
+      "ticker": "HUM",
+      "period": "2025-Q4",
+      "start": "2025-10-01",
+      "end": "2025-12-31",
+      "low": 221.5,
+      "high": 302.7900085449219,
+      "currency": "USD",
+      "source": "yahoo-finance"
+    },
+    "INTU:2025-Q4": {
+      "ticker": "INTU",
+      "period": "2025-Q4",
+      "start": "2025-10-01",
+      "end": "2025-12-31",
+      "low": 619.8200073242188,
+      "high": 689.1699829101562,
+      "currency": "USD",
+      "source": "yahoo-finance"
+    },
+    "IREN:2025-Q4": {
+      "ticker": "IREN",
+      "period": "2025-Q4",
+      "start": "2025-10-01",
+      "end": "2025-12-31",
+      "low": 33.34000015258789,
+      "high": 76.87000274658203,
+      "currency": "USD",
+      "source": "yahoo-finance"
+    },
+    "ITGR:2025-Q4": {
+      "ticker": "ITGR",
+      "period": "2025-Q4",
+      "start": "2025-10-01",
+      "end": "2025-12-31",
+      "low": 62,
+      "high": 111.98999786376953,
+      "currency": "USD",
+      "source": "yahoo-finance"
+    },
+    "ITUB:2025-Q4": {
+      "ticker": "ITUB",
+      "period": "2025-Q4",
+      "start": "2025-10-01",
+      "end": "2025-12-31",
+      "low": 6.543688774108887,
+      "high": 7.893204212188721,
+      "currency": "USD",
+      "source": "yahoo-finance"
+    },
+    "IWM:2025-Q4": {
+      "ticker": "IWM",
+      "period": "2025-Q4",
+      "start": "2025-10-01",
+      "end": "2025-12-31",
+      "low": 228.89999389648438,
+      "high": 258.20001220703125,
+      "currency": "USD",
+      "source": "yahoo-finance"
+    },
+    "J:2025-Q4": {
+      "ticker": "J",
+      "period": "2025-Q4",
+      "start": "2025-10-01",
+      "end": "2025-12-31",
+      "low": 125.55000305175781,
+      "high": 168.44000244140625,
+      "currency": "USD",
+      "source": "yahoo-finance"
+    },
+    "JD:2025-Q4": {
+      "ticker": "JD",
+      "period": "2025-Q4",
+      "start": "2025-10-01",
+      "end": "2025-12-31",
+      "low": 28.209999084472656,
+      "high": 36.86000061035156,
+      "currency": "USD",
+      "source": "yahoo-finance"
+    },
+    "JOYY:2025-Q4": {
+      "ticker": "JOYY",
+      "period": "2025-Q4",
+      "start": "2025-10-01",
+      "end": "2025-12-31",
+      "low": 54.58000183105469,
+      "high": 67.8499984741211,
       "currency": "USD",
       "source": "yahoo-finance"
     },
@@ -888,6 +6184,36 @@
       "currency": "USD",
       "source": "yahoo-finance"
     },
+    "KEY:2025-Q4": {
+      "ticker": "KEY",
+      "period": "2025-Q4",
+      "start": "2025-10-01",
+      "end": "2025-12-31",
+      "low": 16.469999313354492,
+      "high": 21.25,
+      "currency": "USD",
+      "source": "yahoo-finance"
+    },
+    "KKR:2025-Q4": {
+      "ticker": "KKR",
+      "period": "2025-Q4",
+      "start": "2025-10-01",
+      "end": "2025-12-31",
+      "low": 112,
+      "high": 144.83999633789062,
+      "currency": "USD",
+      "source": "yahoo-finance"
+    },
+    "LCID:2025-Q4": {
+      "ticker": "LCID",
+      "period": "2025-Q4",
+      "start": "2025-10-01",
+      "end": "2025-12-31",
+      "low": 10.454999923706055,
+      "high": 25.229999542236328,
+      "currency": "USD",
+      "source": "yahoo-finance"
+    },
     "LEN:2025-Q4": {
       "ticker": "LEN",
       "period": "2025-Q4",
@@ -895,6 +6221,36 @@
       "end": "2025-12-31",
       "low": 102.72000122070312,
       "high": 133.75999450683594,
+      "currency": "USD",
+      "source": "yahoo-finance"
+    },
+    "LNG:2025-Q4": {
+      "ticker": "LNG",
+      "period": "2025-Q4",
+      "start": "2025-10-01",
+      "end": "2025-12-31",
+      "low": 186.1999969482422,
+      "high": 238.30999755859375,
+      "currency": "USD",
+      "source": "yahoo-finance"
+    },
+    "MAR:2025-Q4": {
+      "ticker": "MAR",
+      "period": "2025-Q4",
+      "start": "2025-10-01",
+      "end": "2025-12-31",
+      "low": 256.760009765625,
+      "high": 316.69000244140625,
+      "currency": "USD",
+      "source": "yahoo-finance"
+    },
+    "MBLY:2025-Q4": {
+      "ticker": "MBLY",
+      "period": "2025-Q4",
+      "start": "2025-10-01",
+      "end": "2025-12-31",
+      "low": 10.039999961853027,
+      "high": 15.8100004196167,
       "currency": "USD",
       "source": "yahoo-finance"
     },
@@ -918,6 +6274,46 @@
       "currency": "USD",
       "source": "yahoo-finance"
     },
+    "NFLX:2025-Q4": {
+      "ticker": "NFLX",
+      "period": "2025-Q4",
+      "start": "2025-10-01",
+      "end": "2025-12-31",
+      "low": 91.33000183105469,
+      "high": 124.86000061035156,
+      "currency": "USD",
+      "source": "yahoo-finance"
+    },
+    "NKE:2025-Q4": {
+      "ticker": "NKE",
+      "period": "2025-Q4",
+      "start": "2025-10-01",
+      "end": "2025-12-31",
+      "low": 56.9900016784668,
+      "high": 76.97000122070312,
+      "currency": "USD",
+      "source": "yahoo-finance"
+    },
+    "NTNX:2025-Q4": {
+      "ticker": "NTNX",
+      "period": "2025-Q4",
+      "start": "2025-10-01",
+      "end": "2025-12-31",
+      "low": 46.119998931884766,
+      "high": 77.9000015258789,
+      "currency": "USD",
+      "source": "yahoo-finance"
+    },
+    "NTSK:2025-Q4": {
+      "ticker": "NTSK",
+      "period": "2025-Q4",
+      "start": "2025-10-01",
+      "end": "2025-12-31",
+      "low": 17.31999969482422,
+      "high": 24.979999542236328,
+      "currency": "USD",
+      "source": "yahoo-finance"
+    },
     "NU:2025-Q4": {
       "ticker": "NU",
       "period": "2025-Q4",
@@ -925,6 +6321,56 @@
       "end": "2025-12-31",
       "low": 14.5600004196167,
       "high": 17.84000015258789,
+      "currency": "USD",
+      "source": "yahoo-finance"
+    },
+    "NVAX:2025-Q4": {
+      "ticker": "NVAX",
+      "period": "2025-Q4",
+      "start": "2025-10-01",
+      "end": "2025-12-31",
+      "low": 6.199999809265137,
+      "high": 9.75,
+      "currency": "USD",
+      "source": "yahoo-finance"
+    },
+    "OLPX:2025-Q4": {
+      "ticker": "OLPX",
+      "period": "2025-Q4",
+      "start": "2025-10-01",
+      "end": "2025-12-31",
+      "low": 0.9919999837875366,
+      "high": 1.4600000381469727,
+      "currency": "USD",
+      "source": "yahoo-finance"
+    },
+    "OPCH:2025-Q4": {
+      "ticker": "OPCH",
+      "period": "2025-Q4",
+      "start": "2025-10-01",
+      "end": "2025-12-31",
+      "low": 24.239999771118164,
+      "high": 33.709999084472656,
+      "currency": "USD",
+      "source": "yahoo-finance"
+    },
+    "P:2025-Q4": {
+      "ticker": "P",
+      "period": "2025-Q4",
+      "start": "2025-10-01",
+      "end": "2025-12-31",
+      "low": 65.41000366210938,
+      "high": 100.58999633789062,
+      "currency": "USD",
+      "source": "yahoo-finance"
+    },
+    "PATH:2025-Q4": {
+      "ticker": "PATH",
+      "period": "2025-Q4",
+      "start": "2025-10-01",
+      "end": "2025-12-31",
+      "low": 12.354999542236328,
+      "high": 19.84000015258789,
       "currency": "USD",
       "source": "yahoo-finance"
     },
@@ -938,6 +6384,56 @@
       "currency": "USD",
       "source": "yahoo-finance"
     },
+    "PDD:2025-Q4": {
+      "ticker": "PDD",
+      "period": "2025-Q4",
+      "start": "2025-10-01",
+      "end": "2025-12-31",
+      "low": 104.19000244140625,
+      "high": 139.41000366210938,
+      "currency": "USD",
+      "source": "yahoo-finance"
+    },
+    "PGNY:2025-Q4": {
+      "ticker": "PGNY",
+      "period": "2025-Q4",
+      "start": "2025-10-01",
+      "end": "2025-12-31",
+      "low": 17.976999282836914,
+      "high": 27.760000228881836,
+      "currency": "USD",
+      "source": "yahoo-finance"
+    },
+    "PINS:2025-Q4": {
+      "ticker": "PINS",
+      "period": "2025-Q4",
+      "start": "2025-10-01",
+      "end": "2025-12-31",
+      "low": 24.365999221801758,
+      "high": 35.41999816894531,
+      "currency": "USD",
+      "source": "yahoo-finance"
+    },
+    "PLUG:2025-Q4": {
+      "ticker": "PLUG",
+      "period": "2025-Q4",
+      "start": "2025-10-01",
+      "end": "2025-12-31",
+      "low": 1.7000000476837158,
+      "high": 4.579999923706055,
+      "currency": "USD",
+      "source": "yahoo-finance"
+    },
+    "PM:2025-Q4": {
+      "ticker": "PM",
+      "period": "2025-Q4",
+      "start": "2025-10-01",
+      "end": "2025-12-31",
+      "low": 142.11000061035156,
+      "high": 164.05999755859375,
+      "currency": "USD",
+      "source": "yahoo-finance"
+    },
     "POST:2025-Q4": {
       "ticker": "POST",
       "period": "2025-Q4",
@@ -948,6 +6444,146 @@
       "currency": "USD",
       "source": "yahoo-finance"
     },
+    "PRMB:2025-Q4": {
+      "ticker": "PRMB",
+      "period": "2025-Q4",
+      "start": "2025-10-01",
+      "end": "2025-12-31",
+      "low": 14.359999656677246,
+      "high": 23.139999389648438,
+      "currency": "USD",
+      "source": "yahoo-finance"
+    },
+    "PSIX:2025-Q4": {
+      "ticker": "PSIX",
+      "period": "2025-Q4",
+      "start": "2025-10-01",
+      "end": "2025-12-31",
+      "low": 44.16999816894531,
+      "high": 100,
+      "currency": "USD",
+      "source": "yahoo-finance"
+    },
+    "PTON:2025-Q4": {
+      "ticker": "PTON",
+      "period": "2025-Q4",
+      "start": "2025-10-01",
+      "end": "2025-12-31",
+      "low": 6.03000020980835,
+      "high": 9.199999809265137,
+      "currency": "USD",
+      "source": "yahoo-finance"
+    },
+    "QS:2025-Q4": {
+      "ticker": "QS",
+      "period": "2025-Q4",
+      "start": "2025-10-01",
+      "end": "2025-12-31",
+      "low": 10.289999961853027,
+      "high": 19.06999969482422,
+      "currency": "USD",
+      "source": "yahoo-finance"
+    },
+    "RDDT:2025-Q4": {
+      "ticker": "RDDT",
+      "period": "2025-Q4",
+      "start": "2025-10-01",
+      "end": "2025-12-31",
+      "low": 173.55999755859375,
+      "high": 246.14999389648438,
+      "currency": "USD",
+      "source": "yahoo-finance"
+    },
+    "RERE:2025-Q4": {
+      "ticker": "RERE",
+      "period": "2025-Q4",
+      "start": "2025-10-01",
+      "end": "2025-12-31",
+      "low": 3.6600000858306885,
+      "high": 5.695000171661377,
+      "currency": "USD",
+      "source": "yahoo-finance"
+    },
+    "RGA:2025-Q4": {
+      "ticker": "RGA",
+      "period": "2025-Q4",
+      "start": "2025-10-01",
+      "end": "2025-12-31",
+      "low": 178.2100067138672,
+      "high": 209.0800018310547,
+      "currency": "USD",
+      "source": "yahoo-finance"
+    },
+    "RKT:2025-Q4": {
+      "ticker": "RKT",
+      "period": "2025-Q4",
+      "start": "2025-10-01",
+      "end": "2025-12-31",
+      "low": 15.340999603271484,
+      "high": 20.6200008392334,
+      "currency": "USD",
+      "source": "yahoo-finance"
+    },
+    "RL:2025-Q4": {
+      "ticker": "RL",
+      "period": "2025-Q4",
+      "start": "2025-10-01",
+      "end": "2025-12-31",
+      "low": 306.54998779296875,
+      "high": 380,
+      "currency": "USD",
+      "source": "yahoo-finance"
+    },
+    "RNG:2025-Q4": {
+      "ticker": "RNG",
+      "period": "2025-Q4",
+      "start": "2025-10-01",
+      "end": "2025-12-31",
+      "low": 25.65999984741211,
+      "high": 31.360000610351562,
+      "currency": "USD",
+      "source": "yahoo-finance"
+    },
+    "ROKU:2025-Q4": {
+      "ticker": "ROKU",
+      "period": "2025-Q4",
+      "start": "2025-10-01",
+      "end": "2025-12-31",
+      "low": 90.54499816894531,
+      "high": 116.66000366210938,
+      "currency": "USD",
+      "source": "yahoo-finance"
+    },
+    "RSP:2025-Q4": {
+      "ticker": "RSP",
+      "period": "2025-Q4",
+      "start": "2025-10-01",
+      "end": "2025-12-31",
+      "low": 182.11000061035156,
+      "high": 195.47000122070312,
+      "currency": "USD",
+      "source": "yahoo-finance"
+    },
+    "RYAN:2025-Q4": {
+      "ticker": "RYAN",
+      "period": "2025-Q4",
+      "start": "2025-10-01",
+      "end": "2025-12-31",
+      "low": 50.290000915527344,
+      "high": 59.185001373291016,
+      "currency": "USD",
+      "source": "yahoo-finance"
+    },
+    "SE:2025-Q4": {
+      "ticker": "SE",
+      "period": "2025-Q4",
+      "start": "2025-10-01",
+      "end": "2025-12-31",
+      "low": 118.86000061035156,
+      "high": 193.47999572753906,
+      "currency": "USD",
+      "source": "yahoo-finance"
+    },
     "SEI:2025-Q4": {
       "ticker": "SEI",
       "period": "2025-Q4",
@@ -955,6 +6591,46 @@
       "end": "2025-12-31",
       "low": 38.499000549316406,
       "high": 57.165000915527344,
+      "currency": "USD",
+      "source": "yahoo-finance"
+    },
+    "SF:2025-Q4": {
+      "ticker": "SF",
+      "period": "2025-Q4",
+      "start": "2025-10-01",
+      "end": "2025-12-31",
+      "low": 71.3066635131836,
+      "high": 88.72000122070312,
+      "currency": "USD",
+      "source": "yahoo-finance"
+    },
+    "SFIX:2025-Q4": {
+      "ticker": "SFIX",
+      "period": "2025-Q4",
+      "start": "2025-10-01",
+      "end": "2025-12-31",
+      "low": 3.869999885559082,
+      "high": 5.675000190734863,
+      "currency": "USD",
+      "source": "yahoo-finance"
+    },
+    "SJM:2025-Q4": {
+      "ticker": "SJM",
+      "period": "2025-Q4",
+      "start": "2025-10-01",
+      "end": "2025-12-31",
+      "low": 97.31999969482422,
+      "high": 112.36000061035156,
+      "currency": "USD",
+      "source": "yahoo-finance"
+    },
+    "SLB:2025-Q4": {
+      "ticker": "SLB",
+      "period": "2025-Q4",
+      "start": "2025-10-01",
+      "end": "2025-12-31",
+      "low": 31.639999389648438,
+      "high": 40.880001068115234,
       "currency": "USD",
       "source": "yahoo-finance"
     },
@@ -978,6 +6654,56 @@
       "currency": "USD",
       "source": "yahoo-finance"
     },
+    "SNOW:2025-Q4": {
+      "ticker": "SNOW",
+      "period": "2025-Q4",
+      "start": "2025-10-01",
+      "end": "2025-12-31",
+      "low": 211.91000366210938,
+      "high": 280.6700134277344,
+      "currency": "USD",
+      "source": "yahoo-finance"
+    },
+    "SRTA:2025-Q4": {
+      "ticker": "SRTA",
+      "period": "2025-Q4",
+      "start": "2025-10-01",
+      "end": "2025-12-31",
+      "low": 4,
+      "high": 5.960000038146973,
+      "currency": "USD",
+      "source": "yahoo-finance"
+    },
+    "STEP:2025-Q4": {
+      "ticker": "STEP",
+      "period": "2025-Q4",
+      "start": "2025-10-01",
+      "end": "2025-12-31",
+      "low": 55.779998779296875,
+      "high": 68.37999725341797,
+      "currency": "USD",
+      "source": "yahoo-finance"
+    },
+    "STT:2025-Q4": {
+      "ticker": "STT",
+      "period": "2025-Q4",
+      "start": "2025-10-01",
+      "end": "2025-12-31",
+      "low": 104.63999938964844,
+      "high": 133,
+      "currency": "USD",
+      "source": "yahoo-finance"
+    },
+    "STUB:2025-Q4": {
+      "ticker": "STUB",
+      "period": "2025-Q4",
+      "start": "2025-10-01",
+      "end": "2025-12-31",
+      "low": 9.829999923706055,
+      "high": 21.489999771118164,
+      "currency": "USD",
+      "source": "yahoo-finance"
+    },
     "STX:2025-Q4": {
       "ticker": "STX",
       "period": "2025-Q4",
@@ -988,6 +6714,16 @@
       "currency": "USD",
       "source": "yahoo-finance"
     },
+    "SWKS:2025-Q4": {
+      "ticker": "SWKS",
+      "period": "2025-Q4",
+      "start": "2025-10-01",
+      "end": "2025-12-31",
+      "low": 60.060001373291016,
+      "high": 90.9000015258789,
+      "currency": "USD",
+      "source": "yahoo-finance"
+    },
     "SYF:2025-Q4": {
       "ticker": "SYF",
       "period": "2025-Q4",
@@ -995,6 +6731,126 @@
       "end": "2025-12-31",
       "low": 68,
       "high": 86.47899627685547,
+      "currency": "USD",
+      "source": "yahoo-finance"
+    },
+    "TDS:2025-Q4": {
+      "ticker": "TDS",
+      "period": "2025-Q4",
+      "start": "2025-10-01",
+      "end": "2025-12-31",
+      "low": 35.86000061035156,
+      "high": 41.470001220703125,
+      "currency": "USD",
+      "source": "yahoo-finance"
+    },
+    "TEAM:2025-Q4": {
+      "ticker": "TEAM",
+      "period": "2025-Q4",
+      "start": "2025-10-01",
+      "end": "2025-12-31",
+      "low": 139.6999969482422,
+      "high": 176.72000122070312,
+      "currency": "USD",
+      "source": "yahoo-finance"
+    },
+    "TEVA:2025-Q4": {
+      "ticker": "TEVA",
+      "period": "2025-Q4",
+      "start": "2025-10-01",
+      "end": "2025-12-31",
+      "low": 18.829999923706055,
+      "high": 31.989999771118164,
+      "currency": "USD",
+      "source": "yahoo-finance"
+    },
+    "TFC:2025-Q4": {
+      "ticker": "TFC",
+      "period": "2025-Q4",
+      "start": "2025-10-01",
+      "end": "2025-12-31",
+      "low": 40.779998779296875,
+      "high": 50.86000061035156,
+      "currency": "USD",
+      "source": "yahoo-finance"
+    },
+    "TFIN:2025-Q4": {
+      "ticker": "TFIN",
+      "period": "2025-Q4",
+      "start": "2025-10-01",
+      "end": "2025-12-31",
+      "low": 46.43000030517578,
+      "high": 65.98999786376953,
+      "currency": "USD",
+      "source": "yahoo-finance"
+    },
+    "TIC:2025-Q4": {
+      "ticker": "TIC",
+      "period": "2025-Q4",
+      "start": "2025-10-01",
+      "end": "2025-12-31",
+      "low": 8.805000305175781,
+      "high": 14.649999618530273,
+      "currency": "USD",
+      "source": "yahoo-finance"
+    },
+    "TLN:2025-Q4": {
+      "ticker": "TLN",
+      "period": "2025-Q4",
+      "start": "2025-10-01",
+      "end": "2025-12-31",
+      "low": 343.3999938964844,
+      "high": 451.2799987792969,
+      "currency": "USD",
+      "source": "yahoo-finance"
+    },
+    "TPG:2025-Q4": {
+      "ticker": "TPG",
+      "period": "2025-Q4",
+      "start": "2025-10-01",
+      "end": "2025-12-31",
+      "low": 51.42100143432617,
+      "high": 69.19999694824219,
+      "currency": "USD",
+      "source": "yahoo-finance"
+    },
+    "TSEM:2025-Q4": {
+      "ticker": "TSEM",
+      "period": "2025-Q4",
+      "start": "2025-10-01",
+      "end": "2025-12-31",
+      "low": 70.9000015258789,
+      "high": 129.5800018310547,
+      "currency": "USD",
+      "source": "yahoo-finance"
+    },
+    "TSM:2025-Q4": {
+      "ticker": "TSM",
+      "period": "2025-Q4",
+      "start": "2025-10-01",
+      "end": "2025-12-31",
+      "low": 266.82000732421875,
+      "high": 313.9800109863281,
+      "currency": "USD",
+      "source": "yahoo-finance"
+    },
+    "TTD:2025-Q4": {
+      "ticker": "TTD",
+      "period": "2025-Q4",
+      "start": "2025-10-01",
+      "end": "2025-12-31",
+      "low": 35.650001525878906,
+      "high": 56.38999938964844,
+      "currency": "USD",
+      "source": "yahoo-finance"
+    },
+    "TW:2025-Q4": {
+      "ticker": "TW",
+      "period": "2025-Q4",
+      "start": "2025-10-01",
+      "end": "2025-12-31",
+      "low": 101.70500183105469,
+      "high": 112.23999786376953,
       "currency": "USD",
       "source": "yahoo-finance"
     },
@@ -1018,6 +6874,66 @@
       "currency": "USD",
       "source": "yahoo-finance"
     },
+    "UPS:2025-Q4": {
+      "ticker": "UPS",
+      "period": "2025-Q4",
+      "start": "2025-10-01",
+      "end": "2025-12-31",
+      "low": 82,
+      "high": 102.88999938964844,
+      "currency": "USD",
+      "source": "yahoo-finance"
+    },
+    "UPST:2025-Q4": {
+      "ticker": "UPST",
+      "period": "2025-Q4",
+      "start": "2025-10-01",
+      "end": "2025-12-31",
+      "low": 34.22999954223633,
+      "high": 55.220001220703125,
+      "currency": "USD",
+      "source": "yahoo-finance"
+    },
+    "USB:2025-Q4": {
+      "ticker": "USB",
+      "period": "2025-Q4",
+      "start": "2025-10-01",
+      "end": "2025-12-31",
+      "low": 45.02000045776367,
+      "high": 55.150001525878906,
+      "currency": "USD",
+      "source": "yahoo-finance"
+    },
+    "V:2025-Q4": {
+      "ticker": "V",
+      "period": "2025-Q4",
+      "start": "2025-10-01",
+      "end": "2025-12-31",
+      "low": 318,
+      "high": 356.7300109863281,
+      "currency": "USD",
+      "source": "yahoo-finance"
+    },
+    "VIA:2025-Q4": {
+      "ticker": "VIA",
+      "period": "2025-Q4",
+      "start": "2025-10-01",
+      "end": "2025-12-31",
+      "low": 28.229999542236328,
+      "high": 55.20000076293945,
+      "currency": "USD",
+      "source": "yahoo-finance"
+    },
+    "VRT:2025-Q4": {
+      "ticker": "VRT",
+      "period": "2025-Q4",
+      "start": "2025-10-01",
+      "end": "2025-12-31",
+      "low": 147.35000610351562,
+      "high": 202.4499969482422,
+      "currency": "USD",
+      "source": "yahoo-finance"
+    },
     "VST:2025-Q4": {
       "ticker": "VST",
       "period": "2025-Q4",
@@ -1025,6 +6941,86 @@
       "end": "2025-12-31",
       "low": 158.64999389648438,
       "high": 217.10000610351562,
+      "currency": "USD",
+      "source": "yahoo-finance"
+    },
+    "WAL:2025-Q4": {
+      "ticker": "WAL",
+      "period": "2025-Q4",
+      "start": "2025-10-01",
+      "end": "2025-12-31",
+      "low": 68.61000061035156,
+      "high": 89.2300033569336,
+      "currency": "USD",
+      "source": "yahoo-finance"
+    },
+    "XLF:2025-Q4": {
+      "ticker": "XLF",
+      "period": "2025-Q4",
+      "start": "2025-10-01",
+      "end": "2025-12-31",
+      "low": 51.08000183105469,
+      "high": 55.88999938964844,
+      "currency": "USD",
+      "source": "yahoo-finance"
+    },
+    "XYZ:2025-Q4": {
+      "ticker": "XYZ",
+      "period": "2025-Q4",
+      "start": "2025-10-01",
+      "end": "2025-12-31",
+      "low": 56.959999084472656,
+      "high": 81.69999694824219,
+      "currency": "USD",
+      "source": "yahoo-finance"
+    },
+    "YPF:2025-Q4": {
+      "ticker": "YPF",
+      "period": "2025-Q4",
+      "start": "2025-10-01",
+      "end": "2025-12-31",
+      "low": 23.020000457763672,
+      "high": 39.79999923706055,
+      "currency": "USD",
+      "source": "yahoo-finance"
+    },
+    "Z:2025-Q4": {
+      "ticker": "Z",
+      "period": "2025-Q4",
+      "start": "2025-10-01",
+      "end": "2025-12-31",
+      "low": 65.06999969482422,
+      "high": 79.4000015258789,
+      "currency": "USD",
+      "source": "yahoo-finance"
+    },
+    "ZG:2025-Q4": {
+      "ticker": "ZG",
+      "period": "2025-Q4",
+      "start": "2025-10-01",
+      "end": "2025-12-31",
+      "low": 63.150001525878906,
+      "high": 76.31999969482422,
+      "currency": "USD",
+      "source": "yahoo-finance"
+    },
+    "ZION:2025-Q4": {
+      "ticker": "ZION",
+      "period": "2025-Q4",
+      "start": "2025-10-01",
+      "end": "2025-12-31",
+      "low": 46.189998626708984,
+      "high": 60.77000045776367,
+      "currency": "USD",
+      "source": "yahoo-finance"
+    },
+    "ZTS:2025-Q4": {
+      "ticker": "ZTS",
+      "period": "2025-Q4",
+      "start": "2025-10-01",
+      "end": "2025-12-31",
+      "low": 115.25,
+      "high": 148.7899932861328,
       "currency": "USD",
       "source": "yahoo-finance"
     }

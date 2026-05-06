@@ -1,0 +1,33 @@
+{
+  "slug": "citadel",
+  "quarters": [
+    {
+      "slug": "citadel",
+      "period": "2025-Q4",
+      "period_ending": "2025-12-31",
+      "filing_date": "2026-02-17",
+      "accession": "0001104659-26-016408",
+      "edgar_url": "https://www.sec.gov/Archives/edgar/data/1423053/000110465926016408/",
+      "value_units": "USD",
+      "schema_version": "X02",
+      "total_value": 665872168045,
+      "position_count": 15403,
+      "summary": "$665.9B reported 13F value across the latest filing. Largest new stake: CARETRUST REIT INC at $93M. Largest closed prior-quarter stake: NISOURCE INC worth $88M. Largest buy/sell activity: SELECT SECTOR SPDR TR, with $4.4B bought value and $4.3B prior-quarter value exited. Largest added reported exposure: TESLA INC (TSLA) by $3.3B. Largest reduced reported exposure: SPDR S&P 500 ETF TRUST (SPY) by $7.5B.",
+      "fetched_at": "2026-05-06T08:06:59.144Z"
+    },
+    {
+      "slug": "citadel",
+      "period": "2025-Q3",
+      "period_ending": "2025-09-30",
+      "filing_date": "2025-11-14",
+      "accession": "0001104659-25-112514",
+      "edgar_url": "https://www.sec.gov/Archives/edgar/data/1423053/000110465925112514/",
+      "value_units": "USD",
+      "schema_version": "X02",
+      "total_value": 657149092274,
+      "position_count": 15551,
+      "summary": "Prior-quarter baseline imported for comparison against 2025-Q4.",
+      "fetched_at": "2026-05-06T08:06:59.147Z"
+    }
+  ]
+}

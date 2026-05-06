@@ -1,0 +1,33 @@
+{
+  "slug": "appaloosa",
+  "quarters": [
+    {
+      "slug": "appaloosa",
+      "period": "2025-Q4",
+      "period_ending": "2025-12-31",
+      "filing_date": "2026-02-17",
+      "accession": "0001656456-26-000001",
+      "edgar_url": "https://www.sec.gov/Archives/edgar/data/1656456/000165645626000001/",
+      "value_units": "USD",
+      "schema_version": "X02",
+      "total_value": 6925020650,
+      "position_count": 39,
+      "summary": "$6.9B reported 13F value across the latest filing. Largest new stake: ISHARES INC at $182M. Largest closed prior-quarter stake: FISERV INC worth $119M. Largest added reported exposure: MICRON TECHNOLOGY INC (MU) by $344M. Largest reduced reported exposure: ALIBABA GROUP HOLDING-SP ADR (BABA) by $400M.",
+      "fetched_at": "2026-05-06T08:07:04.499Z"
+    },
+    {
+      "slug": "appaloosa",
+      "period": "2025-Q3",
+      "period_ending": "2025-09-30",
+      "filing_date": "2025-11-13",
+      "accession": "0001656456-25-000007",
+      "edgar_url": "https://www.sec.gov/Archives/edgar/data/1656456/000165645625000007/",
+      "value_units": "USD",
+      "schema_version": "X02",
+      "total_value": 7383589018,
+      "position_count": 45,
+      "summary": "Prior-quarter baseline imported for comparison against 2025-Q4.",
+      "fetched_at": "2026-05-06T08:07:04.500Z"
+    }
+  ]
+}

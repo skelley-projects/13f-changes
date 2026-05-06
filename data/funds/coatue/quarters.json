@@ -1,0 +1,33 @@
+{
+  "slug": "coatue",
+  "quarters": [
+    {
+      "slug": "coatue",
+      "period": "2025-Q4",
+      "period_ending": "2025-12-31",
+      "filing_date": "2026-02-17",
+      "accession": "0000919574-26-001239",
+      "edgar_url": "https://www.sec.gov/Archives/edgar/data/1135730/000091957426001239/",
+      "value_units": "USD",
+      "schema_version": "X02",
+      "total_value": 39962643007,
+      "position_count": 257,
+      "summary": "$40.0B reported 13F value across the latest filing. Largest new stake: INFOSYS LTD-SP ADR (INFY) at $82M. Largest closed prior-quarter stake: COREWEAVE INC-CL A (CRWV) worth $920M. Largest added reported exposure: FIRST CITIZENS BCSHS  -CL A (FCNCA) by $291M. Largest reduced reported exposure: AMAZON.COM INC (AMZN) by $1.3B.",
+      "fetched_at": "2026-05-06T08:07:03.676Z"
+    },
+    {
+      "slug": "coatue",
+      "period": "2025-Q3",
+      "period_ending": "2025-09-30",
+      "filing_date": "2025-11-14",
+      "accession": "0000919574-25-006976",
+      "edgar_url": "https://www.sec.gov/Archives/edgar/data/1135730/000091957425006976/",
+      "value_units": "USD",
+      "schema_version": "X02",
+      "total_value": 40788469402,
+      "position_count": 258,
+      "summary": "Prior-quarter baseline imported for comparison against 2025-Q4.",
+      "fetched_at": "2026-05-06T08:07:03.676Z"
+    }
+  ]
+}

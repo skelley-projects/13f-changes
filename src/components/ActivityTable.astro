@@ -22,6 +22,9 @@ function isOptionActivity(row: MovementActivity): boolean {
 }
 
 const displayRows = [...rows].sort((a, b) => Number(isOptionActivity(a)) - Number(isOptionActivity(b)));
+const ROW_LIMIT = 120;
+const visibleRows = displayRows.slice(0, ROW_LIMIT);
+const hiddenCount = Math.max(0, displayRows.length - visibleRows.length);
 
 const totalBought = rows.reduce((s, r) => s + r.current_value, 0);
 const totalSold = rows.reduce((s, r) => s + r.prior_value, 0);
@@ -96,6 +99,11 @@ const csvFilename = `${currentPeriod}-buy-sell-activity.csv`;
         </span>
       </span>
     </header>
+    {hiddenCount > 0 && (
+      <p class="table-note">
+        Showing the largest {ROW_LIMIT} of {displayRows.length} activity rows by reported value. CSV export includes the full table.
+      </p>
+    )}
     <table>
       <thead>
         <tr>
@@ -110,7 +118,7 @@ const csvFilename = `${currentPeriod}-buy-sell-activity.csv`;
         </tr>
       </thead>
       <tbody>
-        {displayRows.map((r) => {
+        {visibleRows.map((r) => {
           const broad = themeLabelsFor(r.tags, taxonomy);
           const granular = themeLabelsFor(r.tags, taxonomy, true);
           const prices = priceParts(r);
@@ -200,6 +208,15 @@ const csvFilename = `${currentPeriod}-buy-sell-activity.csv`;
   .csv-button:hover {
     border-color: var(--accent);
     color: var(--accent-hover);
+  }
+  .table-note {
+    margin: 0;
+    padding: 8px 14px;
+    color: var(--fg-muted);
+    border-bottom: 1px solid var(--border);
+    background: rgba(201, 154, 73, 0.035);
+    font-size: 0.74rem;
+    line-height: 1.45;
   }
   table { width: 100%; border-collapse: collapse; font-size: 0.825rem; }
   th {

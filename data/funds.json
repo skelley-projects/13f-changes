@@ -20,5 +20,95 @@
     "description": "Macro/generalist family office. Druckenmiller's vehicle since 2010.",
     "added": "2026-05-03",
     "active": true
+  },
+  {
+    "slug": "citadel",
+    "name": "Citadel Advisors LLC",
+    "manager_name": "Ken Griffin",
+    "cik": "0001423053",
+    "location": "Miami, FL",
+    "description": "Multi-strategy investment manager with very broad 13F exposure across equities, ETFs, and options.",
+    "added": "2026-05-06",
+    "active": true
+  },
+  {
+    "slug": "millennium",
+    "name": "Millennium Management LLC",
+    "manager_name": "Israel Englander",
+    "cik": "0001273087",
+    "location": "New York, NY",
+    "description": "Large multi-manager platform with diversified 13F exposure across equities, ETFs, and options.",
+    "added": "2026-05-06",
+    "active": true
+  },
+  {
+    "slug": "coatue",
+    "name": "Coatue Management LLC",
+    "manager_name": "Philippe Laffont",
+    "cik": "0001135730",
+    "location": "New York, NY",
+    "description": "Technology-focused investment manager with public equity exposure across software, internet, semiconductors, and growth companies.",
+    "added": "2026-05-06",
+    "active": true
+  },
+  {
+    "slug": "appaloosa",
+    "name": "Appaloosa LP",
+    "manager_name": "David Tepper",
+    "cik": "0001656456",
+    "location": "Short Hills, NJ",
+    "description": "Generalist hedge fund led by David Tepper, with concentrated public equity and ETF positions.",
+    "added": "2026-05-06",
+    "active": true
+  },
+  {
+    "slug": "tiger-global",
+    "name": "Tiger Global Management LLC",
+    "manager_name": "Chase Coleman",
+    "cik": "0001167483",
+    "location": "New York, NY",
+    "description": "Growth-oriented investment manager with emphasis on internet, software, consumer technology, and global platform companies.",
+    "added": "2026-05-06",
+    "active": true
+  },
+  {
+    "slug": "pershing-square",
+    "name": "Pershing Square Capital Management, L.P.",
+    "manager_name": "Bill Ackman",
+    "cik": "0001336528",
+    "location": "New York, NY",
+    "description": "Concentrated activist investment manager led by Bill Ackman.",
+    "added": "2026-05-06",
+    "active": true
+  },
+  {
+    "slug": "third-point",
+    "name": "Third Point LLC",
+    "manager_name": "Daniel Loeb",
+    "cik": "0001040273",
+    "location": "New York, NY",
+    "description": "Event-driven and activist-oriented investment manager led by Daniel Loeb.",
+    "added": "2026-05-06",
+    "active": true
+  },
+  {
+    "slug": "viking-global",
+    "name": "Viking Global Investors LP",
+    "manager_name": "Andreas Halvorsen",
+    "cik": "0001103804",
+    "location": "Stamford, CT",
+    "description": "Long/short equity manager with broad but research-intensive public equity exposure.",
+    "added": "2026-05-06",
+    "active": true
+  },
+  {
+    "slug": "aqr",
+    "name": "AQR Capital Management LLC",
+    "manager_name": "Cliff Asness",
+    "cik": "0001167557",
+    "location": "Greenwich, CT",
+    "description": "Quantitative investment manager with broad factor, equity, ETF, and options exposure in 13F filings.",
+    "added": "2026-05-06",
+    "active": true
   }
 ]

@@ -1,7 +1,7 @@
 ---
 import Layout from '../../components/Layout.astro';
 import ManagerAvatar from '../../components/ManagerAvatar.astro';
-import { loadDiff, loadFiling, loadFundQuarters, loadFundTags, loadFunds, loadSecurities } from '../../lib/data';
+import { loadDiff, loadFiling, loadFundQuarters, loadFundTags, loadFunds, loadSecurities, loadSegmentMetrics } from '../../lib/data';
 import { formatPct, formatPeriod, formatUSD } from '../../lib/format';
 import { getSegmentPrimer } from '../../lib/segment-primers';
 import { themeSlug } from '../../lib/theme';
@@ -23,7 +23,39 @@ const { theme } = Astro.params;
 const { label } = Astro.props;
 const funds = loadFunds();
 const securities = loadSecurities();
+const segmentMetrics = loadSegmentMetrics();
 const primer = getSegmentPrimer(theme!);
+
+function shortDate(value: string | null): string {
+  if (!value) return 'n/a';
+  return new Date(value).toLocaleDateString('en-US', {
+    month: 'short',
+    day: 'numeric',
+    year: 'numeric',
+  });
+}
+
+function metricFor(ticker?: string) {
+  return ticker ? segmentMetrics?.records[ticker.toUpperCase()] ?? null : null;
+}
+
+function formatMarketCap(value: number | null): string {
+  if (value === null) return 'mkt cap n/a';
+  if (Math.abs(value) >= 1_000_000_000_000) {
+    return `$${(value / 1_000_000_000_000).toFixed(value >= 10_000_000_000_000 ? 0 : 1)}T`;
+  }
+  return formatUSD(value);
+}
+
+function signedMetricPct(value: number | null): string {
+  if (value === null) return '-';
+  return `${value >= 0 ? '+' : ''}${value.toFixed(1)}%`;
+}
+
+const majorPlayers = primer?.majorPlayers.map(player => ({
+  player,
+  metric: metricFor(player.ticker),
+})) ?? [];
 
 function matchingEntries(taxonomy: TaxonomyEntry[], targetTheme: string): TaxonomyEntry[] {
   return taxonomy.filter(entry => themeSlug(entry.label) === targetTheme);
@@ -183,16 +215,39 @@ function movementRows(view: NonNullable<(typeof fundViews)[number]>): Array<{ ti
           Broader segment comps and key players, not limited to the tracked fund holdings below.
         </p>
         <div class="players">
-          {primer.majorPlayers.map(player => (
+          {majorPlayers.map(({ player, metric }) => (
             <div class="player">
-              <div>
+              <div class="player-main">
                 <strong>{player.name}</strong>
                 <span>{player.role}</span>
               </div>
-              <em>{player.ticker ?? player.kind ?? 'Private'}</em>
+              <div class="player-id">
+                <em>{player.ticker ?? player.kind ?? 'Private'}</em>
+                {metric?.market_cap !== undefined && (
+                  <>
+                    <span title={`Market cap and returns as of ${shortDate(metric.as_of)}`}>
+                      {formatMarketCap(metric.market_cap)}
+                    </span>
+                    <small>{shortDate(metric.as_of)}</small>
+                  </>
+                )}
+              </div>
+              {metric && (
+                <div class="metric-grid" aria-label={`${player.name} market metrics`}>
+                  <span><b>1W</b>{signedMetricPct(metric.performance.one_week)}</span>
+                  <span><b>1M</b>{signedMetricPct(metric.performance.one_month)}</span>
+                  <span><b>1Y</b>{signedMetricPct(metric.performance.one_year)}</span>
+                  <span><b>5Y</b>{signedMetricPct(metric.performance.five_year)}</span>
+                </div>
+              )}
             </div>
           ))}
         </div>
+        {segmentMetrics && (
+          <p class="metrics-note">
+            Market cap and performance windows use Yahoo Finance data as of each ticker's latest quote time. Private or non-US unlisted names may not have metrics.
+          </p>
+        )}
       </aside>
     </section>
   )}
@@ -384,9 +439,9 @@ function movementRows(view: NonNullable<(typeof fundViews)[number]>): Array<{ ti
   }
   .player {
     border-top: 1px solid var(--border);
-    display: flex;
-    gap: 12px;
-    justify-content: space-between;
+    display: grid;
+    gap: 9px;
+    grid-template-columns: minmax(0, 1fr) auto;
     padding-top: 9px;
   }
   .player strong {
@@ -403,10 +458,57 @@ function movementRows(view: NonNullable<(typeof fundViews)[number]>): Array<{ ti
   }
   .player em {
     color: var(--accent-soft);
-    flex: 0 0 auto;
     font-family: var(--font-mono);
     font-size: 0.72rem;
     font-style: normal;
+  }
+  .player-id {
+    text-align: right;
+  }
+  .player-id span {
+    color: var(--fg);
+    font-family: var(--font-mono);
+    font-size: 0.72rem;
+    margin-top: 3px;
+  }
+  .player-id small {
+    color: var(--fg-dim);
+    display: block;
+    font-family: var(--font-sans);
+    font-size: 0.58rem;
+    font-weight: 700;
+    letter-spacing: 0.5px;
+    margin-top: 2px;
+    text-transform: uppercase;
+  }
+  .metric-grid {
+    display: grid;
+    gap: 5px;
+    grid-column: 1 / -1;
+    grid-template-columns: repeat(4, 1fr);
+  }
+  .metric-grid span {
+    background: rgba(255, 255, 255, 0.018);
+    border: 1px solid var(--border);
+    border-radius: 4px;
+    color: var(--fg);
+    font-family: var(--font-mono);
+    font-size: 0.68rem;
+    padding: 5px 6px;
+  }
+  .metric-grid b {
+    color: var(--fg-dim);
+    display: block;
+    font-family: var(--font-sans);
+    font-size: 0.55rem;
+    letter-spacing: 0.6px;
+    margin-bottom: 2px;
+  }
+  .metrics-note {
+    border-top: 1px solid var(--border);
+    font-size: 0.72rem !important;
+    margin: 10px 0 0 !important;
+    padding-top: 10px;
   }
   .tracked-funds {
     margin-top: 18px;

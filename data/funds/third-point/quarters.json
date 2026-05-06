@@ -1,0 +1,33 @@
+{
+  "slug": "third-point",
+  "quarters": [
+    {
+      "slug": "third-point",
+      "period": "2025-Q4",
+      "period_ending": "2025-12-31",
+      "filing_date": "2026-02-17",
+      "accession": "0001040273-26-000001",
+      "edgar_url": "https://www.sec.gov/Archives/edgar/data/1040273/000104027326000001/",
+      "value_units": "USD",
+      "schema_version": "X02",
+      "total_value": 7274621868,
+      "position_count": 44,
+      "summary": "$7.3B reported 13F value across the latest filing. Largest new stake: CHIPOTLE MEXICAN GRILL INC (CMG) at $175M. Largest closed prior-quarter stake: SPDR S&P 500 ETF TRUST (SPY) worth $583M. Largest added reported exposure: UNION PACIFIC CORP (UNP) by $212M. Largest reduced reported exposure: NORFOLK SOUTHERN CORP (NSC) by $214M.",
+      "fetched_at": "2026-05-06T08:07:06.619Z"
+    },
+    {
+      "slug": "third-point",
+      "period": "2025-Q3",
+      "period_ending": "2025-09-30",
+      "filing_date": "2025-11-14",
+      "accession": "0001040273-25-000003",
+      "edgar_url": "https://www.sec.gov/Archives/edgar/data/1040273/000104027325000003/",
+      "value_units": "USD",
+      "schema_version": "X02",
+      "total_value": 8989033614,
+      "position_count": 46,
+      "summary": "Prior-quarter baseline imported for comparison against 2025-Q4.",
+      "fetched_at": "2026-05-06T08:07:06.619Z"
+    }
+  ]
+}

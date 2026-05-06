@@ -149,7 +149,7 @@ describe('validateAll', () => {
     expect(result.errors.filter(e => /summary|realized losses/i.test(e))).toEqual([]);
   });
 
-  it('rejects an implausible per-share price', () => {
+  it('warns on a very low reported per-share value', () => {
     const dataset = baseDataset();
     // 1,000,000 shares at $1 each = $1M total — but value field expressed as 50 → per-share $0.00005, way below 0.01 floor.
     const filing = makeFiling('2025-Q4', '2025-12-31', 'A1', [
@@ -161,6 +161,24 @@ describe('validateAll', () => {
       filing_date: '2026-02-17', accession: 'A1', edgar_url: '',
       value_units: 'USD', schema_version: 'X02',
       total_value: 50, position_count: 1,
+      summary: '', fetched_at: '2026-01-01T00:00:00Z',
+    }];
+    const result = validateAll(dataset);
+    expect(result.errors.some(e => /implausible per-share price/i.test(e))).toBe(false);
+    expect(result.warnings.some(e => /very low reported per-share value/i.test(e))).toBe(true);
+  });
+
+  it('rejects an implausibly high per-share price', () => {
+    const dataset = baseDataset();
+    const filing = makeFiling('2025-Q4', '2025-12-31', 'A1', [
+      makePosition({ cusip: 'AAAAAAAA1', shares: 1, value: 20_000_000 }),
+    ]);
+    dataset.perFund.x.quarterFiles = { '2025-Q4': filing as any };
+    dataset.perFund.x.quarters.quarters = [{
+      slug: 'x', period: '2025-Q4', period_ending: '2025-12-31',
+      filing_date: '2026-02-17', accession: 'A1', edgar_url: '',
+      value_units: 'USD', schema_version: 'X02',
+      total_value: 20_000_000, position_count: 1,
       summary: '', fetched_at: '2026-01-01T00:00:00Z',
     }];
     const result = validateAll(dataset);

@@ -239,9 +239,12 @@ export function validateAll(d: DatasetForValidation): { errors: string[]; warnin
           errors.push(`${slug}/${period}.json position[${i}] (${p?.cusip ?? '?'}): ${r.error.message}`);
           continue;
         }
-        if (p.shares > 0) {
+        if (p.shares_type === 'SH' && p.shares > 0 && p.value > 0) {
           const perShare = p.value / p.shares;
-          if (perShare <= 0.01 || perShare >= 10_000_000) {
+          if (perShare <= 0.01) {
+            warnings.push(`${slug}/${period}.json position[${i}] (${p.cusip} ${p.name_of_issuer}): very low reported per-share value ${perShare.toFixed(4)} (value=${p.value}, shares=${p.shares})`);
+          }
+          if (perShare >= 10_000_000) {
             errors.push(`${slug}/${period}.json position[${i}] (${p.cusip} ${p.name_of_issuer}): implausible per-share price ${perShare.toFixed(4)} (value=${p.value}, shares=${p.shares})`);
           }
         }

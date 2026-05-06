@@ -17,6 +17,10 @@ const positionKey = (p: { cusip: string; title_of_class: string; put_call: strin
 const positions = unchangedOnly && unchangedKeys
   ? filing.positions.filter(p => unchangedKeys.has(positionKey(p)))
   : filing.positions;
+const sortedPositions = [...positions].sort((a, b) => b.value - a.value);
+const ROW_LIMIT = 120;
+const visiblePositions = sortedPositions.slice(0, ROW_LIMIT);
+const hiddenCount = Math.max(0, sortedPositions.length - visiblePositions.length);
 const total = filing.total_value || 1;
 const totalUnchanged = positions.reduce((s, p) => s + p.value, 0);
 
@@ -52,6 +56,11 @@ function granularLabelsFor(cusip: string): string[] {
     · <span class="num">{formatUSD(totalUnchanged)}</span> ({formatPct((totalUnchanged / total) * 100)} of AUM)
     <span class="hint">click to expand</span>
   </summary>
+  {hiddenCount > 0 && (
+    <p class="limit-note">
+      Showing the largest {ROW_LIMIT} of {sortedPositions.length} steady positions by reported value.
+    </p>
+  )}
   <table>
     <thead>
       <tr>
@@ -61,7 +70,7 @@ function granularLabelsFor(cusip: string): string[] {
       </tr>
     </thead>
     <tbody>
-      {positions.map((p) => {
+      {visiblePositions.map((p) => {
         const sec = securities[p.cusip];
         const broad = broadLabelsFor(p.cusip);
         const granular = granularLabelsFor(p.cusip);
@@ -127,6 +136,12 @@ function granularLabelsFor(cusip: string): string[] {
     letter-spacing: 0.75px;
     color: var(--fg-dim);
     border-bottom: 1px solid var(--border-strong);
+  }
+  .limit-note {
+    margin: 10px 0 0;
+    color: var(--fg-muted);
+    font-size: 0.74rem;
+    line-height: 1.45;
   }
   td { padding: 5px 10px; border-bottom: 1px solid var(--border); }
   tr:last-child td { border-bottom: none; }

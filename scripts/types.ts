@@ -142,6 +142,30 @@ export interface PriceSnapshotFile {
   failures: Record<string, string>;
 }
 
+export interface SegmentMetricRecord {
+  ticker: string;
+  price: number;
+  market_cap: number | null;
+  currency: string | null;
+  as_of: string;
+  market_state: string | null;
+  quote_source: string | null;
+  performance: {
+    one_week: number | null;
+    one_month: number | null;
+    one_year: number | null;
+    five_year: number | null;
+  };
+  source: 'yahoo-finance';
+}
+
+export interface SegmentMetricsFile {
+  fetched_at: string;
+  source: 'yahoo-finance';
+  records: Record<string, SegmentMetricRecord>;
+  failures: Record<string, string>;
+}
+
 /* Diff-related types live below */
 
 export type MovementStatus = 'NEW' | 'INCREASED' | 'DECREASED' | 'CLOSED' | 'UNCHANGED';

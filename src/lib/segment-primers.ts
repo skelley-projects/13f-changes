@@ -176,7 +176,7 @@ export const segmentPrimers: Record<string, SegmentPrimer> = {
     [
       { name: 'Eaton', ticker: 'ETN', role: 'Electrical equipment and power management' },
       { name: 'Schneider Electric', role: 'Electrical distribution and automation', kind: 'Public' },
-      { name: 'ABB', ticker: 'ABB', role: 'Grid automation and electrification equipment' },
+      { name: 'ABB', ticker: 'ABBNY', role: 'Grid automation and electrification equipment' },
       { name: 'Siemens Energy', role: 'Grid technology and power equipment', kind: 'Public' },
       { name: 'GE Vernova', ticker: 'GEV', role: 'Grid and power equipment' },
       { name: 'Hubbell', ticker: 'HUBB', role: 'Utility and electrical infrastructure components' },
@@ -452,7 +452,7 @@ export const segmentPrimers: Record<string, SegmentPrimer> = {
       { name: 'CME Group', ticker: 'CME', role: 'Derivatives exchange and market data' },
       { name: 'Intercontinental Exchange', ticker: 'ICE', role: 'Exchanges, data, and mortgage tech' },
       { name: 'Nasdaq', ticker: 'NDAQ', role: 'Exchange and market technology' },
-      { name: 'Block', ticker: 'SQ', role: 'Merchant and consumer fintech' },
+      { name: 'Block', ticker: 'XYZ', role: 'Merchant and consumer fintech' },
       { name: 'Coinbase', ticker: 'COIN', role: 'Crypto exchange and infrastructure' },
       { name: 'Robinhood', ticker: 'HOOD', role: 'Retail brokerage and fintech platform' },
     ]
@@ -517,7 +517,7 @@ export const segmentPrimers: Record<string, SegmentPrimer> = {
       { name: 'GE Vernova', ticker: 'GEV', role: 'Power generation and grid equipment' },
       { name: 'Eaton', ticker: 'ETN', role: 'Electrical equipment and power management' },
       { name: 'Schneider Electric', role: 'Electrification and automation', kind: 'Public' },
-      { name: 'ABB', ticker: 'ABB', role: 'Electrification and automation' },
+      { name: 'ABB', ticker: 'ABBNY', role: 'Electrification and automation' },
       { name: 'Bloom Energy', ticker: 'BE', role: 'Distributed fuel-cell power' },
       { name: 'Vertiv', ticker: 'VRT', role: 'Data center power and thermal infrastructure' },
     ]

@@ -1,0 +1,33 @@
+{
+  "slug": "millennium",
+  "quarters": [
+    {
+      "slug": "millennium",
+      "period": "2025-Q4",
+      "period_ending": "2025-12-31",
+      "filing_date": "2026-02-17",
+      "accession": "0001273087-26-000002",
+      "edgar_url": "https://www.sec.gov/Archives/edgar/data/1273087/000127308726000002/",
+      "value_units": "USD",
+      "schema_version": "X02",
+      "total_value": 237791015622,
+      "position_count": 5950,
+      "summary": "$237.8B reported 13F value across the latest filing. Largest new stake: BP     PLC at $136M. Largest closed prior-quarter stake: BLOOM   ENERGY     CORP worth $288M. Largest buy/sell activity: ISHARES  TR, with $12.4B bought value and $8.2B prior-quarter value exited. Largest added reported exposure: WALMART INC (WMT) by $4.2B. Largest reduced reported exposure: INVESCO QQQ TRUST (QQQ) by $2.1B.",
+      "fetched_at": "2026-05-06T08:07:02.474Z"
+    },
+    {
+      "slug": "millennium",
+      "period": "2025-Q3",
+      "period_ending": "2025-09-30",
+      "filing_date": "2025-11-14",
+      "accession": "0001273087-25-000034",
+      "edgar_url": "https://www.sec.gov/Archives/edgar/data/1273087/000127308725000034/",
+      "value_units": "USD",
+      "schema_version": "X02",
+      "total_value": 234292490467,
+      "position_count": 5978,
+      "summary": "Prior-quarter baseline imported for comparison against 2025-Q4.",
+      "fetched_at": "2026-05-06T08:07:02.474Z"
+    }
+  ]
+}

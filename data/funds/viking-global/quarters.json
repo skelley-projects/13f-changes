@@ -1,0 +1,33 @@
+{
+  "slug": "viking-global",
+  "quarters": [
+    {
+      "slug": "viking-global",
+      "period": "2025-Q4",
+      "period_ending": "2025-12-31",
+      "filing_date": "2026-02-17",
+      "accession": "0001103804-26-000002",
+      "edgar_url": "https://www.sec.gov/Archives/edgar/data/1103804/000110380426000002/",
+      "value_units": "USD",
+      "schema_version": "X02",
+      "total_value": 37677848898,
+      "position_count": 76,
+      "summary": "$37.7B reported 13F value across the latest filing. Largest new stake: ALPHABET INC-CL A (GOOGL) at $835M. Largest closed prior-quarter stake: BLACKROCK INC (BLK) worth $722M. Largest added reported exposure: VISA INC-CLASS A SHARES (V) by $408M. Largest reduced reported exposure: JPMORGAN CHASE & CO (JPM) by $982M.",
+      "fetched_at": "2026-05-06T08:07:07.248Z"
+    },
+    {
+      "slug": "viking-global",
+      "period": "2025-Q3",
+      "period_ending": "2025-09-30",
+      "filing_date": "2025-11-14",
+      "accession": "0001103804-25-000010",
+      "edgar_url": "https://www.sec.gov/Archives/edgar/data/1103804/000110380425000010/",
+      "value_units": "USD",
+      "schema_version": "X02",
+      "total_value": 38504949476,
+      "position_count": 78,
+      "summary": "Prior-quarter baseline imported for comparison against 2025-Q4.",
+      "fetched_at": "2026-05-06T08:07:07.248Z"
+    }
+  ]
+}

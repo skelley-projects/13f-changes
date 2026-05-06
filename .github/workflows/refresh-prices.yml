@@ -18,12 +18,13 @@ jobs:
         with: { node-version: 22 }
       - run: npm ci
       - run: npm run refresh-prices
+      - run: npm run refresh-segment-metrics
       - name: Commit price snapshot if changed
         run: |
-          if [[ -n "$(git status --porcelain data/prices/latest.json)" ]]; then
+          if [[ -n "$(git status --porcelain data/prices/latest.json data/segments/metrics.json)" ]]; then
             git config user.name "github-actions[bot]"
             git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-            git add data/prices/latest.json
-            git commit -m "chore: refresh latest price snapshot"
+            git add data/prices/latest.json data/segments/metrics.json
+            git commit -m "chore: refresh latest market snapshots"
             git push
           fi

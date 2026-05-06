@@ -18,7 +18,8 @@
     "tag-audit": "tsx scripts/run-tag-audit.ts",
     "poll-edgar": "tsx scripts/run-poll-edgar.ts",
     "remind": "tsx scripts/run-remind.ts",
-    "refresh-prices": "tsx scripts/run-refresh-prices.ts"
+    "refresh-prices": "tsx scripts/run-refresh-prices.ts",
+    "refresh-segment-metrics": "tsx scripts/run-refresh-segment-metrics.ts"
   },
   "dependencies": {
     "astro": "^6.2.1",

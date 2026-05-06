@@ -20,6 +20,9 @@ interface Props {
 }
 const { status, rows, taxonomy, prices, currentPeriod } = Astro.props;
 const displayRows = [...rows].sort((a, b) => Number(Boolean(a.put_call)) - Number(Boolean(b.put_call)));
+const ROW_LIMIT = 120;
+const visibleRows = displayRows.slice(0, ROW_LIMIT);
+const hiddenCount = Math.max(0, displayRows.length - visibleRows.length);
 
 const styles = {
   NEW: { tone: 'pos', label: 'NEW POSITIONS' },
@@ -118,6 +121,11 @@ const csvFilename = `${currentPeriod}-${status.toLowerCase()}-positions.csv`;
         Closed value is the prior quarter-end reported stake value, not realized sale proceeds or fund P/L.
       </p>
     )}
+    {hiddenCount > 0 && (
+      <p class="table-note">
+        Showing the largest {ROW_LIMIT} of {displayRows.length} rows by reported value change. CSV export includes the full table.
+      </p>
+    )}
     <table>
       <thead>
         <tr>
@@ -133,7 +141,7 @@ const csvFilename = `${currentPeriod}-${status.toLowerCase()}-positions.csv`;
         </tr>
       </thead>
       <tbody>
-        {displayRows.map((r) => {
+        {visibleRows.map((r) => {
           const broad = themeLabelsFor(r.tags, taxonomy);
           const granular = themeLabelsFor(r.tags, taxonomy, true);
           const valueTone = (status === 'INCREASED' || status === 'DECREASED')

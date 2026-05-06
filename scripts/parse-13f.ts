@@ -44,6 +44,7 @@ export function parseFiling(input: ParseInput): FilingFile {
   // If median < $1, raw values are in thousands; multiply by 1000 to normalize.
   const perSharePrices = tableEntries
     .map((row) => {
+      if (row.shrsOrPrnAmt.sshPrnamtType !== 'SH') return 0;
       const shares = parseInt(row.shrsOrPrnAmt.sshPrnamt, 10);
       const value = parseInt(row.value, 10);
       return shares > 0 ? value / shares : 0;
@@ -66,11 +67,10 @@ export function parseFiling(input: ParseInput): FilingFile {
 
   const positions: Position[] = tableEntries.map((row) => {
     const sharesType = row.shrsOrPrnAmt.sshPrnamtType;
-    if (sharesType !== 'SH') {
+    if (sharesType !== 'SH' && sharesType !== 'PRN') {
       throw new Error(
         `Unsupported sshPrnamtType "${sharesType}" for ${row.nameOfIssuer} (${row.cusip}). ` +
-        `Only SH (shares) is currently supported. PRN (principal/bonds) requires explicit handling — ` +
-        `add fund-specific logic if a fund's filings include bond positions.`
+        `Expected SH (shares) or PRN (principal amount).`
       );
     }
     const value = parseInt(row.value, 10) * scale;

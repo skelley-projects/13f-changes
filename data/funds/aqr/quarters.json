@@ -1,0 +1,33 @@
+{
+  "slug": "aqr",
+  "quarters": [
+    {
+      "slug": "aqr",
+      "period": "2025-Q4",
+      "period_ending": "2025-12-31",
+      "filing_date": "2026-02-17",
+      "accession": "0001085146-26-000240",
+      "edgar_url": "https://www.sec.gov/Archives/edgar/data/1167557/000108514626000240/",
+      "value_units": "USD",
+      "schema_version": "X02",
+      "total_value": 190628430568,
+      "position_count": 16934,
+      "summary": "$190.6B reported 13F value across the latest filing. Largest new stake: CELESTICA INC (CLS) at $7M. Largest closed prior-quarter stake: KELLANOVA worth $35M. Largest buy/sell activity: SPDR SERIES TRUST, with $621M bought value and $587M prior-quarter value exited. Largest added reported exposure: CENTENE CORP (CNC) by $1.3B. Largest reduced reported exposure: ALPHABET INC-CL A (GOOGL) by $905M.",
+      "fetched_at": "2026-05-06T08:07:17.590Z"
+    },
+    {
+      "slug": "aqr",
+      "period": "2025-Q3",
+      "period_ending": "2025-09-30",
+      "filing_date": "2025-11-14",
+      "accession": "0001167557-25-000065",
+      "edgar_url": "https://www.sec.gov/Archives/edgar/data/1167557/000116755725000065/",
+      "value_units": "USD",
+      "schema_version": "X02",
+      "total_value": 155999470288,
+      "position_count": 14495,
+      "summary": "Prior-quarter baseline imported for comparison against 2025-Q4.",
+      "fetched_at": "2026-05-06T08:07:17.590Z"
+    }
+  ]
+}
