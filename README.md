@@ -49,6 +49,8 @@ npm run poll-edgar   # check EDGAR for new 13F-HR filings, append to data/_pendi
 npm run classify <slug> <period>   # batch-classify CUSIPs via OpenFIGI + Yahoo Finance
 npm run remind       # build the reminder email body (sends via Resend if RESEND_API_KEY is set)
 npm run refresh-prices   # refresh data/prices/latest.json via Yahoo Finance quotes
+npm run refresh-manager-photos   # download/update local manager headshots from curated sources
+npm run check-manager-photos     # CI guard: every active fund has a local manager photo
 ```
 
 ### Quarterly review (semi-automated)
@@ -65,8 +67,11 @@ Claude will fetch any pending filings, classify new CUSIPs, prompt for theme tag
 
 1. Find the fund's CIK on SEC EDGAR full-text search.
 2. Add an entry to `data/funds.json`.
-3. Create empty `data/funds/<slug>/quarters.json` (`{"slug": "<slug>", "quarters": []}`) and `data/funds/<slug>/tags.json` (`{"slug": "<slug>", "taxonomy": [], "assignments": {}}`).
-4. Run `/update-quarter` to backfill the latest two quarters from EDGAR.
+3. Add the lead investor photo source to `scripts/lookups/manager-photo-sources.json`, then run `npm run refresh-manager-photos`. This downloads the image into `public/managers/` and writes `manager_photo` in `data/funds.json`.
+4. Create empty `data/funds/<slug>/quarters.json` (`{"slug": "<slug>", "quarters": []}`) and `data/funds/<slug>/tags.json` (`{"slug": "<slug>", "taxonomy": [], "assignments": {}}`).
+5. Run `/update-quarter` to backfill the latest two quarters from EDGAR.
+
+`npm run check-manager-photos` runs in CI before deploy, so future active funds cannot ship with only initials unless a local photo path and file exist.
 
 ## Deploy
 
