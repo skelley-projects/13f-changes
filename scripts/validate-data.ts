@@ -138,6 +138,8 @@ const dryPowderSchema = z.object({
     cash_and_equivalents: z.number().min(0),
     short_term_treasury_bills: z.number().min(0),
     total_dry_powder: z.number().min(0),
+    equity_securities: z.number().min(0).nullable(),
+    dry_powder_to_equities: z.number().min(0).nullable(),
   })).min(1),
   notes: z.array(z.string().min(1)),
   fetched_at: z.string().min(1),
@@ -162,6 +164,16 @@ const dryPowderSchema = z.object({
         path: ['history', index, 'total_dry_powder'],
         message: `history total_dry_powder must equal cash_and_equivalents + short_term_treasury_bills (${expected})`,
       });
+    }
+    if (entry.equity_securities && entry.equity_securities > 0) {
+      const expectedRatio = entry.total_dry_powder / entry.equity_securities;
+      if (Math.abs((entry.dry_powder_to_equities ?? -1) - expectedRatio) > 0.000001) {
+        ctx.addIssue({
+          code: z.ZodIssueCode.custom,
+          path: ['history', index, 'dry_powder_to_equities'],
+          message: 'dry_powder_to_equities must equal total_dry_powder / equity_securities',
+        });
+      }
     }
     if (previousPeriod && entry.period_ending <= previousPeriod) {
       ctx.addIssue({

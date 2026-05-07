@@ -15,13 +15,17 @@
       "period_ending": "2026-03-31",
       "cash_and_equivalents": 51478000000,
       "short_term_treasury_bills": 339261000000,
-      "total_dry_powder": 390739000000
+      "total_dry_powder": 390739000000,
+      "equity_securities": 288034000000,
+      "dry_powder_to_equities": 1.3565724879701702
     },
     "prior": {
       "period_ending": "2025-12-31",
       "cash_and_equivalents": 47719000000,
       "short_term_treasury_bills": 321434000000,
-      "total_dry_powder": 369153000000
+      "total_dry_powder": 369153000000,
+      "equity_securities": 297778000000,
+      "dry_powder_to_equities": 1.2396919853044885
     }
   },
   "update_policy": {
@@ -38,7 +42,9 @@
       "url": "https://www.sec.gov/Archives/edgar/data/1067983/000156459020038544/brka-10q_20200630.htm",
       "cash_and_equivalents": 32318000000,
       "short_term_treasury_bills": 110518000000,
-      "total_dry_powder": 142836000000
+      "total_dry_powder": 142836000000,
+      "equity_securities": 207454000000,
+      "dry_powder_to_equities": 0.6885189005755493
     },
     {
       "period_ending": "2020-09-30",
@@ -48,7 +54,9 @@
       "url": "https://www.sec.gov/Archives/edgar/data/1067983/000156459020052144/brka-10q_20200930.htm",
       "cash_and_equivalents": 23078000000,
       "short_term_treasury_bills": 118906000000,
-      "total_dry_powder": 141984000000
+      "total_dry_powder": 141984000000,
+      "equity_securities": 245317000000,
+      "dry_powder_to_equities": 0.5787776631868154
     },
     {
       "period_ending": "2020-12-31",
@@ -58,7 +66,9 @@
       "url": "https://www.sec.gov/Archives/edgar/data/1067983/000156459021009611/brka-10k_20201231.htm",
       "cash_and_equivalents": 44714000000,
       "short_term_treasury_bills": 90300000000,
-      "total_dry_powder": 135014000000
+      "total_dry_powder": 135014000000,
+      "equity_securities": 281170000000,
+      "dry_powder_to_equities": 0.4801863641213501
     },
     {
       "period_ending": "2021-03-31",
@@ -68,7 +78,9 @@
       "url": "https://www.sec.gov/Archives/edgar/data/1067983/000156459021022703/brka-10q_20210331.htm",
       "cash_and_equivalents": 56826000000,
       "short_term_treasury_bills": 85385000000,
-      "total_dry_powder": 142211000000
+      "total_dry_powder": 142211000000,
+      "equity_securities": 282097000000,
+      "dry_powder_to_equities": 0.5041209229449445
     },
     {
       "period_ending": "2021-06-30",
@@ -78,7 +90,9 @@
       "url": "https://www.sec.gov/Archives/edgar/data/1067983/000156459021042312/brka-10q_20210630.htm",
       "cash_and_equivalents": 38924000000,
       "short_term_treasury_bills": 101760000000,
-      "total_dry_powder": 140684000000
+      "total_dry_powder": 140684000000,
+      "equity_securities": 307942000000,
+      "dry_powder_to_equities": 0.4568522643874496
     },
     {
       "period_ending": "2021-09-30",
@@ -88,7 +102,9 @@
       "url": "https://www.sec.gov/Archives/edgar/data/1067983/000156459021055032/brka-10q_20210930.htm",
       "cash_and_equivalents": 65156000000,
       "short_term_treasury_bills": 79209000000,
-      "total_dry_powder": 144365000000
+      "total_dry_powder": 144365000000,
+      "equity_securities": 310739000000,
+      "dry_powder_to_equities": 0.4645860352257039
     },
     {
       "period_ending": "2021-12-31",
@@ -98,7 +114,9 @@
       "url": "https://www.sec.gov/Archives/edgar/data/1067983/000156459022007322/brka-10k_20211231.htm",
       "cash_and_equivalents": 85319000000,
       "short_term_treasury_bills": 58535000000,
-      "total_dry_powder": 143854000000
+      "total_dry_powder": 143854000000,
+      "equity_securities": 350719000000,
+      "dry_powder_to_equities": 0.4101688246145775
     },
     {
       "period_ending": "2022-03-31",
@@ -108,7 +126,9 @@
       "url": "https://www.sec.gov/Archives/edgar/data/1067983/000156459022016907/brka-10q_20220331.htm",
       "cash_and_equivalents": 35542000000,
       "short_term_treasury_bills": 67145000000,
-      "total_dry_powder": 102687000000
+      "total_dry_powder": 102687000000,
+      "equity_securities": 390538000000,
+      "dry_powder_to_equities": 0.26293728139131145
     },
     {
       "period_ending": "2022-06-30",
@@ -118,7 +138,9 @@
       "url": "https://www.sec.gov/Archives/edgar/data/1067983/000156459022028282/brka-10q_20220630.htm",
       "cash_and_equivalents": 26534000000,
       "short_term_treasury_bills": 74803000000,
-      "total_dry_powder": 101337000000
+      "total_dry_powder": 101337000000,
+      "equity_securities": 327662000000,
+      "dry_powder_to_equities": 0.309272970316973
     },
     {
       "period_ending": "2022-09-30",
@@ -128,7 +150,9 @@
       "url": "https://www.sec.gov/Archives/edgar/data/1067983/000095017022022287/brka-20220930.htm",
       "cash_and_equivalents": 28869000000,
       "short_term_treasury_bills": 76332000000,
-      "total_dry_powder": 105201000000
+      "total_dry_powder": 105201000000,
+      "equity_securities": 306167000000,
+      "dry_powder_to_equities": 0.3436065937870509
     },
     {
       "period_ending": "2022-12-31",
@@ -138,7 +162,9 @@
       "url": "https://www.sec.gov/Archives/edgar/data/1067983/000095017023004451/brka-20221231.htm",
       "cash_and_equivalents": 32260000000,
       "short_term_treasury_bills": 92774000000,
-      "total_dry_powder": 125034000000
+      "total_dry_powder": 125034000000,
+      "equity_securities": 308793000000,
+      "dry_powder_to_equities": 0.4049120284462407
     },
     {
       "period_ending": "2023-03-31",
@@ -148,7 +174,9 @@
       "url": "https://www.sec.gov/Archives/edgar/data/1067983/000095017023018438/brka-20230331.htm",
       "cash_and_equivalents": 23805000000,
       "short_term_treasury_bills": 103869000000,
-      "total_dry_powder": 127674000000
+      "total_dry_powder": 127674000000,
+      "equity_securities": 328161000000,
+      "dry_powder_to_equities": 0.3890590289522521
     },
     {
       "period_ending": "2023-06-30",
@@ -158,7 +186,9 @@
       "url": "https://www.sec.gov/Archives/edgar/data/1067983/000095017023038705/brka-20230630.htm",
       "cash_and_equivalents": 44611000000,
       "short_term_treasury_bills": 97322000000,
-      "total_dry_powder": 141933000000
+      "total_dry_powder": 141933000000,
+      "equity_securities": 353409000000,
+      "dry_powder_to_equities": 0.4016111644015857
     },
     {
       "period_ending": "2023-09-30",
@@ -168,7 +198,9 @@
       "url": "https://www.sec.gov/Archives/edgar/data/1067983/000095017023058993/brka-20230930.htm",
       "cash_and_equivalents": 25573000000,
       "short_term_treasury_bills": 126401000000,
-      "total_dry_powder": 151974000000
+      "total_dry_powder": 151974000000,
+      "equity_securities": 318621000000,
+      "dry_powder_to_equities": 0.4769742107394051
     },
     {
       "period_ending": "2023-12-31",
@@ -178,7 +210,9 @@
       "url": "https://www.sec.gov/Archives/edgar/data/1067983/000095017024019719/brka-20231231.htm",
       "cash_and_equivalents": 33672000000,
       "short_term_treasury_bills": 129619000000,
-      "total_dry_powder": 163291000000
+      "total_dry_powder": 163291000000,
+      "equity_securities": 353842000000,
+      "dry_powder_to_equities": 0.46147998259109996
     },
     {
       "period_ending": "2024-03-31",
@@ -188,7 +222,9 @@
       "url": "https://www.sec.gov/Archives/edgar/data/1067983/000095017024053185/brka-20240331.htm",
       "cash_and_equivalents": 28891000000,
       "short_term_treasury_bills": 153444000000,
-      "total_dry_powder": 182335000000
+      "total_dry_powder": 182335000000,
+      "equity_securities": 335864000000,
+      "dry_powder_to_equities": 0.5428834290069791
     },
     {
       "period_ending": "2024-06-30",
@@ -198,7 +234,9 @@
       "url": "https://www.sec.gov/Archives/edgar/data/1067983/000095017024090305/brka-20240630.htm",
       "cash_and_equivalents": 36884000000,
       "short_term_treasury_bills": 234618000000,
-      "total_dry_powder": 271502000000
+      "total_dry_powder": 271502000000,
+      "equity_securities": 284871000000,
+      "dry_powder_to_equities": 0.9530699860638675
     },
     {
       "period_ending": "2024-09-30",
@@ -208,7 +246,9 @@
       "url": "https://www.sec.gov/Archives/edgar/data/1067983/000095017024120241/brka-20240930.htm",
       "cash_and_equivalents": 32287000000,
       "short_term_treasury_bills": 288031000000,
-      "total_dry_powder": 320318000000
+      "total_dry_powder": 320318000000,
+      "equity_securities": 271650000000,
+      "dry_powder_to_equities": 1.179157003497147
     },
     {
       "period_ending": "2024-12-31",
@@ -218,7 +258,9 @@
       "url": "https://www.sec.gov/Archives/edgar/data/1067983/000095017025025210/brka-20241231.htm",
       "cash_and_equivalents": 44333000000,
       "short_term_treasury_bills": 286472000000,
-      "total_dry_powder": 330805000000
+      "total_dry_powder": 330805000000,
+      "equity_securities": 271588000000,
+      "dry_powder_to_equities": 1.2180398250290883
     },
     {
       "period_ending": "2025-03-31",
@@ -228,7 +270,9 @@
       "url": "https://www.sec.gov/Archives/edgar/data/1067983/000095017025063112/brka-20250331.htm",
       "cash_and_equivalents": 36892000000,
       "short_term_treasury_bills": 305501000000,
-      "total_dry_powder": 342393000000
+      "total_dry_powder": 342393000000,
+      "equity_securities": 263735000000,
+      "dry_powder_to_equities": 1.29824634576374
     },
     {
       "period_ending": "2025-06-30",
@@ -238,7 +282,9 @@
       "url": "https://www.sec.gov/Archives/edgar/data/1067983/000095017025101578/brka-20250630.htm",
       "cash_and_equivalents": 96193000000,
       "short_term_treasury_bills": 243605000000,
-      "total_dry_powder": 339798000000
+      "total_dry_powder": 339798000000,
+      "equity_securities": 267923000000,
+      "dry_powder_to_equities": 1.268267375327986
     },
     {
       "period_ending": "2025-09-30",
@@ -248,7 +294,9 @@
       "url": "https://www.sec.gov/Archives/edgar/data/1067983/000119312525261548/brka-20250930.htm",
       "cash_and_equivalents": 72156000000,
       "short_term_treasury_bills": 305367000000,
-      "total_dry_powder": 377523000000
+      "total_dry_powder": 377523000000,
+      "equity_securities": 283241000000,
+      "dry_powder_to_equities": 1.3328684759621665
     },
     {
       "period_ending": "2025-12-31",
@@ -258,7 +306,9 @@
       "url": "https://www.sec.gov/Archives/edgar/data/1067983/000119312526083899/brka-20251231.htm",
       "cash_and_equivalents": 47719000000,
       "short_term_treasury_bills": 321434000000,
-      "total_dry_powder": 369153000000
+      "total_dry_powder": 369153000000,
+      "equity_securities": 297778000000,
+      "dry_powder_to_equities": 1.2396919853044885
     },
     {
       "period_ending": "2026-03-31",
@@ -268,7 +318,9 @@
       "url": "https://www.sec.gov/Archives/edgar/data/1067983/000119312526202243/brka-20260331.htm",
       "cash_and_equivalents": 51478000000,
       "short_term_treasury_bills": 339261000000,
-      "total_dry_powder": 390739000000
+      "total_dry_powder": 390739000000,
+      "equity_securities": 288034000000,
+      "dry_powder_to_equities": 1.3565724879701702
     }
   ],
   "notes": [
@@ -277,5 +329,5 @@
     "The figures used here are the Insurance and Other rows for cash and cash equivalents and short-term investments in U.S. Treasury Bills.",
     "The site checks for newly filed Berkshire 10-Q/10-K disclosures automatically and redeploys when this file changes."
   ],
-  "fetched_at": "2026-05-07T11:32:07.584Z"
+  "fetched_at": "2026-05-07T11:44:17.847Z"
 }

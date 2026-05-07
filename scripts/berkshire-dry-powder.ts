@@ -46,6 +46,8 @@ export interface BalanceRow {
   cash_and_equivalents: number;
   short_term_treasury_bills: number;
   total_dry_powder: number;
+  equity_securities: number | null;
+  dry_powder_to_equities: number | null;
 }
 
 function cikForArchive(cik: string): string {
@@ -143,6 +145,13 @@ export function extractBerkshireDryPowderRows(xbrl: string): [BalanceRow, Balanc
   const contexts = parseContexts(xbrl);
   const cashFacts = extractFacts(xbrl, 'CashAndCashEquivalentsAtCarryingValue');
   const treasuryFacts = extractFacts(xbrl, 'USTreasuryBills');
+  const equityFacts = extractFacts(xbrl, 'EquitySecuritiesFvNi');
+  const equityByPeriod = new Map<string, number>();
+  for (const [contextRef, equity] of equityFacts.entries()) {
+    const context = contexts.get(contextRef);
+    if (!context || context.members.length > 0) continue;
+    equityByPeriod.set(context.instant, equity);
+  }
   const rows: BalanceRow[] = [];
 
   for (const [contextRef, cash] of cashFacts.entries()) {
@@ -150,11 +159,15 @@ export function extractBerkshireDryPowderRows(xbrl: string): [BalanceRow, Balanc
     if (!context?.members.includes('brka:InsuranceAndOtherMember')) continue;
     const treasury = treasuryFacts.get(contextRef);
     if (treasury === undefined) continue;
+    const equity = equityByPeriod.get(context.instant) ?? null;
+    const total = cash + treasury;
     rows.push({
       period_ending: context.instant,
       cash_and_equivalents: cash,
       short_term_treasury_bills: treasury,
-      total_dry_powder: cash + treasury,
+      total_dry_powder: total,
+      equity_securities: equity,
+      dry_powder_to_equities: equity && equity > 0 ? total / equity : null,
     });
   }
 
@@ -184,6 +197,8 @@ export function buildBerkshireDryPowderHistory(
       cash_and_equivalents: current.cash_and_equivalents,
       short_term_treasury_bills: current.short_term_treasury_bills,
       total_dry_powder: current.total_dry_powder,
+      equity_securities: current.equity_securities,
+      dry_powder_to_equities: current.dry_powder_to_equities,
     });
   }
   return Array.from(byPeriod.values()).sort((a, b) => a.period_ending.localeCompare(b.period_ending));

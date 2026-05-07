@@ -51,6 +51,11 @@ const xbrl = `
   <brka:USTreasuryBills contextRef="prior" unitRef="U_USD">321434000000</brka:USTreasuryBills>
   <us-gaap:CashAndCashEquivalentsAtCarryingValue contextRef="railroad" unitRef="U_USD">6644000000</us-gaap:CashAndCashEquivalentsAtCarryingValue>
   <brka:USTreasuryBills contextRef="railroad" unitRef="U_USD">1000000000</brka:USTreasuryBills>
+  <context id="currentConsolidated"><entity></entity><period><instant>2026-03-31</instant></period></context>
+  <context id="priorConsolidated"><entity></entity><period><instant>2025-12-31</instant></period></context>
+  <us-gaap:EquitySecuritiesFvNi contextRef="currentConsolidated" unitRef="U_USD">288034000000</us-gaap:EquitySecuritiesFvNi>
+  <us-gaap:EquitySecuritiesFvNi contextRef="priorConsolidated" unitRef="U_USD">297778000000</us-gaap:EquitySecuritiesFvNi>
+  <us-gaap:EquitySecuritiesFvNi contextRef="railroad" unitRef="U_USD">123</us-gaap:EquitySecuritiesFvNi>
 </xbrl>
 `;
 
@@ -79,8 +84,11 @@ describe('berkshire dry powder extraction', () => {
       cash_and_equivalents: 51478000000,
       short_term_treasury_bills: 339261000000,
       total_dry_powder: 390739000000,
+      equity_securities: 288034000000,
+      dry_powder_to_equities: 390739000000 / 288034000000,
     });
     expect(prior.total_dry_powder).toBe(369153000000);
+    expect(prior.equity_securities).toBe(297778000000);
   });
 
   it('builds the dry-powder data file with source and update policy metadata', () => {

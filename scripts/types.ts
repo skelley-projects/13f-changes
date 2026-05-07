@@ -175,6 +175,8 @@ export interface DryPowderHistoryEntry {
   cash_and_equivalents: number;
   short_term_treasury_bills: number;
   total_dry_powder: number;
+  equity_securities: number | null;
+  dry_powder_to_equities: number | null;
 }
 
 export interface DryPowderFile {
