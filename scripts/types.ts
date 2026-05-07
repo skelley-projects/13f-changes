@@ -192,6 +192,11 @@ export interface DryPowderFile {
       total_dry_powder: number;
     };
   };
+  update_policy: {
+    disclosure_frequency: string;
+    automation: string;
+    granularity: string;
+  };
   notes: string[];
   fetched_at: string;
 }

@@ -24,10 +24,16 @@
       "total_dry_powder": 369153000000
     }
   },
+  "update_policy": {
+    "disclosure_frequency": "Quarterly, when Berkshire files its 10-Q or 10-K.",
+    "automation": "SEC submissions are checked daily, and every 30 minutes during Berkshire reporting windows.",
+    "granularity": "This is the most granular reliable cash/T-bill view available from public filings; 13Fs do not disclose cash."
+  },
   "notes": [
     "13F filings do not include cash or Treasury bills.",
     "Berkshire is a public company, so cash and short-term Treasury bill balances are available from its 10-Q/10-K balance sheet.",
-    "The figures used here are the Insurance and Other rows for cash and cash equivalents and short-term investments in U.S. Treasury Bills."
+    "The figures used here are the Insurance and Other rows for cash and cash equivalents and short-term investments in U.S. Treasury Bills.",
+    "The site checks for newly filed Berkshire 10-Q/10-K disclosures automatically and redeploys when this file changes."
   ],
-  "fetched_at": "2026-05-07T10:32:52.421Z"
+  "fetched_at": "2026-05-07T11:18:06.907Z"
 }

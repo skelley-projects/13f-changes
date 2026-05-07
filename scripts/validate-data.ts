@@ -124,6 +124,11 @@ const dryPowderSchema = z.object({
       total_dry_powder: z.number().min(0),
     }),
   }),
+  update_policy: z.object({
+    disclosure_frequency: z.string().min(1),
+    automation: z.string().min(1),
+    granularity: z.string().min(1),
+  }),
   notes: z.array(z.string().min(1)),
   fetched_at: z.string().min(1),
 }).superRefine((data, ctx) => {

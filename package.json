@@ -19,6 +19,7 @@
     "poll-edgar": "tsx scripts/run-poll-edgar.ts",
     "remind": "tsx scripts/run-remind.ts",
     "refresh-prices": "tsx scripts/run-refresh-prices.ts",
+    "refresh-dry-powder": "tsx scripts/run-refresh-dry-powder.ts",
     "refresh-manager-photos": "tsx scripts/run-refresh-manager-photos.ts",
     "check-manager-photos": "tsx scripts/run-refresh-manager-photos.ts --check",
     "refresh-segment-metrics": "tsx scripts/run-refresh-segment-metrics.ts"
