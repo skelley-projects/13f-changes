@@ -166,6 +166,17 @@ export interface SegmentMetricsFile {
   failures: Record<string, string>;
 }
 
+export interface DryPowderHistoryEntry {
+  period_ending: string;
+  filing_date: string;
+  accession: string;
+  form: '10-Q' | '10-K';
+  url: string;
+  cash_and_equivalents: number;
+  short_term_treasury_bills: number;
+  total_dry_powder: number;
+}
+
 export interface DryPowderFile {
   slug: Slug;
   source: string;
@@ -197,6 +208,7 @@ export interface DryPowderFile {
     automation: string;
     granularity: string;
   };
+  history: DryPowderHistoryEntry[];
   notes: string[];
   fetched_at: string;
 }

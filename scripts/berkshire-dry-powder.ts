@@ -1,4 +1,4 @@
-import type { DryPowderFile } from './types.js';
+import type { DryPowderFile, DryPowderHistoryEntry } from './types.js';
 
 export const BERKSHIRE_CIK = '0001067983';
 export const BERKSHIRE_SLUG = 'berkshire-hathaway';
@@ -30,6 +30,8 @@ export interface BerkshirePeriodicFiling {
 export interface FetchBerkshireDryPowderInput {
   submissions: SecSubmissions;
   xbrl: string;
+  filing?: BerkshirePeriodicFiling;
+  rows?: [BalanceRow, BalanceRow];
   now?: Date;
 }
 
@@ -39,7 +41,7 @@ interface XbrlContext {
   members: string[];
 }
 
-interface BalanceRow {
+export interface BalanceRow {
   period_ending: string;
   cash_and_equivalents: number;
   short_term_treasury_bills: number;
@@ -70,7 +72,17 @@ export function buildFilingUrls(
 export function findLatestBerkshirePeriodicFiling(
   submissions: SecSubmissions,
 ): BerkshirePeriodicFiling {
+  const filings = findBerkshirePeriodicFilings(submissions, 1);
+  if (!filings[0]) throw new Error('No Berkshire 10-Q or 10-K found in SEC submissions feed');
+  return filings[0];
+}
+
+export function findBerkshirePeriodicFilings(
+  submissions: SecSubmissions,
+  limit = 24,
+): BerkshirePeriodicFiling[] {
   const recent = submissions.filings.recent;
+  const filings: BerkshirePeriodicFiling[] = [];
   for (let i = 0; i < recent.form.length; i += 1) {
     const form = recent.form[i];
     if (form !== '10-Q' && form !== '10-K') continue;
@@ -82,16 +94,17 @@ export function findLatestBerkshirePeriodicFiling(
       throw new Error(`Berkshire ${form} entry is missing required SEC metadata`);
     }
     const urls = buildFilingUrls(BERKSHIRE_CIK, accession, primaryDocument);
-    return {
+    filings.push({
       form,
       accession,
       filingDate,
       periodEnding,
       primaryDocument,
       ...urls,
-    };
+    });
+    if (filings.length >= limit) break;
   }
-  throw new Error('No Berkshire 10-Q or 10-K found in SEC submissions feed');
+  return filings;
 }
 
 function attrValue(attrs: string, name: string): string | null {
@@ -156,9 +169,31 @@ export function extractBerkshireDryPowderRows(xbrl: string): [BalanceRow, Balanc
   return [deduped[0], deduped[1]];
 }
 
-export function buildBerkshireDryPowderFile(input: FetchBerkshireDryPowderInput): DryPowderFile {
-  const filing = findLatestBerkshirePeriodicFiling(input.submissions);
-  const [current, prior] = extractBerkshireDryPowderRows(input.xbrl);
+export function buildBerkshireDryPowderHistory(
+  filingsWithRows: Array<{ filing: BerkshirePeriodicFiling; rows: [BalanceRow, BalanceRow] }>,
+): DryPowderHistoryEntry[] {
+  const byPeriod = new Map<string, DryPowderHistoryEntry>();
+  for (const { filing, rows } of filingsWithRows) {
+    const current = rows[0];
+    byPeriod.set(current.period_ending, {
+      period_ending: current.period_ending,
+      filing_date: filing.filingDate,
+      accession: filing.accession,
+      form: filing.form,
+      url: filing.htmlUrl,
+      cash_and_equivalents: current.cash_and_equivalents,
+      short_term_treasury_bills: current.short_term_treasury_bills,
+      total_dry_powder: current.total_dry_powder,
+    });
+  }
+  return Array.from(byPeriod.values()).sort((a, b) => a.period_ending.localeCompare(b.period_ending));
+}
+
+export function buildBerkshireDryPowderFile(
+  input: FetchBerkshireDryPowderInput & { history?: DryPowderHistoryEntry[] },
+): DryPowderFile {
+  const filing = input.filing ?? findLatestBerkshirePeriodicFiling(input.submissions);
+  const [current, prior] = input.rows ?? extractBerkshireDryPowderRows(input.xbrl);
 
   return {
     slug: BERKSHIRE_SLUG,
@@ -178,6 +213,7 @@ export function buildBerkshireDryPowderFile(input: FetchBerkshireDryPowderInput)
       automation: 'SEC submissions are checked daily, and every 30 minutes during Berkshire reporting windows.',
       granularity: 'This is the most granular reliable cash/T-bill view available from public filings; 13Fs do not disclose cash.',
     },
+    history: input.history ?? buildBerkshireDryPowderHistory([{ filing, rows: [current, prior] }]),
     notes: [
       '13F filings do not include cash or Treasury bills.',
       'Berkshire is a public company, so cash and short-term Treasury bill balances are available from its 10-Q/10-K balance sheet.',

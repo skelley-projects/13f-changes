@@ -129,6 +129,16 @@ const dryPowderSchema = z.object({
     automation: z.string().min(1),
     granularity: z.string().min(1),
   }),
+  history: z.array(z.object({
+    period_ending: z.string().regex(/^\d{4}-\d{2}-\d{2}$/),
+    filing_date: z.string().regex(/^\d{4}-\d{2}-\d{2}$/),
+    accession: z.string().regex(/^\d{10}-\d{2}-\d{6}$/),
+    form: z.enum(['10-Q', '10-K']),
+    url: z.string().url(),
+    cash_and_equivalents: z.number().min(0),
+    short_term_treasury_bills: z.number().min(0),
+    total_dry_powder: z.number().min(0),
+  })).min(1),
   notes: z.array(z.string().min(1)),
   fetched_at: z.string().min(1),
 }).superRefine((data, ctx) => {
@@ -142,6 +152,25 @@ const dryPowderSchema = z.object({
         message: `total_dry_powder must equal cash_and_equivalents + short_term_treasury_bills (${expected})`,
       });
     }
+  }
+  let previousPeriod = '';
+  for (const [index, entry] of data.history.entries()) {
+    const expected = entry.cash_and_equivalents + entry.short_term_treasury_bills;
+    if (entry.total_dry_powder !== expected) {
+      ctx.addIssue({
+        code: z.ZodIssueCode.custom,
+        path: ['history', index, 'total_dry_powder'],
+        message: `history total_dry_powder must equal cash_and_equivalents + short_term_treasury_bills (${expected})`,
+      });
+    }
+    if (previousPeriod && entry.period_ending <= previousPeriod) {
+      ctx.addIssue({
+        code: z.ZodIssueCode.custom,
+        path: ['history', index, 'period_ending'],
+        message: 'history must be sorted oldest first with unique period_ending values',
+      });
+    }
+    previousPeriod = entry.period_ending;
   }
 });
 

@@ -29,11 +29,253 @@
     "automation": "SEC submissions are checked daily, and every 30 minutes during Berkshire reporting windows.",
     "granularity": "This is the most granular reliable cash/T-bill view available from public filings; 13Fs do not disclose cash."
   },
+  "history": [
+    {
+      "period_ending": "2020-06-30",
+      "filing_date": "2020-08-10",
+      "accession": "0001564590-20-038544",
+      "form": "10-Q",
+      "url": "https://www.sec.gov/Archives/edgar/data/1067983/000156459020038544/brka-10q_20200630.htm",
+      "cash_and_equivalents": 32318000000,
+      "short_term_treasury_bills": 110518000000,
+      "total_dry_powder": 142836000000
+    },
+    {
+      "period_ending": "2020-09-30",
+      "filing_date": "2020-11-09",
+      "accession": "0001564590-20-052144",
+      "form": "10-Q",
+      "url": "https://www.sec.gov/Archives/edgar/data/1067983/000156459020052144/brka-10q_20200930.htm",
+      "cash_and_equivalents": 23078000000,
+      "short_term_treasury_bills": 118906000000,
+      "total_dry_powder": 141984000000
+    },
+    {
+      "period_ending": "2020-12-31",
+      "filing_date": "2021-03-01",
+      "accession": "0001564590-21-009611",
+      "form": "10-K",
+      "url": "https://www.sec.gov/Archives/edgar/data/1067983/000156459021009611/brka-10k_20201231.htm",
+      "cash_and_equivalents": 44714000000,
+      "short_term_treasury_bills": 90300000000,
+      "total_dry_powder": 135014000000
+    },
+    {
+      "period_ending": "2021-03-31",
+      "filing_date": "2021-05-03",
+      "accession": "0001564590-21-022703",
+      "form": "10-Q",
+      "url": "https://www.sec.gov/Archives/edgar/data/1067983/000156459021022703/brka-10q_20210331.htm",
+      "cash_and_equivalents": 56826000000,
+      "short_term_treasury_bills": 85385000000,
+      "total_dry_powder": 142211000000
+    },
+    {
+      "period_ending": "2021-06-30",
+      "filing_date": "2021-08-09",
+      "accession": "0001564590-21-042312",
+      "form": "10-Q",
+      "url": "https://www.sec.gov/Archives/edgar/data/1067983/000156459021042312/brka-10q_20210630.htm",
+      "cash_and_equivalents": 38924000000,
+      "short_term_treasury_bills": 101760000000,
+      "total_dry_powder": 140684000000
+    },
+    {
+      "period_ending": "2021-09-30",
+      "filing_date": "2021-11-08",
+      "accession": "0001564590-21-055032",
+      "form": "10-Q",
+      "url": "https://www.sec.gov/Archives/edgar/data/1067983/000156459021055032/brka-10q_20210930.htm",
+      "cash_and_equivalents": 65156000000,
+      "short_term_treasury_bills": 79209000000,
+      "total_dry_powder": 144365000000
+    },
+    {
+      "period_ending": "2021-12-31",
+      "filing_date": "2022-02-28",
+      "accession": "0001564590-22-007322",
+      "form": "10-K",
+      "url": "https://www.sec.gov/Archives/edgar/data/1067983/000156459022007322/brka-10k_20211231.htm",
+      "cash_and_equivalents": 85319000000,
+      "short_term_treasury_bills": 58535000000,
+      "total_dry_powder": 143854000000
+    },
+    {
+      "period_ending": "2022-03-31",
+      "filing_date": "2022-05-02",
+      "accession": "0001564590-22-016907",
+      "form": "10-Q",
+      "url": "https://www.sec.gov/Archives/edgar/data/1067983/000156459022016907/brka-10q_20220331.htm",
+      "cash_and_equivalents": 35542000000,
+      "short_term_treasury_bills": 67145000000,
+      "total_dry_powder": 102687000000
+    },
+    {
+      "period_ending": "2022-06-30",
+      "filing_date": "2022-08-08",
+      "accession": "0001564590-22-028282",
+      "form": "10-Q",
+      "url": "https://www.sec.gov/Archives/edgar/data/1067983/000156459022028282/brka-10q_20220630.htm",
+      "cash_and_equivalents": 26534000000,
+      "short_term_treasury_bills": 74803000000,
+      "total_dry_powder": 101337000000
+    },
+    {
+      "period_ending": "2022-09-30",
+      "filing_date": "2022-11-07",
+      "accession": "0000950170-22-022287",
+      "form": "10-Q",
+      "url": "https://www.sec.gov/Archives/edgar/data/1067983/000095017022022287/brka-20220930.htm",
+      "cash_and_equivalents": 28869000000,
+      "short_term_treasury_bills": 76332000000,
+      "total_dry_powder": 105201000000
+    },
+    {
+      "period_ending": "2022-12-31",
+      "filing_date": "2023-02-27",
+      "accession": "0000950170-23-004451",
+      "form": "10-K",
+      "url": "https://www.sec.gov/Archives/edgar/data/1067983/000095017023004451/brka-20221231.htm",
+      "cash_and_equivalents": 32260000000,
+      "short_term_treasury_bills": 92774000000,
+      "total_dry_powder": 125034000000
+    },
+    {
+      "period_ending": "2023-03-31",
+      "filing_date": "2023-05-08",
+      "accession": "0000950170-23-018438",
+      "form": "10-Q",
+      "url": "https://www.sec.gov/Archives/edgar/data/1067983/000095017023018438/brka-20230331.htm",
+      "cash_and_equivalents": 23805000000,
+      "short_term_treasury_bills": 103869000000,
+      "total_dry_powder": 127674000000
+    },
+    {
+      "period_ending": "2023-06-30",
+      "filing_date": "2023-08-07",
+      "accession": "0000950170-23-038705",
+      "form": "10-Q",
+      "url": "https://www.sec.gov/Archives/edgar/data/1067983/000095017023038705/brka-20230630.htm",
+      "cash_and_equivalents": 44611000000,
+      "short_term_treasury_bills": 97322000000,
+      "total_dry_powder": 141933000000
+    },
+    {
+      "period_ending": "2023-09-30",
+      "filing_date": "2023-11-06",
+      "accession": "0000950170-23-058993",
+      "form": "10-Q",
+      "url": "https://www.sec.gov/Archives/edgar/data/1067983/000095017023058993/brka-20230930.htm",
+      "cash_and_equivalents": 25573000000,
+      "short_term_treasury_bills": 126401000000,
+      "total_dry_powder": 151974000000
+    },
+    {
+      "period_ending": "2023-12-31",
+      "filing_date": "2024-02-26",
+      "accession": "0000950170-24-019719",
+      "form": "10-K",
+      "url": "https://www.sec.gov/Archives/edgar/data/1067983/000095017024019719/brka-20231231.htm",
+      "cash_and_equivalents": 33672000000,
+      "short_term_treasury_bills": 129619000000,
+      "total_dry_powder": 163291000000
+    },
+    {
+      "period_ending": "2024-03-31",
+      "filing_date": "2024-05-06",
+      "accession": "0000950170-24-053185",
+      "form": "10-Q",
+      "url": "https://www.sec.gov/Archives/edgar/data/1067983/000095017024053185/brka-20240331.htm",
+      "cash_and_equivalents": 28891000000,
+      "short_term_treasury_bills": 153444000000,
+      "total_dry_powder": 182335000000
+    },
+    {
+      "period_ending": "2024-06-30",
+      "filing_date": "2024-08-05",
+      "accession": "0000950170-24-090305",
+      "form": "10-Q",
+      "url": "https://www.sec.gov/Archives/edgar/data/1067983/000095017024090305/brka-20240630.htm",
+      "cash_and_equivalents": 36884000000,
+      "short_term_treasury_bills": 234618000000,
+      "total_dry_powder": 271502000000
+    },
+    {
+      "period_ending": "2024-09-30",
+      "filing_date": "2024-11-04",
+      "accession": "0000950170-24-120241",
+      "form": "10-Q",
+      "url": "https://www.sec.gov/Archives/edgar/data/1067983/000095017024120241/brka-20240930.htm",
+      "cash_and_equivalents": 32287000000,
+      "short_term_treasury_bills": 288031000000,
+      "total_dry_powder": 320318000000
+    },
+    {
+      "period_ending": "2024-12-31",
+      "filing_date": "2025-02-24",
+      "accession": "0000950170-25-025210",
+      "form": "10-K",
+      "url": "https://www.sec.gov/Archives/edgar/data/1067983/000095017025025210/brka-20241231.htm",
+      "cash_and_equivalents": 44333000000,
+      "short_term_treasury_bills": 286472000000,
+      "total_dry_powder": 330805000000
+    },
+    {
+      "period_ending": "2025-03-31",
+      "filing_date": "2025-05-05",
+      "accession": "0000950170-25-063112",
+      "form": "10-Q",
+      "url": "https://www.sec.gov/Archives/edgar/data/1067983/000095017025063112/brka-20250331.htm",
+      "cash_and_equivalents": 36892000000,
+      "short_term_treasury_bills": 305501000000,
+      "total_dry_powder": 342393000000
+    },
+    {
+      "period_ending": "2025-06-30",
+      "filing_date": "2025-08-04",
+      "accession": "0000950170-25-101578",
+      "form": "10-Q",
+      "url": "https://www.sec.gov/Archives/edgar/data/1067983/000095017025101578/brka-20250630.htm",
+      "cash_and_equivalents": 96193000000,
+      "short_term_treasury_bills": 243605000000,
+      "total_dry_powder": 339798000000
+    },
+    {
+      "period_ending": "2025-09-30",
+      "filing_date": "2025-11-03",
+      "accession": "0001193125-25-261548",
+      "form": "10-Q",
+      "url": "https://www.sec.gov/Archives/edgar/data/1067983/000119312525261548/brka-20250930.htm",
+      "cash_and_equivalents": 72156000000,
+      "short_term_treasury_bills": 305367000000,
+      "total_dry_powder": 377523000000
+    },
+    {
+      "period_ending": "2025-12-31",
+      "filing_date": "2026-03-02",
+      "accession": "0001193125-26-083899",
+      "form": "10-K",
+      "url": "https://www.sec.gov/Archives/edgar/data/1067983/000119312526083899/brka-20251231.htm",
+      "cash_and_equivalents": 47719000000,
+      "short_term_treasury_bills": 321434000000,
+      "total_dry_powder": 369153000000
+    },
+    {
+      "period_ending": "2026-03-31",
+      "filing_date": "2026-05-04",
+      "accession": "0001193125-26-202243",
+      "form": "10-Q",
+      "url": "https://www.sec.gov/Archives/edgar/data/1067983/000119312526202243/brka-20260331.htm",
+      "cash_and_equivalents": 51478000000,
+      "short_term_treasury_bills": 339261000000,
+      "total_dry_powder": 390739000000
+    }
+  ],
   "notes": [
     "13F filings do not include cash or Treasury bills.",
     "Berkshire is a public company, so cash and short-term Treasury bill balances are available from its 10-Q/10-K balance sheet.",
     "The figures used here are the Insurance and Other rows for cash and cash equivalents and short-term investments in U.S. Treasury Bills.",
     "The site checks for newly filed Berkshire 10-Q/10-K disclosures automatically and redeploys when this file changes."
   ],
-  "fetched_at": "2026-05-07T11:18:06.907Z"
+  "fetched_at": "2026-05-07T11:32:07.584Z"
 }

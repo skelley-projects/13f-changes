@@ -13,6 +13,51 @@ const prior = dryPowder.values.prior;
 const delta = current.total_dry_powder - prior.total_dry_powder;
 const deltaPct = prior.total_dry_powder > 0 ? (delta / prior.total_dry_powder) * 100 : 0;
 const ratioTo13f = reported13fValue > 0 ? (current.total_dry_powder / reported13fValue) * 100 : 0;
+const history = (dryPowder.history?.length
+  ? dryPowder.history
+  : [
+      { ...prior, filing_date: dryPowder.source_filing.filing_date, accession: dryPowder.source_filing.accession, form: dryPowder.source_filing.form, url: dryPowder.source_filing.url },
+      { ...current, filing_date: dryPowder.source_filing.filing_date, accession: dryPowder.source_filing.accession, form: dryPowder.source_filing.form, url: dryPowder.source_filing.url },
+    ]).slice().sort((a, b) => a.period_ending.localeCompare(b.period_ending));
+const maxDryPowder = Math.max(...history.map(row => row.total_dry_powder), 1);
+const chartMax = Math.ceil(maxDryPowder / 50_000_000_000) * 50_000_000_000;
+const chart = { width: 860, height: 300, left: 56, right: 18, top: 18, bottom: 46 };
+const plotWidth = chart.width - chart.left - chart.right;
+const plotHeight = chart.height - chart.top - chart.bottom;
+const step = history.length > 1 ? plotWidth / (history.length - 1) : plotWidth;
+const barWidth = Math.min(24, Math.max(8, plotWidth / Math.max(history.length, 1) * 0.42));
+const yTicks = [0, chartMax / 2, chartMax];
+
+function barParts(row: typeof history[number], index: number) {
+  const x = chart.left + (history.length > 1 ? index * step : plotWidth / 2) - barWidth / 2;
+  const cashHeight = (row.cash_and_equivalents / chartMax) * plotHeight;
+  const tbillHeight = (row.short_term_treasury_bills / chartMax) * plotHeight;
+  const totalHeight = cashHeight + tbillHeight;
+  const baseY = chart.top + plotHeight;
+  return {
+    x,
+    cashY: baseY - cashHeight,
+    cashHeight,
+    tbillY: baseY - totalHeight,
+    tbillHeight,
+    totalY: baseY - totalHeight,
+  };
+}
+
+function yFor(value: number): number {
+  return chart.top + plotHeight - (value / chartMax) * plotHeight;
+}
+
+function periodLabel(value: string): string {
+  const [year, month] = value.split('-');
+  const quarter = month === '03' ? 'Q1' : month === '06' ? 'Q2' : month === '09' ? 'Q3' : 'Q4';
+  return `${quarter} '${year.slice(2)}`;
+}
+
+function shouldShowXLabel(index: number): boolean {
+  if (history.length <= 8) return true;
+  return index === 0 || index === history.length - 1 || index % Math.ceil(history.length / 5) === 0;
+}
 
 function signedUSD(value: number): string {
   return `${value >= 0 ? '+' : '-'}${formatUSD(Math.abs(value))}`;
@@ -59,6 +104,43 @@ function shortDate(value: string): string {
       <span>Dry powder / 13F value</span>
       <strong>{formatPct(ratioTo13f)}</strong>
     </div>
+  </div>
+
+  <div class="history-chart" aria-label="Berkshire dry powder over time">
+    <div class="chart-heading">
+      <div>
+        <span>Dry powder history</span>
+        <strong>{history.length} disclosed periods</strong>
+      </div>
+      <div class="legend">
+        <span><i class="swatch tbill"></i>Short-term T-bills</span>
+        <span><i class="swatch cash"></i>Cash</span>
+      </div>
+    </div>
+    <svg viewBox={`0 0 ${chart.width} ${chart.height}`} role="img">
+      <title>Berkshire cash and short-term Treasury bills over time</title>
+      {yTicks.map((tick) => (
+        <g>
+          <line class="grid" x1={chart.left} x2={chart.width - chart.right} y1={yFor(tick)} y2={yFor(tick)} />
+          <text class="axis y-axis" x={chart.left - 10} y={yFor(tick) + 4}>{formatUSD(tick)}</text>
+        </g>
+      ))}
+      {history.map((row, index) => {
+        const parts = barParts(row, index);
+        return (
+          <g>
+            <a href={row.url} target="_blank" rel="noopener">
+              <title>{periodLabel(row.period_ending)}: {formatUSD(row.total_dry_powder)} total dry powder</title>
+              <rect class="bar tbill-bar" x={parts.x} y={parts.tbillY} width={barWidth} height={parts.tbillHeight} rx="2" />
+              <rect class="bar cash-bar" x={parts.x} y={parts.cashY} width={barWidth} height={parts.cashHeight} rx="2" />
+            </a>
+            {shouldShowXLabel(index) && (
+              <text class="axis x-axis" x={parts.x + barWidth / 2} y={chart.height - 20}>{periodLabel(row.period_ending)}</text>
+            )}
+          </g>
+        );
+      })}
+    </svg>
   </div>
 
   <p class="source-note">
@@ -147,6 +229,78 @@ function shortDate(value: string): string {
     padding-top: 12px;
     font-size: 0.74rem;
   }
+  .history-chart {
+    border-top: 1px solid var(--border);
+    margin-top: 16px;
+    padding-top: 14px;
+  }
+  .chart-heading {
+    align-items: center;
+    display: flex;
+    gap: 16px;
+    justify-content: space-between;
+    margin-bottom: 8px;
+  }
+  .chart-heading span,
+  .legend span {
+    color: var(--fg-muted);
+    font-family: var(--font-sans);
+    font-size: 0.62rem;
+    font-weight: 700;
+    letter-spacing: 0.7px;
+    text-transform: uppercase;
+  }
+  .chart-heading strong {
+    color: var(--fg);
+    display: block;
+    font-family: var(--font-serif);
+    font-size: 1.1rem;
+    font-weight: 500;
+    margin-top: 2px;
+  }
+  .legend {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+    justify-content: flex-end;
+  }
+  .legend span {
+    align-items: center;
+    display: inline-flex;
+    gap: 6px;
+  }
+  .swatch {
+    border-radius: 2px;
+    display: inline-block;
+    height: 8px;
+    width: 18px;
+  }
+  .swatch.tbill { background: var(--accent); }
+  .swatch.cash { background: var(--pos); }
+  svg {
+    display: block;
+    height: auto;
+    width: 100%;
+  }
+  .grid {
+    stroke: var(--border);
+    stroke-width: 1;
+  }
+  .bar {
+    transition: opacity 160ms ease;
+  }
+  a:hover .bar {
+    opacity: 0.78;
+  }
+  .tbill-bar { fill: var(--accent); }
+  .cash-bar { fill: var(--pos); }
+  .axis {
+    fill: var(--fg-muted);
+    font-family: var(--font-mono);
+    font-size: 11px;
+  }
+  .y-axis { text-anchor: end; }
+  .x-axis { text-anchor: middle; }
 
   @media (max-width: 760px) {
     .panel-heading {
@@ -156,6 +310,12 @@ function shortDate(value: string): string {
     .metrics {
       grid-template-columns: 1fr 1fr;
     }
+    .chart-heading {
+      align-items: flex-start;
+      flex-direction: column;
+      gap: 8px;
+    }
+    .legend { justify-content: flex-start; }
   }
 
   @media (max-width: 480px) {
