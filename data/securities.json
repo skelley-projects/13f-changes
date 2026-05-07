@@ -240,6 +240,16 @@
     "sector_source": "yahoo-finance",
     "classified_at": "2026-05-06T08:09:22.117Z"
   },
+  "191216100": {
+    "cusip": "191216100",
+    "ticker": "KO",
+    "name": "COCA-COLA CO/THE",
+    "sector": "Consumer Staples",
+    "industry": "Beverages - Non-Alcoholic",
+    "ticker_source": "openfigi",
+    "sector_source": "yahoo-finance",
+    "classified_at": "2026-05-07T10:34:48.652Z"
+  },
   "192446102": {
     "cusip": "192446102",
     "ticker": "CTSH",
@@ -820,6 +830,16 @@
     "sector_source": "yahoo-finance",
     "classified_at": "2026-05-06T08:09:22.117Z"
   },
+  "422806208": {
+    "cusip": "422806208",
+    "ticker": "HEI-A",
+    "name": "HEICO CORP-CLASS A",
+    "sector": "Industrials",
+    "industry": "Aerospace & Defense",
+    "ticker_source": "openfigi",
+    "sector_source": "yahoo-finance",
+    "classified_at": "2026-05-07T10:34:49.788Z"
+  },
   "427866108": {
     "cusip": "427866108",
     "ticker": "HSY",
@@ -1053,6 +1073,16 @@
     "sector_source": "yahoo-finance",
     "classified_at": "2026-05-06T08:09:22.117Z"
   },
+  "500754106": {
+    "cusip": "500754106",
+    "ticker": "KHC",
+    "name": "KRAFT HEINZ CO/THE",
+    "sector": "Consumer Staples",
+    "industry": "Packaged Foods",
+    "ticker_source": "openfigi",
+    "sector_source": "yahoo-finance",
+    "classified_at": "2026-05-07T10:34:50.085Z"
+  },
   "501044101": {
     "cusip": "501044101",
     "ticker": "KR",
@@ -1133,6 +1163,16 @@
     "sector_source": "yahoo-finance",
     "classified_at": "2026-05-03T22:35:20.556Z"
   },
+  "526057302": {
+    "cusip": "526057302",
+    "ticker": "LEN-B",
+    "name": "LENNAR CORP - B SHS",
+    "sector": "Consumer Discretionary",
+    "industry": "Residential Construction",
+    "ticker_source": "openfigi",
+    "sector_source": "yahoo-finance",
+    "classified_at": "2026-05-07T10:34:53.157Z"
+  },
   "526107107": {
     "cusip": "526107107",
     "ticker": "LII",
@@ -1142,6 +1182,26 @@
     "ticker_source": "openfigi",
     "sector_source": "yahoo-finance",
     "classified_at": "2026-05-06T08:09:22.117Z"
+  },
+  "530909100": {
+    "cusip": "530909100",
+    "ticker": "LLYVA",
+    "name": "LIBERTY LIVE HOLDINGS-A",
+    "sector": "Communication Services",
+    "industry": "Entertainment",
+    "ticker_source": "openfigi",
+    "sector_source": "yahoo-finance",
+    "classified_at": "2026-05-07T10:34:53.309Z"
+  },
+  "530909308": {
+    "cusip": "530909308",
+    "ticker": "LLYVK",
+    "name": "LIBERTY LIVE HOLDINGS-C",
+    "sector": "Communication Services",
+    "industry": "Entertainment",
+    "ticker_source": "openfigi",
+    "sector_source": "yahoo-finance",
+    "classified_at": "2026-05-07T10:34:53.531Z"
   },
   "531229755": {
     "cusip": "531229755",
@@ -1192,6 +1252,16 @@
     "ticker_source": "openfigi",
     "sector_source": "yahoo-finance",
     "classified_at": "2026-05-06T08:09:22.117Z"
+  },
+  "546347105": {
+    "cusip": "546347105",
+    "ticker": "LPX",
+    "name": "LOUISIANA-PACIFIC CORP",
+    "sector": "Industrials",
+    "industry": "Building Products & Equipment",
+    "ticker_source": "openfigi",
+    "sector_source": "yahoo-finance",
+    "classified_at": "2026-05-07T10:34:53.773Z"
   },
   "548661107": {
     "cusip": "548661107",
@@ -1542,6 +1612,26 @@
     "ticker_source": "openfigi",
     "sector_source": "yahoo-finance",
     "classified_at": "2026-05-06T08:09:22.117Z"
+  },
+  "670346105": {
+    "cusip": "670346105",
+    "ticker": "NUE",
+    "name": "NUCOR CORP",
+    "sector": "Materials",
+    "industry": "Steel",
+    "ticker_source": "openfigi",
+    "sector_source": "yahoo-finance",
+    "classified_at": "2026-05-07T10:34:54.181Z"
+  },
+  "674599105": {
+    "cusip": "674599105",
+    "ticker": "OXY",
+    "name": "OCCIDENTAL PETROLEUM CORP",
+    "sector": "Energy",
+    "industry": "Oil & Gas E&P",
+    "ticker_source": "openfigi",
+    "sector_source": "yahoo-finance",
+    "classified_at": "2026-05-07T10:34:54.398Z"
   },
   "679369108": {
     "cusip": "679369108",
@@ -2032,6 +2122,16 @@
     "ticker_source": "openfigi",
     "sector_source": "yahoo-finance",
     "classified_at": "2026-05-06T08:09:22.117Z"
+  },
+  "829933100": {
+    "cusip": "829933100",
+    "ticker": "SIRI",
+    "name": "SIRIUS XM HOLDINGS INC",
+    "sector": "Communication Services",
+    "industry": "Entertainment",
+    "ticker_source": "openfigi",
+    "sector_source": "yahoo-finance",
+    "classified_at": "2026-05-07T10:34:54.792Z"
   },
   "832696405": {
     "cusip": "832696405",
@@ -5936,5 +6036,95 @@
     "sector_source": "manual-override",
     "manual_override_reason": "Singapore-domiciled (Y-prefix) RNA-targeted therapy biotech; Health Care / Biotechnology.",
     "classified_at": "2026-05-03T22:40:00.000Z"
+  },
+  "02005N100": {
+    "cusip": "02005N100",
+    "ticker": "ALLY",
+    "name": "ALLY FINANCIAL INC",
+    "sector": "Financials",
+    "industry": "Credit Services",
+    "ticker_source": "openfigi",
+    "sector_source": "yahoo-finance",
+    "classified_at": "2026-05-07T10:34:48.146Z"
+  },
+  "025816109": {
+    "cusip": "025816109",
+    "ticker": "AXP",
+    "name": "AMERICAN EXPRESS CO",
+    "sector": "Financials",
+    "industry": "Credit Services",
+    "ticker_source": "openfigi",
+    "sector_source": "yahoo-finance",
+    "classified_at": "2026-05-07T10:34:48.298Z"
+  },
+  "047726302": {
+    "cusip": "047726302",
+    "ticker": "BATRK",
+    "name": "ATLANTA BRAVES HOLDINGS IN-C",
+    "sector": "Communication Services",
+    "industry": "Entertainment",
+    "ticker_source": "openfigi",
+    "sector_source": "yahoo-finance",
+    "classified_at": "2026-05-07T10:34:48.453Z"
+  },
+  "21036P108": {
+    "cusip": "21036P108",
+    "ticker": "STZ",
+    "name": "CONSTELLATION BRANDS INC-A",
+    "sector": "Consumer Staples",
+    "industry": "Beverages - Brewers",
+    "ticker_source": "openfigi",
+    "sector_source": "yahoo-finance",
+    "classified_at": "2026-05-07T10:34:48.820Z"
+  },
+  "23918K108": {
+    "cusip": "23918K108",
+    "ticker": "DVA",
+    "name": "DAVITA INC",
+    "sector": "Health Care",
+    "industry": "Medical Care Facilities",
+    "ticker_source": "openfigi",
+    "sector_source": "yahoo-finance",
+    "classified_at": "2026-05-07T10:34:49.070Z"
+  },
+  "25243Q205": {
+    "cusip": "25243Q205",
+    "ticker": "DEO",
+    "name": "DIAGEO PLC-SPONSORED ADR",
+    "sector": "Consumer Staples",
+    "industry": "Beverages - Wineries & Distilleries",
+    "ticker_source": "openfigi",
+    "sector_source": "yahoo-finance",
+    "classified_at": "2026-05-07T10:34:49.271Z"
+  },
+  "25754A201": {
+    "cusip": "25754A201",
+    "ticker": "DPZ",
+    "name": "DOMINO'S PIZZA INC",
+    "sector": "Consumer Discretionary",
+    "industry": "Restaurants",
+    "ticker_source": "openfigi",
+    "sector_source": "yahoo-finance",
+    "classified_at": "2026-05-07T10:34:49.577Z"
+  },
+  "62944T105": {
+    "cusip": "62944T105",
+    "ticker": "NVR",
+    "name": "NVR INC",
+    "sector": "Consumer Discretionary",
+    "industry": "Residential Construction",
+    "ticker_source": "openfigi",
+    "sector_source": "yahoo-finance",
+    "classified_at": "2026-05-07T10:34:53.988Z"
+  },
+  "73278L105": {
+    "cusip": "73278L105",
+    "ticker": "POOL",
+    "name": "POOL CORP",
+    "sector": "Industrials",
+    "industry": "Industrial Distribution",
+    "ticker_source": "openfigi",
+    "sector_source": "yahoo-finance",
+    "classified_at": "2026-05-07T10:34:54.556Z"
   }
 }

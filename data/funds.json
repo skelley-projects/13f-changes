@@ -119,5 +119,16 @@
     "added": "2026-05-06",
     "active": true,
     "manager_photo": "/managers/cliff-asness.png"
+  },
+  {
+    "slug": "berkshire-hathaway",
+    "name": "Berkshire Hathaway Inc.",
+    "manager_name": "Warren Buffett",
+    "cik": "0001067983",
+    "location": "Omaha, NE",
+    "description": "Public holding company led by Warren Buffett. The 13F captures Berkshire's marketable U.S. equity portfolio; cash and Treasury bills come from Berkshire company filings.",
+    "added": "2026-05-07",
+    "active": true,
+    "manager_photo": "/managers/warren-buffett.jpg"
   }
 ]

@@ -1,5 +1,5 @@
 import { z } from 'zod';
-import type { FundsFile, SecuritiesFile, PendingFile, QuartersFile, TagsFile, FilingFile, DiffFile } from './types.js';
+import type { FundsFile, SecuritiesFile, PendingFile, QuartersFile, TagsFile, FilingFile, DiffFile, DryPowderFile } from './types.js';
 
 const fundSchema = z.object({
   slug: z.string().min(1),
@@ -98,6 +98,48 @@ const tagsFileSchema = z.object({
   }
 });
 
+const dryPowderSchema = z.object({
+  slug: z.string().min(1),
+  source: z.string().min(1),
+  source_filing: z.object({
+    form: z.enum(['10-Q', '10-K']),
+    period_ending: z.string().regex(/^\d{4}-\d{2}-\d{2}$/),
+    filing_date: z.string().regex(/^\d{4}-\d{2}-\d{2}$/),
+    accession: z.string().regex(/^\d{10}-\d{2}-\d{6}$/),
+    url: z.string().url(),
+  }),
+  context: z.string().min(1),
+  currency: z.literal('USD'),
+  values: z.object({
+    current: z.object({
+      period_ending: z.string().regex(/^\d{4}-\d{2}-\d{2}$/),
+      cash_and_equivalents: z.number().min(0),
+      short_term_treasury_bills: z.number().min(0),
+      total_dry_powder: z.number().min(0),
+    }),
+    prior: z.object({
+      period_ending: z.string().regex(/^\d{4}-\d{2}-\d{2}$/),
+      cash_and_equivalents: z.number().min(0),
+      short_term_treasury_bills: z.number().min(0),
+      total_dry_powder: z.number().min(0),
+    }),
+  }),
+  notes: z.array(z.string().min(1)),
+  fetched_at: z.string().min(1),
+}).superRefine((data, ctx) => {
+  for (const side of ['current', 'prior'] as const) {
+    const value = data.values[side];
+    const expected = value.cash_and_equivalents + value.short_term_treasury_bills;
+    if (value.total_dry_powder !== expected) {
+      ctx.addIssue({
+        code: z.ZodIssueCode.custom,
+        path: ['values', side, 'total_dry_powder'],
+        message: `total_dry_powder must equal cash_and_equivalents + short_term_treasury_bills (${expected})`,
+      });
+    }
+  }
+});
+
 /** Verify an MM-DD pair represents a valid quarter end. */
 function isValidQuarterEnding(periodEnding: string): boolean {
   // YYYY-MM-DD; MM in {03,06,09,12}; for Mar/Dec → 31, for Jun/Sep → 30
@@ -126,6 +168,7 @@ export interface DatasetForValidation {
     tags: TagsFile;
     quarterFiles: Record<string, FilingFile>;
     diffFiles: Record<string, DiffFile>;
+    dryPowder?: DryPowderFile;
   }>;
 }
 
@@ -162,6 +205,15 @@ export function validateAll(d: DatasetForValidation): { errors: string[]; warnin
   for (const [slug, pf] of Object.entries(d.perFund)) {
     if (pf.quarters.slug !== slug) errors.push(`${slug}/quarters.json: slug mismatch`);
     if (pf.tags.slug !== slug) errors.push(`${slug}/tags.json: slug mismatch`);
+    if (pf.dryPowder) {
+      if (pf.dryPowder.slug !== slug) errors.push(`${slug}/dry-powder.json: slug mismatch`);
+      const dryResult = dryPowderSchema.safeParse(pf.dryPowder);
+      if (!dryResult.success) {
+        for (const issue of dryResult.error.issues) {
+          errors.push(`${slug}/dry-powder.json: ${issue.message}`);
+        }
+      }
+    }
 
     // tags.json shape + parent-depth validation
     const tagsResult = tagsFileSchema.safeParse(pf.tags);

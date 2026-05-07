@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-05-06T23:44:13.898Z",
+  "fetched_at": "2026-05-07T10:47:43.998Z",
   "source": "yahoo-finance",
   "records": {
     "A": {
@@ -7,7 +7,7 @@
       "price": 117.69,
       "currency": "USD",
       "as_of": "2026-05-06T20:00:03.000Z",
-      "market_state": "POST",
+      "market_state": "PRE",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -16,7 +16,7 @@
       "price": 63.26,
       "currency": "USD",
       "as_of": "2026-05-06T20:05:43.000Z",
-      "market_state": "POST",
+      "market_state": "PRE",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -25,7 +25,7 @@
       "price": 12.94,
       "currency": "USD",
       "as_of": "2026-05-06T20:00:01.000Z",
-      "market_state": "POST",
+      "market_state": "PRE",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -34,7 +34,7 @@
       "price": 287.51,
       "currency": "USD",
       "as_of": "2026-05-06T20:00:03.000Z",
-      "market_state": "POST",
+      "market_state": "PRE",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -43,7 +43,7 @@
       "price": 205.03,
       "currency": "USD",
       "as_of": "2026-05-06T20:02:30.000Z",
-      "market_state": "POST",
+      "market_state": "PRE",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -52,7 +52,7 @@
       "price": 139.88,
       "currency": "USD",
       "as_of": "2026-05-06T20:00:01.000Z",
-      "market_state": "POST",
+      "market_state": "PRE",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -61,7 +61,7 @@
       "price": 250.17,
       "currency": "USD",
       "as_of": "2026-05-06T20:00:01.000Z",
-      "market_state": "POST",
+      "market_state": "PRE",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -70,7 +70,7 @@
       "price": 10.08,
       "currency": "USD",
       "as_of": "2026-05-06T20:00:01.000Z",
-      "market_state": "POST",
+      "market_state": "PRE",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -79,7 +79,7 @@
       "price": 207.2,
       "currency": "USD",
       "as_of": "2026-05-06T20:00:01.000Z",
-      "market_state": "POST",
+      "market_state": "PRE",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -88,7 +88,7 @@
       "price": 14.43,
       "currency": "USD",
       "as_of": "2026-05-06T20:00:01.000Z",
-      "market_state": "POST",
+      "market_state": "PRE",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -97,7 +97,7 @@
       "price": 243.08,
       "currency": "USD",
       "as_of": "2026-05-06T20:00:03.000Z",
-      "market_state": "POST",
+      "market_state": "PRE",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -106,7 +106,7 @@
       "price": 6.98,
       "currency": "USD",
       "as_of": "2026-05-06T20:00:03.000Z",
-      "market_state": "POST",
+      "market_state": "PRE",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -115,7 +115,7 @@
       "price": 132.56,
       "currency": "USD",
       "as_of": "2026-05-06T20:00:02.000Z",
-      "market_state": "POST",
+      "market_state": "PRE",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -124,7 +124,7 @@
       "price": 16.57,
       "currency": "USD",
       "as_of": "2026-05-06T20:00:01.000Z",
-      "market_state": "POST",
+      "market_state": "PRE",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -133,7 +133,7 @@
       "price": 727.54,
       "currency": "USD",
       "as_of": "2026-05-06T20:00:02.000Z",
-      "market_state": "POST",
+      "market_state": "PRE",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -142,7 +142,7 @@
       "price": 77.69,
       "currency": "USD",
       "as_of": "2026-05-06T20:00:03.000Z",
-      "market_state": "POST",
+      "market_state": "PRE",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -151,7 +151,7 @@
       "price": 196.91,
       "currency": "USD",
       "as_of": "2026-05-06T20:00:03.000Z",
-      "market_state": "POST",
+      "market_state": "PRE",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -160,7 +160,7 @@
       "price": 192.61,
       "currency": "USD",
       "as_of": "2026-05-06T20:00:03.000Z",
-      "market_state": "POST",
+      "market_state": "PRE",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -169,7 +169,16 @@
       "price": 217.92,
       "currency": "USD",
       "as_of": "2026-05-06T20:00:03.000Z",
-      "market_state": "POST",
+      "market_state": "PRE",
+      "quote_source": "Delayed Quote",
+      "source": "yahoo-finance"
+    },
+    "ALLY": {
+      "ticker": "ALLY",
+      "price": 44.3,
+      "currency": "USD",
+      "as_of": "2026-05-06T20:00:03.000Z",
+      "market_state": "PRE",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -178,7 +187,7 @@
       "price": 21.36,
       "currency": "USD",
       "as_of": "2026-05-06T20:00:01.000Z",
-      "market_state": "POST",
+      "market_state": "PRE",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -187,7 +196,7 @@
       "price": 303,
       "currency": "USD",
       "as_of": "2026-05-06T20:00:01.000Z",
-      "market_state": "POST",
+      "market_state": "PRE",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -196,7 +205,7 @@
       "price": 428.62,
       "currency": "USD",
       "as_of": "2026-05-06T20:00:01.000Z",
-      "market_state": "POST",
+      "market_state": "PRE",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -205,7 +214,7 @@
       "price": 1.64,
       "currency": "USD",
       "as_of": "2026-05-06T20:00:03.000Z",
-      "market_state": "POST",
+      "market_state": "PRE",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -214,7 +223,7 @@
       "price": 421.39,
       "currency": "USD",
       "as_of": "2026-05-06T20:00:03.000Z",
-      "market_state": "POST",
+      "market_state": "PRE",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -223,7 +232,7 @@
       "price": 241.38,
       "currency": "USD",
       "as_of": "2026-05-06T20:00:03.000Z",
-      "market_state": "POST",
+      "market_state": "PRE",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -232,7 +241,7 @@
       "price": 306.02,
       "currency": "USD",
       "as_of": "2026-05-06T20:00:03.000Z",
-      "market_state": "POST",
+      "market_state": "PRE",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -241,7 +250,7 @@
       "price": 475.29,
       "currency": "USD",
       "as_of": "2026-05-06T20:00:03.000Z",
-      "market_state": "POST",
+      "market_state": "PRE",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -250,7 +259,7 @@
       "price": 180.16,
       "currency": "USD",
       "as_of": "2026-05-06T20:00:03.000Z",
-      "market_state": "POST",
+      "market_state": "PRE",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -259,7 +268,7 @@
       "price": 274.99,
       "currency": "USD",
       "as_of": "2026-05-06T20:00:03.000Z",
-      "market_state": "POST",
+      "market_state": "PRE",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -268,7 +277,7 @@
       "price": 147.06,
       "currency": "USD",
       "as_of": "2026-05-06T20:00:02.000Z",
-      "market_state": "POST",
+      "market_state": "PRE",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -277,7 +286,7 @@
       "price": 79.4,
       "currency": "USD",
       "as_of": "2026-05-06T20:03:55.000Z",
-      "market_state": "POST",
+      "market_state": "PRE",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -286,7 +295,7 @@
       "price": 300.21,
       "currency": "USD",
       "as_of": "2026-05-06T20:00:03.000Z",
-      "market_state": "POST",
+      "market_state": "PRE",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -295,7 +304,7 @@
       "price": 46.32,
       "currency": "USD",
       "as_of": "2026-05-06T20:00:02.000Z",
-      "market_state": "POST",
+      "market_state": "PRE",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -304,7 +313,7 @@
       "price": 138.47,
       "currency": "USD",
       "as_of": "2026-05-06T20:00:03.000Z",
-      "market_state": "POST",
+      "market_state": "PRE",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -313,7 +322,7 @@
       "price": 4.11,
       "currency": "USD",
       "as_of": "2026-05-06T20:00:01.000Z",
-      "market_state": "POST",
+      "market_state": "PRE",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -322,7 +331,7 @@
       "price": 44.24,
       "currency": "USD",
       "as_of": "2026-05-06T20:00:03.000Z",
-      "market_state": "POST",
+      "market_state": "PRE",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -331,7 +340,7 @@
       "price": 129.53,
       "currency": "USD",
       "as_of": "2026-05-06T20:00:03.000Z",
-      "market_state": "POST",
+      "market_state": "PRE",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -340,7 +349,7 @@
       "price": 468.83,
       "currency": "USD",
       "as_of": "2026-05-06T20:00:01.000Z",
-      "market_state": "POST",
+      "market_state": "PRE",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -349,7 +358,7 @@
       "price": 45.83,
       "currency": "USD",
       "as_of": "2026-05-06T20:00:02.000Z",
-      "market_state": "POST",
+      "market_state": "PRE",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -358,7 +367,7 @@
       "price": 123.86,
       "currency": "USD",
       "as_of": "2026-05-06T20:00:03.000Z",
-      "market_state": "POST",
+      "market_state": "PRE",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -367,7 +376,7 @@
       "price": 93.97,
       "currency": "USD",
       "as_of": "2026-05-06T20:00:00.000Z",
-      "market_state": "POST",
+      "market_state": "PRE",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -376,7 +385,7 @@
       "price": 807.55,
       "currency": "USD",
       "as_of": "2026-05-06T20:00:01.000Z",
-      "market_state": "POST",
+      "market_state": "PRE",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -385,7 +394,7 @@
       "price": 237.3,
       "currency": "USD",
       "as_of": "2026-05-06T20:00:00.000Z",
-      "market_state": "POST",
+      "market_state": "PRE",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -394,7 +403,7 @@
       "price": 45.78,
       "currency": "USD",
       "as_of": "2026-05-06T20:00:03.000Z",
-      "market_state": "POST",
+      "market_state": "PRE",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -403,7 +412,7 @@
       "price": 191.85,
       "currency": "USD",
       "as_of": "2026-05-06T20:03:26.000Z",
-      "market_state": "POST",
+      "market_state": "PRE",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -412,7 +421,7 @@
       "price": 7.27,
       "currency": "USD",
       "as_of": "2026-05-06T20:00:01.000Z",
-      "market_state": "POST",
+      "market_state": "PRE",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -421,7 +430,7 @@
       "price": 425.44,
       "currency": "USD",
       "as_of": "2026-05-06T20:00:00.000Z",
-      "market_state": "POST",
+      "market_state": "PRE",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -430,7 +439,7 @@
       "price": 166.23,
       "currency": "USD",
       "as_of": "2026-05-06T20:00:02.000Z",
-      "market_state": "POST",
+      "market_state": "PRE",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -439,7 +448,16 @@
       "price": 385.86,
       "currency": "USD",
       "as_of": "2026-05-06T20:00:00.000Z",
-      "market_state": "POST",
+      "market_state": "PRE",
+      "quote_source": "Delayed Quote",
+      "source": "yahoo-finance"
+    },
+    "AXP": {
+      "ticker": "AXP",
+      "price": 321.9,
+      "currency": "USD",
+      "as_of": "2026-05-06T20:00:02.000Z",
+      "market_state": "PRE",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -448,7 +466,7 @@
       "price": 295.75,
       "currency": "USD",
       "as_of": "2026-05-06T20:00:03.000Z",
-      "market_state": "POST",
+      "market_state": "PRE",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -457,7 +475,7 @@
       "price": 184.92,
       "currency": "USD",
       "as_of": "2026-05-06T20:00:02.000Z",
-      "market_state": "POST",
+      "market_state": "PRE",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -466,7 +484,7 @@
       "price": 3541.79,
       "currency": "USD",
       "as_of": "2026-05-06T20:00:02.000Z",
-      "market_state": "POST",
+      "market_state": "PRE",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -475,7 +493,7 @@
       "price": 41.58,
       "currency": "USD",
       "as_of": "2026-05-06T20:00:03.000Z",
-      "market_state": "POST",
+      "market_state": "PRE",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -484,7 +502,7 @@
       "price": 229.93,
       "currency": "USD",
       "as_of": "2026-05-06T20:00:02.000Z",
-      "market_state": "POST",
+      "market_state": "PRE",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -493,7 +511,7 @@
       "price": 141.44,
       "currency": "USD",
       "as_of": "2026-05-06T20:04:58.000Z",
-      "market_state": "POST",
+      "market_state": "PRE",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -502,7 +520,7 @@
       "price": 53.6,
       "currency": "USD",
       "as_of": "2026-05-06T20:00:02.000Z",
-      "market_state": "POST",
+      "market_state": "PRE",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -511,7 +529,7 @@
       "price": 76.28,
       "currency": "USD",
       "as_of": "2026-05-06T20:00:03.000Z",
-      "market_state": "POST",
+      "market_state": "PRE",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -520,7 +538,16 @@
       "price": 59,
       "currency": "USD",
       "as_of": "2026-05-06T20:00:02.000Z",
-      "market_state": "POST",
+      "market_state": "PRE",
+      "quote_source": "Delayed Quote",
+      "source": "yahoo-finance"
+    },
+    "BATRK": {
+      "ticker": "BATRK",
+      "price": 51.09,
+      "currency": "USD",
+      "as_of": "2026-05-06T20:00:01.000Z",
+      "market_state": "PRE",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -529,7 +556,7 @@
       "price": 68.09,
       "currency": "USD",
       "as_of": "2026-05-06T20:00:01.000Z",
-      "market_state": "POST",
+      "market_state": "PRE",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -538,7 +565,7 @@
       "price": 19.2,
       "currency": "USD",
       "as_of": "2026-05-06T20:00:02.000Z",
-      "market_state": "POST",
+      "market_state": "PRE",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -547,7 +574,7 @@
       "price": 58.69,
       "currency": "USD",
       "as_of": "2026-05-06T20:00:03.000Z",
-      "market_state": "POST",
+      "market_state": "PRE",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -556,7 +583,7 @@
       "price": 144.76,
       "currency": "USD",
       "as_of": "2026-05-06T20:00:02.000Z",
-      "market_state": "POST",
+      "market_state": "PRE",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -565,7 +592,7 @@
       "price": 285.47,
       "currency": "USD",
       "as_of": "2026-05-06T20:00:02.000Z",
-      "market_state": "POST",
+      "market_state": "PRE",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -574,7 +601,7 @@
       "price": 5.65,
       "currency": "USD",
       "as_of": "2026-05-06T20:00:02.000Z",
-      "market_state": "POST",
+      "market_state": "PRE",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -583,7 +610,7 @@
       "price": 140.59,
       "currency": "USD",
       "as_of": "2026-05-06T20:00:01.000Z",
-      "market_state": "POST",
+      "market_state": "PRE",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -592,7 +619,7 @@
       "price": 190.68,
       "currency": "USD",
       "as_of": "2026-05-06T20:00:01.000Z",
-      "market_state": "POST",
+      "market_state": "PRE",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -601,7 +628,7 @@
       "price": 1.98,
       "currency": "USD",
       "as_of": "2026-04-02T20:00:02.000Z",
-      "market_state": "POST",
+      "market_state": "PRE",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -610,7 +637,7 @@
       "price": 133.64,
       "currency": "USD",
       "as_of": "2026-05-06T20:00:02.000Z",
-      "market_state": "POST",
+      "market_state": "PRE",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -619,7 +646,7 @@
       "price": 168.32,
       "currency": "USD",
       "as_of": "2026-05-06T20:00:01.000Z",
-      "market_state": "POST",
+      "market_state": "PRE",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -628,7 +655,7 @@
       "price": 1073.57,
       "currency": "USD",
       "as_of": "2026-05-06T20:00:02.000Z",
-      "market_state": "POST",
+      "market_state": "PRE",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -637,7 +664,7 @@
       "price": 54.6,
       "currency": "USD",
       "as_of": "2026-05-06T20:00:01.000Z",
-      "market_state": "POST",
+      "market_state": "PRE",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -646,7 +673,7 @@
       "price": 56.59,
       "currency": "USD",
       "as_of": "2026-05-06T20:00:02.000Z",
-      "market_state": "POST",
+      "market_state": "PRE",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -655,7 +682,7 @@
       "price": 46.45,
       "currency": "USD",
       "as_of": "2026-05-06T20:00:02.000Z",
-      "market_state": "POST",
+      "market_state": "PRE",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -664,7 +691,7 @@
       "price": 78.45,
       "currency": "USD",
       "as_of": "2026-05-06T20:00:02.000Z",
-      "market_state": "POST",
+      "market_state": "PRE",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -673,7 +700,7 @@
       "price": 150.04,
       "currency": "USD",
       "as_of": "2026-05-06T20:00:01.000Z",
-      "market_state": "POST",
+      "market_state": "PRE",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -682,7 +709,7 @@
       "price": 469.83,
       "currency": "USD",
       "as_of": "2026-05-06T20:00:02.000Z",
-      "market_state": "POST",
+      "market_state": "PRE",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -691,7 +718,7 @@
       "price": 59.06,
       "currency": "USD",
       "as_of": "2026-05-06T20:00:02.000Z",
-      "market_state": "POST",
+      "market_state": "PRE",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -700,7 +727,7 @@
       "price": 56,
       "currency": "USD",
       "as_of": "2026-05-06T20:00:02.000Z",
-      "market_state": "POST",
+      "market_state": "PRE",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -709,7 +736,7 @@
       "price": 15.1,
       "currency": "USD",
       "as_of": "2026-05-06T20:00:00.000Z",
-      "market_state": "POST",
+      "market_state": "PRE",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -718,7 +745,7 @@
       "price": 15.55,
       "currency": "USD",
       "as_of": "2026-05-06T20:00:02.000Z",
-      "market_state": "POST",
+      "market_state": "PRE",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -727,7 +754,7 @@
       "price": 59.41,
       "currency": "USD",
       "as_of": "2026-05-06T20:00:02.000Z",
-      "market_state": "POST",
+      "market_state": "PRE",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -736,7 +763,7 @@
       "price": 124.69,
       "currency": "USD",
       "as_of": "2026-05-06T20:00:02.000Z",
-      "market_state": "POST",
+      "market_state": "PRE",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -745,7 +772,7 @@
       "price": 1.04,
       "currency": "USD",
       "as_of": "2026-05-06T20:00:01.000Z",
-      "market_state": "POST",
+      "market_state": "PRE",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -754,7 +781,7 @@
       "price": 127.6,
       "currency": "USD",
       "as_of": "2026-05-06T20:03:12.000Z",
-      "market_state": "POST",
+      "market_state": "PRE",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -763,7 +790,7 @@
       "price": 191.49,
       "currency": "USD",
       "as_of": "2026-05-06T20:00:02.000Z",
-      "market_state": "POST",
+      "market_state": "PRE",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -772,7 +799,7 @@
       "price": 19.13,
       "currency": "USD",
       "as_of": "2026-05-06T20:00:00.000Z",
-      "market_state": "POST",
+      "market_state": "PRE",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -781,7 +808,7 @@
       "price": 40.16,
       "currency": "USD",
       "as_of": "2026-05-06T20:00:03.000Z",
-      "market_state": "POST",
+      "market_state": "PRE",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -790,7 +817,7 @@
       "price": 858.14,
       "currency": "USD",
       "as_of": "2026-05-06T20:00:01.000Z",
-      "market_state": "POST",
+      "market_state": "PRE",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -799,7 +826,7 @@
       "price": 926.93,
       "currency": "USD",
       "as_of": "2026-05-06T20:00:03.000Z",
-      "market_state": "POST",
+      "market_state": "PRE",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -808,7 +835,7 @@
       "price": 145.16,
       "currency": "USD",
       "as_of": "2026-05-06T20:00:02.000Z",
-      "market_state": "POST",
+      "market_state": "PRE",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -817,7 +844,7 @@
       "price": 101.09,
       "currency": "USD",
       "as_of": "2026-05-06T20:00:02.000Z",
-      "market_state": "POST",
+      "market_state": "PRE",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -826,7 +853,7 @@
       "price": 27.52,
       "currency": "USD",
       "as_of": "2026-05-06T20:00:02.000Z",
-      "market_state": "POST",
+      "market_state": "PRE",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -835,7 +862,7 @@
       "price": 354.9,
       "currency": "USD",
       "as_of": "2026-05-06T20:00:01.000Z",
-      "market_state": "POST",
+      "market_state": "PRE",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -844,7 +871,7 @@
       "price": 322.78,
       "currency": "USD",
       "as_of": "2026-05-06T20:00:01.000Z",
-      "market_state": "POST",
+      "market_state": "PRE",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -853,7 +880,7 @@
       "price": 65.62,
       "currency": "USD",
       "as_of": "2026-05-06T20:00:03.000Z",
-      "market_state": "POST",
+      "market_state": "PRE",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -862,7 +889,7 @@
       "price": 50.8,
       "currency": "USD",
       "as_of": "2026-05-06T20:00:01.000Z",
-      "market_state": "POST",
+      "market_state": "PRE",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -871,7 +898,7 @@
       "price": 10.96,
       "currency": "USD",
       "as_of": "2026-05-06T20:00:01.000Z",
-      "market_state": "POST",
+      "market_state": "PRE",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -880,7 +907,7 @@
       "price": 6.36,
       "currency": "USD",
       "as_of": "2026-05-06T20:00:03.000Z",
-      "market_state": "POST",
+      "market_state": "PRE",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -889,7 +916,7 @@
       "price": 168.59,
       "currency": "USD",
       "as_of": "2026-05-06T20:00:01.000Z",
-      "market_state": "POST",
+      "market_state": "PRE",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -898,7 +925,7 @@
       "price": 156.52,
       "currency": "USD",
       "as_of": "2026-05-06T20:00:00.000Z",
-      "market_state": "POST",
+      "market_state": "PRE",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -907,7 +934,7 @@
       "price": 24.59,
       "currency": "USD",
       "as_of": "2026-05-06T20:00:02.000Z",
-      "market_state": "POST",
+      "market_state": "PRE",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -916,7 +943,7 @@
       "price": 21.73,
       "currency": "USD",
       "as_of": "2026-05-06T20:00:00.000Z",
-      "market_state": "POST",
+      "market_state": "PRE",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -925,7 +952,7 @@
       "price": 281.98,
       "currency": "USD",
       "as_of": "2026-05-06T20:00:03.000Z",
-      "market_state": "POST",
+      "market_state": "PRE",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -934,7 +961,7 @@
       "price": 576.79,
       "currency": "USD",
       "as_of": "2026-05-06T20:00:02.000Z",
-      "market_state": "POST",
+      "market_state": "PRE",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -943,7 +970,7 @@
       "price": 21.91,
       "currency": "USD",
       "as_of": "2026-05-06T20:00:01.000Z",
-      "market_state": "POST",
+      "market_state": "PRE",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -952,7 +979,7 @@
       "price": 88.16,
       "currency": "USD",
       "as_of": "2026-05-06T20:00:02.000Z",
-      "market_state": "POST",
+      "market_state": "PRE",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -961,7 +988,7 @@
       "price": 11.15,
       "currency": "USD",
       "as_of": "2026-05-06T20:00:02.000Z",
-      "market_state": "POST",
+      "market_state": "PRE",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -970,7 +997,7 @@
       "price": 413.87,
       "currency": "USD",
       "as_of": "2026-05-06T20:00:02.000Z",
-      "market_state": "POST",
+      "market_state": "PRE",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -979,7 +1006,7 @@
       "price": 14.5,
       "currency": "USD",
       "as_of": "2026-05-06T20:00:00.000Z",
-      "market_state": "POST",
+      "market_state": "PRE",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -988,7 +1015,7 @@
       "price": 26.44,
       "currency": "USD",
       "as_of": "2026-05-06T20:00:01.000Z",
-      "market_state": "POST",
+      "market_state": "PRE",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -997,7 +1024,7 @@
       "price": 288.34,
       "currency": "USD",
       "as_of": "2026-05-06T20:00:00.000Z",
-      "market_state": "POST",
+      "market_state": "PRE",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -1006,7 +1033,7 @@
       "price": 32.74,
       "currency": "USD",
       "as_of": "2026-05-06T20:01:44.000Z",
-      "market_state": "POST",
+      "market_state": "PRE",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -1015,7 +1042,7 @@
       "price": 715.76,
       "currency": "USD",
       "as_of": "2026-05-06T20:00:03.000Z",
-      "market_state": "POST",
+      "market_state": "PRE",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -1024,7 +1051,7 @@
       "price": 55.33,
       "currency": "USD",
       "as_of": "2026-05-06T20:03:23.000Z",
-      "market_state": "POST",
+      "market_state": "PRE",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -1033,7 +1060,7 @@
       "price": 42.33,
       "currency": "USD",
       "as_of": "2026-05-06T20:00:03.000Z",
-      "market_state": "POST",
+      "market_state": "PRE",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -1042,7 +1069,7 @@
       "price": 23.72,
       "currency": "USD",
       "as_of": "2026-05-06T20:00:01.000Z",
-      "market_state": "POST",
+      "market_state": "PRE",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -1051,7 +1078,7 @@
       "price": 193.4,
       "currency": "USD",
       "as_of": "2026-05-06T20:00:03.000Z",
-      "market_state": "POST",
+      "market_state": "PRE",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -1060,7 +1087,7 @@
       "price": 35.87,
       "currency": "USD",
       "as_of": "2026-05-06T20:00:02.000Z",
-      "market_state": "POST",
+      "market_state": "PRE",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -1069,7 +1096,7 @@
       "price": 344.67,
       "currency": "USD",
       "as_of": "2026-05-06T20:00:02.000Z",
-      "market_state": "POST",
+      "market_state": "PRE",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -1078,7 +1105,7 @@
       "price": 197.96,
       "currency": "USD",
       "as_of": "2026-05-06T20:00:01.000Z",
-      "market_state": "POST",
+      "market_state": "PRE",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -1087,7 +1114,7 @@
       "price": 210.52,
       "currency": "USD",
       "as_of": "2026-05-06T20:00:00.000Z",
-      "market_state": "POST",
+      "market_state": "PRE",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -1096,7 +1123,7 @@
       "price": 118.9,
       "currency": "USD",
       "as_of": "2026-05-06T20:00:03.000Z",
-      "market_state": "POST",
+      "market_state": "PRE",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -1105,7 +1132,7 @@
       "price": 252.74,
       "currency": "USD",
       "as_of": "2026-05-06T20:00:03.000Z",
-      "market_state": "POST",
+      "market_state": "PRE",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -1114,7 +1141,7 @@
       "price": 24.63,
       "currency": "USD",
       "as_of": "2026-05-06T20:00:01.000Z",
-      "market_state": "POST",
+      "market_state": "PRE",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -1123,7 +1150,7 @@
       "price": 995.75,
       "currency": "USD",
       "as_of": "2026-05-06T20:00:01.000Z",
-      "market_state": "POST",
+      "market_state": "PRE",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -1132,7 +1159,7 @@
       "price": 305.43,
       "currency": "USD",
       "as_of": "2026-05-06T20:00:02.000Z",
-      "market_state": "POST",
+      "market_state": "PRE",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -1141,7 +1168,7 @@
       "price": 17.89,
       "currency": "USD",
       "as_of": "2026-05-06T20:00:03.000Z",
-      "market_state": "POST",
+      "market_state": "PRE",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -1150,7 +1177,7 @@
       "price": 33.39,
       "currency": "USD",
       "as_of": "2026-05-06T20:00:00.000Z",
-      "market_state": "POST",
+      "market_state": "PRE",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -1159,7 +1186,7 @@
       "price": 104.81,
       "currency": "USD",
       "as_of": "2026-05-06T20:00:02.000Z",
-      "market_state": "POST",
+      "market_state": "PRE",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -1168,7 +1195,7 @@
       "price": 121.8,
       "currency": "USD",
       "as_of": "2026-05-06T20:00:02.000Z",
-      "market_state": "POST",
+      "market_state": "PRE",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -1177,7 +1204,7 @@
       "price": 114.91,
       "currency": "USD",
       "as_of": "2026-05-06T20:00:02.000Z",
-      "market_state": "POST",
+      "market_state": "PRE",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -1186,7 +1213,7 @@
       "price": 181.19,
       "currency": "USD",
       "as_of": "2026-05-06T20:00:03.000Z",
-      "market_state": "POST",
+      "market_state": "PRE",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -1195,7 +1222,7 @@
       "price": 458.16,
       "currency": "USD",
       "as_of": "2026-05-06T20:00:02.000Z",
-      "market_state": "POST",
+      "market_state": "PRE",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -1204,7 +1231,7 @@
       "price": 468.07,
       "currency": "USD",
       "as_of": "2026-05-06T20:00:01.000Z",
-      "market_state": "POST",
+      "market_state": "PRE",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -1213,7 +1240,7 @@
       "price": 137.98,
       "currency": "USD",
       "as_of": "2026-05-06T20:00:01.000Z",
-      "market_state": "POST",
+      "market_state": "PRE",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -1222,7 +1249,7 @@
       "price": 91.64,
       "currency": "USD",
       "as_of": "2026-05-06T20:00:03.000Z",
-      "market_state": "POST",
+      "market_state": "PRE",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -1231,7 +1258,7 @@
       "price": 34.07,
       "currency": "USD",
       "as_of": "2026-05-06T20:00:01.000Z",
-      "market_state": "POST",
+      "market_state": "PRE",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -1240,7 +1267,7 @@
       "price": 45.6,
       "currency": "USD",
       "as_of": "2026-05-06T20:00:03.000Z",
-      "market_state": "POST",
+      "market_state": "PRE",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -1249,7 +1276,7 @@
       "price": 169.36,
       "currency": "USD",
       "as_of": "2026-05-06T20:00:01.000Z",
-      "market_state": "POST",
+      "market_state": "PRE",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -1258,7 +1285,7 @@
       "price": 26.47,
       "currency": "USD",
       "as_of": "2026-05-06T20:00:02.000Z",
-      "market_state": "POST",
+      "market_state": "PRE",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -1267,7 +1294,7 @@
       "price": 51.33,
       "currency": "USD",
       "as_of": "2026-05-06T20:00:01.000Z",
-      "market_state": "POST",
+      "market_state": "PRE",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -1276,7 +1303,7 @@
       "price": 389.38,
       "currency": "USD",
       "as_of": "2026-05-06T20:00:03.000Z",
-      "market_state": "POST",
+      "market_state": "PRE",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -1285,7 +1312,7 @@
       "price": 86.86,
       "currency": "USD",
       "as_of": "2026-05-06T20:00:03.000Z",
-      "market_state": "POST",
+      "market_state": "PRE",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -1294,7 +1321,7 @@
       "price": 185.16,
       "currency": "USD",
       "as_of": "2026-05-06T20:01:01.000Z",
-      "market_state": "POST",
+      "market_state": "PRE",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -1303,7 +1330,7 @@
       "price": 742.89,
       "currency": "USD",
       "as_of": "2026-05-06T20:01:07.000Z",
-      "market_state": "POST",
+      "market_state": "PRE",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -1312,7 +1339,7 @@
       "price": 2.87,
       "currency": "USD",
       "as_of": "2026-05-06T20:00:02.000Z",
-      "market_state": "POST",
+      "market_state": "PRE",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -1321,7 +1348,7 @@
       "price": 27.76,
       "currency": "USD",
       "as_of": "2026-05-06T20:00:01.000Z",
-      "market_state": "POST",
+      "market_state": "PRE",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -1330,7 +1357,7 @@
       "price": 61.64,
       "currency": "USD",
       "as_of": "2026-05-06T20:00:03.000Z",
-      "market_state": "POST",
+      "market_state": "PRE",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -1339,7 +1366,7 @@
       "price": 20.07,
       "currency": "USD",
       "as_of": "2026-05-06T20:00:01.000Z",
-      "market_state": "POST",
+      "market_state": "PRE",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -1348,7 +1375,7 @@
       "price": 73.34,
       "currency": "USD",
       "as_of": "2026-05-06T20:00:03.000Z",
-      "market_state": "POST",
+      "market_state": "PRE",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -1357,7 +1384,7 @@
       "price": 63.11,
       "currency": "USD",
       "as_of": "2026-05-06T20:00:03.000Z",
-      "market_state": "POST",
+      "market_state": "PRE",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -1366,7 +1393,7 @@
       "price": 167.97,
       "currency": "USD",
       "as_of": "2026-05-06T20:00:01.000Z",
-      "market_state": "POST",
+      "market_state": "PRE",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -1375,7 +1402,7 @@
       "price": 50.07,
       "currency": "USD",
       "as_of": "2026-05-06T20:03:10.000Z",
-      "market_state": "POST",
+      "market_state": "PRE",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -1384,7 +1411,7 @@
       "price": 143.71,
       "currency": "USD",
       "as_of": "2026-05-06T20:00:00.000Z",
-      "market_state": "POST",
+      "market_state": "PRE",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -1393,7 +1420,7 @@
       "price": 103.92,
       "currency": "USD",
       "as_of": "2026-05-06T20:00:03.000Z",
-      "market_state": "POST",
+      "market_state": "PRE",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -1402,7 +1429,16 @@
       "price": 238.8,
       "currency": "USD",
       "as_of": "2026-05-06T20:02:09.000Z",
-      "market_state": "POST",
+      "market_state": "PRE",
+      "quote_source": "Delayed Quote",
+      "source": "yahoo-finance"
+    },
+    "DEO": {
+      "ticker": "DEO",
+      "price": 84.61,
+      "currency": "USD",
+      "as_of": "2026-05-06T20:03:03.000Z",
+      "market_state": "PRE",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -1411,7 +1447,7 @@
       "price": 116.37,
       "currency": "USD",
       "as_of": "2026-05-06T20:02:36.000Z",
-      "market_state": "POST",
+      "market_state": "PRE",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -1420,7 +1456,7 @@
       "price": 149.17,
       "currency": "USD",
       "as_of": "2026-05-06T20:00:03.000Z",
-      "market_state": "POST",
+      "market_state": "PRE",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -1429,7 +1465,7 @@
       "price": 174.92,
       "currency": "USD",
       "as_of": "2026-05-06T20:00:03.000Z",
-      "market_state": "POST",
+      "market_state": "PRE",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -1438,7 +1474,7 @@
       "price": 71.08,
       "currency": "USD",
       "as_of": "2026-05-06T20:00:03.000Z",
-      "market_state": "POST",
+      "market_state": "PRE",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -1447,7 +1483,7 @@
       "price": 108.06,
       "currency": "USD",
       "as_of": "2026-05-06T20:01:16.000Z",
-      "market_state": "POST",
+      "market_state": "PRE",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -1456,7 +1492,7 @@
       "price": 23.92,
       "currency": "USD",
       "as_of": "2026-05-06T20:00:01.000Z",
-      "market_state": "POST",
+      "market_state": "PRE",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -1465,7 +1501,7 @@
       "price": 226.5,
       "currency": "USD",
       "as_of": "2026-05-06T20:00:03.000Z",
-      "market_state": "POST",
+      "market_state": "PRE",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -1474,7 +1510,7 @@
       "price": 199.68,
       "currency": "USD",
       "as_of": "2026-05-06T20:00:03.000Z",
-      "market_state": "POST",
+      "market_state": "PRE",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -1483,7 +1519,7 @@
       "price": 10.08,
       "currency": "USD",
       "as_of": "2026-05-06T20:00:02.000Z",
-      "market_state": "POST",
+      "market_state": "PRE",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -1492,7 +1528,7 @@
       "price": 46.53,
       "currency": "USD",
       "as_of": "2026-05-06T20:00:01.000Z",
-      "market_state": "POST",
+      "market_state": "PRE",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -1501,7 +1537,16 @@
       "price": 227.18,
       "currency": "USD",
       "as_of": "2026-05-06T20:00:03.000Z",
-      "market_state": "POST",
+      "market_state": "PRE",
+      "quote_source": "Delayed Quote",
+      "source": "yahoo-finance"
+    },
+    "DPZ": {
+      "ticker": "DPZ",
+      "price": 324.66,
+      "currency": "USD",
+      "as_of": "2026-05-06T20:00:01.000Z",
+      "market_state": "PRE",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -1510,7 +1555,7 @@
       "price": 142.44,
       "currency": "USD",
       "as_of": "2026-05-06T20:00:03.000Z",
-      "market_state": "POST",
+      "market_state": "PRE",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -1519,7 +1564,16 @@
       "price": 105.02,
       "currency": "USD",
       "as_of": "2026-05-06T20:00:01.000Z",
-      "market_state": "POST",
+      "market_state": "PRE",
+      "quote_source": "Delayed Quote",
+      "source": "yahoo-finance"
+    },
+    "DVA": {
+      "ticker": "DVA",
+      "price": 193.88,
+      "currency": "USD",
+      "as_of": "2026-05-06T20:00:03.000Z",
+      "market_state": "PRE",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -1528,7 +1582,7 @@
       "price": 46.6,
       "currency": "USD",
       "as_of": "2026-05-06T20:00:03.000Z",
-      "market_state": "POST",
+      "market_state": "PRE",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -1537,7 +1591,7 @@
       "price": 60.36,
       "currency": "USD",
       "as_of": "2026-05-06T20:00:01.000Z",
-      "market_state": "POST",
+      "market_state": "PRE",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -1546,7 +1600,7 @@
       "price": 457.78,
       "currency": "USD",
       "as_of": "2026-05-06T20:00:03.000Z",
-      "market_state": "POST",
+      "market_state": "PRE",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -1555,7 +1609,7 @@
       "price": 200.79,
       "currency": "USD",
       "as_of": "2026-05-06T20:00:00.000Z",
-      "market_state": "POST",
+      "market_state": "PRE",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -1564,7 +1618,7 @@
       "price": 108.15,
       "currency": "USD",
       "as_of": "2026-05-06T20:00:01.000Z",
-      "market_state": "POST",
+      "market_state": "PRE",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -1573,7 +1627,7 @@
       "price": 263.42,
       "currency": "USD",
       "as_of": "2026-05-06T20:00:02.000Z",
-      "market_state": "POST",
+      "market_state": "PRE",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -1582,7 +1636,7 @@
       "price": 106.87,
       "currency": "USD",
       "as_of": "2026-05-06T20:00:03.000Z",
-      "market_state": "POST",
+      "market_state": "PRE",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -1591,7 +1645,7 @@
       "price": 67.49,
       "currency": "USD",
       "as_of": "2026-05-06T20:00:02.000Z",
-      "market_state": "POST",
+      "market_state": "PRE",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -1600,7 +1654,7 @@
       "price": 68.8,
       "currency": "USD",
       "as_of": "2026-05-06T20:00:03.000Z",
-      "market_state": "POST",
+      "market_state": "PRE",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -1609,7 +1663,7 @@
       "price": 26.18,
       "currency": "USD",
       "as_of": "2026-05-06T20:02:15.000Z",
-      "market_state": "POST",
+      "market_state": "PRE",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -1618,7 +1672,7 @@
       "price": 374.71,
       "currency": "USD",
       "as_of": "2026-05-06T20:00:02.000Z",
-      "market_state": "POST",
+      "market_state": "PRE",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -1627,7 +1681,7 @@
       "price": 41.2,
       "currency": "USD",
       "as_of": "2026-05-06T20:00:01.000Z",
-      "market_state": "POST",
+      "market_state": "PRE",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -1636,7 +1690,7 @@
       "price": 943.75,
       "currency": "USD",
       "as_of": "2026-05-06T20:00:02.000Z",
-      "market_state": "POST",
+      "market_state": "PRE",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -1645,7 +1699,7 @@
       "price": 35.8,
       "currency": "USD",
       "as_of": "2026-05-06T20:00:01.000Z",
-      "market_state": "POST",
+      "market_state": "PRE",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -1654,7 +1708,7 @@
       "price": 155.86,
       "currency": "USD",
       "as_of": "2026-05-06T20:00:00.000Z",
-      "market_state": "POST",
+      "market_state": "PRE",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -1663,7 +1717,7 @@
       "price": 1087.96,
       "currency": "USD",
       "as_of": "2026-05-06T20:00:03.000Z",
-      "market_state": "POST",
+      "market_state": "PRE",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -1672,7 +1726,7 @@
       "price": 57.36,
       "currency": "USD",
       "as_of": "2026-05-06T20:00:03.000Z",
-      "market_state": "POST",
+      "market_state": "PRE",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -1681,7 +1735,7 @@
       "price": 19.87,
       "currency": "USD",
       "as_of": "2026-05-06T20:00:03.000Z",
-      "market_state": "POST",
+      "market_state": "PRE",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -1690,7 +1744,7 @@
       "price": 64.97,
       "currency": "USD",
       "as_of": "2026-05-06T20:00:02.000Z",
-      "market_state": "POST",
+      "market_state": "PRE",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -1699,7 +1753,7 @@
       "price": 333.32,
       "currency": "USD",
       "as_of": "2026-05-06T20:00:03.000Z",
-      "market_state": "POST",
+      "market_state": "PRE",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -1708,7 +1762,7 @@
       "price": 83.2,
       "currency": "USD",
       "as_of": "2026-05-06T20:00:03.000Z",
-      "market_state": "POST",
+      "market_state": "PRE",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -1717,7 +1771,7 @@
       "price": 39.9,
       "currency": "USD",
       "as_of": "2026-05-06T20:00:00.000Z",
-      "market_state": "POST",
+      "market_state": "PRE",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -1726,7 +1780,7 @@
       "price": 45.02,
       "currency": "USD",
       "as_of": "2026-05-06T20:00:01.000Z",
-      "market_state": "POST",
+      "market_state": "PRE",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -1735,7 +1789,7 @@
       "price": 48.7,
       "currency": "USD",
       "as_of": "2026-05-06T20:00:01.000Z",
-      "market_state": "POST",
+      "market_state": "PRE",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -1744,7 +1798,7 @@
       "price": 151.24,
       "currency": "USD",
       "as_of": "2026-05-06T20:00:02.000Z",
-      "market_state": "POST",
+      "market_state": "PRE",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -1753,7 +1807,7 @@
       "price": 246.66,
       "currency": "USD",
       "as_of": "2026-05-06T20:00:00.000Z",
-      "market_state": "POST",
+      "market_state": "PRE",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -1762,7 +1816,7 @@
       "price": 143.85,
       "currency": "USD",
       "as_of": "2026-05-06T20:00:03.000Z",
-      "market_state": "POST",
+      "market_state": "PRE",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -1771,7 +1825,7 @@
       "price": 1991.33,
       "currency": "USD",
       "as_of": "2026-05-06T20:00:00.000Z",
-      "market_state": "POST",
+      "market_state": "PRE",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -1780,7 +1834,7 @@
       "price": 60.89,
       "currency": "USD",
       "as_of": "2026-05-06T20:01:35.000Z",
-      "market_state": "POST",
+      "market_state": "PRE",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -1789,7 +1843,7 @@
       "price": 377.19,
       "currency": "USD",
       "as_of": "2026-05-06T20:00:02.000Z",
-      "market_state": "POST",
+      "market_state": "PRE",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -1798,7 +1852,7 @@
       "price": 45.55,
       "currency": "USD",
       "as_of": "2026-05-06T20:00:03.000Z",
-      "market_state": "POST",
+      "market_state": "PRE",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -1807,7 +1861,7 @@
       "price": 341.02,
       "currency": "USD",
       "as_of": "2026-05-06T20:00:01.000Z",
-      "market_state": "POST",
+      "market_state": "PRE",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -1816,7 +1870,7 @@
       "price": 25.07,
       "currency": "USD",
       "as_of": "2026-05-06T20:00:02.000Z",
-      "market_state": "POST",
+      "market_state": "PRE",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -1825,7 +1879,7 @@
       "price": 1067,
       "currency": "USD",
       "as_of": "2026-05-06T20:00:02.000Z",
-      "market_state": "POST",
+      "market_state": "PRE",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -1834,7 +1888,7 @@
       "price": 19.29,
       "currency": "USD",
       "as_of": "2026-05-06T20:00:02.000Z",
-      "market_state": "POST",
+      "market_state": "PRE",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -1843,7 +1897,7 @@
       "price": 38,
       "currency": "USD",
       "as_of": "2026-05-06T20:00:01.000Z",
-      "market_state": "POST",
+      "market_state": "PRE",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -1852,7 +1906,7 @@
       "price": 45.97,
       "currency": "USD",
       "as_of": "2026-05-06T20:00:03.000Z",
-      "market_state": "POST",
+      "market_state": "PRE",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -1861,7 +1915,7 @@
       "price": 234.18,
       "currency": "USD",
       "as_of": "2026-05-06T20:00:00.000Z",
-      "market_state": "POST",
+      "market_state": "PRE",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -1870,7 +1924,7 @@
       "price": 2011.49,
       "currency": "USD",
       "as_of": "2026-05-06T20:02:50.000Z",
-      "market_state": "POST",
+      "market_state": "PRE",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -1879,7 +1933,7 @@
       "price": 54.2,
       "currency": "USD",
       "as_of": "2026-05-06T20:00:03.000Z",
-      "market_state": "POST",
+      "market_state": "PRE",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -1888,7 +1942,7 @@
       "price": 73.38,
       "currency": "USD",
       "as_of": "2026-05-06T20:00:02.000Z",
-      "market_state": "POST",
+      "market_state": "PRE",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -1897,7 +1951,7 @@
       "price": 99.11,
       "currency": "USD",
       "as_of": "2026-05-06T20:00:02.000Z",
-      "market_state": "POST",
+      "market_state": "PRE",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -1906,7 +1960,7 @@
       "price": 2.49,
       "currency": "USD",
       "as_of": "2026-05-06T20:00:00.000Z",
-      "market_state": "POST",
+      "market_state": "PRE",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -1915,7 +1969,7 @@
       "price": 51.02,
       "currency": "USD",
       "as_of": "2026-05-06T20:00:03.000Z",
-      "market_state": "POST",
+      "market_state": "PRE",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -1924,7 +1978,7 @@
       "price": 51.29,
       "currency": "USD",
       "as_of": "2026-05-06T20:03:48.000Z",
-      "market_state": "POST",
+      "market_state": "PRE",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -1933,7 +1987,7 @@
       "price": 218,
       "currency": "USD",
       "as_of": "2026-05-06T20:00:01.000Z",
-      "market_state": "POST",
+      "market_state": "PRE",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -1942,7 +1996,7 @@
       "price": 89.95,
       "currency": "USD",
       "as_of": "2026-05-06T20:00:01.000Z",
-      "market_state": "POST",
+      "market_state": "PRE",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -1951,7 +2005,7 @@
       "price": 60.4,
       "currency": "USD",
       "as_of": "2026-05-06T20:00:02.000Z",
-      "market_state": "POST",
+      "market_state": "PRE",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -1960,7 +2014,7 @@
       "price": 168,
       "currency": "USD",
       "as_of": "2026-05-06T20:00:00.000Z",
-      "market_state": "POST",
+      "market_state": "PRE",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -1969,7 +2023,7 @@
       "price": 88.66,
       "currency": "USD",
       "as_of": "2026-05-06T20:00:01.000Z",
-      "market_state": "POST",
+      "market_state": "PRE",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -1978,7 +2032,7 @@
       "price": 24.56,
       "currency": "USD",
       "as_of": "2026-05-06T20:00:02.000Z",
-      "market_state": "POST",
+      "market_state": "PRE",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -1987,7 +2041,7 @@
       "price": 347.27,
       "currency": "USD",
       "as_of": "2026-05-06T20:00:02.000Z",
-      "market_state": "POST",
+      "market_state": "PRE",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -1996,7 +2050,7 @@
       "price": 85.2,
       "currency": "USD",
       "as_of": "2026-05-06T20:00:02.000Z",
-      "market_state": "POST",
+      "market_state": "PRE",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -2005,7 +2059,7 @@
       "price": 92.44,
       "currency": "USD",
       "as_of": "2026-05-06T20:00:00.000Z",
-      "market_state": "POST",
+      "market_state": "PRE",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -2014,7 +2068,7 @@
       "price": 305.83,
       "currency": "USD",
       "as_of": "2026-05-06T20:00:02.000Z",
-      "market_state": "POST",
+      "market_state": "PRE",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -2023,7 +2077,7 @@
       "price": 5.02,
       "currency": "USD",
       "as_of": "2026-05-06T20:00:01.000Z",
-      "market_state": "POST",
+      "market_state": "PRE",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -2032,7 +2086,7 @@
       "price": 1118.96,
       "currency": "USD",
       "as_of": "2026-05-06T20:00:02.000Z",
-      "market_state": "POST",
+      "market_state": "PRE",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -2041,7 +2095,7 @@
       "price": 136.3,
       "currency": "USD",
       "as_of": "2026-05-06T20:00:01.000Z",
-      "market_state": "POST",
+      "market_state": "PRE",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -2050,7 +2104,7 @@
       "price": 35.07,
       "currency": "USD",
       "as_of": "2026-05-06T20:00:03.000Z",
-      "market_state": "POST",
+      "market_state": "PRE",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -2059,7 +2113,7 @@
       "price": 135.27,
       "currency": "USD",
       "as_of": "2026-05-06T20:00:03.000Z",
-      "market_state": "POST",
+      "market_state": "PRE",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -2068,7 +2122,7 @@
       "price": 154.39,
       "currency": "USD",
       "as_of": "2026-05-06T20:00:02.000Z",
-      "market_state": "POST",
+      "market_state": "PRE",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -2077,7 +2131,7 @@
       "price": 181.57,
       "currency": "USD",
       "as_of": "2026-05-06T20:01:42.000Z",
-      "market_state": "POST",
+      "market_state": "PRE",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -2086,7 +2140,7 @@
       "price": 31.12,
       "currency": "USD",
       "as_of": "2026-05-06T20:00:00.000Z",
-      "market_state": "POST",
+      "market_state": "PRE",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -2095,7 +2149,7 @@
       "price": 78.7,
       "currency": "USD",
       "as_of": "2026-05-06T20:00:03.000Z",
-      "market_state": "POST",
+      "market_state": "PRE",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -2104,7 +2158,7 @@
       "price": 267.42,
       "currency": "USD",
       "as_of": "2026-05-06T20:00:02.000Z",
-      "market_state": "POST",
+      "market_state": "PRE",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -2113,7 +2167,7 @@
       "price": 395.14,
       "currency": "USD",
       "as_of": "2026-05-06T20:00:03.000Z",
-      "market_state": "POST",
+      "market_state": "PRE",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -2122,7 +2176,7 @@
       "price": 398.04,
       "currency": "USD",
       "as_of": "2026-05-06T20:00:03.000Z",
-      "market_state": "POST",
+      "market_state": "PRE",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -2131,7 +2185,7 @@
       "price": 105.49,
       "currency": "USD",
       "as_of": "2026-05-06T20:00:02.000Z",
-      "market_state": "POST",
+      "market_state": "PRE",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -2140,7 +2194,7 @@
       "price": 937.35,
       "currency": "USD",
       "as_of": "2026-05-06T20:00:02.000Z",
-      "market_state": "POST",
+      "market_state": "PRE",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -2149,7 +2203,7 @@
       "price": 7.3,
       "currency": "USD",
       "as_of": "2026-05-06T20:00:01.000Z",
-      "market_state": "POST",
+      "market_state": "PRE",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -2158,7 +2212,7 @@
       "price": 207.76,
       "currency": "USD",
       "as_of": "2026-05-06T20:00:03.000Z",
-      "market_state": "POST",
+      "market_state": "PRE",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -2167,7 +2221,7 @@
       "price": 142.38,
       "currency": "USD",
       "as_of": "2026-05-06T20:00:02.000Z",
-      "market_state": "POST",
+      "market_state": "PRE",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -2176,7 +2230,7 @@
       "price": 131.09,
       "currency": "USD",
       "as_of": "2026-05-06T20:00:03.000Z",
-      "market_state": "POST",
+      "market_state": "PRE",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -2185,7 +2239,7 @@
       "price": 52.67,
       "currency": "USD",
       "as_of": "2026-05-06T20:02:13.000Z",
-      "market_state": "POST",
+      "market_state": "PRE",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -2194,7 +2248,7 @@
       "price": 97.48,
       "currency": "USD",
       "as_of": "2026-05-06T20:00:01.000Z",
-      "market_state": "POST",
+      "market_state": "PRE",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -2203,7 +2257,7 @@
       "price": 429.45,
       "currency": "USD",
       "as_of": "2026-05-06T20:00:02.000Z",
-      "market_state": "POST",
+      "market_state": "PRE",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -2212,7 +2266,16 @@
       "price": 323.05,
       "currency": "USD",
       "as_of": "2026-05-06T20:00:02.000Z",
-      "market_state": "POST",
+      "market_state": "PRE",
+      "quote_source": "Delayed Quote",
+      "source": "yahoo-finance"
+    },
+    "HEI-A": {
+      "ticker": "HEI-A",
+      "price": 225.19,
+      "currency": "USD",
+      "as_of": "2026-05-06T20:00:02.000Z",
+      "market_state": "PRE",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -2221,7 +2284,7 @@
       "price": 64.12,
       "currency": "USD",
       "as_of": "2026-05-06T20:00:03.000Z",
-      "market_state": "POST",
+      "market_state": "PRE",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -2230,7 +2293,7 @@
       "price": 133.49,
       "currency": "USD",
       "as_of": "2026-05-06T20:00:02.000Z",
-      "market_state": "POST",
+      "market_state": "PRE",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -2239,7 +2302,7 @@
       "price": 319.54,
       "currency": "USD",
       "as_of": "2026-05-06T20:00:03.000Z",
-      "market_state": "POST",
+      "market_state": "PRE",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -2248,7 +2311,7 @@
       "price": 321.51,
       "currency": "USD",
       "as_of": "2026-05-06T20:00:03.000Z",
-      "market_state": "POST",
+      "market_state": "PRE",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -2257,7 +2320,7 @@
       "price": 54.84,
       "currency": "USD",
       "as_of": "2026-05-06T20:00:02.000Z",
-      "market_state": "POST",
+      "market_state": "PRE",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -2266,7 +2329,7 @@
       "price": 216.86,
       "currency": "USD",
       "as_of": "2026-05-06T20:00:03.000Z",
-      "market_state": "POST",
+      "market_state": "PRE",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -2275,7 +2338,7 @@
       "price": 79.05,
       "currency": "USD",
       "as_of": "2026-05-06T20:00:01.000Z",
-      "market_state": "POST",
+      "market_state": "PRE",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -2284,7 +2347,7 @@
       "price": 21.41,
       "currency": "USD",
       "as_of": "2026-05-06T20:00:02.000Z",
-      "market_state": "POST",
+      "market_state": "PRE",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -2293,7 +2356,7 @@
       "price": 186.41,
       "currency": "USD",
       "as_of": "2026-05-06T20:00:02.000Z",
-      "market_state": "POST",
+      "market_state": "PRE",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -2302,7 +2365,7 @@
       "price": 6.48,
       "currency": "USD",
       "as_of": "2026-05-06T20:00:01.000Z",
-      "market_state": "POST",
+      "market_state": "PRE",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -2311,7 +2374,7 @@
       "price": 235.16,
       "currency": "USD",
       "as_of": "2026-05-06T20:00:03.000Z",
-      "market_state": "POST",
+      "market_state": "PRE",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -2320,7 +2383,7 @@
       "price": 246.33,
       "currency": "USD",
       "as_of": "2026-05-06T20:00:02.000Z",
-      "market_state": "POST",
+      "market_state": "PRE",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -2329,7 +2392,7 @@
       "price": 108.94,
       "currency": "USD",
       "as_of": "2026-05-06T20:00:00.000Z",
-      "market_state": "POST",
+      "market_state": "PRE",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -2338,7 +2401,7 @@
       "price": 256.43,
       "currency": "USD",
       "as_of": "2026-05-06T20:00:03.000Z",
-      "market_state": "POST",
+      "market_state": "PRE",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -2347,7 +2410,7 @@
       "price": 225.74,
       "currency": "USD",
       "as_of": "2026-05-06T20:00:02.000Z",
-      "market_state": "POST",
+      "market_state": "PRE",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -2356,7 +2419,7 @@
       "price": 153.4,
       "currency": "USD",
       "as_of": "2026-05-06T20:00:03.000Z",
-      "market_state": "POST",
+      "market_state": "PRE",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -2365,7 +2428,7 @@
       "price": 218.19,
       "currency": "USD",
       "as_of": "2026-05-06T20:00:03.000Z",
-      "market_state": "POST",
+      "market_state": "PRE",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -2374,7 +2437,7 @@
       "price": 82.93,
       "currency": "USD",
       "as_of": "2026-05-06T20:00:02.000Z",
-      "market_state": "POST",
+      "market_state": "PRE",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -2383,7 +2446,7 @@
       "price": 142.58,
       "currency": "USD",
       "as_of": "2026-05-06T20:00:00.000Z",
-      "market_state": "POST",
+      "market_state": "PRE",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -2392,7 +2455,7 @@
       "price": 141.84,
       "currency": "USD",
       "as_of": "2026-05-06T20:00:01.000Z",
-      "market_state": "POST",
+      "market_state": "PRE",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -2401,7 +2464,7 @@
       "price": 99.85,
       "currency": "USD",
       "as_of": "2026-05-06T20:00:01.000Z",
-      "market_state": "POST",
+      "market_state": "PRE",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -2410,7 +2473,7 @@
       "price": 12.64,
       "currency": "USD",
       "as_of": "2026-05-06T20:00:02.000Z",
-      "market_state": "POST",
+      "market_state": "PRE",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -2419,7 +2482,7 @@
       "price": 137.09,
       "currency": "USD",
       "as_of": "2026-05-06T20:00:01.000Z",
-      "market_state": "POST",
+      "market_state": "PRE",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -2428,7 +2491,7 @@
       "price": 113.01,
       "currency": "USD",
       "as_of": "2026-05-06T20:00:01.000Z",
-      "market_state": "POST",
+      "market_state": "PRE",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -2437,7 +2500,7 @@
       "price": 388.55,
       "currency": "USD",
       "as_of": "2026-05-06T20:00:01.000Z",
-      "market_state": "POST",
+      "market_state": "PRE",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -2446,7 +2509,7 @@
       "price": 176.47,
       "currency": "USD",
       "as_of": "2026-05-06T20:00:03.000Z",
-      "market_state": "POST",
+      "market_state": "PRE",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -2455,7 +2518,7 @@
       "price": 60.98,
       "currency": "USD",
       "as_of": "2026-05-06T20:00:01.000Z",
-      "market_state": "POST",
+      "market_state": "PRE",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -2464,7 +2527,7 @@
       "price": 451.73,
       "currency": "USD",
       "as_of": "2026-05-06T20:00:00.000Z",
-      "market_state": "POST",
+      "market_state": "PRE",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -2473,7 +2536,7 @@
       "price": 151.05,
       "currency": "USD",
       "as_of": "2026-05-06T20:00:03.000Z",
-      "market_state": "POST",
+      "market_state": "PRE",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -2482,7 +2545,7 @@
       "price": 86.29,
       "currency": "USD",
       "as_of": "2026-05-06T20:00:02.000Z",
-      "market_state": "POST",
+      "market_state": "PRE",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -2491,7 +2554,7 @@
       "price": 8.45,
       "currency": "USD",
       "as_of": "2026-05-06T20:00:02.000Z",
-      "market_state": "POST",
+      "market_state": "PRE",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -2500,7 +2563,7 @@
       "price": 286.8,
       "currency": "USD",
       "as_of": "2026-05-06T20:00:03.000Z",
-      "market_state": "POST",
+      "market_state": "PRE",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -2509,7 +2572,7 @@
       "price": 126.62,
       "currency": "USD",
       "as_of": "2026-05-06T20:00:03.000Z",
-      "market_state": "POST",
+      "market_state": "PRE",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -2518,7 +2581,7 @@
       "price": 246.05,
       "currency": "USD",
       "as_of": "2026-05-06T20:00:02.000Z",
-      "market_state": "POST",
+      "market_state": "PRE",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -2527,7 +2590,7 @@
       "price": 30.69,
       "currency": "USD",
       "as_of": "2026-05-06T20:00:01.000Z",
-      "market_state": "POST",
+      "market_state": "PRE",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -2536,7 +2599,7 @@
       "price": 51.75,
       "currency": "USD",
       "as_of": "2026-05-06T20:00:02.000Z",
-      "market_state": "POST",
+      "market_state": "PRE",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -2545,7 +2608,7 @@
       "price": 325.52,
       "currency": "USD",
       "as_of": "2026-05-06T20:00:02.000Z",
-      "market_state": "POST",
+      "market_state": "PRE",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -2554,7 +2617,7 @@
       "price": 224.62,
       "currency": "USD",
       "as_of": "2026-05-06T20:00:02.000Z",
-      "market_state": "POST",
+      "market_state": "PRE",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -2563,7 +2626,7 @@
       "price": 60.27,
       "currency": "USD",
       "as_of": "2026-05-06T20:00:01.000Z",
-      "market_state": "POST",
+      "market_state": "PRE",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -2572,7 +2635,7 @@
       "price": 314.9,
       "currency": "USD",
       "as_of": "2026-05-06T20:00:02.000Z",
-      "market_state": "POST",
+      "market_state": "PRE",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -2581,7 +2644,7 @@
       "price": 64.72,
       "currency": "USD",
       "as_of": "2026-05-06T20:00:00.000Z",
-      "market_state": "POST",
+      "market_state": "PRE",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -2590,7 +2653,7 @@
       "price": 28.56,
       "currency": "USD",
       "as_of": "2026-05-06T20:00:01.000Z",
-      "market_state": "POST",
+      "market_state": "PRE",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -2599,7 +2662,16 @@
       "price": 22.23,
       "currency": "USD",
       "as_of": "2026-05-06T20:00:02.000Z",
-      "market_state": "POST",
+      "market_state": "PRE",
+      "quote_source": "Delayed Quote",
+      "source": "yahoo-finance"
+    },
+    "KHC": {
+      "ticker": "KHC",
+      "price": 23.07,
+      "currency": "USD",
+      "as_of": "2026-05-06T20:00:01.000Z",
+      "market_state": "PRE",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -2608,7 +2680,7 @@
       "price": 100.79,
       "currency": "USD",
       "as_of": "2026-05-06T20:00:02.000Z",
-      "market_state": "POST",
+      "market_state": "PRE",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -2617,7 +2689,7 @@
       "price": 99.19,
       "currency": "USD",
       "as_of": "2026-05-06T20:00:01.000Z",
-      "market_state": "POST",
+      "market_state": "PRE",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -2626,7 +2698,7 @@
       "price": 31.58,
       "currency": "USD",
       "as_of": "2026-05-06T20:00:02.000Z",
-      "market_state": "POST",
+      "market_state": "PRE",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -2635,7 +2707,16 @@
       "price": 39.43,
       "currency": "USD",
       "as_of": "2026-05-06T20:00:02.000Z",
-      "market_state": "POST",
+      "market_state": "PRE",
+      "quote_source": "Delayed Quote",
+      "source": "yahoo-finance"
+    },
+    "KO": {
+      "ticker": "KO",
+      "price": 79.23,
+      "currency": "USD",
+      "as_of": "2026-05-06T20:00:02.000Z",
+      "market_state": "PRE",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -2644,7 +2725,7 @@
       "price": 66.01,
       "currency": "USD",
       "as_of": "2026-05-06T20:00:02.000Z",
-      "market_state": "POST",
+      "market_state": "PRE",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -2653,7 +2734,7 @@
       "price": 35.09,
       "currency": "USD",
       "as_of": "2026-05-06T20:00:02.000Z",
-      "market_state": "POST",
+      "market_state": "PRE",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -2662,7 +2743,7 @@
       "price": 17.68,
       "currency": "USD",
       "as_of": "2026-05-06T20:00:02.000Z",
-      "market_state": "POST",
+      "market_state": "PRE",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -2671,7 +2752,7 @@
       "price": 0.9685,
       "currency": "USD",
       "as_of": "2026-05-06T20:00:01.000Z",
-      "market_state": "POST",
+      "market_state": "PRE",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -2680,7 +2761,7 @@
       "price": 141.15,
       "currency": "USD",
       "as_of": "2026-05-06T20:00:01.000Z",
-      "market_state": "POST",
+      "market_state": "PRE",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -2689,7 +2770,7 @@
       "price": 32.47,
       "currency": "USD",
       "as_of": "2026-05-06T20:00:02.000Z",
-      "market_state": "POST",
+      "market_state": "PRE",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -2698,7 +2779,7 @@
       "price": 6.19,
       "currency": "USD",
       "as_of": "2026-05-06T20:00:00.000Z",
-      "market_state": "POST",
+      "market_state": "PRE",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -2707,7 +2788,7 @@
       "price": 134.9,
       "currency": "USD",
       "as_of": "2026-05-06T20:00:03.000Z",
-      "market_state": "POST",
+      "market_state": "PRE",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -2716,7 +2797,7 @@
       "price": 274.89,
       "currency": "USD",
       "as_of": "2026-05-06T20:00:01.000Z",
-      "market_state": "POST",
+      "market_state": "PRE",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -2725,7 +2806,16 @@
       "price": 90.54,
       "currency": "USD",
       "as_of": "2026-05-06T20:00:02.000Z",
-      "market_state": "POST",
+      "market_state": "PRE",
+      "quote_source": "Delayed Quote",
+      "source": "yahoo-finance"
+    },
+    "LEN-B": {
+      "ticker": "LEN-B",
+      "price": 88.07,
+      "currency": "USD",
+      "as_of": "2026-05-06T20:00:02.000Z",
+      "market_state": "PRE",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -2734,7 +2824,7 @@
       "price": 302.2,
       "currency": "USD",
       "as_of": "2026-05-06T20:00:02.000Z",
-      "market_state": "POST",
+      "market_state": "PRE",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -2743,7 +2833,7 @@
       "price": 541.37,
       "currency": "USD",
       "as_of": "2026-05-06T20:00:02.000Z",
-      "market_state": "POST",
+      "market_state": "PRE",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -2752,7 +2842,7 @@
       "price": 944.28,
       "currency": "USD",
       "as_of": "2026-05-06T20:00:01.000Z",
-      "market_state": "POST",
+      "market_state": "PRE",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -2761,7 +2851,25 @@
       "price": 987.05,
       "currency": "USD",
       "as_of": "2026-05-06T20:02:24.000Z",
-      "market_state": "POST",
+      "market_state": "PRE",
+      "quote_source": "Delayed Quote",
+      "source": "yahoo-finance"
+    },
+    "LLYVA": {
+      "ticker": "LLYVA",
+      "price": 95.26,
+      "currency": "USD",
+      "as_of": "2026-05-06T20:00:01.000Z",
+      "market_state": "PRE",
+      "quote_source": "Delayed Quote",
+      "source": "yahoo-finance"
+    },
+    "LLYVK": {
+      "ticker": "LLYVK",
+      "price": 97.51,
+      "currency": "USD",
+      "as_of": "2026-05-06T20:00:01.000Z",
+      "market_state": "PRE",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -2770,7 +2878,7 @@
       "price": 514.26,
       "currency": "USD",
       "as_of": "2026-05-06T20:00:02.000Z",
-      "market_state": "POST",
+      "market_state": "PRE",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -2779,7 +2887,7 @@
       "price": 261.42,
       "currency": "USD",
       "as_of": "2026-05-06T20:00:02.000Z",
-      "market_state": "POST",
+      "market_state": "PRE",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -2788,7 +2896,7 @@
       "price": 233.37,
       "currency": "USD",
       "as_of": "2026-05-06T20:00:03.000Z",
-      "market_state": "POST",
+      "market_state": "PRE",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -2797,7 +2905,16 @@
       "price": 324.73,
       "currency": "USD",
       "as_of": "2026-05-06T20:00:03.000Z",
-      "market_state": "POST",
+      "market_state": "PRE",
+      "quote_source": "Delayed Quote",
+      "source": "yahoo-finance"
+    },
+    "LPX": {
+      "ticker": "LPX",
+      "price": 72.49,
+      "currency": "USD",
+      "as_of": "2026-05-06T20:00:02.000Z",
+      "market_state": "PRE",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -2806,7 +2923,7 @@
       "price": 297.17,
       "currency": "USD",
       "as_of": "2026-05-06T20:00:01.000Z",
-      "market_state": "POST",
+      "market_state": "PRE",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -2815,7 +2932,7 @@
       "price": 125.19,
       "currency": "USD",
       "as_of": "2026-05-06T20:00:01.000Z",
-      "market_state": "POST",
+      "market_state": "PRE",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -2824,7 +2941,7 @@
       "price": 132.04,
       "currency": "USD",
       "as_of": "2026-05-06T20:00:01.000Z",
-      "market_state": "POST",
+      "market_state": "PRE",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -2833,7 +2950,7 @@
       "price": 53.22,
       "currency": "USD",
       "as_of": "2026-05-06T20:00:02.000Z",
-      "market_state": "POST",
+      "market_state": "PRE",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -2842,7 +2959,7 @@
       "price": 14.23,
       "currency": "USD",
       "as_of": "2026-05-06T20:00:00.000Z",
-      "market_state": "POST",
+      "market_state": "PRE",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -2851,7 +2968,7 @@
       "price": 167.82,
       "currency": "USD",
       "as_of": "2026-05-06T20:00:03.000Z",
-      "market_state": "POST",
+      "market_state": "PRE",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -2860,7 +2977,7 @@
       "price": 491.89,
       "currency": "USD",
       "as_of": "2026-05-06T20:00:02.000Z",
-      "market_state": "POST",
+      "market_state": "PRE",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -2869,7 +2986,7 @@
       "price": 130.3,
       "currency": "USD",
       "as_of": "2026-05-06T20:00:02.000Z",
-      "market_state": "POST",
+      "market_state": "PRE",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -2878,7 +2995,7 @@
       "price": 137.8,
       "currency": "USD",
       "as_of": "2026-05-06T20:00:01.000Z",
-      "market_state": "POST",
+      "market_state": "PRE",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -2887,7 +3004,7 @@
       "price": 359.06,
       "currency": "USD",
       "as_of": "2026-05-06T20:00:01.000Z",
-      "market_state": "POST",
+      "market_state": "PRE",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -2896,7 +3013,7 @@
       "price": 178.485,
       "currency": "USD",
       "as_of": "2026-05-06T20:00:01.000Z",
-      "market_state": "POST",
+      "market_state": "PRE",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -2905,7 +3022,7 @@
       "price": 9.07,
       "currency": "USD",
       "as_of": "2026-05-06T20:00:00.000Z",
-      "market_state": "POST",
+      "market_state": "PRE",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -2914,7 +3031,7 @@
       "price": 284.1,
       "currency": "USD",
       "as_of": "2026-05-06T20:00:02.000Z",
-      "market_state": "POST",
+      "market_state": "PRE",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -2923,7 +3040,7 @@
       "price": 743.67,
       "currency": "USD",
       "as_of": "2026-05-06T20:00:02.000Z",
-      "market_state": "POST",
+      "market_state": "PRE",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -2932,7 +3049,7 @@
       "price": 448.64,
       "currency": "USD",
       "as_of": "2026-05-06T20:00:02.000Z",
-      "market_state": "POST",
+      "market_state": "PRE",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -2941,7 +3058,7 @@
       "price": 265.26,
       "currency": "USD",
       "as_of": "2026-05-06T20:00:01.000Z",
-      "market_state": "POST",
+      "market_state": "PRE",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -2950,7 +3067,7 @@
       "price": 42.01,
       "currency": "USD",
       "as_of": "2026-05-06T20:00:01.000Z",
-      "market_state": "POST",
+      "market_state": "PRE",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -2959,7 +3076,7 @@
       "price": 426.79,
       "currency": "USD",
       "as_of": "2026-05-06T20:00:01.000Z",
-      "market_state": "POST",
+      "market_state": "PRE",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -2968,7 +3085,7 @@
       "price": 1841.14,
       "currency": "USD",
       "as_of": "2026-05-06T20:00:01.000Z",
-      "market_state": "POST",
+      "market_state": "PRE",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -2977,7 +3094,7 @@
       "price": 80.16,
       "currency": "USD",
       "as_of": "2026-05-06T20:00:02.000Z",
-      "market_state": "POST",
+      "market_state": "PRE",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -2986,7 +3103,7 @@
       "price": 612.88,
       "currency": "USD",
       "as_of": "2026-05-06T20:00:01.000Z",
-      "market_state": "POST",
+      "market_state": "PRE",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -2995,7 +3112,7 @@
       "price": 38.21,
       "currency": "USD",
       "as_of": "2026-05-06T20:00:02.000Z",
-      "market_state": "POST",
+      "market_state": "PRE",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -3004,7 +3121,7 @@
       "price": 104.38,
       "currency": "USD",
       "as_of": "2026-05-06T20:00:02.000Z",
-      "market_state": "POST",
+      "market_state": "PRE",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -3013,7 +3130,7 @@
       "price": 148.84,
       "currency": "USD",
       "as_of": "2026-05-06T20:00:01.000Z",
-      "market_state": "POST",
+      "market_state": "PRE",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -3022,7 +3139,7 @@
       "price": 139.13,
       "currency": "USD",
       "as_of": "2026-05-06T20:00:02.000Z",
-      "market_state": "POST",
+      "market_state": "PRE",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -3031,7 +3148,7 @@
       "price": 146.54,
       "currency": "USD",
       "as_of": "2026-05-06T20:00:02.000Z",
-      "market_state": "POST",
+      "market_state": "PRE",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -3040,7 +3157,7 @@
       "price": 77.2,
       "currency": "USD",
       "as_of": "2026-05-06T20:00:01.000Z",
-      "market_state": "POST",
+      "market_state": "PRE",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -3049,7 +3166,7 @@
       "price": 8.77,
       "currency": "USD",
       "as_of": "2026-05-06T20:00:02.000Z",
-      "market_state": "POST",
+      "market_state": "PRE",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -3058,7 +3175,7 @@
       "price": 70.17,
       "currency": "USD",
       "as_of": "2026-05-06T20:00:02.000Z",
-      "market_state": "POST",
+      "market_state": "PRE",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -3067,7 +3184,7 @@
       "price": 197.44,
       "currency": "USD",
       "as_of": "2026-05-06T20:00:02.000Z",
-      "market_state": "POST",
+      "market_state": "PRE",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -3076,7 +3193,7 @@
       "price": 23.56,
       "currency": "USD",
       "as_of": "2026-05-06T20:00:02.000Z",
-      "market_state": "POST",
+      "market_state": "PRE",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -3085,7 +3202,7 @@
       "price": 245.78,
       "currency": "USD",
       "as_of": "2026-05-06T20:00:03.000Z",
-      "market_state": "POST",
+      "market_state": "PRE",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -3094,7 +3211,7 @@
       "price": 55.66,
       "currency": "USD",
       "as_of": "2026-05-06T20:00:03.000Z",
-      "market_state": "POST",
+      "market_state": "PRE",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -3103,7 +3220,7 @@
       "price": 5.23,
       "currency": "USD",
       "as_of": "2026-05-06T20:00:02.000Z",
-      "market_state": "POST",
+      "market_state": "PRE",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -3112,7 +3229,7 @@
       "price": 113.56,
       "currency": "USD",
       "as_of": "2026-05-06T20:00:37.000Z",
-      "market_state": "POST",
+      "market_state": "PRE",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -3121,7 +3238,7 @@
       "price": 48.79,
       "currency": "USD",
       "as_of": "2026-05-06T20:00:01.000Z",
-      "market_state": "POST",
+      "market_state": "PRE",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -3130,7 +3247,7 @@
       "price": 163.9,
       "currency": "USD",
       "as_of": "2026-05-06T20:00:02.000Z",
-      "market_state": "POST",
+      "market_state": "PRE",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -3139,7 +3256,7 @@
       "price": 172.15,
       "currency": "USD",
       "as_of": "2026-05-06T20:00:01.000Z",
-      "market_state": "POST",
+      "market_state": "PRE",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -3148,7 +3265,7 @@
       "price": 193.35,
       "currency": "USD",
       "as_of": "2026-05-06T20:00:41.000Z",
-      "market_state": "POST",
+      "market_state": "PRE",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -3157,7 +3274,7 @@
       "price": 582.14,
       "currency": "USD",
       "as_of": "2026-05-06T20:00:02.000Z",
-      "market_state": "POST",
+      "market_state": "PRE",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -3166,7 +3283,7 @@
       "price": 413.96,
       "currency": "USD",
       "as_of": "2026-05-06T20:00:03.000Z",
-      "market_state": "POST",
+      "market_state": "PRE",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -3175,7 +3292,7 @@
       "price": 186.82,
       "currency": "USD",
       "as_of": "2026-05-06T20:00:01.000Z",
-      "market_state": "POST",
+      "market_state": "PRE",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -3184,7 +3301,7 @@
       "price": 38,
       "currency": "USD",
       "as_of": "2026-05-06T20:00:01.000Z",
-      "market_state": "POST",
+      "market_state": "PRE",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -3193,7 +3310,7 @@
       "price": 26.4,
       "currency": "USD",
       "as_of": "2026-05-06T20:00:02.000Z",
-      "market_state": "POST",
+      "market_state": "PRE",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -3202,7 +3319,7 @@
       "price": 433.28,
       "currency": "USD",
       "as_of": "2026-05-06T20:00:02.000Z",
-      "market_state": "POST",
+      "market_state": "PRE",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -3211,7 +3328,7 @@
       "price": 666.59,
       "currency": "USD",
       "as_of": "2026-05-06T20:00:03.000Z",
-      "market_state": "POST",
+      "market_state": "PRE",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -3220,7 +3337,7 @@
       "price": 576.37,
       "currency": "USD",
       "as_of": "2026-05-06T20:00:03.000Z",
-      "market_state": "POST",
+      "market_state": "PRE",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -3229,7 +3346,7 @@
       "price": 30.99,
       "currency": "USD",
       "as_of": "2026-05-06T20:00:00.000Z",
-      "market_state": "POST",
+      "market_state": "PRE",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -3238,7 +3355,7 @@
       "price": 18.3,
       "currency": "USD",
       "as_of": "2026-05-06T20:00:00.000Z",
-      "market_state": "POST",
+      "market_state": "PRE",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -3247,7 +3364,7 @@
       "price": 147.02,
       "currency": "USD",
       "as_of": "2026-05-06T20:00:00.000Z",
-      "market_state": "POST",
+      "market_state": "PRE",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -3256,7 +3373,7 @@
       "price": 89.2,
       "currency": "USD",
       "as_of": "2026-05-06T20:00:00.000Z",
-      "market_state": "POST",
+      "market_state": "PRE",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -3265,7 +3382,7 @@
       "price": 286.94,
       "currency": "USD",
       "as_of": "2026-05-06T20:00:00.000Z",
-      "market_state": "POST",
+      "market_state": "PRE",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -3274,7 +3391,7 @@
       "price": 95.39,
       "currency": "USD",
       "as_of": "2026-05-06T20:00:03.000Z",
-      "market_state": "POST",
+      "market_state": "PRE",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -3283,7 +3400,7 @@
       "price": 115.1,
       "currency": "USD",
       "as_of": "2026-05-06T20:00:02.000Z",
-      "market_state": "POST",
+      "market_state": "PRE",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -3292,7 +3409,7 @@
       "price": 81.51,
       "currency": "USD",
       "as_of": "2026-05-06T20:00:02.000Z",
-      "market_state": "POST",
+      "market_state": "PRE",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -3301,7 +3418,7 @@
       "price": 88.27,
       "currency": "USD",
       "as_of": "2026-05-06T20:00:00.000Z",
-      "market_state": "POST",
+      "market_state": "PRE",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -3310,7 +3427,7 @@
       "price": 43.88,
       "currency": "USD",
       "as_of": "2026-05-06T20:00:03.000Z",
-      "market_state": "POST",
+      "market_state": "PRE",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -3319,7 +3436,7 @@
       "price": 559.6,
       "currency": "USD",
       "as_of": "2026-05-06T20:00:02.000Z",
-      "market_state": "POST",
+      "market_state": "PRE",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -3328,7 +3445,7 @@
       "price": 89.05,
       "currency": "USD",
       "as_of": "2026-05-06T20:00:03.000Z",
-      "market_state": "POST",
+      "market_state": "PRE",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -3337,7 +3454,7 @@
       "price": 24.98,
       "currency": "USD",
       "as_of": "2026-05-06T20:00:02.000Z",
-      "market_state": "POST",
+      "market_state": "PRE",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -3346,7 +3463,7 @@
       "price": 150.64,
       "currency": "USD",
       "as_of": "2026-05-06T20:00:03.000Z",
-      "market_state": "POST",
+      "market_state": "PRE",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -3355,7 +3472,7 @@
       "price": 317.25,
       "currency": "USD",
       "as_of": "2026-05-06T20:00:02.000Z",
-      "market_state": "POST",
+      "market_state": "PRE",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -3364,7 +3481,7 @@
       "price": 111.74,
       "currency": "USD",
       "as_of": "2026-05-06T20:00:00.000Z",
-      "market_state": "POST",
+      "market_state": "PRE",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -3373,7 +3490,7 @@
       "price": 43.13,
       "currency": "USD",
       "as_of": "2026-05-06T20:00:00.000Z",
-      "market_state": "POST",
+      "market_state": "PRE",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -3382,7 +3499,7 @@
       "price": 215.09,
       "currency": "USD",
       "as_of": "2026-05-06T20:00:00.000Z",
-      "market_state": "POST",
+      "market_state": "PRE",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -3391,7 +3508,7 @@
       "price": 163.28,
       "currency": "USD",
       "as_of": "2026-05-06T20:00:00.000Z",
-      "market_state": "POST",
+      "market_state": "PRE",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -3400,7 +3517,7 @@
       "price": 10.55,
       "currency": "USD",
       "as_of": "2026-05-06T20:00:00.000Z",
-      "market_state": "POST",
+      "market_state": "PRE",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -3409,7 +3526,16 @@
       "price": 14.48,
       "currency": "USD",
       "as_of": "2026-05-06T20:00:02.000Z",
-      "market_state": "POST",
+      "market_state": "PRE",
+      "quote_source": "Delayed Quote",
+      "source": "yahoo-finance"
+    },
+    "NUE": {
+      "ticker": "NUE",
+      "price": 234.22,
+      "currency": "USD",
+      "as_of": "2026-05-06T20:00:02.000Z",
+      "market_state": "PRE",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -3418,7 +3544,7 @@
       "price": 9.36,
       "currency": "USD",
       "as_of": "2026-05-06T20:00:00.000Z",
-      "market_state": "POST",
+      "market_state": "PRE",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -3427,7 +3553,7 @@
       "price": 207.83,
       "currency": "USD",
       "as_of": "2026-05-06T20:00:03.000Z",
-      "market_state": "POST",
+      "market_state": "PRE",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -3436,7 +3562,16 @@
       "price": 45.76,
       "currency": "USD",
       "as_of": "2026-05-06T20:00:02.000Z",
-      "market_state": "POST",
+      "market_state": "PRE",
+      "quote_source": "Delayed Quote",
+      "source": "yahoo-finance"
+    },
+    "NVR": {
+      "ticker": "NVR",
+      "price": 6099.8,
+      "currency": "USD",
+      "as_of": "2026-05-06T20:05:30.000Z",
+      "market_state": "PRE",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -3445,7 +3580,7 @@
       "price": 26.2,
       "currency": "USD",
       "as_of": "2026-05-06T20:00:00.000Z",
-      "market_state": "POST",
+      "market_state": "PRE",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -3454,7 +3589,7 @@
       "price": 83.68,
       "currency": "USD",
       "as_of": "2026-05-06T20:00:03.000Z",
-      "market_state": "POST",
+      "market_state": "PRE",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -3463,7 +3598,7 @@
       "price": 123.03,
       "currency": "USD",
       "as_of": "2026-05-06T20:02:19.000Z",
-      "market_state": "POST",
+      "market_state": "PRE",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -3472,7 +3607,7 @@
       "price": 79.62,
       "currency": "USD",
       "as_of": "2026-05-06T20:00:02.000Z",
-      "market_state": "POST",
+      "market_state": "PRE",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -3481,7 +3616,7 @@
       "price": 2.04,
       "currency": "USD",
       "as_of": "2026-05-06T20:00:00.000Z",
-      "market_state": "POST",
+      "market_state": "PRE",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -3490,7 +3625,7 @@
       "price": 76.91,
       "currency": "USD",
       "as_of": "2026-05-06T20:00:03.000Z",
-      "market_state": "POST",
+      "market_state": "PRE",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -3499,7 +3634,7 @@
       "price": 105.77,
       "currency": "USD",
       "as_of": "2026-05-06T20:00:00.000Z",
-      "market_state": "POST",
+      "market_state": "PRE",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -3508,7 +3643,7 @@
       "price": 20.45,
       "currency": "USD",
       "as_of": "2026-05-06T20:00:00.000Z",
-      "market_state": "POST",
+      "market_state": "PRE",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -3517,7 +3652,7 @@
       "price": 194.03,
       "currency": "USD",
       "as_of": "2026-05-06T20:02:38.000Z",
-      "market_state": "POST",
+      "market_state": "PRE",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -3526,7 +3661,7 @@
       "price": 39.2,
       "currency": "USD",
       "as_of": "2026-05-06T20:00:02.000Z",
-      "market_state": "POST",
+      "market_state": "PRE",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -3535,7 +3670,7 @@
       "price": 9.3,
       "currency": "USD",
       "as_of": "2026-05-06T20:00:00.000Z",
-      "market_state": "POST",
+      "market_state": "PRE",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -3544,7 +3679,7 @@
       "price": 69.79,
       "currency": "USD",
       "as_of": "2026-05-06T20:00:00.000Z",
-      "market_state": "POST",
+      "market_state": "PRE",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -3553,7 +3688,7 @@
       "price": 94.78,
       "currency": "USD",
       "as_of": "2026-05-06T20:00:00.000Z",
-      "market_state": "POST",
+      "market_state": "PRE",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -3562,7 +3697,7 @@
       "price": 156.71,
       "currency": "USD",
       "as_of": "2026-05-06T20:00:03.000Z",
-      "market_state": "POST",
+      "market_state": "PRE",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -3571,7 +3706,7 @@
       "price": 76.71,
       "currency": "USD",
       "as_of": "2026-05-06T20:00:02.000Z",
-      "market_state": "POST",
+      "market_state": "PRE",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -3580,7 +3715,16 @@
       "price": 59.9,
       "currency": "USD",
       "as_of": "2026-05-06T20:00:02.000Z",
-      "market_state": "POST",
+      "market_state": "PRE",
+      "quote_source": "Delayed Quote",
+      "source": "yahoo-finance"
+    },
+    "OXY": {
+      "ticker": "OXY",
+      "price": 55.12,
+      "currency": "USD",
+      "as_of": "2026-05-06T20:00:03.000Z",
+      "market_state": "PRE",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -3589,7 +3733,7 @@
       "price": 74.43,
       "currency": "USD",
       "as_of": "2026-05-06T20:03:27.000Z",
-      "market_state": "POST",
+      "market_state": "PRE",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -3598,7 +3742,7 @@
       "price": 183.68,
       "currency": "USD",
       "as_of": "2026-05-06T20:00:03.000Z",
-      "market_state": "POST",
+      "market_state": "PRE",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -3607,7 +3751,7 @@
       "price": 10.5,
       "currency": "USD",
       "as_of": "2026-05-06T20:00:02.000Z",
-      "market_state": "POST",
+      "market_state": "PRE",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -3616,7 +3760,7 @@
       "price": 70.1,
       "currency": "USD",
       "as_of": "2026-05-06T20:00:03.000Z",
-      "market_state": "POST",
+      "market_state": "PRE",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -3625,7 +3769,7 @@
       "price": 16.2,
       "currency": "USD",
       "as_of": "2026-05-06T20:00:03.000Z",
-      "market_state": "POST",
+      "market_state": "PRE",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -3634,7 +3778,7 @@
       "price": 52.96,
       "currency": "USD",
       "as_of": "2026-05-06T20:00:02.000Z",
-      "market_state": "POST",
+      "market_state": "PRE",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -3643,7 +3787,7 @@
       "price": 7.62,
       "currency": "USD",
       "as_of": "2026-05-06T20:00:00.000Z",
-      "market_state": "POST",
+      "market_state": "PRE",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -3652,7 +3796,7 @@
       "price": 102.31,
       "currency": "USD",
       "as_of": "2026-05-06T20:00:00.000Z",
-      "market_state": "POST",
+      "market_state": "PRE",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -3661,7 +3805,7 @@
       "price": 79.35,
       "currency": "USD",
       "as_of": "2026-05-06T20:00:02.000Z",
-      "market_state": "POST",
+      "market_state": "PRE",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -3670,7 +3814,7 @@
       "price": 36.37,
       "currency": "USD",
       "as_of": "2026-05-06T20:00:00.000Z",
-      "market_state": "POST",
+      "market_state": "PRE",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -3679,7 +3823,7 @@
       "price": 324.19,
       "currency": "USD",
       "as_of": "2026-05-06T20:00:02.000Z",
-      "market_state": "POST",
+      "market_state": "PRE",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -3688,7 +3832,7 @@
       "price": 155.96,
       "currency": "USD",
       "as_of": "2026-05-06T20:00:00.000Z",
-      "market_state": "POST",
+      "market_state": "PRE",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -3697,7 +3841,7 @@
       "price": 1.845,
       "currency": "USD",
       "as_of": "2026-05-06T20:00:00.000Z",
-      "market_state": "POST",
+      "market_state": "PRE",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -3706,7 +3850,7 @@
       "price": 26.53,
       "currency": "USD",
       "as_of": "2026-05-06T20:05:40.000Z",
-      "market_state": "POST",
+      "market_state": "PRE",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -3715,7 +3859,7 @@
       "price": 101.55,
       "currency": "USD",
       "as_of": "2026-05-06T20:00:00.000Z",
-      "market_state": "POST",
+      "market_state": "PRE",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -3724,7 +3868,7 @@
       "price": 147.9,
       "currency": "USD",
       "as_of": "2026-05-06T20:00:34.000Z",
-      "market_state": "POST",
+      "market_state": "PRE",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -3733,7 +3877,7 @@
       "price": 18.7,
       "currency": "USD",
       "as_of": "2026-05-06T20:00:00.000Z",
-      "market_state": "POST",
+      "market_state": "PRE",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -3742,7 +3886,7 @@
       "price": 196.8,
       "currency": "USD",
       "as_of": "2026-05-06T20:00:02.000Z",
-      "market_state": "POST",
+      "market_state": "PRE",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -3751,7 +3895,7 @@
       "price": 902.66,
       "currency": "USD",
       "as_of": "2026-05-06T20:00:02.000Z",
-      "market_state": "POST",
+      "market_state": "PRE",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -3760,7 +3904,7 @@
       "price": 21.16,
       "currency": "USD",
       "as_of": "2026-05-06T20:03:52.000Z",
-      "market_state": "POST",
+      "market_state": "PRE",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -3769,7 +3913,7 @@
       "price": 226.82,
       "currency": "USD",
       "as_of": "2026-05-06T20:00:02.000Z",
-      "market_state": "POST",
+      "market_state": "PRE",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -3778,7 +3922,7 @@
       "price": 142.9,
       "currency": "USD",
       "as_of": "2026-05-06T20:00:03.000Z",
-      "market_state": "POST",
+      "market_state": "PRE",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -3787,7 +3931,7 @@
       "price": 133.79,
       "currency": "USD",
       "as_of": "2026-05-06T20:00:03.000Z",
-      "market_state": "POST",
+      "market_state": "PRE",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -3796,7 +3940,7 @@
       "price": 3.31,
       "currency": "USD",
       "as_of": "2026-05-06T20:00:00.000Z",
-      "market_state": "POST",
+      "market_state": "PRE",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -3805,7 +3949,7 @@
       "price": 170.53,
       "currency": "USD",
       "as_of": "2026-05-06T20:00:02.000Z",
-      "market_state": "POST",
+      "market_state": "PRE",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -3814,7 +3958,7 @@
       "price": 222.42,
       "currency": "USD",
       "as_of": "2026-05-06T20:00:02.000Z",
-      "market_state": "POST",
+      "market_state": "PRE",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -3823,7 +3967,16 @@
       "price": 10.27,
       "currency": "USD",
       "as_of": "2026-05-06T20:00:00.000Z",
-      "market_state": "POST",
+      "market_state": "PRE",
+      "quote_source": "Delayed Quote",
+      "source": "yahoo-finance"
+    },
+    "POOL": {
+      "ticker": "POOL",
+      "price": 188.09,
+      "currency": "USD",
+      "as_of": "2026-05-06T20:00:00.000Z",
+      "market_state": "PRE",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -3832,7 +3985,7 @@
       "price": 103.74,
       "currency": "USD",
       "as_of": "2026-05-06T20:00:02.000Z",
-      "market_state": "POST",
+      "market_state": "PRE",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -3841,7 +3994,7 @@
       "price": 31.3,
       "currency": "USD",
       "as_of": "2026-05-06T20:00:00.000Z",
-      "market_state": "POST",
+      "market_state": "PRE",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -3850,7 +4003,7 @@
       "price": 19.8,
       "currency": "USD",
       "as_of": "2026-05-06T20:00:02.000Z",
-      "market_state": "POST",
+      "market_state": "PRE",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -3859,7 +4012,7 @@
       "price": 308.98,
       "currency": "USD",
       "as_of": "2026-05-06T20:00:03.000Z",
-      "market_state": "POST",
+      "market_state": "PRE",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -3868,7 +4021,7 @@
       "price": 74.49,
       "currency": "USD",
       "as_of": "2026-05-06T20:00:00.000Z",
-      "market_state": "POST",
+      "market_state": "PRE",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -3877,7 +4030,7 @@
       "price": 171.72,
       "currency": "USD",
       "as_of": "2026-05-06T20:00:03.000Z",
-      "market_state": "POST",
+      "market_state": "PRE",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -3886,7 +4039,7 @@
       "price": 103.97,
       "currency": "USD",
       "as_of": "2026-05-06T20:00:00.000Z",
-      "market_state": "POST",
+      "market_state": "PRE",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -3895,7 +4048,7 @@
       "price": 5.2,
       "currency": "USD",
       "as_of": "2026-05-06T20:00:00.000Z",
-      "market_state": "POST",
+      "market_state": "PRE",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -3904,7 +4057,7 @@
       "price": 15.77,
       "currency": "USD",
       "as_of": "2026-05-06T20:00:03.000Z",
-      "market_state": "POST",
+      "market_state": "PRE",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -3913,7 +4066,7 @@
       "price": 46.27,
       "currency": "USD",
       "as_of": "2026-05-06T20:00:03.000Z",
-      "market_state": "POST",
+      "market_state": "PRE",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -3922,7 +4075,7 @@
       "price": 192.57,
       "currency": "USD",
       "as_of": "2026-05-06T20:00:03.000Z",
-      "market_state": "POST",
+      "market_state": "PRE",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -3931,7 +4084,7 @@
       "price": 695.77,
       "currency": "USD",
       "as_of": "2026-05-06T20:00:02.000Z",
-      "market_state": "POST",
+      "market_state": "PRE",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -3940,7 +4093,7 @@
       "price": 88.94,
       "currency": "USD",
       "as_of": "2026-05-06T20:00:00.000Z",
-      "market_state": "POST",
+      "market_state": "PRE",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -3949,7 +4102,7 @@
       "price": 7.95,
       "currency": "USD",
       "as_of": "2026-05-06T20:00:00.000Z",
-      "market_state": "POST",
+      "market_state": "PRE",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -3958,7 +4111,7 @@
       "price": 77.2,
       "currency": "USD",
       "as_of": "2026-05-06T20:00:38.000Z",
-      "market_state": "POST",
+      "market_state": "PRE",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -3967,7 +4120,7 @@
       "price": 47.02,
       "currency": "USD",
       "as_of": "2026-05-06T20:00:03.000Z",
-      "market_state": "POST",
+      "market_state": "PRE",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -3976,7 +4129,7 @@
       "price": 43.76,
       "currency": "USD",
       "as_of": "2026-05-06T20:01:45.000Z",
-      "market_state": "POST",
+      "market_state": "PRE",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -3985,7 +4138,7 @@
       "price": 166.56,
       "currency": "USD",
       "as_of": "2026-05-06T20:03:35.000Z",
-      "market_state": "POST",
+      "market_state": "PRE",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -3994,7 +4147,7 @@
       "price": 721.05,
       "currency": "USD",
       "as_of": "2026-05-06T20:00:00.000Z",
-      "market_state": "POST",
+      "market_state": "PRE",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -4003,7 +4156,7 @@
       "price": 4.4,
       "currency": "USD",
       "as_of": "2026-05-06T20:00:03.000Z",
-      "market_state": "POST",
+      "market_state": "PRE",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -4012,7 +4165,7 @@
       "price": 214.59,
       "currency": "USD",
       "as_of": "2026-05-06T20:00:02.000Z",
-      "market_state": "POST",
+      "market_state": "PRE",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -4021,7 +4174,7 @@
       "price": 236.88,
       "currency": "USD",
       "as_of": "2026-05-06T20:00:00.000Z",
-      "market_state": "POST",
+      "market_state": "PRE",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -4030,7 +4183,7 @@
       "price": 131.73,
       "currency": "USD",
       "as_of": "2026-05-06T20:05:21.000Z",
-      "market_state": "POST",
+      "market_state": "PRE",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -4039,7 +4192,7 @@
       "price": 26.17,
       "currency": "USD",
       "as_of": "2026-05-06T20:00:02.000Z",
-      "market_state": "POST",
+      "market_state": "PRE",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -4048,7 +4201,7 @@
       "price": 23.7,
       "currency": "USD",
       "as_of": "2026-05-06T20:00:03.000Z",
-      "market_state": "POST",
+      "market_state": "PRE",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -4057,7 +4210,7 @@
       "price": 159.37,
       "currency": "USD",
       "as_of": "2026-05-06T20:00:02.000Z",
-      "market_state": "POST",
+      "market_state": "PRE",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -4066,7 +4219,7 @@
       "price": 84.65,
       "currency": "USD",
       "as_of": "2026-05-06T20:00:00.000Z",
-      "market_state": "POST",
+      "market_state": "PRE",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -4075,7 +4228,7 @@
       "price": 14.65,
       "currency": "USD",
       "as_of": "2026-05-06T20:00:02.000Z",
-      "market_state": "POST",
+      "market_state": "PRE",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -4084,7 +4237,7 @@
       "price": 372.15,
       "currency": "USD",
       "as_of": "2026-05-06T20:00:02.000Z",
-      "market_state": "POST",
+      "market_state": "PRE",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -4093,7 +4246,7 @@
       "price": 45.72,
       "currency": "USD",
       "as_of": "2026-05-06T20:00:03.000Z",
-      "market_state": "POST",
+      "market_state": "PRE",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -4102,7 +4255,7 @@
       "price": 127.98,
       "currency": "USD",
       "as_of": "2026-05-06T20:00:00.000Z",
-      "market_state": "POST",
+      "market_state": "PRE",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -4111,7 +4264,7 @@
       "price": 350.26,
       "currency": "USD",
       "as_of": "2026-05-06T20:00:00.000Z",
-      "market_state": "POST",
+      "market_state": "PRE",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -4120,7 +4273,7 @@
       "price": 228.91,
       "currency": "USD",
       "as_of": "2026-05-06T20:00:00.000Z",
-      "market_state": "POST",
+      "market_state": "PRE",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -4129,7 +4282,7 @@
       "price": 231.37,
       "currency": "USD",
       "as_of": "2026-05-06T20:00:02.000Z",
-      "market_state": "POST",
+      "market_state": "PRE",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -4138,7 +4291,7 @@
       "price": 199.69,
       "currency": "USD",
       "as_of": "2026-05-06T20:00:02.000Z",
-      "market_state": "POST",
+      "market_state": "PRE",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -4147,7 +4300,7 @@
       "price": 204.85,
       "currency": "USD",
       "as_of": "2026-05-06T20:00:00.000Z",
-      "market_state": "POST",
+      "market_state": "PRE",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -4156,7 +4309,7 @@
       "price": 176.74,
       "currency": "USD",
       "as_of": "2026-05-06T20:00:02.000Z",
-      "market_state": "POST",
+      "market_state": "PRE",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -4165,7 +4318,7 @@
       "price": 29.39,
       "currency": "USD",
       "as_of": "2026-05-06T20:00:02.000Z",
-      "market_state": "POST",
+      "market_state": "PRE",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -4174,7 +4327,7 @@
       "price": 449.4,
       "currency": "USD",
       "as_of": "2026-05-06T20:00:00.000Z",
-      "market_state": "POST",
+      "market_state": "PRE",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -4183,7 +4336,7 @@
       "price": 125.75,
       "currency": "USD",
       "as_of": "2026-05-06T20:00:00.000Z",
-      "market_state": "POST",
+      "market_state": "PRE",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -4192,7 +4345,7 @@
       "price": 183.91,
       "currency": "USD",
       "as_of": "2026-05-06T20:00:02.000Z",
-      "market_state": "POST",
+      "market_state": "PRE",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -4201,7 +4354,7 @@
       "price": 92.15,
       "currency": "USD",
       "as_of": "2026-05-06T20:00:02.000Z",
-      "market_state": "POST",
+      "market_state": "PRE",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -4210,7 +4363,7 @@
       "price": 90.02,
       "currency": "USD",
       "as_of": "2026-05-06T20:00:03.000Z",
-      "market_state": "POST",
+      "market_state": "PRE",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -4219,7 +4372,7 @@
       "price": 22.9,
       "currency": "USD",
       "as_of": "2026-05-06T20:00:02.000Z",
-      "market_state": "POST",
+      "market_state": "PRE",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -4228,7 +4381,7 @@
       "price": 77.45,
       "currency": "USD",
       "as_of": "2026-05-06T20:00:03.000Z",
-      "market_state": "POST",
+      "market_state": "PRE",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -4237,7 +4390,7 @@
       "price": 78.48,
       "currency": "USD",
       "as_of": "2026-05-06T20:00:02.000Z",
-      "market_state": "POST",
+      "market_state": "PRE",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -4246,7 +4399,7 @@
       "price": 3.65,
       "currency": "USD",
       "as_of": "2026-05-06T20:00:00.000Z",
-      "market_state": "POST",
+      "market_state": "PRE",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -4255,7 +4408,7 @@
       "price": 78.26,
       "currency": "USD",
       "as_of": "2026-05-06T20:00:01.000Z",
-      "market_state": "POST",
+      "market_state": "PRE",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -4264,7 +4417,7 @@
       "price": 78.62,
       "currency": "USD",
       "as_of": "2026-05-06T20:00:41.000Z",
-      "market_state": "POST",
+      "market_state": "PRE",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -4273,7 +4426,7 @@
       "price": 105.44,
       "currency": "USD",
       "as_of": "2026-05-06T20:00:00.000Z",
-      "market_state": "POST",
+      "market_state": "PRE",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -4282,7 +4435,7 @@
       "price": 323.63,
       "currency": "USD",
       "as_of": "2026-05-06T20:00:02.000Z",
-      "market_state": "POST",
+      "market_state": "PRE",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -4291,7 +4444,7 @@
       "price": 83,
       "currency": "USD",
       "as_of": "2026-05-06T20:00:01.000Z",
-      "market_state": "POST",
+      "market_state": "PRE",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -4300,7 +4453,16 @@
       "price": 43.29,
       "currency": "USD",
       "as_of": "2026-05-06T20:00:00.000Z",
-      "market_state": "POST",
+      "market_state": "PRE",
+      "quote_source": "Delayed Quote",
+      "source": "yahoo-finance"
+    },
+    "SIRI": {
+      "ticker": "SIRI",
+      "price": 26.68,
+      "currency": "USD",
+      "as_of": "2026-05-06T20:00:00.000Z",
+      "market_state": "PRE",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -4309,7 +4471,7 @@
       "price": 96.83,
       "currency": "USD",
       "as_of": "2026-05-06T20:00:02.000Z",
-      "market_state": "POST",
+      "market_state": "PRE",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -4318,7 +4480,7 @@
       "price": 55.16,
       "currency": "USD",
       "as_of": "2026-05-06T20:00:02.000Z",
-      "market_state": "POST",
+      "market_state": "PRE",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -4327,7 +4489,7 @@
       "price": 34.66,
       "currency": "USD",
       "as_of": "2026-05-06T20:00:03.000Z",
-      "market_state": "POST",
+      "market_state": "PRE",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -4336,7 +4498,7 @@
       "price": 119.19,
       "currency": "USD",
       "as_of": "2026-05-06T20:00:00.000Z",
-      "market_state": "POST",
+      "market_state": "PRE",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -4345,7 +4507,7 @@
       "price": 1409.98,
       "currency": "USD",
       "as_of": "2026-05-06T20:00:00.000Z",
-      "market_state": "POST",
+      "market_state": "PRE",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -4354,7 +4516,7 @@
       "price": 139.74,
       "currency": "USD",
       "as_of": "2026-05-06T20:00:03.000Z",
-      "market_state": "POST",
+      "market_state": "PRE",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -4363,7 +4525,7 @@
       "price": 504.42,
       "currency": "USD",
       "as_of": "2026-05-06T20:00:00.000Z",
-      "market_state": "POST",
+      "market_state": "PRE",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -4372,7 +4534,7 @@
       "price": 16.3,
       "currency": "USD",
       "as_of": "2026-05-06T20:00:00.000Z",
-      "market_state": "POST",
+      "market_state": "PRE",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -4381,7 +4543,7 @@
       "price": 423.57,
       "currency": "USD",
       "as_of": "2026-05-06T20:00:02.000Z",
-      "market_state": "POST",
+      "market_state": "PRE",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -4390,7 +4552,7 @@
       "price": 9.28,
       "currency": "USD",
       "as_of": "2026-05-06T20:00:00.000Z",
-      "market_state": "POST",
+      "market_state": "PRE",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -4399,7 +4561,7 @@
       "price": 733.83,
       "currency": "USD",
       "as_of": "2026-05-06T20:00:00.000Z",
-      "market_state": "POST",
+      "market_state": "PRE",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -4408,7 +4570,7 @@
       "price": 93.67,
       "currency": "USD",
       "as_of": "2026-05-06T20:04:12.000Z",
-      "market_state": "POST",
+      "market_state": "PRE",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -4417,7 +4579,7 @@
       "price": 5.33,
       "currency": "USD",
       "as_of": "2026-05-06T20:00:00.000Z",
-      "market_state": "POST",
+      "market_state": "PRE",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -4426,7 +4588,7 @@
       "price": 69.52,
       "currency": "USD",
       "as_of": "2026-05-06T20:00:00.000Z",
-      "market_state": "POST",
+      "market_state": "PRE",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -4435,7 +4597,7 @@
       "price": 53.63,
       "currency": "USD",
       "as_of": "2026-05-06T20:00:00.000Z",
-      "market_state": "POST",
+      "market_state": "PRE",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -4444,7 +4606,7 @@
       "price": 57.95,
       "currency": "USD",
       "as_of": "2026-05-06T20:00:02.000Z",
-      "market_state": "POST",
+      "market_state": "PRE",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -4453,7 +4615,7 @@
       "price": 151.24,
       "currency": "USD",
       "as_of": "2026-05-06T20:00:02.000Z",
-      "market_state": "POST",
+      "market_state": "PRE",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -4462,7 +4624,7 @@
       "price": 7.6,
       "currency": "USD",
       "as_of": "2026-05-06T20:00:02.000Z",
-      "market_state": "POST",
+      "market_state": "PRE",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -4471,7 +4633,16 @@
       "price": 786.42,
       "currency": "USD",
       "as_of": "2026-05-06T20:00:00.000Z",
-      "market_state": "POST",
+      "market_state": "PRE",
+      "quote_source": "Delayed Quote",
+      "source": "yahoo-finance"
+    },
+    "STZ": {
+      "ticker": "STZ",
+      "price": 152.29,
+      "currency": "USD",
+      "as_of": "2026-05-06T20:00:02.000Z",
+      "market_state": "PRE",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -4480,7 +4651,7 @@
       "price": 64.32,
       "currency": "USD",
       "as_of": "2026-05-06T20:00:02.000Z",
-      "market_state": "POST",
+      "market_state": "PRE",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -4489,7 +4660,7 @@
       "price": 64.965,
       "currency": "USD",
       "as_of": "2026-05-06T20:00:00.000Z",
-      "market_state": "POST",
+      "market_state": "PRE",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -4498,7 +4669,7 @@
       "price": 75.15,
       "currency": "USD",
       "as_of": "2026-05-06T20:00:03.000Z",
-      "market_state": "POST",
+      "market_state": "PRE",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -4507,7 +4678,7 @@
       "price": 73.33,
       "currency": "USD",
       "as_of": "2026-05-06T20:00:02.000Z",
-      "market_state": "POST",
+      "market_state": "PRE",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -4516,7 +4687,7 @@
       "price": 25.57,
       "currency": "USD",
       "as_of": "2026-05-06T20:01:22.000Z",
-      "market_state": "POST",
+      "market_state": "PRE",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -4525,7 +4696,7 @@
       "price": 12.79,
       "currency": "USD",
       "as_of": "2026-05-06T20:00:02.000Z",
-      "market_state": "POST",
+      "market_state": "PRE",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -4534,7 +4705,7 @@
       "price": 37.38,
       "currency": "USD",
       "as_of": "2026-05-06T20:00:02.000Z",
-      "market_state": "POST",
+      "market_state": "PRE",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -4543,7 +4714,7 @@
       "price": 45.52,
       "currency": "USD",
       "as_of": "2026-05-06T20:00:03.000Z",
-      "market_state": "POST",
+      "market_state": "PRE",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -4552,7 +4723,7 @@
       "price": 88.8,
       "currency": "USD",
       "as_of": "2026-05-06T20:00:00.000Z",
-      "market_state": "POST",
+      "market_state": "PRE",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -4561,7 +4732,7 @@
       "price": 382.48,
       "currency": "USD",
       "as_of": "2026-05-06T20:00:02.000Z",
-      "market_state": "POST",
+      "market_state": "PRE",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -4570,7 +4741,7 @@
       "price": 36.34,
       "currency": "USD",
       "as_of": "2026-05-06T20:00:03.000Z",
-      "market_state": "POST",
+      "market_state": "PRE",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -4579,7 +4750,7 @@
       "price": 50.8,
       "currency": "USD",
       "as_of": "2026-05-06T20:00:03.000Z",
-      "market_state": "POST",
+      "market_state": "PRE",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -4588,7 +4759,7 @@
       "price": 67.22,
       "currency": "USD",
       "as_of": "2026-05-06T20:00:02.000Z",
-      "market_state": "POST",
+      "market_state": "PRE",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -4597,7 +4768,7 @@
       "price": 123.23,
       "currency": "USD",
       "as_of": "2026-05-06T20:00:02.000Z",
-      "market_state": "POST",
+      "market_state": "PRE",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -4606,7 +4777,7 @@
       "price": 130.19,
       "currency": "USD",
       "as_of": "2026-05-06T20:03:16.000Z",
-      "market_state": "POST",
+      "market_state": "PRE",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -4615,7 +4786,7 @@
       "price": 194.51,
       "currency": "USD",
       "as_of": "2026-05-06T20:00:02.000Z",
-      "market_state": "POST",
+      "market_state": "PRE",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -4624,7 +4795,7 @@
       "price": 10.31,
       "currency": "USD",
       "as_of": "2026-05-06T20:00:02.000Z",
-      "market_state": "POST",
+      "market_state": "PRE",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -4633,7 +4804,7 @@
       "price": 155.45,
       "currency": "USD",
       "as_of": "2026-05-06T20:00:02.000Z",
-      "market_state": "POST",
+      "market_state": "PRE",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -4642,7 +4813,7 @@
       "price": 409.99,
       "currency": "USD",
       "as_of": "2026-05-06T20:00:00.000Z",
-      "market_state": "POST",
+      "market_state": "PRE",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -4651,7 +4822,7 @@
       "price": 60.35,
       "currency": "USD",
       "as_of": "2026-05-06T20:00:03.000Z",
-      "market_state": "POST",
+      "market_state": "PRE",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -4660,7 +4831,7 @@
       "price": 472.95,
       "currency": "USD",
       "as_of": "2026-05-06T20:00:02.000Z",
-      "market_state": "POST",
+      "market_state": "PRE",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -4669,7 +4840,7 @@
       "price": 193.16,
       "currency": "USD",
       "as_of": "2026-05-06T20:00:00.000Z",
-      "market_state": "POST",
+      "market_state": "PRE",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -4678,7 +4849,7 @@
       "price": 141.6,
       "currency": "USD",
       "as_of": "2026-05-06T20:00:02.000Z",
-      "market_state": "POST",
+      "market_state": "PRE",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -4687,7 +4858,7 @@
       "price": 45.02,
       "currency": "USD",
       "as_of": "2026-05-06T20:00:00.000Z",
-      "market_state": "POST",
+      "market_state": "PRE",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -4696,7 +4867,7 @@
       "price": 148.83,
       "currency": "USD",
       "as_of": "2026-05-06T20:00:03.000Z",
-      "market_state": "POST",
+      "market_state": "PRE",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -4705,7 +4876,7 @@
       "price": 301.59,
       "currency": "USD",
       "as_of": "2026-05-06T20:00:02.000Z",
-      "market_state": "POST",
+      "market_state": "PRE",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -4714,7 +4885,7 @@
       "price": 14.26,
       "currency": "USD",
       "as_of": "2026-05-06T20:00:00.000Z",
-      "market_state": "POST",
+      "market_state": "PRE",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -4723,7 +4894,7 @@
       "price": 216.87,
       "currency": "USD",
       "as_of": "2026-05-06T20:00:00.000Z",
-      "market_state": "POST",
+      "market_state": "PRE",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -4732,7 +4903,7 @@
       "price": 398.73,
       "currency": "USD",
       "as_of": "2026-05-06T20:00:03.000Z",
-      "market_state": "POST",
+      "market_state": "PRE",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -4741,7 +4912,7 @@
       "price": 419.5,
       "currency": "USD",
       "as_of": "2026-05-06T20:00:02.000Z",
-      "market_state": "POST",
+      "market_state": "PRE",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -4750,7 +4921,7 @@
       "price": 68.09,
       "currency": "USD",
       "as_of": "2026-05-06T20:00:02.000Z",
-      "market_state": "POST",
+      "market_state": "PRE",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -4759,7 +4930,7 @@
       "price": 95.93,
       "currency": "USD",
       "as_of": "2026-05-06T20:00:02.000Z",
-      "market_state": "POST",
+      "market_state": "PRE",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -4768,7 +4939,7 @@
       "price": 24.01,
       "currency": "USD",
       "as_of": "2026-05-06T20:00:02.000Z",
-      "market_state": "POST",
+      "market_state": "PRE",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -4777,7 +4948,7 @@
       "price": 222,
       "currency": "USD",
       "as_of": "2026-05-06T20:00:00.000Z",
-      "market_state": "POST",
+      "market_state": "PRE",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -4786,7 +4957,7 @@
       "price": 109.43,
       "currency": "USD",
       "as_of": "2026-05-06T20:00:00.000Z",
-      "market_state": "POST",
+      "market_state": "PRE",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -4795,7 +4966,7 @@
       "price": 191.4,
       "currency": "USD",
       "as_of": "2026-05-06T20:00:02.000Z",
-      "market_state": "POST",
+      "market_state": "PRE",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -4804,7 +4975,7 @@
       "price": 289.44,
       "currency": "USD",
       "as_of": "2026-05-06T20:00:00.000Z",
-      "market_state": "POST",
+      "market_state": "PRE",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -4813,7 +4984,7 @@
       "price": 59.19,
       "currency": "USD",
       "as_of": "2026-05-06T20:00:02.000Z",
-      "market_state": "POST",
+      "market_state": "PRE",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -4822,7 +4993,7 @@
       "price": 159.685,
       "currency": "USD",
       "as_of": "2026-05-06T20:00:00.000Z",
-      "market_state": "POST",
+      "market_state": "PRE",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -4831,7 +5002,7 @@
       "price": 93.09,
       "currency": "USD",
       "as_of": "2026-05-06T20:00:02.000Z",
-      "market_state": "POST",
+      "market_state": "PRE",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -4840,7 +5011,7 @@
       "price": 27.28,
       "currency": "USD",
       "as_of": "2026-05-06T20:00:02.000Z",
-      "market_state": "POST",
+      "market_state": "PRE",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -4849,7 +5020,7 @@
       "price": 100.04,
       "currency": "USD",
       "as_of": "2026-05-06T20:00:03.000Z",
-      "market_state": "POST",
+      "market_state": "PRE",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -4858,7 +5029,7 @@
       "price": 79.17,
       "currency": "USD",
       "as_of": "2026-05-06T20:00:02.000Z",
-      "market_state": "POST",
+      "market_state": "PRE",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -4867,7 +5038,7 @@
       "price": 367.28,
       "currency": "USD",
       "as_of": "2026-05-06T20:00:02.000Z",
-      "market_state": "POST",
+      "market_state": "PRE",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -4876,7 +5047,7 @@
       "price": 80.29,
       "currency": "USD",
       "as_of": "2026-05-06T20:00:03.000Z",
-      "market_state": "POST",
+      "market_state": "PRE",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -4885,7 +5056,7 @@
       "price": 268.23,
       "currency": "USD",
       "as_of": "2026-05-06T20:00:02.000Z",
-      "market_state": "POST",
+      "market_state": "PRE",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -4894,7 +5065,7 @@
       "price": 99.89,
       "currency": "USD",
       "as_of": "2026-05-06T20:02:11.000Z",
-      "market_state": "POST",
+      "market_state": "PRE",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -4903,7 +5074,7 @@
       "price": 28.7,
       "currency": "USD",
       "as_of": "2026-05-06T20:00:00.000Z",
-      "market_state": "POST",
+      "market_state": "PRE",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -4912,7 +5083,7 @@
       "price": 964.5,
       "currency": "USD",
       "as_of": "2026-05-06T20:00:02.000Z",
-      "market_state": "POST",
+      "market_state": "PRE",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -4921,7 +5092,7 @@
       "price": 56.16,
       "currency": "USD",
       "as_of": "2026-05-06T20:00:02.000Z",
-      "market_state": "POST",
+      "market_state": "PRE",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -4930,7 +5101,7 @@
       "price": 596.76,
       "currency": "USD",
       "as_of": "2026-05-06T20:00:00.000Z",
-      "market_state": "POST",
+      "market_state": "PRE",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -4939,7 +5110,7 @@
       "price": 318.8,
       "currency": "USD",
       "as_of": "2026-05-06T20:00:02.000Z",
-      "market_state": "POST",
+      "market_state": "PRE",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -4948,7 +5119,7 @@
       "price": 167.35,
       "currency": "USD",
       "as_of": "2026-05-06T20:05:08.000Z",
-      "market_state": "POST",
+      "market_state": "PRE",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -4957,7 +5128,7 @@
       "price": 17.33,
       "currency": "USD",
       "as_of": "2026-05-06T20:00:03.000Z",
-      "market_state": "POST",
+      "market_state": "PRE",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -4966,7 +5137,7 @@
       "price": 86.88,
       "currency": "USD",
       "as_of": "2026-05-06T20:00:02.000Z",
-      "market_state": "POST",
+      "market_state": "PRE",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -4975,7 +5146,7 @@
       "price": 170.94,
       "currency": "USD",
       "as_of": "2026-05-06T20:00:00.000Z",
-      "market_state": "POST",
+      "market_state": "PRE",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -4984,7 +5155,7 @@
       "price": 275.76,
       "currency": "USD",
       "as_of": "2026-05-06T20:00:00.000Z",
-      "market_state": "POST",
+      "market_state": "PRE",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -4993,7 +5164,7 @@
       "price": 358.92,
       "currency": "USD",
       "as_of": "2026-05-06T20:00:02.000Z",
-      "market_state": "POST",
+      "market_state": "PRE",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -5002,7 +5173,7 @@
       "price": 158.29,
       "currency": "USD",
       "as_of": "2026-05-06T20:00:03.000Z",
-      "market_state": "POST",
+      "market_state": "PRE",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -5011,7 +5182,7 @@
       "price": 86.62,
       "currency": "USD",
       "as_of": "2026-05-06T20:00:02.000Z",
-      "market_state": "POST",
+      "market_state": "PRE",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -5020,7 +5191,7 @@
       "price": 47.44,
       "currency": "USD",
       "as_of": "2026-05-06T20:00:02.000Z",
-      "market_state": "POST",
+      "market_state": "PRE",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -5029,7 +5200,7 @@
       "price": 270.49,
       "currency": "USD",
       "as_of": "2026-05-06T20:00:02.000Z",
-      "market_state": "POST",
+      "market_state": "PRE",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -5038,7 +5209,7 @@
       "price": 83.33,
       "currency": "USD",
       "as_of": "2026-05-06T20:00:02.000Z",
-      "market_state": "POST",
+      "market_state": "PRE",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -5047,7 +5218,7 @@
       "price": 349.53,
       "currency": "USD",
       "as_of": "2026-05-06T20:00:02.000Z",
-      "market_state": "POST",
+      "market_state": "PRE",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -5056,7 +5227,7 @@
       "price": 27.2,
       "currency": "USD",
       "as_of": "2026-05-06T20:00:00.000Z",
-      "market_state": "POST",
+      "market_state": "PRE",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -5065,7 +5236,7 @@
       "price": 122.63,
       "currency": "USD",
       "as_of": "2026-05-06T20:00:00.000Z",
-      "market_state": "POST",
+      "market_state": "PRE",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -5074,7 +5245,7 @@
       "price": 483.15,
       "currency": "USD",
       "as_of": "2026-05-06T20:00:00.000Z",
-      "market_state": "POST",
+      "market_state": "PRE",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -5083,7 +5254,7 @@
       "price": 80.42,
       "currency": "USD",
       "as_of": "2026-05-06T20:01:46.000Z",
-      "market_state": "POST",
+      "market_state": "PRE",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -5092,7 +5263,7 @@
       "price": 54.73,
       "currency": "USD",
       "as_of": "2026-05-06T20:01:30.000Z",
-      "market_state": "POST",
+      "market_state": "PRE",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -5101,7 +5272,7 @@
       "price": 11.38,
       "currency": "USD",
       "as_of": "2026-05-06T20:00:00.000Z",
-      "market_state": "POST",
+      "market_state": "PRE",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -5110,7 +5281,7 @@
       "price": 73.76,
       "currency": "USD",
       "as_of": "2026-05-06T20:00:02.000Z",
-      "market_state": "POST",
+      "market_state": "PRE",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -5119,7 +5290,7 @@
       "price": 130.08,
       "currency": "USD",
       "as_of": "2026-05-06T20:00:00.000Z",
-      "market_state": "POST",
+      "market_state": "PRE",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -5128,7 +5299,7 @@
       "price": 43.08,
       "currency": "USD",
       "as_of": "2026-05-06T20:04:03.000Z",
-      "market_state": "POST",
+      "market_state": "PRE",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -5137,7 +5308,7 @@
       "price": 312.55,
       "currency": "USD",
       "as_of": "2026-05-06T20:00:03.000Z",
-      "market_state": "POST",
+      "market_state": "PRE",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -5146,7 +5317,7 @@
       "price": 7.29,
       "currency": "USD",
       "as_of": "2026-05-06T20:00:00.000Z",
-      "market_state": "POST",
+      "market_state": "PRE",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -5155,7 +5326,7 @@
       "price": 382.42,
       "currency": "USD",
       "as_of": "2026-05-06T20:00:00.000Z",
-      "market_state": "POST",
+      "market_state": "PRE",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -5164,7 +5335,7 @@
       "price": 21.43,
       "currency": "USD",
       "as_of": "2026-05-06T20:00:00.000Z",
-      "market_state": "POST",
+      "market_state": "PRE",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -5173,7 +5344,7 @@
       "price": 80.55,
       "currency": "USD",
       "as_of": "2026-05-06T20:00:00.000Z",
-      "market_state": "POST",
+      "market_state": "PRE",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -5182,7 +5353,7 @@
       "price": 51.84,
       "currency": "USD",
       "as_of": "2026-05-06T20:00:00.000Z",
-      "market_state": "POST",
+      "market_state": "PRE",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -5191,7 +5362,7 @@
       "price": 148.69,
       "currency": "USD",
       "as_of": "2026-05-06T20:00:43.000Z",
-      "market_state": "POST",
+      "market_state": "PRE",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -5200,7 +5371,7 @@
       "price": 70.83,
       "currency": "USD",
       "as_of": "2026-05-06T20:03:21.000Z",
-      "market_state": "POST",
+      "market_state": "PRE",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -5209,7 +5380,7 @@
       "price": 43.26,
       "currency": "USD",
       "as_of": "2026-05-06T20:00:03.000Z",
-      "market_state": "POST",
+      "market_state": "PRE",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -5218,7 +5389,7 @@
       "price": 44.53,
       "currency": "USD",
       "as_of": "2026-05-06T20:00:00.000Z",
-      "market_state": "POST",
+      "market_state": "PRE",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -5227,7 +5398,7 @@
       "price": 44.83,
       "currency": "USD",
       "as_of": "2026-05-06T20:00:00.000Z",
-      "market_state": "POST",
+      "market_state": "PRE",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -5236,7 +5407,7 @@
       "price": 63.99,
       "currency": "USD",
       "as_of": "2026-05-06T20:00:00.000Z",
-      "market_state": "POST",
+      "market_state": "PRE",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -5245,7 +5416,7 @@
       "price": 105.13,
       "currency": "USD",
       "as_of": "2026-05-06T20:00:00.000Z",
-      "market_state": "POST",
+      "market_state": "PRE",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -5254,7 +5425,7 @@
       "price": 138.83,
       "currency": "USD",
       "as_of": "2026-05-06T20:00:00.000Z",
-      "market_state": "POST",
+      "market_state": "PRE",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -5263,7 +5434,7 @@
       "price": 111.22,
       "currency": "USD",
       "as_of": "2026-05-06T20:00:02.000Z",
-      "market_state": "POST",
+      "market_state": "PRE",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     }

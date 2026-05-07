@@ -10,9 +10,11 @@ import MovementHighlights from '../../components/MovementHighlights.astro';
 import PerformanceTable from '../../components/PerformanceTable.astro';
 import HoldingsTable from '../../components/HoldingsTable.astro';
 import DataFreshness from '../../components/DataFreshness.astro';
+import DryPowderPanel from '../../components/DryPowderPanel.astro';
 import ContactCTA from '../../components/ContactCTA.astro';
 import {
   loadFunds, loadFundQuarters, loadFiling, loadDiff, loadSecurities, loadFundTags, loadPriceSnapshot,
+  loadFundDryPowder,
 } from '../../lib/data';
 
 export async function getStaticPaths() {
@@ -36,6 +38,7 @@ const diff = loadDiff(slug!, currentQuarter.period);
 const securities = loadSecurities();
 const tagsFile = loadFundTags(slug!);
 const prices = loadPriceSnapshot();
+const dryPowder = loadFundDryPowder(slug!);
 
 if (!filing || !diff) {
   throw new Error(`Missing filing or diff for ${slug} ${currentQuarter.period}`);
@@ -55,6 +58,7 @@ for (const p of filing.positions) {
   <nav class="topnav"><a href="/">← All funds</a></nav>
   <FundHeader fund={fund} quarter={currentQuarter} priorPeriod={priorQuarter?.period ?? null} />
   <DataFreshness quarter={currentQuarter} prices={prices} />
+  {dryPowder && <DryPowderPanel dryPowder={dryPowder} reported13fValue={currentQuarter.total_value} />}
   <ChangeHero diff={diff} summary={currentQuarter.summary} />
 
   {diff.prior_period && (

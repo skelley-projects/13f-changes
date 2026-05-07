@@ -1,0 +1,437 @@
+{
+  "slug": "berkshire-hathaway",
+  "current_period": "2025-Q4",
+  "prior_period": "2025-Q3",
+  "totals": {
+    "current_value": 274160086701,
+    "prior_value": 267334501955,
+    "net_flow": 6825584746
+  },
+  "movements": {
+    "new": [
+      {
+        "cusip": "650111107",
+        "ticker": "NYT",
+        "name": "NEW YORK TIMES CO-A",
+        "title_of_class": "CL A",
+        "shares_type": "SH",
+        "put_call": null,
+        "sector": "Communication Services",
+        "industry": "Publishing",
+        "tags": [],
+        "current_value": 254475948,
+        "prior_value": null,
+        "current_shares": 3665744,
+        "prior_shares": null,
+        "delta_value": 254475948,
+        "delta_shares": 3665744,
+        "delta_pct": null,
+        "current_pct_of_portfolio": 0.09282020262764668
+      },
+      {
+        "cusip": "530909308",
+        "ticker": "LLYVK",
+        "name": "LIBERTY LIVE HOLDINGS-C",
+        "title_of_class": "COM SHS SER C",
+        "shares_type": "SH",
+        "put_call": null,
+        "sector": "Communication Services",
+        "industry": "Entertainment",
+        "tags": [],
+        "current_value": 119971273,
+        "prior_value": null,
+        "current_shares": 1442656,
+        "prior_shares": null,
+        "delta_value": 119971273,
+        "delta_shares": 1442656,
+        "delta_pct": null,
+        "current_pct_of_portfolio": 0.04375956925153774
+      },
+      {
+        "cusip": "530909100",
+        "ticker": "LLYVA",
+        "name": "LIBERTY LIVE HOLDINGS-A",
+        "title_of_class": "COM SER A",
+        "shares_type": "SH",
+        "put_call": null,
+        "sector": "Communication Services",
+        "industry": "Entertainment",
+        "tags": [],
+        "current_value": 37226592,
+        "prior_value": null,
+        "current_shares": 456768,
+        "prior_shares": null,
+        "delta_value": 37226592,
+        "delta_shares": 456768,
+        "delta_pct": null,
+        "current_pct_of_portfolio": 0.013578414147716352
+      },
+      {
+        "cusip": "531229755",
+        "ticker": "FWONK",
+        "name": "LIBERTY MEDIA CORP-FORMULA-C",
+        "title_of_class": "COM LBTY ONE S C",
+        "shares_type": "SH",
+        "put_call": null,
+        "sector": "Communication Services",
+        "industry": "Entertainment",
+        "tags": [],
+        "current_value": 12355124,
+        "prior_value": null,
+        "current_shares": 125420,
+        "prior_shares": null,
+        "delta_value": 12355124,
+        "delta_shares": 125420,
+        "delta_pct": null,
+        "current_pct_of_portfolio": 0.004506536362995297
+      }
+    ],
+    "closed": [
+      {
+        "cusip": "531229722",
+        "ticker": null,
+        "name": "LIBERTY MEDIA CORP DEL",
+        "title_of_class": "COM LBTY LIV S C",
+        "shares_type": "SH",
+        "put_call": null,
+        "sector": "Unclassified",
+        "industry": "Unclassified",
+        "tags": [],
+        "current_value": null,
+        "prior_value": 139894352,
+        "current_shares": null,
+        "prior_shares": 1442656,
+        "delta_value": -139894352,
+        "delta_shares": -1442656,
+        "delta_pct": null,
+        "current_pct_of_portfolio": null
+      },
+      {
+        "cusip": "531229748",
+        "ticker": null,
+        "name": "LIBERTY MEDIA CORP DEL",
+        "title_of_class": "COM LBTY LIV S A",
+        "shares_type": "SH",
+        "put_call": null,
+        "sector": "Unclassified",
+        "industry": "Unclassified",
+        "tags": [],
+        "current_value": null,
+        "prior_value": 43073222,
+        "current_shares": null,
+        "prior_shares": 456768,
+        "delta_value": -43073222,
+        "delta_shares": -456768,
+        "delta_pct": null,
+        "current_pct_of_portfolio": null
+      },
+      {
+        "cusip": "531229854",
+        "ticker": null,
+        "name": "LIBERTY MEDIA CORP DEL",
+        "title_of_class": "COM SER C FRMLA",
+        "shares_type": "SH",
+        "put_call": null,
+        "sector": "Unclassified",
+        "industry": "Unclassified",
+        "tags": [],
+        "current_value": null,
+        "prior_value": 13100119,
+        "current_shares": null,
+        "prior_shares": 125420,
+        "delta_value": -13100119,
+        "delta_shares": -125420,
+        "delta_pct": null,
+        "current_pct_of_portfolio": null
+      }
+    ],
+    "increased": [
+      {
+        "cusip": "829933100",
+        "ticker": "SIRI",
+        "name": "SIRIUS XM HOLDINGS INC",
+        "title_of_class": "COMMON STOCK",
+        "shares_type": "SH",
+        "put_call": null,
+        "sector": "Communication Services",
+        "industry": "Entertainment",
+        "tags": [],
+        "current_value": 2175900429,
+        "prior_value": 147681970,
+        "current_shares": 108822227,
+        "prior_shares": 6345090,
+        "delta_value": 2028218459,
+        "delta_shares": 102477137,
+        "delta_pct": 1615.0619928164929,
+        "current_pct_of_portfolio": 0.7936605416137925
+      },
+      {
+        "cusip": "H1467J104",
+        "ticker": null,
+        "name": "CHUBB LIMITED",
+        "title_of_class": "COM",
+        "shares_type": "SH",
+        "put_call": null,
+        "sector": "Unclassified",
+        "industry": "Unclassified",
+        "tags": [],
+        "current_value": 10689854998,
+        "prior_value": 8843709614,
+        "current_shares": 34249183,
+        "prior_shares": 31332895,
+        "delta_value": 1846145384,
+        "delta_shares": 2916288,
+        "delta_pct": 9.307432332696996,
+        "current_pct_of_portfolio": 3.8991288362329692
+      },
+      {
+        "cusip": "02079K305",
+        "ticker": "GOOGL",
+        "name": "ALPHABET INC-CL A",
+        "title_of_class": "CAP STK CL A",
+        "shares_type": "SH",
+        "put_call": null,
+        "sector": "Communication Services",
+        "industry": "Internet Content & Information",
+        "tags": [],
+        "current_value": 5585842446,
+        "prior_value": 4332177164,
+        "current_shares": 17846142,
+        "prior_shares": 17820556,
+        "delta_value": 1253665282,
+        "delta_shares": 25586,
+        "delta_pct": 0.14357576722073093,
+        "current_pct_of_portfolio": 2.0374382402687012
+      },
+      {
+        "cusip": "25754A201",
+        "ticker": "DPZ",
+        "name": "DOMINO'S PIZZA INC",
+        "title_of_class": "COM",
+        "shares_type": "SH",
+        "put_call": null,
+        "sector": "Consumer Discretionary",
+        "industry": "Restaurants",
+        "tags": [],
+        "current_value": 1396347000,
+        "prior_value": 1287335476,
+        "current_shares": 3350000,
+        "prior_shares": 2981945,
+        "delta_value": 109011524,
+        "delta_shares": 368055,
+        "delta_pct": 12.342782982248163,
+        "current_pct_of_portfolio": 0.5093181202276396
+      },
+      {
+        "cusip": "512816109",
+        "ticker": "LAMR",
+        "name": "LAMAR ADVERTISING CO-A",
+        "title_of_class": "CL A",
+        "shares_type": "SH",
+        "put_call": null,
+        "sector": "Real Estate",
+        "industry": "REIT - Specialty",
+        "tags": [],
+        "current_value": 152201058,
+        "prior_value": 147162306,
+        "current_shares": 1202410,
+        "prior_shares": 1202110,
+        "delta_value": 5038752,
+        "delta_shares": 300,
+        "delta_pct": 0.02495611882440043,
+        "current_pct_of_portfolio": 0.05551539607076031
+      }
+    ],
+    "decreased": [
+      {
+        "cusip": "23918K108",
+        "ticker": "DVA",
+        "name": "DAVITA INC",
+        "title_of_class": "COM",
+        "shares_type": "SH",
+        "put_call": null,
+        "sector": "Health Care",
+        "industry": "Medical Care Facilities",
+        "tags": [],
+        "current_value": 1718575857,
+        "prior_value": 2063270599,
+        "current_shares": 15126977,
+        "prior_shares": 15528491,
+        "delta_value": -344694742,
+        "delta_shares": -401514,
+        "delta_pct": -2.5856601262801386,
+        "current_pct_of_portfolio": 0.6268512231958422
+      }
+    ],
+    "activity": [],
+    "unchanged_count": 32,
+    "unchanged_value": 44715342901
+  },
+  "sector_breakdown": {
+    "current": [
+      {
+        "label": "Financials",
+        "value": 105401262324,
+        "pct": 38.44515209792409
+      },
+      {
+        "label": "Information Technology",
+        "value": 64145826629,
+        "pct": 23.397215619849753
+      },
+      {
+        "label": "Consumer Staples",
+        "value": 40797772330,
+        "pct": 14.881003584775709
+      },
+      {
+        "label": "Energy",
+        "value": 30731522774,
+        "pct": 11.209335080024218
+      },
+      {
+        "label": "Unclassified",
+        "value": 12112782793,
+        "pct": 4.418142311944279
+      },
+      {
+        "label": "Communication Services",
+        "value": 10270714915,
+        "pct": 3.746247325272143
+      },
+      {
+        "label": "Health Care",
+        "value": 5271757847,
+        "pct": 1.9228757586254335
+      },
+      {
+        "label": "Consumer Discretionary",
+        "value": 2744783058,
+        "pct": 1.0011607054215266
+      },
+      {
+        "label": "Industrials",
+        "value": 1486295034,
+        "pct": 0.5421267011857049
+      },
+      {
+        "label": "Materials",
+        "value": 1045167939,
+        "pct": 0.3812254189063866
+      },
+      {
+        "label": "Real Estate",
+        "value": 152201058,
+        "pct": 0.05551539607076031
+      }
+    ],
+    "prior": [
+      {
+        "label": "Financials",
+        "value": 99205740360,
+        "pct": 37.109216967699574
+      },
+      {
+        "label": "Information Technology",
+        "value": 63169416849,
+        "pct": 23.629354380764966
+      },
+      {
+        "label": "Consumer Staples",
+        "value": 40204342845,
+        "pct": 15.038965248027559
+      },
+      {
+        "label": "Energy",
+        "value": 31473924164,
+        "pct": 11.773236875088408
+      },
+      {
+        "label": "Unclassified",
+        "value": 12320899502,
+        "pct": 4.6087951281626784
+      },
+      {
+        "label": "Communication Services",
+        "value": 7544438109,
+        "pct": 2.8220966818080004
+      },
+      {
+        "label": "Health Care",
+        "value": 6013337581,
+        "pct": 2.2493683146114134
+      },
+      {
+        "label": "Consumer Discretionary",
+        "value": 4482734146,
+        "pct": 1.676825891614458
+      },
+      {
+        "label": "Industrials",
+        "value": 1904704646,
+        "pct": 0.7124799201266643
+      },
+      {
+        "label": "Materials",
+        "value": 867801447,
+        "pct": 0.3246125885936248
+      },
+      {
+        "label": "Real Estate",
+        "value": 147162306,
+        "pct": 0.05504800350265736
+      }
+    ],
+    "deltas": [
+      {
+        "label": "Financials",
+        "delta_pct_pts": 1.335935130224513
+      },
+      {
+        "label": "Communication Services",
+        "delta_pct_pts": 0.9241506434641424
+      },
+      {
+        "label": "Consumer Discretionary",
+        "delta_pct_pts": -0.6756651861929315
+      },
+      {
+        "label": "Energy",
+        "delta_pct_pts": -0.56390179506419
+      },
+      {
+        "label": "Health Care",
+        "delta_pct_pts": -0.3264925559859799
+      },
+      {
+        "label": "Information Technology",
+        "delta_pct_pts": -0.23213876091521257
+      },
+      {
+        "label": "Unclassified",
+        "delta_pct_pts": -0.19065281621839958
+      },
+      {
+        "label": "Industrials",
+        "delta_pct_pts": -0.17035321894095934
+      },
+      {
+        "label": "Consumer Staples",
+        "delta_pct_pts": -0.15796166325185013
+      },
+      {
+        "label": "Materials",
+        "delta_pct_pts": 0.05661283031276182
+      },
+      {
+        "label": "Real Estate",
+        "delta_pct_pts": 0.0004673925681029506
+      }
+    ]
+  },
+  "theme_breakdown": null,
+  "granular_breakdown": null,
+  "granular_coverage_pct": null,
+  "theme_activity_breakdown": null,
+  "granular_activity_breakdown": null
+}

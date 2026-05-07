@@ -1,0 +1,165 @@
+---
+import { formatPct, formatUSD } from '../lib/format';
+import type { DryPowderFile } from '../../scripts/types';
+
+interface Props {
+  dryPowder: DryPowderFile;
+  reported13fValue: number;
+}
+
+const { dryPowder, reported13fValue } = Astro.props;
+const current = dryPowder.values.current;
+const prior = dryPowder.values.prior;
+const delta = current.total_dry_powder - prior.total_dry_powder;
+const deltaPct = prior.total_dry_powder > 0 ? (delta / prior.total_dry_powder) * 100 : 0;
+const ratioTo13f = reported13fValue > 0 ? (current.total_dry_powder / reported13fValue) * 100 : 0;
+
+function signedUSD(value: number): string {
+  return `${value >= 0 ? '+' : '-'}${formatUSD(Math.abs(value))}`;
+}
+
+function shortDate(value: string): string {
+  return new Date(`${value}T00:00:00.000Z`).toLocaleDateString('en-US', {
+    month: 'short',
+    day: 'numeric',
+    year: 'numeric',
+  });
+}
+---
+
+<section class="dry-powder">
+  <div class="panel-heading">
+    <div>
+      <div class="kicker">Berkshire dry powder</div>
+      <h2>{formatUSD(current.total_dry_powder)}</h2>
+      <p>
+        Cash, cash equivalents, and short-term U.S. Treasury bills from Berkshire's company filing.
+        These balances are not visible in Form 13F.
+      </p>
+    </div>
+    <a href={dryPowder.source_filing.url} target="_blank" rel="noopener">
+      SEC {dryPowder.source_filing.form} ->
+    </a>
+  </div>
+
+  <div class="metrics">
+    <div>
+      <span>Cash & equivalents</span>
+      <strong>{formatUSD(current.cash_and_equivalents)}</strong>
+    </div>
+    <div>
+      <span>Short-term T-bills</span>
+      <strong>{formatUSD(current.short_term_treasury_bills)}</strong>
+    </div>
+    <div>
+      <span>Vs prior filing</span>
+      <strong class={delta >= 0 ? 'pos' : 'neg'}>{signedUSD(delta)} ({deltaPct >= 0 ? '+' : ''}{formatPct(deltaPct)})</strong>
+    </div>
+    <div>
+      <span>Dry powder / 13F value</span>
+      <strong>{formatPct(ratioTo13f)}</strong>
+    </div>
+  </div>
+
+  <p class="source-note">
+    Source: {dryPowder.context} Current period {shortDate(current.period_ending)}; prior period {shortDate(prior.period_ending)}.
+    Berkshire gets this extra module because it is a public company with balance-sheet filings; private hedge-fund 13Fs do not disclose comparable cash balances.
+  </p>
+</section>
+
+<style>
+  .dry-powder {
+    border: 1px solid var(--border);
+    border-left: 3px solid var(--accent);
+    border-radius: 6px;
+    background: var(--bg-elev);
+    box-shadow: 0 14px 34px rgba(0, 0, 0, 0.14);
+    margin: 0 0 24px;
+    padding: 18px;
+  }
+  .panel-heading {
+    display: flex;
+    gap: 18px;
+    justify-content: space-between;
+    align-items: flex-start;
+    border-bottom: 1px solid var(--border);
+    padding-bottom: 14px;
+  }
+  .kicker {
+    color: var(--accent);
+    font-family: var(--font-sans);
+    font-size: 0.68rem;
+    font-weight: 700;
+    letter-spacing: 0.75px;
+    text-transform: uppercase;
+  }
+  h2 {
+    color: var(--fg);
+    font-family: var(--font-serif);
+    font-size: clamp(2rem, 5vw, 3rem);
+    font-weight: 500;
+    line-height: 1;
+    margin: 4px 0 8px;
+  }
+  p {
+    color: var(--fg-muted);
+    font-size: 0.82rem;
+    line-height: 1.5;
+    margin: 0;
+    max-width: 680px;
+  }
+  .panel-heading a {
+    font-family: var(--font-mono);
+    font-size: 0.75rem;
+    white-space: nowrap;
+  }
+  .metrics {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 12px;
+    padding-top: 14px;
+  }
+  .metrics div {
+    border-top: 1px solid var(--border);
+    padding-top: 9px;
+  }
+  .metrics span {
+    color: var(--fg-muted);
+    display: block;
+    font-family: var(--font-sans);
+    font-size: 0.62rem;
+    font-weight: 700;
+    letter-spacing: 0.7px;
+    margin-bottom: 3px;
+    text-transform: uppercase;
+  }
+  .metrics strong {
+    color: var(--fg);
+    font-family: var(--font-mono);
+    font-size: 0.98rem;
+  }
+  .metrics .pos { color: var(--pos); }
+  .metrics .neg { color: var(--neg); }
+  .source-note {
+    border-top: 1px solid var(--border);
+    margin-top: 14px;
+    padding-top: 12px;
+    font-size: 0.74rem;
+  }
+
+  @media (max-width: 760px) {
+    .panel-heading {
+      flex-direction: column;
+      gap: 8px;
+    }
+    .metrics {
+      grid-template-columns: 1fr 1fr;
+    }
+  }
+
+  @media (max-width: 480px) {
+    .metrics {
+      grid-template-columns: 1fr;
+    }
+  }
+</style>

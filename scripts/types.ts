@@ -166,6 +166,36 @@ export interface SegmentMetricsFile {
   failures: Record<string, string>;
 }
 
+export interface DryPowderFile {
+  slug: Slug;
+  source: string;
+  source_filing: {
+    form: '10-Q' | '10-K';
+    period_ending: string;
+    filing_date: string;
+    accession: string;
+    url: string;
+  };
+  context: string;
+  currency: 'USD';
+  values: {
+    current: {
+      period_ending: string;
+      cash_and_equivalents: number;
+      short_term_treasury_bills: number;
+      total_dry_powder: number;
+    };
+    prior: {
+      period_ending: string;
+      cash_and_equivalents: number;
+      short_term_treasury_bills: number;
+      total_dry_powder: number;
+    };
+  };
+  notes: string[];
+  fetched_at: string;
+}
+
 /* Diff-related types live below */
 
 export type MovementStatus = 'NEW' | 'INCREASED' | 'DECREASED' | 'CLOSED' | 'UNCHANGED';

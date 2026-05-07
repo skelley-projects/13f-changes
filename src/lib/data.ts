@@ -3,6 +3,7 @@ import { readFileSync, existsSync } from 'node:fs';
 import { join } from 'node:path';
 import type {
   FundsFile, QuartersFile, FilingFile, TagsFile, SecuritiesFile, DiffFile, PendingFile, PriceSnapshotFile, SegmentMetricsFile,
+  DryPowderFile,
 } from '../../scripts/types.js';
 
 const ROOT = process.cwd();
@@ -22,6 +23,10 @@ export function loadPriceSnapshot(): PriceSnapshotFile | null {
 }
 export function loadSegmentMetrics(): SegmentMetricsFile | null {
   const path = join(ROOT, 'data/segments/metrics.json');
+  return existsSync(path) ? JSON.parse(readFileSync(path, 'utf8')) : null;
+}
+export function loadFundDryPowder(slug: string): DryPowderFile | null {
+  const path = join(ROOT, `data/funds/${slug}/dry-powder.json`);
   return existsSync(path) ? JSON.parse(readFileSync(path, 'utf8')) : null;
 }
 export function loadFundQuarters(slug: string): QuartersFile {

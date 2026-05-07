@@ -1,0 +1,33 @@
+{
+  "slug": "berkshire-hathaway",
+  "source": "SEC Form 10-Q",
+  "source_filing": {
+    "form": "10-Q",
+    "period_ending": "2026-03-31",
+    "filing_date": "2026-05-04",
+    "accession": "0001193125-26-202243",
+    "url": "https://www.sec.gov/Archives/edgar/data/1067983/000119312526202243/brka-20260331.htm"
+  },
+  "context": "Berkshire Insurance and Other balance sheet. This is not sourced from the 13F.",
+  "currency": "USD",
+  "values": {
+    "current": {
+      "period_ending": "2026-03-31",
+      "cash_and_equivalents": 51478000000,
+      "short_term_treasury_bills": 339261000000,
+      "total_dry_powder": 390739000000
+    },
+    "prior": {
+      "period_ending": "2025-12-31",
+      "cash_and_equivalents": 47719000000,
+      "short_term_treasury_bills": 321434000000,
+      "total_dry_powder": 369153000000
+    }
+  },
+  "notes": [
+    "13F filings do not include cash or Treasury bills.",
+    "Berkshire is a public company, so cash and short-term Treasury bill balances are available from its 10-Q/10-K balance sheet.",
+    "The figures used here are the Insurance and Other rows for cash and cash equivalents and short-term investments in U.S. Treasury Bills."
+  ],
+  "fetched_at": "2026-05-07T10:32:52.421Z"
+}

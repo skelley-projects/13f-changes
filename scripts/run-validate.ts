@@ -18,10 +18,13 @@ function loadDataset(root: string): DatasetForValidation {
       const dir = join(fundsDir, slug);
       const quarters = loadJson<any>(join(dir, 'quarters.json'));
       const tags = loadJson<any>(join(dir, 'tags.json'));
+      const dryPowder = existsSync(join(dir, 'dry-powder.json'))
+        ? loadJson<any>(join(dir, 'dry-powder.json'))
+        : undefined;
       const quarterFiles: Record<string, any> = {};
       const diffFiles: Record<string, any> = {};
       for (const file of readdirSync(dir)) {
-        if (file === 'quarters.json' || file === 'tags.json') continue;
+        if (file === 'quarters.json' || file === 'tags.json' || file === 'dry-powder.json') continue;
         if (!file.endsWith('.json')) continue;
         const period = file.replace(/\.json$/, '');
         quarterFiles[period] = loadJson(join(dir, file));
@@ -33,7 +36,7 @@ function loadDataset(root: string): DatasetForValidation {
           diffFiles[file.replace(/\.json$/, '')] = loadJson(join(diffDir, file));
         }
       }
-      perFund[slug] = { quarters, tags, quarterFiles, diffFiles };
+      perFund[slug] = { quarters, tags, quarterFiles, diffFiles, dryPowder };
     }
   }
   return { funds, securities, pending, perFund };

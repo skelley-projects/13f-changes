@@ -1,0 +1,33 @@
+{
+  "slug": "berkshire-hathaway",
+  "quarters": [
+    {
+      "slug": "berkshire-hathaway",
+      "period": "2025-Q4",
+      "period_ending": "2025-12-31",
+      "filing_date": "2026-02-17",
+      "accession": "0001193125-26-054580",
+      "edgar_url": "https://www.sec.gov/Archives/edgar/data/1067983/000119312526054580/",
+      "value_units": "USD",
+      "schema_version": "X02",
+      "total_value": 274160086701,
+      "position_count": 110,
+      "summary": "$274.2B reported 13F equity value across the latest filing. Largest new stake: NEW YORK TIMES CO-A (NYT) at $254M. Largest closed prior-quarter stake: LIBERTY MEDIA CORP DEL worth $140M. Largest added reported exposure: SIRIUS XM HOLDINGS INC (SIRI) by $2.0B. Largest reduced reported exposure: DAVITA INC (DVA) by $345M. Cash and short-term Treasury bills are shown separately from Berkshire company filings, not from the 13F.",
+      "fetched_at": "2026-05-07T10:32:52.394Z"
+    },
+    {
+      "slug": "berkshire-hathaway",
+      "period": "2025-Q3",
+      "period_ending": "2025-09-30",
+      "filing_date": "2025-11-14",
+      "accession": "0001193125-25-282901",
+      "edgar_url": "https://www.sec.gov/Archives/edgar/data/1067983/000119312525282901/",
+      "value_units": "USD",
+      "schema_version": "X02",
+      "total_value": 267334501955,
+      "position_count": 115,
+      "summary": "Prior-quarter baseline imported for comparison against 2025-Q4.",
+      "fetched_at": "2026-05-07T10:32:52.396Z"
+    }
+  ]
+}
