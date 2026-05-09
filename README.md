@@ -10,7 +10,7 @@ Currently tracks:
 
 - **Astro 6** static site generator, deployed to **Cloudflare Workers Static Assets**
 - **JSON files** under `data/` are the source of truth — no database
-- **GitHub Actions** poll SEC EDGAR every 30 minutes during the active filing-window days
+- **GitHub Actions** poll SEC EDGAR around each quarter's filing deadline (every 30 min the day before/after, every 15 min during business hours on the deadline day itself)
 - **GitHub Actions** refresh latest Yahoo Finance price snapshots around 6pm EST on weekdays
 - **Resend** emails you immediately when the EDGAR poll detects a new filing (per-detection notification, not a weekly digest)
 - **Manual quarterly review** via the `/update-quarter` Claude Code slash command — fetches, classifies new positions, prompts for thematic tags, writes editorial summaries, commits

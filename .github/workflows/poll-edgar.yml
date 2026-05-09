@@ -3,14 +3,28 @@ name: Poll EDGAR for new 13F filings
 
 on:
   schedule:
-    # Every 30 minutes during days 9-18 of the four filing-window months
-    # (Feb / May / Aug / Nov). The 10-day window covers the actual filing
-    # cluster — historically funds file 0-5 days before the deadline (which
-    # falls on the 14th or 15th, rolling to ~17th when on a weekend), plus
-    # a small buffer for late filings and amendments. Days 1-8 are skipped
-    # because no fund in our sample has ever filed that early. Expected
-    # lag from EDGAR-publish to our queue is ~30 minutes.
-    - cron: '*/30 * 9-18 2,5,8,11 *'
+    # Tight polling around each quarter's filing deadline (Q1=May 15,
+    # Q2=Aug 14, Q3=Nov 14, Q4=Feb 14):
+    #   - Day before deadline: every 30 min, all hours
+    #   - Deadline day: every 15 min, 12:00-23:59 UTC (≈ 8am-8pm EDT for
+    #     May/Aug; ≈ 7am-7pm EST for Nov/Feb)
+    #   - Day after deadline: every 30 min, all hours
+    # All other times: no polling. Worst-case detection lag = 30 min on
+    # day before/after, 15 min on day of.
+    #
+    # Caveat: when the nominal deadline falls on a weekend (Nov 2026,
+    # Feb 2027), the legal deadline rolls to Monday and this schedule
+    # would miss filings made on the rolled deadline day. Adjust manually
+    # via workflow_dispatch or expand the window for those quarters.
+
+    # Q1 day-before (May 14) and day-after (May 16), every 30 min
+    - cron: '*/30 * 14,16 5 *'
+    # Q1 deadline day (May 15), every 15 min during business hours UTC
+    - cron: '*/15 12-23 15 5 *'
+    # Q2/Q3/Q4 day-before (13) and day-after (15), every 30 min
+    - cron: '*/30 * 13,15 2,8,11 *'
+    # Q2/Q3/Q4 deadline day (14), every 15 min during business hours UTC
+    - cron: '*/15 12-23 14 2,8,11 *'
   workflow_dispatch:
 
 permissions:
