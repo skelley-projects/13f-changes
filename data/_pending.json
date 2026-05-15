@@ -8,6 +8,33 @@
       "filing_date": "2026-05-15",
       "edgar_url": "https://www.sec.gov/Archives/edgar/data/1167483/000091957426003362/",
       "discovered_at": "2026-05-15T18:53:22.698Z"
+    },
+    {
+      "slug": "duquesne",
+      "cik": "0001536411",
+      "accession": "0001536411-26-000004",
+      "period_ending": "",
+      "filing_date": "2026-05-15",
+      "edgar_url": "https://www.sec.gov/Archives/edgar/data/1536411/000153641126000004/",
+      "discovered_at": "2026-05-15T20:09:40.329Z"
+    },
+    {
+      "slug": "citadel",
+      "cik": "0001423053",
+      "accession": "0001104659-26-062477",
+      "period_ending": "",
+      "filing_date": "2026-05-15",
+      "edgar_url": "https://www.sec.gov/Archives/edgar/data/1423053/000110465926062477/",
+      "discovered_at": "2026-05-15T20:09:40.449Z"
+    },
+    {
+      "slug": "appaloosa",
+      "cik": "0001656456",
+      "accession": "0001656456-26-000002",
+      "period_ending": "",
+      "filing_date": "2026-05-15",
+      "edgar_url": "https://www.sec.gov/Archives/edgar/data/1656456/000165645626000002/",
+      "discovered_at": "2026-05-15T20:09:41.772Z"
     }
   ]
 }
