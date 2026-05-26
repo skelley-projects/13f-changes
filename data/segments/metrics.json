@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-05-23T00:02:27.353Z",
+  "fetched_at": "2026-05-26T00:02:25.497Z",
   "source": "yahoo-finance",
   "records": {
     "AA": {
@@ -8,8 +8,8 @@
       "market_cap": 18836457472,
       "currency": "USD",
       "as_of": "2026-05-22T20:00:03.000Z",
-      "market_state": "POSTPOST",
-      "quote_source": "Delayed Quote",
+      "market_state": "CLOSED",
+      "quote_source": null,
       "performance": {
         "one_week": 14.153208689383945,
         "one_month": 4.158764441075862,
@@ -23,8 +23,8 @@
       "price": 106.4,
       "market_cap": 193150091264,
       "currency": "USD",
-      "as_of": "2026-05-22T19:59:44.000Z",
-      "market_state": "POSTPOST",
+      "as_of": "2026-05-22T20:00:00.000Z",
+      "market_state": "CLOSED",
       "quote_source": "Delayed Quote",
       "performance": {
         "one_week": 2.3963008855119536,
@@ -40,7 +40,7 @@
       "market_cap": 193407647744,
       "currency": "USD",
       "as_of": "2026-05-22T20:00:01.000Z",
-      "market_state": "POSTPOST",
+      "market_state": "CLOSED",
       "quote_source": "Delayed Quote",
       "performance": {
         "one_week": -4.891132892290762,
@@ -56,7 +56,7 @@
       "market_cap": 39713316864,
       "currency": "USD",
       "as_of": "2026-05-22T20:00:01.000Z",
-      "market_state": "POSTPOST",
+      "market_state": "CLOSED",
       "quote_source": "Delayed Quote",
       "performance": {
         "one_week": 3.6483338953425086,
@@ -69,10 +69,10 @@
     "AMAT": {
       "ticker": "AMAT",
       "price": 432.16,
-      "market_cap": 342966435840,
+      "market_cap": 343117496320,
       "currency": "USD",
       "as_of": "2026-05-22T20:00:01.000Z",
-      "market_state": "POSTPOST",
+      "market_state": "CLOSED",
       "quote_source": "Delayed Quote",
       "performance": {
         "one_week": -1.0214821050489054,
@@ -88,7 +88,7 @@
       "market_cap": 762322092032,
       "currency": "USD",
       "as_of": "2026-05-22T20:00:01.000Z",
-      "market_state": "POSTPOST",
+      "market_state": "CLOSED",
       "quote_source": "Delayed Quote",
       "performance": {
         "one_week": 10.235791858462912,
@@ -101,10 +101,10 @@
     "AMGN": {
       "ticker": "AMGN",
       "price": 339.3,
-      "market_cap": 183221993472,
+      "market_cap": 183123017728,
       "currency": "USD",
       "as_of": "2026-05-22T20:00:01.000Z",
-      "market_state": "POSTPOST",
+      "market_state": "CLOSED",
       "quote_source": "Delayed Quote",
       "performance": {
         "one_week": 3.980877858047765,
@@ -120,8 +120,8 @@
       "market_cap": 85654437888,
       "currency": "USD",
       "as_of": "2026-05-22T20:00:03.000Z",
-      "market_state": "POSTPOST",
-      "quote_source": "Delayed Quote",
+      "market_state": "CLOSED",
+      "quote_source": null,
       "performance": {
         "one_week": 7.7477552240984195,
         "one_month": 4.2765597786934615,
@@ -136,7 +136,7 @@
       "market_cap": 2864833626112,
       "currency": "USD",
       "as_of": "2026-05-22T20:00:01.000Z",
-      "market_state": "POSTPOST",
+      "market_state": "CLOSED",
       "quote_source": "Delayed Quote",
       "performance": {
         "one_week": 0.8253143146311962,
@@ -152,8 +152,8 @@
       "market_cap": 193949859840,
       "currency": "USD",
       "as_of": "2026-05-22T20:00:03.000Z",
-      "market_state": "POSTPOST",
-      "quote_source": "Delayed Quote",
+      "market_state": "CLOSED",
+      "quote_source": null,
       "performance": {
         "one_week": 8.4947514796092,
         "one_month": -13.334831653218105,
@@ -168,8 +168,8 @@
       "market_cap": 162464759808,
       "currency": "USD",
       "as_of": "2026-05-22T20:00:02.000Z",
-      "market_state": "POSTPOST",
-      "quote_source": "Delayed Quote",
+      "market_state": "CLOSED",
+      "quote_source": null,
       "performance": {
         "one_week": 5.6480000000000015,
         "one_month": -10.848581889621673,
@@ -184,7 +184,7 @@
       "market_cap": 13108248576,
       "currency": "USD",
       "as_of": "2026-05-22T20:00:01.000Z",
-      "market_state": "POSTPOST",
+      "market_state": "CLOSED",
       "quote_source": "Delayed Quote",
       "performance": {
         "one_week": 7.777252161430161,
@@ -200,7 +200,7 @@
       "market_cap": 326126206976,
       "currency": "USD",
       "as_of": "2026-05-22T20:00:00.000Z",
-      "market_state": "POSTPOST",
+      "market_state": "CLOSED",
       "quote_source": "Delayed Quote",
       "performance": {
         "one_week": 46.543313555853686,
@@ -216,7 +216,7 @@
       "market_cap": 629348499456,
       "currency": "USD",
       "as_of": "2026-05-22T20:00:01.000Z",
-      "market_state": "POSTPOST",
+      "market_state": "CLOSED",
       "quote_source": "Delayed Quote",
       "performance": {
         "one_week": 8.728796338532902,
@@ -232,7 +232,7 @@
       "market_cap": 1960815624192,
       "currency": "USD",
       "as_of": "2026-05-22T20:00:00.000Z",
-      "market_state": "POSTPOST",
+      "market_state": "CLOSED",
       "quote_source": "Delayed Quote",
       "performance": {
         "one_week": -2.5988387257362717,
@@ -248,8 +248,8 @@
       "market_cap": 56438284288,
       "currency": "USD",
       "as_of": "2026-05-22T20:00:02.000Z",
-      "market_state": "POSTPOST",
-      "quote_source": "Delayed Quote",
+      "market_state": "CLOSED",
+      "quote_source": null,
       "performance": {
         "one_week": 2.569895974765188,
         "one_month": -5.111156040365331,
@@ -264,8 +264,8 @@
       "market_cap": 172653985792,
       "currency": "USD",
       "as_of": "2026-05-22T20:00:02.000Z",
-      "market_state": "POSTPOST",
-      "quote_source": "Delayed Quote",
+      "market_state": "CLOSED",
+      "quote_source": null,
       "performance": {
         "one_week": -0.6666993770879232,
         "one_month": -5.300933433070531,
@@ -280,8 +280,8 @@
       "market_cap": 311887429632,
       "currency": "USD",
       "as_of": "2026-05-22T20:03:34.000Z",
-      "market_state": "POSTPOST",
-      "quote_source": "Delayed Quote",
+      "market_state": "CLOSED",
+      "quote_source": null,
       "performance": {
         "one_week": -1.9533874420588353,
         "one_month": -4.706053551616864,
@@ -296,8 +296,8 @@
       "market_cap": 367603384320,
       "currency": "USD",
       "as_of": "2026-05-22T20:00:02.000Z",
-      "market_state": "POSTPOST",
-      "quote_source": "Delayed Quote",
+      "market_state": "CLOSED",
+      "quote_source": null,
       "performance": {
         "one_week": 4.0787613493374275,
         "one_month": -2.484937798243162,
@@ -312,8 +312,8 @@
       "market_cap": 86041427968,
       "currency": "USD",
       "as_of": "2026-05-22T20:00:02.000Z",
-      "market_state": "POSTPOST",
-      "quote_source": "Delayed Quote",
+      "market_state": "CLOSED",
+      "quote_source": null,
       "performance": {
         "one_week": 9.617679514019068,
         "one_month": 31.66050054406965,
@@ -328,7 +328,7 @@
       "market_cap": 1670176128,
       "currency": "USD",
       "as_of": "2026-05-22T20:00:01.000Z",
-      "market_state": "POSTPOST",
+      "market_state": "CLOSED",
       "quote_source": "Delayed Quote",
       "performance": {
         "one_week": 24.494387358521337,
@@ -344,8 +344,8 @@
       "market_cap": 2833904896,
       "currency": "USD",
       "as_of": "2026-05-22T20:00:02.000Z",
-      "market_state": "POSTPOST",
-      "quote_source": "Delayed Quote",
+      "market_state": "CLOSED",
+      "quote_source": null,
       "performance": {
         "one_week": -12.860413420645965,
         "one_month": 19.673162681374944,
@@ -360,8 +360,8 @@
       "market_cap": 18589528064,
       "currency": "USD",
       "as_of": "2026-05-22T20:00:02.000Z",
-      "market_state": "POSTPOST",
-      "quote_source": "Delayed Quote",
+      "market_state": "CLOSED",
+      "quote_source": null,
       "performance": {
         "one_week": -0.8841350185182028,
         "one_month": -7.389322525105967,
@@ -376,8 +376,8 @@
       "market_cap": 213350612992,
       "currency": "USD",
       "as_of": "2026-05-22T20:03:15.000Z",
-      "market_state": "POSTPOST",
-      "quote_source": "Delayed Quote",
+      "market_state": "CLOSED",
+      "quote_source": null,
       "performance": {
         "one_week": 1.3531047284320035,
         "one_month": -3.5766560397366005,
@@ -392,8 +392,8 @@
       "market_cap": 405270265856,
       "currency": "USD",
       "as_of": "2026-05-22T20:00:02.000Z",
-      "market_state": "POSTPOST",
-      "quote_source": "Delayed Quote",
+      "market_state": "CLOSED",
+      "quote_source": null,
       "performance": {
         "one_week": -0.9478670263461008,
         "one_month": 8.78015074258296,
@@ -408,8 +408,8 @@
       "market_cap": 45622079488,
       "currency": "USD",
       "as_of": "2026-05-22T20:00:02.000Z",
-      "market_state": "POSTPOST",
-      "quote_source": "Delayed Quote",
+      "market_state": "CLOSED",
+      "quote_source": null,
       "performance": {
         "one_week": -2.5672049868747595,
         "one_month": -17.174034167042898,
@@ -424,7 +424,7 @@
       "market_cap": 106215161856,
       "currency": "USD",
       "as_of": "2026-05-22T20:00:00.000Z",
-      "market_state": "POSTPOST",
+      "market_state": "CLOSED",
       "quote_source": "Delayed Quote",
       "performance": {
         "one_week": 10.056132696636782,
@@ -440,7 +440,7 @@
       "market_cap": 8986810368,
       "currency": "USD",
       "as_of": "2026-05-22T20:00:00.000Z",
-      "market_state": "POSTPOST",
+      "market_state": "CLOSED",
       "quote_source": "Delayed Quote",
       "performance": {
         "one_week": 8.066896618044751,
@@ -456,8 +456,8 @@
       "market_cap": 6405756416,
       "currency": "USD",
       "as_of": "2026-05-22T20:00:02.000Z",
-      "market_state": "POSTPOST",
-      "quote_source": "Delayed Quote",
+      "market_state": "CLOSED",
+      "quote_source": null,
       "performance": {
         "one_week": 8.923370930546524,
         "one_month": 18.210526315789476,
@@ -472,7 +472,7 @@
       "market_cap": 4098039552,
       "currency": "USD",
       "as_of": "2026-05-22T20:00:01.000Z",
-      "market_state": "POSTPOST",
+      "market_state": "CLOSED",
       "quote_source": "Delayed Quote",
       "performance": {
         "one_week": 21.815411275515068,
@@ -488,7 +488,7 @@
       "market_cap": 105228025856,
       "currency": "USD",
       "as_of": "2026-05-22T20:00:01.000Z",
-      "market_state": "POSTPOST",
+      "market_state": "CLOSED",
       "quote_source": "Delayed Quote",
       "performance": {
         "one_week": -2.553030089520678,
@@ -504,8 +504,8 @@
       "market_cap": 42189119488,
       "currency": "USD",
       "as_of": "2026-05-22T20:00:03.000Z",
-      "market_state": "POSTPOST",
-      "quote_source": "Delayed Quote",
+      "market_state": "CLOSED",
+      "quote_source": null,
       "performance": {
         "one_week": 0.7350642049154814,
         "one_month": -6.322986533064981,
@@ -520,8 +520,8 @@
       "market_cap": 88250908672,
       "currency": "USD",
       "as_of": "2026-05-22T20:00:02.000Z",
-      "market_state": "POSTPOST",
-      "quote_source": "Delayed Quote",
+      "market_state": "CLOSED",
+      "quote_source": null,
       "performance": {
         "one_week": -8.1805560277702,
         "one_month": 0.05163000406760306,
@@ -536,8 +536,8 @@
       "market_cap": 116860362752,
       "currency": "USD",
       "as_of": "2026-05-22T20:00:02.000Z",
-      "market_state": "POSTPOST",
-      "quote_source": "Delayed Quote",
+      "market_state": "CLOSED",
+      "quote_source": null,
       "performance": {
         "one_week": 0.33125064760381473,
         "one_month": -5.836630949841486,
@@ -552,8 +552,8 @@
       "market_cap": 73867542528,
       "currency": "USD",
       "as_of": "2026-05-22T20:00:02.000Z",
-      "market_state": "POSTPOST",
-      "quote_source": "Delayed Quote",
+      "market_state": "CLOSED",
+      "quote_source": null,
       "performance": {
         "one_week": -1.2759869398015773,
         "one_month": 7.732473160300832,
@@ -568,7 +568,7 @@
       "market_cap": 48737607680,
       "currency": "USD",
       "as_of": "2026-05-22T20:00:01.000Z",
-      "market_state": "POSTPOST",
+      "market_state": "CLOSED",
       "quote_source": "Delayed Quote",
       "performance": {
         "one_week": -5.342062665427824,
@@ -584,8 +584,8 @@
       "market_cap": 146755698688,
       "currency": "USD",
       "as_of": "2026-05-22T20:00:02.000Z",
-      "market_state": "POSTPOST",
-      "quote_source": "Delayed Quote",
+      "market_state": "CLOSED",
+      "quote_source": null,
       "performance": {
         "one_week": -1.5930100512798064,
         "one_month": -1.7455126433568593,
@@ -600,7 +600,7 @@
       "market_cap": 8029782016,
       "currency": "USD",
       "as_of": "2026-05-22T20:00:01.000Z",
-      "market_state": "POSTPOST",
+      "market_state": "CLOSED",
       "quote_source": "Delayed Quote",
       "performance": {
         "one_week": 4.3370547510709105,
@@ -616,7 +616,7 @@
       "market_cap": 456181284864,
       "currency": "USD",
       "as_of": "2026-05-22T20:00:01.000Z",
-      "market_state": "POSTPOST",
+      "market_state": "CLOSED",
       "quote_source": "Delayed Quote",
       "performance": {
         "one_week": -1.9743507446411592,
@@ -632,8 +632,8 @@
       "market_cap": 28936435712,
       "currency": "USD",
       "as_of": "2026-05-22T20:00:02.000Z",
-      "market_state": "POSTPOST",
-      "quote_source": "Delayed Quote",
+      "market_state": "CLOSED",
+      "quote_source": null,
       "performance": {
         "one_week": -0.000005206162244112207,
         "one_month": -21.747574264608318,
@@ -648,7 +648,7 @@
       "market_cap": 57552216064,
       "currency": "USD",
       "as_of": "2026-05-22T20:00:01.000Z",
-      "market_state": "POSTPOST",
+      "market_state": "CLOSED",
       "quote_source": "Delayed Quote",
       "performance": {
         "one_week": -1.686862069225417,
@@ -664,7 +664,7 @@
       "market_cap": 474588151808,
       "currency": "USD",
       "as_of": "2026-05-22T20:00:01.000Z",
-      "market_state": "POSTPOST",
+      "market_state": "CLOSED",
       "quote_source": "Delayed Quote",
       "performance": {
         "one_week": 1.861095450948463,
@@ -680,8 +680,8 @@
       "market_cap": 381251518464,
       "currency": "USD",
       "as_of": "2026-05-22T20:00:18.000Z",
-      "market_state": "POSTPOST",
-      "quote_source": "Delayed Quote",
+      "market_state": "CLOSED",
+      "quote_source": null,
       "performance": {
         "one_week": 0.17268125899777823,
         "one_month": 2.7425893489201445,
@@ -696,8 +696,8 @@
       "market_cap": 50023550976,
       "currency": "USD",
       "as_of": "2026-05-22T20:00:02.000Z",
-      "market_state": "POSTPOST",
-      "quote_source": "Delayed Quote",
+      "market_state": "CLOSED",
+      "quote_source": null,
       "performance": {
         "one_week": 8.415201994266928,
         "one_month": 11.299511656322395,
@@ -712,7 +712,7 @@
       "market_cap": 69823922176,
       "currency": "USD",
       "as_of": "2026-05-22T20:00:01.000Z",
-      "market_state": "POSTPOST",
+      "market_state": "CLOSED",
       "quote_source": "Delayed Quote",
       "performance": {
         "one_week": 0.6595496682698938,
@@ -728,8 +728,8 @@
       "market_cap": 21609052160,
       "currency": "USD",
       "as_of": "2026-05-22T20:01:42.000Z",
-      "market_state": "POSTPOST",
-      "quote_source": "Delayed Quote",
+      "market_state": "CLOSED",
+      "quote_source": null,
       "performance": {
         "one_week": 4.608541536637984,
         "one_month": -4.308823529411761,
@@ -744,8 +744,8 @@
       "market_cap": 40758898688,
       "currency": "USD",
       "as_of": "2026-05-22T20:00:02.000Z",
-      "market_state": "POSTPOST",
-      "quote_source": "Delayed Quote",
+      "market_state": "CLOSED",
+      "quote_source": null,
       "performance": {
         "one_week": 6.159982752012041,
         "one_month": -10.826401209039934,
@@ -760,8 +760,8 @@
       "market_cap": 121736544256,
       "currency": "USD",
       "as_of": "2026-05-22T20:00:02.000Z",
-      "market_state": "POSTPOST",
-      "quote_source": "Delayed Quote",
+      "market_state": "CLOSED",
+      "quote_source": null,
       "performance": {
         "one_week": 6.231854801848734,
         "one_month": -6.542052665375755,
@@ -776,8 +776,8 @@
       "market_cap": 68688953344,
       "currency": "USD",
       "as_of": "2026-05-22T20:00:03.000Z",
-      "market_state": "POSTPOST",
-      "quote_source": "Delayed Quote",
+      "market_state": "CLOSED",
+      "quote_source": null,
       "performance": {
         "one_week": 1.8672779140293367,
         "one_month": -4.396097074340294,
@@ -792,8 +792,8 @@
       "market_cap": 12742006784,
       "currency": "USD",
       "as_of": "2026-05-22T20:00:02.000Z",
-      "market_state": "POSTPOST",
-      "quote_source": "Delayed Quote",
+      "market_state": "CLOSED",
+      "quote_source": null,
       "performance": {
         "one_week": -0.6107967656012736,
         "one_month": 30.245376187419026,
@@ -808,7 +808,7 @@
       "market_cap": null,
       "currency": "USD",
       "as_of": "2026-05-22T20:00:00.000Z",
-      "market_state": "POSTPOST",
+      "market_state": "CLOSED",
       "quote_source": "Delayed Quote",
       "performance": {
         "one_week": 1.2448137528425491,
@@ -824,8 +824,8 @@
       "market_cap": 76408840192,
       "currency": "USD",
       "as_of": "2026-05-22T20:00:02.000Z",
-      "market_state": "POSTPOST",
-      "quote_source": "Delayed Quote",
+      "market_state": "CLOSED",
+      "quote_source": null,
       "performance": {
         "one_week": 2.5328800232580315,
         "one_month": -4.447715964442126,
@@ -840,7 +840,7 @@
       "market_cap": 20603144192,
       "currency": "USD",
       "as_of": "2026-05-22T20:00:01.000Z",
-      "market_state": "POSTPOST",
+      "market_state": "CLOSED",
       "quote_source": "Delayed Quote",
       "performance": {
         "one_week": 1.660774445136017,
@@ -856,7 +856,7 @@
       "market_cap": 106493476864,
       "currency": "USD",
       "as_of": "2026-05-22T20:00:01.000Z",
-      "market_state": "POSTPOST",
+      "market_state": "CLOSED",
       "quote_source": "Delayed Quote",
       "performance": {
         "one_week": 1.9208317336741398,
@@ -872,8 +872,8 @@
       "market_cap": 36227686400,
       "currency": "USD",
       "as_of": "2026-05-22T20:00:02.000Z",
-      "market_state": "POSTPOST",
-      "quote_source": "Delayed Quote",
+      "market_state": "CLOSED",
+      "quote_source": null,
       "performance": {
         "one_week": 3.023832697233825,
         "one_month": -1.362399870695275,
@@ -888,8 +888,8 @@
       "market_cap": 151961206784,
       "currency": "USD",
       "as_of": "2026-05-22T20:00:02.000Z",
-      "market_state": "POSTPOST",
-      "quote_source": "Delayed Quote",
+      "market_state": "CLOSED",
+      "quote_source": null,
       "performance": {
         "one_week": -2.0253360684857666,
         "one_month": -5.441321038702245,
@@ -904,7 +904,7 @@
       "market_cap": null,
       "currency": "USD",
       "as_of": "2026-05-22T20:00:00.000Z",
-      "market_state": "POSTPOST",
+      "market_state": "CLOSED",
       "quote_source": "Delayed Quote",
       "performance": {
         "one_week": 0.3864213622207175,
@@ -920,7 +920,7 @@
       "market_cap": 1324976384,
       "currency": "USD",
       "as_of": "2026-05-22T20:00:01.000Z",
-      "market_state": "POSTPOST",
+      "market_state": "CLOSED",
       "quote_source": "Delayed Quote",
       "performance": {
         "one_week": 17.0880116355407,
@@ -936,8 +936,8 @@
       "market_cap": 89114337280,
       "currency": "USD",
       "as_of": "2026-05-22T20:00:30.000Z",
-      "market_state": "POSTPOST",
-      "quote_source": "Delayed Quote",
+      "market_state": "CLOSED",
+      "quote_source": null,
       "performance": {
         "one_week": -1.618788047459167,
         "one_month": -11.895964379966397,
@@ -952,8 +952,8 @@
       "market_cap": 18026432512,
       "currency": "USD",
       "as_of": "2026-05-22T20:00:02.000Z",
-      "market_state": "POSTPOST",
-      "quote_source": "Delayed Quote",
+      "market_state": "CLOSED",
+      "quote_source": null,
       "performance": {
         "one_week": 0.6982267894645798,
         "one_month": -2.8425905241566944,
@@ -968,7 +968,7 @@
       "market_cap": null,
       "currency": "USD",
       "as_of": "2026-05-22T20:00:00.000Z",
-      "market_state": "POSTPOST",
+      "market_state": "CLOSED",
       "quote_source": "Delayed Quote",
       "performance": {
         "one_week": -1.8784551066518644,
@@ -984,8 +984,8 @@
       "market_cap": 316416196608,
       "currency": "USD",
       "as_of": "2026-05-22T20:00:03.000Z",
-      "market_state": "POSTPOST",
-      "quote_source": "Delayed Quote",
+      "market_state": "CLOSED",
+      "quote_source": null,
       "performance": {
         "one_week": 7.5693536436978075,
         "one_month": 9.609464922348558,
@@ -1000,8 +1000,8 @@
       "market_cap": 279130210304,
       "currency": "USD",
       "as_of": "2026-05-22T20:00:02.000Z",
-      "market_state": "POSTPOST",
-      "quote_source": "Delayed Quote",
+      "market_state": "CLOSED",
+      "quote_source": null,
       "performance": {
         "one_week": -0.999778948754736,
         "one_month": -7.877190923605701,
@@ -1016,7 +1016,7 @@
       "market_cap": 46966382592,
       "currency": "USD",
       "as_of": "2026-05-22T20:00:01.000Z",
-      "market_state": "POSTPOST",
+      "market_state": "CLOSED",
       "quote_source": "Delayed Quote",
       "performance": {
         "one_week": 20.56877582963088,
@@ -1032,7 +1032,7 @@
       "market_cap": 166817333248,
       "currency": "USD",
       "as_of": "2026-05-22T20:00:01.000Z",
-      "market_state": "POSTPOST",
+      "market_state": "CLOSED",
       "quote_source": "Delayed Quote",
       "performance": {
         "one_week": 3.6888394053099702,
@@ -1048,8 +1048,8 @@
       "market_cap": 167006765056,
       "currency": "USD",
       "as_of": "2026-05-22T20:00:03.000Z",
-      "market_state": "POSTPOST",
-      "quote_source": "Delayed Quote",
+      "market_state": "CLOSED",
+      "quote_source": null,
       "performance": {
         "one_week": 1.1678236118646472,
         "one_month": 14.985782363331172,
@@ -1064,7 +1064,7 @@
       "market_cap": 4639851282432,
       "currency": "USD",
       "as_of": "2026-05-22T20:00:00.000Z",
-      "market_state": "POSTPOST",
+      "market_state": "CLOSED",
       "quote_source": "Delayed Quote",
       "performance": {
         "one_week": -3.4805178743343004,
@@ -1080,8 +1080,8 @@
       "market_cap": 294042730496,
       "currency": "USD",
       "as_of": "2026-05-22T20:00:03.000Z",
-      "market_state": "POSTPOST",
-      "quote_source": "Delayed Quote",
+      "market_state": "CLOSED",
+      "quote_source": null,
       "performance": {
         "one_week": 5.088197917441565,
         "one_month": 6.620381173954566,
@@ -1096,8 +1096,8 @@
       "market_cap": 34643947520,
       "currency": "USD",
       "as_of": "2026-05-22T20:00:03.000Z",
-      "market_state": "POSTPOST",
-      "quote_source": "Delayed Quote",
+      "market_state": "CLOSED",
+      "quote_source": null,
       "performance": {
         "one_week": -0.6944404530391683,
         "one_month": 6.034260682225089,
@@ -1112,8 +1112,8 @@
       "market_cap": 87420411904,
       "currency": "USD",
       "as_of": "2026-05-22T20:00:02.000Z",
-      "market_state": "POSTPOST",
-      "quote_source": "Delayed Quote",
+      "market_state": "CLOSED",
+      "quote_source": null,
       "performance": {
         "one_week": -6.839243498817968,
         "one_month": -16.393685436891698,
@@ -1128,8 +1128,8 @@
       "market_cap": 311826382848,
       "currency": "USD",
       "as_of": "2026-05-22T20:00:03.000Z",
-      "market_state": "POSTPOST",
-      "quote_source": "Delayed Quote",
+      "market_state": "CLOSED",
+      "quote_source": null,
       "performance": {
         "one_week": 5.230072845828944,
         "one_month": -7.784977908689251,
@@ -1144,7 +1144,7 @@
       "market_cap": 144422223872,
       "currency": "USD",
       "as_of": "2026-05-22T20:00:01.000Z",
-      "market_state": "POSTPOST",
+      "market_state": "CLOSED",
       "quote_source": "Delayed Quote",
       "performance": {
         "one_week": 6.884259111176269,
@@ -1160,7 +1160,7 @@
       "market_cap": 66313195520,
       "currency": "USD",
       "as_of": "2026-05-22T20:00:01.000Z",
-      "market_state": "POSTPOST",
+      "market_state": "CLOSED",
       "quote_source": "Delayed Quote",
       "performance": {
         "one_week": -4.5372043263434465,
@@ -1176,8 +1176,8 @@
       "market_cap": 25100371968,
       "currency": "USD",
       "as_of": "2026-05-22T20:00:02.000Z",
-      "market_state": "POSTPOST",
-      "quote_source": "Delayed Quote",
+      "market_state": "CLOSED",
+      "quote_source": null,
       "performance": {
         "one_week": -1.033398172404194,
         "one_month": -13.595270577535246,
@@ -1192,8 +1192,8 @@
       "market_cap": 86506446848,
       "currency": "USD",
       "as_of": "2026-05-22T20:00:03.000Z",
-      "market_state": "POSTPOST",
-      "quote_source": "Delayed Quote",
+      "market_state": "CLOSED",
+      "quote_source": null,
       "performance": {
         "one_week": -0.9004927473797565,
         "one_month": -3.6834196287854426,
@@ -1208,7 +1208,7 @@
       "market_cap": 21849233408,
       "currency": "USD",
       "as_of": "2026-05-22T20:00:01.000Z",
-      "market_state": "POSTPOST",
+      "market_state": "CLOSED",
       "quote_source": "Delayed Quote",
       "performance": {
         "one_week": 1.3119172175863363,
@@ -1224,7 +1224,7 @@
       "market_cap": null,
       "currency": "USD",
       "as_of": "2026-05-22T20:00:00.000Z",
-      "market_state": "POSTPOST",
+      "market_state": "CLOSED",
       "quote_source": "Delayed Quote",
       "performance": {
         "one_week": 0.8335034539344134,
@@ -1240,7 +1240,7 @@
       "market_cap": 602315816960,
       "currency": "USD",
       "as_of": "2026-05-22T20:00:01.000Z",
-      "market_state": "POSTPOST",
+      "market_state": "CLOSED",
       "quote_source": "Delayed Quote",
       "performance": {
         "one_week": 10.177442032346757,
@@ -1256,7 +1256,7 @@
       "market_cap": 20309831680,
       "currency": "USD",
       "as_of": "2026-05-22T20:00:00.000Z",
-      "market_state": "POSTPOST",
+      "market_state": "CLOSED",
       "quote_source": "Delayed Quote",
       "performance": {
         "one_week": 7.34794385001826,
@@ -1272,8 +1272,8 @@
       "market_cap": 37624971264,
       "currency": "USD",
       "as_of": "2026-05-22T20:00:02.000Z",
-      "market_state": "POSTPOST",
-      "quote_source": "Delayed Quote",
+      "market_state": "CLOSED",
+      "quote_source": null,
       "performance": {
         "one_week": 1.1113778752438084,
         "one_month": 7.873408153852527,
@@ -1288,7 +1288,7 @@
       "market_cap": null,
       "currency": "USD",
       "as_of": "2026-05-22T20:00:00.000Z",
-      "market_state": "POSTPOST",
+      "market_state": "CLOSED",
       "quote_source": "Delayed Quote",
       "performance": {
         "one_week": 0.9010691202067408,
@@ -1304,7 +1304,7 @@
       "market_cap": null,
       "currency": "USD",
       "as_of": "2026-05-22T20:00:00.000Z",
-      "market_state": "POSTPOST",
+      "market_state": "CLOSED",
       "quote_source": "Delayed Quote",
       "performance": {
         "one_week": 1.6672124081422781,
@@ -1320,8 +1320,8 @@
       "market_cap": 820948697088,
       "currency": "USD",
       "as_of": "2026-05-22T20:00:02.000Z",
-      "market_state": "POSTPOST",
-      "quote_source": "Delayed Quote",
+      "market_state": "CLOSED",
+      "quote_source": null,
       "performance": {
         "one_week": 2.877674527941295,
         "one_month": -2.1212667710437696,
@@ -1336,7 +1336,7 @@
       "market_cap": 246674391040,
       "currency": "USD",
       "as_of": "2026-05-22T20:00:01.000Z",
-      "market_state": "POSTPOST",
+      "market_state": "CLOSED",
       "quote_source": "Delayed Quote",
       "performance": {
         "one_week": 4.658821950276812,
@@ -1352,8 +1352,8 @@
       "market_cap": 75176869888,
       "currency": "USD",
       "as_of": "2026-05-22T20:00:02.000Z",
-      "market_state": "POSTPOST",
-      "quote_source": "Delayed Quote",
+      "market_state": "CLOSED",
+      "quote_source": null,
       "performance": {
         "one_week": 0.4757624942107437,
         "one_month": 6.224459501099706,
@@ -1368,7 +1368,7 @@
       "market_cap": null,
       "currency": "USD",
       "as_of": "2026-05-22T20:00:00.000Z",
-      "market_state": "POSTPOST",
+      "market_state": "CLOSED",
       "quote_source": "Delayed Quote",
       "performance": {
         "one_week": 3.5836923033457304,
@@ -1384,8 +1384,8 @@
       "market_cap": 5196015104,
       "currency": "USD",
       "as_of": "2026-05-22T20:00:02.000Z",
-      "market_state": "POSTPOST",
-      "quote_source": "Delayed Quote",
+      "market_state": "CLOSED",
+      "quote_source": null,
       "performance": {
         "one_week": -3.368742753377802,
         "one_month": 8.22569652423639,
@@ -1400,8 +1400,8 @@
       "market_cap": 21886066688,
       "currency": "USD",
       "as_of": "2026-05-22T20:00:02.000Z",
-      "market_state": "POSTPOST",
-      "quote_source": "Delayed Quote",
+      "market_state": "CLOSED",
+      "quote_source": null,
       "performance": {
         "one_week": 7.9708343924564105,
         "one_month": -5.918472343948788,
@@ -1416,8 +1416,8 @@
       "market_cap": 21314258944,
       "currency": "USD",
       "as_of": "2026-05-22T20:00:02.000Z",
-      "market_state": "POSTPOST",
-      "quote_source": "Delayed Quote",
+      "market_state": "CLOSED",
+      "quote_source": null,
       "performance": {
         "one_week": 3.805913073406602,
         "one_month": -4.6548291924561935,
@@ -1432,7 +1432,7 @@
       "market_cap": 73668820992,
       "currency": "USD",
       "as_of": "2026-05-22T20:00:00.000Z",
-      "market_state": "POSTPOST",
+      "market_state": "CLOSED",
       "quote_source": "Delayed Quote",
       "performance": {
         "one_week": -2.4518401058755934,
@@ -1448,8 +1448,8 @@
       "market_cap": 50470567936,
       "currency": "USD",
       "as_of": "2026-05-22T20:00:02.000Z",
-      "market_state": "POSTPOST",
-      "quote_source": "Delayed Quote",
+      "market_state": "CLOSED",
+      "quote_source": null,
       "performance": {
         "one_week": -0.40936005329219466,
         "one_month": -6.458758069266652,
@@ -1464,8 +1464,8 @@
       "market_cap": 120631828480,
       "currency": "USD",
       "as_of": "2026-05-22T20:00:02.000Z",
-      "market_state": "POSTPOST",
-      "quote_source": "Delayed Quote",
+      "market_state": "CLOSED",
+      "quote_source": null,
       "performance": {
         "one_week": -1.552054847250382,
         "one_month": -12.300665663810525,
@@ -1480,7 +1480,7 @@
       "market_cap": 381861855232,
       "currency": "USD",
       "as_of": "2026-05-22T20:00:01.000Z",
-      "market_state": "POSTPOST",
+      "market_state": "CLOSED",
       "quote_source": "Delayed Quote",
       "performance": {
         "one_week": 7.245714628704775,
@@ -1496,8 +1496,8 @@
       "market_cap": 38525603840,
       "currency": "USD",
       "as_of": "2026-05-22T20:00:03.000Z",
-      "market_state": "POSTPOST",
-      "quote_source": "Delayed Quote",
+      "market_state": "CLOSED",
+      "quote_source": null,
       "performance": {
         "one_week": -1.9660065216935518,
         "one_month": 7.062015632388624,
@@ -1512,8 +1512,8 @@
       "market_cap": 200554479616,
       "currency": "USD",
       "as_of": "2026-05-22T20:00:02.000Z",
-      "market_state": "POSTPOST",
-      "quote_source": "Delayed Quote",
+      "market_state": "CLOSED",
+      "quote_source": null,
       "performance": {
         "one_week": 2.1274232207852024,
         "one_month": -5.931951507898045,
@@ -1528,7 +1528,7 @@
       "market_cap": 84381409280,
       "currency": "USD",
       "as_of": "2026-05-22T20:00:01.000Z",
-      "market_state": "POSTPOST",
+      "market_state": "CLOSED",
       "quote_source": "Delayed Quote",
       "performance": {
         "one_week": 7.603386127005968,
@@ -1544,7 +1544,7 @@
       "market_cap": 1549098287104,
       "currency": "USD",
       "as_of": "2026-05-22T20:00:01.000Z",
-      "market_state": "POSTPOST",
+      "market_state": "CLOSED",
       "quote_source": "Delayed Quote",
       "performance": {
         "one_week": -0.6463345318508087,
@@ -1560,7 +1560,7 @@
       "market_cap": 18601340928,
       "currency": "USD",
       "as_of": "2026-05-22T20:00:01.000Z",
-      "market_state": "POSTPOST",
+      "market_state": "CLOSED",
       "quote_source": "Delayed Quote",
       "performance": {
         "one_week": -4.404569484507143,
@@ -1576,7 +1576,7 @@
       "market_cap": 171897356288,
       "currency": "USD",
       "as_of": "2026-05-22T20:00:01.000Z",
-      "market_state": "POSTPOST",
+      "market_state": "CLOSED",
       "quote_source": "Delayed Quote",
       "performance": {
         "one_week": 10.989881099795626,
@@ -1592,7 +1592,7 @@
       "market_cap": 3109320130560,
       "currency": "USD",
       "as_of": "2026-05-22T20:00:00.000Z",
-      "market_state": "POSTPOST",
+      "market_state": "CLOSED",
       "quote_source": "Delayed Quote",
       "performance": {
         "one_week": -0.7939925391351851,
@@ -1608,7 +1608,7 @@
       "market_cap": 846928216064,
       "currency": "USD",
       "as_of": "2026-05-22T20:00:01.000Z",
-      "market_state": "POSTPOST",
+      "market_state": "CLOSED",
       "quote_source": "Delayed Quote",
       "performance": {
         "one_week": 3.6348118885566363,
@@ -1624,7 +1624,7 @@
       "market_cap": 54529716224,
       "currency": "USD",
       "as_of": "2026-05-22T20:00:00.000Z",
-      "market_state": "POSTPOST",
+      "market_state": "CLOSED",
       "quote_source": "Delayed Quote",
       "performance": {
         "one_week": -2.3506421678719263,
@@ -1640,7 +1640,7 @@
       "market_cap": 51469869056,
       "currency": "USD",
       "as_of": "2026-05-22T20:00:00.000Z",
-      "market_state": "POSTPOST",
+      "market_state": "CLOSED",
       "quote_source": "Delayed Quote",
       "performance": {
         "one_week": -0.05490617168265714,
@@ -1656,7 +1656,7 @@
       "market_cap": 373076754432,
       "currency": "USD",
       "as_of": "2026-05-22T20:00:00.000Z",
-      "market_state": "POSTPOST",
+      "market_state": "CLOSED",
       "quote_source": "Delayed Quote",
       "performance": {
         "one_week": 1.8156784852731662,
@@ -1672,8 +1672,8 @@
       "market_cap": 29042284544,
       "currency": "USD",
       "as_of": "2026-05-22T20:00:02.000Z",
-      "market_state": "POSTPOST",
-      "quote_source": "Delayed Quote",
+      "market_state": "CLOSED",
+      "quote_source": null,
       "performance": {
         "one_week": 7.698930153640887,
         "one_month": -7.987971668428155,
@@ -1688,7 +1688,7 @@
       "market_cap": 27601690624,
       "currency": "USD",
       "as_of": "2026-05-22T20:00:00.000Z",
-      "market_state": "POSTPOST",
+      "market_state": "CLOSED",
       "quote_source": "Delayed Quote",
       "performance": {
         "one_week": 16.20111702274856,
@@ -1704,7 +1704,7 @@
       "market_cap": 29099931648,
       "currency": "USD",
       "as_of": "2026-05-22T20:00:00.000Z",
-      "market_state": "POSTPOST",
+      "market_state": "CLOSED",
       "quote_source": "Delayed Quote",
       "performance": {
         "one_week": 9.030907563065115,
@@ -1720,8 +1720,8 @@
       "market_cap": 52835897344,
       "currency": "USD",
       "as_of": "2026-05-22T20:00:02.000Z",
-      "market_state": "POSTPOST",
-      "quote_source": "Delayed Quote",
+      "market_state": "CLOSED",
+      "quote_source": null,
       "performance": {
         "one_week": 2.1936374036722586,
         "one_month": 8.279663001950684,
@@ -1736,7 +1736,7 @@
       "market_cap": 5215507972096,
       "currency": "USD",
       "as_of": "2026-05-22T20:00:00.000Z",
-      "market_state": "POSTPOST",
+      "market_state": "CLOSED",
       "quote_source": "Delayed Quote",
       "performance": {
         "one_week": -4.433697407902113,
@@ -1752,7 +1752,7 @@
       "market_cap": 79899516928,
       "currency": "USD",
       "as_of": "2026-05-22T20:00:00.000Z",
-      "market_state": "POSTPOST",
+      "market_state": "CLOSED",
       "quote_source": "Delayed Quote",
       "performance": {
         "one_week": 8.566037735849067,
@@ -1768,7 +1768,7 @@
       "market_cap": 45178929152,
       "currency": "USD",
       "as_of": "2026-05-22T20:00:00.000Z",
-      "market_state": "POSTPOST",
+      "market_state": "CLOSED",
       "quote_source": "Delayed Quote",
       "performance": {
         "one_week": 2.731853393134586,
@@ -1784,7 +1784,7 @@
       "market_cap": 3286585600,
       "currency": "USD",
       "as_of": "2026-05-22T20:00:00.000Z",
-      "market_state": "POSTPOST",
+      "market_state": "CLOSED",
       "quote_source": "Delayed Quote",
       "performance": {
         "one_week": 7.2233581412418975,
@@ -1800,7 +1800,7 @@
       "market_cap": 205820313600,
       "currency": "USD",
       "as_of": "2026-05-22T20:00:00.000Z",
-      "market_state": "POSTPOST",
+      "market_state": "CLOSED",
       "quote_source": "Delayed Quote",
       "performance": {
         "one_week": 0.9723745508930521,
@@ -1816,7 +1816,7 @@
       "market_cap": 1948909312,
       "currency": "USD",
       "as_of": "2026-05-22T20:00:00.000Z",
-      "market_state": "POSTPOST",
+      "market_state": "CLOSED",
       "quote_source": "Delayed Quote",
       "performance": {
         "one_week": 7.010752688172038,
@@ -1832,7 +1832,7 @@
       "market_cap": 5273360896,
       "currency": "USD",
       "as_of": "2026-05-22T20:00:00.000Z",
-      "market_state": "POSTPOST",
+      "market_state": "CLOSED",
       "quote_source": "Delayed Quote",
       "performance": {
         "one_week": 7.568843786596456e-7,
@@ -1848,8 +1848,8 @@
       "market_cap": 294552043520,
       "currency": "USD",
       "as_of": "2026-05-22T20:00:02.000Z",
-      "market_state": "POSTPOST",
-      "quote_source": "Delayed Quote",
+      "market_state": "CLOSED",
+      "quote_source": null,
       "performance": {
         "one_week": -0.3269872941067356,
         "one_month": 15.27295121552382,
@@ -1864,7 +1864,7 @@
       "market_cap": 895970944,
       "currency": "USD",
       "as_of": "2026-05-22T20:00:00.000Z",
-      "market_state": "POSTPOST",
+      "market_state": "CLOSED",
       "quote_source": "Delayed Quote",
       "performance": {
         "one_week": 0.3096774193548321,
@@ -1880,8 +1880,8 @@
       "market_cap": 22405251072,
       "currency": "USD",
       "as_of": "2026-04-16T20:03:20.000Z",
-      "market_state": "POSTPOST",
-      "quote_source": "Delayed Quote",
+      "market_state": "CLOSED",
+      "quote_source": null,
       "performance": {
         "one_week": 12.643298798671374,
         "one_month": 7.875897607089202,
@@ -1896,8 +1896,8 @@
       "market_cap": 2078357888,
       "currency": "USD",
       "as_of": "2026-05-22T20:00:02.000Z",
-      "market_state": "POSTPOST",
-      "quote_source": "Delayed Quote",
+      "market_state": "CLOSED",
+      "quote_source": null,
       "performance": {
         "one_week": -2.8653337597632786,
         "one_month": 9.993511796474879,
@@ -1912,7 +1912,7 @@
       "market_cap": 251020640256,
       "currency": "USD",
       "as_of": "2026-05-22T20:00:00.000Z",
-      "market_state": "POSTPOST",
+      "market_state": "CLOSED",
       "quote_source": "Delayed Quote",
       "performance": {
         "one_week": 18.199411140559047,
@@ -1928,7 +1928,7 @@
       "market_cap": null,
       "currency": "USD",
       "as_of": "2026-05-22T20:00:00.000Z",
-      "market_state": "POSTPOST",
+      "market_state": "CLOSED",
       "quote_source": "Delayed Quote",
       "performance": {
         "one_week": 1.2145074144375176,
@@ -1944,8 +1944,8 @@
       "market_cap": 34481537024,
       "currency": "USD",
       "as_of": "2026-05-22T20:02:35.000Z",
-      "market_state": "POSTPOST",
-      "quote_source": "Delayed Quote",
+      "market_state": "CLOSED",
+      "quote_source": null,
       "performance": {
         "one_week": 12.392069346480456,
         "one_month": -19.24882546467798,
@@ -1960,8 +1960,8 @@
       "market_cap": 11354587136,
       "currency": "USD",
       "as_of": "2026-05-22T20:00:02.000Z",
-      "market_state": "POSTPOST",
-      "quote_source": "Delayed Quote",
+      "market_state": "CLOSED",
+      "quote_source": null,
       "performance": {
         "one_week": -0.07347286502200964,
         "one_month": 5.919001856545396,
@@ -1976,7 +1976,7 @@
       "market_cap": 66979561472,
       "currency": "USD",
       "as_of": "2026-05-22T20:00:00.000Z",
-      "market_state": "POSTPOST",
+      "market_state": "CLOSED",
       "quote_source": "Delayed Quote",
       "performance": {
         "one_week": -8.502685284640172,
@@ -1992,7 +1992,7 @@
       "market_cap": 9260923904,
       "currency": "USD",
       "as_of": "2026-05-22T20:00:00.000Z",
-      "market_state": "POSTPOST",
+      "market_state": "CLOSED",
       "quote_source": "Delayed Quote",
       "performance": {
         "one_week": 4.25713170977282,
@@ -2008,8 +2008,8 @@
       "market_cap": 50328096768,
       "currency": "USD",
       "as_of": "2026-05-22T20:00:02.000Z",
-      "market_state": "POSTPOST",
-      "quote_source": "Delayed Quote",
+      "market_state": "CLOSED",
+      "quote_source": null,
       "performance": {
         "one_week": 0.7911061734816337,
         "one_month": 11.122306571731423,
@@ -2024,8 +2024,8 @@
       "market_cap": 238376419328,
       "currency": "USD",
       "as_of": "2026-05-22T20:00:02.000Z",
-      "market_state": "POSTPOST",
-      "quote_source": "Delayed Quote",
+      "market_state": "CLOSED",
+      "quote_source": null,
       "performance": {
         "one_week": 3.405776126688418,
         "one_month": -2.1557700420997885,
@@ -2040,8 +2040,8 @@
       "market_cap": 6937349632,
       "currency": "USD",
       "as_of": "2026-05-22T20:00:02.000Z",
-      "market_state": "POSTPOST",
-      "quote_source": "Delayed Quote",
+      "market_state": "CLOSED",
+      "quote_source": null,
       "performance": {
         "one_week": -5.484858399877749,
         "one_month": 12.241200022967735,
@@ -2056,7 +2056,7 @@
       "market_cap": 133658427392,
       "currency": "USD",
       "as_of": "2026-05-22T20:00:00.000Z",
-      "market_state": "POSTPOST",
+      "market_state": "CLOSED",
       "quote_source": "Delayed Quote",
       "performance": {
         "one_week": 2.71240651556996,
@@ -2072,8 +2072,8 @@
       "market_cap": 85636898816,
       "currency": "USD",
       "as_of": "2026-05-22T20:00:02.000Z",
-      "market_state": "POSTPOST",
-      "quote_source": "Delayed Quote",
+      "market_state": "CLOSED",
+      "quote_source": null,
       "performance": {
         "one_week": 3.4308394641376814,
         "one_month": 5.390987319482697,
@@ -2088,8 +2088,8 @@
       "market_cap": 3945605888,
       "currency": "USD",
       "as_of": "2026-05-22T20:00:02.000Z",
-      "market_state": "POSTPOST",
-      "quote_source": "Delayed Quote",
+      "market_state": "CLOSED",
+      "quote_source": null,
       "performance": {
         "one_week": 1.5138064531908124,
         "one_month": -15.991155074615705,
@@ -2100,16 +2100,16 @@
     },
     "SNDK": {
       "ticker": "SNDK",
-      "price": 1478.69,
-      "market_cap": 218978844672,
+      "price": 1478.68,
+      "market_cap": 218977370112,
       "currency": "USD",
       "as_of": "2026-05-22T20:00:00.000Z",
-      "market_state": "POSTPOST",
+      "market_state": "CLOSED",
       "quote_source": "Delayed Quote",
       "performance": {
-        "one_week": 5.049695255655971,
-        "one_month": 51.03005800792877,
-        "one_year": 3807.743113206283,
+        "one_week": 5.048984831596461,
+        "one_month": 51.02903663050681,
+        "one_year": 3807.7166861450783,
         "five_year": null
       },
       "source": "yahoo-finance"
@@ -2120,8 +2120,8 @@
       "market_cap": 106893639680,
       "currency": "USD",
       "as_of": "2026-05-22T20:00:03.000Z",
-      "market_state": "POSTPOST",
-      "quote_source": "Delayed Quote",
+      "market_state": "CLOSED",
+      "quote_source": null,
       "performance": {
         "one_week": 18.97743330784033,
         "one_month": -0.5775713078738454,
@@ -2136,7 +2136,7 @@
       "market_cap": null,
       "currency": "USD",
       "as_of": "2026-05-22T20:00:00.000Z",
-      "market_state": "POSTPOST",
+      "market_state": "CLOSED",
       "quote_source": "Delayed Quote",
       "performance": {
         "one_week": 0.8753084188255175,
@@ -2152,7 +2152,7 @@
       "market_cap": 34615394304,
       "currency": "USD",
       "as_of": "2026-05-22T20:00:00.000Z",
-      "market_state": "POSTPOST",
+      "market_state": "CLOSED",
       "quote_source": "Delayed Quote",
       "performance": {
         "one_week": 4.661203380486501,
@@ -2168,8 +2168,8 @@
       "market_cap": 59424776192,
       "currency": "USD",
       "as_of": "2026-05-22T20:00:02.000Z",
-      "market_state": "POSTPOST",
-      "quote_source": "Delayed Quote",
+      "market_state": "CLOSED",
+      "quote_source": null,
       "performance": {
         "one_week": 8.874776365624042,
         "one_month": 49.04146029942737,
@@ -2184,7 +2184,7 @@
       "market_cap": 182237626368,
       "currency": "USD",
       "as_of": "2026-05-22T20:00:00.000Z",
-      "market_state": "POSTPOST",
+      "market_state": "CLOSED",
       "quote_source": "Delayed Quote",
       "performance": {
         "one_week": 2.169790178454968,
@@ -2200,8 +2200,8 @@
       "market_cap": 39672029184,
       "currency": "USD",
       "as_of": "2026-05-22T20:00:03.000Z",
-      "market_state": "POSTPOST",
-      "quote_source": "Delayed Quote",
+      "market_state": "CLOSED",
+      "quote_source": null,
       "performance": {
         "one_week": -0.6415891211823261,
         "one_month": 9.128766013221556,
@@ -2216,8 +2216,8 @@
       "market_cap": 14968887296,
       "currency": "USD",
       "as_of": "2026-05-22T20:00:02.000Z",
-      "market_state": "POSTPOST",
-      "quote_source": "Delayed Quote",
+      "market_state": "CLOSED",
+      "quote_source": null,
       "performance": {
         "one_week": -11.634294333392042,
         "one_month": -9.120385477131206,
@@ -2232,8 +2232,8 @@
       "market_cap": 166590480384,
       "currency": "USD",
       "as_of": "2026-05-22T20:00:02.000Z",
-      "market_state": "POSTPOST",
-      "quote_source": "Delayed Quote",
+      "market_state": "CLOSED",
+      "quote_source": null,
       "performance": {
         "one_week": 2.2676469738452023,
         "one_month": -12.782595230427383,
@@ -2248,7 +2248,7 @@
       "market_cap": 33725059072,
       "currency": "USD",
       "as_of": "2026-05-22T20:00:00.000Z",
-      "market_state": "POSTPOST",
+      "market_state": "CLOSED",
       "quote_source": "Delayed Quote",
       "performance": {
         "one_week": 3.449152724555313,
@@ -2264,8 +2264,8 @@
       "market_cap": 2098032410624,
       "currency": "USD",
       "as_of": "2026-05-22T20:00:02.000Z",
-      "market_state": "POSTPOST",
-      "quote_source": "Delayed Quote",
+      "market_state": "CLOSED",
+      "quote_source": null,
       "performance": {
         "one_week": 0.04204127461811823,
         "one_month": 4.408423872332799,
@@ -2280,7 +2280,7 @@
       "market_cap": 281409781760,
       "currency": "USD",
       "as_of": "2026-05-22T20:00:00.000Z",
-      "market_state": "POSTPOST",
+      "market_state": "CLOSED",
       "quote_source": "Delayed Quote",
       "performance": {
         "one_week": 2.14051754979935,
@@ -2296,8 +2296,8 @@
       "market_cap": 45719199744,
       "currency": "USD",
       "as_of": "2026-05-22T20:00:02.000Z",
-      "market_state": "POSTPOST",
-      "quote_source": "Delayed Quote",
+      "market_state": "CLOSED",
+      "quote_source": null,
       "performance": {
         "one_week": 5.930227859398243,
         "one_month": 43.351691151185435,
@@ -2312,8 +2312,8 @@
       "market_cap": 352786841600,
       "currency": "USD",
       "as_of": "2026-05-22T20:00:02.000Z",
-      "market_state": "POSTPOST",
-      "quote_source": "Delayed Quote",
+      "market_state": "CLOSED",
+      "quote_source": null,
       "performance": {
         "one_week": -1.3660038136705197,
         "one_month": 9.886289905088368,
@@ -2328,8 +2328,8 @@
       "market_cap": 157856464896,
       "currency": "USD",
       "as_of": "2026-05-22T20:00:02.000Z",
-      "market_state": "POSTPOST",
-      "quote_source": "Delayed Quote",
+      "market_state": "CLOSED",
+      "quote_source": null,
       "performance": {
         "one_week": -1.7297448258515127,
         "one_month": 6.607861470259614,
@@ -2344,7 +2344,7 @@
       "market_cap": null,
       "currency": "USD",
       "as_of": "2026-05-22T20:00:00.000Z",
-      "market_state": "POSTPOST",
+      "market_state": "CLOSED",
       "quote_source": "Delayed Quote",
       "performance": {
         "one_week": 1.6601477127253208,
@@ -2360,8 +2360,8 @@
       "market_cap": 33820610560,
       "currency": "USD",
       "as_of": "2026-05-22T20:00:02.000Z",
-      "market_state": "POSTPOST",
-      "quote_source": "Delayed Quote",
+      "market_state": "CLOSED",
+      "quote_source": null,
       "performance": {
         "one_week": -2.6808001091126332,
         "one_month": -10.154764344240746,
@@ -2376,7 +2376,7 @@
       "market_cap": null,
       "currency": "USD",
       "as_of": "2026-05-22T20:00:00.000Z",
-      "market_state": "POSTPOST",
+      "market_state": "CLOSED",
       "quote_source": "Delayed Quote",
       "performance": {
         "one_week": 0.8992696244905921,
@@ -2392,8 +2392,8 @@
       "market_cap": 125780262912,
       "currency": "USD",
       "as_of": "2026-05-22T20:00:02.000Z",
-      "market_state": "POSTPOST",
-      "quote_source": "Delayed Quote",
+      "market_state": "CLOSED",
+      "quote_source": null,
       "performance": {
         "one_week": -11.72157280294254,
         "one_month": 7.314670079333291,
@@ -2408,7 +2408,7 @@
       "market_cap": 110283530240,
       "currency": "USD",
       "as_of": "2026-05-22T20:00:00.000Z",
-      "market_state": "POSTPOST",
+      "market_state": "CLOSED",
       "quote_source": "Delayed Quote",
       "performance": {
         "one_week": -0.5561304815526368,
@@ -2424,8 +2424,8 @@
       "market_cap": 52691505152,
       "currency": "USD",
       "as_of": "2026-05-22T20:00:02.000Z",
-      "market_state": "POSTPOST",
-      "quote_source": "Delayed Quote",
+      "market_state": "CLOSED",
+      "quote_source": null,
       "performance": {
         "one_week": 11.877153632680036,
         "one_month": 0.30811139004646465,
@@ -2440,7 +2440,7 @@
       "market_cap": null,
       "currency": "USD",
       "as_of": "2026-05-22T20:00:00.000Z",
-      "market_state": "POSTPOST",
+      "market_state": "CLOSED",
       "quote_source": "Delayed Quote",
       "performance": {
         "one_week": 1.1165049001099139,
@@ -2456,7 +2456,7 @@
       "market_cap": 19389802496,
       "currency": "USD",
       "as_of": "2026-05-22T20:00:00.000Z",
-      "market_state": "POSTPOST",
+      "market_state": "CLOSED",
       "quote_source": "Delayed Quote",
       "performance": {
         "one_week": 1.0315562044038835,
@@ -2472,7 +2472,7 @@
       "market_cap": null,
       "currency": "USD",
       "as_of": "2026-05-22T20:00:00.000Z",
-      "market_state": "POSTPOST",
+      "market_state": "CLOSED",
       "quote_source": "Delayed Quote",
       "performance": {
         "one_week": 0.9240270122871193,
@@ -2488,7 +2488,7 @@
       "market_cap": 166922665984,
       "currency": "USD",
       "as_of": "2026-05-22T20:00:00.000Z",
-      "market_state": "POSTPOST",
+      "market_state": "CLOSED",
       "quote_source": "Delayed Quote",
       "performance": {
         "one_week": 0.46886250318220635,
@@ -2504,8 +2504,8 @@
       "market_cap": 233798483968,
       "currency": "USD",
       "as_of": "2026-05-22T20:00:32.000Z",
-      "market_state": "POSTPOST",
-      "quote_source": "Delayed Quote",
+      "market_state": "CLOSED",
+      "quote_source": null,
       "performance": {
         "one_week": 4.0588421484259225,
         "one_month": -5.187393566729546,
@@ -2520,8 +2520,8 @@
       "market_cap": 95968673792,
       "currency": "USD",
       "as_of": "2026-05-22T20:00:02.000Z",
-      "market_state": "POSTPOST",
-      "quote_source": "Delayed Quote",
+      "market_state": "CLOSED",
+      "quote_source": null,
       "performance": {
         "one_week": 0.9650009875412721,
         "one_month": 10.365684506394794,
@@ -2536,7 +2536,7 @@
       "market_cap": 958671028224,
       "currency": "USD",
       "as_of": "2026-05-22T20:00:00.000Z",
-      "market_state": "POSTPOST",
+      "market_state": "CLOSED",
       "quote_source": "Delayed Quote",
       "performance": {
         "one_week": -8.505132908176682,
@@ -2552,7 +2552,7 @@
       "market_cap": 11308054528,
       "currency": "USD",
       "as_of": "2026-05-22T20:00:00.000Z",
-      "market_state": "POSTPOST",
+      "market_state": "CLOSED",
       "quote_source": "Delayed Quote",
       "performance": {
         "one_week": 2.2401447670795736,
@@ -2568,7 +2568,7 @@
       "market_cap": null,
       "currency": "USD",
       "as_of": "2026-05-22T20:00:00.000Z",
-      "market_state": "POSTPOST",
+      "market_state": "CLOSED",
       "quote_source": "Delayed Quote",
       "performance": {
         "one_week": 1.6438386515888284,
@@ -2584,8 +2584,8 @@
       "market_cap": 642135228416,
       "currency": "USD",
       "as_of": "2026-05-22T20:00:22.000Z",
-      "market_state": "POSTPOST",
-      "quote_source": "Delayed Quote",
+      "market_state": "CLOSED",
+      "quote_source": null,
       "performance": {
         "one_week": -1.8996949111764045,
         "one_month": 3.6254180602006607,
@@ -2600,8 +2600,8 @@
       "market_cap": 40519921664,
       "currency": "USD",
       "as_of": "2026-05-22T20:03:18.000Z",
-      "market_state": "POSTPOST",
-      "quote_source": "Delayed Quote",
+      "market_state": "CLOSED",
+      "quote_source": null,
       "performance": {
         "one_week": -3.2404783834184956,
         "one_month": -6.0965517241379334,
@@ -2616,7 +2616,7 @@
       "market_cap": 8314657792,
       "currency": "USD",
       "as_of": "2026-05-22T20:00:00.000Z",
-      "market_state": "POSTPOST",
+      "market_state": "CLOSED",
       "quote_source": "Delayed Quote",
       "performance": {
         "one_week": -3.5050447497620283,
