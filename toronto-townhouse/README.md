@@ -39,7 +39,20 @@ sweeps that surface new listings + landlord fingerprints, keep the accumulated
 state, and hand you ready-to-click filtered links. You spend 5 minutes clicking
 instead of an hour building searches.
 
+## Two-session workflow
+
+This project is run by **two Claude sessions sharing this git branch**:
+- **Cloud session** (this one): search sweeps, tracker upkeep, landlord
+  clustering, outreach drafting. Cannot open listing sites (403/login walls).
+- **Local session with the Claude-in-Chrome extension**: opens real logged-in
+  pages — verifies availability, harvests lister contacts, sweeps
+  Kijiji/Facebook. **Start it with the kickoff prompt at the top of
+  `HANDOFF.md`.** It pushes results back to this branch; the cloud session picks
+  them up on the next sweep.
+
 ## Files
+
+- **`HANDOFF.md`** — boot document for the local Chrome-connected session (kickoff prompt inside).
 
 - **`criteria.md`** — exact requirements, the 9 streets w/ map context, scoring rubric, and an important reframing of what "house, no apartment building" realistically means on these streets.
 - **`listings.csv`** — the master tracker. Every candidate, deduped, scored, with status.
