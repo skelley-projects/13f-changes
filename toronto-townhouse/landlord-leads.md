@@ -27,6 +27,9 @@ contact, which I'll then log here.
 | **Buttonwood Property Management** (buttonwood.ca) | PM, advertises Annex service | Mixed; confirm house stock | The Annex | buttonwood.ca/service-areas/annex/ | 🔎 Confirm they manage *houses*, not just buildings |
 | **Tim** (Rachel's old landlord) | Private portfolio landlord | Yes (known) | TBD | Rachel has it | ⭐ Reach out first — warmest lead. (Gmail lookup deferred per your call) |
 | **227 Beverley St owner** | Multi-unit converted house | Yes — Unit 2 AND Unit 3 both for rent simultaneously | Beverley St (Cluster C) | Via Condos.ca/Strata.ca agent listings | 🔎 First real fingerprint. One owner, multiple house units — ask if they own others nearby (referral channel). |
+| **153 Robert St owner** | Victorian multiplex, **5 rental units** | Yes | Robert St ⭐ (Cluster B) | Via [Zumper address page](https://www.zumper.com/address/153-robert-st-toronto-on-m5s-2k6-can) | 🔎 5 units on her favourite street. Even if 2B is gone, ask about Sept 1 turnover in the building. |
+| **327 Brunswick Ave owner** | Edwardian house, **7 rental units** | Yes | Brunswick Ave (Cluster B) | Via [Zumper address page](https://www.zumper.com/address/327-brunswick-ave-toronto-on-m5r-2z1-can) | 🔎 Biggest single-address portfolio found so far. |
+| **202 Brunswick Ave owner / Royal York PM** | Converted house, **6 rental units**; ≥1 unit managed by Royal York Property Management | Yes | Brunswick Ave (Cluster B) | [Royal York PM listing](https://royalyorkpropertymanagement.ca/public/property/2-202-brunswick-avenue-toronto-ontario-m5s-2m5) · [all units](https://www.zumper.com/address/202-brunswick-ave-toronto-on-m5s-2m5-can) | 🔎 Royal York PM manages MANY Toronto houses — ask them directly for Sept 1 2-beds in Harbord Village/Annex. |
 
 ## ⛔ AVOID — big apartment-building operators (violate "no apartment building")
 
