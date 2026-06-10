@@ -105,6 +105,17 @@ The CI workflows require these to be configured in **Settings → Secrets and va
 
 - `data/prices/latest.json` - latest Yahoo Finance quote snapshot for current, price-eligible holdings
 
+## Bonus: Le Coach (`/french/`)
+
+`public/french/` contains **Le Coach**, a self-contained, zero-dependency French-learning
+app (for an English speaker with B2 Spanish). It ships with the site at
+[/french/](https://13f-changes.seankel.com/french/) and also works by opening
+`public/french/index.html` straight from disk — no build, no server, no accounts.
+SM-2 spaced-repetition flashcards, phonics, graded readers, dialogues, dictation and
+mic drills (free browser Web Speech API); progress lives in localStorage.
+Run `/french-coach` in Claude Code for a conversation partner calibrated to the curriculum.
+Tests live in `tests/french-app.test.ts`.
+
 ## Methodology, limitations
 
 See the `/about` page or `src/pages/about.astro`.
