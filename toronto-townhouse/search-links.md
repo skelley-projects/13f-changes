@@ -20,6 +20,22 @@ every candidate before it ships:
 4. **If a link redirects you to a generic page → tell me.** That's a signal the
    listing expired; I'll re-verify and either fix the link or mark it dead.
 
+### Verification levels (be honest about what each row means)
+
+Hard lesson from 153 Robert St (06-10): a listing can appear in *fresh* search
+results — details, price, even "available immediately" — and still be **dead**,
+because Zumper/PadMapper keep expired pages up for SEO and search engines serve
+the cached snippet. So every tracker row carries one of:
+
+| Level | Meaning | Who can produce it |
+|---|---|---|
+| `index-only` | Seen in search-engine results. Existence of the unit is real; **availability is UNCONFIRMED.** | Me (remote Claude — listing sites 403-block my direct fetches) |
+| `human-verified` | A human (or a local Claude-in-Chrome session) opened the live page and saw an active listing / contacted the lister. | You / Rachel / local Claude session |
+
+**Default assumption: every row I add is `index-only` until one of you upgrades
+or kills it.** Treat `index-only` rows as *leads to check*, never as "available."
+The fastest upgrade path is the checklist in `verify-checklist.md`.
+
 
 Since the big sites block automated access, here are ready-to-click searches
 filtered as close to our criteria as each site allows. Rachel/friend: open these
