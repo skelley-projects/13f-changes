@@ -26,6 +26,7 @@ contact, which I'll then log here.
 | **ARentals** (arentals.ca) | Small PM, *started in the Annex* | Likely yes (house/in-house units) | Annex + expanded | arentals.ca (site blocked to me — Rachel: open & grab phone/email) | 🔎 Verify portfolio + get contact |
 | **Buttonwood Property Management** (buttonwood.ca) | PM, advertises Annex service | Mixed; confirm house stock | The Annex | buttonwood.ca/service-areas/annex/ | 🔎 Confirm they manage *houses*, not just buildings |
 | **Tim** (Rachel's old landlord) | Private portfolio landlord | Yes (known) | TBD | Rachel has it | ⭐ Reach out first — warmest lead. (Gmail lookup deferred per your call) |
+| **227 Beverley St owner** | Multi-unit converted house | Yes — Unit 2 AND Unit 3 both for rent simultaneously | Beverley St (Cluster C) | Via Condos.ca/Strata.ca agent listings | 🔎 First real fingerprint. One owner, multiple house units — ask if they own others nearby (referral channel). |
 
 ## ⛔ AVOID — big apartment-building operators (violate "no apartment building")
 
