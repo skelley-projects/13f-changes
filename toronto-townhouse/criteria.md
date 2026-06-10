@@ -9,8 +9,22 @@
 - **Under $3,500/mo** total
 - **On (or within ~1 block of) the target streets below**, or near Trinity Bellwoods
 
+## ⏱️ Timing (Sept 1 move-in)
+
+Today is **2026-06-10**, target move-in **Sept 1** → ~83 days out.
+
+Toronto rentals post ~**60 days ahead** and leases cluster on the 1st, so:
+- **Peak Sept-1 inventory lands ~early July.** Right now most live listings are
+  for **July 1 / Aug 1** — too early for a Sept 1 move-in unless a landlord will
+  hold it (rare) or you eat empty months.
+- **Plan:** keep a light watch through June; **ramp to daily sweeps in early
+  July**; lock something down **mid-July to mid-August**. Searching seriously in
+  late August = slim pickings for Sept 1.
+- When logging a candidate, record its **availability date** and match against
+  Sept 1, not just rent/location.
+
 ## Nice-to-haves (fill in / confirm with Rachel)
-- Move-in date: _TBD_
+- Move-in date: **September 1, 2026** (target)
 - Laundry (in-unit vs in-building vs none): _TBD_
 - Parking: _TBD_
 - Pets: _TBD_
