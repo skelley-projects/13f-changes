@@ -1,5 +1,26 @@
 # Click-list: pre-filtered deep links per source
 
+## 🔗 Link quality-control protocol (why links sometimes redirect)
+
+Listing sites kill expired listing-ID URLs and silently redirect you to a generic
+search page (this happened with a Zumper `...5523551p` link). Sites also block my
+direct page-fetches (403), so I can't click-verify. The QC I run instead, for
+every candidate before it ships:
+
+1. **Cross-verify via fresh search** — the address must appear in current search
+   results on 2+ sites with matching beds/rent, with a `verified <date>` note.
+2. **Prefer durable URL forms**, most-stable first:
+   - **REALTOR.ca MLS links** (`realtor.ca/real-estate/<id>/...`) — most stable
+   - **Address pages** (`zumper.com/address/...`, HotPads address pages) — list
+     all units at the address, survive individual listings expiring
+   - **Listing-ID pages** (`...5523551p`, apartments.com hashes) — least stable;
+     used only when nothing better exists
+3. **Always a fallback** — each tracker row notes a Google query
+   (`"<address>" Toronto rent`) that re-finds the listing wherever it lives now.
+4. **If a link redirects you to a generic page → tell me.** That's a signal the
+   listing expired; I'll re-verify and either fix the link or mark it dead.
+
+
 Since the big sites block automated access, here are ready-to-click searches
 filtered as close to our criteria as each site allows. Rachel/friend: open these
 (bookmark them), and paste anything promising back to me to log + score + dedupe.
