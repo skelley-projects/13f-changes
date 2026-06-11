@@ -1,20 +1,20 @@
 {
-  "fetched_at": "2026-06-10T00:08:17.902Z",
+  "fetched_at": "2026-06-11T00:12:24.133Z",
   "source": "yahoo-finance",
   "records": {
     "AA": {
       "ticker": "AA",
-      "price": 72.41,
-      "market_cap": 19108265984,
+      "price": 65.55,
+      "market_cap": 17297981440,
       "currency": "USD",
-      "as_of": "2026-06-09T20:01:49.000Z",
+      "as_of": "2026-06-10T20:01:44.000Z",
       "market_state": "POSTPOST",
       "quote_source": "Delayed Quote",
       "performance": {
-        "one_week": -13.581573924315936,
-        "one_month": 14.609052944350939,
-        "one_year": 153.53641930682969,
-        "five_year": 90.65297754802545
+        "one_week": -18.933960542651302,
+        "one_month": 3.7511865833752815,
+        "one_year": 127.92072141283333,
+        "five_year": 75.17371247334707
       },
       "source": "yahoo-finance"
     },
@@ -23,7 +23,7 @@
       "price": 101.12,
       "market_cap": 183547740160,
       "currency": "USD",
-      "as_of": "2026-06-09T19:59:35.000Z",
+      "as_of": "2026-06-09T20:00:00.000Z",
       "market_state": "POSTPOST",
       "quote_source": "Delayed Quote",
       "performance": {
@@ -36,1841 +36,1825 @@
     },
     "ADI": {
       "ticker": "ADI",
-      "price": 404.62,
-      "market_cap": 197085151232,
+      "price": 392.67,
+      "market_cap": 191264473088,
       "currency": "USD",
-      "as_of": "2026-06-09T20:00:01.000Z",
+      "as_of": "2026-06-10T20:00:01.000Z",
       "market_state": "POSTPOST",
       "quote_source": "Delayed Quote",
       "performance": {
-        "one_week": -4.390361926062948,
-        "one_month": -2.8570031037048893,
-        "one_year": 77.72994530938023,
-        "five_year": 143.20491186826942
+        "one_week": -10.281721855994713,
+        "one_month": -5.7260130708610495,
+        "one_year": 68.28233743150908,
+        "five_year": 134.6540029839167
       },
       "source": "yahoo-finance"
     },
     "ALNY": {
       "ticker": "ALNY",
-      "price": 297.69,
-      "market_cap": 39745359872,
+      "price": 291.22,
+      "market_cap": 38881533952,
       "currency": "USD",
-      "as_of": "2026-06-09T20:00:01.000Z",
+      "as_of": "2026-06-10T20:00:01.000Z",
       "market_state": "POSTPOST",
       "quote_source": "Delayed Quote",
       "performance": {
-        "one_week": 4.043759639403642,
-        "one_month": 0.8947677736844024,
-        "one_year": -2.075657894736843,
-        "five_year": 89.11758660460399
+        "one_week": -0.4648255638393396,
+        "one_month": -1.2980809867567782,
+        "one_year": -3.7161911567227826,
+        "five_year": 78.37805328837385
       },
       "source": "yahoo-finance"
     },
     "AMAT": {
       "ticker": "AMAT",
-      "price": 499.21,
-      "market_cap": 396352487424,
+      "price": 497.01,
+      "market_cap": 394605789184,
       "currency": "USD",
-      "as_of": "2026-06-09T20:00:00.000Z",
+      "as_of": "2026-06-10T20:00:01.000Z",
       "market_state": "POSTPOST",
       "quote_source": "Delayed Quote",
       "performance": {
-        "one_week": 1.8691995582501792,
-        "one_month": 14.644956182493765,
-        "one_year": 194.01614920775884,
-        "five_year": 270.7463963078828
+        "one_week": -0.7508415232864983,
+        "one_month": 14.139720102284064,
+        "one_year": 186.01599112624646,
+        "five_year": 262.35782059642776
       },
       "source": "yahoo-finance"
     },
     "AMD": {
       "ticker": "AMD",
-      "price": 475.505,
-      "market_cap": 775358709760,
+      "price": 452.4,
+      "market_cap": 737683701760,
       "currency": "USD",
-      "as_of": "2026-06-09T20:00:01.000Z",
+      "as_of": "2026-06-10T20:00:01.000Z",
       "market_state": "POSTPOST",
       "quote_source": "Delayed Quote",
       "performance": {
-        "one_week": -8.826740032751658,
-        "one_month": 4.462970946117993,
-        "one_year": 290.622678786705,
-        "five_year": 494.6785961036082
+        "one_week": -16.611372168185763,
+        "one_month": -0.6129313970961856,
+        "one_year": 267.0886139580159,
+        "five_year": 454.6836850687618
       },
       "source": "yahoo-finance"
     },
     "AMGN": {
       "ticker": "AMGN",
-      "price": 344.565,
-      "market_cap": 185964593152,
+      "price": 337.73,
+      "market_cap": 182275686400,
       "currency": "USD",
-      "as_of": "2026-06-09T20:00:01.000Z",
+      "as_of": "2026-06-10T20:00:01.000Z",
       "market_state": "POSTPOST",
       "quote_source": "Delayed Quote",
       "performance": {
-        "one_week": 4.967096127858105,
-        "one_month": 3.878500850020783,
-        "one_year": 18.823707478321815,
-        "five_year": 43.85646035979832
+        "one_week": -0.14487647653438446,
+        "one_month": 1.8179040009215128,
+        "one_year": 15.097300354421181,
+        "five_year": 38.051831606688005
       },
       "source": "yahoo-finance"
     },
     "AMT": {
       "ticker": "AMT",
-      "price": 190.83,
-      "market_cap": 88906375168,
+      "price": 192.5,
+      "market_cap": 89684410368,
       "currency": "USD",
-      "as_of": "2026-06-09T20:00:02.000Z",
+      "as_of": "2026-06-10T20:00:02.000Z",
       "market_state": "POSTPOST",
       "quote_source": "Delayed Quote",
       "performance": {
-        "one_week": 2.856681536988486,
-        "one_month": 8.100606876784399,
-        "one_year": -10.336889367937124,
-        "five_year": -28.530769251869614
+        "one_week": 5.629935358633863,
+        "one_month": 9.046621724996045,
+        "one_year": -10.302409276115114,
+        "five_year": -28.919579501545485
       },
       "source": "yahoo-finance"
     },
     "AMZN": {
       "ticker": "AMZN",
-      "price": 244.19,
-      "market_cap": 2626778562560,
+      "price": 238,
+      "market_cap": 2560192151552,
       "currency": "USD",
-      "as_of": "2026-06-09T20:00:01.000Z",
+      "as_of": "2026-06-10T20:00:01.000Z",
       "market_state": "POSTPOST",
       "quote_source": "Delayed Quote",
       "performance": {
-        "one_week": -4.806638679925531,
-        "one_month": -10.448141939645748,
-        "one_year": 12.540328513338359,
-        "five_year": 48.84415968046644
+        "one_week": -4.8076170174615545,
+        "one_month": -12.718202144378097,
+        "one_year": 9.369973499590396,
+        "five_year": 42.10440052065695
       },
       "source": "yahoo-finance"
     },
     "ANET": {
       "ticker": "ANET",
-      "price": 152.16,
-      "market_cap": 191595216896,
+      "price": 151.76,
+      "market_cap": 191091539968,
       "currency": "USD",
-      "as_of": "2026-06-09T20:00:03.000Z",
+      "as_of": "2026-06-10T20:00:03.000Z",
       "market_state": "POSTPOST",
       "quote_source": "Delayed Quote",
       "performance": {
-        "one_week": -13.21508104093956,
-        "one_month": 7.328768720053805,
-        "one_year": 57.19007768898711,
-        "five_year": 576.7742266831686
+        "one_week": -12.966677611014546,
+        "one_month": 7.046621588823375,
+        "one_year": 61.96371925585961,
+        "five_year": 557.7527294160732
       },
       "source": "yahoo-finance"
     },
     "APH": {
       "ticker": "APH",
-      "price": 154.07,
-      "market_cap": 189542236160,
+      "price": 149.22,
+      "market_cap": 183575592960,
       "currency": "USD",
-      "as_of": "2026-06-09T20:00:03.000Z",
+      "as_of": "2026-06-10T20:00:03.000Z",
       "market_state": "POSTPOST",
       "quote_source": "Delayed Quote",
       "performance": {
-        "one_week": 3.820758987005553,
-        "one_month": 20.338984198220523,
-        "one_year": 65.73795343951836,
-        "five_year": 352.2160298798174
+        "one_week": 1.083867318612456,
+        "one_month": 16.55080951553493,
+        "one_year": 61.336364414008614,
+        "five_year": 337.1466451951407
       },
       "source": "yahoo-finance"
     },
     "APLD": {
       "ticker": "APLD",
-      "price": 41.91,
-      "market_cap": 11976601600,
+      "price": 38.92,
+      "market_cap": 11122149376,
       "currency": "USD",
-      "as_of": "2026-06-09T20:00:01.000Z",
+      "as_of": "2026-06-10T20:00:00.000Z",
       "market_state": "POSTPOST",
       "quote_source": "Delayed Quote",
       "performance": {
-        "one_week": -12.432094723092522,
-        "one_month": 1.5999999999999917,
-        "one_year": 221.8893896045108,
+        "one_week": -12.950121232463779,
+        "one_month": -5.648484848484844,
+        "one_year": 211.8589857978938,
         "five_year": null
       },
       "source": "yahoo-finance"
     },
     "ARM": {
       "ticker": "ARM",
-      "price": 324.86,
-      "market_cap": 346976059392,
+      "price": 307.43,
+      "market_cap": 328359444480,
       "currency": "USD",
-      "as_of": "2026-06-09T20:00:01.000Z",
+      "as_of": "2026-06-10T20:00:01.000Z",
       "market_state": "POSTPOST",
       "quote_source": "Delayed Quote",
       "performance": {
-        "one_week": -19.331527180090387,
-        "one_month": 52.32334294183181,
-        "one_year": 134.36981355567434,
+        "one_week": -25.350263452451653,
+        "one_month": 44.1506043237313,
+        "one_year": 118.60910852999156,
         "five_year": null
       },
       "source": "yahoo-finance"
     },
     "ASML": {
       "ticker": "ASML",
-      "price": 1777.77,
-      "market_cap": 685183991808,
+      "price": 1734.19,
+      "market_cap": 668387442688,
       "currency": "USD",
-      "as_of": "2026-06-09T20:00:01.000Z",
+      "as_of": "2026-06-10T20:00:01.000Z",
       "market_state": "POSTPOST",
       "quote_source": "Delayed Quote",
       "performance": {
-        "one_week": 4.245413317350959,
-        "one_month": 11.667565620402293,
-        "one_year": 130.81926406437552,
-        "five_year": 160.4447662661828
+        "one_week": 0.4535563100903906,
+        "one_month": 8.930162857538072,
+        "one_year": 120.9243747817035,
+        "five_year": 147.7626645071159
       },
       "source": "yahoo-finance"
     },
     "AVGO": {
       "ticker": "AVGO",
-      "price": 392.16,
-      "market_cap": 1865732718592,
+      "price": 372.1,
+      "market_cap": 1770295656448,
       "currency": "USD",
-      "as_of": "2026-06-09T20:00:01.000Z",
+      "as_of": "2026-06-10T20:00:01.000Z",
       "market_state": "POSTPOST",
       "quote_source": "Delayed Quote",
       "performance": {
-        "one_week": -18.566357116177944,
-        "one_month": -8.799999999999994,
-        "one_year": 60.53708938909501,
-        "five_year": 745.2999091323734
+        "one_week": -22.354612301061504,
+        "one_month": -13.465116279069761,
+        "one_year": 52.10726099533486,
+        "five_year": 693.9488241116669
       },
       "source": "yahoo-finance"
     },
     "AZO": {
       "ticker": "AZO",
-      "price": 3137.75,
-      "market_cap": 51361828864,
+      "price": 3110.05,
+      "market_cap": 50908409856,
       "currency": "USD",
-      "as_of": "2026-06-09T20:00:03.000Z",
+      "as_of": "2026-06-10T20:00:03.000Z",
       "market_state": "POSTPOST",
       "quote_source": "Delayed Quote",
       "performance": {
-        "one_week": 3.577979795553913,
-        "one_month": -10.252301717396882,
-        "one_year": -15.138147695874475,
-        "five_year": 126.2501391813715
+        "one_week": 1.5808501690281116,
+        "one_month": -11.044592767489494,
+        "one_year": -16.251748512880624,
+        "five_year": 126.26279046016262
       },
       "source": "yahoo-finance"
     },
     "BA": {
       "ticker": "BA",
-      "price": 214.51,
-      "market_cap": 169098723328,
+      "price": 209,
+      "market_cap": 164755193856,
       "currency": "USD",
-      "as_of": "2026-06-09T20:00:03.000Z",
+      "as_of": "2026-06-10T20:00:02.000Z",
       "market_state": "POSTPOST",
       "quote_source": "Delayed Quote",
       "performance": {
-        "one_week": -1.4653178653928107,
-        "one_month": -9.626727566394797,
-        "one_year": -1.379244440531519,
-        "five_year": -13.52495278916101
+        "one_week": -0.7503095342939071,
+        "one_month": -11.94809594600024,
+        "one_year": -3.119638372421264,
+        "five_year": -15.841184230495337
       },
       "source": "yahoo-finance"
     },
     "BABA": {
       "ticker": "BABA",
-      "price": 119.7,
-      "market_cap": 287176327168,
+      "price": 115.38,
+      "market_cap": 276812070912,
       "currency": "USD",
-      "as_of": "2026-06-09T20:02:19.000Z",
+      "as_of": "2026-06-10T20:02:49.000Z",
       "market_state": "POSTPOST",
       "quote_source": "Delayed Quote",
       "performance": {
-        "one_week": -8.500234445530486,
-        "one_month": -14.53662567006414,
-        "one_year": -1.4652644943576183,
-        "five_year": -43.887119871474816
+        "one_week": -9.299582713318829,
+        "one_month": -17.621018127084387,
+        "one_year": -5.333112405559797,
+        "five_year": -45.848783951825
       },
       "source": "yahoo-finance"
     },
     "BAC": {
       "ticker": "BAC",
-      "price": 54.42,
-      "market_cap": 386196471808,
+      "price": 54.54,
+      "market_cap": 387048079360,
       "currency": "USD",
-      "as_of": "2026-06-09T20:00:02.000Z",
+      "as_of": "2026-06-10T20:00:02.000Z",
       "market_state": "POSTPOST",
       "quote_source": "Delayed Quote",
       "performance": {
-        "one_week": 3.6966472459710022,
-        "one_month": 6.061193809142772,
-        "one_year": 21.28371137831469,
-        "five_year": 28.591683346953396
+        "one_week": 4.083966434741814,
+        "one_month": 6.295066342349255,
+        "one_year": 20.95808342300424,
+        "five_year": 30.822743575382543
       },
       "source": "yahoo-finance"
     },
     "BE": {
       "ticker": "BE",
-      "price": 259.61,
-      "market_cap": 73844465664,
+      "price": 234.23,
+      "market_cap": 66625286144,
       "currency": "USD",
-      "as_of": "2026-06-09T20:00:02.000Z",
+      "as_of": "2026-06-10T20:00:03.000Z",
       "market_state": "POSTPOST",
       "quote_source": "Delayed Quote",
       "performance": {
-        "one_week": -14.27769695627345,
-        "one_month": -0.5439983089826709,
-        "one_year": 1111.4325539104118,
-        "five_year": 923.6987135324879
+        "one_week": -18.47765765379183,
+        "one_month": -10.267018696941618,
+        "one_year": 982.8941705409594,
+        "five_year": 832.4442363639193
       },
       "source": "yahoo-finance"
     },
     "BLDP": {
       "ticker": "BLDP",
-      "price": 4.74,
-      "market_cap": 1428995456,
+      "price": 4.38,
+      "market_cap": 1320464256,
       "currency": "USD",
-      "as_of": "2026-06-09T20:00:01.000Z",
+      "as_of": "2026-06-10T20:00:01.000Z",
       "market_state": "POSTPOST",
       "quote_source": "Delayed Quote",
       "performance": {
-        "one_week": -25.70533048626178,
-        "one_month": 14.769972606687409,
-        "one_year": 189.02439276495556,
-        "five_year": -73.82661601187
+        "one_week": -27.722771594763007,
+        "one_month": 6.0532658264326615,
+        "one_year": 162.27545584170147,
+        "five_year": -75.55803581834675
       },
       "source": "yahoo-finance"
     },
     "BW": {
       "ticker": "BW",
-      "price": 15.49,
-      "market_cap": 2305524480,
+      "price": 14.64,
+      "market_cap": 2179010816,
       "currency": "USD",
-      "as_of": "2026-06-09T20:00:02.000Z",
+      "as_of": "2026-06-10T20:00:03.000Z",
       "market_state": "POSTPOST",
       "quote_source": "Delayed Quote",
       "performance": {
-        "one_week": -14.135259346536468,
-        "one_month": 6.533700417052144,
-        "one_year": 1223.9316724931482,
-        "five_year": 78.66205148433302
+        "one_week": -17.1945715650572,
+        "one_month": 0.6877581733791758,
+        "one_year": 1009.0908650195978,
+        "five_year": 77.23970453184637
       },
       "source": "yahoo-finance"
     },
     "BWXT": {
       "ticker": "BWXT",
-      "price": 188.96,
-      "market_cap": 17311504384,
+      "price": 183,
+      "market_cap": 16765480960,
       "currency": "USD",
-      "as_of": "2026-06-09T20:00:02.000Z",
+      "as_of": "2026-06-10T20:00:02.000Z",
       "market_state": "POSTPOST",
       "quote_source": "Delayed Quote",
       "performance": {
-        "one_week": 0.9078316474595495,
-        "one_month": -7.972532842289604,
-        "one_year": 42.482285444987824,
-        "five_year": 194.46782825598717
+        "one_week": -0.9311396759076839,
+        "one_month": -10.875177339854986,
+        "one_year": 38.9416070698087,
+        "five_year": 186.42980395715884
       },
       "source": "yahoo-finance"
     },
     "C": {
       "ticker": "C",
-      "price": 134.73,
-      "market_cap": 229792382976,
+      "price": 133.38,
+      "market_cap": 227489857536,
       "currency": "USD",
-      "as_of": "2026-06-09T20:03:41.000Z",
+      "as_of": "2026-06-10T20:02:44.000Z",
       "market_state": "POSTPOST",
       "quote_source": "Delayed Quote",
       "performance": {
-        "one_week": 2.64361240163189,
-        "one_month": 7.311825348548766,
-        "one_year": 72.35512748614127,
-        "five_year": 72.4212964581214
+        "one_week": 2.6552817045311983,
+        "one_month": 6.236556557481148,
+        "one_year": 70.93425872946281,
+        "five_year": 73.46859287133341
       },
       "source": "yahoo-finance"
     },
     "CAT": {
       "ticker": "CAT",
-      "price": 914.7,
-      "market_cap": 421303484416,
+      "price": 856.16,
+      "market_cap": 394340401152,
       "currency": "USD",
-      "as_of": "2026-06-09T20:00:02.000Z",
+      "as_of": "2026-06-10T20:00:02.000Z",
       "market_state": "POSTPOST",
       "quote_source": "Delayed Quote",
       "performance": {
-        "one_week": 0.5374751271725137,
-        "one_month": 1.9221112661804083,
-        "one_year": 155.45283919068206,
-        "five_year": 289.8146276549741
+        "one_week": -7.56008478152178,
+        "one_month": -4.60081471340001,
+        "one_year": 138.7706675159422,
+        "five_year": 279.28499366712583
       },
       "source": "yahoo-finance"
     },
     "CCJ": {
       "ticker": "CCJ",
-      "price": 102.27,
-      "market_cap": 44541956096,
+      "price": 95.03,
+      "market_cap": 41388699648,
       "currency": "USD",
-      "as_of": "2026-06-09T20:00:02.000Z",
+      "as_of": "2026-06-10T20:00:02.000Z",
       "market_state": "POSTPOST",
       "quote_source": "Delayed Quote",
       "performance": {
-        "one_week": -15.135674892455045,
-        "one_month": -12.402569593147755,
-        "one_year": 52.847099689989584,
-        "five_year": 379.01638488382906
+        "one_week": -17.047833427724004,
+        "one_month": -18.603854389721626,
+        "one_year": 48.879832796379205,
+        "five_year": 339.3435214383614
       },
       "source": "yahoo-finance"
     },
     "CEG": {
       "ticker": "CEG",
-      "price": 251.65,
-      "market_cap": 89864716288,
+      "price": 242.3,
+      "market_cap": 86525820928,
       "currency": "USD",
-      "as_of": "2026-06-09T20:00:01.000Z",
+      "as_of": "2026-06-10T20:00:01.000Z",
       "market_state": "POSTPOST",
       "quote_source": "Delayed Quote",
       "performance": {
-        "one_week": -7.702180218810982,
-        "one_month": -17.119521801830633,
-        "one_year": -16.02149204945098,
+        "one_week": -9.332431950959922,
+        "one_month": -20.19892760812065,
+        "one_year": -16.741114305857195,
         "five_year": null
       },
       "source": "yahoo-finance"
     },
     "CIFR": {
       "ticker": "CIFR",
-      "price": 23.035,
-      "market_cap": 9422447616,
+      "price": 21.02,
+      "market_cap": 8598213632,
       "currency": "USD",
-      "as_of": "2026-06-09T20:00:01.000Z",
+      "as_of": "2026-06-10T20:00:01.000Z",
       "market_state": "POSTPOST",
       "quote_source": "Delayed Quote",
       "performance": {
-        "one_week": -12.381136562094534,
-        "one_month": 12.09246158247014,
-        "one_year": 456.40098412742657,
-        "five_year": 130.8116338333849
+        "one_week": -19.89329198418558,
+        "one_month": 2.2871084203829937,
+        "one_year": 417.7339974445756,
+        "five_year": 110.19999999999999
       },
       "source": "yahoo-finance"
     },
     "CLF": {
       "ticker": "CLF",
-      "price": 12.72,
-      "market_cap": 7255674368,
+      "price": 12.41,
+      "market_cap": 7078845952,
       "currency": "USD",
-      "as_of": "2026-06-09T20:00:02.000Z",
+      "as_of": "2026-06-10T20:00:02.000Z",
       "market_state": "POSTPOST",
       "quote_source": "Delayed Quote",
       "performance": {
-        "one_week": -13.762711864406777,
-        "one_month": 15.426492482935119,
-        "one_year": 63.49613954976155,
-        "five_year": -45.21963662296768
+        "one_week": -12.296817423596531,
+        "one_month": 12.613425449152892,
+        "one_year": 54.73814578135888,
+        "five_year": -45.94947519665795
       },
       "source": "yahoo-finance"
     },
     "CLSK": {
       "ticker": "CLSK",
-      "price": 15.97,
-      "market_cap": 4098039552,
+      "price": 14.9,
+      "market_cap": 3823468288,
       "currency": "USD",
-      "as_of": "2026-06-09T20:00:01.000Z",
+      "as_of": "2026-06-10T20:00:01.000Z",
       "market_state": "POSTPOST",
       "quote_source": "Delayed Quote",
       "performance": {
-        "one_week": -9.15813384922159,
-        "one_month": 12.464790243025101,
-        "one_year": 57.8063258952076,
-        "five_year": -15.413131833256097
+        "one_week": -15.388986464648738,
+        "one_month": 4.929578874206262,
+        "one_year": 47.08785618629129,
+        "five_year": -18.579231578190353
       },
       "source": "yahoo-finance"
     },
     "CME": {
       "ticker": "CME",
-      "price": 255.94,
-      "market_cap": 92476948480,
+      "price": 263.8,
+      "market_cap": 95316934656,
       "currency": "USD",
-      "as_of": "2026-06-09T20:00:01.000Z",
+      "as_of": "2026-06-10T20:00:00.000Z",
       "market_state": "POSTPOST",
       "quote_source": "Delayed Quote",
       "performance": {
-        "one_week": 2.1594225230763824,
-        "one_month": -8.999111111111112,
-        "one_year": -4.624559650178836,
-        "five_year": 18.76015336814536
+        "one_week": 4.417353007169473,
+        "one_month": -6.20444444444444,
+        "one_year": -0.8643389893876543,
+        "five_year": 23.92540332176685
       },
       "source": "yahoo-finance"
     },
     "CMG": {
       "ticker": "CMG",
-      "price": 29.88,
-      "market_cap": 38328090624,
+      "price": 30.42,
+      "market_cap": 39020765184,
       "currency": "USD",
-      "as_of": "2026-06-09T20:02:26.000Z",
+      "as_of": "2026-06-10T20:03:33.000Z",
       "market_state": "POSTPOST",
       "quote_source": "Delayed Quote",
       "performance": {
-        "one_week": 2.1189328990714644,
-        "one_month": -8.033245748326978,
-        "one_year": -41.56072877801439,
-        "five_year": 12.451735136421
+        "one_week": 5.845512325195385,
+        "one_month": -6.371195972694325,
+        "one_year": -39.905174551793785,
+        "five_year": 13.111569090623993
       },
       "source": "yahoo-finance"
     },
     "CMI": {
       "ticker": "CMI",
-      "price": 669.23,
-      "market_cap": 92346425344,
+      "price": 630.52,
+      "market_cap": 87004872704,
       "currency": "USD",
-      "as_of": "2026-06-09T20:00:02.000Z",
+      "as_of": "2026-06-10T20:00:02.000Z",
       "market_state": "POSTPOST",
       "quote_source": "Delayed Quote",
       "performance": {
-        "one_week": -0.5113923614182865,
-        "one_month": -1.5186502800898898,
-        "one_year": 105.48698570692592,
-        "five_year": 160.63404160692878
+        "one_week": -7.5931024272997565,
+        "one_month": -7.215067128793211,
+        "one_year": 92.8254744275399,
+        "five_year": 149.96827873011114
       },
       "source": "yahoo-finance"
     },
     "COF": {
       "ticker": "COF",
-      "price": 183.35,
-      "market_cap": 114097389568,
+      "price": 177.63,
+      "market_cap": 110537875456,
       "currency": "USD",
-      "as_of": "2026-06-09T20:00:02.000Z",
+      "as_of": "2026-06-10T20:00:02.000Z",
       "market_state": "POSTPOST",
       "quote_source": "Delayed Quote",
       "performance": {
-        "one_week": -0.2665341316641656,
-        "one_month": -3.235167756892731,
-        "one_year": -7.859693985335034,
-        "five_year": 14.165624552853837
+        "one_week": 0.005632745798632963,
+        "one_month": -6.253956087574888,
+        "one_year": -11.626865671641793,
+        "five_year": 11.899958330069106
       },
       "source": "yahoo-finance"
     },
     "COHR": {
       "ticker": "COHR",
-      "price": 355.94,
-      "market_cap": 69635866624,
+      "price": 354.77,
+      "market_cap": 69406965760,
       "currency": "USD",
-      "as_of": "2026-06-09T20:00:02.000Z",
+      "as_of": "2026-06-10T20:00:02.000Z",
       "market_state": "POSTPOST",
       "quote_source": "Delayed Quote",
       "performance": {
-        "one_week": -16.62020947172258,
-        "one_month": 6.168343862076498,
-        "one_year": 338.40373112056153,
-        "five_year": 404.23575359918516
+        "one_week": -15.01089853992581,
+        "one_month": 5.819360993282232,
+        "one_year": 332.5408613997921,
+        "five_year": 406.74187855281474
       },
       "source": "yahoo-finance"
     },
     "COIN": {
       "ticker": "COIN",
-      "price": 155.5,
-      "market_cap": 40968151040,
+      "price": 153.97,
+      "market_cap": 40565055488,
       "currency": "USD",
-      "as_of": "2026-06-09T20:00:00.000Z",
+      "as_of": "2026-06-10T20:00:01.000Z",
       "market_state": "POSTPOST",
       "quote_source": "Delayed Quote",
       "performance": {
-        "one_week": -10.627050353125323,
-        "one_month": -22.698350979752902,
-        "one_year": -39.40692941536298,
-        "five_year": -30.679388853955597
+        "one_week": -5.667198352851035,
+        "one_month": -23.458939552106457,
+        "one_year": -39.60539792675829,
+        "five_year": -30.597252303812283
       },
       "source": "yahoo-finance"
     },
     "COP": {
       "ticker": "COP",
-      "price": 116.79,
-      "market_cap": 142284554240,
+      "price": 119.92,
+      "market_cap": 146097815552,
       "currency": "USD",
-      "as_of": "2026-06-09T20:00:02.000Z",
+      "as_of": "2026-06-10T20:00:03.000Z",
       "market_state": "POSTPOST",
       "quote_source": "Delayed Quote",
       "performance": {
-        "one_week": -0.06845447480265825,
-        "one_month": 2.5643252682766997,
-        "one_year": 32.655609706385306,
-        "five_year": 95.69369873121688
+        "one_week": 0.7307828021339504,
+        "one_month": 5.313073774910021,
+        "one_year": 31.520069750638957,
+        "five_year": 99.30198379479528
       },
       "source": "yahoo-finance"
     },
     "CORZ": {
       "ticker": "CORZ",
-      "price": 27.01,
-      "market_cap": 8586081280,
+      "price": 25.69,
+      "market_cap": 8166473216,
       "currency": "USD",
-      "as_of": "2026-06-09T20:00:00.000Z",
+      "as_of": "2026-06-10T20:00:01.000Z",
       "market_state": "POSTPOST",
       "quote_source": "Delayed Quote",
       "performance": {
-        "one_week": -7.022372773277101,
-        "one_month": 17.84467674560056,
-        "one_year": 112.50983413795383,
+        "one_week": -11.199447877627989,
+        "one_month": 12.085514461106197,
+        "one_year": 101.1746208229888,
         "five_year": null
       },
       "source": "yahoo-finance"
     },
     "COST": {
       "ticker": "COST",
-      "price": 968.59,
-      "market_cap": 429549158400,
+      "price": 983.37,
+      "market_cap": 436103774208,
       "currency": "USD",
-      "as_of": "2026-06-09T20:00:01.000Z",
+      "as_of": "2026-06-10T20:00:01.000Z",
       "market_state": "POSTPOST",
       "quote_source": "Delayed Quote",
       "performance": {
-        "one_week": 1.5006214358263288,
-        "one_month": -3.98497000395994,
-        "one_year": -3.735911362719149,
-        "five_year": 154.91894456854004
+        "one_week": 2.2394791727678243,
+        "one_month": -2.519848390747467,
+        "one_year": -2.372751999744048,
+        "five_year": 156.7478590446638
       },
       "source": "yahoo-finance"
     },
     "CPNG": {
       "ticker": "CPNG",
-      "price": 15.91,
-      "market_cap": 28559470592,
+      "price": 15.12,
+      "market_cap": 27141369856,
       "currency": "USD",
-      "as_of": "2026-06-09T20:00:03.000Z",
+      "as_of": "2026-06-10T20:00:02.000Z",
       "market_state": "POSTPOST",
       "quote_source": "Delayed Quote",
       "performance": {
-        "one_week": -4.90137217377782,
-        "one_month": -6.301528687175718,
-        "one_year": -44.11661263182027,
-        "five_year": -57.887769946889065
+        "one_week": -7.9171746056858785,
+        "one_month": -10.9540612036516,
+        "one_year": -46.49681571995425,
+        "five_year": -60.27325419223288
       },
       "source": "yahoo-finance"
     },
     "CRWV": {
       "ticker": "CRWV",
-      "price": 98.45,
-      "market_cap": 53711400960,
+      "price": 95.61,
+      "market_cap": 52161982464,
       "currency": "USD",
-      "as_of": "2026-06-09T20:00:01.000Z",
+      "as_of": "2026-06-10T20:00:00.000Z",
       "market_state": "POSTPOST",
       "quote_source": "Delayed Quote",
       "performance": {
-        "one_week": -17.4561895104042,
-        "one_month": -13.753833829182701,
-        "one_year": -39.26588754282297,
+        "one_week": -13.810511370260025,
+        "one_month": -16.241788241829948,
+        "one_year": -38.276304862933905,
         "five_year": null
       },
       "source": "yahoo-finance"
     },
     "CSCO": {
       "ticker": "CSCO",
-      "price": 120.36,
-      "market_cap": 474391085056,
+      "price": 118.8,
+      "market_cap": 468242432000,
       "currency": "USD",
-      "as_of": "2026-06-09T20:00:01.000Z",
+      "as_of": "2026-06-10T20:00:01.000Z",
       "market_state": "POSTPOST",
       "quote_source": "Delayed Quote",
       "performance": {
-        "one_week": -5.96875,
-        "one_month": 24.63498020125896,
-        "one_year": 82.640359959225,
-        "five_year": 122.80636612379377
+        "one_week": -6.086956521739133,
+        "one_month": 23.01957168419378,
+        "one_year": 82.34842243681332,
+        "five_year": 115.882250836419
       },
       "source": "yahoo-finance"
     },
     "CVX": {
       "ticker": "CVX",
-      "price": 186.76,
-      "market_cap": 371950780416,
+      "price": 189.8,
+      "market_cap": 378005258240,
       "currency": "USD",
-      "as_of": "2026-06-09T20:03:55.000Z",
+      "as_of": "2026-06-10T20:03:21.000Z",
       "market_state": "POSTPOST",
       "quote_source": "Delayed Quote",
       "performance": {
-        "one_week": -0.4212226280475218,
-        "one_month": 2.8300875569873143,
-        "one_year": 32.67974373992327,
-        "five_year": 73.27890342848485
+        "one_week": 0.047437290046885884,
+        "one_month": 4.5039120706585685,
+        "one_year": 32.403203291768264,
+        "five_year": 75.0760940766737
       },
       "source": "yahoo-finance"
     },
     "DAL": {
       "ticker": "DAL",
-      "price": 81.17,
-      "market_cap": 53328232448,
+      "price": 76.47,
+      "market_cap": 50240360448,
       "currency": "USD",
-      "as_of": "2026-06-09T20:00:02.000Z",
+      "as_of": "2026-06-10T20:00:02.000Z",
       "market_state": "POSTPOST",
       "quote_source": "Delayed Quote",
       "performance": {
-        "one_week": 1.4371449702294399,
-        "one_month": 10.691392299440986,
-        "one_year": 58.535153887642124,
-        "five_year": 74.48409114633539
+        "one_week": -2.9322147944789463,
+        "one_month": 4.282010214836169,
+        "one_year": 47.968265380101954,
+        "five_year": 65.23336650174777
       },
       "source": "yahoo-finance"
     },
     "DASH": {
       "ticker": "DASH",
-      "price": 155.67,
-      "market_cap": 67828330496,
+      "price": 151,
+      "market_cap": 65793527808,
       "currency": "USD",
-      "as_of": "2026-06-09T20:00:01.000Z",
+      "as_of": "2026-06-10T20:00:01.000Z",
       "market_state": "POSTPOST",
       "quote_source": "Delayed Quote",
       "performance": {
-        "one_week": -0.8155444237850531,
-        "one_month": -5.038731803104375,
-        "one_year": -28.424297177695895,
-        "five_year": 13.644331183683489
+        "one_week": -2.3159540617468637,
+        "one_month": -7.887508847361466,
+        "one_year": -29.757640999884018,
+        "five_year": 4.245767095162801
       },
       "source": "yahoo-finance"
     },
     "DGX": {
       "ticker": "DGX",
-      "price": 204.53,
-      "market_cap": 22640740352,
+      "price": 203.78,
+      "market_cap": 22557718528,
       "currency": "USD",
-      "as_of": "2026-06-09T20:02:52.000Z",
+      "as_of": "2026-06-10T20:00:02.000Z",
       "market_state": "POSTPOST",
       "quote_source": "Delayed Quote",
       "performance": {
-        "one_week": 5.886309858318244,
-        "one_month": 9.146699752483372,
-        "one_year": 16.276297383139273,
-        "five_year": 60.4156862745098
+        "one_week": 5.2202209565961635,
+        "one_month": 8.746464946761167,
+        "one_year": 14.844452883329772,
+        "five_year": 58.97956907786816
       },
       "source": "yahoo-finance"
     },
     "DHI": {
       "ticker": "DHI",
-      "price": 151.07,
-      "market_cap": 42840375296,
+      "price": 146.71,
+      "market_cap": 41603969024,
       "currency": "USD",
-      "as_of": "2026-06-09T20:00:02.000Z",
+      "as_of": "2026-06-10T20:00:03.000Z",
       "market_state": "POSTPOST",
       "quote_source": "Delayed Quote",
       "performance": {
-        "one_week": 2.1364317893666076,
-        "one_month": 2.3301463140356415,
-        "one_year": 23.171625047329922,
-        "five_year": 66.59682343580374
+        "one_week": 1.5294117647058878,
+        "one_month": -0.623182857402724,
+        "one_year": 15.574284841942804,
+        "five_year": 67.0195880196266
       },
       "source": "yahoo-finance"
     },
     "DHR": {
       "ticker": "DHR",
-      "price": 188.41,
-      "market_cap": 133351063552,
+      "price": 183.63,
+      "market_cap": 129967923200,
       "currency": "USD",
-      "as_of": "2026-06-09T20:03:29.000Z",
+      "as_of": "2026-06-10T20:01:02.000Z",
       "market_state": "POSTPOST",
       "quote_source": "Delayed Quote",
       "performance": {
-        "one_week": 6.984270823360301,
-        "one_month": 10.078286964718819,
-        "one_year": -5.416665217643421,
-        "five_year": -11.70482575028251
+        "one_week": 3.1165757591414542,
+        "one_month": 7.285578447700846,
+        "one_year": -9.372221683355797,
+        "five_year": -15.887823832078368
       },
       "source": "yahoo-finance"
     },
     "DLR": {
       "ticker": "DLR",
-      "price": 184.93,
-      "market_cap": 66149285888,
+      "price": 180.78,
+      "market_cap": 64664838144,
       "currency": "USD",
-      "as_of": "2026-06-09T20:00:02.000Z",
+      "as_of": "2026-06-10T20:00:03.000Z",
       "market_state": "POSTPOST",
       "quote_source": "Delayed Quote",
       "performance": {
-        "one_week": -1.244256421651702,
-        "one_month": -5.314626843656431,
-        "one_year": 4.6694632478042,
-        "five_year": 14.949026844389953
+        "one_week": -1.482288828337874,
+        "one_month": -7.4394540680052454,
+        "one_year": 1.738982225301441,
+        "five_year": 10.272049108095219
       },
       "source": "yahoo-finance"
     },
     "DVA": {
       "ticker": "DVA",
-      "price": 198.19,
-      "market_cap": 12720825344,
+      "price": 198.54,
+      "market_cap": 12743289856,
       "currency": "USD",
-      "as_of": "2026-06-09T20:00:02.000Z",
+      "as_of": "2026-06-10T20:00:02.000Z",
       "market_state": "POSTPOST",
       "quote_source": "Delayed Quote",
       "performance": {
-        "one_week": 5.481931259678862,
-        "one_month": -0.23155998520899934,
-        "one_year": 43.84526183475367,
-        "five_year": 64.55496179221593
+        "one_week": 1.7997237566899458,
+        "one_month": -0.05537070217162971,
+        "one_year": 42.72158660692729,
+        "five_year": 63.004922024207346
       },
       "source": "yahoo-finance"
     },
     "EEM": {
       "ticker": "EEM",
-      "price": 65.82,
+      "price": 64.66,
       "market_cap": null,
       "currency": "USD",
-      "as_of": "2026-06-09T20:00:00.000Z",
+      "as_of": "2026-06-10T20:00:00.000Z",
       "market_state": "POSTPOST",
       "quote_source": "Delayed Quote",
       "performance": {
-        "one_week": -7.033902312288356,
-        "one_month": -3.1204038345960003,
-        "one_year": 39.09552076180439,
-        "five_year": 19.066572817383083
+        "one_week": -7.522880873417304,
+        "one_month": -4.827792645776011,
+        "one_year": 35.868879581173644,
+        "five_year": 16.546504206033802
       },
       "source": "yahoo-finance"
     },
     "EMR": {
       "ticker": "EMR",
-      "price": 142.42,
-      "market_cap": 79769436160,
+      "price": 137.11,
+      "market_cap": 76795305984,
       "currency": "USD",
-      "as_of": "2026-06-09T20:01:09.000Z",
+      "as_of": "2026-06-10T20:00:03.000Z",
       "market_state": "POSTPOST",
       "quote_source": "Delayed Quote",
       "performance": {
-        "one_week": 0.2745907372069635,
-        "one_month": 0.7855087825233161,
-        "one_year": 13.391721122786896,
-        "five_year": 45.47497219635145
+        "one_week": -2.676039716174393,
+        "one_month": -2.972187128410515,
+        "one_year": 8.011656974158397,
+        "five_year": 40.495957726319965
       },
       "source": "yahoo-finance"
     },
     "ENTG": {
       "ticker": "ENTG",
-      "price": 134.35,
-      "market_cap": 20461506560,
+      "price": 128.88,
+      "market_cap": 19628425216,
       "currency": "USD",
-      "as_of": "2026-06-09T20:00:01.000Z",
+      "as_of": "2026-06-10T20:00:01.000Z",
       "market_state": "POSTPOST",
       "quote_source": "Delayed Quote",
       "performance": {
-        "one_week": -5.9963603965448895,
-        "one_month": -9.898732848188919,
-        "one_year": 71.21192546197358,
-        "five_year": 18.057993319117717
+        "one_week": -8.159339899987684,
+        "one_month": -13.567165533863697,
+        "one_year": 61.84855512407802,
+        "five_year": 11.516829921538767
       },
       "source": "yahoo-finance"
     },
     "EQIX": {
       "ticker": "EQIX",
-      "price": 1059.84,
-      "market_cap": 104525922304,
+      "price": 1038.33,
+      "market_cap": 102404513792,
       "currency": "USD",
-      "as_of": "2026-06-09T20:00:01.000Z",
+      "as_of": "2026-06-10T20:00:00.000Z",
       "market_state": "POSTPOST",
       "quote_source": "Delayed Quote",
       "performance": {
-        "one_week": -1.1158843332020605,
-        "one_month": -1.1417017905764497,
-        "one_year": 16.789353243093014,
-        "five_year": 30.842827523410826
+        "one_week": -3.59052924791087,
+        "one_month": -3.148081993705884,
+        "one_year": 14.436701706911109,
+        "five_year": 26.165568514909808
       },
       "source": "yahoo-finance"
     },
     "EQT": {
       "ticker": "EQT",
-      "price": 52.69,
-      "market_cap": 32956436480,
+      "price": 52.61,
+      "market_cap": 32906399744,
       "currency": "USD",
-      "as_of": "2026-06-09T20:01:39.000Z",
+      "as_of": "2026-06-10T20:02:07.000Z",
       "market_state": "POSTPOST",
       "quote_source": "Delayed Quote",
       "performance": {
-        "one_week": -3.639356792372619,
-        "one_month": -5.843458073572401,
-        "one_year": -4.025503578241527,
-        "five_year": 135.2232182915418
+        "one_week": -3.414725865649826,
+        "one_month": -5.986417332523131,
+        "one_year": -2.084495722647297,
+        "five_year": 133.5108672730054
       },
       "source": "yahoo-finance"
     },
     "ETN": {
       "ticker": "ETN",
-      "price": 401.72,
-      "market_cap": 155987869696,
+      "price": 375.46,
+      "market_cap": 145791107072,
       "currency": "USD",
-      "as_of": "2026-06-09T20:00:03.000Z",
+      "as_of": "2026-06-10T20:00:03.000Z",
       "market_state": "POSTPOST",
       "quote_source": "Delayed Quote",
       "performance": {
-        "one_week": -3.8072877982592304,
-        "one_month": 0.05230012434748655,
-        "one_year": 23.298856084904088,
-        "five_year": 174.38015842626768
+        "one_week": -10.8615636815817,
+        "one_month": -6.488010045087369,
+        "one_year": 15.796944025504347,
+        "five_year": 155.72808968118463
       },
       "source": "yahoo-finance"
     },
     "EWZ": {
       "ticker": "EWZ",
-      "price": 33.92,
+      "price": 33.78,
       "market_cap": null,
       "currency": "USD",
-      "as_of": "2026-06-09T20:00:00.000Z",
+      "as_of": "2026-06-10T20:00:00.000Z",
       "market_state": "POSTPOST",
       "quote_source": "Delayed Quote",
       "performance": {
-        "one_week": -5.198431645484323,
-        "one_month": -13.29243117040707,
-        "one_year": 22.809554559526443,
-        "five_year": -18.047836433446935
+        "one_week": -2.482677265593233,
+        "one_month": -13.650304390812233,
+        "one_year": 21.86147488007339,
+        "five_year": -17.388113220291164
       },
       "source": "yahoo-finance"
     },
     "FCEL": {
       "ticker": "FCEL",
-      "price": 17.49,
-      "market_cap": 1182466944,
+      "price": 16.21,
+      "market_cap": 1095928448,
       "currency": "USD",
-      "as_of": "2026-06-09T20:00:01.000Z",
+      "as_of": "2026-06-10T20:00:01.000Z",
       "market_state": "POSTPOST",
       "quote_source": "Delayed Quote",
       "performance": {
-        "one_week": -29.017855384575377,
-        "one_month": 27.664235354016082,
-        "one_year": 134.136552760884,
-        "five_year": -94.82697436135356
+        "one_week": -25.676293457444217,
+        "one_month": 18.321169530508918,
+        "one_year": 141.22024562649133,
+        "five_year": -94.6288930895783
       },
       "source": "yahoo-finance"
     },
     "FCX": {
       "ticker": "FCX",
-      "price": 64.25,
-      "market_cap": 92363218944,
+      "price": 62.08,
+      "market_cap": 89243713536,
       "currency": "USD",
-      "as_of": "2026-06-09T20:00:46.000Z",
+      "as_of": "2026-06-10T20:01:03.000Z",
       "market_state": "POSTPOST",
       "quote_source": "Delayed Quote",
       "performance": {
-        "one_week": -10.415506265422078,
-        "one_month": 4.217353462724066,
-        "one_year": 51.74775571197756,
-        "five_year": 57.86240490320744
+        "one_week": -12.11777953512103,
+        "one_month": 0.6974833146445114,
+        "one_year": 47.14387774523264,
+        "five_year": 54.65869692068204
       },
       "source": "yahoo-finance"
     },
     "FTV": {
       "ticker": "FTV",
-      "price": 62.78,
-      "market_cap": 19139174400,
+      "price": 60.06,
+      "market_cap": 18309953536,
       "currency": "USD",
-      "as_of": "2026-06-09T20:00:02.000Z",
+      "as_of": "2026-06-10T20:00:02.000Z",
       "market_state": "POSTPOST",
       "quote_source": "Delayed Quote",
       "performance": {
-        "one_week": 4.355053456172167,
-        "one_month": 3.888796430508944,
-        "one_year": 13.794644971003367,
-        "five_year": 17.221131997955215
+        "one_week": -0.8910866133960299,
+        "one_month": -0.6122791714500269,
+        "one_year": 9.6884350103576,
+        "five_year": 13.097232393639265
       },
       "source": "yahoo-finance"
     },
     "FXI": {
       "ticker": "FXI",
-      "price": 34.69,
+      "price": 34.75,
       "market_cap": null,
       "currency": "USD",
-      "as_of": "2026-06-09T20:00:00.000Z",
+      "as_of": "2026-06-10T20:00:00.000Z",
       "market_state": "POSTPOST",
       "quote_source": "Delayed Quote",
       "performance": {
-        "one_week": -4.592960897465225,
-        "one_month": -6.847480030972395,
-        "one_year": -6.395038546865969,
-        "five_year": -24.717884935886932
+        "one_week": -2.2228500145654024,
+        "one_month": -6.686362959823884,
+        "one_year": -6.636220149636158,
+        "five_year": -24.75097494508835
       },
       "source": "yahoo-finance"
     },
     "GE": {
       "ticker": "GE",
-      "price": 330.44,
-      "market_cap": 345253511168,
+      "price": 318.71,
+      "market_cap": 332997656576,
       "currency": "USD",
-      "as_of": "2026-06-09T20:00:02.000Z",
+      "as_of": "2026-06-10T20:00:03.000Z",
       "market_state": "POSTPOST",
       "quote_source": "Delayed Quote",
       "performance": {
-        "one_week": 4.003524716865706,
-        "one_month": 11.20309836355325,
-        "one_year": 31.434706330980188,
-        "five_year": 382.87227686764834
+        "one_week": 1.2935371097379558,
+        "one_month": 7.255597020481947,
+        "one_year": 31.698347107438007,
+        "five_year": 369.14817096713983
       },
       "source": "yahoo-finance"
     },
     "GEV": {
       "ticker": "GEV",
-      "price": 920.15,
-      "market_cap": 247262707712,
+      "price": 867.09,
+      "market_cap": 233004433408,
       "currency": "USD",
-      "as_of": "2026-06-09T20:00:02.000Z",
+      "as_of": "2026-06-10T20:00:02.000Z",
       "market_state": "POSTPOST",
       "quote_source": "Delayed Quote",
       "performance": {
-        "one_week": -5.106890363001418,
-        "one_month": -11.536799653651977,
-        "one_year": 91.69791666666666,
+        "one_week": -9.617868866789316,
+        "one_month": -16.637986862669226,
+        "one_year": 86.34673756194385,
         "five_year": null
       },
       "source": "yahoo-finance"
     },
     "GFS": {
       "ticker": "GFS",
-      "price": 75.26,
-      "market_cap": 41273823232,
+      "price": 74.82,
+      "market_cap": 41032519680,
       "currency": "USD",
-      "as_of": "2026-06-09T20:00:01.000Z",
+      "as_of": "2026-06-10T20:00:01.000Z",
       "market_state": "POSTPOST",
       "quote_source": "Delayed Quote",
       "performance": {
-        "one_week": -11.040187520781302,
-        "one_month": 1.5380426486432417,
-        "one_year": 96.04063869897658,
+        "one_week": -12.98988038290885,
+        "one_month": 0.94441072244866,
+        "one_year": 89.56168656198268,
         "five_year": null
       },
       "source": "yahoo-finance"
     },
     "GILD": {
       "ticker": "GILD",
-      "price": 125.5,
-      "market_cap": 155817017344,
+      "price": 121.48,
+      "market_cap": 150825910272,
       "currency": "USD",
-      "as_of": "2026-06-09T20:00:01.000Z",
+      "as_of": "2026-06-10T20:00:01.000Z",
       "market_state": "POSTPOST",
       "quote_source": "Delayed Quote",
       "performance": {
-        "one_week": -1.6226383160430493,
-        "one_month": -4.439200296787103,
-        "one_year": 11.061946902654867,
-        "five_year": 82.81135791772768
+        "one_week": -5.822160766992182,
+        "one_month": -7.500191649830254,
+        "one_year": 10.34608415023553,
+        "five_year": 75.3211118413729
       },
       "source": "yahoo-finance"
     },
     "GLW": {
       "ticker": "GLW",
-      "price": 173.94,
-      "market_cap": 149699346432,
+      "price": 168.17,
+      "market_cap": 144733454336,
       "currency": "USD",
-      "as_of": "2026-06-09T20:00:43.000Z",
+      "as_of": "2026-06-10T20:01:07.000Z",
       "market_state": "POSTPOST",
       "quote_source": "Delayed Quote",
       "performance": {
-        "one_week": -13.2035901708421,
-        "one_month": -6.954104135887622,
-        "one_year": 241.79603475369902,
-        "five_year": 306.78205525655227
+        "one_week": -16.23331111703445,
+        "one_month": -10.040655930391067,
+        "one_year": 232.28610545719533,
+        "five_year": 290.72954559192414
       },
       "source": "yahoo-finance"
     },
     "GOOGL": {
       "ticker": "GOOGL",
-      "price": 364.26,
-      "market_cap": 4442127073280,
+      "price": 356.38,
+      "market_cap": 4346030850048,
       "currency": "USD",
-      "as_of": "2026-06-09T20:00:01.000Z",
+      "as_of": "2026-06-10T20:00:00.000Z",
       "market_state": "POSTPOST",
       "quote_source": "Delayed Quote",
       "performance": {
-        "one_week": 0.666020134263845,
-        "one_month": -9.116763699065606,
-        "one_year": 106.86013264549055,
-        "five_year": 202.5490588616102
+        "one_week": -0.7270370498829261,
+        "one_month": -11.082831623216935,
+        "one_year": 99.54086664109296,
+        "five_year": 192.69895183041805
       },
       "source": "yahoo-finance"
     },
     "GS": {
       "ticker": "GS",
-      "price": 1032.01,
-      "market_cap": 304450600960,
+      "price": 1001.29,
+      "market_cap": 295387987968,
       "currency": "USD",
-      "as_of": "2026-06-09T20:00:03.000Z",
+      "as_of": "2026-06-10T20:00:03.000Z",
       "market_state": "POSTPOST",
       "quote_source": "Delayed Quote",
       "performance": {
-        "one_week": -3.0594184935992152,
-        "one_month": 10.200967615285588,
-        "one_year": 68.21129989995933,
-        "five_year": 169.6091758428151
+        "one_week": -3.816451056257271,
+        "one_month": 6.920598505352955,
+        "one_year": 62.845806097460496,
+        "five_year": 167.76755454423332
       },
       "source": "yahoo-finance"
     },
     "HAL": {
       "ticker": "HAL",
-      "price": 39.62,
-      "market_cap": 33098459136,
+      "price": 39.73,
+      "market_cap": 33190352896,
       "currency": "USD",
-      "as_of": "2026-06-09T20:00:02.000Z",
+      "as_of": "2026-06-10T20:00:03.000Z",
       "market_state": "POSTPOST",
       "quote_source": "Delayed Quote",
       "performance": {
-        "one_week": -1.2708723013726795,
-        "one_month": -0.5272453462227955,
-        "one_year": 88.66666666666664,
-        "five_year": 63.31409573867971
+        "one_week": -3.1684104751980593,
+        "one_month": -0.2510716205308359,
+        "one_year": 82.66666666666666,
+        "five_year": 66.16478566937406
       },
       "source": "yahoo-finance"
     },
     "HCA": {
       "ticker": "HCA",
-      "price": 374.9,
-      "market_cap": 83167739904,
+      "price": 373.34,
+      "market_cap": 82821677056,
       "currency": "USD",
-      "as_of": "2026-06-09T20:00:02.000Z",
+      "as_of": "2026-06-10T20:00:02.000Z",
       "market_state": "POSTPOST",
       "quote_source": "Delayed Quote",
       "performance": {
-        "one_week": 2.0552589549588407,
-        "one_month": -13.853719548514604,
-        "one_year": 0.5066861973925373,
-        "five_year": 79.9721589908557
+        "one_week": 2.7833572964466273,
+        "one_month": -14.212183665624012,
+        "one_year": 2.307351272180368,
+        "five_year": 77.69632991636207
       },
       "source": "yahoo-finance"
     },
     "HD": {
       "ticker": "HD",
-      "price": 321.33,
-      "market_cap": 320403472384,
+      "price": 318.92,
+      "market_cap": 318000463872,
       "currency": "USD",
-      "as_of": "2026-06-09T20:00:03.000Z",
+      "as_of": "2026-06-10T20:00:02.000Z",
       "market_state": "POSTPOST",
       "quote_source": "Delayed Quote",
       "performance": {
-        "one_week": 3.1490791385131853,
-        "one_month": 1.2222358304520473,
-        "one_year": -12.012598778929238,
-        "five_year": 4.551963242274755
+        "one_week": 1.9011402869570921,
+        "one_month": 0.463061186468024,
+        "one_year": -13.315757433739709,
+        "five_year": 3.441342326043077
       },
       "source": "yahoo-finance"
     },
     "HON": {
       "ticker": "HON",
-      "price": 215.7,
-      "market_cap": 136678973440,
+      "price": 205.88,
+      "market_cap": 130456510464,
       "currency": "USD",
-      "as_of": "2026-06-09T20:00:01.000Z",
+      "as_of": "2026-06-10T20:00:01.000Z",
       "market_state": "POSTPOST",
       "quote_source": "Delayed Quote",
       "performance": {
-        "one_week": -8.302510769145348,
-        "one_month": 1.2105879044309433,
-        "one_year": 0.7606684192721546,
-        "five_year": 0.45989876914174543
+        "one_week": -7.784643435662088,
+        "one_month": -3.3971449338699897,
+        "one_year": -3.4567835794517063,
+        "five_year": -3.4525142750912683
       },
       "source": "yahoo-finance"
     },
     "HOOD": {
       "ticker": "HOOD",
-      "price": 83.77,
-      "market_cap": 75435311104,
+      "price": 86.36,
+      "market_cap": 77767622656,
       "currency": "USD",
-      "as_of": "2026-06-09T20:00:00.000Z",
+      "as_of": "2026-06-10T20:00:01.000Z",
       "market_state": "POSTPOST",
       "quote_source": "Delayed Quote",
       "performance": {
-        "one_week": -4.979586524219004,
-        "one_month": 8.749839448932475,
-        "one_year": 14.12806302253945,
+        "one_week": 4.236574038049361,
+        "one_month": 12.112165868566418,
+        "one_year": 19.100810172020694,
         "five_year": null
       },
       "source": "yahoo-finance"
     },
     "HUBB": {
       "ticker": "HUBB",
-      "price": 486.47,
-      "market_cap": 25705938944,
+      "price": 467.59,
+      "market_cap": 24708286464,
       "currency": "USD",
-      "as_of": "2026-06-09T20:00:02.000Z",
+      "as_of": "2026-06-10T20:00:02.000Z",
       "market_state": "POSTPOST",
       "quote_source": "Delayed Quote",
       "performance": {
-        "one_week": 1.2508863696892905,
-        "one_month": -1.2404049573315767,
-        "one_year": 23.991946918672767,
-        "five_year": 160.4507994321293
+        "one_week": -3.571797556516935,
+        "one_month": -5.073285000100062,
+        "one_year": 20.48494019745169,
+        "five_year": 153.27159157554811
       },
       "source": "yahoo-finance"
     },
     "ICE": {
       "ticker": "ICE",
-      "price": 141.56,
-      "market_cap": 80053952512,
+      "price": 140.34,
+      "market_cap": 79364022272,
       "currency": "USD",
-      "as_of": "2026-06-09T20:00:03.000Z",
+      "as_of": "2026-06-10T20:00:03.000Z",
       "market_state": "POSTPOST",
       "quote_source": "Delayed Quote",
       "performance": {
-        "one_week": -0.5759269944451907,
-        "one_month": -9.151589432637863,
-        "one_year": -19.554470069898898,
-        "five_year": 27.704106403797944
+        "one_week": 1.365115993801264,
+        "one_month": -9.93454408714607,
+        "one_year": -20.04785451149186,
+        "five_year": 25.617614094684804
       },
       "source": "yahoo-finance"
     },
     "ILMN": {
       "ticker": "ILMN",
-      "price": 160.03,
-      "market_cap": 24212539392,
+      "price": 162.47,
+      "market_cap": 24581711872,
       "currency": "USD",
-      "as_of": "2026-06-09T20:00:01.000Z",
+      "as_of": "2026-06-10T20:00:01.000Z",
       "market_state": "POSTPOST",
       "quote_source": "Delayed Quote",
       "performance": {
-        "one_week": -1.5502940661006404,
-        "one_month": 12.79249682305742,
-        "one_year": 88.31489018403647,
-        "five_year": -62.08903655561082
+        "one_week": -4.949390416126738,
+        "one_month": 14.512259944023862,
+        "one_year": 84.66696271976892,
+        "five_year": -62.9398084623912
       },
       "source": "yahoo-finance"
     },
     "INDA": {
       "ticker": "INDA",
-      "price": 47.54,
+      "price": 47.3,
       "market_cap": null,
       "currency": "USD",
-      "as_of": "2026-06-09T20:00:00.000Z",
+      "as_of": "2026-06-10T20:00:00.000Z",
       "market_state": "POSTPOST",
       "quote_source": "Delayed Quote",
       "performance": {
-        "one_week": -1.0201931953995547,
-        "one_month": -4.61476754724381,
-        "one_year": -13.939177126180915,
-        "five_year": 5.316793626058251
+        "one_week": -0.12669047630554905,
+        "one_month": -5.096308476748684,
+        "one_year": -14.404630045801916,
+        "five_year": 4.391963289328061
       },
       "source": "yahoo-finance"
     },
     "INTC": {
       "ticker": "INTC",
-      "price": 107.92,
-      "market_cap": 542405885952,
+      "price": 107.04,
+      "market_cap": 537983025152,
       "currency": "USD",
-      "as_of": "2026-06-09T20:00:01.000Z",
+      "as_of": "2026-06-10T20:00:01.000Z",
       "market_state": "POSTPOST",
       "quote_source": "Delayed Quote",
       "performance": {
-        "one_week": -0.009265547250535846,
-        "one_month": -13.608708307819567,
-        "one_year": 426.95313677832047,
-        "five_year": 89.33333333333333
+        "one_week": -5.030608757456524,
+        "one_month": -14.313159166688344,
+        "one_year": 384.7826103707418,
+        "five_year": 86.54583131313274
       },
       "source": "yahoo-finance"
     },
     "IREN": {
       "ticker": "IREN",
-      "price": 54.02,
-      "market_cap": 19305596928,
+      "price": 51.52,
+      "market_cap": 18412150784,
       "currency": "USD",
-      "as_of": "2026-06-09T20:00:01.000Z",
+      "as_of": "2026-06-10T20:00:01.000Z",
       "market_state": "POSTPOST",
       "quote_source": "Delayed Quote",
       "performance": {
-        "one_week": -18.888887030544492,
-        "one_month": -11.732027244168604,
-        "one_year": 422.43712962112386,
+        "one_week": -21.31949089989682,
+        "one_month": -15.816994513505488,
+        "one_year": 391.13442444344605,
         "five_year": null
       },
       "source": "yahoo-finance"
     },
     "IRM": {
       "ticker": "IRM",
-      "price": 126.14,
-      "market_cap": 37529763840,
+      "price": 123.36,
+      "market_cap": 36702642176,
       "currency": "USD",
-      "as_of": "2026-06-09T20:00:02.000Z",
+      "as_of": "2026-06-10T20:00:02.000Z",
       "market_state": "POSTPOST",
       "quote_source": "Delayed Quote",
       "performance": {
-        "one_week": -1.8060147848464527,
-        "one_month": -2.0956196946868286,
-        "one_year": 24.6196388843748,
-        "five_year": 168.2688191662331
+        "one_week": -3.587336504665112,
+        "one_month": -4.253334751360134,
+        "one_year": 22.066102295794032,
+        "five_year": 165.86206022255797
       },
       "source": "yahoo-finance"
     },
     "IVV": {
       "ticker": "IVV",
-      "price": 740.75,
+      "price": 728.92,
       "market_cap": null,
       "currency": "USD",
-      "as_of": "2026-06-09T20:00:00.000Z",
+      "as_of": "2026-06-10T20:00:00.000Z",
       "market_state": "POSTPOST",
       "quote_source": "Delayed Quote",
       "performance": {
-        "one_week": -2.923754046860596,
-        "one_month": -0.029686858013458262,
-        "one_year": 22.931774067113857,
-        "five_year": 75.0271721240579
+        "one_week": -3.7411687025420983,
+        "one_month": -1.6262427870984464,
+        "one_year": 20.277868218131655,
+        "five_year": 71.8988740004187
       },
       "source": "yahoo-finance"
     },
     "IYF": {
       "ticker": "IYF",
-      "price": 125.41,
+      "price": 125.06,
       "market_cap": null,
       "currency": "USD",
-      "as_of": "2026-06-09T20:00:00.000Z",
+      "as_of": "2026-06-10T20:00:00.000Z",
       "market_state": "POSTPOST",
       "quote_source": "Delayed Quote",
       "performance": {
-        "one_week": 1.9427763145434085,
-        "one_month": 2.2753198425415424,
-        "one_year": 7.991047073161707,
-        "five_year": 51.24216445890827
+        "one_week": 2.820030275455462,
+        "one_month": 1.9898851726995126,
+        "one_year": 7.791763160229194,
+        "five_year": 52.011675097764666
       },
       "source": "yahoo-finance"
     },
     "JPM": {
       "ticker": "JPM",
-      "price": 312.7,
-      "market_cap": 837883199488,
+      "price": 309.14,
+      "market_cap": 828344172544,
       "currency": "USD",
-      "as_of": "2026-06-09T20:00:02.000Z",
+      "as_of": "2026-06-10T20:00:02.000Z",
       "market_state": "POSTPOST",
       "quote_source": "Delayed Quote",
       "performance": {
-        "one_week": 3.9008535613525894,
-        "one_month": 3.5087698385720123,
-        "one_year": 17.230265969958815,
-        "five_year": 91.91113005687349
+        "one_week": 2.7555239249794012,
+        "one_month": 2.330352119910942,
+        "one_year": 15.093072589455069,
+        "five_year": 92.73068065046584
       },
       "source": "yahoo-finance"
     },
     "KLAC": {
       "ticker": "KLAC",
-      "price": 2139.37,
-      "market_cap": 279460610048,
+      "price": 2135.64,
+      "market_cap": 278973349888,
       "currency": "USD",
-      "as_of": "2026-06-09T20:00:01.000Z",
+      "as_of": "2026-06-10T20:00:01.000Z",
       "market_state": "POSTPOST",
       "quote_source": "Delayed Quote",
       "performance": {
-        "one_week": 4.604442160981208,
-        "one_month": 14.454392922234804,
-        "one_year": 157.97610687265046,
-        "five_year": 580.9810208370671
+        "one_week": 0.4954986822259035,
+        "one_month": 14.25484123851486,
+        "one_year": 149.3188028163143,
+        "five_year": 568.829669076712
       },
       "source": "yahoo-finance"
     },
     "KMI": {
       "ticker": "KMI",
-      "price": 31.34,
-      "market_cap": 69726044160,
+      "price": 31.84,
+      "market_cap": 70838452224,
       "currency": "USD",
-      "as_of": "2026-06-09T20:00:02.000Z",
+      "as_of": "2026-06-10T20:00:02.000Z",
       "market_state": "POSTPOST",
       "quote_source": "Delayed Quote",
       "performance": {
-        "one_week": -0.31806785101447754,
-        "one_month": -0.22285847740262515,
-        "one_year": 13.839445035694023,
-        "five_year": 66.43653811460966
+        "one_week": 1.4982440171910656,
+        "one_month": 1.3689912597160312,
+        "one_year": 16.28926579962877,
+        "five_year": 67.57894736842105
       },
       "source": "yahoo-finance"
     },
     "KRE": {
       "ticker": "KRE",
-      "price": 71.24,
+      "price": 71.64,
       "market_cap": null,
       "currency": "USD",
-      "as_of": "2026-06-09T20:00:00.000Z",
+      "as_of": "2026-06-10T20:00:00.000Z",
       "market_state": "POSTPOST",
       "quote_source": "Delayed Quote",
       "performance": {
-        "one_week": 2.4446348318828743,
-        "one_month": 1.9899807533909772,
-        "one_year": 22.17458124196098,
-        "five_year": 2.1362007168458708
+        "one_week": 5.539191070595844,
+        "one_month": 2.5626364566666227,
+        "one_year": 21.567961359246606,
+        "five_year": 4.736839768775812
       },
       "source": "yahoo-finance"
     },
     "LBRT": {
       "ticker": "LBRT",
-      "price": 28.13,
-      "market_cap": 4590574592,
+      "price": 28.23,
+      "market_cap": 4606894080,
       "currency": "USD",
-      "as_of": "2026-06-09T20:00:02.000Z",
+      "as_of": "2026-06-10T20:00:02.000Z",
       "market_state": "POSTPOST",
       "quote_source": "Delayed Quote",
       "performance": {
-        "one_week": -9.984000000000002,
-        "one_month": -15.040774746451103,
-        "one_year": 129.25834515516365,
-        "five_year": 85.9220078468549
-      },
-      "source": "yahoo-finance"
-    },
-    "LEN": {
-      "ticker": "LEN",
-      "price": 92.56,
-      "market_cap": 22797371392,
-      "currency": "USD",
-      "as_of": "2026-06-09T20:00:02.000Z",
-      "market_state": "POSTPOST",
-      "quote_source": "Delayed Quote",
-      "performance": {
-        "one_week": 1.8261809089722625,
-        "one_month": 4.729580082013838,
-        "one_year": -16.136633417936174,
-        "five_year": 1.8258561449959707
+        "one_week": -9.111395732783276,
+        "one_month": -14.738751194181104,
+        "one_year": 120.71931262077979,
+        "five_year": 84.26893317457022
       },
       "source": "yahoo-finance"
     },
     "LH": {
       "ticker": "LH",
-      "price": 271.24,
-      "market_cap": 22241679360,
+      "price": 268.63,
+      "market_cap": 22027661312,
       "currency": "USD",
-      "as_of": "2026-06-09T20:00:02.000Z",
+      "as_of": "2026-06-10T20:00:02.000Z",
       "market_state": "POSTPOST",
       "quote_source": "Delayed Quote",
       "performance": {
-        "one_week": 5.254166531467213,
-        "one_month": 6.7369767085496814,
-        "one_year": 6.064992191602616,
-        "five_year": 21.811555387438656
+        "one_week": 3.7501877292987693,
+        "one_month": 5.709902865424345,
+        "one_year": 3.5701912546317,
+        "five_year": 19.79821347922298
       },
       "source": "yahoo-finance"
     },
     "LITE": {
       "ticker": "LITE",
-      "price": 821.76,
-      "market_cap": 63932928000,
+      "price": 853.26,
+      "market_cap": 66383630336,
       "currency": "USD",
-      "as_of": "2026-06-09T20:00:01.000Z",
+      "as_of": "2026-06-10T20:00:01.000Z",
       "market_state": "POSTPOST",
       "quote_source": "Delayed Quote",
       "performance": {
-        "one_week": -20.151583296336042,
-        "one_month": -9.077228247513704,
-        "one_year": 900.8037923414669,
-        "five_year": 924.7661491224532
+        "one_week": -9.034115138592751,
+        "one_month": -5.591943845494478,
+        "one_year": 941.0688256848093,
+        "five_year": 949.7785590731787
       },
       "source": "yahoo-finance"
     },
     "LNG": {
       "ticker": "LNG",
-      "price": 239.4,
-      "market_cap": 50166718464,
+      "price": 241.81,
+      "market_cap": 50671738880,
       "currency": "USD",
-      "as_of": "2026-06-09T20:00:02.000Z",
+      "as_of": "2026-06-10T20:00:02.000Z",
       "market_state": "POSTPOST",
       "quote_source": "Delayed Quote",
       "performance": {
-        "one_week": 1.4363821753598989,
-        "one_month": -0.29569805861761655,
-        "one_year": 4.642014720416273,
-        "five_year": 171.36703319815706
+        "one_week": 2.736119733361133,
+        "one_month": 0.7080085732901997,
+        "one_year": 5.066263920371861,
+        "five_year": 174.7840909090909
       },
       "source": "yahoo-finance"
     },
     "LOW": {
       "ticker": "LOW",
-      "price": 217.37,
-      "market_cap": 121880895488,
+      "price": 216.19,
+      "market_cap": 121282592768,
       "currency": "USD",
-      "as_of": "2026-06-09T20:01:16.000Z",
+      "as_of": "2026-06-10T20:01:36.000Z",
       "market_state": "POSTPOST",
       "quote_source": "Delayed Quote",
       "performance": {
-        "one_week": 5.192605808190436,
-        "one_month": -5.16142980181349,
-        "one_year": -2.790573137748424,
-        "five_year": 14.045117019537495
+        "one_week": 4.112692682174073,
+        "one_month": -5.676264014602103,
+        "one_year": -3.8685577007693728,
+        "five_year": 14.51954730265054
       },
       "source": "yahoo-finance"
     },
     "LRCX": {
       "ticker": "LRCX",
-      "price": 327.16,
-      "market_cap": 409136824320,
+      "price": 321.8,
+      "market_cap": 402433736704,
       "currency": "USD",
-      "as_of": "2026-06-09T20:00:01.000Z",
+      "as_of": "2026-06-10T20:00:00.000Z",
       "market_state": "POSTPOST",
       "quote_source": "Delayed Quote",
       "performance": {
-        "one_week": -2.167998439853735,
-        "one_month": 11.259994416440168,
-        "one_year": 270.5096134687927,
-        "five_year": 415.9519909682716
+        "one_week": -6.374557621186199,
+        "one_month": 9.437175092341498,
+        "one_year": 253.62637362637366,
+        "five_year": 402.2082533953763
       },
       "source": "yahoo-finance"
     },
     "LYV": {
       "ticker": "LYV",
-      "price": 162.66,
-      "market_cap": 37853065216,
+      "price": 167.5,
+      "market_cap": 38979395584,
       "currency": "USD",
-      "as_of": "2026-06-09T20:00:03.000Z",
+      "as_of": "2026-06-10T20:00:03.000Z",
       "market_state": "POSTPOST",
       "quote_source": "Delayed Quote",
       "performance": {
-        "one_week": -2.970651042579251,
-        "one_month": -0.37971508080112215,
-        "one_year": 13.367720130744045,
-        "five_year": 84.48452237497163
+        "one_week": 1.97869101978691,
+        "one_month": 2.5845181603701732,
+        "one_year": 16.554166150377903,
+        "five_year": 92.50660370947624
       },
       "source": "yahoo-finance"
     },
     "MCD": {
       "ticker": "MCD",
-      "price": 282.25,
-      "market_cap": 200540274688,
+      "price": 282.52,
+      "market_cap": 200732098560,
       "currency": "USD",
-      "as_of": "2026-06-09T20:00:02.000Z",
+      "as_of": "2026-06-10T20:00:02.000Z",
       "market_state": "POSTPOST",
       "quote_source": "Delayed Quote",
       "performance": {
-        "one_week": 2.131283456591846,
-        "one_month": 2.357207615593835,
-        "one_year": -7.392216966183443,
-        "five_year": 21.938047484122542
+        "one_week": 3.3773614718742753,
+        "one_month": 2.455122393472341,
+        "one_year": -5.961452954901682,
+        "five_year": 20.431392817396013
       },
       "source": "yahoo-finance"
     },
     "MELI": {
       "ticker": "MELI",
-      "price": 1641.16,
-      "market_cap": 83202195456,
+      "price": 1588.29,
+      "market_cap": 80521830400,
       "currency": "USD",
-      "as_of": "2026-06-09T20:00:00.000Z",
+      "as_of": "2026-06-10T20:00:01.000Z",
       "market_state": "POSTPOST",
       "quote_source": "Delayed Quote",
       "performance": {
-        "one_week": -1.8931963730121102,
-        "one_month": 0.5292419305970228,
-        "one_year": -32.975580554338585,
-        "five_year": 24.64569117285346
+        "one_week": -3.066756860653273,
+        "one_month": -2.7093094725999087,
+        "one_year": -33.72293740572614,
+        "five_year": 15.650782993050164
       },
       "source": "yahoo-finance"
     },
     "META": {
       "ticker": "META",
-      "price": 584.59,
-      "market_cap": 1483936890880,
+      "price": 570.98,
+      "market_cap": 1449388933120,
       "currency": "USD",
-      "as_of": "2026-06-09T20:00:01.000Z",
+      "as_of": "2026-06-10T20:00:01.000Z",
       "market_state": "POSTPOST",
       "quote_source": "Delayed Quote",
       "performance": {
-        "one_week": -2.1819528431089137,
-        "one_month": -4.1074101803151635,
-        "one_year": -15.77241131078903,
-        "five_year": 77.01438304314914
+        "one_week": -8.346974557613157,
+        "one_month": -6.339911843781716,
+        "one_year": -18.71013949973766,
+        "five_year": 71.74397361348385
       },
       "source": "yahoo-finance"
     },
     "MRNA": {
       "ticker": "MRNA",
-      "price": 47.73,
-      "market_cap": 18938607616,
+      "price": 45.99,
+      "market_cap": 18248202240,
       "currency": "USD",
-      "as_of": "2026-06-09T20:00:01.000Z",
+      "as_of": "2026-06-10T20:00:01.000Z",
       "market_state": "POSTPOST",
       "quote_source": "Delayed Quote",
       "performance": {
-        "one_week": 4.57931778768952,
-        "one_month": -12.180310321946425,
-        "one_year": 69.61620836977674,
-        "five_year": -78.049117244256
+        "one_week": -6.257646325632529,
+        "one_month": -15.381782352950255,
+        "one_year": 66.14884209882217,
+        "five_year": -78.80645161290322
       },
       "source": "yahoo-finance"
     },
     "MRVL": {
       "ticker": "MRVL",
-      "price": 266.88,
-      "market_cap": 233466626048,
+      "price": 252.59,
+      "market_cap": 221155966976,
       "currency": "USD",
-      "as_of": "2026-06-09T20:00:00.000Z",
+      "as_of": "2026-06-10T20:00:00.000Z",
       "market_state": "POSTPOST",
       "quote_source": "Delayed Quote",
       "performance": {
-        "one_week": -8.222431253592474,
-        "one_month": 56.868272697593824,
-        "one_year": 285.9994248712085,
-        "five_year": 430.04966849635764
+        "one_week": -16.263880288132885,
+        "one_month": 48.468813701608305,
+        "one_year": 266.92331992610883,
+        "five_year": 387.6254898075044
       },
       "source": "yahoo-finance"
     },
     "MSFT": {
       "ticker": "MSFT",
-      "price": 403.41,
-      "market_cap": 2996704903168,
+      "price": 397.36,
+      "market_cap": 2951762673664,
       "currency": "USD",
-      "as_of": "2026-06-09T20:00:01.000Z",
+      "as_of": "2026-06-10T20:00:01.000Z",
       "market_state": "POSTPOST",
       "quote_source": "Delayed Quote",
       "performance": {
-        "one_week": -8.588066839243009,
-        "one_month": -2.820869930363573,
-        "one_year": -14.667371760973024,
-        "five_year": 59.07961900140766
+        "one_week": -7.015490381149797,
+        "one_month": -4.278279853075706,
+        "one_year": -15.620489962256107,
+        "five_year": 54.470539218245065
       },
       "source": "yahoo-finance"
     },
     "MU": {
       "ticker": "MU",
-      "price": 935.89,
-      "market_cap": 1055434997760,
+      "price": 891.88,
+      "market_cap": 1005803405312,
       "currency": "USD",
-      "as_of": "2026-06-09T20:00:01.000Z",
+      "as_of": "2026-06-10T20:00:01.000Z",
       "market_state": "POSTPOST",
       "quote_source": "Delayed Quote",
       "performance": {
-        "one_week": -12.048677617471027,
-        "one_month": 25.318354475640408,
-        "one_year": 743.524133161166,
-        "five_year": 1089.7914523627455
+        "one_week": -17.385621648160182,
+        "one_month": 19.425289285850013,
+        "one_year": 681.3912780525967,
+        "five_year": 1024.9747902782574
       },
       "source": "yahoo-finance"
     },
     "NBIS": {
       "ticker": "NBIS",
-      "price": 220.12,
-      "market_cap": 55888068608,
+      "price": 211.69,
+      "market_cap": 53747707904,
       "currency": "USD",
-      "as_of": "2026-06-09T20:00:01.000Z",
+      "as_of": "2026-06-10T20:00:01.000Z",
       "market_state": "POSTPOST",
       "quote_source": "Delayed Quote",
       "performance": {
-        "one_week": -15.526897174447821,
-        "one_month": 24.32645930858942,
-        "one_year": 318.6382509214619,
+        "one_week": -15.889221964217509,
+        "one_month": 19.565092545135805,
+        "one_year": 303.142271503731,
         "five_year": null
       },
       "source": "yahoo-finance"
     },
     "NDAQ": {
       "ticker": "NDAQ",
-      "price": 87.52,
-      "market_cap": 49496129536,
+      "price": 86.72,
+      "market_cap": 49043697664,
       "currency": "USD",
-      "as_of": "2026-06-09T20:00:00.000Z",
+      "as_of": "2026-06-10T20:00:00.000Z",
       "market_state": "POSTPOST",
       "quote_source": "Delayed Quote",
       "performance": {
-        "one_week": -0.44363968361143047,
-        "one_month": -1.5633827520600523,
-        "one_year": 2.183302324350893,
-        "five_year": 55.25071053586594
+        "one_week": -0.10367188241539332,
+        "one_month": -2.4631690157523707,
+        "one_year": 0.7551996136638393,
+        "five_year": 54.52601862173191
       },
       "source": "yahoo-finance"
     },
     "NFLX": {
       "ticker": "NFLX",
-      "price": 81.41,
-      "market_cap": 342801121280,
+      "price": 82,
+      "market_cap": 345285492736,
       "currency": "USD",
-      "as_of": "2026-06-09T20:00:01.000Z",
+      "as_of": "2026-06-10T20:00:01.000Z",
       "market_state": "POSTPOST",
       "quote_source": "Delayed Quote",
       "performance": {
-        "one_week": -2.3040943104109735,
-        "one_month": -6.94936336978392,
-        "one_year": -33.51354836571098,
-        "five_year": 67.57579681792647
+        "one_week": 0.588816703508071,
+        "one_month": -6.275000568999892,
+        "one_year": -31.872185297140838,
+        "five_year": 68.28451987009659
       },
       "source": "yahoo-finance"
     },
     "NRG": {
       "ticker": "NRG",
-      "price": 129.96,
-      "market_cap": 27419801600,
+      "price": 120.65,
+      "market_cap": 25455517696,
       "currency": "USD",
-      "as_of": "2026-06-09T20:00:02.000Z",
+      "as_of": "2026-06-10T20:00:02.000Z",
       "market_state": "POSTPOST",
       "quote_source": "Delayed Quote",
       "performance": {
-        "one_week": -2.6589728506461467,
-        "one_month": -5.901093747255185,
-        "one_year": -16.181878463673698,
-        "five_year": 254.40416277429517
+        "one_week": -9.801132659411056,
+        "one_month": -12.642097265361175,
+        "one_year": -18.8525652788434,
+        "five_year": 231.18308808484608
       },
       "source": "yahoo-finance"
     },
     "NTAP": {
       "ticker": "NTAP",
-      "price": 165,
-      "market_cap": 32326787072,
+      "price": 160.66,
+      "market_cap": 31476494336,
       "currency": "USD",
-      "as_of": "2026-06-09T20:00:00.000Z",
+      "as_of": "2026-06-10T20:00:01.000Z",
       "market_state": "POSTPOST",
       "quote_source": "Delayed Quote",
       "performance": {
-        "one_week": -6.057845266808581,
-        "one_month": 39.83050847457627,
-        "one_year": 60.100915882703056,
-        "five_year": 101.19497098160191
+        "one_week": -11.276784639148772,
+        "one_month": 36.15254237288135,
+        "one_year": 56.72616979023296,
+        "five_year": 92.10810149038215
       },
       "source": "yahoo-finance"
     },
     "NTRA": {
       "ticker": "NTRA",
-      "price": 222.82,
-      "market_cap": 31911251968,
+      "price": 216.5,
+      "market_cap": 31006128128,
       "currency": "USD",
-      "as_of": "2026-06-09T20:00:01.000Z",
+      "as_of": "2026-06-10T20:00:00.000Z",
       "market_state": "POSTPOST",
       "quote_source": "Delayed Quote",
       "performance": {
-        "one_week": 4.743103687824089,
-        "one_month": 14.713752933785699,
-        "one_year": 35.70862822754191,
-        "five_year": 113.69522122720501
+        "one_week": 2.194946312256542,
+        "one_month": 11.460046271271002,
+        "one_year": 31.03740370440765,
+        "five_year": 105.09663225392383
       },
       "source": "yahoo-finance"
     },
     "NUE": {
       "ticker": "NUE",
-      "price": 254.32,
-      "market_cap": 57919078400,
+      "price": 250.49,
+      "market_cap": 57046831104,
       "currency": "USD",
-      "as_of": "2026-06-09T20:00:02.000Z",
+      "as_of": "2026-06-10T20:00:02.000Z",
       "market_state": "POSTPOST",
       "quote_source": "Delayed Quote",
       "performance": {
-        "one_week": -1.601791995647298,
-        "one_month": 11.789010989010986,
-        "one_year": 107.55733496585233,
-        "five_year": 136.40081397227348
+        "one_week": -2.8091454924557384,
+        "one_month": 10.10549450549451,
+        "one_year": 100.90631968790711,
+        "five_year": 135.62224226554056
       },
       "source": "yahoo-finance"
     },
     "NVDA": {
       "ticker": "NVDA",
-      "price": 208.19,
-      "market_cap": 5042570002432,
+      "price": 200.42,
+      "market_cap": 4854372630528,
       "currency": "USD",
-      "as_of": "2026-06-09T20:00:01.000Z",
+      "as_of": "2026-06-10T20:00:00.000Z",
       "market_state": "POSTPOST",
       "quote_source": "Delayed Quote",
       "performance": {
-        "one_week": -6.56584096729297,
-        "one_month": -3.2574335723286123,
-        "one_year": 45.96507948734407,
-        "five_year": 1099.3720797097196
+        "one_week": -6.672875436554139,
+        "one_month": -6.868028419069606,
+        "one_year": 39.21922107044067,
+        "five_year": 1050.1865639898253
       },
       "source": "yahoo-finance"
     },
     "NXPI": {
       "ticker": "NXPI",
-      "price": 297.41,
-      "market_cap": 75087421440,
+      "price": 285.56,
+      "market_cap": 72095637504,
       "currency": "USD",
-      "as_of": "2026-06-09T20:00:00.000Z",
+      "as_of": "2026-06-10T20:00:01.000Z",
       "market_state": "POSTPOST",
       "quote_source": "Delayed Quote",
       "performance": {
-        "one_week": -8.099003619259204,
-        "one_month": 0.9024597116200255,
-        "one_year": 39.57668361379511,
-        "five_year": 50.67888977740013
+        "one_week": -11.283709560037938,
+        "one_month": -3.1178965224766744,
+        "one_year": 30.559618876305162,
+        "five_year": 42.03431766498713
       },
       "source": "yahoo-finance"
     },
     "ON": {
       "ticker": "ON",
-      "price": 117,
-      "market_cap": 45489975296,
+      "price": 110.17,
+      "market_cap": 42834448384,
       "currency": "USD",
-      "as_of": "2026-06-09T20:00:00.000Z",
+      "as_of": "2026-06-10T20:00:00.000Z",
       "market_state": "POSTPOST",
       "quote_source": "Delayed Quote",
       "performance": {
-        "one_week": -9.048507031153717,
-        "one_month": 13.372096375815707,
-        "one_year": 123.36769303966331,
-        "five_year": 214.17828873958578
+        "one_week": -17.740606268305875,
+        "one_month": 6.753879125842877,
+        "one_year": 104.77695457681074,
+        "five_year": 191.68652016088186
       },
       "source": "yahoo-finance"
     },
     "OPCH": {
       "ticker": "OPCH",
-      "price": 21.11,
-      "market_cap": 3314850816,
+      "price": 21.38,
+      "market_cap": 3357248000,
       "currency": "USD",
-      "as_of": "2026-06-09T20:00:00.000Z",
+      "as_of": "2026-06-10T20:00:00.000Z",
       "market_state": "POSTPOST",
       "quote_source": "Delayed Quote",
       "performance": {
-        "one_week": 2.7750684472548452,
-        "one_month": 2.9254010942099065,
-        "one_year": -33.343858701782764,
-        "five_year": 0.5238095238095211
+        "one_week": 4.140279030323678,
+        "one_month": 4.241832088782934,
+        "one_year": -33.499225551232634,
+        "five_year": 0.04679064283536671
       },
       "source": "yahoo-finance"
     },
     "PEP": {
       "ticker": "PEP",
-      "price": 142.78,
-      "market_cap": 195171827712,
+      "price": 144.32,
+      "market_cap": 197276925952,
       "currency": "USD",
-      "as_of": "2026-06-09T20:00:01.000Z",
+      "as_of": "2026-06-10T20:00:01.000Z",
       "market_state": "POSTPOST",
       "quote_source": "Delayed Quote",
       "performance": {
-        "one_week": 0.5492957746478881,
-        "one_month": -7.657479945083358,
-        "one_year": 9.864568039272713,
-        "five_year": -2.2724202360151264
+        "one_week": 1.2487770434323087,
+        "one_month": -6.661489744182875,
+        "one_year": 9.474321471186602,
+        "five_year": -2.22222626550251
       },
       "source": "yahoo-finance"
     },
     "PGNY": {
       "ticker": "PGNY",
-      "price": 25.83,
-      "market_cap": 2023325056,
+      "price": 25.89,
+      "market_cap": 2028024960,
       "currency": "USD",
-      "as_of": "2026-06-09T20:00:00.000Z",
+      "as_of": "2026-06-10T20:00:00.000Z",
       "market_state": "POSTPOST",
       "quote_source": "Delayed Quote",
       "performance": {
-        "one_week": 2.826429685693702,
-        "one_month": 8.895450032570466,
-        "one_year": 17.56941651017349,
-        "five_year": -58.94786911683572
+        "one_week": 3.6014415251095713,
+        "one_month": 9.148401136014307,
+        "one_year": 15.425767488847583,
+        "five_year": -59.546875
       },
       "source": "yahoo-finance"
     },
     "PLUG": {
       "ticker": "PLUG",
-      "price": 2.91,
-      "market_cap": 4059651072,
+      "price": 2.86,
+      "market_cap": 3989897472,
       "currency": "USD",
-      "as_of": "2026-06-09T20:00:01.000Z",
+      "as_of": "2026-06-10T20:00:00.000Z",
       "market_state": "POSTPOST",
       "quote_source": "Delayed Quote",
       "performance": {
-        "one_week": -28.85085840012162,
-        "one_month": -6.730765809674105,
-        "one_year": 138.52458457029255,
-        "five_year": -91.02682709646608
+        "one_week": -22.493226134139075,
+        "one_month": -8.33332997101992,
+        "one_year": 123.43750499421742,
+        "five_year": -90.91775160118254
       },
       "source": "yahoo-finance"
     },
     "PM": {
       "ticker": "PM",
-      "price": 178.49,
-      "market_cap": 278187180032,
+      "price": 182.95,
+      "market_cap": 285138321408,
       "currency": "USD",
-      "as_of": "2026-06-09T20:00:02.000Z",
+      "as_of": "2026-06-10T20:00:02.000Z",
       "market_state": "POSTPOST",
       "quote_source": "Delayed Quote",
       "performance": {
-        "one_week": 2.781294619392251,
-        "one_month": 4.3862180629825085,
-        "one_year": -1.1847449620570314,
-        "five_year": 84.48578811369511
+        "one_week": 3.9843113909972216,
+        "one_month": 6.994557648174396,
+        "one_year": 2.1895778626103777,
+        "five_year": 87.54484292832967
       },
       "source": "yahoo-finance"
     },
     "PSIX": {
       "ticker": "PSIX",
-      "price": 39.14,
-      "market_cap": 902194624,
+      "price": 38.29,
+      "market_cap": 882601728,
       "currency": "USD",
-      "as_of": "2026-06-09T20:00:00.000Z",
+      "as_of": "2026-06-10T20:00:00.000Z",
       "market_state": "POSTPOST",
       "quote_source": "Delayed Quote",
       "performance": {
-        "one_week": -3.5723088128528686,
-        "one_month": -48.43894333845645,
-        "one_year": -18.288102811742384,
-        "five_year": 831.9048042254132
+        "one_week": -5.269664189598581,
+        "one_month": -49.558690353334114,
+        "one_year": -23.189566354996582,
+        "five_year": 845.4320542402832
       },
       "source": "yahoo-finance"
     },
@@ -1892,740 +1876,742 @@
     },
     "PUMP": {
       "ticker": "PUMP",
-      "price": 14.67,
-      "market_cap": 1798791040,
+      "price": 15.07,
+      "market_cap": 1847837824,
       "currency": "USD",
-      "as_of": "2026-06-09T20:00:02.000Z",
+      "as_of": "2026-06-10T20:00:02.000Z",
       "market_state": "POSTPOST",
       "quote_source": "Delayed Quote",
       "performance": {
-        "one_week": -10.439555850908674,
-        "one_month": -6.441328351520455,
-        "one_year": 141.28289776454346,
-        "five_year": 36.21169337485934
+        "one_week": -7.772338682547384,
+        "one_month": -3.8903079930070352,
+        "one_year": 143.8511394595182,
+        "five_year": 42.30405838395882
       },
       "source": "yahoo-finance"
     },
     "QCOM": {
       "ticker": "QCOM",
-      "price": 205.42,
-      "market_cap": 216512675840,
+      "price": 191.2,
+      "market_cap": 201524789248,
       "currency": "USD",
-      "as_of": "2026-06-09T20:00:00.000Z",
+      "as_of": "2026-06-10T20:00:01.000Z",
       "market_state": "POSTPOST",
       "quote_source": "Delayed Quote",
       "performance": {
-        "one_week": -14.706858028762607,
-        "one_month": -6.239443409733844,
-        "one_year": 32.17939332053666,
-        "five_year": 54.578975802148534
+        "one_week": -23.52305739730254,
+        "one_month": -12.729926881224374,
+        "one_year": 20.153330065442198,
+        "five_year": 42.45268831848873
       },
       "source": "yahoo-finance"
     },
     "QQQ": {
       "ticker": "QQQ",
-      "price": 707.83,
+      "price": 693.69,
       "market_cap": null,
       "currency": "USD",
-      "as_of": "2026-06-09T20:00:00.000Z",
+      "as_of": "2026-06-10T20:00:01.000Z",
       "market_state": "POSTPOST",
       "quote_source": "Delayed Quote",
       "performance": {
-        "one_week": -5.136964528262988,
-        "one_month": -0.4780423438434268,
-        "one_year": 33.37666925168048,
-        "five_year": 110.13834689926854
+        "one_week": -6.788409250220013,
+        "one_month": -2.466147512115544,
+        "one_year": 29.85342308600621,
+        "five_year": 103.81665566623141
       },
       "source": "yahoo-finance"
     },
     "RBLX": {
       "ticker": "RBLX",
-      "price": 43,
-      "market_cap": 30787086336,
+      "price": 41.5,
+      "market_cap": 29713117184,
       "currency": "USD",
-      "as_of": "2026-06-09T20:02:38.000Z",
+      "as_of": "2026-06-10T20:03:51.000Z",
       "market_state": "POSTPOST",
       "quote_source": "Delayed Quote",
       "performance": {
-        "one_week": -4.444444444444445,
-        "one_month": 2.6008116357824247,
-        "one_year": -53.97131145064177,
-        "five_year": -52.7680145347339
+        "one_week": -4.9908431546358445,
+        "one_month": -0.9782864445355668,
+        "one_year": -55.71916404240028,
+        "five_year": -54.395604395604394
       },
       "source": "yahoo-finance"
     },
     "RDY": {
       "ticker": "RDY",
-      "price": 13.37,
-      "market_cap": 11133245440,
+      "price": 13.3,
+      "market_cap": 11074956288,
       "currency": "USD",
-      "as_of": "2026-06-09T20:00:02.000Z",
+      "as_of": "2026-06-10T20:00:02.000Z",
       "market_state": "POSTPOST",
       "quote_source": "Delayed Quote",
       "performance": {
-        "one_week": 2.6093651112552907,
-        "one_month": 1.0582045548582548,
-        "one_year": -14.459373626957639,
-        "five_year": -6.881179936520019
+        "one_week": 2.1505340429490416,
+        "one_month": 0.5291040074506312,
+        "one_year": -16.299561279815297,
+        "five_year": -8.414820868221868
       },
       "source": "yahoo-finance"
     },
     "REGN": {
       "ticker": "REGN",
-      "price": 616.18,
-      "market_cap": 64599715840,
+      "price": 601.65,
+      "market_cap": 63076405248,
       "currency": "USD",
-      "as_of": "2026-06-09T20:00:01.000Z",
+      "as_of": "2026-06-10T20:00:01.000Z",
       "market_state": "POSTPOST",
       "quote_source": "Delayed Quote",
       "performance": {
-        "one_week": 2.199299652640578,
-        "one_month": -13.807720436126154,
-        "one_year": 19.045600669217023,
-        "five_year": 18.07608102465616
+        "one_week": -2.7950580605602493,
+        "one_month": -15.840200915958484,
+        "one_year": 14.92177455571053,
+        "five_year": 13.083607406862699
       },
       "source": "yahoo-finance"
     },
     "RIOT": {
       "ticker": "RIOT",
-      "price": 25.295,
-      "market_cap": 9565335552,
+      "price": 24.08,
+      "market_cap": 9105882112,
       "currency": "USD",
-      "as_of": "2026-06-09T20:00:00.000Z",
+      "as_of": "2026-06-10T20:00:00.000Z",
       "market_state": "POSTPOST",
       "quote_source": "Delayed Quote",
       "performance": {
-        "one_week": -7.41215123515486,
-        "one_month": 5.045681395944753,
-        "one_year": 149.95059571191462,
-        "five_year": -19.468321799167175
+        "one_week": -12.911391203556324,
+        "one_month": 3.168353149872242e-7,
+        "one_year": 130.4306262154214,
+        "five_year": -23.8938038416076
       },
       "source": "yahoo-finance"
     },
     "ROK": {
       "ticker": "ROK",
-      "price": 460.47,
-      "market_cap": 51238318080,
+      "price": 440.07,
+      "market_cap": 48968327168,
       "currency": "USD",
-      "as_of": "2026-06-09T20:00:02.000Z",
+      "as_of": "2026-06-10T20:00:02.000Z",
       "market_state": "POSTPOST",
       "quote_source": "Delayed Quote",
       "performance": {
-        "one_week": -0.6344281821445144,
-        "one_month": 1.4496871795382156,
-        "one_year": 41.967008273476644,
-        "five_year": 64.95432923804883
+        "one_week": -4.691055480682083,
+        "one_month": -3.044793717073036,
+        "one_year": 35.314555792451564,
+        "five_year": 56.236013427430365
       },
       "source": "yahoo-finance"
     },
     "RTX": {
       "ticker": "RTX",
-      "price": 181.56,
-      "market_cap": 244503838720,
+      "price": 177.41,
+      "market_cap": 238915108864,
       "currency": "USD",
-      "as_of": "2026-06-09T20:00:02.000Z",
+      "as_of": "2026-06-10T20:00:02.000Z",
       "market_state": "POSTPOST",
       "quote_source": "Delayed Quote",
       "performance": {
-        "one_week": 4.189145944726687,
-        "one_month": 3.106368207091816,
-        "one_year": 28.78422861558793,
-        "five_year": 104.34440418463495
+        "one_week": 2.8165730873875368,
+        "one_month": 0.74961876856223,
+        "one_year": 28.075364227570095,
+        "five_year": 101.03116147308782
       },
       "source": "yahoo-finance"
     },
     "SEI": {
       "ticker": "SEI",
-      "price": 68.61,
-      "market_cap": 6408665088,
+      "price": 68.24,
+      "market_cap": 6374104576,
       "currency": "USD",
-      "as_of": "2026-06-09T20:00:02.000Z",
+      "as_of": "2026-06-10T20:00:02.000Z",
       "market_state": "POSTPOST",
       "quote_source": "Delayed Quote",
       "performance": {
-        "one_week": -4.60233350002302,
-        "one_month": -5.962169872612325,
-        "one_year": 135.7731927855555,
-        "five_year": 552.186283408062
+        "one_week": -8.032341230956595,
+        "one_month": -6.469297071958395,
+        "one_year": 170.68624545103762,
+        "five_year": 556.1538702214266
       },
       "source": "yahoo-finance"
     },
     "SHOP": {
       "ticker": "SHOP",
-      "price": 110.42,
-      "market_cap": 143287025664,
+      "price": 108.2,
+      "market_cap": 140406226944,
       "currency": "USD",
-      "as_of": "2026-06-09T20:00:00.000Z",
+      "as_of": "2026-06-10T20:00:00.000Z",
       "market_state": "POSTPOST",
       "quote_source": "Delayed Quote",
       "performance": {
-        "one_week": -5.631998988050584,
-        "one_month": 0.009053833492496532,
-        "one_year": 2.4304238163928944,
-        "five_year": -9.161209465781702
+        "one_week": -4.196920788863433,
+        "one_month": -2.001633537548558,
+        "one_year": -1.8683131655350904,
+        "five_year": -12.111120572196528
       },
       "source": "yahoo-finance"
     },
     "SLB": {
       "ticker": "SLB",
-      "price": 55.85,
-      "market_cap": 83498967040,
+      "price": 55.51,
+      "market_cap": 82990645248,
       "currency": "USD",
-      "as_of": "2026-06-09T20:00:02.000Z",
+      "as_of": "2026-06-10T20:00:03.000Z",
       "market_state": "POSTPOST",
       "quote_source": "Delayed Quote",
       "performance": {
-        "one_week": -1.2553064993847292,
-        "one_month": 4.843250460044469,
-        "one_year": 63.6869922285044,
-        "five_year": 56.18009681608241
+        "one_week": -2.3570774144014823,
+        "one_month": 4.204992534235776,
+        "one_year": 56.27815113911991,
+        "five_year": 58.87235884882607
       },
       "source": "yahoo-finance"
     },
     "SMR": {
       "ticker": "SMR",
-      "price": 10,
-      "market_cap": 3461058048,
+      "price": 9.29,
+      "market_cap": 3215322880,
       "currency": "USD",
-      "as_of": "2026-06-09T20:02:05.000Z",
+      "as_of": "2026-06-10T20:03:00.000Z",
       "market_state": "POSTPOST",
       "quote_source": "Delayed Quote",
       "performance": {
-        "one_week": -28.315411206254463,
-        "one_month": -20.318726310597356,
-        "one_year": -71.62315685668528,
+        "one_week": -24.286881390278342,
+        "one_month": -25.976096742544954,
+        "one_year": -73.11143211246457,
         "five_year": null
       },
       "source": "yahoo-finance"
     },
     "SNDK": {
       "ticker": "SNDK",
-      "price": 1646.54,
-      "market_cap": 243835715584,
+      "price": 1643.23,
+      "market_cap": 243345539072,
       "currency": "USD",
-      "as_of": "2026-06-09T20:00:00.000Z",
+      "as_of": "2026-06-10T20:00:00.000Z",
       "market_state": "POSTPOST",
       "quote_source": "Delayed Quote",
       "performance": {
-        "one_week": -4.067910342087198,
-        "one_month": 5.389354175259667,
-        "one_year": 3837.2071066843673,
+        "one_week": -10.279552279552279,
+        "one_month": 5.17749247598719,
+        "one_year": 3851.0218657639316,
         "five_year": null
       },
       "source": "yahoo-finance"
     },
     "SPOT": {
       "ticker": "SPOT",
-      "price": 496.22,
-      "market_cap": 102032785408,
+      "price": 503.1,
+      "market_cap": 103447453696,
       "currency": "USD",
-      "as_of": "2026-06-09T20:00:03.000Z",
+      "as_of": "2026-06-10T20:00:02.000Z",
       "market_state": "POSTPOST",
       "quote_source": "Delayed Quote",
       "performance": {
-        "one_week": -1.0528414755732747,
-        "one_month": 18.761222494062544,
-        "one_year": -29.021182589680063,
-        "five_year": 108.75894252032703
+        "one_week": 3.1915311938229274,
+        "one_month": 20.40782523228178,
+        "one_year": -27.436105307035476,
+        "five_year": 103.52764878476609
       },
       "source": "yahoo-finance"
     },
     "SPY": {
       "ticker": "SPY",
-      "price": 737.05,
+      "price": 725.43,
       "market_cap": null,
       "currency": "USD",
-      "as_of": "2026-06-09T20:00:00.000Z",
+      "as_of": "2026-06-10T20:00:00.000Z",
       "market_state": "POSTPOST",
       "quote_source": "Delayed Quote",
       "performance": {
-        "one_week": -2.964836303048791,
-        "one_month": -0.07727490048544426,
-        "one_year": 22.907218683630187,
-        "five_year": 74.80137807874526
+        "one_week": -3.819737829788439,
+        "one_month": -1.6526118052495167,
+        "one_year": 20.28752063458424,
+        "five_year": 71.2495042811493
       },
       "source": "yahoo-finance"
     },
     "STLD": {
       "ticker": "STLD",
-      "price": 269.8,
-      "market_cap": 38908608512,
+      "price": 268.34,
+      "market_cap": 38698057728,
       "currency": "USD",
-      "as_of": "2026-06-09T20:00:00.000Z",
+      "as_of": "2026-06-10T20:00:00.000Z",
       "market_state": "POSTPOST",
       "quote_source": "Delayed Quote",
       "performance": {
-        "one_week": -0.5931998232879176,
-        "one_month": 14.759673753987832,
-        "one_year": 101.90076340759133,
-        "five_year": 318.2297179749641
+        "one_week": -2.467925984919248,
+        "one_month": 14.138661434933619,
+        "one_year": 100.5380800358338,
+        "five_year": 316.9359811299327
       },
       "source": "yahoo-finance"
     },
     "STM": {
       "ticker": "STM",
-      "price": 73.32,
-      "market_cap": 65166385152,
+      "price": 70.74,
+      "market_cap": 62873292800,
       "currency": "USD",
-      "as_of": "2026-06-09T20:00:02.000Z",
+      "as_of": "2026-06-10T20:00:02.000Z",
       "market_state": "POSTPOST",
       "quote_source": "Delayed Quote",
       "performance": {
-        "one_week": -7.785186731129349,
-        "one_month": 23.91414951653851,
-        "one_year": 147.70269951043642,
-        "five_year": 97.68131490526353
+        "one_week": -11.253292168485295,
+        "one_month": 19.55383165302693,
+        "one_year": 132.6973713410198,
+        "five_year": 87.04389362985896
       },
       "source": "yahoo-finance"
     },
     "STX": {
       "ticker": "STX",
-      "price": 846.01,
-      "market_cap": 191411552256,
+      "price": 815.99,
+      "market_cap": 182968614912,
       "currency": "USD",
-      "as_of": "2026-06-09T20:00:01.000Z",
+      "as_of": "2026-06-10T20:00:00.000Z",
       "market_state": "POSTPOST",
       "quote_source": "Delayed Quote",
       "performance": {
-        "one_week": -8.698372198199687,
-        "one_month": 8.096951876403653,
-        "one_year": 549.9270276565409,
-        "five_year": 751.7164848531213
+        "one_week": -13.256227037362775,
+        "one_month": 4.261216488725451,
+        "one_year": 537.5420061093574,
+        "five_year": 737.2563181462247
       },
       "source": "yahoo-finance"
     },
     "TEVA": {
       "ticker": "TEVA",
-      "price": 34.45,
-      "market_cap": 40114511872,
+      "price": 33.58,
+      "market_cap": 39101460480,
       "currency": "USD",
-      "as_of": "2026-06-09T20:00:03.000Z",
+      "as_of": "2026-06-10T20:00:03.000Z",
       "market_state": "POSTPOST",
       "quote_source": "Delayed Quote",
       "performance": {
-        "one_week": 4.141469447136472,
-        "one_month": -3.5824224982797483,
-        "one_year": 90.64748523414474,
-        "five_year": 221.06245544927577
+        "one_week": 2.284490183110101,
+        "one_month": -6.017351160877631,
+        "one_year": 90.90392102730945,
+        "five_year": 191.24024958972566
       },
       "source": "yahoo-finance"
     },
     "THC": {
       "ticker": "THC",
-      "price": 166.36,
-      "market_cap": 14329751552,
+      "price": 164.77,
+      "market_cap": 14192793600,
       "currency": "USD",
-      "as_of": "2026-06-09T20:00:02.000Z",
+      "as_of": "2026-06-10T20:00:02.000Z",
       "market_state": "POSTPOST",
       "quote_source": "Delayed Quote",
       "performance": {
-        "one_week": 1.6870377710976616,
-        "one_month": -12.616873761295407,
-        "one_year": 0.10229108616428345,
-        "five_year": 145.76746048133828
+        "one_week": -0.04246320034315919,
+        "one_month": -13.45204550161484,
+        "one_year": 5.243997553291738,
+        "five_year": 141.7754898177532
       },
       "source": "yahoo-finance"
     },
     "TMO": {
       "ticker": "TMO",
-      "price": 494.07,
-      "market_cap": 183607017472,
+      "price": 482.04,
+      "market_cap": 179136413696,
       "currency": "USD",
-      "as_of": "2026-06-09T20:00:02.000Z",
+      "as_of": "2026-06-10T20:00:02.000Z",
       "market_state": "POSTPOST",
       "quote_source": "Delayed Quote",
       "performance": {
-        "one_week": 2.4871419187066834,
-        "one_month": 6.251612903225805,
-        "one_year": 20.938487131006262,
-        "five_year": 10.231813082979475
+        "one_week": 1.706928491318383,
+        "one_month": 3.664516129032262,
+        "one_year": 16.283106591330007,
+        "five_year": 3.684583296327714
       },
       "source": "yahoo-finance"
     },
     "TSEM": {
       "ticker": "TSEM",
-      "price": 228.08,
-      "market_cap": 27139016704,
+      "price": 233.54,
+      "market_cap": 27788695552,
       "currency": "USD",
-      "as_of": "2026-06-09T20:00:00.000Z",
+      "as_of": "2026-06-10T20:00:01.000Z",
       "market_state": "POSTPOST",
       "quote_source": "Delayed Quote",
       "performance": {
-        "one_week": -16.974261186529603,
-        "one_month": 8.084539561240774,
-        "one_year": 450.1206103147724,
-        "five_year": 752.9543827683533
+        "one_week": -12.828936281698969,
+        "one_month": 10.67197197970961,
+        "one_year": 468.22386537812184,
+        "five_year": 756.3989588548466
       },
       "source": "yahoo-finance"
     },
     "TSM": {
       "ticker": "TSM",
-      "price": 427.92,
-      "market_cap": 2219396038656,
+      "price": 408.75,
+      "market_cap": 2119971241984,
       "currency": "USD",
-      "as_of": "2026-06-09T20:00:02.000Z",
+      "as_of": "2026-06-10T20:00:02.000Z",
       "market_state": "POSTPOST",
       "quote_source": "Delayed Quote",
       "performance": {
-        "one_week": -4.202019821087971,
-        "one_month": 3.9448133533680347,
-        "one_year": 106.72463768115944,
-        "five_year": 265.33766757815994
+        "one_week": -6.398131920859616,
+        "one_month": -0.7117160726556773,
+        "one_year": 92.38914952614516,
+        "five_year": 245.69520245673738
       },
       "source": "yahoo-finance"
     },
     "TXN": {
       "ticker": "TXN",
-      "price": 288.63,
-      "market_cap": 262680084480,
+      "price": 282.01,
+      "market_cap": 256655278080,
       "currency": "USD",
-      "as_of": "2026-06-09T20:00:00.000Z",
+      "as_of": "2026-06-10T20:00:00.000Z",
       "market_state": "POSTPOST",
       "quote_source": "Delayed Quote",
       "performance": {
-        "one_week": -6.325456129445563,
-        "one_month": 0.28839897228498895,
-        "one_year": 44.88729997111546,
-        "five_year": 54.802898752592945
+        "one_week": -8.613369407084365,
+        "one_month": -2.011809603388112,
+        "one_year": 39.40877421509711,
+        "five_year": 50.00531914893617
       },
       "source": "yahoo-finance"
     },
     "UMC": {
       "ticker": "UMC",
-      "price": 19.88,
-      "market_cap": 49884614656,
+      "price": 18.9,
+      "market_cap": 47425515520,
       "currency": "USD",
-      "as_of": "2026-06-09T20:00:02.000Z",
+      "as_of": "2026-06-10T20:00:02.000Z",
       "market_state": "POSTPOST",
       "quote_source": "Delayed Quote",
       "performance": {
-        "one_week": -11.487084548709072,
-        "one_month": 28.92347536730994,
-        "one_year": 156.1855594540952,
-        "five_year": 115.61821501341917
+        "one_week": -11.764706196630197,
+        "one_month": 22.568092778780578,
+        "one_year": 139.5437302892951,
+        "five_year": 99.15701217949658
       },
       "source": "yahoo-finance"
     },
     "UNH": {
       "ticker": "UNH",
-      "price": 413,
-      "market_cap": 375063642112,
+      "price": 407.46,
+      "market_cap": 370032508928,
       "currency": "USD",
-      "as_of": "2026-06-09T20:00:02.000Z",
+      "as_of": "2026-06-10T20:00:02.000Z",
       "market_state": "POSTPOST",
       "quote_source": "Delayed Quote",
       "performance": {
-        "one_week": 9.282383924071699,
-        "one_month": 8.689927906460309,
-        "one_year": 36.21821190486496,
-        "five_year": 2.9668396198959996
+        "one_week": 8.079575596816971,
+        "one_month": 7.231956476431756,
+        "one_year": 34.1255434803901,
+        "five_year": 1.4869635385280486
       },
       "source": "yahoo-finance"
     },
     "UNP": {
       "ticker": "UNP",
-      "price": 271.28,
-      "market_cap": 161062518784,
+      "price": 267.03,
+      "market_cap": 158539235328,
       "currency": "USD",
-      "as_of": "2026-06-09T20:00:02.000Z",
+      "as_of": "2026-06-10T20:00:02.000Z",
       "market_state": "POSTPOST",
       "quote_source": "Delayed Quote",
       "performance": {
-        "one_week": 2.493579985965685,
-        "one_month": 2.5051979053167366,
-        "one_year": 21.03149850036478,
-        "five_year": 22.474040632054162
+        "one_week": 1.8692995940613737,
+        "one_month": 0.8993032905364499,
+        "one_year": 17.842009182477728,
+        "five_year": 21.603900201861563
       },
       "source": "yahoo-finance"
     },
     "VFH": {
       "ticker": "VFH",
-      "price": 128.68,
+      "price": 128.19,
       "market_cap": null,
       "currency": "USD",
-      "as_of": "2026-06-09T20:00:00.000Z",
+      "as_of": "2026-06-10T20:00:00.000Z",
       "market_state": "POSTPOST",
       "quote_source": "Delayed Quote",
       "performance": {
-        "one_week": 1.8763379678689647,
-        "one_month": 2.0217258400938687,
-        "one_year": 4.101609388086892,
-        "five_year": 38.32097354454311
+        "one_week": 2.9142602059691542,
+        "one_month": 1.6332377637677347,
+        "one_year": 3.612996067889522,
+        "five_year": 39.29153721649043
       },
       "source": "yahoo-finance"
     },
     "VMC": {
       "ticker": "VMC",
-      "price": 279,
-      "market_cap": 36201615360,
+      "price": 272.67,
+      "market_cap": 35380269056,
       "currency": "USD",
-      "as_of": "2026-06-09T20:00:02.000Z",
+      "as_of": "2026-06-10T20:00:02.000Z",
       "market_state": "POSTPOST",
       "quote_source": "Delayed Quote",
       "performance": {
-        "one_week": -1.007662636528645,
-        "one_month": -1.6636124349342154,
-        "one_year": 4.887218045112782,
-        "five_year": 56.197518545981396
+        "one_week": -4.426914943345119,
+        "one_month": -3.8946853140986053,
+        "one_year": 2.855523848433439,
+        "five_year": 57.5216582239405
       },
       "source": "yahoo-finance"
     },
     "VOO": {
       "ticker": "VOO",
-      "price": 677.7,
+      "price": 667.05,
       "market_cap": null,
       "currency": "USD",
-      "as_of": "2026-06-09T20:00:00.000Z",
+      "as_of": "2026-06-10T20:00:00.000Z",
       "market_state": "POSTPOST",
       "quote_source": "Delayed Quote",
       "performance": {
-        "one_week": -2.944463305656877,
-        "one_month": -0.05014129525707612,
-        "one_year": 22.93877551020409,
-        "five_year": 74.83618196608094
+        "one_week": -3.7945635611236326,
+        "one_month": -1.620845139444063,
+        "one_year": 20.321431190099084,
+        "five_year": 71.2976024567665
       },
       "source": "yahoo-finance"
     },
     "VRT": {
       "ticker": "VRT",
-      "price": 289.52,
-      "market_cap": 111207178240,
+      "price": 280.98,
+      "market_cap": 107926896640,
       "currency": "USD",
-      "as_of": "2026-06-09T20:00:03.000Z",
+      "as_of": "2026-06-10T20:00:03.000Z",
       "market_state": "POSTPOST",
       "quote_source": "Delayed Quote",
       "performance": {
-        "one_week": -13.444345585009835,
-        "one_month": -14.839544971484647,
-        "one_year": 158.49999999999997,
-        "five_year": 1002.51331864641
+        "one_week": -15.224475642564245,
+        "one_month": -17.351531314201964,
+        "one_year": 159.03936280805607,
+        "five_year": 984.446166170334
       },
       "source": "yahoo-finance"
     },
     "VRTX": {
       "ticker": "VRTX",
-      "price": 445.77,
-      "market_cap": 113138843648,
+      "price": 435.71,
+      "market_cap": 110585561088,
       "currency": "USD",
-      "as_of": "2026-06-09T20:00:00.000Z",
+      "as_of": "2026-06-10T20:00:00.000Z",
       "market_state": "POSTPOST",
       "quote_source": "Delayed Quote",
       "performance": {
-        "one_week": 4.864853052357288,
-        "one_month": 3.7108539397864617,
-        "one_year": -0.0851717811684111,
-        "five_year": 108.7329111706398
+        "one_week": 1.720596658056564,
+        "one_month": 1.3703393456364474,
+        "one_year": -3.501503676107056,
+        "five_year": 101.00105707077009
       },
       "source": "yahoo-finance"
     },
     "VST": {
       "ticker": "VST",
-      "price": 146.22,
-      "market_cap": 49302818816,
+      "price": 138.54,
+      "market_cap": 46713257984,
       "currency": "USD",
-      "as_of": "2026-06-09T20:00:03.000Z",
+      "as_of": "2026-06-10T20:00:02.000Z",
       "market_state": "POSTPOST",
       "quote_source": "Delayed Quote",
       "performance": {
-        "one_week": -7.438121877512022,
-        "one_month": -1.0154354239829908,
-        "one_year": -13.668297682343301,
-        "five_year": 699.8905607636071
+        "one_week": -9.921978380340098,
+        "one_month": -6.214460563798415,
+        "one_year": -15.857877233144487,
+        "five_year": 662.465599440203
       },
       "source": "yahoo-finance"
     },
     "VTI": {
       "ticker": "VTI",
-      "price": 363.67,
+      "price": 358.04,
       "market_cap": null,
       "currency": "USD",
-      "as_of": "2026-06-09T20:00:00.000Z",
+      "as_of": "2026-06-10T20:00:00.000Z",
       "market_state": "POSTPOST",
       "quote_source": "Delayed Quote",
       "performance": {
-        "one_week": -2.8555363206148994,
-        "one_month": 0.220465977781976,
-        "one_year": 23.127714665589906,
-        "five_year": 65.75661354465853
+        "one_week": -3.6620460433197652,
+        "one_month": -1.3310538711330075,
+        "one_year": 20.584663817934683,
+        "five_year": 62.47220943559167
       },
       "source": "yahoo-finance"
     },
     "VTRS": {
       "ticker": "VTRS",
-      "price": 16.2,
-      "market_cap": 18865754112,
+      "price": 15.77,
+      "market_cap": 18364997632,
       "currency": "USD",
-      "as_of": "2026-06-09T20:00:00.000Z",
+      "as_of": "2026-06-10T20:00:00.000Z",
       "market_state": "POSTPOST",
       "quote_source": "Delayed Quote",
       "performance": {
-        "one_week": 3.2504807728251026,
-        "one_month": -5.649388887500317,
-        "one_year": 83.88194356867943,
-        "five_year": 4.854370226497339
+        "one_week": 1.349611662725607,
+        "one_month": -8.153756960239503,
+        "one_year": 74.44690339099792,
+        "five_year": -0.12666220330174519
       },
       "source": "yahoo-finance"
     },
     "VWO": {
       "ticker": "VWO",
-      "price": 58.45,
+      "price": 57.72,
       "market_cap": null,
       "currency": "USD",
-      "as_of": "2026-06-09T20:00:00.000Z",
+      "as_of": "2026-06-10T20:00:00.000Z",
       "market_state": "POSTPOST",
       "quote_source": "Delayed Quote",
       "performance": {
-        "one_week": -4.47785371499092,
-        "one_month": -3.452264426694609,
-        "one_year": 20.29224082413791,
-        "five_year": 7.208363003006353
+        "one_week": -4.32620877148921,
+        "one_month": -4.6580787460874795,
+        "one_year": 17.91623922445452,
+        "five_year": 5.136609099713403
       },
       "source": "yahoo-finance"
     },
     "WDC": {
       "ticker": "WDC",
-      "price": 517.72,
-      "market_cap": 178448826368,
+      "price": 490.09,
+      "market_cap": 168925265920,
       "currency": "USD",
-      "as_of": "2026-06-09T20:00:01.000Z",
+      "as_of": "2026-06-10T20:00:00.000Z",
       "market_state": "POSTPOST",
       "quote_source": "Delayed Quote",
       "performance": {
-        "one_week": -8.058955346023062,
-        "one_month": 7.85833333333334,
-        "one_year": 807.96211126566,
-        "five_year": 814.9660084981956
+        "one_week": -17.508540155238943,
+        "one_month": 2.102083333333328,
+        "one_year": 775.9427941324161,
+        "five_year": 781.4424655605687
       },
       "source": "yahoo-finance"
     },
     "WFC": {
       "ticker": "WFC",
-      "price": 82,
-      "market_cap": 250935541760,
+      "price": 81.97,
+      "market_cap": 250843725824,
       "currency": "USD",
-      "as_of": "2026-06-09T20:00:51.000Z",
+      "as_of": "2026-06-10T20:01:13.000Z",
       "market_state": "POSTPOST",
       "quote_source": "Delayed Quote",
       "performance": {
-        "one_week": 3.2225547330288236,
-        "one_month": 8.408250478148402,
-        "one_year": 7.245619908269651,
-        "five_year": 78.57143569194392
+        "one_week": 4.181494257833388,
+        "one_month": 8.368588923095418,
+        "one_year": 8.641488821040586,
+        "five_year": 81.79197099713343
       },
       "source": "yahoo-finance"
     },
     "WMB": {
       "ticker": "WMB",
-      "price": 71.59,
-      "market_cap": 87554441216,
+      "price": 72.26,
+      "market_cap": 88373854208,
       "currency": "USD",
-      "as_of": "2026-06-09T20:00:02.000Z",
+      "as_of": "2026-06-10T20:00:02.000Z",
       "market_state": "POSTPOST",
       "quote_source": "Delayed Quote",
       "performance": {
-        "one_week": 0.3926552390864717,
-        "one_month": -0.514173275681003,
-        "one_year": 19.996647977037142,
-        "five_year": 154.49698590765627
+        "one_week": 0.8372820363221409,
+        "one_month": 0.4168995543971349,
+        "one_year": 22.55766811745076,
+        "five_year": 160.7722929896848
       },
       "source": "yahoo-finance"
     },
     "WMT": {
       "ticker": "WMT",
-      "price": 118.88,
-      "market_cap": 946056396800,
+      "price": 120.59,
+      "market_cap": 959664685056,
       "currency": "USD",
-      "as_of": "2026-06-09T20:00:01.000Z",
+      "as_of": "2026-06-10T20:00:01.000Z",
       "market_state": "POSTPOST",
       "quote_source": "Delayed Quote",
       "performance": {
-        "one_week": 5.147711451514943,
-        "one_month": -8.855319577063735,
-        "one_year": 21.99076831489256,
-        "five_year": 156.4279517577394
+        "one_week": 3.165369689170544,
+        "one_month": -7.544271431679974,
+        "one_year": 23.91081008851807,
+        "five_year": 158.62882273201754
       },
       "source": "yahoo-finance"
     },
     "WULF": {
       "ticker": "WULF",
-      "price": 25.3,
-      "market_cap": 12536975360,
+      "price": 23.19,
+      "market_cap": 11491401728,
       "currency": "USD",
-      "as_of": "2026-06-09T20:00:00.000Z",
+      "as_of": "2026-06-10T20:00:00.000Z",
       "market_state": "POSTPOST",
       "quote_source": "Delayed Quote",
       "performance": {
-        "one_week": -4.49226040543651,
-        "one_month": 8.165885678461624,
-        "one_year": 458.4988703801929,
-        "five_year": 133.1797153040551
+        "one_week": -11.35321049210907,
+        "one_month": -0.8550636804930771,
+        "one_year": 413.05309951011316,
+        "five_year": 110.62669861865346
       },
       "source": "yahoo-finance"
     },
     "XLF": {
       "ticker": "XLF",
-      "price": 52.46,
+      "price": 52.23,
       "market_cap": null,
       "currency": "USD",
-      "as_of": "2026-06-09T20:00:00.000Z",
+      "as_of": "2026-06-10T20:00:00.000Z",
       "market_state": "POSTPOST",
       "quote_source": "Delayed Quote",
       "performance": {
-        "one_week": 1.9432587122394276,
-        "one_month": 2.380949027263398,
-        "one_year": 2.862745098039217,
-        "five_year": 38.93009092133328
+        "one_week": 2.6734835790664766,
+        "one_month": 1.932080970148053,
+        "one_year": 2.291419105446785,
+        "five_year": 39.95176963316962
       },
       "source": "yahoo-finance"
     },
     "XOM": {
       "ticker": "XOM",
-      "price": 148.91,
-      "market_cap": 617224077312,
+      "price": 150.62,
+      "market_cap": 624311926784,
       "currency": "USD",
-      "as_of": "2026-06-09T20:00:47.000Z",
+      "as_of": "2026-06-10T20:03:27.000Z",
       "market_state": "POSTPOST",
       "quote_source": "Delayed Quote",
       "performance": {
-        "one_week": -0.43460655870838805,
-        "one_month": 3.0020007303784646,
-        "one_year": 41.85957727761809,
-        "five_year": 137.68554887981858
+        "one_week": -1.252211889190756,
+        "one_month": 4.184818682490129,
+        "one_year": 40.47752125087345,
+        "five_year": 140.03187250996015
       },
       "source": "yahoo-finance"
     },
     "XYZ": {
       "ticker": "XYZ",
-      "price": 68.29,
-      "market_cap": 40644911104,
+      "price": 66.63,
+      "market_cap": 39656906752,
       "currency": "USD",
-      "as_of": "2026-06-09T20:03:27.000Z",
+      "as_of": "2026-06-10T20:02:34.000Z",
       "market_state": "POSTPOST",
       "quote_source": "Delayed Quote",
       "performance": {
-        "one_week": -7.902901423183,
-        "one_month": -8.764193196863143,
-        "one_year": 3.721147931928749,
-        "five_year": -67.51343997959397
+        "one_week": -4.541551451519578,
+        "one_month": -10.981962113149688,
+        "one_year": 3.3343618659027423,
+        "five_year": -69.31472773911392
       },
       "source": "yahoo-finance"
     },
     "Z": {
       "ticker": "Z",
-      "price": 35.45,
-      "market_cap": 8111024128,
+      "price": 33.93,
+      "market_cap": 7763245568,
       "currency": "USD",
-      "as_of": "2026-06-09T20:00:00.000Z",
+      "as_of": "2026-06-10T20:00:00.000Z",
       "market_state": "POSTPOST",
       "quote_source": "Delayed Quote",
       "performance": {
-        "one_week": -2.5295544649527617,
-        "one_month": -14.433985665283009,
-        "one_year": -49.55890635211154,
-        "five_year": -68.17773831738705
+        "one_week": -4.449446342482914,
+        "one_month": -18.10282464380967,
+        "one_year": -52.55209203411644,
+        "five_year": -68.90864028777631
       },
       "source": "yahoo-finance"
     }
   },
-  "failures": {}
+  "failures": {
+    "LEN": "<!DOCTYPE html>\n<html lang=\"en-us\">\n  <head>\n    <meta http-equiv=\"content-type\" content=\"text/html; charset=UTF-8\">\n    <meta charset=\"utf-8\">\n    <title>Yahoo</title>\n    <meta name=\"viewport\" content=\"width=device-width,initial-scale=1,minimal-ui\">\n    <meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge,chrome=1\">\n    <style>\n      html {\n          height: 100%;\n      }\n      body {\n          background: #fafafc url(https://s.yimg.com/nn/img/sad-panda-201402200631.png) 50% 50%;\n          background-size: cover;\n          height: 100%;\n          text-align: center;\n          font: 300 18px \"helvetica neue\", helvetica, verdana, tahoma, arial, sans-serif;\n          margin: 0;\n      }\n      table {\n          height: 100%;\n          width: 100%;\n          table-layout: fixed;\n          border-collapse: collapse;\n          border-spacing: 0;\n          border: none;\n      }\n      h1 {\n          font-size: 42px;\n          font-weight: 400;\n          color: #400090;\n      }\n      p {\n          color: #1A1A1A;\n      }\n      #message-1 {\n          font-weight: bold;\n          margin: 0;\n      }\n      #message-2 {\n          display: inline-block;\n          *display: inline;\n          zoom: 1;\n          max-width: 17em;\n          _width: 17em;\n      }\n      </style>\n      <script>\n      \n      </script>\n  </head>\n  <body>\n  <!-- status code : 502 -->\n  <!-- Could Not Connect -->\n  <!-- host machine: media-router-api7053.prod.media.gq1.yahoo.com -->\n  <!-- timestamp: 1781136733.312 -->\n  <!-- url: https://query2.finance.yahoo.com/v8/finance/chart/LEN?useYfid=true&interval=1d&includePrePost=true&events=&lang=en-US&period1=1622419200&period2=1781136000-->\n  <script type=\"text/javascript\">\n    function buildUrl(url, parameters){\n      var qs = [];\n      for(var key in parameters) {\n        var value = parameters[key];\n        qs.push(encodeURIComponent(key) + \"=\" + encodeURIComponent(value));\n      }\n      url = url + \"?\" + qs.join('&');\n      return url;\n    }\n\n    function generateBRBMarkup(site) {\n      params.source = 'brb';\n      generateBeaconMarkup(params);\n      var englishHeader = 'Will be right back...';\n      var englishMessage1 = 'Thank you for your patience.';\n      var englishMessage2 = 'Our engineers are working quickly to resolve the issue.';\n      var defaultLogoStyle = '';\n      var siteDataMap = {\n        'default': {\n          logo: 'https://s.yimg.com/rz/p/yahoo_frontpage_en-US_s_f_p_205x58_frontpage.png',\n          logoAlt: 'Yahoo Logo',\n          logoStyle: defaultLogoStyle,\n          header: englishHeader,\n          message1: englishMessage1,\n          message2: englishMessage2\n        }\n      };\n\n      var siteDetails = siteDataMap['default'];\n\n      document.write('<table><tbody><tr><td>');\n      document.write('<div id=\"content\">');\n      document.write('<img src=\"' + siteDetails['logo'] + '\" alt=\"' + siteDetails['logoAlt'] + '\" style=\"' + siteDetails['logoStyle'] + '\">');\n      document.write('<h1 style=\"margin-top:20px;\">' + siteDetails['header'] + '</h1>');\n      document.write('<p id=\"message-1\">' + siteDetails['message1'] + '</p>');\n      document.write('<p id=\"message-2\">' + siteDetails['message2'] + '</p>');\n      document.write('</div>');\n      document.write('</td></tr></tbody></table>');\n    }\n\n    function generateBeaconMarkup(params) {\n        document.write('<img src=\"' + buildUrl('//geo.yahoo.com/b', params) + '\" style=\"display:none;\" width=\"0px\" height=\"0px\"/>');\n        var beacon = new Image();\n        beacon.src = buildUrl('//bcn.fp.yahoo.com/p', params);\n    }\n\n    var hostname = window.location.hostname;\n    var device = 'desktop';\n    var ynet = ('-' === '1');\n    var prid = '49f1k4ll2jvat';\n    var crid = '49f1k4ll2jvat';\n    var time = new Date().getTime();\n    var params = {\n        s: '1197757129',\n        t: time,\n        err_url: document.URL,\n        err: '502',\n        test: '-',\n        ats_host: 'media-router-api7053.prod.media.gq1.yahoo.com',\n        prid: prid,\n        crid: crid,\n        message: 'Could Not Connect'\n    };\n\n    if(ynet) {\n        document.write('<div style=\"height: 5px; background-color: red;\"></div>');\n    }\n    generateBRBMarkup(hostname, params);\n\n  </script>\n  <noscript>\n  <table>\n    <tbody>\n      <tr>\n        <td>\n          <div id=\"englishContent\">\n            <h1 style=\"margin-top:20px;\">Will be right back...</h1>\n            <p id=\"message-1\">Thank you for your patience.</p>\n            <p id=\"message-2\">Our engineers are working quickly to resolve the issue.</p>\n          </div>\n        </td>\n      </tr>\n    </tbody>\n  </table>\n  </noscript>\n  </body>\n</html>\n"
+  }
 }
