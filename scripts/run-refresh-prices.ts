@@ -76,12 +76,18 @@ function collectLatestPriceInputs(): { tickers: string[]; rangeRequests: PriceRa
 const { tickers, rangeRequests } = collectLatestPriceInputs();
 const snapshot = await lookupTickerPrices(tickers);
 const rangeSnapshot = await lookupTickerPriceRanges(rangeRequests);
-snapshot.ranges = rangeSnapshot.ranges;
-snapshot.failures = { ...snapshot.failures, ...rangeSnapshot.failures };
+// Combine the latest-price snapshot with the quarter price ranges into one
+// payload. Build a new object rather than mutating `snapshot` (whose type has no
+// `ranges` field) so this stays type-clean.
+const output = {
+  ...snapshot,
+  ranges: rangeSnapshot.ranges,
+  failures: { ...snapshot.failures, ...rangeSnapshot.failures },
+};
 const outPath = join(ROOT, 'data/prices/latest.json');
 mkdirSync(dirname(outPath), { recursive: true });
-writeFileSync(outPath, JSON.stringify(snapshot, null, 2) + '\n');
-console.log(`wrote ${outPath} (${Object.keys(snapshot.records).length}/${tickers.length} tickers, ${Object.keys(snapshot.ranges).length}/${rangeRequests.length} ranges)`);
-if (Object.keys(snapshot.failures).length > 0) {
-  console.warn(`price lookup failures: ${Object.keys(snapshot.failures).join(', ')}`);
+writeFileSync(outPath, JSON.stringify(output, null, 2) + '\n');
+console.log(`wrote ${outPath} (${Object.keys(output.records).length}/${tickers.length} tickers, ${Object.keys(output.ranges).length}/${rangeRequests.length} ranges)`);
+if (Object.keys(output.failures).length > 0) {
+  console.warn(`price lookup failures: ${Object.keys(output.failures).join(', ')}`);
 }

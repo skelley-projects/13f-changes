@@ -1,5 +1,13 @@
 import YahooFinance from 'yahoo-finance2';
 import sectorMap from './lookups/yahoo-to-gics.json' with { type: 'json' };
+import { mapWithConcurrency } from './concurrency.js';
+
+/**
+ * Max concurrent Yahoo Finance `historical()` requests. Yahoo publishes no hard
+ * limit; keep this modest to stay polite and avoid throttling. Each function
+ * below accepts an `opts.concurrency` override.
+ */
+const YAHOO_CONCURRENCY = 6;
 
 export interface YahooClient {
   quoteSummary: (
@@ -126,12 +134,13 @@ function nextUtcDate(date: string): string {
 
 export async function lookupTickerPriceRanges(
   requests: PriceRangeRequest[],
-  opts: { yahoo?: YahooClient } = {},
+  opts: { yahoo?: YahooClient; concurrency?: number } = {},
 ) {
   const client = opts.yahoo ?? getDefaultClient();
   if (!client.historical) {
     throw new Error('Yahoo client does not implement historical()');
   }
+  const historical = client.historical;
 
   const ranges: Record<string, import('./types.js').PriceRangeRecord> = {};
   const failures: Record<string, string> = {};
@@ -143,34 +152,41 @@ export async function lookupTickerPriceRanges(
     unique.set(priceRangeKey(ticker, request.period), normalized);
   }
 
-  for (const [key, request] of unique.entries()) {
-    try {
-      const history = await client.historical(request.ticker, {
-        period1: request.start,
-        // Yahoo treats period2 as an exclusive-ish bound in common usage; add one day to include quarter end.
-        period2: nextUtcDate(request.end),
-        interval: '1d',
-      });
-      const lows = history.map(row => row.low).filter((v): v is number => typeof v === 'number' && v > 0);
-      const highs = history.map(row => row.high).filter((v): v is number => typeof v === 'number' && v > 0);
-      if (lows.length === 0 || highs.length === 0) {
-        failures[key] = 'missing historical low/high';
-        continue;
+  // One historical() HTTP call per request, run with bounded concurrency so the
+  // batch is fast without exceeding Yahoo's tolerance. Each task writes its own
+  // `key`, so concurrent writes never collide.
+  await mapWithConcurrency(
+    Array.from(unique.entries()),
+    opts.concurrency ?? YAHOO_CONCURRENCY,
+    async ([key, request]) => {
+      try {
+        const history = await historical(request.ticker, {
+          period1: request.start,
+          // Yahoo treats period2 as an exclusive-ish bound in common usage; add one day to include quarter end.
+          period2: nextUtcDate(request.end),
+          interval: '1d',
+        });
+        const lows = history.map(row => row.low).filter((v): v is number => typeof v === 'number' && v > 0);
+        const highs = history.map(row => row.high).filter((v): v is number => typeof v === 'number' && v > 0);
+        if (lows.length === 0 || highs.length === 0) {
+          failures[key] = 'missing historical low/high';
+          return;
+        }
+        ranges[key] = {
+          ticker: request.ticker,
+          period: request.period,
+          start: request.start,
+          end: request.end,
+          low: Math.min(...lows),
+          high: Math.max(...highs),
+          currency: 'USD',
+          source: 'yahoo-finance',
+        };
+      } catch (error) {
+        failures[key] = error instanceof Error ? error.message : String(error);
       }
-      ranges[key] = {
-        ticker: request.ticker,
-        period: request.period,
-        start: request.start,
-        end: request.end,
-        low: Math.min(...lows),
-        high: Math.max(...highs),
-        currency: 'USD',
-        source: 'yahoo-finance',
-      };
-    } catch (error) {
-      failures[key] = error instanceof Error ? error.message : String(error);
-    }
-  }
+    },
+  );
 
   return { ranges, failures };
 }
@@ -219,7 +235,7 @@ function pctFromBase(latest: number, base: number | null): number | null {
 
 export async function lookupSegmentMetrics(
   tickers: string[],
-  opts: { yahoo?: YahooClient; now?: Date } = {},
+  opts: { yahoo?: YahooClient; now?: Date; concurrency?: number } = {},
 ) {
   const unique = Array.from(new Set(tickers.map(t => t.trim().toUpperCase()).filter(Boolean)));
   const records: Record<string, import('./types.js').SegmentMetricRecord> = {};
@@ -237,6 +253,7 @@ export async function lookupSegmentMetrics(
   if (!client.quote || !client.historical) {
     throw new Error('Yahoo client does not implement quote() and historical()');
   }
+  const historical = client.historical;
 
   const quotes = await client.quote(unique, {
     fields: [
@@ -251,11 +268,14 @@ export async function lookupSegmentMetrics(
     return: 'object',
   });
 
-  for (const ticker of unique) {
+  // quote() above is a single batched call; the per-ticker historical() calls
+  // are the serial part, so run them with bounded concurrency. Each task writes
+  // its own `ticker` key.
+  await mapWithConcurrency(unique, opts.concurrency ?? YAHOO_CONCURRENCY, async (ticker) => {
     const quote = quotes[ticker];
     if (!quote || typeof quote.regularMarketPrice !== 'number') {
       failures[ticker] = 'missing regularMarketPrice';
-      continue;
+      return;
     }
 
     const asOf = quote.regularMarketTime instanceof Date
@@ -266,7 +286,7 @@ export async function lookupSegmentMetrics(
 
     try {
       const fiveYearsAgo = addYears(asOf, -5);
-      const history = await client.historical(ticker, {
+      const history = await historical(ticker, {
         period1: isoDate(addDays(fiveYearsAgo, -10)),
         period2: isoDate(addDays(asOf, 1)),
         interval: '1d',
@@ -291,7 +311,7 @@ export async function lookupSegmentMetrics(
     } catch (error) {
       failures[ticker] = error instanceof Error ? error.message : String(error);
     }
-  }
+  });
 
   return {
     fetched_at: (opts.now ?? new Date()).toISOString(),
