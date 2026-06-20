@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-06-19T00:22:26.402Z",
+  "fetched_at": "2026-06-20T00:04:35.318Z",
   "source": "yahoo-finance",
   "records": {},
   "failures": {
@@ -117,10 +117,10 @@
     "OPCH": "Cannot read properties of undefined (reading '_notices')",
     "PEP": "Cannot read properties of undefined (reading '_notices')",
     "PGNY": "Cannot read properties of undefined (reading '_notices')",
+    "PSTG": "missing regularMarketPrice",
     "PLUG": "Cannot read properties of undefined (reading '_notices')",
     "PM": "Cannot read properties of undefined (reading '_notices')",
     "PSIX": "Cannot read properties of undefined (reading '_notices')",
-    "PSTG": "Cannot read properties of undefined (reading '_notices')",
     "PUMP": "Cannot read properties of undefined (reading '_notices')",
     "QCOM": "Cannot read properties of undefined (reading '_notices')",
     "QQQ": "Cannot read properties of undefined (reading '_notices')",
