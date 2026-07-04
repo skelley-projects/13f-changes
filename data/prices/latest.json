@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-07-03T00:00:47.206Z",
+  "fetched_at": "2026-07-04T00:00:11.116Z",
   "source": "yahoo-finance",
   "records": {
     "A": {
@@ -7,8 +7,8 @@
       "price": 130.69,
       "currency": "USD",
       "as_of": "2026-07-02T20:01:19.000Z",
-      "market_state": "POSTPOST",
-      "quote_source": "Delayed Quote",
+      "market_state": "CLOSED",
+      "quote_source": null,
       "source": "yahoo-finance"
     },
     "AA": {
@@ -16,8 +16,8 @@
       "price": 48.68,
       "currency": "USD",
       "as_of": "2026-07-02T20:01:30.000Z",
-      "market_state": "POSTPOST",
-      "quote_source": "Delayed Quote",
+      "market_state": "CLOSED",
+      "quote_source": null,
       "source": "yahoo-finance"
     },
     "AAL": {
@@ -25,7 +25,7 @@
       "price": 17.92,
       "currency": "USD",
       "as_of": "2026-07-02T20:00:01.000Z",
-      "market_state": "POSTPOST",
+      "market_state": "CLOSED",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -34,7 +34,7 @@
       "price": 308.63,
       "currency": "USD",
       "as_of": "2026-07-02T20:00:01.000Z",
-      "market_state": "POSTPOST",
+      "market_state": "CLOSED",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -43,8 +43,8 @@
       "price": 261.07,
       "currency": "USD",
       "as_of": "2026-07-02T20:02:35.000Z",
-      "market_state": "POSTPOST",
-      "quote_source": "Delayed Quote",
+      "market_state": "CLOSED",
+      "quote_source": null,
       "source": "yahoo-finance"
     },
     "ABNB": {
@@ -52,7 +52,7 @@
       "price": 148.93,
       "currency": "USD",
       "as_of": "2026-07-02T20:00:01.000Z",
-      "market_state": "POSTPOST",
+      "market_state": "CLOSED",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -61,7 +61,7 @@
       "price": 219.72,
       "currency": "USD",
       "as_of": "2026-07-02T20:00:00.000Z",
-      "market_state": "POSTPOST",
+      "market_state": "CLOSED",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -70,7 +70,7 @@
       "price": 8.95,
       "currency": "USD",
       "as_of": "2026-07-02T20:00:01.000Z",
-      "market_state": "POSTPOST",
+      "market_state": "CLOSED",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -79,7 +79,7 @@
       "price": 242.27,
       "currency": "USD",
       "as_of": "2026-07-02T20:00:01.000Z",
-      "market_state": "POSTPOST",
+      "market_state": "CLOSED",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -88,7 +88,7 @@
       "price": 21.19,
       "currency": "USD",
       "as_of": "2026-07-02T20:00:01.000Z",
-      "market_state": "POSTPOST",
+      "market_state": "CLOSED",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -97,7 +97,7 @@
       "price": 207.48,
       "currency": "USD",
       "as_of": "2026-07-02T20:00:01.000Z",
-      "market_state": "POSTPOST",
+      "market_state": "CLOSED",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -106,8 +106,8 @@
       "price": 6.83,
       "currency": "USD",
       "as_of": "2026-07-02T20:00:03.000Z",
-      "market_state": "POSTPOST",
-      "quote_source": "Delayed Quote",
+      "market_state": "CLOSED",
+      "quote_source": null,
       "source": "yahoo-finance"
     },
     "AEP": {
@@ -115,7 +115,7 @@
       "price": 138.51,
       "currency": "USD",
       "as_of": "2026-07-02T20:00:00.000Z",
-      "market_state": "POSTPOST",
+      "market_state": "CLOSED",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -124,7 +124,7 @@
       "price": 23.98,
       "currency": "USD",
       "as_of": "2026-07-02T20:00:01.000Z",
-      "market_state": "POSTPOST",
+      "market_state": "CLOSED",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -133,8 +133,8 @@
       "price": 706.15,
       "currency": "USD",
       "as_of": "2026-07-02T20:00:02.000Z",
-      "market_state": "POSTPOST",
-      "quote_source": "Delayed Quote",
+      "market_state": "CLOSED",
+      "quote_source": null,
       "source": "yahoo-finance"
     },
     "AIG": {
@@ -142,8 +142,8 @@
       "price": 79.39,
       "currency": "USD",
       "as_of": "2026-07-02T20:00:03.000Z",
-      "market_state": "POSTPOST",
-      "quote_source": "Delayed Quote",
+      "market_state": "CLOSED",
+      "quote_source": null,
       "source": "yahoo-finance"
     },
     "AJG": {
@@ -151,8 +151,8 @@
       "price": 252.44,
       "currency": "USD",
       "as_of": "2026-07-02T20:00:03.000Z",
-      "market_state": "POSTPOST",
-      "quote_source": "Delayed Quote",
+      "market_state": "CLOSED",
+      "quote_source": null,
       "source": "yahoo-finance"
     },
     "ALB": {
@@ -160,8 +160,8 @@
       "price": 135.56,
       "currency": "USD",
       "as_of": "2026-07-02T20:00:03.000Z",
-      "market_state": "POSTPOST",
-      "quote_source": "Delayed Quote",
+      "market_state": "CLOSED",
+      "quote_source": null,
       "source": "yahoo-finance"
     },
     "ALL": {
@@ -169,8 +169,8 @@
       "price": 250.33,
       "currency": "USD",
       "as_of": "2026-07-02T20:00:03.000Z",
-      "market_state": "POSTPOST",
-      "quote_source": "Delayed Quote",
+      "market_state": "CLOSED",
+      "quote_source": null,
       "source": "yahoo-finance"
     },
     "ALLY": {
@@ -178,8 +178,8 @@
       "price": 45.32,
       "currency": "USD",
       "as_of": "2026-07-02T20:00:03.000Z",
-      "market_state": "POSTPOST",
-      "quote_source": "Delayed Quote",
+      "market_state": "CLOSED",
+      "quote_source": null,
       "source": "yahoo-finance"
     },
     "ALM": {
@@ -187,7 +187,7 @@
       "price": 15.71,
       "currency": "USD",
       "as_of": "2026-07-02T20:00:01.000Z",
-      "market_state": "POSTPOST",
+      "market_state": "CLOSED",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -196,7 +196,7 @@
       "price": 312.78,
       "currency": "USD",
       "as_of": "2026-07-02T20:00:01.000Z",
-      "market_state": "POSTPOST",
+      "market_state": "CLOSED",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -205,7 +205,7 @@
       "price": 603.04,
       "currency": "USD",
       "as_of": "2026-07-02T20:00:00.000Z",
-      "market_state": "POSTPOST",
+      "market_state": "CLOSED",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -214,8 +214,8 @@
       "price": 1.89,
       "currency": "USD",
       "as_of": "2026-07-02T20:00:03.000Z",
-      "market_state": "POSTPOST",
-      "quote_source": "Delayed Quote",
+      "market_state": "CLOSED",
+      "quote_source": null,
       "source": "yahoo-finance"
     },
     "AMD": {
@@ -223,7 +223,7 @@
       "price": 517.82,
       "currency": "USD",
       "as_of": "2026-07-02T20:00:01.000Z",
-      "market_state": "POSTPOST",
+      "market_state": "CLOSED",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -232,8 +232,8 @@
       "price": 234.62,
       "currency": "USD",
       "as_of": "2026-07-02T20:00:03.000Z",
-      "market_state": "POSTPOST",
-      "quote_source": "Delayed Quote",
+      "market_state": "CLOSED",
+      "quote_source": null,
       "source": "yahoo-finance"
     },
     "AMG": {
@@ -241,8 +241,8 @@
       "price": 344.6,
       "currency": "USD",
       "as_of": "2026-07-02T20:00:03.000Z",
-      "market_state": "POSTPOST",
-      "quote_source": "Delayed Quote",
+      "market_state": "CLOSED",
+      "quote_source": null,
       "source": "yahoo-finance"
     },
     "AMP": {
@@ -250,8 +250,8 @@
       "price": 489.16,
       "currency": "USD",
       "as_of": "2026-07-02T20:00:03.000Z",
-      "market_state": "POSTPOST",
-      "quote_source": "Delayed Quote",
+      "market_state": "CLOSED",
+      "quote_source": null,
       "source": "yahoo-finance"
     },
     "AMT": {
@@ -259,8 +259,8 @@
       "price": 166.03,
       "currency": "USD",
       "as_of": "2026-07-02T20:00:03.000Z",
-      "market_state": "POSTPOST",
-      "quote_source": "Delayed Quote",
+      "market_state": "CLOSED",
+      "quote_source": null,
       "source": "yahoo-finance"
     },
     "AMZN": {
@@ -268,7 +268,7 @@
       "price": 242.67,
       "currency": "USD",
       "as_of": "2026-07-02T20:00:01.000Z",
-      "market_state": "POSTPOST",
+      "market_state": "CLOSED",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -277,8 +277,8 @@
       "price": 159.99,
       "currency": "USD",
       "as_of": "2026-07-02T20:00:03.000Z",
-      "market_state": "POSTPOST",
-      "quote_source": "Delayed Quote",
+      "market_state": "CLOSED",
+      "quote_source": null,
       "source": "yahoo-finance"
     },
     "ANF": {
@@ -286,8 +286,8 @@
       "price": 92.42,
       "currency": "USD",
       "as_of": "2026-07-02T20:04:44.000Z",
-      "market_state": "POSTPOST",
-      "quote_source": "Delayed Quote",
+      "market_state": "CLOSED",
+      "quote_source": null,
       "source": "yahoo-finance"
     },
     "APD": {
@@ -295,8 +295,8 @@
       "price": 314.19,
       "currency": "USD",
       "as_of": "2026-07-02T20:00:03.000Z",
-      "market_state": "POSTPOST",
-      "quote_source": "Delayed Quote",
+      "market_state": "CLOSED",
+      "quote_source": null,
       "source": "yahoo-finance"
     },
     "APG": {
@@ -304,8 +304,8 @@
       "price": 41.98,
       "currency": "USD",
       "as_of": "2026-07-02T20:02:14.000Z",
-      "market_state": "POSTPOST",
-      "quote_source": "Delayed Quote",
+      "market_state": "CLOSED",
+      "quote_source": null,
       "source": "yahoo-finance"
     },
     "APH": {
@@ -313,8 +313,8 @@
       "price": 164.59,
       "currency": "USD",
       "as_of": "2026-07-02T20:00:03.000Z",
-      "market_state": "POSTPOST",
-      "quote_source": "Delayed Quote",
+      "market_state": "CLOSED",
+      "quote_source": null,
       "source": "yahoo-finance"
     },
     "API": {
@@ -322,7 +322,7 @@
       "price": 4.01,
       "currency": "USD",
       "as_of": "2026-07-02T20:00:00.000Z",
-      "market_state": "POSTPOST",
+      "market_state": "CLOSED",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -331,7 +331,7 @@
       "price": 33.06,
       "currency": "USD",
       "as_of": "2026-07-02T20:00:01.000Z",
-      "market_state": "POSTPOST",
+      "market_state": "CLOSED",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -340,8 +340,8 @@
       "price": 118.61,
       "currency": "USD",
       "as_of": "2026-07-02T20:00:03.000Z",
-      "market_state": "POSTPOST",
-      "quote_source": "Delayed Quote",
+      "market_state": "CLOSED",
+      "quote_source": null,
       "source": "yahoo-finance"
     },
     "APP": {
@@ -349,7 +349,7 @@
       "price": 527.06,
       "currency": "USD",
       "as_of": "2026-07-02T20:00:01.000Z",
-      "market_state": "POSTPOST",
+      "market_state": "CLOSED",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -358,8 +358,8 @@
       "price": 52.58,
       "currency": "USD",
       "as_of": "2026-07-02T20:00:03.000Z",
-      "market_state": "POSTPOST",
-      "quote_source": "Delayed Quote",
+      "market_state": "CLOSED",
+      "quote_source": null,
       "source": "yahoo-finance"
     },
     "ARES": {
@@ -367,8 +367,8 @@
       "price": 116.9,
       "currency": "USD",
       "as_of": "2026-07-02T20:01:16.000Z",
-      "market_state": "POSTPOST",
-      "quote_source": "Delayed Quote",
+      "market_state": "CLOSED",
+      "quote_source": null,
       "source": "yahoo-finance"
     },
     "ARGT": {
@@ -376,7 +376,7 @@
       "price": 91.45,
       "currency": "USD",
       "as_of": "2026-07-02T20:00:00.000Z",
-      "market_state": "POSTPOST",
+      "market_state": "CLOSED",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -385,7 +385,7 @@
       "price": 939.68,
       "currency": "USD",
       "as_of": "2026-07-02T20:00:01.000Z",
-      "market_state": "POSTPOST",
+      "market_state": "CLOSED",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -394,7 +394,7 @@
       "price": 315.28,
       "currency": "USD",
       "as_of": "2026-07-02T20:00:00.000Z",
-      "market_state": "POSTPOST",
+      "market_state": "CLOSED",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -403,8 +403,8 @@
       "price": 56.29,
       "currency": "USD",
       "as_of": "2026-07-02T20:00:03.000Z",
-      "market_state": "POSTPOST",
-      "quote_source": "Delayed Quote",
+      "market_state": "CLOSED",
+      "quote_source": null,
       "source": "yahoo-finance"
     },
     "ARW": {
@@ -412,8 +412,8 @@
       "price": 197.48,
       "currency": "USD",
       "as_of": "2026-07-02T20:00:03.000Z",
-      "market_state": "POSTPOST",
-      "quote_source": "Delayed Quote",
+      "market_state": "CLOSED",
+      "quote_source": null,
       "source": "yahoo-finance"
     },
     "AUR": {
@@ -421,7 +421,7 @@
       "price": 6.63,
       "currency": "USD",
       "as_of": "2026-07-02T20:00:01.000Z",
-      "market_state": "POSTPOST",
+      "market_state": "CLOSED",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -430,7 +430,7 @@
       "price": 360.45,
       "currency": "USD",
       "as_of": "2026-07-02T20:00:00.000Z",
-      "market_state": "POSTPOST",
+      "market_state": "CLOSED",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -439,8 +439,8 @@
       "price": 158.56,
       "currency": "USD",
       "as_of": "2026-07-02T20:00:02.000Z",
-      "market_state": "POSTPOST",
-      "quote_source": "Delayed Quote",
+      "market_state": "CLOSED",
+      "quote_source": null,
       "source": "yahoo-finance"
     },
     "AXON": {
@@ -448,7 +448,7 @@
       "price": 597.04,
       "currency": "USD",
       "as_of": "2026-07-02T20:00:01.000Z",
-      "market_state": "POSTPOST",
+      "market_state": "CLOSED",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -457,8 +457,8 @@
       "price": 351.96,
       "currency": "USD",
       "as_of": "2026-07-02T20:01:37.000Z",
-      "market_state": "POSTPOST",
-      "quote_source": "Delayed Quote",
+      "market_state": "CLOSED",
+      "quote_source": null,
       "source": "yahoo-finance"
     },
     "AYI": {
@@ -466,8 +466,8 @@
       "price": 359.04,
       "currency": "USD",
       "as_of": "2026-07-02T20:00:02.000Z",
-      "market_state": "POSTPOST",
-      "quote_source": "Delayed Quote",
+      "market_state": "CLOSED",
+      "quote_source": null,
       "source": "yahoo-finance"
     },
     "AZN": {
@@ -475,8 +475,8 @@
       "price": 195.15,
       "currency": "USD",
       "as_of": "2026-07-02T20:00:02.000Z",
-      "market_state": "POSTPOST",
-      "quote_source": "Delayed Quote",
+      "market_state": "CLOSED",
+      "quote_source": null,
       "source": "yahoo-finance"
     },
     "AZO": {
@@ -484,8 +484,8 @@
       "price": 3159.28,
       "currency": "USD",
       "as_of": "2026-07-02T20:00:03.000Z",
-      "market_state": "POSTPOST",
-      "quote_source": "Delayed Quote",
+      "market_state": "CLOSED",
+      "quote_source": null,
       "source": "yahoo-finance"
     },
     "B": {
@@ -493,8 +493,8 @@
       "price": 38.21,
       "currency": "USD",
       "as_of": "2026-07-02T20:01:57.000Z",
-      "market_state": "POSTPOST",
-      "quote_source": "Delayed Quote",
+      "market_state": "CLOSED",
+      "quote_source": null,
       "source": "yahoo-finance"
     },
     "BA": {
@@ -502,8 +502,8 @@
       "price": 226.49,
       "currency": "USD",
       "as_of": "2026-07-02T20:00:03.000Z",
-      "market_state": "POSTPOST",
-      "quote_source": "Delayed Quote",
+      "market_state": "CLOSED",
+      "quote_source": null,
       "source": "yahoo-finance"
     },
     "BABA": {
@@ -511,8 +511,8 @@
       "price": 96.14,
       "currency": "USD",
       "as_of": "2026-07-02T20:02:51.000Z",
-      "market_state": "POSTPOST",
-      "quote_source": "Delayed Quote",
+      "market_state": "CLOSED",
+      "quote_source": null,
       "source": "yahoo-finance"
     },
     "BAC": {
@@ -520,8 +520,8 @@
       "price": 58.73,
       "currency": "USD",
       "as_of": "2026-07-02T20:00:02.000Z",
-      "market_state": "POSTPOST",
-      "quote_source": "Delayed Quote",
+      "market_state": "CLOSED",
+      "quote_source": null,
       "source": "yahoo-finance"
     },
     "BAH": {
@@ -529,8 +529,8 @@
       "price": 62.45,
       "currency": "USD",
       "as_of": "2026-07-02T20:00:03.000Z",
-      "market_state": "POSTPOST",
-      "quote_source": "Delayed Quote",
+      "market_state": "CLOSED",
+      "quote_source": null,
       "source": "yahoo-finance"
     },
     "BALL": {
@@ -538,8 +538,8 @@
       "price": 63.39,
       "currency": "USD",
       "as_of": "2026-07-02T20:00:02.000Z",
-      "market_state": "POSTPOST",
-      "quote_source": "Delayed Quote",
+      "market_state": "CLOSED",
+      "quote_source": null,
       "source": "yahoo-finance"
     },
     "BATRK": {
@@ -547,7 +547,7 @@
       "price": 52.77,
       "currency": "USD",
       "as_of": "2026-07-02T20:00:01.000Z",
-      "market_state": "POSTPOST",
+      "market_state": "CLOSED",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -556,7 +556,7 @@
       "price": 77.19,
       "currency": "USD",
       "as_of": "2026-07-02T20:00:01.000Z",
-      "market_state": "POSTPOST",
+      "market_state": "CLOSED",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -565,8 +565,8 @@
       "price": 21.96,
       "currency": "USD",
       "as_of": "2026-07-02T20:00:02.000Z",
-      "market_state": "POSTPOST",
-      "quote_source": "Delayed Quote",
+      "market_state": "CLOSED",
+      "quote_source": null,
       "source": "yahoo-finance"
     },
     "BBY": {
@@ -574,8 +574,8 @@
       "price": 77.99,
       "currency": "USD",
       "as_of": "2026-07-02T20:00:03.000Z",
-      "market_state": "POSTPOST",
-      "quote_source": "Delayed Quote",
+      "market_state": "CLOSED",
+      "quote_source": null,
       "source": "yahoo-finance"
     },
     "BDX": {
@@ -583,8 +583,8 @@
       "price": 158.08,
       "currency": "USD",
       "as_of": "2026-07-02T20:00:02.000Z",
-      "market_state": "POSTPOST",
-      "quote_source": "Delayed Quote",
+      "market_state": "CLOSED",
+      "quote_source": null,
       "source": "yahoo-finance"
     },
     "BE": {
@@ -592,8 +592,8 @@
       "price": 270.89,
       "currency": "USD",
       "as_of": "2026-07-02T20:00:03.000Z",
-      "market_state": "POSTPOST",
-      "quote_source": "Delayed Quote",
+      "market_state": "CLOSED",
+      "quote_source": null,
       "source": "yahoo-finance"
     },
     "BHC": {
@@ -601,8 +601,8 @@
       "price": 4.9,
       "currency": "USD",
       "as_of": "2026-07-02T20:00:02.000Z",
-      "market_state": "POSTPOST",
-      "quote_source": "Delayed Quote",
+      "market_state": "CLOSED",
+      "quote_source": null,
       "source": "yahoo-finance"
     },
     "BIDU": {
@@ -610,7 +610,7 @@
       "price": 113.3,
       "currency": "USD",
       "as_of": "2026-07-02T20:00:01.000Z",
-      "market_state": "POSTPOST",
+      "market_state": "CLOSED",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -619,7 +619,7 @@
       "price": 216.12,
       "currency": "USD",
       "as_of": "2026-07-02T20:00:01.000Z",
-      "market_state": "POSTPOST",
+      "market_state": "CLOSED",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -628,8 +628,8 @@
       "price": 137.16,
       "currency": "USD",
       "as_of": "2026-05-20T20:00:03.000Z",
-      "market_state": "POSTPOST",
-      "quote_source": "Delayed Quote",
+      "market_state": "CLOSED",
+      "quote_source": null,
       "source": "yahoo-finance"
     },
     "BKNG": {
@@ -637,7 +637,7 @@
       "price": 184.56,
       "currency": "USD",
       "as_of": "2026-07-02T20:00:01.000Z",
-      "market_state": "POSTPOST",
+      "market_state": "CLOSED",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -646,8 +646,8 @@
       "price": 995.73,
       "currency": "USD",
       "as_of": "2026-07-02T20:00:02.000Z",
-      "market_state": "POSTPOST",
-      "quote_source": "Delayed Quote",
+      "market_state": "CLOSED",
+      "quote_source": null,
       "source": "yahoo-finance"
     },
     "BMRN": {
@@ -655,7 +655,7 @@
       "price": 58.99,
       "currency": "USD",
       "as_of": "2026-07-02T20:00:01.000Z",
-      "market_state": "POSTPOST",
+      "market_state": "CLOSED",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -664,8 +664,8 @@
       "price": 58.13,
       "currency": "USD",
       "as_of": "2026-07-02T20:00:02.000Z",
-      "market_state": "POSTPOST",
-      "quote_source": "Delayed Quote",
+      "market_state": "CLOSED",
+      "quote_source": null,
       "source": "yahoo-finance"
     },
     "BN": {
@@ -673,8 +673,8 @@
       "price": 43.43,
       "currency": "USD",
       "as_of": "2026-07-02T20:00:02.000Z",
-      "market_state": "POSTPOST",
-      "quote_source": "Delayed Quote",
+      "market_state": "CLOSED",
+      "quote_source": null,
       "source": "yahoo-finance"
     },
     "BNS": {
@@ -682,8 +682,8 @@
       "price": 85.4,
       "currency": "USD",
       "as_of": "2026-07-02T20:00:02.000Z",
-      "market_state": "POSTPOST",
-      "quote_source": "Delayed Quote",
+      "market_state": "CLOSED",
+      "quote_source": null,
       "source": "yahoo-finance"
     },
     "BPOP": {
@@ -691,7 +691,7 @@
       "price": 167.26,
       "currency": "USD",
       "as_of": "2026-07-02T20:00:01.000Z",
-      "market_state": "POSTPOST",
+      "market_state": "CLOSED",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -700,8 +700,8 @@
       "price": 507.78,
       "currency": "USD",
       "as_of": "2026-07-02T20:00:02.000Z",
-      "market_state": "POSTPOST",
-      "quote_source": "Delayed Quote",
+      "market_state": "CLOSED",
+      "quote_source": null,
       "source": "yahoo-finance"
     },
     "BROS": {
@@ -709,8 +709,8 @@
       "price": 72.16,
       "currency": "USD",
       "as_of": "2026-07-02T20:00:02.000Z",
-      "market_state": "POSTPOST",
-      "quote_source": "Delayed Quote",
+      "market_state": "CLOSED",
+      "quote_source": null,
       "source": "yahoo-finance"
     },
     "BSX": {
@@ -718,8 +718,8 @@
       "price": 45.14,
       "currency": "USD",
       "as_of": "2026-07-02T20:00:02.000Z",
-      "market_state": "POSTPOST",
-      "quote_source": "Delayed Quote",
+      "market_state": "CLOSED",
+      "quote_source": null,
       "source": "yahoo-finance"
     },
     "BTDR": {
@@ -727,7 +727,7 @@
       "price": 13.85,
       "currency": "USD",
       "as_of": "2026-07-02T20:00:01.000Z",
-      "market_state": "POSTPOST",
+      "market_state": "CLOSED",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -736,8 +736,8 @@
       "price": 11.74,
       "currency": "USD",
       "as_of": "2026-07-02T20:00:02.000Z",
-      "market_state": "POSTPOST",
-      "quote_source": "Delayed Quote",
+      "market_state": "CLOSED",
+      "quote_source": null,
       "source": "yahoo-finance"
     },
     "BWA": {
@@ -745,8 +745,8 @@
       "price": 63.52,
       "currency": "USD",
       "as_of": "2026-07-02T20:00:02.000Z",
-      "market_state": "POSTPOST",
-      "quote_source": "Delayed Quote",
+      "market_state": "CLOSED",
+      "quote_source": null,
       "source": "yahoo-finance"
     },
     "BX": {
@@ -754,8 +754,8 @@
       "price": 122.78,
       "currency": "USD",
       "as_of": "2026-07-02T20:04:38.000Z",
-      "market_state": "POSTPOST",
-      "quote_source": "Delayed Quote",
+      "market_state": "CLOSED",
+      "quote_source": null,
       "source": "yahoo-finance"
     },
     "BYND": {
@@ -763,7 +763,7 @@
       "price": 0.7103,
       "currency": "USD",
       "as_of": "2026-07-02T20:00:01.000Z",
-      "market_state": "POSTPOST",
+      "market_state": "CLOSED",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -772,8 +772,8 @@
       "price": 139.97,
       "currency": "USD",
       "as_of": "2026-07-02T20:03:18.000Z",
-      "market_state": "POSTPOST",
-      "quote_source": "Delayed Quote",
+      "market_state": "CLOSED",
+      "quote_source": null,
       "source": "yahoo-finance"
     },
     "CAH": {
@@ -781,8 +781,8 @@
       "price": 238.94,
       "currency": "USD",
       "as_of": "2026-07-02T20:00:02.000Z",
-      "market_state": "POSTPOST",
-      "quote_source": "Delayed Quote",
+      "market_state": "CLOSED",
+      "quote_source": null,
       "source": "yahoo-finance"
     },
     "CAI": {
@@ -790,7 +790,7 @@
       "price": 18.3,
       "currency": "USD",
       "as_of": "2026-07-02T20:00:01.000Z",
-      "market_state": "POSTPOST",
+      "market_state": "CLOSED",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -799,7 +799,7 @@
       "price": 45.78,
       "currency": "USD",
       "as_of": "2026-07-02T20:00:00.000Z",
-      "market_state": "POSTPOST",
+      "market_state": "CLOSED",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -808,7 +808,7 @@
       "price": 797.42,
       "currency": "USD",
       "as_of": "2026-07-02T20:00:01.000Z",
-      "market_state": "POSTPOST",
+      "market_state": "CLOSED",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -817,8 +817,8 @@
       "price": 963.53,
       "currency": "USD",
       "as_of": "2026-07-02T20:00:02.000Z",
-      "market_state": "POSTPOST",
-      "quote_source": "Delayed Quote",
+      "market_state": "CLOSED",
+      "quote_source": null,
       "source": "yahoo-finance"
     },
     "CBRE": {
@@ -826,8 +826,8 @@
       "price": 141.58,
       "currency": "USD",
       "as_of": "2026-07-02T20:00:02.000Z",
-      "market_state": "POSTPOST",
-      "quote_source": "Delayed Quote",
+      "market_state": "CLOSED",
+      "quote_source": null,
       "source": "yahoo-finance"
     },
     "CCK": {
@@ -835,8 +835,8 @@
       "price": 113.29,
       "currency": "USD",
       "as_of": "2026-07-02T20:00:02.000Z",
-      "market_state": "POSTPOST",
-      "quote_source": "Delayed Quote",
+      "market_state": "CLOSED",
+      "quote_source": null,
       "source": "yahoo-finance"
     },
     "CCL": {
@@ -844,8 +844,8 @@
       "price": 27.91,
       "currency": "USD",
       "as_of": "2026-07-02T20:00:02.000Z",
-      "market_state": "POSTPOST",
-      "quote_source": "Delayed Quote",
+      "market_state": "CLOSED",
+      "quote_source": null,
       "source": "yahoo-finance"
     },
     "CDNS": {
@@ -853,7 +853,7 @@
       "price": 373.14,
       "currency": "USD",
       "as_of": "2026-07-02T20:00:01.000Z",
-      "market_state": "POSTPOST",
+      "market_state": "CLOSED",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -862,7 +862,7 @@
       "price": 239.25,
       "currency": "USD",
       "as_of": "2026-07-02T20:00:01.000Z",
-      "market_state": "POSTPOST",
+      "market_state": "CLOSED",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -871,8 +871,8 @@
       "price": 70.98,
       "currency": "USD",
       "as_of": "2026-07-02T20:00:03.000Z",
-      "market_state": "POSTPOST",
-      "quote_source": "Delayed Quote",
+      "market_state": "CLOSED",
+      "quote_source": null,
       "source": "yahoo-finance"
     },
     "CG": {
@@ -880,7 +880,7 @@
       "price": 42.83,
       "currency": "USD",
       "as_of": "2026-07-02T20:00:01.000Z",
-      "market_state": "POSTPOST",
+      "market_state": "CLOSED",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -889,7 +889,7 @@
       "price": 11.01,
       "currency": "USD",
       "as_of": "2026-07-02T20:00:01.000Z",
-      "market_state": "POSTPOST",
+      "market_state": "CLOSED",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -898,8 +898,8 @@
       "price": 5.96,
       "currency": "USD",
       "as_of": "2026-07-02T20:00:03.000Z",
-      "market_state": "POSTPOST",
-      "quote_source": "Delayed Quote",
+      "market_state": "CLOSED",
+      "quote_source": null,
       "source": "yahoo-finance"
     },
     "CHRW": {
@@ -907,7 +907,7 @@
       "price": 189.85,
       "currency": "USD",
       "as_of": "2026-07-02T20:00:01.000Z",
-      "market_state": "POSTPOST",
+      "market_state": "CLOSED",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -916,7 +916,7 @@
       "price": 137.2,
       "currency": "USD",
       "as_of": "2026-07-02T20:00:01.000Z",
-      "market_state": "POSTPOST",
+      "market_state": "CLOSED",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -925,8 +925,8 @@
       "price": 20.85,
       "currency": "USD",
       "as_of": "2026-07-02T20:00:03.000Z",
-      "market_state": "POSTPOST",
-      "quote_source": "Delayed Quote",
+      "market_state": "CLOSED",
+      "quote_source": null,
       "source": "yahoo-finance"
     },
     "CHYM": {
@@ -934,7 +934,7 @@
       "price": 20.87,
       "currency": "USD",
       "as_of": "2026-07-02T20:00:01.000Z",
-      "market_state": "POSTPOST",
+      "market_state": "CLOSED",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -943,8 +943,8 @@
       "price": 287.77,
       "currency": "USD",
       "as_of": "2026-07-02T20:00:02.000Z",
-      "market_state": "POSTPOST",
-      "quote_source": "Delayed Quote",
+      "market_state": "CLOSED",
+      "quote_source": null,
       "source": "yahoo-finance"
     },
     "CIEN": {
@@ -952,8 +952,8 @@
       "price": 422.46,
       "currency": "USD",
       "as_of": "2026-07-02T20:00:02.000Z",
-      "market_state": "POSTPOST",
-      "quote_source": "Delayed Quote",
+      "market_state": "CLOSED",
+      "quote_source": null,
       "source": "yahoo-finance"
     },
     "CIFR": {
@@ -961,7 +961,7 @@
       "price": 20.04,
       "currency": "USD",
       "as_of": "2026-07-02T20:00:01.000Z",
-      "market_state": "POSTPOST",
+      "market_state": "CLOSED",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -970,8 +970,8 @@
       "price": 95.13,
       "currency": "USD",
       "as_of": "2026-07-02T20:00:02.000Z",
-      "market_state": "POSTPOST",
-      "quote_source": "Delayed Quote",
+      "market_state": "CLOSED",
+      "quote_source": null,
       "source": "yahoo-finance"
     },
     "CLF": {
@@ -979,8 +979,8 @@
       "price": 9.86,
       "currency": "USD",
       "as_of": "2026-07-02T20:00:02.000Z",
-      "market_state": "POSTPOST",
-      "quote_source": "Delayed Quote",
+      "market_state": "CLOSED",
+      "quote_source": null,
       "source": "yahoo-finance"
     },
     "CLS": {
@@ -988,8 +988,8 @@
       "price": 336.21,
       "currency": "USD",
       "as_of": "2026-07-02T20:00:02.000Z",
-      "market_state": "POSTPOST",
-      "quote_source": "Delayed Quote",
+      "market_state": "CLOSED",
+      "quote_source": null,
       "source": "yahoo-finance"
     },
     "CLSK": {
@@ -997,7 +997,7 @@
       "price": 12.62,
       "currency": "USD",
       "as_of": "2026-07-02T20:00:00.000Z",
-      "market_state": "POSTPOST",
+      "market_state": "CLOSED",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -1006,7 +1006,7 @@
       "price": 23.79,
       "currency": "USD",
       "as_of": "2026-07-02T20:00:01.000Z",
-      "market_state": "POSTPOST",
+      "market_state": "CLOSED",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -1015,7 +1015,7 @@
       "price": 236.6,
       "currency": "USD",
       "as_of": "2026-07-02T20:00:01.000Z",
-      "market_state": "POSTPOST",
+      "market_state": "CLOSED",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -1024,8 +1024,8 @@
       "price": 35.39,
       "currency": "USD",
       "as_of": "2026-07-02T20:03:10.000Z",
-      "market_state": "POSTPOST",
-      "quote_source": "Delayed Quote",
+      "market_state": "CLOSED",
+      "quote_source": null,
       "source": "yahoo-finance"
     },
     "CMI": {
@@ -1033,8 +1033,8 @@
       "price": 661.7,
       "currency": "USD",
       "as_of": "2026-07-02T20:00:03.000Z",
-      "market_state": "POSTPOST",
-      "quote_source": "Delayed Quote",
+      "market_state": "CLOSED",
+      "quote_source": null,
       "source": "yahoo-finance"
     },
     "CNC": {
@@ -1042,8 +1042,8 @@
       "price": 67.86,
       "currency": "USD",
       "as_of": "2026-07-02T20:02:46.000Z",
-      "market_state": "POSTPOST",
-      "quote_source": "Delayed Quote",
+      "market_state": "CLOSED",
+      "quote_source": null,
       "source": "yahoo-finance"
     },
     "CNP": {
@@ -1051,8 +1051,8 @@
       "price": 44.61,
       "currency": "USD",
       "as_of": "2026-07-02T20:00:02.000Z",
-      "market_state": "POSTPOST",
-      "quote_source": "Delayed Quote",
+      "market_state": "CLOSED",
+      "quote_source": null,
       "source": "yahoo-finance"
     },
     "CNXC": {
@@ -1060,7 +1060,7 @@
       "price": 23.6,
       "currency": "USD",
       "as_of": "2026-07-02T20:00:01.000Z",
-      "market_state": "POSTPOST",
+      "market_state": "CLOSED",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -1069,8 +1069,8 @@
       "price": 205.12,
       "currency": "USD",
       "as_of": "2026-07-02T20:00:03.000Z",
-      "market_state": "POSTPOST",
-      "quote_source": "Delayed Quote",
+      "market_state": "CLOSED",
+      "quote_source": null,
       "source": "yahoo-finance"
     },
     "COGT": {
@@ -1078,7 +1078,7 @@
       "price": 38.69,
       "currency": "USD",
       "as_of": "2026-07-02T20:00:01.000Z",
-      "market_state": "POSTPOST",
+      "market_state": "CLOSED",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -1087,8 +1087,8 @@
       "price": 333.36,
       "currency": "USD",
       "as_of": "2026-07-02T20:00:02.000Z",
-      "market_state": "POSTPOST",
-      "quote_source": "Delayed Quote",
+      "market_state": "CLOSED",
+      "quote_source": null,
       "source": "yahoo-finance"
     },
     "COIN": {
@@ -1096,7 +1096,7 @@
       "price": 165.48,
       "currency": "USD",
       "as_of": "2026-07-02T20:00:01.000Z",
-      "market_state": "POSTPOST",
+      "market_state": "CLOSED",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -1105,7 +1105,7 @@
       "price": 195.63,
       "currency": "USD",
       "as_of": "2026-07-02T20:00:01.000Z",
-      "market_state": "POSTPOST",
+      "market_state": "CLOSED",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -1114,8 +1114,8 @@
       "price": 104.73,
       "currency": "USD",
       "as_of": "2026-07-02T20:00:02.000Z",
-      "market_state": "POSTPOST",
-      "quote_source": "Delayed Quote",
+      "market_state": "CLOSED",
+      "quote_source": null,
       "source": "yahoo-finance"
     },
     "COR": {
@@ -1123,8 +1123,8 @@
       "price": 296.51,
       "currency": "USD",
       "as_of": "2026-07-02T20:00:03.000Z",
-      "market_state": "POSTPOST",
-      "quote_source": "Delayed Quote",
+      "market_state": "CLOSED",
+      "quote_source": null,
       "source": "yahoo-finance"
     },
     "CORZ": {
@@ -1132,7 +1132,7 @@
       "price": 21.43,
       "currency": "USD",
       "as_of": "2026-07-02T20:00:01.000Z",
-      "market_state": "POSTPOST",
+      "market_state": "CLOSED",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -1141,7 +1141,7 @@
       "price": 951.67,
       "currency": "USD",
       "as_of": "2026-07-02T20:00:01.000Z",
-      "market_state": "POSTPOST",
+      "market_state": "CLOSED",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -1150,8 +1150,8 @@
       "price": 352.46,
       "currency": "USD",
       "as_of": "2026-07-02T20:00:03.000Z",
-      "market_state": "POSTPOST",
-      "quote_source": "Delayed Quote",
+      "market_state": "CLOSED",
+      "quote_source": null,
       "source": "yahoo-finance"
     },
     "CPNG": {
@@ -1159,8 +1159,8 @@
       "price": 18.56,
       "currency": "USD",
       "as_of": "2026-07-02T20:00:02.000Z",
-      "market_state": "POSTPOST",
-      "quote_source": "Delayed Quote",
+      "market_state": "CLOSED",
+      "quote_source": null,
       "source": "yahoo-finance"
     },
     "CPRT": {
@@ -1168,7 +1168,7 @@
       "price": 30.01,
       "currency": "USD",
       "as_of": "2026-07-02T20:00:01.000Z",
-      "market_state": "POSTPOST",
+      "market_state": "CLOSED",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -1177,8 +1177,8 @@
       "price": 117.25,
       "currency": "USD",
       "as_of": "2026-07-02T20:00:03.000Z",
-      "market_state": "POSTPOST",
-      "quote_source": "Delayed Quote",
+      "market_state": "CLOSED",
+      "quote_source": null,
       "source": "yahoo-finance"
     },
     "CRCL": {
@@ -1186,8 +1186,8 @@
       "price": 64.62,
       "currency": "USD",
       "as_of": "2026-07-02T20:00:02.000Z",
-      "market_state": "POSTPOST",
-      "quote_source": "Delayed Quote",
+      "market_state": "CLOSED",
+      "quote_source": null,
       "source": "yahoo-finance"
     },
     "CRH": {
@@ -1195,8 +1195,8 @@
       "price": 107.53,
       "currency": "USD",
       "as_of": "2026-07-02T20:02:33.000Z",
-      "market_state": "POSTPOST",
-      "quote_source": "Delayed Quote",
+      "market_state": "CLOSED",
+      "quote_source": null,
       "source": "yahoo-finance"
     },
     "CRM": {
@@ -1204,8 +1204,8 @@
       "price": 166.11,
       "currency": "USD",
       "as_of": "2026-07-02T20:00:02.000Z",
-      "market_state": "POSTPOST",
-      "quote_source": "Delayed Quote",
+      "market_state": "CLOSED",
+      "quote_source": null,
       "source": "yahoo-finance"
     },
     "CRS": {
@@ -1213,8 +1213,8 @@
       "price": 597.24,
       "currency": "USD",
       "as_of": "2026-07-02T20:00:02.000Z",
-      "market_state": "POSTPOST",
-      "quote_source": "Delayed Quote",
+      "market_state": "CLOSED",
+      "quote_source": null,
       "source": "yahoo-finance"
     },
     "CRWD": {
@@ -1222,7 +1222,7 @@
       "price": 193.98,
       "currency": "USD",
       "as_of": "2026-07-02T20:00:01.000Z",
-      "market_state": "POSTPOST",
+      "market_state": "CLOSED",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -1231,7 +1231,7 @@
       "price": 81.745,
       "currency": "USD",
       "as_of": "2026-07-02T20:00:00.000Z",
-      "market_state": "POSTPOST",
+      "market_state": "CLOSED",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -1240,7 +1240,7 @@
       "price": 112.69,
       "currency": "USD",
       "as_of": "2026-07-02T20:00:01.000Z",
-      "market_state": "POSTPOST",
+      "market_state": "CLOSED",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -1249,7 +1249,7 @@
       "price": 30,
       "currency": "USD",
       "as_of": "2026-07-02T20:00:01.000Z",
-      "market_state": "POSTPOST",
+      "market_state": "CLOSED",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -1258,7 +1258,7 @@
       "price": 48.89,
       "currency": "USD",
       "as_of": "2026-07-02T20:00:01.000Z",
-      "market_state": "POSTPOST",
+      "market_state": "CLOSED",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -1267,7 +1267,7 @@
       "price": 181.37,
       "currency": "USD",
       "as_of": "2026-07-02T20:00:00.000Z",
-      "market_state": "POSTPOST",
+      "market_state": "CLOSED",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -1276,8 +1276,8 @@
       "price": 32.64,
       "currency": "USD",
       "as_of": "2026-07-02T20:00:03.000Z",
-      "market_state": "POSTPOST",
-      "quote_source": "Delayed Quote",
+      "market_state": "CLOSED",
+      "quote_source": null,
       "source": "yahoo-finance"
     },
     "CTSH": {
@@ -1285,7 +1285,7 @@
       "price": 41.99,
       "currency": "USD",
       "as_of": "2026-07-02T20:00:01.000Z",
-      "market_state": "POSTPOST",
+      "market_state": "CLOSED",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -1294,8 +1294,8 @@
       "price": 68.6,
       "currency": "USD",
       "as_of": "2026-07-02T20:03:59.000Z",
-      "market_state": "POSTPOST",
-      "quote_source": "Delayed Quote",
+      "market_state": "CLOSED",
+      "quote_source": null,
       "source": "yahoo-finance"
     },
     "CVS": {
@@ -1303,8 +1303,8 @@
       "price": 104.72,
       "currency": "USD",
       "as_of": "2026-07-02T20:00:02.000Z",
-      "market_state": "POSTPOST",
-      "quote_source": "Delayed Quote",
+      "market_state": "CLOSED",
+      "quote_source": null,
       "source": "yahoo-finance"
     },
     "CVX": {
@@ -1312,8 +1312,8 @@
       "price": 169.2,
       "currency": "USD",
       "as_of": "2026-07-02T20:03:10.000Z",
-      "market_state": "POSTPOST",
-      "quote_source": "Delayed Quote",
+      "market_state": "CLOSED",
+      "quote_source": null,
       "source": "yahoo-finance"
     },
     "CW": {
@@ -1321,8 +1321,8 @@
       "price": 760.23,
       "currency": "USD",
       "as_of": "2026-07-02T20:00:02.000Z",
-      "market_state": "POSTPOST",
-      "quote_source": "Delayed Quote",
+      "market_state": "CLOSED",
+      "quote_source": null,
       "source": "yahoo-finance"
     },
     "CYH": {
@@ -1330,8 +1330,8 @@
       "price": 3.9,
       "currency": "USD",
       "as_of": "2026-07-02T20:00:03.000Z",
-      "market_state": "POSTPOST",
-      "quote_source": "Delayed Quote",
+      "market_state": "CLOSED",
+      "quote_source": null,
       "source": "yahoo-finance"
     },
     "CZR": {
@@ -1339,7 +1339,7 @@
       "price": 30.39,
       "currency": "USD",
       "as_of": "2026-07-02T20:00:01.000Z",
-      "market_state": "POSTPOST",
+      "market_state": "CLOSED",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -1348,8 +1348,8 @@
       "price": 69.75,
       "currency": "USD",
       "as_of": "2026-07-02T20:00:03.000Z",
-      "market_state": "POSTPOST",
-      "quote_source": "Delayed Quote",
+      "market_state": "CLOSED",
+      "quote_source": null,
       "source": "yahoo-finance"
     },
     "DAKT": {
@@ -1357,7 +1357,7 @@
       "price": 19.91,
       "currency": "USD",
       "as_of": "2026-07-02T20:00:01.000Z",
-      "market_state": "POSTPOST",
+      "market_state": "CLOSED",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -1366,8 +1366,8 @@
       "price": 92.75,
       "currency": "USD",
       "as_of": "2026-07-02T20:00:02.000Z",
-      "market_state": "POSTPOST",
-      "quote_source": "Delayed Quote",
+      "market_state": "CLOSED",
+      "quote_source": null,
       "source": "yahoo-finance"
     },
     "DAR": {
@@ -1375,8 +1375,8 @@
       "price": 56.53,
       "currency": "USD",
       "as_of": "2026-07-02T20:00:02.000Z",
-      "market_state": "POSTPOST",
-      "quote_source": "Delayed Quote",
+      "market_state": "CLOSED",
+      "quote_source": null,
       "source": "yahoo-finance"
     },
     "DASH": {
@@ -1384,7 +1384,7 @@
       "price": 192.01,
       "currency": "USD",
       "as_of": "2026-07-02T20:00:01.000Z",
-      "market_state": "POSTPOST",
+      "market_state": "CLOSED",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -1393,8 +1393,8 @@
       "price": 139.91,
       "currency": "USD",
       "as_of": "2026-07-02T20:02:49.000Z",
-      "market_state": "POSTPOST",
-      "quote_source": "Delayed Quote",
+      "market_state": "CLOSED",
+      "quote_source": null,
       "source": "yahoo-finance"
     },
     "DDOG": {
@@ -1402,7 +1402,7 @@
       "price": 260.36,
       "currency": "USD",
       "as_of": "2026-07-02T20:00:01.000Z",
-      "market_state": "POSTPOST",
+      "market_state": "CLOSED",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -1411,8 +1411,8 @@
       "price": 104.69,
       "currency": "USD",
       "as_of": "2026-07-02T20:00:03.000Z",
-      "market_state": "POSTPOST",
-      "quote_source": "Delayed Quote",
+      "market_state": "CLOSED",
+      "quote_source": null,
       "source": "yahoo-finance"
     },
     "DELL": {
@@ -1420,8 +1420,8 @@
       "price": 394.32,
       "currency": "USD",
       "as_of": "2026-07-02T20:04:40.000Z",
-      "market_state": "POSTPOST",
-      "quote_source": "Delayed Quote",
+      "market_state": "CLOSED",
+      "quote_source": null,
       "source": "yahoo-finance"
     },
     "DEO": {
@@ -1429,8 +1429,8 @@
       "price": 82.16,
       "currency": "USD",
       "as_of": "2026-07-02T20:00:02.000Z",
-      "market_state": "POSTPOST",
-      "quote_source": "Delayed Quote",
+      "market_state": "CLOSED",
+      "quote_source": null,
       "source": "yahoo-finance"
     },
     "DG": {
@@ -1438,8 +1438,8 @@
       "price": 118.17,
       "currency": "USD",
       "as_of": "2026-07-02T20:02:42.000Z",
-      "market_state": "POSTPOST",
-      "quote_source": "Delayed Quote",
+      "market_state": "CLOSED",
+      "quote_source": null,
       "source": "yahoo-finance"
     },
     "DHI": {
@@ -1447,8 +1447,8 @@
       "price": 158.57,
       "currency": "USD",
       "as_of": "2026-07-02T20:00:03.000Z",
-      "market_state": "POSTPOST",
-      "quote_source": "Delayed Quote",
+      "market_state": "CLOSED",
+      "quote_source": null,
       "source": "yahoo-finance"
     },
     "DHR": {
@@ -1456,8 +1456,8 @@
       "price": 197.93,
       "currency": "USD",
       "as_of": "2026-07-02T20:00:03.000Z",
-      "market_state": "POSTPOST",
-      "quote_source": "Delayed Quote",
+      "market_state": "CLOSED",
+      "quote_source": null,
       "source": "yahoo-finance"
     },
     "DINO": {
@@ -1465,8 +1465,8 @@
       "price": 72.5,
       "currency": "USD",
       "as_of": "2026-07-02T20:00:03.000Z",
-      "market_state": "POSTPOST",
-      "quote_source": "Delayed Quote",
+      "market_state": "CLOSED",
+      "quote_source": null,
       "source": "yahoo-finance"
     },
     "DIS": {
@@ -1474,8 +1474,8 @@
       "price": 99.5,
       "currency": "USD",
       "as_of": "2026-07-02T20:03:14.000Z",
-      "market_state": "POSTPOST",
-      "quote_source": "Delayed Quote",
+      "market_state": "CLOSED",
+      "quote_source": null,
       "source": "yahoo-finance"
     },
     "DKNG": {
@@ -1483,7 +1483,7 @@
       "price": 25.89,
       "currency": "USD",
       "as_of": "2026-07-02T20:00:01.000Z",
-      "market_state": "POSTPOST",
+      "market_state": "CLOSED",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -1492,8 +1492,8 @@
       "price": 236.18,
       "currency": "USD",
       "as_of": "2026-07-02T20:00:03.000Z",
-      "market_state": "POSTPOST",
-      "quote_source": "Delayed Quote",
+      "market_state": "CLOSED",
+      "quote_source": null,
       "source": "yahoo-finance"
     },
     "DLR": {
@@ -1501,8 +1501,8 @@
       "price": 173.3,
       "currency": "USD",
       "as_of": "2026-07-02T20:00:03.000Z",
-      "market_state": "POSTPOST",
-      "quote_source": "Delayed Quote",
+      "market_state": "CLOSED",
+      "quote_source": null,
       "source": "yahoo-finance"
     },
     "DNA": {
@@ -1510,8 +1510,8 @@
       "price": 10.4,
       "currency": "USD",
       "as_of": "2026-07-02T20:00:02.000Z",
-      "market_state": "POSTPOST",
-      "quote_source": "Delayed Quote",
+      "market_state": "CLOSED",
+      "quote_source": null,
       "source": "yahoo-finance"
     },
     "DOCU": {
@@ -1519,7 +1519,7 @@
       "price": 45.77,
       "currency": "USD",
       "as_of": "2026-07-02T20:00:01.000Z",
-      "market_state": "POSTPOST",
+      "market_state": "CLOSED",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -1528,8 +1528,8 @@
       "price": 213.71,
       "currency": "USD",
       "as_of": "2026-07-02T20:00:03.000Z",
-      "market_state": "POSTPOST",
-      "quote_source": "Delayed Quote",
+      "market_state": "CLOSED",
+      "quote_source": null,
       "source": "yahoo-finance"
     },
     "DPZ": {
@@ -1537,7 +1537,7 @@
       "price": 311.66,
       "currency": "USD",
       "as_of": "2026-07-02T20:00:01.000Z",
-      "market_state": "POSTPOST",
+      "market_state": "CLOSED",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -1546,8 +1546,8 @@
       "price": 154.06,
       "currency": "USD",
       "as_of": "2026-07-02T20:00:03.000Z",
-      "market_state": "POSTPOST",
-      "quote_source": "Delayed Quote",
+      "market_state": "CLOSED",
+      "quote_source": null,
       "source": "yahoo-finance"
     },
     "DUOL": {
@@ -1555,7 +1555,7 @@
       "price": 125.76,
       "currency": "USD",
       "as_of": "2026-07-02T20:00:01.000Z",
-      "market_state": "POSTPOST",
+      "market_state": "CLOSED",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -1564,8 +1564,8 @@
       "price": 234.91,
       "currency": "USD",
       "as_of": "2026-07-02T20:00:03.000Z",
-      "market_state": "POSTPOST",
-      "quote_source": "Delayed Quote",
+      "market_state": "CLOSED",
+      "quote_source": null,
       "source": "yahoo-finance"
     },
     "DVN": {
@@ -1573,8 +1573,8 @@
       "price": 40.47,
       "currency": "USD",
       "as_of": "2026-07-02T20:00:02.000Z",
-      "market_state": "POSTPOST",
-      "quote_source": "Delayed Quote",
+      "market_state": "CLOSED",
+      "quote_source": null,
       "source": "yahoo-finance"
     },
     "DXCM": {
@@ -1582,7 +1582,7 @@
       "price": 71.25,
       "currency": "USD",
       "as_of": "2026-07-02T20:00:00.000Z",
-      "market_state": "POSTPOST",
+      "market_state": "CLOSED",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -1591,8 +1591,8 @@
       "price": 437.76,
       "currency": "USD",
       "as_of": "2026-07-02T20:00:03.000Z",
-      "market_state": "POSTPOST",
-      "quote_source": "Delayed Quote",
+      "market_state": "CLOSED",
+      "quote_source": null,
       "source": "yahoo-finance"
     },
     "EA": {
@@ -1600,7 +1600,7 @@
       "price": 205.21,
       "currency": "USD",
       "as_of": "2026-07-02T20:00:01.000Z",
-      "market_state": "POSTPOST",
+      "market_state": "CLOSED",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -1609,7 +1609,7 @@
       "price": 114.84,
       "currency": "USD",
       "as_of": "2026-07-02T20:00:01.000Z",
-      "market_state": "POSTPOST",
+      "market_state": "CLOSED",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -1618,8 +1618,8 @@
       "price": 283.36,
       "currency": "USD",
       "as_of": "2026-07-02T20:00:03.000Z",
-      "market_state": "POSTPOST",
-      "quote_source": "Delayed Quote",
+      "market_state": "CLOSED",
+      "quote_source": null,
       "source": "yahoo-finance"
     },
     "ED": {
@@ -1627,8 +1627,8 @@
       "price": 113.99,
       "currency": "USD",
       "as_of": "2026-07-02T20:00:03.000Z",
-      "market_state": "POSTPOST",
-      "quote_source": "Delayed Quote",
+      "market_state": "CLOSED",
+      "quote_source": null,
       "source": "yahoo-finance"
     },
     "EEM": {
@@ -1636,7 +1636,7 @@
       "price": 65.7,
       "currency": "USD",
       "as_of": "2026-07-02T20:00:00.000Z",
-      "market_state": "POSTPOST",
+      "market_state": "CLOSED",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -1645,8 +1645,8 @@
       "price": 75.66,
       "currency": "USD",
       "as_of": "2026-07-02T20:00:03.000Z",
-      "market_state": "POSTPOST",
-      "quote_source": "Delayed Quote",
+      "market_state": "CLOSED",
+      "quote_source": null,
       "source": "yahoo-finance"
     },
     "ELAN": {
@@ -1654,8 +1654,8 @@
       "price": 25,
       "currency": "USD",
       "as_of": "2026-07-02T20:00:03.000Z",
-      "market_state": "POSTPOST",
-      "quote_source": "Delayed Quote",
+      "market_state": "CLOSED",
+      "quote_source": null,
       "source": "yahoo-finance"
     },
     "ELV": {
@@ -1663,8 +1663,8 @@
       "price": 417.89,
       "currency": "USD",
       "as_of": "2026-07-02T20:00:02.000Z",
-      "market_state": "POSTPOST",
-      "quote_source": "Delayed Quote",
+      "market_state": "CLOSED",
+      "quote_source": null,
       "source": "yahoo-finance"
     },
     "ELVN": {
@@ -1672,7 +1672,7 @@
       "price": 49.82,
       "currency": "USD",
       "as_of": "2026-07-02T20:00:01.000Z",
-      "market_state": "POSTPOST",
+      "market_state": "CLOSED",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -1681,8 +1681,8 @@
       "price": 774.66,
       "currency": "USD",
       "as_of": "2026-07-02T20:00:03.000Z",
-      "market_state": "POSTPOST",
-      "quote_source": "Delayed Quote",
+      "market_state": "CLOSED",
+      "quote_source": null,
       "source": "yahoo-finance"
     },
     "ENPH": {
@@ -1690,7 +1690,7 @@
       "price": 43.07,
       "currency": "USD",
       "as_of": "2026-07-02T20:00:00.000Z",
-      "market_state": "POSTPOST",
+      "market_state": "CLOSED",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -1699,7 +1699,7 @@
       "price": 146.66,
       "currency": "USD",
       "as_of": "2026-07-02T20:00:01.000Z",
-      "market_state": "POSTPOST",
+      "market_state": "CLOSED",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -1708,7 +1708,7 @@
       "price": 1002.02,
       "currency": "USD",
       "as_of": "2026-07-02T20:00:01.000Z",
-      "market_state": "POSTPOST",
+      "market_state": "CLOSED",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -1717,8 +1717,8 @@
       "price": 52.61,
       "currency": "USD",
       "as_of": "2026-07-02T20:02:31.000Z",
-      "market_state": "POSTPOST",
-      "quote_source": "Delayed Quote",
+      "market_state": "CLOSED",
+      "quote_source": null,
       "source": "yahoo-finance"
     },
     "ET": {
@@ -1726,8 +1726,8 @@
       "price": 19.33,
       "currency": "USD",
       "as_of": "2026-07-02T20:00:03.000Z",
-      "market_state": "POSTPOST",
-      "quote_source": "Delayed Quote",
+      "market_state": "CLOSED",
+      "quote_source": null,
       "source": "yahoo-finance"
     },
     "ETSY": {
@@ -1735,8 +1735,8 @@
       "price": 76.97,
       "currency": "USD",
       "as_of": "2026-07-02T20:00:03.000Z",
-      "market_state": "POSTPOST",
-      "quote_source": "Delayed Quote",
+      "market_state": "CLOSED",
+      "quote_source": null,
       "source": "yahoo-finance"
     },
     "EVR": {
@@ -1744,8 +1744,8 @@
       "price": 342.64,
       "currency": "USD",
       "as_of": "2026-07-02T20:01:29.000Z",
-      "market_state": "POSTPOST",
-      "quote_source": "Delayed Quote",
+      "market_state": "CLOSED",
+      "quote_source": null,
       "source": "yahoo-finance"
     },
     "EW": {
@@ -1753,8 +1753,8 @@
       "price": 94.37,
       "currency": "USD",
       "as_of": "2026-07-02T20:00:03.000Z",
-      "market_state": "POSTPOST",
-      "quote_source": "Delayed Quote",
+      "market_state": "CLOSED",
+      "quote_source": null,
       "source": "yahoo-finance"
     },
     "EWZ": {
@@ -1762,7 +1762,7 @@
       "price": 34.43,
       "currency": "USD",
       "as_of": "2026-07-02T20:00:00.000Z",
-      "market_state": "POSTPOST",
+      "market_state": "CLOSED",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -1771,7 +1771,7 @@
       "price": 47.88,
       "currency": "USD",
       "as_of": "2026-07-02T20:00:01.000Z",
-      "market_state": "POSTPOST",
+      "market_state": "CLOSED",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -1780,7 +1780,7 @@
       "price": 55.85,
       "currency": "USD",
       "as_of": "2026-07-02T20:00:01.000Z",
-      "market_state": "POSTPOST",
+      "market_state": "CLOSED",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -1789,8 +1789,8 @@
       "price": 167.57,
       "currency": "USD",
       "as_of": "2026-07-02T20:00:03.000Z",
-      "market_state": "POSTPOST",
-      "quote_source": "Delayed Quote",
+      "market_state": "CLOSED",
+      "quote_source": null,
       "source": "yahoo-finance"
     },
     "EXPE": {
@@ -1798,7 +1798,7 @@
       "price": 268.69,
       "currency": "USD",
       "as_of": "2026-07-02T20:00:01.000Z",
-      "market_state": "POSTPOST",
+      "market_state": "CLOSED",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -1807,8 +1807,8 @@
       "price": 149.34,
       "currency": "USD",
       "as_of": "2026-07-02T20:05:28.000Z",
-      "market_state": "POSTPOST",
-      "quote_source": "Delayed Quote",
+      "market_state": "CLOSED",
+      "quote_source": null,
       "source": "yahoo-finance"
     },
     "FCNCA": {
@@ -1816,7 +1816,7 @@
       "price": 2082.99,
       "currency": "USD",
       "as_of": "2026-07-02T20:00:00.000Z",
-      "market_state": "POSTPOST",
+      "market_state": "CLOSED",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -1825,8 +1825,8 @@
       "price": 60.97,
       "currency": "USD",
       "as_of": "2026-07-02T20:04:01.000Z",
-      "market_state": "POSTPOST",
-      "quote_source": "Delayed Quote",
+      "market_state": "CLOSED",
+      "quote_source": null,
       "source": "yahoo-finance"
     },
     "FDX": {
@@ -1834,8 +1834,8 @@
       "price": 313,
       "currency": "USD",
       "as_of": "2026-07-02T20:00:03.000Z",
-      "market_state": "POSTPOST",
-      "quote_source": "Delayed Quote",
+      "market_state": "CLOSED",
+      "quote_source": null,
       "source": "yahoo-finance"
     },
     "FE": {
@@ -1843,8 +1843,8 @@
       "price": 48.53,
       "currency": "USD",
       "as_of": "2026-07-02T20:04:12.000Z",
-      "market_state": "POSTPOST",
-      "quote_source": "Delayed Quote",
+      "market_state": "CLOSED",
+      "quote_source": null,
       "source": "yahoo-finance"
     },
     "FFIV": {
@@ -1852,7 +1852,7 @@
       "price": 408.14,
       "currency": "USD",
       "as_of": "2026-07-02T20:00:00.000Z",
-      "market_state": "POSTPOST",
+      "market_state": "CLOSED",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -1861,8 +1861,8 @@
       "price": 25.68,
       "currency": "USD",
       "as_of": "2026-07-02T20:00:02.000Z",
-      "market_state": "POSTPOST",
-      "quote_source": "Delayed Quote",
+      "market_state": "CLOSED",
+      "quote_source": null,
       "source": "yahoo-finance"
     },
     "FICO": {
@@ -1870,8 +1870,8 @@
       "price": 1270.83,
       "currency": "USD",
       "as_of": "2026-07-02T20:00:02.000Z",
-      "market_state": "POSTPOST",
-      "quote_source": "Delayed Quote",
+      "market_state": "CLOSED",
+      "quote_source": null,
       "source": "yahoo-finance"
     },
     "FIG": {
@@ -1879,8 +1879,8 @@
       "price": 21.34,
       "currency": "USD",
       "as_of": "2026-07-02T20:00:02.000Z",
-      "market_state": "POSTPOST",
-      "quote_source": "Delayed Quote",
+      "market_state": "CLOSED",
+      "quote_source": null,
       "source": "yahoo-finance"
     },
     "FIGR": {
@@ -1888,7 +1888,7 @@
       "price": 33.91,
       "currency": "USD",
       "as_of": "2026-07-02T20:00:00.000Z",
-      "market_state": "POSTPOST",
+      "market_state": "CLOSED",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -1897,8 +1897,8 @@
       "price": 41.8,
       "currency": "USD",
       "as_of": "2026-07-02T20:01:23.000Z",
-      "market_state": "POSTPOST",
-      "quote_source": "Delayed Quote",
+      "market_state": "CLOSED",
+      "quote_source": null,
       "source": "yahoo-finance"
     },
     "FIVE": {
@@ -1906,7 +1906,7 @@
       "price": 182.43,
       "currency": "USD",
       "as_of": "2026-07-02T20:00:01.000Z",
-      "market_state": "POSTPOST",
+      "market_state": "CLOSED",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -1915,8 +1915,8 @@
       "price": 1741.3,
       "currency": "USD",
       "as_of": "2026-07-02T20:02:13.000Z",
-      "market_state": "POSTPOST",
-      "quote_source": "Delayed Quote",
+      "market_state": "CLOSED",
+      "quote_source": null,
       "source": "yahoo-finance"
     },
     "FLR": {
@@ -1924,8 +1924,8 @@
       "price": 49.45,
       "currency": "USD",
       "as_of": "2026-07-02T20:00:02.000Z",
-      "market_state": "POSTPOST",
-      "quote_source": "Delayed Quote",
+      "market_state": "CLOSED",
+      "quote_source": null,
       "source": "yahoo-finance"
     },
     "FLS": {
@@ -1933,8 +1933,8 @@
       "price": 72.34,
       "currency": "USD",
       "as_of": "2026-07-02T20:00:02.000Z",
-      "market_state": "POSTPOST",
-      "quote_source": "Delayed Quote",
+      "market_state": "CLOSED",
+      "quote_source": null,
       "source": "yahoo-finance"
     },
     "FLUT": {
@@ -1942,8 +1942,8 @@
       "price": 106.03,
       "currency": "USD",
       "as_of": "2026-07-02T20:00:02.000Z",
-      "market_state": "POSTPOST",
-      "quote_source": "Delayed Quote",
+      "market_state": "CLOSED",
+      "quote_source": null,
       "source": "yahoo-finance"
     },
     "FLYX": {
@@ -1951,7 +1951,7 @@
       "price": 1.93,
       "currency": "USD",
       "as_of": "2026-07-02T20:00:00.000Z",
-      "market_state": "POSTPOST",
+      "market_state": "CLOSED",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -1960,8 +1960,8 @@
       "price": 59.04,
       "currency": "USD",
       "as_of": "2026-07-02T20:00:03.000Z",
-      "market_state": "POSTPOST",
-      "quote_source": "Delayed Quote",
+      "market_state": "CLOSED",
+      "quote_source": null,
       "source": "yahoo-finance"
     },
     "FNF": {
@@ -1969,8 +1969,8 @@
       "price": 48.84,
       "currency": "USD",
       "as_of": "2026-07-02T20:00:02.000Z",
-      "market_state": "POSTPOST",
-      "quote_source": "Delayed Quote",
+      "market_state": "CLOSED",
+      "quote_source": null,
       "source": "yahoo-finance"
     },
     "FSLR": {
@@ -1978,7 +1978,7 @@
       "price": 224.57,
       "currency": "USD",
       "as_of": "2026-07-02T20:00:01.000Z",
-      "market_state": "POSTPOST",
+      "market_state": "CLOSED",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -1987,7 +1987,7 @@
       "price": 156.25,
       "currency": "USD",
       "as_of": "2026-07-02T20:00:01.000Z",
-      "market_state": "POSTPOST",
+      "market_state": "CLOSED",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -1996,8 +1996,8 @@
       "price": 62.65,
       "currency": "USD",
       "as_of": "2026-07-02T20:00:02.000Z",
-      "market_state": "POSTPOST",
-      "quote_source": "Delayed Quote",
+      "market_state": "CLOSED",
+      "quote_source": null,
       "source": "yahoo-finance"
     },
     "FUTU": {
@@ -2005,7 +2005,7 @@
       "price": 95.04,
       "currency": "USD",
       "as_of": "2026-07-02T20:00:01.000Z",
-      "market_state": "POSTPOST",
+      "market_state": "CLOSED",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -2014,7 +2014,7 @@
       "price": 98.5,
       "currency": "USD",
       "as_of": "2026-07-02T20:00:01.000Z",
-      "market_state": "POSTPOST",
+      "market_state": "CLOSED",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -2023,8 +2023,8 @@
       "price": 19.25,
       "currency": "USD",
       "as_of": "2026-07-02T20:00:03.000Z",
-      "market_state": "POSTPOST",
-      "quote_source": "Delayed Quote",
+      "market_state": "CLOSED",
+      "quote_source": null,
       "source": "yahoo-finance"
     },
     "GD": {
@@ -2032,8 +2032,8 @@
       "price": 373.54,
       "currency": "USD",
       "as_of": "2026-07-02T20:00:03.000Z",
-      "market_state": "POSTPOST",
-      "quote_source": "Delayed Quote",
+      "market_state": "CLOSED",
+      "quote_source": null,
       "source": "yahoo-finance"
     },
     "GDDY": {
@@ -2041,8 +2041,8 @@
       "price": 88.51,
       "currency": "USD",
       "as_of": "2026-07-02T20:00:02.000Z",
-      "market_state": "POSTPOST",
-      "quote_source": "Delayed Quote",
+      "market_state": "CLOSED",
+      "quote_source": null,
       "source": "yahoo-finance"
     },
     "GDX": {
@@ -2050,7 +2050,7 @@
       "price": 78.43,
       "currency": "USD",
       "as_of": "2026-07-02T20:00:00.000Z",
-      "market_state": "POSTPOST",
+      "market_state": "CLOSED",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -2059,8 +2059,8 @@
       "price": 377.52,
       "currency": "USD",
       "as_of": "2026-07-02T20:00:02.000Z",
-      "market_state": "POSTPOST",
-      "quote_source": "Delayed Quote",
+      "market_state": "CLOSED",
+      "quote_source": null,
       "source": "yahoo-finance"
     },
     "GEMI": {
@@ -2068,7 +2068,7 @@
       "price": 4.23,
       "currency": "USD",
       "as_of": "2026-07-02T20:00:01.000Z",
-      "market_state": "POSTPOST",
+      "market_state": "CLOSED",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -2077,8 +2077,8 @@
       "price": 1113.11,
       "currency": "USD",
       "as_of": "2026-07-02T20:00:02.000Z",
-      "market_state": "POSTPOST",
-      "quote_source": "Delayed Quote",
+      "market_state": "CLOSED",
+      "quote_source": null,
       "source": "yahoo-finance"
     },
     "GILD": {
@@ -2086,7 +2086,7 @@
       "price": 131.27,
       "currency": "USD",
       "as_of": "2026-07-02T20:00:01.000Z",
-      "market_state": "POSTPOST",
+      "market_state": "CLOSED",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -2095,8 +2095,8 @@
       "price": 37.57,
       "currency": "USD",
       "as_of": "2026-07-02T20:00:03.000Z",
-      "market_state": "POSTPOST",
-      "quote_source": "Delayed Quote",
+      "market_state": "CLOSED",
+      "quote_source": null,
       "source": "yahoo-finance"
     },
     "GKOS": {
@@ -2104,8 +2104,8 @@
       "price": 148.34,
       "currency": "USD",
       "as_of": "2026-07-02T20:00:03.000Z",
-      "market_state": "POSTPOST",
-      "quote_source": "Delayed Quote",
+      "market_state": "CLOSED",
+      "quote_source": null,
       "source": "yahoo-finance"
     },
     "GL": {
@@ -2113,8 +2113,8 @@
       "price": 180.49,
       "currency": "USD",
       "as_of": "2026-07-02T20:00:02.000Z",
-      "market_state": "POSTPOST",
-      "quote_source": "Delayed Quote",
+      "market_state": "CLOSED",
+      "quote_source": null,
       "source": "yahoo-finance"
     },
     "GLW": {
@@ -2122,8 +2122,8 @@
       "price": 196.79,
       "currency": "USD",
       "as_of": "2026-07-02T20:04:14.000Z",
-      "market_state": "POSTPOST",
-      "quote_source": "Delayed Quote",
+      "market_state": "CLOSED",
+      "quote_source": null,
       "source": "yahoo-finance"
     },
     "GLXY": {
@@ -2131,7 +2131,7 @@
       "price": 24.59,
       "currency": "USD",
       "as_of": "2026-07-02T20:00:01.000Z",
-      "market_state": "POSTPOST",
+      "market_state": "CLOSED",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -2140,8 +2140,8 @@
       "price": 76,
       "currency": "USD",
       "as_of": "2026-07-02T20:00:03.000Z",
-      "market_state": "POSTPOST",
-      "quote_source": "Delayed Quote",
+      "market_state": "CLOSED",
+      "quote_source": null,
       "source": "yahoo-finance"
     },
     "GNRC": {
@@ -2149,8 +2149,8 @@
       "price": 252.66,
       "currency": "USD",
       "as_of": "2026-07-02T20:00:02.000Z",
-      "market_state": "POSTPOST",
-      "quote_source": "Delayed Quote",
+      "market_state": "CLOSED",
+      "quote_source": null,
       "source": "yahoo-finance"
     },
     "GOOG": {
@@ -2158,7 +2158,7 @@
       "price": 356.18,
       "currency": "USD",
       "as_of": "2026-07-02T20:00:01.000Z",
-      "market_state": "POSTPOST",
+      "market_state": "CLOSED",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -2167,7 +2167,7 @@
       "price": 359.91,
       "currency": "USD",
       "as_of": "2026-07-02T20:00:00.000Z",
-      "market_state": "POSTPOST",
+      "market_state": "CLOSED",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -2176,8 +2176,8 @@
       "price": 132.57,
       "currency": "USD",
       "as_of": "2026-07-02T20:00:03.000Z",
-      "market_state": "POSTPOST",
-      "quote_source": "Delayed Quote",
+      "market_state": "CLOSED",
+      "quote_source": null,
       "source": "yahoo-finance"
     },
     "GS": {
@@ -2185,8 +2185,8 @@
       "price": 1021,
       "currency": "USD",
       "as_of": "2026-07-02T20:00:03.000Z",
-      "market_state": "POSTPOST",
-      "quote_source": "Delayed Quote",
+      "market_state": "CLOSED",
+      "quote_source": null,
       "source": "yahoo-finance"
     },
     "GT": {
@@ -2194,7 +2194,7 @@
       "price": 6.59,
       "currency": "USD",
       "as_of": "2026-07-02T20:00:01.000Z",
-      "market_state": "POSTPOST",
+      "market_state": "CLOSED",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -2203,8 +2203,8 @@
       "price": 208.72,
       "currency": "USD",
       "as_of": "2026-07-02T20:00:02.000Z",
-      "market_state": "POSTPOST",
-      "quote_source": "Delayed Quote",
+      "market_state": "CLOSED",
+      "quote_source": null,
       "source": "yahoo-finance"
     },
     "GVA": {
@@ -2212,8 +2212,8 @@
       "price": 145.93,
       "currency": "USD",
       "as_of": "2026-07-02T20:00:02.000Z",
-      "market_state": "POSTPOST",
-      "quote_source": "Delayed Quote",
+      "market_state": "CLOSED",
+      "quote_source": null,
       "source": "yahoo-finance"
     },
     "GWRE": {
@@ -2221,8 +2221,8 @@
       "price": 134.47,
       "currency": "USD",
       "as_of": "2026-07-02T20:00:03.000Z",
-      "market_state": "POSTPOST",
-      "quote_source": "Delayed Quote",
+      "market_state": "CLOSED",
+      "quote_source": null,
       "source": "yahoo-finance"
     },
     "HAE": {
@@ -2230,8 +2230,8 @@
       "price": 75.07,
       "currency": "USD",
       "as_of": "2026-07-02T20:00:02.000Z",
-      "market_state": "POSTPOST",
-      "quote_source": "Delayed Quote",
+      "market_state": "CLOSED",
+      "quote_source": null,
       "source": "yahoo-finance"
     },
     "HAS": {
@@ -2239,7 +2239,7 @@
       "price": 80.15,
       "currency": "USD",
       "as_of": "2026-07-02T20:00:01.000Z",
-      "market_state": "POSTPOST",
+      "market_state": "CLOSED",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -2248,8 +2248,8 @@
       "price": 410.5,
       "currency": "USD",
       "as_of": "2026-07-02T20:00:02.000Z",
-      "market_state": "POSTPOST",
-      "quote_source": "Delayed Quote",
+      "market_state": "CLOSED",
+      "quote_source": null,
       "source": "yahoo-finance"
     },
     "HD": {
@@ -2257,8 +2257,8 @@
       "price": 357.9,
       "currency": "USD",
       "as_of": "2026-07-02T20:00:03.000Z",
-      "market_state": "POSTPOST",
-      "quote_source": "Delayed Quote",
+      "market_state": "CLOSED",
+      "quote_source": null,
       "source": "yahoo-finance"
     },
     "HEI-A": {
@@ -2266,8 +2266,8 @@
       "price": 261.7,
       "currency": "USD",
       "as_of": "2026-07-02T20:00:03.000Z",
-      "market_state": "POSTPOST",
-      "quote_source": "Delayed Quote",
+      "market_state": "CLOSED",
+      "quote_source": null,
       "source": "yahoo-finance"
     },
     "HHH": {
@@ -2275,8 +2275,8 @@
       "price": 74.21,
       "currency": "USD",
       "as_of": "2026-07-02T20:00:03.000Z",
-      "market_state": "POSTPOST",
-      "quote_source": "Delayed Quote",
+      "market_state": "CLOSED",
+      "quote_source": null,
       "source": "yahoo-finance"
     },
     "HIG": {
@@ -2284,8 +2284,8 @@
       "price": 137.85,
       "currency": "USD",
       "as_of": "2026-07-02T20:00:02.000Z",
-      "market_state": "POSTPOST",
-      "quote_source": "Delayed Quote",
+      "market_state": "CLOSED",
+      "quote_source": null,
       "source": "yahoo-finance"
     },
     "HII": {
@@ -2293,8 +2293,8 @@
       "price": 291.5,
       "currency": "USD",
       "as_of": "2026-07-02T20:00:03.000Z",
-      "market_state": "POSTPOST",
-      "quote_source": "Delayed Quote",
+      "market_state": "CLOSED",
+      "quote_source": null,
       "source": "yahoo-finance"
     },
     "HLT": {
@@ -2302,8 +2302,8 @@
       "price": 338.12,
       "currency": "USD",
       "as_of": "2026-07-02T20:00:03.000Z",
-      "market_state": "POSTPOST",
-      "quote_source": "Delayed Quote",
+      "market_state": "CLOSED",
+      "quote_source": null,
       "source": "yahoo-finance"
     },
     "HNGE": {
@@ -2311,8 +2311,8 @@
       "price": 84.05,
       "currency": "USD",
       "as_of": "2026-07-02T20:00:02.000Z",
-      "market_state": "POSTPOST",
-      "quote_source": "Delayed Quote",
+      "market_state": "CLOSED",
+      "quote_source": null,
       "source": "yahoo-finance"
     },
     "HON": {
@@ -2320,7 +2320,7 @@
       "price": 229.86,
       "currency": "USD",
       "as_of": "2026-07-02T20:00:01.000Z",
-      "market_state": "POSTPOST",
+      "market_state": "CLOSED",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -2329,7 +2329,7 @@
       "price": 112.73,
       "currency": "USD",
       "as_of": "2026-07-02T20:00:01.000Z",
-      "market_state": "POSTPOST",
+      "market_state": "CLOSED",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -2338,8 +2338,8 @@
       "price": 21.93,
       "currency": "USD",
       "as_of": "2026-07-02T20:00:03.000Z",
-      "market_state": "POSTPOST",
-      "quote_source": "Delayed Quote",
+      "market_state": "CLOSED",
+      "quote_source": null,
       "source": "yahoo-finance"
     },
     "HSY": {
@@ -2347,8 +2347,8 @@
       "price": 182.14,
       "currency": "USD",
       "as_of": "2026-07-02T20:00:02.000Z",
-      "market_state": "POSTPOST",
-      "quote_source": "Delayed Quote",
+      "market_state": "CLOSED",
+      "quote_source": null,
       "source": "yahoo-finance"
     },
     "HTZ": {
@@ -2356,7 +2356,7 @@
       "price": 2.12,
       "currency": "USD",
       "as_of": "2026-07-02T20:00:01.000Z",
-      "market_state": "POSTPOST",
+      "market_state": "CLOSED",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -2365,8 +2365,8 @@
       "price": 192.12,
       "currency": "USD",
       "as_of": "2026-07-02T20:01:44.000Z",
-      "market_state": "POSTPOST",
-      "quote_source": "Delayed Quote",
+      "market_state": "CLOSED",
+      "quote_source": null,
       "source": "yahoo-finance"
     },
     "HUM": {
@@ -2374,8 +2374,8 @@
       "price": 396.75,
       "currency": "USD",
       "as_of": "2026-07-02T20:01:57.000Z",
-      "market_state": "POSTPOST",
-      "quote_source": "Delayed Quote",
+      "market_state": "CLOSED",
+      "quote_source": null,
       "source": "yahoo-finance"
     },
     "HUT": {
@@ -2383,7 +2383,7 @@
       "price": 97.14,
       "currency": "USD",
       "as_of": "2026-07-02T20:00:01.000Z",
-      "market_state": "POSTPOST",
+      "market_state": "CLOSED",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -2392,8 +2392,8 @@
       "price": 270.41,
       "currency": "USD",
       "as_of": "2026-07-02T20:00:03.000Z",
-      "market_state": "POSTPOST",
-      "quote_source": "Delayed Quote",
+      "market_state": "CLOSED",
+      "quote_source": null,
       "source": "yahoo-finance"
     },
     "IBM": {
@@ -2401,8 +2401,8 @@
       "price": 289.52,
       "currency": "USD",
       "as_of": "2026-07-02T20:00:03.000Z",
-      "market_state": "POSTPOST",
-      "quote_source": "Delayed Quote",
+      "market_state": "CLOSED",
+      "quote_source": null,
       "source": "yahoo-finance"
     },
     "ICE": {
@@ -2410,8 +2410,8 @@
       "price": 132.99,
       "currency": "USD",
       "as_of": "2026-07-02T20:00:03.000Z",
-      "market_state": "POSTPOST",
-      "quote_source": "Delayed Quote",
+      "market_state": "CLOSED",
+      "quote_source": null,
       "source": "yahoo-finance"
     },
     "IEX": {
@@ -2419,8 +2419,8 @@
       "price": 223.82,
       "currency": "USD",
       "as_of": "2026-07-02T20:00:02.000Z",
-      "market_state": "POSTPOST",
-      "quote_source": "Delayed Quote",
+      "market_state": "CLOSED",
+      "quote_source": null,
       "source": "yahoo-finance"
     },
     "IFF": {
@@ -2428,8 +2428,8 @@
       "price": 83.83,
       "currency": "USD",
       "as_of": "2026-07-02T20:00:02.000Z",
-      "market_state": "POSTPOST",
-      "quote_source": "Delayed Quote",
+      "market_state": "CLOSED",
+      "quote_source": null,
       "source": "yahoo-finance"
     },
     "ILMN": {
@@ -2437,7 +2437,7 @@
       "price": 188.68,
       "currency": "USD",
       "as_of": "2026-07-02T20:00:01.000Z",
-      "market_state": "POSTPOST",
+      "market_state": "CLOSED",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -2446,7 +2446,7 @@
       "price": 97.58,
       "currency": "USD",
       "as_of": "2026-07-02T20:00:01.000Z",
-      "market_state": "POSTPOST",
+      "market_state": "CLOSED",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -2455,7 +2455,7 @@
       "price": 116.86,
       "currency": "USD",
       "as_of": "2026-07-02T20:00:01.000Z",
-      "market_state": "POSTPOST",
+      "market_state": "CLOSED",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -2464,8 +2464,8 @@
       "price": 11.16,
       "currency": "USD",
       "as_of": "2026-07-02T20:00:02.000Z",
-      "market_state": "POSTPOST",
-      "quote_source": "Delayed Quote",
+      "market_state": "CLOSED",
+      "quote_source": null,
       "source": "yahoo-finance"
     },
     "INSM": {
@@ -2473,7 +2473,7 @@
       "price": 111.6,
       "currency": "USD",
       "as_of": "2026-07-02T20:00:00.000Z",
-      "market_state": "POSTPOST",
+      "market_state": "CLOSED",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -2482,7 +2482,7 @@
       "price": 120.35,
       "currency": "USD",
       "as_of": "2026-07-02T20:00:01.000Z",
-      "market_state": "POSTPOST",
+      "market_state": "CLOSED",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -2491,7 +2491,7 @@
       "price": 275.35,
       "currency": "USD",
       "as_of": "2026-07-02T20:00:01.000Z",
-      "market_state": "POSTPOST",
+      "market_state": "CLOSED",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -2500,8 +2500,8 @@
       "price": 207.04,
       "currency": "USD",
       "as_of": "2026-07-02T20:00:03.000Z",
-      "market_state": "POSTPOST",
-      "quote_source": "Delayed Quote",
+      "market_state": "CLOSED",
+      "quote_source": null,
       "source": "yahoo-finance"
     },
     "IREN": {
@@ -2509,7 +2509,7 @@
       "price": 38.82,
       "currency": "USD",
       "as_of": "2026-07-02T20:00:01.000Z",
-      "market_state": "POSTPOST",
+      "market_state": "CLOSED",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -2518,7 +2518,7 @@
       "price": 426.01,
       "currency": "USD",
       "as_of": "2026-07-02T20:00:01.000Z",
-      "market_state": "POSTPOST",
+      "market_state": "CLOSED",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -2527,8 +2527,8 @@
       "price": 136.32,
       "currency": "USD",
       "as_of": "2026-07-02T20:00:03.000Z",
-      "market_state": "POSTPOST",
-      "quote_source": "Delayed Quote",
+      "market_state": "CLOSED",
+      "quote_source": null,
       "source": "yahoo-finance"
     },
     "ITGR": {
@@ -2536,8 +2536,8 @@
       "price": 95.14,
       "currency": "USD",
       "as_of": "2026-07-02T20:00:02.000Z",
-      "market_state": "POSTPOST",
-      "quote_source": "Delayed Quote",
+      "market_state": "CLOSED",
+      "quote_source": null,
       "source": "yahoo-finance"
     },
     "ITUB": {
@@ -2545,8 +2545,8 @@
       "price": 8.12,
       "currency": "USD",
       "as_of": "2026-07-02T20:00:02.000Z",
-      "market_state": "POSTPOST",
-      "quote_source": "Delayed Quote",
+      "market_state": "CLOSED",
+      "quote_source": null,
       "source": "yahoo-finance"
     },
     "IWM": {
@@ -2554,7 +2554,7 @@
       "price": 297.58,
       "currency": "USD",
       "as_of": "2026-07-02T20:00:00.000Z",
-      "market_state": "POSTPOST",
+      "market_state": "CLOSED",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -2563,8 +2563,8 @@
       "price": 127.89,
       "currency": "USD",
       "as_of": "2026-07-02T20:00:02.000Z",
-      "market_state": "POSTPOST",
-      "quote_source": "Delayed Quote",
+      "market_state": "CLOSED",
+      "quote_source": null,
       "source": "yahoo-finance"
     },
     "JBHT": {
@@ -2572,7 +2572,7 @@
       "price": 285.83,
       "currency": "USD",
       "as_of": "2026-07-02T20:00:01.000Z",
-      "market_state": "POSTPOST",
+      "market_state": "CLOSED",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -2581,7 +2581,7 @@
       "price": 26.62,
       "currency": "USD",
       "as_of": "2026-07-02T20:00:01.000Z",
-      "market_state": "POSTPOST",
+      "market_state": "CLOSED",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -2590,8 +2590,8 @@
       "price": 52.62,
       "currency": "USD",
       "as_of": "2026-07-02T20:00:02.000Z",
-      "market_state": "POSTPOST",
-      "quote_source": "Delayed Quote",
+      "market_state": "CLOSED",
+      "quote_source": null,
       "source": "yahoo-finance"
     },
     "JLL": {
@@ -2599,8 +2599,8 @@
       "price": 327.46,
       "currency": "USD",
       "as_of": "2026-07-02T20:00:02.000Z",
-      "market_state": "POSTPOST",
-      "quote_source": "Delayed Quote",
+      "market_state": "CLOSED",
+      "quote_source": null,
       "source": "yahoo-finance"
     },
     "JNJ": {
@@ -2608,8 +2608,8 @@
       "price": 263.04,
       "currency": "USD",
       "as_of": "2026-07-02T20:00:02.000Z",
-      "market_state": "POSTPOST",
-      "quote_source": "Delayed Quote",
+      "market_state": "CLOSED",
+      "quote_source": null,
       "source": "yahoo-finance"
     },
     "JOYY": {
@@ -2617,7 +2617,7 @@
       "price": 67.26,
       "currency": "USD",
       "as_of": "2026-07-02T20:00:01.000Z",
-      "market_state": "POSTPOST",
+      "market_state": "CLOSED",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -2626,8 +2626,8 @@
       "price": 334.47,
       "currency": "USD",
       "as_of": "2026-07-02T20:00:02.000Z",
-      "market_state": "POSTPOST",
-      "quote_source": "Delayed Quote",
+      "market_state": "CLOSED",
+      "quote_source": null,
       "source": "yahoo-finance"
     },
     "KBE": {
@@ -2635,7 +2635,7 @@
       "price": 68.62,
       "currency": "USD",
       "as_of": "2026-07-02T20:00:00.000Z",
-      "market_state": "POSTPOST",
+      "market_state": "CLOSED",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -2644,7 +2644,7 @@
       "price": 33.3,
       "currency": "USD",
       "as_of": "2026-07-02T20:00:00.000Z",
-      "market_state": "POSTPOST",
+      "market_state": "CLOSED",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -2653,8 +2653,8 @@
       "price": 23.02,
       "currency": "USD",
       "as_of": "2026-07-02T20:00:02.000Z",
-      "market_state": "POSTPOST",
-      "quote_source": "Delayed Quote",
+      "market_state": "CLOSED",
+      "quote_source": null,
       "source": "yahoo-finance"
     },
     "KHC": {
@@ -2662,7 +2662,7 @@
       "price": 25.37,
       "currency": "USD",
       "as_of": "2026-07-02T20:00:01.000Z",
-      "market_state": "POSTPOST",
+      "market_state": "CLOSED",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -2671,8 +2671,8 @@
       "price": 93.84,
       "currency": "USD",
       "as_of": "2026-07-02T20:00:03.000Z",
-      "market_state": "POSTPOST",
-      "quote_source": "Delayed Quote",
+      "market_state": "CLOSED",
+      "quote_source": null,
       "source": "yahoo-finance"
     },
     "KMB": {
@@ -2680,7 +2680,7 @@
       "price": 114.72,
       "currency": "USD",
       "as_of": "2026-07-02T20:00:01.000Z",
-      "market_state": "POSTPOST",
+      "market_state": "CLOSED",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -2689,8 +2689,8 @@
       "price": 32.06,
       "currency": "USD",
       "as_of": "2026-07-02T20:00:02.000Z",
-      "market_state": "POSTPOST",
-      "quote_source": "Delayed Quote",
+      "market_state": "CLOSED",
+      "quote_source": null,
       "source": "yahoo-finance"
     },
     "KMX": {
@@ -2698,8 +2698,8 @@
       "price": 50.98,
       "currency": "USD",
       "as_of": "2026-07-02T20:00:02.000Z",
-      "market_state": "POSTPOST",
-      "quote_source": "Delayed Quote",
+      "market_state": "CLOSED",
+      "quote_source": null,
       "source": "yahoo-finance"
     },
     "KO": {
@@ -2707,8 +2707,8 @@
       "price": 84.14,
       "currency": "USD",
       "as_of": "2026-07-02T20:00:26.000Z",
-      "market_state": "POSTPOST",
-      "quote_source": "Delayed Quote",
+      "market_state": "CLOSED",
+      "quote_source": null,
       "source": "yahoo-finance"
     },
     "KR": {
@@ -2716,8 +2716,8 @@
       "price": 58.22,
       "currency": "USD",
       "as_of": "2026-07-02T20:00:02.000Z",
-      "market_state": "POSTPOST",
-      "quote_source": "Delayed Quote",
+      "market_state": "CLOSED",
+      "quote_source": null,
       "source": "yahoo-finance"
     },
     "KRC": {
@@ -2725,8 +2725,8 @@
       "price": 39.32,
       "currency": "USD",
       "as_of": "2026-07-02T20:00:02.000Z",
-      "market_state": "POSTPOST",
-      "quote_source": "Delayed Quote",
+      "market_state": "CLOSED",
+      "quote_source": null,
       "source": "yahoo-finance"
     },
     "KVUE": {
@@ -2734,8 +2734,8 @@
       "price": 19.83,
       "currency": "USD",
       "as_of": "2026-07-02T20:00:02.000Z",
-      "market_state": "POSTPOST",
-      "quote_source": "Delayed Quote",
+      "market_state": "CLOSED",
+      "quote_source": null,
       "source": "yahoo-finance"
     },
     "LAB": {
@@ -2743,7 +2743,7 @@
       "price": 0.9129,
       "currency": "USD",
       "as_of": "2026-07-02T20:00:01.000Z",
-      "market_state": "POSTPOST",
+      "market_state": "CLOSED",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -2752,7 +2752,7 @@
       "price": 157.56,
       "currency": "USD",
       "as_of": "2026-07-02T20:00:01.000Z",
-      "market_state": "POSTPOST",
+      "market_state": "CLOSED",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -2761,8 +2761,8 @@
       "price": 23.79,
       "currency": "USD",
       "as_of": "2026-07-02T20:00:03.000Z",
-      "market_state": "POSTPOST",
-      "quote_source": "Delayed Quote",
+      "market_state": "CLOSED",
+      "quote_source": null,
       "source": "yahoo-finance"
     },
     "LCID": {
@@ -2770,7 +2770,7 @@
       "price": 6.08,
       "currency": "USD",
       "as_of": "2026-07-02T20:00:01.000Z",
-      "market_state": "POSTPOST",
+      "market_state": "CLOSED",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -2779,8 +2779,8 @@
       "price": 108.84,
       "currency": "USD",
       "as_of": "2026-07-02T20:01:31.000Z",
-      "market_state": "POSTPOST",
-      "quote_source": "Delayed Quote",
+      "market_state": "CLOSED",
+      "quote_source": null,
       "source": "yahoo-finance"
     },
     "LECO": {
@@ -2788,7 +2788,7 @@
       "price": 258.43,
       "currency": "USD",
       "as_of": "2026-07-02T20:00:01.000Z",
-      "market_state": "POSTPOST",
+      "market_state": "CLOSED",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -2797,8 +2797,8 @@
       "price": 88.21,
       "currency": "USD",
       "as_of": "2026-07-02T20:00:02.000Z",
-      "market_state": "POSTPOST",
-      "quote_source": "Delayed Quote",
+      "market_state": "CLOSED",
+      "quote_source": null,
       "source": "yahoo-finance"
     },
     "LEN-B": {
@@ -2806,8 +2806,8 @@
       "price": 86.27,
       "currency": "USD",
       "as_of": "2026-07-02T20:00:02.000Z",
-      "market_state": "POSTPOST",
-      "quote_source": "Delayed Quote",
+      "market_state": "CLOSED",
+      "quote_source": null,
       "source": "yahoo-finance"
     },
     "LHX": {
@@ -2815,8 +2815,8 @@
       "price": 302.07,
       "currency": "USD",
       "as_of": "2026-07-02T20:00:03.000Z",
-      "market_state": "POSTPOST",
-      "quote_source": "Delayed Quote",
+      "market_state": "CLOSED",
+      "quote_source": null,
       "source": "yahoo-finance"
     },
     "LII": {
@@ -2824,8 +2824,8 @@
       "price": 570.03,
       "currency": "USD",
       "as_of": "2026-07-02T20:00:02.000Z",
-      "market_state": "POSTPOST",
-      "quote_source": "Delayed Quote",
+      "market_state": "CLOSED",
+      "quote_source": null,
       "source": "yahoo-finance"
     },
     "LITE": {
@@ -2833,7 +2833,7 @@
       "price": 728.32,
       "currency": "USD",
       "as_of": "2026-07-02T20:00:01.000Z",
-      "market_state": "POSTPOST",
+      "market_state": "CLOSED",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -2842,8 +2842,8 @@
       "price": 1213.91,
       "currency": "USD",
       "as_of": "2026-07-02T20:03:34.000Z",
-      "market_state": "POSTPOST",
-      "quote_source": "Delayed Quote",
+      "market_state": "CLOSED",
+      "quote_source": null,
       "source": "yahoo-finance"
     },
     "LLYVA": {
@@ -2851,7 +2851,7 @@
       "price": 104.11,
       "currency": "USD",
       "as_of": "2026-07-02T20:00:01.000Z",
-      "market_state": "POSTPOST",
+      "market_state": "CLOSED",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -2860,7 +2860,7 @@
       "price": 108,
       "currency": "USD",
       "as_of": "2026-07-02T20:00:01.000Z",
-      "market_state": "POSTPOST",
+      "market_state": "CLOSED",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -2869,8 +2869,8 @@
       "price": 545.91,
       "currency": "USD",
       "as_of": "2026-07-02T20:03:32.000Z",
-      "market_state": "POSTPOST",
-      "quote_source": "Delayed Quote",
+      "market_state": "CLOSED",
+      "quote_source": null,
       "source": "yahoo-finance"
     },
     "LNG": {
@@ -2878,8 +2878,8 @@
       "price": 245.97,
       "currency": "USD",
       "as_of": "2026-07-02T20:00:02.000Z",
-      "market_state": "POSTPOST",
-      "quote_source": "Delayed Quote",
+      "market_state": "CLOSED",
+      "quote_source": null,
       "source": "yahoo-finance"
     },
     "LOW": {
@@ -2887,8 +2887,8 @@
       "price": 227.5,
       "currency": "USD",
       "as_of": "2026-07-02T20:02:22.000Z",
-      "market_state": "POSTPOST",
-      "quote_source": "Delayed Quote",
+      "market_state": "CLOSED",
+      "quote_source": null,
       "source": "yahoo-finance"
     },
     "LPLA": {
@@ -2896,7 +2896,7 @@
       "price": 295.18,
       "currency": "USD",
       "as_of": "2026-07-02T20:00:01.000Z",
-      "market_state": "POSTPOST",
+      "market_state": "CLOSED",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -2905,8 +2905,8 @@
       "price": 79.31,
       "currency": "USD",
       "as_of": "2026-07-02T20:00:02.000Z",
-      "market_state": "POSTPOST",
-      "quote_source": "Delayed Quote",
+      "market_state": "CLOSED",
+      "quote_source": null,
       "source": "yahoo-finance"
     },
     "LRCX": {
@@ -2914,7 +2914,7 @@
       "price": 351.41,
       "currency": "USD",
       "as_of": "2026-07-02T20:00:00.000Z",
-      "market_state": "POSTPOST",
+      "market_state": "CLOSED",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -2923,7 +2923,7 @@
       "price": 136.53,
       "currency": "USD",
       "as_of": "2026-07-02T20:00:01.000Z",
-      "market_state": "POSTPOST",
+      "market_state": "CLOSED",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -2932,7 +2932,7 @@
       "price": 118.43,
       "currency": "USD",
       "as_of": "2026-07-02T20:00:01.000Z",
-      "market_state": "POSTPOST",
+      "market_state": "CLOSED",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -2941,8 +2941,8 @@
       "price": 46.99,
       "currency": "USD",
       "as_of": "2026-07-02T20:00:02.000Z",
-      "market_state": "POSTPOST",
-      "quote_source": "Delayed Quote",
+      "market_state": "CLOSED",
+      "quote_source": null,
       "source": "yahoo-finance"
     },
     "LYFT": {
@@ -2950,7 +2950,7 @@
       "price": 15.37,
       "currency": "USD",
       "as_of": "2026-07-02T20:00:01.000Z",
-      "market_state": "POSTPOST",
+      "market_state": "CLOSED",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -2959,8 +2959,8 @@
       "price": 186.59,
       "currency": "USD",
       "as_of": "2026-07-02T20:00:03.000Z",
-      "market_state": "POSTPOST",
-      "quote_source": "Delayed Quote",
+      "market_state": "CLOSED",
+      "quote_source": null,
       "source": "yahoo-finance"
     },
     "MA": {
@@ -2968,8 +2968,8 @@
       "price": 539.39,
       "currency": "USD",
       "as_of": "2026-07-02T20:00:03.000Z",
-      "market_state": "POSTPOST",
-      "quote_source": "Delayed Quote",
+      "market_state": "CLOSED",
+      "quote_source": null,
       "source": "yahoo-finance"
     },
     "MAA": {
@@ -2977,8 +2977,8 @@
       "price": 142.19,
       "currency": "USD",
       "as_of": "2026-07-02T20:00:02.000Z",
-      "market_state": "POSTPOST",
-      "quote_source": "Delayed Quote",
+      "market_state": "CLOSED",
+      "quote_source": null,
       "source": "yahoo-finance"
     },
     "MANH": {
@@ -2986,7 +2986,7 @@
       "price": 151.04,
       "currency": "USD",
       "as_of": "2026-07-02T20:00:01.000Z",
-      "market_state": "POSTPOST",
+      "market_state": "CLOSED",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -2995,7 +2995,7 @@
       "price": 372.95,
       "currency": "USD",
       "as_of": "2026-07-02T20:00:01.000Z",
-      "market_state": "POSTPOST",
+      "market_state": "CLOSED",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -3004,7 +3004,7 @@
       "price": 179.95,
       "currency": "USD",
       "as_of": "2026-06-09T20:00:01.000Z",
-      "market_state": "POSTPOST",
+      "market_state": "CLOSED",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -3013,7 +3013,7 @@
       "price": 9.57,
       "currency": "USD",
       "as_of": "2026-07-02T20:00:01.000Z",
-      "market_state": "POSTPOST",
+      "market_state": "CLOSED",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -3022,8 +3022,8 @@
       "price": 280.63,
       "currency": "USD",
       "as_of": "2026-07-02T20:00:02.000Z",
-      "market_state": "POSTPOST",
-      "quote_source": "Delayed Quote",
+      "market_state": "CLOSED",
+      "quote_source": null,
       "source": "yahoo-finance"
     },
     "MCK": {
@@ -3031,8 +3031,8 @@
       "price": 786.3,
       "currency": "USD",
       "as_of": "2026-07-02T20:00:02.000Z",
-      "market_state": "POSTPOST",
-      "quote_source": "Delayed Quote",
+      "market_state": "CLOSED",
+      "quote_source": null,
       "source": "yahoo-finance"
     },
     "MCO": {
@@ -3040,8 +3040,8 @@
       "price": 490.51,
       "currency": "USD",
       "as_of": "2026-07-02T20:00:02.000Z",
-      "market_state": "POSTPOST",
-      "quote_source": "Delayed Quote",
+      "market_state": "CLOSED",
+      "quote_source": null,
       "source": "yahoo-finance"
     },
     "MDB": {
@@ -3049,7 +3049,7 @@
       "price": 354.88,
       "currency": "USD",
       "as_of": "2026-07-02T20:00:01.000Z",
-      "market_state": "POSTPOST",
+      "market_state": "CLOSED",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -3058,7 +3058,7 @@
       "price": 43.19,
       "currency": "USD",
       "as_of": "2026-07-02T20:00:01.000Z",
-      "market_state": "POSTPOST",
+      "market_state": "CLOSED",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -3067,7 +3067,7 @@
       "price": 557.6,
       "currency": "USD",
       "as_of": "2026-07-02T20:00:01.000Z",
-      "market_state": "POSTPOST",
+      "market_state": "CLOSED",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -3076,7 +3076,7 @@
       "price": 1763.36,
       "currency": "USD",
       "as_of": "2026-07-02T20:00:01.000Z",
-      "market_state": "POSTPOST",
+      "market_state": "CLOSED",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -3085,8 +3085,8 @@
       "price": 90.06,
       "currency": "USD",
       "as_of": "2026-07-02T20:00:02.000Z",
-      "market_state": "POSTPOST",
-      "quote_source": "Delayed Quote",
+      "market_state": "CLOSED",
+      "quote_source": null,
       "source": "yahoo-finance"
     },
     "META": {
@@ -3094,7 +3094,7 @@
       "price": 582.9,
       "currency": "USD",
       "as_of": "2026-07-02T20:00:00.000Z",
-      "market_state": "POSTPOST",
+      "market_state": "CLOSED",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -3103,8 +3103,8 @@
       "price": 47.1,
       "currency": "USD",
       "as_of": "2026-07-02T20:00:02.000Z",
-      "market_state": "POSTPOST",
-      "quote_source": "Delayed Quote",
+      "market_state": "CLOSED",
+      "quote_source": null,
       "source": "yahoo-finance"
     },
     "MHK": {
@@ -3112,8 +3112,8 @@
       "price": 119.35,
       "currency": "USD",
       "as_of": "2026-07-02T20:00:02.000Z",
-      "market_state": "POSTPOST",
-      "quote_source": "Delayed Quote",
+      "market_state": "CLOSED",
+      "quote_source": null,
       "source": "yahoo-finance"
     },
     "MKTX": {
@@ -3121,7 +3121,7 @@
       "price": 116.53,
       "currency": "USD",
       "as_of": "2026-07-02T20:00:00.000Z",
-      "market_state": "POSTPOST",
+      "market_state": "CLOSED",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -3130,8 +3130,8 @@
       "price": 56.5,
       "currency": "USD",
       "as_of": "2026-07-02T20:00:02.000Z",
-      "market_state": "POSTPOST",
-      "quote_source": "Delayed Quote",
+      "market_state": "CLOSED",
+      "quote_source": null,
       "source": "yahoo-finance"
     },
     "MMM": {
@@ -3139,8 +3139,8 @@
       "price": 160.44,
       "currency": "USD",
       "as_of": "2026-07-02T20:00:02.000Z",
-      "market_state": "POSTPOST",
-      "quote_source": "Delayed Quote",
+      "market_state": "CLOSED",
+      "quote_source": null,
       "source": "yahoo-finance"
     },
     "MNST": {
@@ -3148,7 +3148,7 @@
       "price": 97.6,
       "currency": "USD",
       "as_of": "2026-07-02T20:00:01.000Z",
-      "market_state": "POSTPOST",
+      "market_state": "CLOSED",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -3157,8 +3157,8 @@
       "price": 11.15,
       "currency": "USD",
       "as_of": "2026-07-02T20:00:02.000Z",
-      "market_state": "POSTPOST",
-      "quote_source": "Delayed Quote",
+      "market_state": "CLOSED",
+      "quote_source": null,
       "source": "yahoo-finance"
     },
     "MO": {
@@ -3166,8 +3166,8 @@
       "price": 72.71,
       "currency": "USD",
       "as_of": "2026-07-02T20:00:02.000Z",
-      "market_state": "POSTPOST",
-      "quote_source": "Delayed Quote",
+      "market_state": "CLOSED",
+      "quote_source": null,
       "source": "yahoo-finance"
     },
     "MOH": {
@@ -3175,8 +3175,8 @@
       "price": 229.87,
       "currency": "USD",
       "as_of": "2026-07-02T20:00:02.000Z",
-      "market_state": "POSTPOST",
-      "quote_source": "Delayed Quote",
+      "market_state": "CLOSED",
+      "quote_source": null,
       "source": "yahoo-finance"
     },
     "MOS": {
@@ -3184,8 +3184,8 @@
       "price": 21.13,
       "currency": "USD",
       "as_of": "2026-07-02T20:00:02.000Z",
-      "market_state": "POSTPOST",
-      "quote_source": "Delayed Quote",
+      "market_state": "CLOSED",
+      "quote_source": null,
       "source": "yahoo-finance"
     },
     "MPC": {
@@ -3193,8 +3193,8 @@
       "price": 266.35,
       "currency": "USD",
       "as_of": "2026-07-02T20:00:03.000Z",
-      "market_state": "POSTPOST",
-      "quote_source": "Delayed Quote",
+      "market_state": "CLOSED",
+      "quote_source": null,
       "source": "yahoo-finance"
     },
     "MPLX": {
@@ -3202,8 +3202,8 @@
       "price": 57.16,
       "currency": "USD",
       "as_of": "2026-07-02T20:00:03.000Z",
-      "market_state": "POSTPOST",
-      "quote_source": "Delayed Quote",
+      "market_state": "CLOSED",
+      "quote_source": null,
       "source": "yahoo-finance"
     },
     "MPT": {
@@ -3211,8 +3211,8 @@
       "price": 4.59,
       "currency": "USD",
       "as_of": "2026-07-02T20:00:02.000Z",
-      "market_state": "POSTPOST",
-      "quote_source": "Delayed Quote",
+      "market_state": "CLOSED",
+      "quote_source": null,
       "source": "yahoo-finance"
     },
     "MRK": {
@@ -3220,8 +3220,8 @@
       "price": 129.56,
       "currency": "USD",
       "as_of": "2026-07-02T20:03:21.000Z",
-      "market_state": "POSTPOST",
-      "quote_source": "Delayed Quote",
+      "market_state": "CLOSED",
+      "quote_source": null,
       "source": "yahoo-finance"
     },
     "MRNA": {
@@ -3229,7 +3229,7 @@
       "price": 79.76,
       "currency": "USD",
       "as_of": "2026-07-02T20:00:01.000Z",
-      "market_state": "POSTPOST",
+      "market_state": "CLOSED",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -3238,8 +3238,8 @@
       "price": 178.54,
       "currency": "USD",
       "as_of": "2026-07-02T20:00:02.000Z",
-      "market_state": "POSTPOST",
-      "quote_source": "Delayed Quote",
+      "market_state": "CLOSED",
+      "quote_source": null,
       "source": "yahoo-finance"
     },
     "MRVL": {
@@ -3247,7 +3247,7 @@
       "price": 245.29,
       "currency": "USD",
       "as_of": "2026-07-02T20:00:01.000Z",
-      "market_state": "POSTPOST",
+      "market_state": "CLOSED",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -3256,8 +3256,8 @@
       "price": 213.93,
       "currency": "USD",
       "as_of": "2026-07-02T20:03:16.000Z",
-      "market_state": "POSTPOST",
-      "quote_source": "Delayed Quote",
+      "market_state": "CLOSED",
+      "quote_source": null,
       "source": "yahoo-finance"
     },
     "MSCI": {
@@ -3265,8 +3265,8 @@
       "price": 603.11,
       "currency": "USD",
       "as_of": "2026-07-02T20:00:02.000Z",
-      "market_state": "POSTPOST",
-      "quote_source": "Delayed Quote",
+      "market_state": "CLOSED",
+      "quote_source": null,
       "source": "yahoo-finance"
     },
     "MSFT": {
@@ -3274,7 +3274,7 @@
       "price": 390.49,
       "currency": "USD",
       "as_of": "2026-07-02T20:00:01.000Z",
-      "market_state": "POSTPOST",
+      "market_state": "CLOSED",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -3283,7 +3283,7 @@
       "price": 100.77,
       "currency": "USD",
       "as_of": "2026-07-02T20:00:01.000Z",
-      "market_state": "POSTPOST",
+      "market_state": "CLOSED",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -3292,7 +3292,7 @@
       "price": 37.9,
       "currency": "USD",
       "as_of": "2026-07-02T20:00:01.000Z",
-      "market_state": "POSTPOST",
+      "market_state": "CLOSED",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -3301,8 +3301,8 @@
       "price": 28.23,
       "currency": "USD",
       "as_of": "2026-07-02T20:00:02.000Z",
-      "market_state": "POSTPOST",
-      "quote_source": "Delayed Quote",
+      "market_state": "CLOSED",
+      "quote_source": null,
       "source": "yahoo-finance"
     },
     "MTZ": {
@@ -3310,8 +3310,8 @@
       "price": 373.43,
       "currency": "USD",
       "as_of": "2026-07-02T20:00:02.000Z",
-      "market_state": "POSTPOST",
-      "quote_source": "Delayed Quote",
+      "market_state": "CLOSED",
+      "quote_source": null,
       "source": "yahoo-finance"
     },
     "MU": {
@@ -3319,7 +3319,7 @@
       "price": 975.56,
       "currency": "USD",
       "as_of": "2026-07-02T20:00:01.000Z",
-      "market_state": "POSTPOST",
+      "market_state": "CLOSED",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -3328,8 +3328,8 @@
       "price": 560.75,
       "currency": "USD",
       "as_of": "2026-07-02T20:00:03.000Z",
-      "market_state": "POSTPOST",
-      "quote_source": "Delayed Quote",
+      "market_state": "CLOSED",
+      "quote_source": null,
       "source": "yahoo-finance"
     },
     "NAMS": {
@@ -3337,7 +3337,7 @@
       "price": 34.83,
       "currency": "USD",
       "as_of": "2026-07-02T20:00:00.000Z",
-      "market_state": "POSTPOST",
+      "market_state": "CLOSED",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -3346,7 +3346,7 @@
       "price": 25.67,
       "currency": "USD",
       "as_of": "2026-07-02T20:00:00.000Z",
-      "market_state": "POSTPOST",
+      "market_state": "CLOSED",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -3355,7 +3355,7 @@
       "price": 174.26,
       "currency": "USD",
       "as_of": "2026-07-02T20:00:01.000Z",
-      "market_state": "POSTPOST",
+      "market_state": "CLOSED",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -3364,7 +3364,7 @@
       "price": 84.66,
       "currency": "USD",
       "as_of": "2026-07-02T20:00:01.000Z",
-      "market_state": "POSTPOST",
+      "market_state": "CLOSED",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -3373,7 +3373,7 @@
       "price": 290.38,
       "currency": "USD",
       "as_of": "2026-07-02T20:00:00.000Z",
-      "market_state": "POSTPOST",
+      "market_state": "CLOSED",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -3382,8 +3382,8 @@
       "price": 88.34,
       "currency": "USD",
       "as_of": "2026-07-02T20:00:03.000Z",
-      "market_state": "POSTPOST",
-      "quote_source": "Delayed Quote",
+      "market_state": "CLOSED",
+      "quote_source": null,
       "source": "yahoo-finance"
     },
     "NEM": {
@@ -3391,8 +3391,8 @@
       "price": 97.04,
       "currency": "USD",
       "as_of": "2026-07-02T20:00:02.000Z",
-      "market_state": "POSTPOST",
-      "quote_source": "Delayed Quote",
+      "market_state": "CLOSED",
+      "quote_source": null,
       "source": "yahoo-finance"
     },
     "NFG": {
@@ -3400,8 +3400,8 @@
       "price": 79.34,
       "currency": "USD",
       "as_of": "2026-07-02T20:00:02.000Z",
-      "market_state": "POSTPOST",
-      "quote_source": "Delayed Quote",
+      "market_state": "CLOSED",
+      "quote_source": null,
       "source": "yahoo-finance"
     },
     "NFLX": {
@@ -3409,7 +3409,7 @@
       "price": 77.65,
       "currency": "USD",
       "as_of": "2026-07-02T20:00:01.000Z",
-      "market_state": "POSTPOST",
+      "market_state": "CLOSED",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -3418,8 +3418,8 @@
       "price": 44.09,
       "currency": "USD",
       "as_of": "2026-07-02T20:00:02.000Z",
-      "market_state": "POSTPOST",
-      "quote_source": "Delayed Quote",
+      "market_state": "CLOSED",
+      "quote_source": null,
       "source": "yahoo-finance"
     },
     "NOC": {
@@ -3427,8 +3427,8 @@
       "price": 549.01,
       "currency": "USD",
       "as_of": "2026-07-02T20:00:02.000Z",
-      "market_state": "POSTPOST",
-      "quote_source": "Delayed Quote",
+      "market_state": "CLOSED",
+      "quote_source": null,
       "source": "yahoo-finance"
     },
     "NOW": {
@@ -3436,8 +3436,8 @@
       "price": 106.32,
       "currency": "USD",
       "as_of": "2026-07-02T20:00:03.000Z",
-      "market_state": "POSTPOST",
-      "quote_source": "Delayed Quote",
+      "market_state": "CLOSED",
+      "quote_source": null,
       "source": "yahoo-finance"
     },
     "NP": {
@@ -3445,8 +3445,8 @@
       "price": 33.22,
       "currency": "USD",
       "as_of": "2026-07-02T20:00:02.000Z",
-      "market_state": "POSTPOST",
-      "quote_source": "Delayed Quote",
+      "market_state": "CLOSED",
+      "quote_source": null,
       "source": "yahoo-finance"
     },
     "NRG": {
@@ -3454,8 +3454,8 @@
       "price": 136.7,
       "currency": "USD",
       "as_of": "2026-07-02T20:00:02.000Z",
-      "market_state": "POSTPOST",
-      "quote_source": "Delayed Quote",
+      "market_state": "CLOSED",
+      "quote_source": null,
       "source": "yahoo-finance"
     },
     "NSC": {
@@ -3463,8 +3463,8 @@
       "price": 322.71,
       "currency": "USD",
       "as_of": "2026-07-02T20:00:24.000Z",
-      "market_state": "POSTPOST",
-      "quote_source": "Delayed Quote",
+      "market_state": "CLOSED",
+      "quote_source": null,
       "source": "yahoo-finance"
     },
     "NTAP": {
@@ -3472,7 +3472,7 @@
       "price": 154.17,
       "currency": "USD",
       "as_of": "2026-07-02T20:00:01.000Z",
-      "market_state": "POSTPOST",
+      "market_state": "CLOSED",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -3481,7 +3481,7 @@
       "price": 51.28,
       "currency": "USD",
       "as_of": "2026-07-02T20:00:01.000Z",
-      "market_state": "POSTPOST",
+      "market_state": "CLOSED",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -3490,7 +3490,7 @@
       "price": 279.32,
       "currency": "USD",
       "as_of": "2026-07-02T20:00:00.000Z",
-      "market_state": "POSTPOST",
+      "market_state": "CLOSED",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -3499,7 +3499,7 @@
       "price": 176.5,
       "currency": "USD",
       "as_of": "2026-07-02T20:00:01.000Z",
-      "market_state": "POSTPOST",
+      "market_state": "CLOSED",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -3508,7 +3508,7 @@
       "price": 11.71,
       "currency": "USD",
       "as_of": "2026-07-02T20:00:00.000Z",
-      "market_state": "POSTPOST",
+      "market_state": "CLOSED",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -3517,8 +3517,8 @@
       "price": 13.61,
       "currency": "USD",
       "as_of": "2026-07-02T20:00:02.000Z",
-      "market_state": "POSTPOST",
-      "quote_source": "Delayed Quote",
+      "market_state": "CLOSED",
+      "quote_source": null,
       "source": "yahoo-finance"
     },
     "NUE": {
@@ -3526,8 +3526,8 @@
       "price": 220.75,
       "currency": "USD",
       "as_of": "2026-07-02T20:00:02.000Z",
-      "market_state": "POSTPOST",
-      "quote_source": "Delayed Quote",
+      "market_state": "CLOSED",
+      "quote_source": null,
       "source": "yahoo-finance"
     },
     "NVAX": {
@@ -3535,7 +3535,7 @@
       "price": 9.74,
       "currency": "USD",
       "as_of": "2026-07-02T20:00:00.000Z",
-      "market_state": "POSTPOST",
+      "market_state": "CLOSED",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -3544,7 +3544,7 @@
       "price": 194.83,
       "currency": "USD",
       "as_of": "2026-07-02T20:00:01.000Z",
-      "market_state": "POSTPOST",
+      "market_state": "CLOSED",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -3553,8 +3553,8 @@
       "price": 50.43,
       "currency": "USD",
       "as_of": "2026-07-02T20:00:02.000Z",
-      "market_state": "POSTPOST",
-      "quote_source": "Delayed Quote",
+      "market_state": "CLOSED",
+      "quote_source": null,
       "source": "yahoo-finance"
     },
     "NVR": {
@@ -3562,8 +3562,8 @@
       "price": 6750.79,
       "currency": "USD",
       "as_of": "2026-07-02T20:00:15.000Z",
-      "market_state": "POSTPOST",
-      "quote_source": "Delayed Quote",
+      "market_state": "CLOSED",
+      "quote_source": null,
       "source": "yahoo-finance"
     },
     "NWSA": {
@@ -3571,7 +3571,7 @@
       "price": 26.64,
       "currency": "USD",
       "as_of": "2026-07-02T20:00:00.000Z",
-      "market_state": "POSTPOST",
+      "market_state": "CLOSED",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -3580,8 +3580,8 @@
       "price": 73.85,
       "currency": "USD",
       "as_of": "2026-07-02T20:00:03.000Z",
-      "market_state": "POSTPOST",
-      "quote_source": "Delayed Quote",
+      "market_state": "CLOSED",
+      "quote_source": null,
       "source": "yahoo-finance"
     },
     "OC": {
@@ -3589,8 +3589,8 @@
       "price": 151.06,
       "currency": "USD",
       "as_of": "2026-07-02T20:00:02.000Z",
-      "market_state": "POSTPOST",
-      "quote_source": "Delayed Quote",
+      "market_state": "CLOSED",
+      "quote_source": null,
       "source": "yahoo-finance"
     },
     "OKLO": {
@@ -3598,8 +3598,8 @@
       "price": 52.36,
       "currency": "USD",
       "as_of": "2026-07-02T20:00:02.000Z",
-      "market_state": "POSTPOST",
-      "quote_source": "Delayed Quote",
+      "market_state": "CLOSED",
+      "quote_source": null,
       "source": "yahoo-finance"
     },
     "OLPX": {
@@ -3607,7 +3607,7 @@
       "price": 2.07,
       "currency": "USD",
       "as_of": "2026-07-02T20:00:01.000Z",
-      "market_state": "POSTPOST",
+      "market_state": "CLOSED",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -3616,8 +3616,8 @@
       "price": 78.62,
       "currency": "USD",
       "as_of": "2026-07-02T20:00:02.000Z",
-      "market_state": "POSTPOST",
-      "quote_source": "Delayed Quote",
+      "market_state": "CLOSED",
+      "quote_source": null,
       "source": "yahoo-finance"
     },
     "ON": {
@@ -3625,7 +3625,7 @@
       "price": 91.22,
       "currency": "USD",
       "as_of": "2026-07-02T20:00:00.000Z",
-      "market_state": "POSTPOST",
+      "market_state": "CLOSED",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -3634,7 +3634,7 @@
       "price": 21.9,
       "currency": "USD",
       "as_of": "2026-07-02T20:00:00.000Z",
-      "market_state": "POSTPOST",
+      "market_state": "CLOSED",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -3643,8 +3643,8 @@
       "price": 140.27,
       "currency": "USD",
       "as_of": "2026-07-02T20:05:02.000Z",
-      "market_state": "POSTPOST",
-      "quote_source": "Delayed Quote",
+      "market_state": "CLOSED",
+      "quote_source": null,
       "source": "yahoo-finance"
     },
     "ORI": {
@@ -3652,8 +3652,8 @@
       "price": 41.87,
       "currency": "USD",
       "as_of": "2026-07-02T20:00:03.000Z",
-      "market_state": "POSTPOST",
-      "quote_source": "Delayed Quote",
+      "market_state": "CLOSED",
+      "quote_source": null,
       "source": "yahoo-finance"
     },
     "ORIC": {
@@ -3661,7 +3661,7 @@
       "price": 11.64,
       "currency": "USD",
       "as_of": "2026-07-02T20:00:01.000Z",
-      "market_state": "POSTPOST",
+      "market_state": "CLOSED",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -3670,7 +3670,7 @@
       "price": 85.21,
       "currency": "USD",
       "as_of": "2026-07-02T20:00:01.000Z",
-      "market_state": "POSTPOST",
+      "market_state": "CLOSED",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -3679,7 +3679,7 @@
       "price": 90.25,
       "currency": "USD",
       "as_of": "2026-07-02T20:00:00.000Z",
-      "market_state": "POSTPOST",
+      "market_state": "CLOSED",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -3688,8 +3688,8 @@
       "price": 142.7,
       "currency": "USD",
       "as_of": "2026-07-02T20:00:02.000Z",
-      "market_state": "POSTPOST",
-      "quote_source": "Delayed Quote",
+      "market_state": "CLOSED",
+      "quote_source": null,
       "source": "yahoo-finance"
     },
     "OTIS": {
@@ -3697,8 +3697,8 @@
       "price": 73.14,
       "currency": "USD",
       "as_of": "2026-07-02T20:00:03.000Z",
-      "market_state": "POSTPOST",
-      "quote_source": "Delayed Quote",
+      "market_state": "CLOSED",
+      "quote_source": null,
       "source": "yahoo-finance"
     },
     "OVV": {
@@ -3706,8 +3706,8 @@
       "price": 52.96,
       "currency": "USD",
       "as_of": "2026-07-02T20:00:03.000Z",
-      "market_state": "POSTPOST",
-      "quote_source": "Delayed Quote",
+      "market_state": "CLOSED",
+      "quote_source": null,
       "source": "yahoo-finance"
     },
     "OXY": {
@@ -3715,8 +3715,8 @@
       "price": 48.91,
       "currency": "USD",
       "as_of": "2026-07-02T20:00:02.000Z",
-      "market_state": "POSTPOST",
-      "quote_source": "Delayed Quote",
+      "market_state": "CLOSED",
+      "quote_source": null,
       "source": "yahoo-finance"
     },
     "P": {
@@ -3724,8 +3724,8 @@
       "price": 72.71,
       "currency": "USD",
       "as_of": "2026-07-02T20:03:58.000Z",
-      "market_state": "POSTPOST",
-      "quote_source": "Delayed Quote",
+      "market_state": "CLOSED",
+      "quote_source": null,
       "source": "yahoo-finance"
     },
     "PANW": {
@@ -3733,7 +3733,7 @@
       "price": 348.06,
       "currency": "USD",
       "as_of": "2026-07-02T20:00:01.000Z",
-      "market_state": "POSTPOST",
+      "market_state": "CLOSED",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -3742,8 +3742,8 @@
       "price": 11.71,
       "currency": "USD",
       "as_of": "2026-07-02T20:00:02.000Z",
-      "market_state": "POSTPOST",
-      "quote_source": "Delayed Quote",
+      "market_state": "CLOSED",
+      "quote_source": null,
       "source": "yahoo-finance"
     },
     "PB": {
@@ -3751,8 +3751,8 @@
       "price": 70.9,
       "currency": "USD",
       "as_of": "2026-07-02T20:00:02.000Z",
-      "market_state": "POSTPOST",
-      "quote_source": "Delayed Quote",
+      "market_state": "CLOSED",
+      "quote_source": null,
       "source": "yahoo-finance"
     },
     "PCG": {
@@ -3760,8 +3760,8 @@
       "price": 17.05,
       "currency": "USD",
       "as_of": "2026-07-02T20:00:03.000Z",
-      "market_state": "POSTPOST",
-      "quote_source": "Delayed Quote",
+      "market_state": "CLOSED",
+      "quote_source": null,
       "source": "yahoo-finance"
     },
     "PCOR": {
@@ -3769,8 +3769,8 @@
       "price": 43.97,
       "currency": "USD",
       "as_of": "2026-07-02T20:00:02.000Z",
-      "market_state": "POSTPOST",
-      "quote_source": "Delayed Quote",
+      "market_state": "CLOSED",
+      "quote_source": null,
       "source": "yahoo-finance"
     },
     "PCT": {
@@ -3778,7 +3778,7 @@
       "price": 7.61,
       "currency": "USD",
       "as_of": "2026-07-02T20:00:01.000Z",
-      "market_state": "POSTPOST",
+      "market_state": "CLOSED",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -3787,7 +3787,7 @@
       "price": 82.39,
       "currency": "USD",
       "as_of": "2026-07-02T20:00:00.000Z",
-      "market_state": "POSTPOST",
+      "market_state": "CLOSED",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -3796,8 +3796,8 @@
       "price": 81.62,
       "currency": "USD",
       "as_of": "2026-07-02T20:00:02.000Z",
-      "market_state": "POSTPOST",
-      "quote_source": "Delayed Quote",
+      "market_state": "CLOSED",
+      "quote_source": null,
       "source": "yahoo-finance"
     },
     "PEGA": {
@@ -3805,7 +3805,7 @@
       "price": 31.045,
       "currency": "USD",
       "as_of": "2026-07-02T20:00:01.000Z",
-      "market_state": "POSTPOST",
+      "market_state": "CLOSED",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -3814,8 +3814,8 @@
       "price": 318.57,
       "currency": "USD",
       "as_of": "2026-07-02T20:00:02.000Z",
-      "market_state": "POSTPOST",
-      "quote_source": "Delayed Quote",
+      "market_state": "CLOSED",
+      "quote_source": null,
       "source": "yahoo-finance"
     },
     "PEP": {
@@ -3823,7 +3823,7 @@
       "price": 144.22,
       "currency": "USD",
       "as_of": "2026-07-02T20:00:01.000Z",
-      "market_state": "POSTPOST",
+      "market_state": "CLOSED",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -3832,7 +3832,7 @@
       "price": 1.76,
       "currency": "USD",
       "as_of": "2026-07-02T20:00:01.000Z",
-      "market_state": "POSTPOST",
+      "market_state": "CLOSED",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -3841,8 +3841,8 @@
       "price": 24.32,
       "currency": "USD",
       "as_of": "2026-07-02T20:01:44.000Z",
-      "market_state": "POSTPOST",
-      "quote_source": "Delayed Quote",
+      "market_state": "CLOSED",
+      "quote_source": null,
       "source": "yahoo-finance"
     },
     "PFG": {
@@ -3850,7 +3850,7 @@
       "price": 110.87,
       "currency": "USD",
       "as_of": "2026-07-02T20:00:01.000Z",
-      "market_state": "POSTPOST",
+      "market_state": "CLOSED",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -3859,8 +3859,8 @@
       "price": 151.41,
       "currency": "USD",
       "as_of": "2026-07-02T20:03:32.000Z",
-      "market_state": "POSTPOST",
-      "quote_source": "Delayed Quote",
+      "market_state": "CLOSED",
+      "quote_source": null,
       "source": "yahoo-finance"
     },
     "PGNY": {
@@ -3868,7 +3868,7 @@
       "price": 30.22,
       "currency": "USD",
       "as_of": "2026-07-02T20:00:00.000Z",
-      "market_state": "POSTPOST",
+      "market_state": "CLOSED",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -3877,8 +3877,8 @@
       "price": 232.22,
       "currency": "USD",
       "as_of": "2026-07-02T20:00:02.000Z",
-      "market_state": "POSTPOST",
-      "quote_source": "Delayed Quote",
+      "market_state": "CLOSED",
+      "quote_source": null,
       "source": "yahoo-finance"
     },
     "PH": {
@@ -3886,8 +3886,8 @@
       "price": 962.89,
       "currency": "USD",
       "as_of": "2026-07-02T20:00:02.000Z",
-      "market_state": "POSTPOST",
-      "quote_source": "Delayed Quote",
+      "market_state": "CLOSED",
+      "quote_source": null,
       "source": "yahoo-finance"
     },
     "PINS": {
@@ -3895,8 +3895,8 @@
       "price": 22.07,
       "currency": "USD",
       "as_of": "2026-07-02T20:00:02.000Z",
-      "market_state": "POSTPOST",
-      "quote_source": "Delayed Quote",
+      "market_state": "CLOSED",
+      "quote_source": null,
       "source": "yahoo-finance"
     },
     "PKG": {
@@ -3904,8 +3904,8 @@
       "price": 238.2,
       "currency": "USD",
       "as_of": "2026-07-02T20:00:02.000Z",
-      "market_state": "POSTPOST",
-      "quote_source": "Delayed Quote",
+      "market_state": "CLOSED",
+      "quote_source": null,
       "source": "yahoo-finance"
     },
     "PLD": {
@@ -3913,8 +3913,8 @@
       "price": 139.43,
       "currency": "USD",
       "as_of": "2026-07-02T20:04:30.000Z",
-      "market_state": "POSTPOST",
-      "quote_source": "Delayed Quote",
+      "market_state": "CLOSED",
+      "quote_source": null,
       "source": "yahoo-finance"
     },
     "PLTR": {
@@ -3922,7 +3922,7 @@
       "price": 129.3,
       "currency": "USD",
       "as_of": "2026-07-02T20:00:00.000Z",
-      "market_state": "POSTPOST",
+      "market_state": "CLOSED",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -3931,7 +3931,7 @@
       "price": 2.64,
       "currency": "USD",
       "as_of": "2026-07-02T20:00:00.000Z",
-      "market_state": "POSTPOST",
+      "market_state": "CLOSED",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -3940,8 +3940,8 @@
       "price": 182.27,
       "currency": "USD",
       "as_of": "2026-07-02T20:00:02.000Z",
-      "market_state": "POSTPOST",
-      "quote_source": "Delayed Quote",
+      "market_state": "CLOSED",
+      "quote_source": null,
       "source": "yahoo-finance"
     },
     "PNC": {
@@ -3949,8 +3949,8 @@
       "price": 249.49,
       "currency": "USD",
       "as_of": "2026-07-02T20:00:02.000Z",
-      "market_state": "POSTPOST",
-      "quote_source": "Delayed Quote",
+      "market_state": "CLOSED",
+      "quote_source": null,
       "source": "yahoo-finance"
     },
     "PONY": {
@@ -3958,7 +3958,7 @@
       "price": 6.83,
       "currency": "USD",
       "as_of": "2026-07-02T20:00:00.000Z",
-      "market_state": "POSTPOST",
+      "market_state": "CLOSED",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -3967,7 +3967,7 @@
       "price": 219.47,
       "currency": "USD",
       "as_of": "2026-07-02T20:00:01.000Z",
-      "market_state": "POSTPOST",
+      "market_state": "CLOSED",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -3976,8 +3976,8 @@
       "price": 92.78,
       "currency": "USD",
       "as_of": "2026-07-02T20:00:03.000Z",
-      "market_state": "POSTPOST",
-      "quote_source": "Delayed Quote",
+      "market_state": "CLOSED",
+      "quote_source": null,
       "source": "yahoo-finance"
     },
     "PPC": {
@@ -3985,7 +3985,7 @@
       "price": 28.76,
       "currency": "USD",
       "as_of": "2026-07-02T20:00:00.000Z",
-      "market_state": "POSTPOST",
+      "market_state": "CLOSED",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -3994,8 +3994,8 @@
       "price": 25.02,
       "currency": "USD",
       "as_of": "2026-07-02T20:00:02.000Z",
-      "market_state": "POSTPOST",
-      "quote_source": "Delayed Quote",
+      "market_state": "CLOSED",
+      "quote_source": null,
       "source": "yahoo-finance"
     },
     "PSA": {
@@ -4003,8 +4003,8 @@
       "price": 329.64,
       "currency": "USD",
       "as_of": "2026-07-02T20:00:02.000Z",
-      "market_state": "POSTPOST",
-      "quote_source": "Delayed Quote",
+      "market_state": "CLOSED",
+      "quote_source": null,
       "source": "yahoo-finance"
     },
     "PSIX": {
@@ -4012,7 +4012,7 @@
       "price": 37.08,
       "currency": "USD",
       "as_of": "2026-07-02T20:00:00.000Z",
-      "market_state": "POSTPOST",
+      "market_state": "CLOSED",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -4021,8 +4021,8 @@
       "price": 176.42,
       "currency": "USD",
       "as_of": "2026-07-02T20:00:03.000Z",
-      "market_state": "POSTPOST",
-      "quote_source": "Delayed Quote",
+      "market_state": "CLOSED",
+      "quote_source": null,
       "source": "yahoo-finance"
     },
     "PTGX": {
@@ -4030,7 +4030,7 @@
       "price": 131.62,
       "currency": "USD",
       "as_of": "2026-07-02T20:00:00.000Z",
-      "market_state": "POSTPOST",
+      "market_state": "CLOSED",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -4039,7 +4039,7 @@
       "price": 5.75,
       "currency": "USD",
       "as_of": "2026-07-02T20:00:00.000Z",
-      "market_state": "POSTPOST",
+      "market_state": "CLOSED",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -4048,8 +4048,8 @@
       "price": 12.09,
       "currency": "USD",
       "as_of": "2026-07-02T20:00:03.000Z",
-      "market_state": "POSTPOST",
-      "quote_source": "Delayed Quote",
+      "market_state": "CLOSED",
+      "quote_source": null,
       "source": "yahoo-finance"
     },
     "PYPL": {
@@ -4057,7 +4057,7 @@
       "price": 45.47,
       "currency": "USD",
       "as_of": "2026-07-02T20:00:01.000Z",
-      "market_state": "POSTPOST",
+      "market_state": "CLOSED",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -4066,7 +4066,7 @@
       "price": 176.25,
       "currency": "USD",
       "as_of": "2026-07-02T20:00:01.000Z",
-      "market_state": "POSTPOST",
+      "market_state": "CLOSED",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -4075,7 +4075,7 @@
       "price": 712.6,
       "currency": "USD",
       "as_of": "2026-07-02T20:00:01.000Z",
-      "market_state": "POSTPOST",
+      "market_state": "CLOSED",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -4084,7 +4084,7 @@
       "price": 87.57,
       "currency": "USD",
       "as_of": "2026-07-02T20:00:01.000Z",
-      "market_state": "POSTPOST",
+      "market_state": "CLOSED",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -4093,7 +4093,7 @@
       "price": 7.07,
       "currency": "USD",
       "as_of": "2026-07-02T20:00:01.000Z",
-      "market_state": "POSTPOST",
+      "market_state": "CLOSED",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -4102,8 +4102,8 @@
       "price": 74.79,
       "currency": "USD",
       "as_of": "2026-07-02T20:04:28.000Z",
-      "market_state": "POSTPOST",
-      "quote_source": "Delayed Quote",
+      "market_state": "CLOSED",
+      "quote_source": null,
       "source": "yahoo-finance"
     },
     "RAL": {
@@ -4111,8 +4111,8 @@
       "price": 68.36,
       "currency": "USD",
       "as_of": "2026-07-02T20:00:02.000Z",
-      "market_state": "POSTPOST",
-      "quote_source": "Delayed Quote",
+      "market_state": "CLOSED",
+      "quote_source": null,
       "source": "yahoo-finance"
     },
     "RBLX": {
@@ -4120,8 +4120,8 @@
       "price": 55.41,
       "currency": "USD",
       "as_of": "2026-07-02T20:03:56.000Z",
-      "market_state": "POSTPOST",
-      "quote_source": "Delayed Quote",
+      "market_state": "CLOSED",
+      "quote_source": null,
       "source": "yahoo-finance"
     },
     "RDDT": {
@@ -4129,8 +4129,8 @@
       "price": 194.67,
       "currency": "USD",
       "as_of": "2026-07-02T20:04:28.000Z",
-      "market_state": "POSTPOST",
-      "quote_source": "Delayed Quote",
+      "market_state": "CLOSED",
+      "quote_source": null,
       "source": "yahoo-finance"
     },
     "REGN": {
@@ -4138,7 +4138,7 @@
       "price": 654.27,
       "currency": "USD",
       "as_of": "2026-07-02T20:00:00.000Z",
-      "market_state": "POSTPOST",
+      "market_state": "CLOSED",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -4147,8 +4147,8 @@
       "price": 3.97,
       "currency": "USD",
       "as_of": "2026-07-02T20:00:02.000Z",
-      "market_state": "POSTPOST",
-      "quote_source": "Delayed Quote",
+      "market_state": "CLOSED",
+      "quote_source": null,
       "source": "yahoo-finance"
     },
     "RGA": {
@@ -4156,8 +4156,8 @@
       "price": 221,
       "currency": "USD",
       "as_of": "2026-07-02T20:00:02.000Z",
-      "market_state": "POSTPOST",
-      "quote_source": "Delayed Quote",
+      "market_state": "CLOSED",
+      "quote_source": null,
       "source": "yahoo-finance"
     },
     "RGLD": {
@@ -4165,7 +4165,7 @@
       "price": 204.13,
       "currency": "USD",
       "as_of": "2026-07-02T20:00:01.000Z",
-      "market_state": "POSTPOST",
+      "market_state": "CLOSED",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -4174,8 +4174,8 @@
       "price": 169.08,
       "currency": "USD",
       "as_of": "2026-07-02T20:00:29.000Z",
-      "market_state": "POSTPOST",
-      "quote_source": "Delayed Quote",
+      "market_state": "CLOSED",
+      "quote_source": null,
       "source": "yahoo-finance"
     },
     "RHI": {
@@ -4183,8 +4183,8 @@
       "price": 33.48,
       "currency": "USD",
       "as_of": "2026-07-02T20:00:02.000Z",
-      "market_state": "POSTPOST",
-      "quote_source": "Delayed Quote",
+      "market_state": "CLOSED",
+      "quote_source": null,
       "source": "yahoo-finance"
     },
     "RIOT": {
@@ -4192,7 +4192,7 @@
       "price": 22.11,
       "currency": "USD",
       "as_of": "2026-07-02T20:00:00.000Z",
-      "market_state": "POSTPOST",
+      "market_state": "CLOSED",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -4201,8 +4201,8 @@
       "price": 162.66,
       "currency": "USD",
       "as_of": "2026-07-02T20:00:02.000Z",
-      "market_state": "POSTPOST",
-      "quote_source": "Delayed Quote",
+      "market_state": "CLOSED",
+      "quote_source": null,
       "source": "yahoo-finance"
     },
     "RKLB": {
@@ -4210,7 +4210,7 @@
       "price": 100.46,
       "currency": "USD",
       "as_of": "2026-07-02T20:00:00.000Z",
-      "market_state": "POSTPOST",
+      "market_state": "CLOSED",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -4219,8 +4219,8 @@
       "price": 15.77,
       "currency": "USD",
       "as_of": "2026-07-02T20:00:03.000Z",
-      "market_state": "POSTPOST",
-      "quote_source": "Delayed Quote",
+      "market_state": "CLOSED",
+      "quote_source": null,
       "source": "yahoo-finance"
     },
     "RL": {
@@ -4228,8 +4228,8 @@
       "price": 398.22,
       "currency": "USD",
       "as_of": "2026-07-02T20:01:14.000Z",
-      "market_state": "POSTPOST",
-      "quote_source": "Delayed Quote",
+      "market_state": "CLOSED",
+      "quote_source": null,
       "source": "yahoo-finance"
     },
     "RNG": {
@@ -4237,8 +4237,8 @@
       "price": 40.01,
       "currency": "USD",
       "as_of": "2026-07-02T20:00:03.000Z",
-      "market_state": "POSTPOST",
-      "quote_source": "Delayed Quote",
+      "market_state": "CLOSED",
+      "quote_source": null,
       "source": "yahoo-finance"
     },
     "ROKU": {
@@ -4246,7 +4246,7 @@
       "price": 142.43,
       "currency": "USD",
       "as_of": "2026-07-02T20:00:00.000Z",
-      "market_state": "POSTPOST",
+      "market_state": "CLOSED",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -4255,7 +4255,7 @@
       "price": 364.2,
       "currency": "USD",
       "as_of": "2026-07-02T20:00:00.000Z",
-      "market_state": "POSTPOST",
+      "market_state": "CLOSED",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -4264,7 +4264,7 @@
       "price": 213.43,
       "currency": "USD",
       "as_of": "2026-07-02T20:00:00.000Z",
-      "market_state": "POSTPOST",
+      "market_state": "CLOSED",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -4273,8 +4273,8 @@
       "price": 218.45,
       "currency": "USD",
       "as_of": "2026-07-02T20:00:02.000Z",
-      "market_state": "POSTPOST",
-      "quote_source": "Delayed Quote",
+      "market_state": "CLOSED",
+      "quote_source": null,
       "source": "yahoo-finance"
     },
     "RSG": {
@@ -4282,8 +4282,8 @@
       "price": 217.34,
       "currency": "USD",
       "as_of": "2026-07-02T20:00:02.000Z",
-      "market_state": "POSTPOST",
-      "quote_source": "Delayed Quote",
+      "market_state": "CLOSED",
+      "quote_source": null,
       "source": "yahoo-finance"
     },
     "RSP": {
@@ -4291,7 +4291,7 @@
       "price": 214.91,
       "currency": "USD",
       "as_of": "2026-07-02T20:00:00.000Z",
-      "market_state": "POSTPOST",
+      "market_state": "CLOSED",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -4300,8 +4300,8 @@
       "price": 199.25,
       "currency": "USD",
       "as_of": "2026-07-02T20:00:02.000Z",
-      "market_state": "POSTPOST",
-      "quote_source": "Delayed Quote",
+      "market_state": "CLOSED",
+      "quote_source": null,
       "source": "yahoo-finance"
     },
     "RYAN": {
@@ -4309,8 +4309,8 @@
       "price": 42.03,
       "currency": "USD",
       "as_of": "2026-07-02T20:00:02.000Z",
-      "market_state": "POSTPOST",
-      "quote_source": "Delayed Quote",
+      "market_state": "CLOSED",
+      "quote_source": null,
       "source": "yahoo-finance"
     },
     "SAIA": {
@@ -4318,7 +4318,7 @@
       "price": 416.69,
       "currency": "USD",
       "as_of": "2026-07-02T20:00:01.000Z",
-      "market_state": "POSTPOST",
+      "market_state": "CLOSED",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -4327,7 +4327,7 @@
       "price": 103.915,
       "currency": "USD",
       "as_of": "2026-06-23T20:00:00.000Z",
-      "market_state": "POSTPOST",
+      "market_state": "CLOSED",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -4336,8 +4336,8 @@
       "price": 172.01,
       "currency": "USD",
       "as_of": "2026-07-02T20:00:02.000Z",
-      "market_state": "POSTPOST",
-      "quote_source": "Delayed Quote",
+      "market_state": "CLOSED",
+      "quote_source": null,
       "source": "yahoo-finance"
     },
     "SCHW": {
@@ -4345,8 +4345,8 @@
       "price": 97,
       "currency": "USD",
       "as_of": "2026-07-02T20:00:02.000Z",
-      "market_state": "POSTPOST",
-      "quote_source": "Delayed Quote",
+      "market_state": "CLOSED",
+      "quote_source": null,
       "source": "yahoo-finance"
     },
     "SE": {
@@ -4354,8 +4354,8 @@
       "price": 103.3,
       "currency": "USD",
       "as_of": "2026-07-02T20:00:03.000Z",
-      "market_state": "POSTPOST",
-      "quote_source": "Delayed Quote",
+      "market_state": "CLOSED",
+      "quote_source": null,
       "source": "yahoo-finance"
     },
     "SEG": {
@@ -4363,8 +4363,8 @@
       "price": 27.12,
       "currency": "USD",
       "as_of": "2026-07-02T20:00:02.000Z",
-      "market_state": "POSTPOST",
-      "quote_source": "Delayed Quote",
+      "market_state": "CLOSED",
+      "quote_source": null,
       "source": "yahoo-finance"
     },
     "SEI": {
@@ -4372,8 +4372,8 @@
       "price": 67.19,
       "currency": "USD",
       "as_of": "2026-07-02T20:00:03.000Z",
-      "market_state": "POSTPOST",
-      "quote_source": "Delayed Quote",
+      "market_state": "CLOSED",
+      "quote_source": null,
       "source": "yahoo-finance"
     },
     "SF": {
@@ -4381,8 +4381,8 @@
       "price": 73.17,
       "currency": "USD",
       "as_of": "2026-07-02T20:00:02.000Z",
-      "market_state": "POSTPOST",
-      "quote_source": "Delayed Quote",
+      "market_state": "CLOSED",
+      "quote_source": null,
       "source": "yahoo-finance"
     },
     "SFIX": {
@@ -4390,7 +4390,7 @@
       "price": 3.84,
       "currency": "USD",
       "as_of": "2026-07-02T20:00:00.000Z",
-      "market_state": "POSTPOST",
+      "market_state": "CLOSED",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -4399,7 +4399,7 @@
       "price": 89.94,
       "currency": "USD",
       "as_of": "2026-07-02T20:00:00.000Z",
-      "market_state": "POSTPOST",
+      "market_state": "CLOSED",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -4408,8 +4408,8 @@
       "price": 78.43,
       "currency": "USD",
       "as_of": "2026-07-02T20:00:02.000Z",
-      "market_state": "POSTPOST",
-      "quote_source": "Delayed Quote",
+      "market_state": "CLOSED",
+      "quote_source": null,
       "source": "yahoo-finance"
     },
     "SHOP": {
@@ -4417,7 +4417,7 @@
       "price": 119.46,
       "currency": "USD",
       "as_of": "2026-07-02T20:00:01.000Z",
-      "market_state": "POSTPOST",
+      "market_state": "CLOSED",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -4426,8 +4426,8 @@
       "price": 352.48,
       "currency": "USD",
       "as_of": "2026-07-02T20:00:02.000Z",
-      "market_state": "POSTPOST",
-      "quote_source": "Delayed Quote",
+      "market_state": "CLOSED",
+      "quote_source": null,
       "source": "yahoo-finance"
     },
     "SIGI": {
@@ -4435,7 +4435,7 @@
       "price": 100.15,
       "currency": "USD",
       "as_of": "2026-07-02T20:00:01.000Z",
-      "market_state": "POSTPOST",
+      "market_state": "CLOSED",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -4444,7 +4444,7 @@
       "price": 43.99,
       "currency": "USD",
       "as_of": "2026-07-02T20:00:01.000Z",
-      "market_state": "POSTPOST",
+      "market_state": "CLOSED",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -4453,7 +4453,7 @@
       "price": 30.51,
       "currency": "USD",
       "as_of": "2026-07-02T20:00:01.000Z",
-      "market_state": "POSTPOST",
+      "market_state": "CLOSED",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -4462,8 +4462,8 @@
       "price": 116.28,
       "currency": "USD",
       "as_of": "2026-07-02T20:00:02.000Z",
-      "market_state": "POSTPOST",
-      "quote_source": "Delayed Quote",
+      "market_state": "CLOSED",
+      "quote_source": null,
       "source": "yahoo-finance"
     },
     "SLB": {
@@ -4471,8 +4471,8 @@
       "price": 45.13,
       "currency": "USD",
       "as_of": "2026-07-02T20:00:02.000Z",
-      "market_state": "POSTPOST",
-      "quote_source": "Delayed Quote",
+      "market_state": "CLOSED",
+      "quote_source": null,
       "source": "yahoo-finance"
     },
     "SMCI": {
@@ -4480,7 +4480,7 @@
       "price": 27.22,
       "currency": "USD",
       "as_of": "2026-07-02T20:00:00.000Z",
-      "market_state": "POSTPOST",
+      "market_state": "CLOSED",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -4489,7 +4489,7 @@
       "price": 135.27,
       "currency": "USD",
       "as_of": "2026-07-02T20:00:01.000Z",
-      "market_state": "POSTPOST",
+      "market_state": "CLOSED",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -4498,7 +4498,7 @@
       "price": 1745,
       "currency": "USD",
       "as_of": "2026-07-02T20:00:00.000Z",
-      "market_state": "POSTPOST",
+      "market_state": "CLOSED",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -4507,8 +4507,8 @@
       "price": 260.15,
       "currency": "USD",
       "as_of": "2026-07-02T20:00:02.000Z",
-      "market_state": "POSTPOST",
-      "quote_source": "Delayed Quote",
+      "market_state": "CLOSED",
+      "quote_source": null,
       "source": "yahoo-finance"
     },
     "SNPS": {
@@ -4516,7 +4516,7 @@
       "price": 437.16,
       "currency": "USD",
       "as_of": "2026-07-02T20:00:01.000Z",
-      "market_state": "POSTPOST",
+      "market_state": "CLOSED",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -4525,7 +4525,7 @@
       "price": 18.24,
       "currency": "USD",
       "as_of": "2026-07-02T20:00:00.000Z",
-      "market_state": "POSTPOST",
+      "market_state": "CLOSED",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -4534,8 +4534,8 @@
       "price": 439.89,
       "currency": "USD",
       "as_of": "2026-07-02T20:00:02.000Z",
-      "market_state": "POSTPOST",
-      "quote_source": "Delayed Quote",
+      "market_state": "CLOSED",
+      "quote_source": null,
       "source": "yahoo-finance"
     },
     "SPRY": {
@@ -4543,7 +4543,7 @@
       "price": 8.56,
       "currency": "USD",
       "as_of": "2026-07-02T20:00:00.000Z",
-      "market_state": "POSTPOST",
+      "market_state": "CLOSED",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -4552,7 +4552,7 @@
       "price": 744.78,
       "currency": "USD",
       "as_of": "2026-07-02T20:00:00.000Z",
-      "market_state": "POSTPOST",
+      "market_state": "CLOSED",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -4561,8 +4561,8 @@
       "price": 93.06,
       "currency": "USD",
       "as_of": "2026-07-02T20:00:02.000Z",
-      "market_state": "POSTPOST",
-      "quote_source": "Delayed Quote",
+      "market_state": "CLOSED",
+      "quote_source": null,
       "source": "yahoo-finance"
     },
     "SRTA": {
@@ -4570,7 +4570,7 @@
       "price": 5.41,
       "currency": "USD",
       "as_of": "2026-07-02T20:00:00.000Z",
-      "market_state": "POSTPOST",
+      "market_state": "CLOSED",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -4579,7 +4579,7 @@
       "price": 65.52,
       "currency": "USD",
       "as_of": "2026-07-02T20:00:01.000Z",
-      "market_state": "POSTPOST",
+      "market_state": "CLOSED",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -4588,7 +4588,7 @@
       "price": 41.13,
       "currency": "USD",
       "as_of": "2026-07-02T20:00:01.000Z",
-      "market_state": "POSTPOST",
+      "market_state": "CLOSED",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -4597,8 +4597,8 @@
       "price": 68.35,
       "currency": "USD",
       "as_of": "2026-07-02T20:00:02.000Z",
-      "market_state": "POSTPOST",
-      "quote_source": "Delayed Quote",
+      "market_state": "CLOSED",
+      "quote_source": null,
       "source": "yahoo-finance"
     },
     "STT": {
@@ -4606,8 +4606,8 @@
       "price": 170.69,
       "currency": "USD",
       "as_of": "2026-07-02T20:00:02.000Z",
-      "market_state": "POSTPOST",
-      "quote_source": "Delayed Quote",
+      "market_state": "CLOSED",
+      "quote_source": null,
       "source": "yahoo-finance"
     },
     "STUB": {
@@ -4615,8 +4615,8 @@
       "price": 12.86,
       "currency": "USD",
       "as_of": "2026-07-02T20:00:02.000Z",
-      "market_state": "POSTPOST",
-      "quote_source": "Delayed Quote",
+      "market_state": "CLOSED",
+      "quote_source": null,
       "source": "yahoo-finance"
     },
     "STX": {
@@ -4624,7 +4624,7 @@
       "price": 820.16,
       "currency": "USD",
       "as_of": "2026-07-02T20:00:00.000Z",
-      "market_state": "POSTPOST",
+      "market_state": "CLOSED",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -4633,8 +4633,8 @@
       "price": 137.47,
       "currency": "USD",
       "as_of": "2026-07-02T20:00:03.000Z",
-      "market_state": "POSTPOST",
-      "quote_source": "Delayed Quote",
+      "market_state": "CLOSED",
+      "quote_source": null,
       "source": "yahoo-finance"
     },
     "SU": {
@@ -4642,8 +4642,8 @@
       "price": 55.05,
       "currency": "USD",
       "as_of": "2026-07-02T20:00:02.000Z",
-      "market_state": "POSTPOST",
-      "quote_source": "Delayed Quote",
+      "market_state": "CLOSED",
+      "quote_source": null,
       "source": "yahoo-finance"
     },
     "SWKS": {
@@ -4651,7 +4651,7 @@
       "price": 62.56,
       "currency": "USD",
       "as_of": "2026-07-02T20:00:01.000Z",
-      "market_state": "POSTPOST",
+      "market_state": "CLOSED",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -4660,8 +4660,8 @@
       "price": 76.33,
       "currency": "USD",
       "as_of": "2026-07-02T20:00:03.000Z",
-      "market_state": "POSTPOST",
-      "quote_source": "Delayed Quote",
+      "market_state": "CLOSED",
+      "quote_source": null,
       "source": "yahoo-finance"
     },
     "SYY": {
@@ -4669,8 +4669,8 @@
       "price": 84.83,
       "currency": "USD",
       "as_of": "2026-07-02T20:00:02.000Z",
-      "market_state": "POSTPOST",
-      "quote_source": "Delayed Quote",
+      "market_state": "CLOSED",
+      "quote_source": null,
       "source": "yahoo-finance"
     },
     "T": {
@@ -4678,8 +4678,8 @@
       "price": 20.58,
       "currency": "USD",
       "as_of": "2026-07-02T20:04:07.000Z",
-      "market_state": "POSTPOST",
-      "quote_source": "Delayed Quote",
+      "market_state": "CLOSED",
+      "quote_source": null,
       "source": "yahoo-finance"
     },
     "TAC": {
@@ -4687,8 +4687,8 @@
       "price": 13.47,
       "currency": "USD",
       "as_of": "2026-07-02T20:00:02.000Z",
-      "market_state": "POSTPOST",
-      "quote_source": "Delayed Quote",
+      "market_state": "CLOSED",
+      "quote_source": null,
       "source": "yahoo-finance"
     },
     "TBBB": {
@@ -4696,8 +4696,8 @@
       "price": 42.07,
       "currency": "USD",
       "as_of": "2026-07-02T20:00:02.000Z",
-      "market_state": "POSTPOST",
-      "quote_source": "Delayed Quote",
+      "market_state": "CLOSED",
+      "quote_source": null,
       "source": "yahoo-finance"
     },
     "TDS": {
@@ -4705,8 +4705,8 @@
       "price": 36.19,
       "currency": "USD",
       "as_of": "2026-07-02T20:00:02.000Z",
-      "market_state": "POSTPOST",
-      "quote_source": "Delayed Quote",
+      "market_state": "CLOSED",
+      "quote_source": null,
       "source": "yahoo-finance"
     },
     "TEAM": {
@@ -4714,7 +4714,7 @@
       "price": 83.84,
       "currency": "USD",
       "as_of": "2026-07-02T20:00:01.000Z",
-      "market_state": "POSTPOST",
+      "market_state": "CLOSED",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -4723,7 +4723,7 @@
       "price": 369.09,
       "currency": "USD",
       "as_of": "2026-07-02T20:00:01.000Z",
-      "market_state": "POSTPOST",
+      "market_state": "CLOSED",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -4732,8 +4732,8 @@
       "price": 34.64,
       "currency": "USD",
       "as_of": "2026-07-02T20:00:03.000Z",
-      "market_state": "POSTPOST",
-      "quote_source": "Delayed Quote",
+      "market_state": "CLOSED",
+      "quote_source": null,
       "source": "yahoo-finance"
     },
     "TFC": {
@@ -4741,8 +4741,8 @@
       "price": 50.98,
       "currency": "USD",
       "as_of": "2026-07-02T20:00:02.000Z",
-      "market_state": "POSTPOST",
-      "quote_source": "Delayed Quote",
+      "market_state": "CLOSED",
+      "quote_source": null,
       "source": "yahoo-finance"
     },
     "TFIN": {
@@ -4750,8 +4750,8 @@
       "price": 77.01,
       "currency": "USD",
       "as_of": "2026-07-02T20:00:02.000Z",
-      "market_state": "POSTPOST",
-      "quote_source": "Delayed Quote",
+      "market_state": "CLOSED",
+      "quote_source": null,
       "source": "yahoo-finance"
     },
     "TFX": {
@@ -4759,8 +4759,8 @@
       "price": 133.99,
       "currency": "USD",
       "as_of": "2026-07-02T20:00:03.000Z",
-      "market_state": "POSTPOST",
-      "quote_source": "Delayed Quote",
+      "market_state": "CLOSED",
+      "quote_source": null,
       "source": "yahoo-finance"
     },
     "TGT": {
@@ -4768,8 +4768,8 @@
       "price": 130.21,
       "currency": "USD",
       "as_of": "2026-07-02T20:04:17.000Z",
-      "market_state": "POSTPOST",
-      "quote_source": "Delayed Quote",
+      "market_state": "CLOSED",
+      "quote_source": null,
       "source": "yahoo-finance"
     },
     "THC": {
@@ -4777,8 +4777,8 @@
       "price": 203.72,
       "currency": "USD",
       "as_of": "2026-07-02T20:00:02.000Z",
-      "market_state": "POSTPOST",
-      "quote_source": "Delayed Quote",
+      "market_state": "CLOSED",
+      "quote_source": null,
       "source": "yahoo-finance"
     },
     "TIC": {
@@ -4786,8 +4786,8 @@
       "price": 8.11,
       "currency": "USD",
       "as_of": "2026-07-02T20:00:02.000Z",
-      "market_state": "POSTPOST",
-      "quote_source": "Delayed Quote",
+      "market_state": "CLOSED",
+      "quote_source": null,
       "source": "yahoo-finance"
     },
     "TJX": {
@@ -4795,8 +4795,8 @@
       "price": 154.26,
       "currency": "USD",
       "as_of": "2026-07-02T20:04:55.000Z",
-      "market_state": "POSTPOST",
-      "quote_source": "Delayed Quote",
+      "market_state": "CLOSED",
+      "quote_source": null,
       "source": "yahoo-finance"
     },
     "TLN": {
@@ -4804,7 +4804,7 @@
       "price": 364.67,
       "currency": "USD",
       "as_of": "2026-07-02T20:00:00.000Z",
-      "market_state": "POSTPOST",
+      "market_state": "CLOSED",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -4813,8 +4813,8 @@
       "price": 71.86,
       "currency": "USD",
       "as_of": "2026-07-02T20:00:03.000Z",
-      "market_state": "POSTPOST",
-      "quote_source": "Delayed Quote",
+      "market_state": "CLOSED",
+      "quote_source": null,
       "source": "yahoo-finance"
     },
     "TMO": {
@@ -4822,8 +4822,8 @@
       "price": 523.44,
       "currency": "USD",
       "as_of": "2026-07-02T20:00:02.000Z",
-      "market_state": "POSTPOST",
-      "quote_source": "Delayed Quote",
+      "market_state": "CLOSED",
+      "quote_source": null,
       "source": "yahoo-finance"
     },
     "TMUS": {
@@ -4831,7 +4831,7 @@
       "price": 177.52,
       "currency": "USD",
       "as_of": "2026-07-02T20:00:00.000Z",
-      "market_state": "POSTPOST",
+      "market_state": "CLOSED",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -4840,8 +4840,8 @@
       "price": 157.14,
       "currency": "USD",
       "as_of": "2026-07-02T20:00:02.000Z",
-      "market_state": "POSTPOST",
-      "quote_source": "Delayed Quote",
+      "market_state": "CLOSED",
+      "quote_source": null,
       "source": "yahoo-finance"
     },
     "TPG": {
@@ -4849,7 +4849,7 @@
       "price": 41.43,
       "currency": "USD",
       "as_of": "2026-07-02T20:00:00.000Z",
-      "market_state": "POSTPOST",
+      "market_state": "CLOSED",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -4858,8 +4858,8 @@
       "price": 144.21,
       "currency": "USD",
       "as_of": "2026-07-02T20:00:02.000Z",
-      "market_state": "POSTPOST",
-      "quote_source": "Delayed Quote",
+      "market_state": "CLOSED",
+      "quote_source": null,
       "source": "yahoo-finance"
     },
     "TRV": {
@@ -4867,8 +4867,8 @@
       "price": 342.31,
       "currency": "USD",
       "as_of": "2026-07-02T20:00:02.000Z",
-      "market_state": "POSTPOST",
-      "quote_source": "Delayed Quote",
+      "market_state": "CLOSED",
+      "quote_source": null,
       "source": "yahoo-finance"
     },
     "TRVI": {
@@ -4876,7 +4876,7 @@
       "price": 17.93,
       "currency": "USD",
       "as_of": "2026-07-02T20:00:00.000Z",
-      "market_state": "POSTPOST",
+      "market_state": "CLOSED",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -4885,7 +4885,7 @@
       "price": 219.05,
       "currency": "USD",
       "as_of": "2026-07-02T20:00:00.000Z",
-      "market_state": "POSTPOST",
+      "market_state": "CLOSED",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -4894,7 +4894,7 @@
       "price": 393.45,
       "currency": "USD",
       "as_of": "2026-07-02T20:00:00.000Z",
-      "market_state": "POSTPOST",
+      "market_state": "CLOSED",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -4903,8 +4903,8 @@
       "price": 434.16,
       "currency": "USD",
       "as_of": "2026-07-02T20:00:02.000Z",
-      "market_state": "POSTPOST",
-      "quote_source": "Delayed Quote",
+      "market_state": "CLOSED",
+      "quote_source": null,
       "source": "yahoo-finance"
     },
     "TSN": {
@@ -4912,8 +4912,8 @@
       "price": 58.89,
       "currency": "USD",
       "as_of": "2026-07-02T20:00:02.000Z",
-      "market_state": "POSTPOST",
-      "quote_source": "Delayed Quote",
+      "market_state": "CLOSED",
+      "quote_source": null,
       "source": "yahoo-finance"
     },
     "TTC": {
@@ -4921,8 +4921,8 @@
       "price": 97.08,
       "currency": "USD",
       "as_of": "2026-07-02T20:00:02.000Z",
-      "market_state": "POSTPOST",
-      "quote_source": "Delayed Quote",
+      "market_state": "CLOSED",
+      "quote_source": null,
       "source": "yahoo-finance"
     },
     "TTD": {
@@ -4930,7 +4930,7 @@
       "price": 19.1,
       "currency": "USD",
       "as_of": "2026-07-02T20:00:01.000Z",
-      "market_state": "POSTPOST",
+      "market_state": "CLOSED",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -4939,7 +4939,7 @@
       "price": 254.99,
       "currency": "USD",
       "as_of": "2026-07-02T20:00:00.000Z",
-      "market_state": "POSTPOST",
+      "market_state": "CLOSED",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -4948,7 +4948,7 @@
       "price": 102.79,
       "currency": "USD",
       "as_of": "2026-07-02T20:00:00.000Z",
-      "market_state": "POSTPOST",
+      "market_state": "CLOSED",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -4957,8 +4957,8 @@
       "price": 209.31,
       "currency": "USD",
       "as_of": "2026-07-02T20:00:02.000Z",
-      "market_state": "POSTPOST",
-      "quote_source": "Delayed Quote",
+      "market_state": "CLOSED",
+      "quote_source": null,
       "source": "yahoo-finance"
     },
     "TXN": {
@@ -4966,7 +4966,7 @@
       "price": 293.08,
       "currency": "USD",
       "as_of": "2026-07-02T20:00:00.000Z",
-      "market_state": "POSTPOST",
+      "market_state": "CLOSED",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -4975,8 +4975,8 @@
       "price": 56.94,
       "currency": "USD",
       "as_of": "2026-07-02T20:00:02.000Z",
-      "market_state": "POSTPOST",
-      "quote_source": "Delayed Quote",
+      "market_state": "CLOSED",
+      "quote_source": null,
       "source": "yahoo-finance"
     },
     "TXRH": {
@@ -4984,7 +4984,7 @@
       "price": 194.28,
       "currency": "USD",
       "as_of": "2026-07-02T20:00:00.000Z",
-      "market_state": "POSTPOST",
+      "market_state": "CLOSED",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -4993,8 +4993,8 @@
       "price": 92.5,
       "currency": "USD",
       "as_of": "2026-07-02T20:00:02.000Z",
-      "market_state": "POSTPOST",
-      "quote_source": "Delayed Quote",
+      "market_state": "CLOSED",
+      "quote_source": null,
       "source": "yahoo-finance"
     },
     "U": {
@@ -5002,8 +5002,8 @@
       "price": 29.32,
       "currency": "USD",
       "as_of": "2026-07-02T20:00:03.000Z",
-      "market_state": "POSTPOST",
-      "quote_source": "Delayed Quote",
+      "market_state": "CLOSED",
+      "quote_source": null,
       "source": "yahoo-finance"
     },
     "UAL": {
@@ -5011,7 +5011,7 @@
       "price": 133.32,
       "currency": "USD",
       "as_of": "2026-07-02T20:00:00.000Z",
-      "market_state": "POSTPOST",
+      "market_state": "CLOSED",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -5020,8 +5020,8 @@
       "price": 74.43,
       "currency": "USD",
       "as_of": "2026-07-02T20:00:03.000Z",
-      "market_state": "POSTPOST",
-      "quote_source": "Delayed Quote",
+      "market_state": "CLOSED",
+      "quote_source": null,
       "source": "yahoo-finance"
     },
     "UNH": {
@@ -5029,8 +5029,8 @@
       "price": 425.36,
       "currency": "USD",
       "as_of": "2026-07-02T20:00:02.000Z",
-      "market_state": "POSTPOST",
-      "quote_source": "Delayed Quote",
+      "market_state": "CLOSED",
+      "quote_source": null,
       "source": "yahoo-finance"
     },
     "UNM": {
@@ -5038,8 +5038,8 @@
       "price": 92.34,
       "currency": "USD",
       "as_of": "2026-07-02T20:00:03.000Z",
-      "market_state": "POSTPOST",
-      "quote_source": "Delayed Quote",
+      "market_state": "CLOSED",
+      "quote_source": null,
       "source": "yahoo-finance"
     },
     "UNP": {
@@ -5047,8 +5047,8 @@
       "price": 282.25,
       "currency": "USD",
       "as_of": "2026-07-02T20:00:03.000Z",
-      "market_state": "POSTPOST",
-      "quote_source": "Delayed Quote",
+      "market_state": "CLOSED",
+      "quote_source": null,
       "source": "yahoo-finance"
     },
     "UPS": {
@@ -5056,8 +5056,8 @@
       "price": 110.66,
       "currency": "USD",
       "as_of": "2026-07-02T20:03:05.000Z",
-      "market_state": "POSTPOST",
-      "quote_source": "Delayed Quote",
+      "market_state": "CLOSED",
+      "quote_source": null,
       "source": "yahoo-finance"
     },
     "UPST": {
@@ -5065,7 +5065,7 @@
       "price": 34.78,
       "currency": "USD",
       "as_of": "2026-07-02T20:00:01.000Z",
-      "market_state": "POSTPOST",
+      "market_state": "CLOSED",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -5074,8 +5074,8 @@
       "price": 1098.59,
       "currency": "USD",
       "as_of": "2026-07-02T20:00:02.000Z",
-      "market_state": "POSTPOST",
-      "quote_source": "Delayed Quote",
+      "market_state": "CLOSED",
+      "quote_source": null,
       "source": "yahoo-finance"
     },
     "USB": {
@@ -5083,8 +5083,8 @@
       "price": 61.73,
       "currency": "USD",
       "as_of": "2026-07-02T20:00:02.000Z",
-      "market_state": "POSTPOST",
-      "quote_source": "Delayed Quote",
+      "market_state": "CLOSED",
+      "quote_source": null,
       "source": "yahoo-finance"
     },
     "UTHR": {
@@ -5092,7 +5092,7 @@
       "price": 555.91,
       "currency": "USD",
       "as_of": "2026-07-02T20:00:01.000Z",
-      "market_state": "POSTPOST",
+      "market_state": "CLOSED",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -5101,8 +5101,8 @@
       "price": 362.13,
       "currency": "USD",
       "as_of": "2026-07-02T20:00:03.000Z",
-      "market_state": "POSTPOST",
-      "quote_source": "Delayed Quote",
+      "market_state": "CLOSED",
+      "quote_source": null,
       "source": "yahoo-finance"
     },
     "VEEV": {
@@ -5110,8 +5110,8 @@
       "price": 192.74,
       "currency": "USD",
       "as_of": "2026-07-02T20:00:41.000Z",
-      "market_state": "POSTPOST",
-      "quote_source": "Delayed Quote",
+      "market_state": "CLOSED",
+      "quote_source": null,
       "source": "yahoo-finance"
     },
     "VIA": {
@@ -5119,8 +5119,8 @@
       "price": 19.31,
       "currency": "USD",
       "as_of": "2026-07-02T20:00:02.000Z",
-      "market_state": "POSTPOST",
-      "quote_source": "Delayed Quote",
+      "market_state": "CLOSED",
+      "quote_source": null,
       "source": "yahoo-finance"
     },
     "VLTO": {
@@ -5128,8 +5128,8 @@
       "price": 92.55,
       "currency": "USD",
       "as_of": "2026-07-02T20:00:02.000Z",
-      "market_state": "POSTPOST",
-      "quote_source": "Delayed Quote",
+      "market_state": "CLOSED",
+      "quote_source": null,
       "source": "yahoo-finance"
     },
     "VRSK": {
@@ -5137,7 +5137,7 @@
       "price": 188.35,
       "currency": "USD",
       "as_of": "2026-07-02T20:00:00.000Z",
-      "market_state": "POSTPOST",
+      "market_state": "CLOSED",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -5146,7 +5146,7 @@
       "price": 256.43,
       "currency": "USD",
       "as_of": "2026-07-02T20:00:00.000Z",
-      "market_state": "POSTPOST",
+      "market_state": "CLOSED",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -5155,8 +5155,8 @@
       "price": 300.53,
       "currency": "USD",
       "as_of": "2026-07-02T20:00:03.000Z",
-      "market_state": "POSTPOST",
-      "quote_source": "Delayed Quote",
+      "market_state": "CLOSED",
+      "quote_source": null,
       "source": "yahoo-finance"
     },
     "VST": {
@@ -5164,8 +5164,8 @@
       "price": 151.05,
       "currency": "USD",
       "as_of": "2026-07-02T20:00:02.000Z",
-      "market_state": "POSTPOST",
-      "quote_source": "Delayed Quote",
+      "market_state": "CLOSED",
+      "quote_source": null,
       "source": "yahoo-finance"
     },
     "VTR": {
@@ -5173,8 +5173,8 @@
       "price": 92.52,
       "currency": "USD",
       "as_of": "2026-07-02T20:04:37.000Z",
-      "market_state": "POSTPOST",
-      "quote_source": "Delayed Quote",
+      "market_state": "CLOSED",
+      "quote_source": null,
       "source": "yahoo-finance"
     },
     "VZ": {
@@ -5182,8 +5182,8 @@
       "price": 42.56,
       "currency": "USD",
       "as_of": "2026-07-02T20:00:02.000Z",
-      "market_state": "POSTPOST",
-      "quote_source": "Delayed Quote",
+      "market_state": "CLOSED",
+      "quote_source": null,
       "source": "yahoo-finance"
     },
     "WAB": {
@@ -5191,8 +5191,8 @@
       "price": 262.19,
       "currency": "USD",
       "as_of": "2026-07-02T20:00:02.000Z",
-      "market_state": "POSTPOST",
-      "quote_source": "Delayed Quote",
+      "market_state": "CLOSED",
+      "quote_source": null,
       "source": "yahoo-finance"
     },
     "WAL": {
@@ -5200,8 +5200,8 @@
       "price": 81.54,
       "currency": "USD",
       "as_of": "2026-07-02T20:00:02.000Z",
-      "market_state": "POSTPOST",
-      "quote_source": "Delayed Quote",
+      "market_state": "CLOSED",
+      "quote_source": null,
       "source": "yahoo-finance"
     },
     "WAT": {
@@ -5209,8 +5209,8 @@
       "price": 379.29,
       "currency": "USD",
       "as_of": "2026-07-02T20:00:02.000Z",
-      "market_state": "POSTPOST",
-      "quote_source": "Delayed Quote",
+      "market_state": "CLOSED",
+      "quote_source": null,
       "source": "yahoo-finance"
     },
     "WBD": {
@@ -5218,7 +5218,7 @@
       "price": 26.48,
       "currency": "USD",
       "as_of": "2026-07-02T20:00:01.000Z",
-      "market_state": "POSTPOST",
+      "market_state": "CLOSED",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -5227,7 +5227,7 @@
       "price": 135.4,
       "currency": "USD",
       "as_of": "2026-07-02T20:00:00.000Z",
-      "market_state": "POSTPOST",
+      "market_state": "CLOSED",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -5236,7 +5236,7 @@
       "price": 539,
       "currency": "USD",
       "as_of": "2026-07-02T20:00:00.000Z",
-      "market_state": "POSTPOST",
+      "market_state": "CLOSED",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -5245,8 +5245,8 @@
       "price": 85.51,
       "currency": "USD",
       "as_of": "2026-07-02T20:03:54.000Z",
-      "market_state": "POSTPOST",
-      "quote_source": "Delayed Quote",
+      "market_state": "CLOSED",
+      "quote_source": null,
       "source": "yahoo-finance"
     },
     "WHR": {
@@ -5254,8 +5254,8 @@
       "price": 38.1,
       "currency": "USD",
       "as_of": "2026-07-02T20:00:02.000Z",
-      "market_state": "POSTPOST",
-      "quote_source": "Delayed Quote",
+      "market_state": "CLOSED",
+      "quote_source": null,
       "source": "yahoo-finance"
     },
     "WLTH": {
@@ -5263,7 +5263,7 @@
       "price": 9.14,
       "currency": "USD",
       "as_of": "2026-07-02T20:00:00.000Z",
-      "market_state": "POSTPOST",
+      "market_state": "CLOSED",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -5272,8 +5272,8 @@
       "price": 73.14,
       "currency": "USD",
       "as_of": "2026-07-02T20:00:02.000Z",
-      "market_state": "POSTPOST",
-      "quote_source": "Delayed Quote",
+      "market_state": "CLOSED",
+      "quote_source": null,
       "source": "yahoo-finance"
     },
     "WMT": {
@@ -5281,7 +5281,7 @@
       "price": 111.84,
       "currency": "USD",
       "as_of": "2026-07-02T20:00:00.000Z",
-      "market_state": "POSTPOST",
+      "market_state": "CLOSED",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -5290,8 +5290,8 @@
       "price": 40,
       "currency": "USD",
       "as_of": "2026-07-02T20:02:21.000Z",
-      "market_state": "POSTPOST",
-      "quote_source": "Delayed Quote",
+      "market_state": "CLOSED",
+      "quote_source": null,
       "source": "yahoo-finance"
     },
     "WST": {
@@ -5299,8 +5299,8 @@
       "price": 365.74,
       "currency": "USD",
       "as_of": "2026-07-02T20:00:03.000Z",
-      "market_state": "POSTPOST",
-      "quote_source": "Delayed Quote",
+      "market_state": "CLOSED",
+      "quote_source": null,
       "source": "yahoo-finance"
     },
     "WVE": {
@@ -5308,7 +5308,7 @@
       "price": 6.26,
       "currency": "USD",
       "as_of": "2026-07-02T20:00:00.000Z",
-      "market_state": "POSTPOST",
+      "market_state": "CLOSED",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -5317,7 +5317,7 @@
       "price": 418.02,
       "currency": "USD",
       "as_of": "2026-07-02T20:00:00.000Z",
-      "market_state": "POSTPOST",
+      "market_state": "CLOSED",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -5326,7 +5326,7 @@
       "price": 31.44,
       "currency": "USD",
       "as_of": "2026-07-02T20:00:00.000Z",
-      "market_state": "POSTPOST",
+      "market_state": "CLOSED",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -5335,7 +5335,7 @@
       "price": 81.96,
       "currency": "USD",
       "as_of": "2026-07-02T20:00:00.000Z",
-      "market_state": "POSTPOST",
+      "market_state": "CLOSED",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -5344,7 +5344,7 @@
       "price": 55.62,
       "currency": "USD",
       "as_of": "2026-07-02T20:00:00.000Z",
-      "market_state": "POSTPOST",
+      "market_state": "CLOSED",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -5353,8 +5353,8 @@
       "price": 137.09,
       "currency": "USD",
       "as_of": "2026-07-02T20:03:29.000Z",
-      "market_state": "POSTPOST",
-      "quote_source": "Delayed Quote",
+      "market_state": "CLOSED",
+      "quote_source": null,
       "source": "yahoo-finance"
     },
     "XYZ": {
@@ -5362,8 +5362,8 @@
       "price": 78.83,
       "currency": "USD",
       "as_of": "2026-07-02T20:00:02.000Z",
-      "market_state": "POSTPOST",
-      "quote_source": "Delayed Quote",
+      "market_state": "CLOSED",
+      "quote_source": null,
       "source": "yahoo-finance"
     },
     "YPF": {
@@ -5371,8 +5371,8 @@
       "price": 44.4,
       "currency": "USD",
       "as_of": "2026-07-02T20:00:03.000Z",
-      "market_state": "POSTPOST",
-      "quote_source": "Delayed Quote",
+      "market_state": "CLOSED",
+      "quote_source": null,
       "source": "yahoo-finance"
     },
     "Z": {
@@ -5380,7 +5380,7 @@
       "price": 33.43,
       "currency": "USD",
       "as_of": "2026-07-02T20:00:00.000Z",
-      "market_state": "POSTPOST",
+      "market_state": "CLOSED",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -5389,7 +5389,7 @@
       "price": 33.42,
       "currency": "USD",
       "as_of": "2026-07-02T20:00:00.000Z",
-      "market_state": "POSTPOST",
+      "market_state": "CLOSED",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -5398,7 +5398,7 @@
       "price": 69.35,
       "currency": "USD",
       "as_of": "2026-07-02T20:00:00.000Z",
-      "market_state": "POSTPOST",
+      "market_state": "CLOSED",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -5407,7 +5407,7 @@
       "price": 87.145,
       "currency": "USD",
       "as_of": "2026-07-02T20:00:01.000Z",
-      "market_state": "POSTPOST",
+      "market_state": "CLOSED",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -5416,7 +5416,7 @@
       "price": 147.33,
       "currency": "USD",
       "as_of": "2026-07-02T20:00:00.000Z",
-      "market_state": "POSTPOST",
+      "market_state": "CLOSED",
       "quote_source": "Delayed Quote",
       "source": "yahoo-finance"
     },
@@ -5425,8 +5425,8 @@
       "price": 74.8,
       "currency": "USD",
       "as_of": "2026-07-02T20:01:31.000Z",
-      "market_state": "POSTPOST",
-      "quote_source": "Delayed Quote",
+      "market_state": "CLOSED",
+      "quote_source": null,
       "source": "yahoo-finance"
     }
   },
