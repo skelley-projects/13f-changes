@@ -24,8 +24,16 @@ const cusips = [...new Set(filing.positions.map(p => p.cusip))];
 const issuerNames: Record<string, string> = {};
 for (const p of filing.positions) issuerNames[p.cusip] = p.name_of_issuer;
 
+// openfigi.ts has always accepted an API key, but nothing ever supplied one, so
+// every run used the unauthenticated 25 req/min tier. With a key OpenFIGI allows
+// 100 CUSIPs per request at 25 requests/6s — roughly 40x faster on large filers.
+const openFigiKey = process.env.OPENFIGI_API_KEY;
+if (!openFigiKey) {
+  console.log('No OPENFIGI_API_KEY set — using the slower unauthenticated tier.');
+}
+
 const result = await classifyNewCusips(cusips, cache, {
-  lookupCusips,
+  lookupCusips: (c) => lookupCusips(c, { apiKey: openFigiKey }),
   lookupTickerSector,
   issuerNames,
 });
