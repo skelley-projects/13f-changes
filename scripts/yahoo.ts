@@ -49,12 +49,45 @@ function getDefaultClient(): YahooClient {
   return _defaultClient;
 }
 
+/**
+ * Yahoo throttles with "Edge: Too Many Requests" rather than a typed status, so
+ * this is a message match. Distinguishing throttling from a genuine data gap
+ * matters: a throttled ticker is perfectly classifiable and must be retried,
+ * whereas "No fundamentals data found" means there is nothing to fetch.
+ */
+export function isRateLimit(error: unknown): boolean {
+  const message = error instanceof Error ? error.message : String(error);
+  return /too many requests|rate limit|\b429\b/i.test(message);
+}
+
+export class YahooRateLimitError extends Error {
+  constructor(ticker: string, attempts: number) {
+    super(`Yahoo rate-limited ${ticker} after ${attempts} attempts`);
+    this.name = 'YahooRateLimitError';
+  }
+}
+
+const sleep = (ms: number) => new Promise(done => setTimeout(done, ms));
+
 export async function lookupTickerSector(
   ticker: string,
-  opts: { yahoo?: YahooClient } = {},
+  opts: { yahoo?: YahooClient; maxRetries?: number; baseDelayMs?: number } = {},
 ): Promise<SectorIndustry | null> {
   const client = opts.yahoo ?? getDefaultClient();
-  const summary = await client.quoteSummary(ticker, { modules: ['assetProfile'] });
+  const maxRetries = opts.maxRetries ?? 6;
+  const baseDelayMs = opts.baseDelayMs ?? 2_000;
+
+  let summary: Awaited<ReturnType<YahooClient['quoteSummary']>> | undefined;
+  for (let attempt = 0; ; attempt += 1) {
+    try {
+      summary = await client.quoteSummary(ticker, { modules: ['assetProfile'] });
+      break;
+    } catch (error) {
+      if (!isRateLimit(error)) throw error;
+      if (attempt >= maxRetries) throw new YahooRateLimitError(ticker, attempt + 1);
+      await sleep(baseDelayMs * 2 ** attempt);
+    }
+  }
   const ap = summary?.assetProfile;
   if (!ap?.sector || !ap.industry) return null;
   const mapped = (sectorMap.sectors as Record<string, string>)[ap.sector];

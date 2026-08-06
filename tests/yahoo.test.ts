@@ -1,5 +1,5 @@
 import { describe, it, expect, vi } from 'vitest';
-import { lookupSegmentMetrics, lookupTickerPriceRanges, lookupTickerPrices, lookupTickerSector, priceRangeKey } from '../scripts/yahoo';
+import { isRateLimit, lookupSegmentMetrics, lookupTickerPriceRanges, lookupTickerPrices, lookupTickerSector, priceRangeKey, YahooRateLimitError } from '../scripts/yahoo';
 
 describe('lookupTickerSector', () => {
   it('returns Yahoo sector mapped to GICS, plus industry', async () => {
@@ -127,5 +127,52 @@ describe('lookupSegmentMetrics', () => {
       period1: '2021-04-24',
       period2: '2026-05-05',
     }));
+  });
+});
+
+describe('isRateLimit', () => {
+  it('recognises Yahoo throttling, which arrives as a message not a status', () => {
+    expect(isRateLimit(new Error('Edge: Too Many Requests'))).toBe(true);
+    expect(isRateLimit(new Error('HTTP 429'))).toBe(true);
+  });
+
+  it('does not mistake a genuine data gap for throttling', () => {
+    expect(isRateLimit(new Error('No fundamentals data found for symbol: XFCOX'))).toBe(false);
+    expect(isRateLimit(new Error('Quote not found for symbol: GLDD'))).toBe(false);
+  });
+});
+
+describe('lookupTickerSector throttling', () => {
+  it('retries a throttled ticker and succeeds', async () => {
+    let calls = 0;
+    const yahoo = {
+      quoteSummary: vi.fn(async () => {
+        calls += 1;
+        if (calls === 1) throw new Error('Edge: Too Many Requests');
+        return { assetProfile: { sector: 'Technology', industry: 'Semiconductors' } };
+      }),
+    };
+    const result = await lookupTickerSector('NVDA', { yahoo: yahoo as never, baseDelayMs: 0 });
+    expect(calls).toBe(2);
+    expect(result?.industry).toBe('Semiconductors');
+  });
+
+  it('throws rather than reporting a throttled ticker as unclassifiable', async () => {
+    const yahoo = {
+      quoteSummary: vi.fn(async () => { throw new Error('Edge: Too Many Requests'); }),
+    };
+    await expect(
+      lookupTickerSector('ZBH', { yahoo: yahoo as never, baseDelayMs: 0, maxRetries: 2 }),
+    ).rejects.toBeInstanceOf(YahooRateLimitError);
+  });
+
+  it('passes a real data gap straight through without retrying', async () => {
+    const yahoo = {
+      quoteSummary: vi.fn(async () => { throw new Error('No fundamentals data found for symbol: XFCOX'); }),
+    };
+    await expect(
+      lookupTickerSector('XFCOX', { yahoo: yahoo as never, baseDelayMs: 0 }),
+    ).rejects.toThrow(/No fundamentals/);
+    expect(yahoo.quoteSummary).toHaveBeenCalledTimes(1);
   });
 });

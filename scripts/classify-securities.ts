@@ -1,10 +1,10 @@
 import type { CUSIP, SecuritiesFile, SecurityRecord } from './types.js';
 import type { OpenFigiResult } from './openfigi.js';
-import type { SectorIndustry } from './yahoo.js';
+import { isRateLimit, YahooRateLimitError, type SectorIndustry } from './yahoo.js';
 import { mapWithConcurrency } from './concurrency.js';
 
 /** Yahoo sector lookups per new CUSIP; same modest cap as the other Yahoo calls. */
-const CLASSIFY_CONCURRENCY = 6;
+const CLASSIFY_CONCURRENCY = 2;
 
 export interface ClassifyDeps {
   lookupCusips: (cusips: CUSIP[]) => Promise<Record<CUSIP, OpenFigiResult | null>>;
@@ -62,10 +62,18 @@ export async function classifyNewCusips(
       // unit tickers are the usual culprits: OpenFIGI returns e.g. "FLYX/WS",
       // and the slash breaks Yahoo's URL path so the request 502s. Degrade to
       // manual classification, which is where such a security was headed anyway.
+      //
+      // Throttling is deliberately NOT swallowed here. A rate-limited ticker is
+      // perfectly classifiable, so reporting it as "needs manual" would hand
+      // back thousands of spurious rows to classify by hand — which is exactly
+      // what happened on the first Citadel run: 2,580 of 2,627 failures were
+      // "Edge: Too Many Requests", not real data gaps. Let it propagate so the
+      // run fails loudly and can be resumed instead of quietly losing coverage.
       let sector: SectorIndustry | null = null;
       try {
         sector = await deps.lookupTickerSector(figi.ticker);
       } catch (error) {
+        if (isRateLimit(error) || error instanceof YahooRateLimitError) throw error;
         console.warn(
           `  sector lookup failed for ${figi.ticker} (${cusip}): ` +
           `${error instanceof Error ? error.message.split('\n')[0] : error}`,
