@@ -860,6 +860,16 @@
     "sector_source": "yahoo-finance",
     "classified_at": "2026-05-06T08:09:22.117Z"
   },
+  "433921103": {
+    "cusip": "433921103",
+    "ticker": "HIVE",
+    "name": "HIVE DIGITAL TECHNOLOGIES LT",
+    "sector": "Financials",
+    "industry": "Capital Markets",
+    "ticker_source": "openfigi",
+    "sector_source": "yahoo-finance",
+    "classified_at": "2026-08-06T18:50:18.000Z"
+  },
   "437076102": {
     "cusip": "437076102",
     "ticker": "HD",
@@ -1043,6 +1053,16 @@
     "sector_source": "yahoo-finance",
     "classified_at": "2026-05-06T08:09:22.117Z"
   },
+  "466313103": {
+    "cusip": "466313103",
+    "ticker": "JBL",
+    "name": "JABIL INC",
+    "sector": "Information Technology",
+    "industry": "Electronic Components",
+    "ticker_source": "openfigi",
+    "sector_source": "yahoo-finance",
+    "classified_at": "2026-08-06T18:47:14.521Z"
+  },
   "478160104": {
     "cusip": "478160104",
     "ticker": "JNJ",
@@ -1052,6 +1072,16 @@
     "ticker_source": "openfigi",
     "sector_source": "yahoo-finance",
     "classified_at": "2026-05-06T08:09:22.117Z"
+  },
+  "482480100": {
+    "cusip": "482480100",
+    "ticker": "KLAC",
+    "name": "KLA CORP",
+    "sector": "Information Technology",
+    "industry": "Semiconductor Equipment & Materials",
+    "ticker_source": "openfigi",
+    "sector_source": "yahoo-finance",
+    "classified_at": "2026-08-06T18:51:27.028Z"
   },
   "493267108": {
     "cusip": "493267108",
@@ -1993,6 +2023,16 @@
     "sector_source": "yahoo-finance",
     "classified_at": "2026-05-06T08:09:22.117Z"
   },
+  "770701100": {
+    "cusip": "770701100",
+    "ticker": "RVI",
+    "name": "ROBINHOOD VENTURES FUND I",
+    "sector": "Financials",
+    "industry": "Asset Management",
+    "ticker_source": "openfigi",
+    "sector_source": "yahoo-finance",
+    "classified_at": "2026-08-06T18:47:12.935Z"
+  },
   "771049103": {
     "cusip": "771049103",
     "ticker": "RBLX",
@@ -2032,6 +2072,16 @@
     "ticker_source": "openfigi",
     "sector_source": "yahoo-finance",
     "classified_at": "2026-05-06T08:09:22.117Z"
+  },
+  "778920306": {
+    "cusip": "778920306",
+    "ticker": "SHAZ",
+    "name": "SHARONAI HOLDINGS INC",
+    "sector": "Information Technology",
+    "industry": "Information Technology Services",
+    "ticker_source": "openfigi",
+    "sector_source": "yahoo-finance",
+    "classified_at": "2026-08-06T18:50:18.023Z"
   },
   "780287108": {
     "cusip": "780287108",
@@ -2403,6 +2453,16 @@
     "sector_source": "yahoo-finance",
     "classified_at": "2026-05-06T08:09:22.117Z"
   },
+  "893641100": {
+    "cusip": "893641100",
+    "ticker": "TDG",
+    "name": "TRANSDIGM GROUP INC",
+    "sector": "Industrials",
+    "industry": "Aerospace & Defense",
+    "ticker_source": "openfigi",
+    "sector_source": "yahoo-finance",
+    "classified_at": "2026-08-06T18:51:27.117Z"
+  },
   "902494103": {
     "cusip": "902494103",
     "ticker": "TSN",
@@ -2472,6 +2532,16 @@
     "ticker_source": "openfigi",
     "sector_source": "yahoo-finance",
     "classified_at": "2026-05-06T08:09:22.117Z"
+  },
+  "922967104": {
+    "cusip": "922967104",
+    "ticker": "MANE",
+    "name": "VERADERMICS INC",
+    "sector": "Health Care",
+    "industry": "Biotechnology",
+    "ticker_source": "openfigi",
+    "sector_source": "yahoo-finance",
+    "classified_at": "2026-08-06T18:50:15.871Z"
   },
   "925050106": {
     "cusip": "925050106",
@@ -2573,6 +2643,16 @@
     "ticker_source": "openfigi",
     "sector_source": "yahoo-finance",
     "classified_at": "2026-05-06T08:09:22.117Z"
+  },
+  "960413102": {
+    "cusip": "960413102",
+    "ticker": "WLK",
+    "name": "WESTLAKE CORP",
+    "sector": "Materials",
+    "industry": "Specialty Chemicals",
+    "ticker_source": "openfigi",
+    "sector_source": "yahoo-finance",
+    "classified_at": "2026-08-06T18:47:14.633Z"
   },
   "963320106": {
     "cusip": "963320106",
@@ -6126,5 +6206,225 @@
     "ticker_source": "openfigi",
     "sector_source": "yahoo-finance",
     "classified_at": "2026-05-07T10:34:54.556Z"
+  },
+  "29445S100": {
+    "cusip": "29445S100",
+    "ticker": "EQPT",
+    "name": "EQUIPMENTSHARE.COM INC-A",
+    "sector": "Industrials",
+    "industry": "Rental & Leasing Services",
+    "ticker_source": "openfigi",
+    "sector_source": "yahoo-finance",
+    "classified_at": "2026-08-06T18:47:12.937Z"
+  },
+  "70450C101": {
+    "cusip": "70450C101",
+    "ticker": "PAYP",
+    "name": "PAYPAY CORP",
+    "sector": "Information Technology",
+    "industry": "Software - Infrastructure",
+    "ticker_source": "openfigi",
+    "sector_source": "yahoo-finance",
+    "classified_at": "2026-08-06T18:47:12.943Z"
+  },
+  "98390R102": {
+    "cusip": "98390R102",
+    "ticker": "XNDU",
+    "name": "XANADU QUANTUM TECHNOLO-CL B",
+    "sector": "Information Technology",
+    "industry": "Software - Infrastructure",
+    "ticker_source": "openfigi",
+    "sector_source": "yahoo-finance",
+    "classified_at": "2026-08-06T18:47:12.943Z"
+  },
+  "07782B104": {
+    "cusip": "07782B104",
+    "ticker": "BLTE",
+    "name": "BELITE BIO INC - ADR",
+    "sector": "Health Care",
+    "industry": "Biotechnology",
+    "ticker_source": "openfigi",
+    "sector_source": "yahoo-finance",
+    "classified_at": "2026-08-06T18:47:14.299Z"
+  },
+  "18915M107": {
+    "cusip": "18915M107",
+    "ticker": "NET",
+    "name": "CLOUDFLARE INC - CLASS A",
+    "sector": "Information Technology",
+    "industry": "Software - Infrastructure",
+    "ticker_source": "openfigi",
+    "sector_source": "yahoo-finance",
+    "classified_at": "2026-08-06T18:47:14.314Z"
+  },
+  "23306J309": {
+    "cusip": "23306J309",
+    "ticker": "DBVT",
+    "name": "DBV TECHNOLOGIES SA-SPON ADR",
+    "sector": "Health Care",
+    "industry": "Biotechnology",
+    "ticker_source": "openfigi",
+    "sector_source": "yahoo-finance",
+    "classified_at": "2026-08-06T18:47:14.292Z"
+  },
+  "67080N101": {
+    "cusip": "67080N101",
+    "ticker": "NUVB",
+    "name": "NUVATION BIO INC",
+    "sector": "Health Care",
+    "industry": "Biotechnology",
+    "ticker_source": "openfigi",
+    "sector_source": "yahoo-finance",
+    "classified_at": "2026-08-06T18:47:14.390Z"
+  },
+  "68062P106": {
+    "cusip": "68062P106",
+    "ticker": "OLMA",
+    "name": "OLEMA PHARMACEUTICALS INC",
+    "sector": "Health Care",
+    "industry": "Biotechnology",
+    "ticker_source": "openfigi",
+    "sector_source": "yahoo-finance",
+    "classified_at": "2026-08-06T18:47:14.404Z"
+  },
+  "74743L100": {
+    "cusip": "74743L100",
+    "ticker": "Q",
+    "name": "QNITY ELECTRONICS INC",
+    "sector": "Information Technology",
+    "industry": "Semiconductor Equipment & Materials",
+    "ticker_source": "openfigi",
+    "sector_source": "yahoo-finance",
+    "classified_at": "2026-08-06T18:47:14.497Z"
+  },
+  "76155X100": {
+    "cusip": "76155X100",
+    "ticker": "RVMD",
+    "name": "REVOLUTION MEDICINES INC",
+    "sector": "Health Care",
+    "industry": "Biotechnology",
+    "ticker_source": "openfigi",
+    "sector_source": "yahoo-finance",
+    "classified_at": "2026-08-06T18:47:14.493Z"
+  },
+  "83443Q103": {
+    "cusip": "83443Q103",
+    "ticker": "SOLS",
+    "name": "SOLSTICE ADV MATERIALS INC",
+    "sector": "Materials",
+    "industry": "Specialty Chemicals",
+    "ticker_source": "openfigi",
+    "sector_source": "yahoo-finance",
+    "classified_at": "2026-08-06T18:47:14.497Z"
+  },
+  "90184D100": {
+    "cusip": "90184D100",
+    "ticker": "TWST",
+    "name": "TWIST BIOSCIENCE CORP",
+    "sector": "Health Care",
+    "industry": "Diagnostics & Research",
+    "ticker_source": "openfigi",
+    "sector_source": "yahoo-finance",
+    "classified_at": "2026-08-06T18:47:14.585Z"
+  },
+  "92837L109": {
+    "cusip": "92837L109",
+    "ticker": "VIST",
+    "name": "VISTA ENERGY SAB DE CV",
+    "sector": "Energy",
+    "industry": "Oil & Gas E&P",
+    "ticker_source": "openfigi",
+    "sector_source": "yahoo-finance",
+    "classified_at": "2026-08-06T18:47:14.588Z"
+  },
+  "98420N105": {
+    "cusip": "98420N105",
+    "ticker": "XENE",
+    "name": "XENON PHARMACEUTICALS INC",
+    "sector": "Health Care",
+    "industry": "Biotechnology",
+    "ticker_source": "openfigi",
+    "sector_source": "yahoo-finance",
+    "classified_at": "2026-08-06T18:47:14.614Z"
+  },
+  "038923108": {
+    "cusip": "038923108",
+    "ticker": "ABR",
+    "name": "ARBOR REALTY TRUST INC",
+    "sector": "Real Estate",
+    "industry": "REIT - Mortgage",
+    "ticker_source": "openfigi",
+    "sector_source": "yahoo-finance",
+    "classified_at": "2026-08-06T18:50:10.692Z"
+  },
+  "01741R102": {
+    "cusip": "01741R102",
+    "ticker": "ATI",
+    "name": "ATI INC",
+    "sector": "Industrials",
+    "industry": "Metal Fabrication",
+    "ticker_source": "openfigi",
+    "sector_source": "yahoo-finance",
+    "classified_at": "2026-08-06T18:50:15.718Z"
+  },
+  "12503M108": {
+    "cusip": "12503M108",
+    "ticker": "CBOE",
+    "name": "CBOE GLOBAL MARKETS INC",
+    "sector": "Financials",
+    "industry": "Financial Data & Stock Exchanges",
+    "ticker_source": "openfigi",
+    "sector_source": "yahoo-finance",
+    "classified_at": "2026-08-06T18:50:15.717Z"
+  },
+  "34631F102": {
+    "cusip": "34631F102",
+    "ticker": "FPS",
+    "name": "FORGENT POWER SOLUTIONS-CL A",
+    "sector": "Industrials",
+    "industry": "Electrical Equipment & Parts",
+    "ticker_source": "openfigi",
+    "sector_source": "yahoo-finance",
+    "classified_at": "2026-08-06T18:50:15.717Z"
+  },
+  "45841N107": {
+    "cusip": "45841N107",
+    "ticker": "IBKR",
+    "name": "INTERACTIVE BROKERS GRO-CL A",
+    "sector": "Financials",
+    "industry": "Capital Markets",
+    "ticker_source": "openfigi",
+    "sector_source": "yahoo-finance",
+    "classified_at": "2026-08-06T18:50:15.755Z"
+  },
+  "75120L209": {
+    "cusip": "75120L209",
+    "ticker": "RLYB",
+    "name": "RALLYBIO CORP",
+    "sector": "Health Care",
+    "industry": "Biotechnology",
+    "ticker_source": "openfigi",
+    "sector_source": "yahoo-finance",
+    "classified_at": "2026-08-06T18:50:15.863Z"
+  },
+  "55616P104": {
+    "cusip": "55616P104",
+    "ticker": "M",
+    "name": "MACY'S INC",
+    "sector": "Consumer Discretionary",
+    "industry": "Department Stores",
+    "ticker_source": "openfigi",
+    "sector_source": "yahoo-finance",
+    "classified_at": "2026-08-06T18:50:16.885Z"
+  },
+  "35834F104": {
+    "cusip": "35834F104",
+    "ticker": "TE",
+    "name": "T1 ENERGY INC",
+    "sector": "Industrials",
+    "industry": "Electrical Equipment & Parts",
+    "ticker_source": "openfigi",
+    "sector_source": "yahoo-finance",
+    "classified_at": "2026-08-06T18:50:18.017Z"
   }
 }
