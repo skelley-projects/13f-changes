@@ -58,7 +58,19 @@ export async function classifyNewCusips(
       if (!figi) {
         return { cusip, manual: { cusip, issuer: issuerNames[cusip] ?? cusip, reason: 'no-ticker' } };
       }
-      const sector = await deps.lookupTickerSector(figi.ticker);
+      // A single unresolvable ticker must not abort the whole fund. Warrant and
+      // unit tickers are the usual culprits: OpenFIGI returns e.g. "FLYX/WS",
+      // and the slash breaks Yahoo's URL path so the request 502s. Degrade to
+      // manual classification, which is where such a security was headed anyway.
+      let sector: SectorIndustry | null = null;
+      try {
+        sector = await deps.lookupTickerSector(figi.ticker);
+      } catch (error) {
+        console.warn(
+          `  sector lookup failed for ${figi.ticker} (${cusip}): ` +
+          `${error instanceof Error ? error.message.split('\n')[0] : error}`,
+        );
+      }
       if (!sector) {
         return {
           cusip,
