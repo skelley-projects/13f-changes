@@ -3,6 +3,20 @@
   "quarters": [
     {
       "slug": "aqr",
+      "period": "2026-Q1",
+      "period_ending": "2026-03-31",
+      "filing_date": "2026-05-15",
+      "accession": "0001167557-26-000115",
+      "edgar_url": "https://www.sec.gov/Archives/edgar/data/1167557/000116755726000115/",
+      "value_units": "USD",
+      "schema_version": "X02",
+      "total_value": 218373976700,
+      "position_count": 20832,
+      "summary": "246 new positions against 95 closed across a 20,832-line book totalling $218B.",
+      "fetched_at": "2026-08-06T18:00:00.000Z"
+    },
+    {
+      "slug": "aqr",
       "period": "2025-Q4",
       "period_ending": "2025-12-31",
       "filing_date": "2026-02-17",

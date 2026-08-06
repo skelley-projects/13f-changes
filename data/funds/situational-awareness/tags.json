@@ -39,13 +39,13 @@
     {
       "id": "photonics",
       "label": "Photonics",
-      "description": "Optical interconnects, transceivers, silicon photonics, lasers — components specific to high-bandwidth data center networking.",
+      "description": "Optical interconnects, transceivers, silicon photonics, lasers \u2014 components specific to high-bandwidth data center networking.",
       "parent": "ai-compute"
     },
     {
       "id": "hbm-memory",
       "label": "HBM memory",
-      "description": "High-bandwidth memory (HBM) chips and the DRAM makers producing them — a known supply bottleneck for AI accelerators.",
+      "description": "High-bandwidth memory (HBM) chips and the DRAM makers producing them \u2014 a known supply bottleneck for AI accelerators.",
       "parent": "ai-compute"
     },
     {
@@ -143,42 +143,185 @@
       "label": "Specialty foundry",
       "description": "Specialty semiconductor foundries and analog/mixed-signal fabs adjacent to AI hardware supply chains.",
       "parent": "ai-compute"
+    },
+    {
+      "id": "semicap-equipment",
+      "label": "Semicap equipment",
+      "description": "Lithography and wafer-fab equipment enabling advanced-node AI silicon. Distinct from ai-foundry, which covers the foundries themselves."
     }
   ],
   "assignments": {
-    "038169207": ["ai-infra-datacenter", "bitcoin-mining", "ai-datacenter-hosting"],
-    "05614L209": ["ai-infra-power", "power-equipment"],
-    "G11448100": ["bitcoin-mining", "ai-infra-power", "bitcoin-hpc-miners"],
-    "09173B107": ["bitcoin-mining", "bitcoin-hpc-miners"],
-    "093712107": ["ai-infra-power", "fuel-cells"],
-    "093712AH0": ["ai-infra-power", "fuel-cells"],
-    "17253J106": ["bitcoin-mining", "ai-infra-power", "bitcoin-hpc-miners"],
-    "17253JAA4": ["bitcoin-mining", "ai-infra-power", "bitcoin-hpc-miners"],
-    "18452B209": ["bitcoin-mining", "bitcoin-hpc-miners"],
-    "19247G107": ["ai-compute", "photonics"],
-    "21874A106": ["bitcoin-mining", "ai-infra-datacenter", "ai-datacenter-hosting"],
-    "21873S108": ["ai-infra-datacenter", "ai-compute", "accelerated-cloud"],
-    "26884L109": ["ai-infra-power", "gas-power"],
-    "44812J104": ["bitcoin-mining", "ai-infra-power", "bitcoin-hpc-miners"],
-    "Q4982L109": ["bitcoin-mining", "ai-infra-datacenter", "ai-datacenter-hosting"],
-    "458140100": ["ai-compute", "platform-silicon"],
-    "53115L104": ["ai-infra-power", "oilfield-power-services"],
-    "55024U109": ["ai-compute", "photonics"],
-    "55024UAD1": ["ai-compute", "photonics"],
-    "73933G202": ["ai-infra-power", "power-equipment"],
-    "74347M108": ["ai-infra-power", "oilfield-power-services"],
-    "767292105": ["bitcoin-mining", "bitcoin-hpc-miners"],
-    "80004C200": ["ai-compute", "storage-media"],
-    "83418M103": ["ai-infra-power", "oilfield-power-services"],
-    "M87915274": ["ai-compute", "specialty-foundry"],
-    "G96115103": ["ai-infra-datacenter", "ai-datacenter-hosting"],
-    "11135F101": ["ai-compute", "ai-networking-silicon"],
-    "36317J209": ["bitcoin-mining", "ai-infra-datacenter", "ai-datacenter-hosting"],
-    "595112103": ["ai-compute", "hbm-memory"],
-    "67066G104": ["ai-compute", "gpu-accelerator"],
-    "874039100": ["ai-compute", "ai-foundry"],
-    "92840M102": ["ai-infra-power", "nuclear-power"],
-    "G7997R103": ["ai-compute", "storage-media"],
-    "958102AT2": ["ai-compute", "storage-media"]
+    "038169207": [
+      "ai-infra-datacenter",
+      "bitcoin-mining",
+      "ai-datacenter-hosting"
+    ],
+    "05614L209": [
+      "ai-infra-power",
+      "power-equipment"
+    ],
+    "G11448100": [
+      "bitcoin-mining",
+      "ai-infra-power",
+      "bitcoin-hpc-miners"
+    ],
+    "09173B107": [
+      "bitcoin-mining",
+      "bitcoin-hpc-miners"
+    ],
+    "093712107": [
+      "ai-infra-power",
+      "fuel-cells"
+    ],
+    "093712AH0": [
+      "ai-infra-power",
+      "fuel-cells"
+    ],
+    "17253J106": [
+      "bitcoin-mining",
+      "ai-infra-power",
+      "bitcoin-hpc-miners"
+    ],
+    "17253JAA4": [
+      "bitcoin-mining",
+      "ai-infra-power",
+      "bitcoin-hpc-miners"
+    ],
+    "18452B209": [
+      "bitcoin-mining",
+      "bitcoin-hpc-miners"
+    ],
+    "19247G107": [
+      "ai-compute",
+      "photonics"
+    ],
+    "21874A106": [
+      "bitcoin-mining",
+      "ai-infra-datacenter",
+      "ai-datacenter-hosting"
+    ],
+    "21873S108": [
+      "ai-infra-datacenter",
+      "ai-compute",
+      "accelerated-cloud"
+    ],
+    "26884L109": [
+      "ai-infra-power",
+      "gas-power"
+    ],
+    "44812J104": [
+      "bitcoin-mining",
+      "ai-infra-power",
+      "bitcoin-hpc-miners"
+    ],
+    "Q4982L109": [
+      "bitcoin-mining",
+      "ai-infra-datacenter",
+      "ai-datacenter-hosting"
+    ],
+    "458140100": [
+      "ai-compute",
+      "platform-silicon"
+    ],
+    "53115L104": [
+      "ai-infra-power",
+      "oilfield-power-services"
+    ],
+    "55024U109": [
+      "ai-compute",
+      "photonics"
+    ],
+    "55024UAD1": [
+      "ai-compute",
+      "photonics"
+    ],
+    "73933G202": [
+      "ai-infra-power",
+      "power-equipment"
+    ],
+    "74347M108": [
+      "ai-infra-power",
+      "oilfield-power-services"
+    ],
+    "767292105": [
+      "bitcoin-mining",
+      "bitcoin-hpc-miners"
+    ],
+    "80004C200": [
+      "ai-compute",
+      "storage-media"
+    ],
+    "83418M103": [
+      "ai-infra-power",
+      "oilfield-power-services"
+    ],
+    "M87915274": [
+      "ai-compute",
+      "specialty-foundry"
+    ],
+    "G96115103": [
+      "ai-infra-datacenter",
+      "ai-datacenter-hosting"
+    ],
+    "11135F101": [
+      "ai-compute",
+      "ai-networking-silicon"
+    ],
+    "36317J209": [
+      "bitcoin-mining",
+      "ai-infra-datacenter",
+      "ai-datacenter-hosting"
+    ],
+    "595112103": [
+      "ai-compute",
+      "hbm-memory"
+    ],
+    "67066G104": [
+      "ai-compute",
+      "gpu-accelerator"
+    ],
+    "874039100": [
+      "ai-compute",
+      "ai-foundry"
+    ],
+    "92840M102": [
+      "ai-infra-power",
+      "nuclear-power"
+    ],
+    "G7997R103": [
+      "ai-compute",
+      "storage-media"
+    ],
+    "958102AT2": [
+      "ai-compute",
+      "storage-media"
+    ],
+    "92189F676": [
+      "ai-compute"
+    ],
+    "68389X105": [
+      "accelerated-cloud",
+      "ai-datacenter-hosting"
+    ],
+    "007903107": [
+      "ai-compute",
+      "gpu-accelerator"
+    ],
+    "N07059210": [
+      "semicap-equipment"
+    ],
+    "35834F104": [
+      "ai-infra-power",
+      "power-equipment"
+    ],
+    "219350105": [
+      "photonics"
+    ],
+    "778920306": [
+      "ai-datacenter-hosting"
+    ],
+    "433921103": [
+      "bitcoin-hpc-miners"
+    ]
   }
 }

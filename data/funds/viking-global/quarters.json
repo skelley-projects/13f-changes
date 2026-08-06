@@ -3,6 +3,20 @@
   "quarters": [
     {
       "slug": "viking-global",
+      "period": "2026-Q1",
+      "period_ending": "2026-03-31",
+      "filing_date": "2026-05-15",
+      "accession": "0001103804-26-000004",
+      "edgar_url": "https://www.sec.gov/Archives/edgar/data/1103804/000110380426000004/",
+      "value_units": "USD",
+      "schema_version": "X02",
+      "total_value": 35748670967,
+      "position_count": 77,
+      "summary": "Rebuilt the top of the book with a new $912M Apple stake plus FedEx and Meta, while halving PNC and cutting Microsoft 28%. Exited AMD, DraftKings and Ross Stores.",
+      "fetched_at": "2026-08-06T18:00:00.000Z"
+    },
+    {
+      "slug": "viking-global",
       "period": "2025-Q4",
       "period_ending": "2025-12-31",
       "filing_date": "2026-02-17",

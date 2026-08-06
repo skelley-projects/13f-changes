@@ -18,7 +18,9 @@
         "put_call": "Put",
         "sector": "Information Technology",
         "industry": "Semiconductor ETF",
-        "tags": [],
+        "tags": [
+          "ai-compute"
+        ],
         "current_value": 2042716860,
         "prior_value": null,
         "current_shares": 5327900,
@@ -59,7 +61,10 @@
         "put_call": "Put",
         "sector": "Information Technology",
         "industry": "Software - Infrastructure",
-        "tags": [],
+        "tags": [
+          "accelerated-cloud",
+          "ai-datacenter-hosting"
+        ],
         "current_value": 1072873230,
         "prior_value": null,
         "current_shares": 7293000,
@@ -100,7 +105,10 @@
         "put_call": "Put",
         "sector": "Information Technology",
         "industry": "Semiconductors",
-        "tags": [],
+        "tags": [
+          "ai-compute",
+          "gpu-accelerator"
+        ],
         "current_value": 969160863,
         "prior_value": null,
         "current_shares": 4764100,
@@ -163,7 +171,9 @@
         "put_call": "Put",
         "sector": "Information Technology",
         "industry": "Semiconductor Equipment & Materials",
-        "tags": [],
+        "tags": [
+          "semicap-equipment"
+        ],
         "current_value": 494122503,
         "prior_value": null,
         "current_shares": 374100,
@@ -248,7 +258,10 @@
         "put_call": null,
         "sector": "Industrials",
         "industry": "Electrical Equipment & Parts",
-        "tags": [],
+        "tags": [
+          "ai-infra-power",
+          "power-equipment"
+        ],
         "current_value": 43900000,
         "prior_value": null,
         "current_shares": 10000000,
@@ -267,7 +280,9 @@
         "put_call": "Put",
         "sector": "Information Technology",
         "industry": "Electronic Components",
-        "tags": [],
+        "tags": [
+          "photonics"
+        ],
         "current_value": 21020962,
         "prior_value": null,
         "current_shares": 154600,
@@ -286,7 +301,10 @@
         "put_call": null,
         "sector": "Information Technology",
         "industry": "Semiconductors",
-        "tags": [],
+        "tags": [
+          "ai-compute",
+          "gpu-accelerator"
+        ],
         "current_value": 20167643,
         "prior_value": null,
         "current_shares": 99138,
@@ -305,7 +323,9 @@
         "put_call": null,
         "sector": "Information Technology",
         "industry": "Information Technology Services",
-        "tags": [],
+        "tags": [
+          "ai-datacenter-hosting"
+        ],
         "current_value": 18095535,
         "prior_value": null,
         "current_shares": 796108,
@@ -324,7 +344,9 @@
         "put_call": null,
         "sector": "Information Technology",
         "industry": "Semiconductor ETF",
-        "tags": [],
+        "tags": [
+          "ai-compute"
+        ],
         "current_value": 10332630,
         "prior_value": null,
         "current_shares": 26950,
@@ -365,7 +387,9 @@
         "put_call": null,
         "sector": "Financials",
         "industry": "Capital Markets",
-        "tags": [],
+        "tags": [
+          "bitcoin-hpc-miners"
+        ],
         "current_value": 6443939,
         "prior_value": null,
         "current_shares": 3391547,
@@ -384,7 +408,9 @@
         "put_call": null,
         "sector": "Information Technology",
         "industry": "Semiconductor Equipment & Materials",
-        "tags": [],
+        "tags": [
+          "semicap-equipment"
+        ],
         "current_value": 6119405,
         "prior_value": null,
         "current_shares": 4633,
@@ -425,7 +451,9 @@
         "put_call": null,
         "sector": "Information Technology",
         "industry": "Electronic Components",
-        "tags": [],
+        "tags": [
+          "photonics"
+        ],
         "current_value": 718330,
         "prior_value": null,
         "current_shares": 5283,
@@ -1097,23 +1125,28 @@
     "current": [
       {
         "label": "AI compute",
-        "value": 6462196316,
-        "pct": 47.24982167329728
+        "value": 9526313604,
+        "pct": 69.65381380916034
       },
       {
         "label": "AI infrastructure - datacenter",
-        "value": 1827676654,
-        "pct": 13.363474545663841
+        "value": 2918645419,
+        "pct": 21.340341399701916
       },
       {
         "label": "Bitcoin mining",
-        "value": 1425246425,
-        "pct": 10.421014176715467
+        "value": 1431690364,
+        "pct": 10.468130505860366
       },
       {
         "label": "AI infrastructure - power",
-        "value": 1085606163,
-        "pct": 7.937656966901482
+        "value": 1129506163,
+        "pct": 8.258641825613063
+      },
+      {
+        "label": "Semicap equipment",
+        "value": 500241908,
+        "pct": 3.657632759931458
       }
     ],
     "prior": [
@@ -1141,19 +1174,23 @@
     "deltas": [
       {
         "label": "AI infrastructure - datacenter",
-        "delta_pct_pts": -27.68024599453684
-      },
-      {
-        "label": "AI infrastructure - power",
-        "delta_pct_pts": -18.053477433603057
-      },
-      {
-        "label": "Bitcoin mining",
-        "delta_pct_pts": -14.056933098678556
+        "delta_pct_pts": -19.703379140498765
       },
       {
         "label": "AI compute",
-        "delta_pct_pts": -4.597468766610511
+        "delta_pct_pts": 17.806523369252552
+      },
+      {
+        "label": "AI infrastructure - power",
+        "delta_pct_pts": -17.732492574891474
+      },
+      {
+        "label": "Bitcoin mining",
+        "delta_pct_pts": -14.009816769533657
+      },
+      {
+        "label": "Semicap equipment",
+        "delta_pct_pts": 3.657632759931458
       }
     ]
   },
@@ -1161,13 +1198,18 @@
     "current": [
       {
         "label": "GPU / accelerator",
-        "value": 1568755032,
-        "pct": 11.470310075161722
+        "value": 2558083538,
+        "pct": 18.704011002673067
       },
       {
         "label": "AI datacenter hosting",
-        "value": 1131033954,
-        "pct": 8.269812617828913
+        "value": 2222002719,
+        "pct": 16.246679471866987
+      },
+      {
+        "label": "Accelerated cloud",
+        "value": 1769515930,
+        "pct": 12.938219152139851
       },
       {
         "label": "Storage media",
@@ -1195,14 +1237,9 @@
         "pct": 6.56253458088607
       },
       {
-        "label": "Accelerated cloud",
-        "value": 696642700,
-        "pct": 5.093661927834928
-      },
-      {
         "label": "Bitcoin / HPC miners",
-        "value": 315145487,
-        "pct": 2.3042580778653066
+        "value": 321589426,
+        "pct": 2.351374407010205
       },
       {
         "label": "Platform silicon",
@@ -1210,14 +1247,19 @@
         "pct": 1.2286316452243806
       },
       {
+        "label": "Power equipment",
+        "value": 90107215,
+        "pct": 0.6588394459150098
+      },
+      {
         "label": "Oilfield power services",
         "value": 75592110,
         "pct": 0.5527089464250612
       },
       {
-        "label": "Power equipment",
-        "value": 46207215,
-        "pct": 0.33785458720343015
+        "label": "Photonics",
+        "value": 21739292,
+        "pct": 0.15895178977471008
       }
     ],
     "prior": [
@@ -1279,28 +1321,24 @@
     ],
     "deltas": [
       {
-        "label": "Accelerated cloud",
-        "delta_pct_pts": -16.860576345039796
+        "label": "GPU / accelerator",
+        "delta_pct_pts": 18.704011002673067
       },
       {
         "label": "Platform silicon",
         "delta_pct_pts": -12.307580207825348
       },
       {
-        "label": "GPU / accelerator",
-        "delta_pct_pts": 11.470310075161722
-      },
-      {
-        "label": "AI datacenter hosting",
-        "delta_pct_pts": -10.819669649497046
-      },
-      {
         "label": "Photonics",
-        "delta_pct_pts": -10.281875542257415
+        "delta_pct_pts": -10.122923752482706
       },
       {
         "label": "Fuel cells",
         "delta_pct_pts": -9.683762424399392
+      },
+      {
+        "label": "Accelerated cloud",
+        "delta_pct_pts": -9.016019120734871
       },
       {
         "label": "HBM memory",
@@ -1320,11 +1358,15 @@
       },
       {
         "label": "Bitcoin / HPC miners",
-        "delta_pct_pts": -3.587583700823298
+        "delta_pct_pts": -3.5404673716783996
       },
       {
         "label": "Gas peakers / nat-gas E&P",
         "delta_pct_pts": -3.0918022746925304
+      },
+      {
+        "label": "AI datacenter hosting",
+        "delta_pct_pts": -2.8428027954589723
       },
       {
         "label": "Specialty foundry",
@@ -1336,49 +1378,67 @@
       },
       {
         "label": "Power equipment",
-        "delta_pct_pts": -0.2654951685488313
+        "delta_pct_pts": 0.055489690162748295
       }
     ]
   },
-  "granular_coverage_pct": 65.54401633974608,
+  "granular_coverage_pct": 81.28163709892668,
   "theme_activity_breakdown": {
     "entries": [
       {
         "label": "AI compute",
-        "bought": 5179376563.595858,
+        "bought": 8243493851.595858,
         "sold": 2043371417,
-        "net": 3136005146.5958576
+        "net": 6200122434.595858
       },
       {
         "label": "AI infrastructure - datacenter",
-        "bought": 237166028.97273308,
+        "bought": 1328134793.972733,
         "sold": 684500952.8305796,
-        "net": -447334923.85784656
+        "net": 643633841.1421534
       },
       {
         "label": "AI infrastructure - power",
-        "bought": 14285042.74007472,
+        "bought": 58185042.740074724,
         "sold": 722048449.139668,
-        "net": -707763406.3995932
+        "net": -663863406.3995932
       },
       {
         "label": "Bitcoin mining",
-        "bought": 349604975.5691765,
+        "bought": 356048914.5691765,
         "sold": 234052353.8305796,
-        "net": 115552621.73859689
+        "net": 121996560.73859689
+      },
+      {
+        "label": "Semicap equipment",
+        "bought": 500241908,
+        "sold": 0,
+        "net": 500241908
       }
     ],
-    "total_bought": 5780432610.877843,
+    "total_bought": 10486104510.87784,
     "total_sold": 3683973172.8008275,
-    "net": 2096459438.0770144
+    "net": 6802131338.077015
   },
   "granular_activity_breakdown": {
     "entries": [
       {
         "label": "GPU / accelerator",
-        "bought": 1568755032,
+        "bought": 2558083538,
         "sold": 0,
-        "net": 1568755032
+        "net": 2558083538
+      },
+      {
+        "label": "Accelerated cloud",
+        "bought": 1156471649.3005235,
+        "sold": 644490000,
+        "net": 511981649.3005235
+      },
+      {
+        "label": "AI datacenter hosting",
+        "bought": 1244536374.6722097,
+        "sold": 40010952.8305796,
+        "net": 1204525421.8416302
       },
       {
         "label": "HBM memory",
@@ -1405,16 +1465,10 @@
         "net": 897535383
       },
       {
-        "label": "Accelerated cloud",
-        "bought": 83598419.3005236,
-        "sold": 644490000,
-        "net": -560891580.6994764
-      },
-      {
         "label": "Photonics",
-        "bought": 0,
+        "bought": 21739292,
         "sold": 567226227,
-        "net": -567226227
+        "net": -545486935
       },
       {
         "label": "Storage media",
@@ -1424,21 +1478,15 @@
       },
       {
         "label": "Bitcoin / HPC miners",
-        "bought": 196037365.89696702,
+        "bought": 202481304.89696702,
         "sold": 194041401,
-        "net": 1995964.8969670236
+        "net": 8439903.896967024
       },
       {
         "label": "Fuel cells",
         "bought": 0,
         "sold": 311988450.609668,
         "net": -311988450.609668
-      },
-      {
-        "label": "AI datacenter hosting",
-        "bought": 153567609.6722095,
-        "sold": 40010952.8305796,
-        "net": 113556656.8416299
       },
       {
         "label": "Gas peakers / nat-gas E&P",
@@ -1457,10 +1505,16 @@
         "bought": 0,
         "sold": 45451337.53,
         "net": -45451337.53
+      },
+      {
+        "label": "Power equipment",
+        "bought": 43900000,
+        "sold": 0,
+        "net": 43900000
       }
     ],
-    "total_bought": 5528981539.165034,
+    "total_bought": 8754235271.165035,
     "total_sold": 2805430818.9702477,
-    "net": 2723550720.1947856
+    "net": 5948804452.194787
   }
 }

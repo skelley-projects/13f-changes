@@ -162,97 +162,447 @@
       "label": "EM / country ETFs",
       "description": "Emerging-market and country-specific ETF exposure.",
       "parent": "market-beta-em"
+    },
+    {
+      "id": "cloud-software",
+      "label": "Cloud software",
+      "description": "B2B cloud and developer infrastructure software (CDN, edge, communications APIs)."
     }
   ],
   "assignments": {
-    "000899104": ["health-care", "therapeutics-biotech"],
-    "00835Q202": ["consumer-platforms", "digital-media-apps"],
-    "013872106": ["industrial-real-assets", "metals-materials"],
-    "020398707": ["industrial-real-assets", "metals-materials"],
-    "02079K305": ["consumer-platforms", "digital-media-apps"],
-    "023135106": ["consumer-platforms", "ecommerce-marketplaces"],
-    "02376R102": ["industrial-real-assets", "aerospace-transport"],
-    "04010E109": ["industrial-real-assets", "power-electrification"],
-    "042068205": ["semis-ai-hardware", "edge-power-semiconductors"],
-    "060505104": ["financials-credit", "banks-credit"],
-    "093712107": ["industrial-real-assets", "power-electrification"],
-    "14040H105": ["financials-credit", "banks-credit"],
-    "144285103": ["industrial-real-assets", "metals-materials"],
-    "16935C109": ["financials-credit", "fintech-capital-markets"],
-    "169656105": ["consumer-platforms", "restaurants-staples"],
-    "171757206": ["health-care", "therapeutics-biotech"],
-    "172967424": ["financials-credit", "banks-credit"],
-    "185899101": ["industrial-real-assets", "metals-materials"],
-    "19240Q201": ["health-care", "therapeutics-biotech"],
-    "22266T109": ["consumer-platforms", "ecommerce-marketplaces"],
-    "23331A109": ["consumer-platforms", "housing-retail"],
-    "234264109": ["industrial-real-assets", "industrial-tech"],
-    "247361702": ["industrial-real-assets", "aerospace-transport"],
-    "253393102": ["consumer-platforms", "housing-retail"],
-    "256163106": ["consumer-platforms", "digital-media-apps"],
-    "25809K105": ["consumer-platforms", "ecommerce-marketplaces"],
-    "26884L109": ["industrial-real-assets", "energy-resources"],
-    "278768106": ["consumer-platforms", "digital-media-apps"],
-    "29337E102": ["health-care", "therapeutics-biotech"],
-    "29362U104": ["semis-ai-hardware", "semicap-materials"],
-    "30303M102": ["consumer-platforms", "digital-media-apps"],
-    "349381103": ["financials-credit", "fintech-capital-markets"],
-    "36828A101": ["industrial-real-assets", "power-electrification"],
-    "372460105": ["consumer-platforms", "housing-retail"],
-    "37950E259": ["market-beta-em", "em-country-etfs"],
-    "38141G104": ["financials-credit", "banks-credit"],
-    "457669307": ["health-care", "therapeutics-biotech"],
-    "46137V357": ["market-beta-em", "broad-market-etfs"],
-    "464286400": ["market-beta-em", "em-country-etfs"],
-    "464287234": ["market-beta-em", "em-country-etfs"],
-    "464287655": ["market-beta-em", "broad-market-etfs"],
-    "518415104": ["semis-ai-hardware", "edge-power-semiconductors"],
-    "526057104": ["consumer-platforms", "housing-retail"],
-    "531229755": ["consumer-platforms", "digital-media-apps"],
-    "58733R102": ["consumer-platforms", "ecommerce-marketplaces"],
-    "60937P106": ["consumer-platforms", "digital-media-apps"],
-    "632307104": ["health-care", "diagnostics-research"],
-    "64073B103": ["financials-credit", "banks-credit"],
-    "682189105": ["semis-ai-hardware", "edge-power-semiconductors"],
-    "68404L201": ["health-care", "care-delivery"],
-    "69331C108": ["industrial-real-assets", "power-electrification"],
-    "718172109": ["consumer-platforms", "restaurants-staples"],
-    "737446104": ["consumer-platforms", "restaurants-staples"],
-    "74340E103": ["health-care", "care-delivery"],
-    "74366E102": ["health-care", "therapeutics-biotech"],
-    "74623V103": ["industrial-real-assets", "industrial-tech"],
-    "74967X103": ["consumer-platforms", "housing-retail"],
-    "76131D103": ["consumer-platforms", "restaurants-staples"],
-    "77543R102": ["consumer-platforms", "digital-media-apps"],
-    "78462F103": ["market-beta-em", "broad-market-etfs"],
-    "78464A797": ["financials-credit", "financial-etfs"],
-    "80004C200": ["semis-ai-hardware", "storage-hardware"],
-    "81141R100": ["consumer-platforms", "ecommerce-marketplaces"],
-    "81369Y605": ["financials-credit", "financial-etfs"],
-    "816850101": ["semis-ai-hardware", "edge-power-semiconductors"],
-    "83418M103": ["industrial-real-assets", "energy-resources"],
-    "84265V105": ["industrial-real-assets", "metals-materials"],
-    "861012102": ["semis-ai-hardware", "edge-power-semiconductors"],
-    "86384P109": ["consumer-platforms", "digital-media-apps"],
-    "87165B103": ["financials-credit", "banks-credit"],
-    "874039100": ["semis-ai-hardware", "ai-foundry"],
-    "881624209": ["health-care", "pharma-generics"],
-    "882681109": ["consumer-platforms", "restaurants-staples"],
-    "910047109": ["industrial-real-assets", "aerospace-transport"],
-    "91332U101": ["consumer-platforms", "digital-media-apps"],
-    "925050106": ["health-care", "therapeutics-biotech"],
-    "92840M102": ["industrial-real-assets", "power-electrification"],
-    "929740108": ["industrial-real-assets", "aerospace-transport"],
-    "97785W106": ["semis-ai-hardware", "edge-power-semiconductors"],
-    "980745103": ["industrial-real-assets", "aerospace-transport"],
-    "984245100": ["industrial-real-assets", "energy-resources"],
-    "98954M200": ["consumer-platforms", "housing-retail"],
-    "G0896C103": ["consumer-platforms", "restaurants-staples"],
-    "G25508105": ["industrial-real-assets", "metals-materials"],
-    "G3643J108": ["consumer-platforms", "digital-media-apps"],
-    "G6683N103": ["financials-credit", "fintech-capital-markets"],
-    "G7997R103": ["semis-ai-hardware", "storage-hardware"],
-    "N62509109": ["health-care", "therapeutics-biotech"],
-    "Y95308105": ["health-care", "therapeutics-biotech"]
+    "000899104": [
+      "health-care",
+      "therapeutics-biotech"
+    ],
+    "00835Q202": [
+      "consumer-platforms",
+      "digital-media-apps"
+    ],
+    "013872106": [
+      "industrial-real-assets",
+      "metals-materials"
+    ],
+    "020398707": [
+      "industrial-real-assets",
+      "metals-materials"
+    ],
+    "02079K305": [
+      "consumer-platforms",
+      "digital-media-apps"
+    ],
+    "023135106": [
+      "consumer-platforms",
+      "ecommerce-marketplaces"
+    ],
+    "02376R102": [
+      "industrial-real-assets",
+      "aerospace-transport"
+    ],
+    "04010E109": [
+      "industrial-real-assets",
+      "power-electrification"
+    ],
+    "042068205": [
+      "semis-ai-hardware",
+      "edge-power-semiconductors"
+    ],
+    "060505104": [
+      "financials-credit",
+      "banks-credit"
+    ],
+    "093712107": [
+      "industrial-real-assets",
+      "power-electrification"
+    ],
+    "14040H105": [
+      "financials-credit",
+      "banks-credit"
+    ],
+    "144285103": [
+      "industrial-real-assets",
+      "metals-materials"
+    ],
+    "16935C109": [
+      "financials-credit",
+      "fintech-capital-markets"
+    ],
+    "169656105": [
+      "consumer-platforms",
+      "restaurants-staples"
+    ],
+    "171757206": [
+      "health-care",
+      "therapeutics-biotech"
+    ],
+    "172967424": [
+      "financials-credit",
+      "banks-credit"
+    ],
+    "185899101": [
+      "industrial-real-assets",
+      "metals-materials"
+    ],
+    "19240Q201": [
+      "health-care",
+      "therapeutics-biotech"
+    ],
+    "22266T109": [
+      "consumer-platforms",
+      "ecommerce-marketplaces"
+    ],
+    "23331A109": [
+      "consumer-platforms",
+      "housing-retail"
+    ],
+    "234264109": [
+      "industrial-real-assets",
+      "industrial-tech"
+    ],
+    "247361702": [
+      "industrial-real-assets",
+      "aerospace-transport"
+    ],
+    "253393102": [
+      "consumer-platforms",
+      "housing-retail"
+    ],
+    "256163106": [
+      "consumer-platforms",
+      "digital-media-apps"
+    ],
+    "25809K105": [
+      "consumer-platforms",
+      "ecommerce-marketplaces"
+    ],
+    "26884L109": [
+      "industrial-real-assets",
+      "energy-resources"
+    ],
+    "278768106": [
+      "consumer-platforms",
+      "digital-media-apps"
+    ],
+    "29337E102": [
+      "health-care",
+      "therapeutics-biotech"
+    ],
+    "29362U104": [
+      "semis-ai-hardware",
+      "semicap-materials"
+    ],
+    "30303M102": [
+      "consumer-platforms",
+      "digital-media-apps"
+    ],
+    "349381103": [
+      "financials-credit",
+      "fintech-capital-markets"
+    ],
+    "36828A101": [
+      "industrial-real-assets",
+      "power-electrification"
+    ],
+    "372460105": [
+      "consumer-platforms",
+      "housing-retail"
+    ],
+    "37950E259": [
+      "market-beta-em",
+      "em-country-etfs"
+    ],
+    "38141G104": [
+      "financials-credit",
+      "banks-credit"
+    ],
+    "457669307": [
+      "health-care",
+      "therapeutics-biotech"
+    ],
+    "46137V357": [
+      "market-beta-em",
+      "broad-market-etfs"
+    ],
+    "464286400": [
+      "market-beta-em",
+      "em-country-etfs"
+    ],
+    "464287234": [
+      "market-beta-em",
+      "em-country-etfs"
+    ],
+    "464287655": [
+      "market-beta-em",
+      "broad-market-etfs"
+    ],
+    "518415104": [
+      "semis-ai-hardware",
+      "edge-power-semiconductors"
+    ],
+    "526057104": [
+      "consumer-platforms",
+      "housing-retail"
+    ],
+    "531229755": [
+      "consumer-platforms",
+      "digital-media-apps"
+    ],
+    "58733R102": [
+      "consumer-platforms",
+      "ecommerce-marketplaces"
+    ],
+    "60937P106": [
+      "consumer-platforms",
+      "digital-media-apps"
+    ],
+    "632307104": [
+      "health-care",
+      "diagnostics-research"
+    ],
+    "64073B103": [
+      "financials-credit",
+      "banks-credit"
+    ],
+    "682189105": [
+      "semis-ai-hardware",
+      "edge-power-semiconductors"
+    ],
+    "68404L201": [
+      "health-care",
+      "care-delivery"
+    ],
+    "69331C108": [
+      "industrial-real-assets",
+      "power-electrification"
+    ],
+    "718172109": [
+      "consumer-platforms",
+      "restaurants-staples"
+    ],
+    "737446104": [
+      "consumer-platforms",
+      "restaurants-staples"
+    ],
+    "74340E103": [
+      "health-care",
+      "care-delivery"
+    ],
+    "74366E102": [
+      "health-care",
+      "therapeutics-biotech"
+    ],
+    "74623V103": [
+      "industrial-real-assets",
+      "industrial-tech"
+    ],
+    "74967X103": [
+      "consumer-platforms",
+      "housing-retail"
+    ],
+    "76131D103": [
+      "consumer-platforms",
+      "restaurants-staples"
+    ],
+    "77543R102": [
+      "consumer-platforms",
+      "digital-media-apps"
+    ],
+    "78462F103": [
+      "market-beta-em",
+      "broad-market-etfs"
+    ],
+    "78464A797": [
+      "financials-credit",
+      "financial-etfs"
+    ],
+    "80004C200": [
+      "semis-ai-hardware",
+      "storage-hardware"
+    ],
+    "81141R100": [
+      "consumer-platforms",
+      "ecommerce-marketplaces"
+    ],
+    "81369Y605": [
+      "financials-credit",
+      "financial-etfs"
+    ],
+    "816850101": [
+      "semis-ai-hardware",
+      "edge-power-semiconductors"
+    ],
+    "83418M103": [
+      "industrial-real-assets",
+      "energy-resources"
+    ],
+    "84265V105": [
+      "industrial-real-assets",
+      "metals-materials"
+    ],
+    "861012102": [
+      "semis-ai-hardware",
+      "edge-power-semiconductors"
+    ],
+    "86384P109": [
+      "consumer-platforms",
+      "digital-media-apps"
+    ],
+    "87165B103": [
+      "financials-credit",
+      "banks-credit"
+    ],
+    "874039100": [
+      "semis-ai-hardware",
+      "ai-foundry"
+    ],
+    "881624209": [
+      "health-care",
+      "pharma-generics"
+    ],
+    "882681109": [
+      "consumer-platforms",
+      "restaurants-staples"
+    ],
+    "910047109": [
+      "industrial-real-assets",
+      "aerospace-transport"
+    ],
+    "91332U101": [
+      "consumer-platforms",
+      "digital-media-apps"
+    ],
+    "925050106": [
+      "health-care",
+      "therapeutics-biotech"
+    ],
+    "92840M102": [
+      "industrial-real-assets",
+      "power-electrification"
+    ],
+    "929740108": [
+      "industrial-real-assets",
+      "aerospace-transport"
+    ],
+    "97785W106": [
+      "semis-ai-hardware",
+      "edge-power-semiconductors"
+    ],
+    "980745103": [
+      "industrial-real-assets",
+      "aerospace-transport"
+    ],
+    "984245100": [
+      "industrial-real-assets",
+      "energy-resources"
+    ],
+    "98954M200": [
+      "consumer-platforms",
+      "housing-retail"
+    ],
+    "G0896C103": [
+      "consumer-platforms",
+      "restaurants-staples"
+    ],
+    "G25508105": [
+      "industrial-real-assets",
+      "metals-materials"
+    ],
+    "G3643J108": [
+      "consumer-platforms",
+      "digital-media-apps"
+    ],
+    "G6683N103": [
+      "financials-credit",
+      "fintech-capital-markets"
+    ],
+    "G7997R103": [
+      "semis-ai-hardware",
+      "storage-hardware"
+    ],
+    "N62509109": [
+      "health-care",
+      "therapeutics-biotech"
+    ],
+    "Y95308105": [
+      "health-care",
+      "therapeutics-biotech"
+    ],
+    "76155X100": [
+      "therapeutics-biotech"
+    ],
+    "67080N101": [
+      "therapeutics-biotech"
+    ],
+    "07782B104": [
+      "therapeutics-biotech"
+    ],
+    "68062P106": [
+      "therapeutics-biotech"
+    ],
+    "98420N105": [
+      "therapeutics-biotech"
+    ],
+    "23306J309": [
+      "therapeutics-biotech"
+    ],
+    "142152107": [
+      "diagnostics-research"
+    ],
+    "90184D100": [
+      "diagnostics-research"
+    ],
+    "11135F101": [
+      "semis-ai-hardware"
+    ],
+    "458140100": [
+      "semis-ai-hardware"
+    ],
+    "466313103": [
+      "semis-ai-hardware"
+    ],
+    "595112103": [
+      "semis-ai-hardware"
+    ],
+    "19247G107": [
+      "semis-ai-hardware"
+    ],
+    "15101Q207": [
+      "semis-ai-hardware"
+    ],
+    "55024U109": [
+      "semis-ai-hardware"
+    ],
+    "G54950103": [
+      "metals-materials"
+    ],
+    "N53745100": [
+      "metals-materials"
+    ],
+    "83443Q103": [
+      "metals-materials"
+    ],
+    "960413102": [
+      "metals-materials"
+    ],
+    "444859102": [
+      "care-delivery"
+    ],
+    "N4732M103": [
+      "restaurants-staples"
+    ],
+    "92837L109": [
+      "energy-resources"
+    ],
+    "74743L100": [
+      "semicap-materials"
+    ],
+    "46428R107": [
+      "broad-market-etfs"
+    ],
+    "90138F102": [
+      "cloud-software"
+    ],
+    "18915M107": [
+      "cloud-software"
+    ]
   }
 }

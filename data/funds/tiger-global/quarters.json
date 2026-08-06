@@ -3,6 +3,20 @@
   "quarters": [
     {
       "slug": "tiger-global",
+      "period": "2026-Q1",
+      "period_ending": "2026-03-31",
+      "filing_date": "2026-05-15",
+      "accession": "0000919574-26-003362",
+      "edgar_url": "https://www.sec.gov/Archives/edgar/data/1167483/000091957426003362/",
+      "value_units": "USD",
+      "schema_version": "X02",
+      "total_value": 22845413829,
+      "position_count": 54,
+      "summary": "Cut Microsoft 54% and Take-Two 66%, rotating down the semi supply chain into TSMC (+49%) and Applied Materials (+85%). Exited Flutter.",
+      "fetched_at": "2026-08-06T18:00:00.000Z"
+    },
+    {
+      "slug": "tiger-global",
       "period": "2025-Q4",
       "period_ending": "2025-12-31",
       "filing_date": "2026-02-17",

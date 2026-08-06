@@ -3,6 +3,20 @@
   "quarters": [
     {
       "slug": "berkshire-hathaway",
+      "period": "2026-Q1",
+      "period_ending": "2026-03-31",
+      "filing_date": "2026-05-15",
+      "accession": "0001193125-26-226661",
+      "edgar_url": "https://www.sec.gov/Archives/edgar/data/1067983/000119312526226661/",
+      "value_units": "USD",
+      "schema_version": "X02",
+      "total_value": 263095703570,
+      "position_count": 90,
+      "summary": "Backed up the truck on Chevron, a thirtyfold increase worth $11.8B, and more than doubled Alphabet. Paid for by exiting Visa, Mastercard and Domino's outright and cutting Constellation Brands 95%. New: Delta.",
+      "fetched_at": "2026-08-06T18:00:00.000Z"
+    },
+    {
+      "slug": "berkshire-hathaway",
       "period": "2025-Q4",
       "period_ending": "2025-12-31",
       "filing_date": "2026-02-17",

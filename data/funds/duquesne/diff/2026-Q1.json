@@ -18,7 +18,9 @@
         "put_call": null,
         "sector": "Information Technology",
         "industry": "Semiconductors",
-        "tags": [],
+        "tags": [
+          "semis-ai-hardware"
+        ],
         "current_value": 60650000,
         "prior_value": null,
         "current_shares": 195955,
@@ -59,7 +61,9 @@
         "put_call": null,
         "sector": "Health Care",
         "industry": "Biotechnology",
-        "tags": [],
+        "tags": [
+          "diagnostics-research"
+        ],
         "current_value": 33873000,
         "prior_value": null,
         "current_shares": 1894450,
@@ -78,7 +82,9 @@
         "put_call": null,
         "sector": "Health Care",
         "industry": "Biotechnology",
-        "tags": [],
+        "tags": [
+          "therapeutics-biotech"
+        ],
         "current_value": 30717000,
         "prior_value": null,
         "current_shares": 315860,
@@ -119,7 +125,9 @@
         "put_call": null,
         "sector": "Health Care",
         "industry": "Healthcare Plans",
-        "tags": [],
+        "tags": [
+          "care-delivery"
+        ],
         "current_value": 23842000,
         "prior_value": null,
         "current_shares": 137505,
@@ -138,7 +146,9 @@
         "put_call": null,
         "sector": "Information Technology",
         "industry": "Software - Infrastructure",
-        "tags": [],
+        "tags": [
+          "cloud-software"
+        ],
         "current_value": 22869000,
         "prior_value": null,
         "current_shares": 181760,
@@ -157,7 +167,9 @@
         "put_call": null,
         "sector": "Information Technology",
         "industry": "Electronic Components",
-        "tags": [],
+        "tags": [
+          "semis-ai-hardware"
+        ],
         "current_value": 21835000,
         "prior_value": null,
         "current_shares": 82200,
@@ -176,7 +188,9 @@
         "put_call": null,
         "sector": "Energy",
         "industry": "Commodity ETF",
-        "tags": [],
+        "tags": [
+          "broad-market-etfs"
+        ],
         "current_value": 20737000,
         "prior_value": null,
         "current_shares": 643000,
@@ -195,7 +209,9 @@
         "put_call": null,
         "sector": "Materials",
         "industry": "Specialty Chemicals",
-        "tags": [],
+        "tags": [
+          "metals-materials"
+        ],
         "current_value": 20425000,
         "prior_value": null,
         "current_shares": 41200,
@@ -236,7 +252,9 @@
         "put_call": null,
         "sector": "Health Care",
         "industry": "Biotechnology",
-        "tags": [],
+        "tags": [
+          "therapeutics-biotech"
+        ],
         "current_value": 19476000,
         "prior_value": null,
         "current_shares": 4539800,
@@ -255,7 +273,9 @@
         "put_call": null,
         "sector": "Information Technology",
         "industry": "Semiconductors",
-        "tags": [],
+        "tags": [
+          "semis-ai-hardware"
+        ],
         "current_value": 18155000,
         "prior_value": null,
         "current_shares": 411400,
@@ -274,7 +294,9 @@
         "put_call": null,
         "sector": "Health Care",
         "industry": "Biotechnology",
-        "tags": [],
+        "tags": [
+          "therapeutics-biotech"
+        ],
         "current_value": 16917000,
         "prior_value": null,
         "current_shares": 106100,
@@ -315,7 +337,9 @@
         "put_call": null,
         "sector": "Health Care",
         "industry": "Biotechnology",
-        "tags": [],
+        "tags": [
+          "therapeutics-biotech"
+        ],
         "current_value": 14714000,
         "prior_value": null,
         "current_shares": 986827,
@@ -334,7 +358,9 @@
         "put_call": null,
         "sector": "Information Technology",
         "industry": "Semiconductor Equipment & Materials",
-        "tags": [],
+        "tags": [
+          "semicap-materials"
+        ],
         "current_value": 14498000,
         "prior_value": null,
         "current_shares": 125655,
@@ -353,7 +379,9 @@
         "put_call": null,
         "sector": "Health Care",
         "industry": "Biotechnology",
-        "tags": [],
+        "tags": [
+          "therapeutics-biotech"
+        ],
         "current_value": 13875000,
         "prior_value": null,
         "current_shares": 238600,
@@ -372,7 +400,9 @@
         "put_call": null,
         "sector": "Consumer Staples",
         "industry": "Packaged Foods",
-        "tags": [],
+        "tags": [
+          "restaurants-staples"
+        ],
         "current_value": 11780000,
         "prior_value": null,
         "current_shares": 655900,
@@ -391,7 +421,9 @@
         "put_call": null,
         "sector": "Information Technology",
         "industry": "Software - Infrastructure",
-        "tags": [],
+        "tags": [
+          "cloud-software"
+        ],
         "current_value": 10840000,
         "prior_value": null,
         "current_shares": 52535,
@@ -410,7 +442,9 @@
         "put_call": null,
         "sector": "Materials",
         "industry": "Specialty Chemicals",
-        "tags": [],
+        "tags": [
+          "metals-materials"
+        ],
         "current_value": 10588000,
         "prior_value": null,
         "current_shares": 131435,
@@ -429,7 +463,9 @@
         "put_call": null,
         "sector": "Energy",
         "industry": "Oil & Gas E&P",
-        "tags": [],
+        "tags": [
+          "energy-resources"
+        ],
         "current_value": 10166000,
         "prior_value": null,
         "current_shares": 134700,
@@ -448,7 +484,9 @@
         "put_call": null,
         "sector": "Health Care",
         "industry": "Diagnostics & Research",
-        "tags": [],
+        "tags": [
+          "diagnostics-research"
+        ],
         "current_value": 9789000,
         "prior_value": null,
         "current_shares": 206000,
@@ -467,7 +505,9 @@
         "put_call": null,
         "sector": "Information Technology",
         "industry": "Scientific & Technical Instruments",
-        "tags": [],
+        "tags": [
+          "semis-ai-hardware"
+        ],
         "current_value": 9624000,
         "prior_value": null,
         "current_shares": 40400,
@@ -486,7 +526,9 @@
         "put_call": null,
         "sector": "Information Technology",
         "industry": "Electronic Components",
-        "tags": [],
+        "tags": [
+          "semis-ai-hardware"
+        ],
         "current_value": 9373000,
         "prior_value": null,
         "current_shares": 33275,
@@ -505,7 +547,9 @@
         "put_call": null,
         "sector": "Health Care",
         "industry": "Biotechnology",
-        "tags": [],
+        "tags": [
+          "therapeutics-biotech"
+        ],
         "current_value": 8008000,
         "prior_value": null,
         "current_shares": 383363,
@@ -524,7 +568,9 @@
         "put_call": null,
         "sector": "Information Technology",
         "industry": "Semiconductors",
-        "tags": [],
+        "tags": [
+          "semis-ai-hardware"
+        ],
         "current_value": 7905000,
         "prior_value": null,
         "current_shares": 23400,
@@ -543,7 +589,9 @@
         "put_call": null,
         "sector": "Information Technology",
         "industry": "Communication Equipment",
-        "tags": [],
+        "tags": [
+          "semis-ai-hardware"
+        ],
         "current_value": 4893000,
         "prior_value": null,
         "current_shares": 6963,
@@ -562,7 +610,9 @@
         "put_call": null,
         "sector": "Materials",
         "industry": "Specialty Chemicals",
-        "tags": [],
+        "tags": [
+          "metals-materials"
+        ],
         "current_value": 4762000,
         "prior_value": null,
         "current_shares": 62525,
@@ -581,7 +631,9 @@
         "put_call": null,
         "sector": "Materials",
         "industry": "Specialty Chemicals",
-        "tags": [],
+        "tags": [
+          "metals-materials"
+        ],
         "current_value": 2476000,
         "prior_value": null,
         "current_shares": 21194,
@@ -1991,33 +2043,38 @@
     "current": [
       {
         "label": "Health care",
-        "value": 1053600000,
-        "pct": 31.200878457534703
+        "value": 1224811000,
+        "pct": 36.27105082047413
       },
       {
         "label": "Market beta & EM",
-        "value": 566069000,
-        "pct": 16.763335295727234
+        "value": 586806000,
+        "pct": 17.377432312217262
       },
       {
         "label": "Industrial & real assets",
-        "value": 493629000,
-        "pct": 14.618126833821563
-      },
-      {
-        "label": "Consumer platforms",
-        "value": 443812000,
-        "pct": 13.142866619205954
+        "value": 542046000,
+        "pct": 16.051928022392612
       },
       {
         "label": "Semis & AI hardware",
-        "value": 347874000,
-        "pct": 10.301798018732372
+        "value": 494807000,
+        "pct": 14.653011642879058
+      },
+      {
+        "label": "Consumer platforms",
+        "value": 455592000,
+        "pct": 13.491714709780894
       },
       {
         "label": "Financials & credit",
         "value": 39057000,
         "pct": 1.156617985873133
+      },
+      {
+        "label": "Cloud software",
+        "value": 33709000,
+        "pct": 0.9982445063829133
       }
     ],
     "prior": [
@@ -2055,27 +2112,31 @@
     "deltas": [
       {
         "label": "Consumer platforms",
-        "delta_pct_pts": -12.69306436233795
+        "delta_pct_pts": -12.34421627176301
       },
       {
         "label": "Financials & credit",
         "delta_pct_pts": -7.490379978282659
       },
       {
-        "label": "Market beta & EM",
-        "delta_pct_pts": 2.5581043998445345
+        "label": "Health care",
+        "delta_pct_pts": 7.3787058171923015
       },
       {
         "label": "Semis & AI hardware",
-        "delta_pct_pts": 2.3664777904508245
+        "delta_pct_pts": 6.71769141459751
       },
       {
-        "label": "Health care",
-        "delta_pct_pts": 2.308533454252874
+        "label": "Market beta & EM",
+        "delta_pct_pts": 3.1722014163345627
       },
       {
         "label": "Industrial & real assets",
-        "delta_pct_pts": 0.13395190696733117
+        "delta_pct_pts": 1.5677530955383805
+      },
+      {
+        "label": "Cloud software",
+        "delta_pct_pts": 0.9982445063829133
       }
     ]
   },
@@ -2083,8 +2144,13 @@
     "current": [
       {
         "label": "Diagnostics & research",
-        "value": 612691000,
-        "pct": 18.14398009019115
+        "value": 656353000,
+        "pct": 19.436968658160854
+      },
+      {
+        "label": "Therapeutics biotech",
+        "value": 422711000,
+        "pct": 12.517990255944337
       },
       {
         "label": "EM / country ETFs",
@@ -2092,24 +2158,19 @@
         "pct": 9.783737874715563
       },
       {
-        "label": "Therapeutics biotech",
-        "value": 319004000,
-        "pct": 9.446853674513477
+        "label": "Broad-market ETFs",
+        "value": 256426000,
+        "pct": 7.593694437501703
       },
       {
-        "label": "Broad-market ETFs",
-        "value": 235689000,
-        "pct": 6.979597421011671
+        "label": "Metals & materials",
+        "value": 224314000,
+        "pct": 6.642742834399621
       },
       {
         "label": "E-commerce marketplaces",
         "value": 197420000,
         "pct": 5.84631494408362
-      },
-      {
-        "label": "Metals & materials",
-        "value": 186063000,
-        "pct": 5.509993402092141
       },
       {
         "label": "AI foundry",
@@ -2118,13 +2179,13 @@
       },
       {
         "label": "Energy resources",
-        "value": 149566000,
-        "pct": 4.429186206700489
+        "value": 159732000,
+        "pct": 4.730237962964059
       },
       {
         "label": "Restaurants & staples",
-        "value": 143555000,
-        "pct": 4.251178917019168
+        "value": 155335000,
+        "pct": 4.600027007594109
       },
       {
         "label": "Edge / power semis",
@@ -2142,14 +2203,14 @@
         "pct": 3.045372758103167
       },
       {
+        "label": "Care delivery",
+        "value": 74143000,
+        "pct": 2.1956404057298746
+      },
+      {
         "label": "Pharma / generics",
         "value": 71604000,
         "pct": 2.1204515006390614
-      },
-      {
-        "label": "Care delivery",
-        "value": 50301000,
-        "pct": 1.4895931921910148
       },
       {
         "label": "Storage hardware",
@@ -2170,6 +2231,11 @@
         "label": "Industrial tech",
         "value": 15999000,
         "pct": 0.47378782691922716
+      },
+      {
+        "label": "Semicap materials",
+        "value": 14498000,
+        "pct": 0.42933782828145234
       }
     ],
     "prior": [
@@ -2290,7 +2356,7 @@
       },
       {
         "label": "Diagnostics & research",
-        "delta_pct_pts": 5.343147952777226
+        "delta_pct_pts": 6.6361365207469305
       },
       {
         "label": "Digital media & apps",
@@ -2298,7 +2364,7 @@
       },
       {
         "label": "Energy resources",
-        "delta_pct_pts": 3.940828343113176
+        "delta_pct_pts": 4.241880099376746
       },
       {
         "label": "Aerospace & transport",
@@ -2309,16 +2375,16 @@
         "delta_pct_pts": 3.1852664265962147
       },
       {
+        "label": "Metals & materials",
+        "delta_pct_pts": 2.7033731673658346
+      },
+      {
         "label": "Pharma / generics",
         "delta_pct_pts": -1.959135545606864
       },
       {
-        "label": "Semicap materials",
-        "delta_pct_pts": -1.5823960662594976
-      },
-      {
-        "label": "Metals & materials",
-        "delta_pct_pts": 1.5706237350583545
+        "label": "Therapeutics biotech",
+        "delta_pct_pts": 1.9123544161864139
       },
       {
         "label": "Edge / power semis",
@@ -2333,20 +2399,20 @@
         "delta_pct_pts": 1.284682739131887
       },
       {
-        "label": "Therapeutics biotech",
-        "delta_pct_pts": -1.158782165244446
+        "label": "Semicap materials",
+        "delta_pct_pts": -1.1530582379780452
       },
       {
         "label": "Power & electrification",
         "delta_pct_pts": -1.0938606746539257
       },
       {
-        "label": "Housing & retail",
-        "delta_pct_pts": -0.6439720099233499
+        "label": "Care delivery",
+        "delta_pct_pts": 0.7893504258658199
       },
       {
-        "label": "Broad-market ETFs",
-        "delta_pct_pts": -0.627162026751682
+        "label": "Housing & retail",
+        "delta_pct_pts": -0.6439720099233499
       },
       {
         "label": "Banks & credit",
@@ -2362,40 +2428,46 @@
       },
       {
         "label": "Restaurants & staples",
-        "delta_pct_pts": -0.13478599526153356
+        "delta_pct_pts": 0.21406209531340803
       },
       {
-        "label": "Care delivery",
-        "delta_pct_pts": 0.08330321232696014
+        "label": "Broad-market ETFs",
+        "delta_pct_pts": -0.0130650102616503
       }
     ]
   },
-  "granular_coverage_pct": 87.18362321089495,
+  "granular_coverage_pct": 95.07987969775186,
   "theme_activity_breakdown": {
     "entries": [
       {
         "label": "Consumer platforms",
-        "bought": 72114363.8890411,
+        "bought": 83894363.8890411,
         "sold": 711799948.4029194,
-        "net": -639685584.5138783
-      },
-      {
-        "label": "Market beta & EM",
-        "bought": 193718000,
-        "sold": 314136592.695352,
-        "net": -120418592.69535202
-      },
-      {
-        "label": "Industrial & real assets",
-        "bought": 134268665.6662735,
-        "sold": 319391220.0430535,
-        "net": -185122554.37678
+        "net": -627905584.5138783
       },
       {
         "label": "Health care",
-        "bought": 125398393.30556723,
+        "bought": 296609393.3055672,
         "sold": 263356079.1688646,
-        "net": -137957685.86329737
+        "net": 33253314.136702597
+      },
+      {
+        "label": "Market beta & EM",
+        "bought": 214455000,
+        "sold": 314136592.695352,
+        "net": -99681592.69535202
+      },
+      {
+        "label": "Industrial & real assets",
+        "bought": 182685665.6662735,
+        "sold": 319391220.0430535,
+        "net": -136705554.37678
+      },
+      {
+        "label": "Semis & AI hardware",
+        "bought": 270726675.93421817,
+        "sold": 162296134.83161965,
+        "net": 108430541.10259852
       },
       {
         "label": "Financials & credit",
@@ -2404,23 +2476,23 @@
         "net": -341651916.46885765
       },
       {
-        "label": "Semis & AI hardware",
-        "bought": 123793675.93421817,
-        "sold": 162296134.83161965,
-        "net": -38502458.89740148
+        "label": "Cloud software",
+        "bought": 33709000,
+        "sold": 0,
+        "net": 33709000
       }
     ],
-    "total_bought": 649293098.7951,
+    "total_bought": 1082080098.7951,
     "total_sold": 2112631891.6106672,
-    "net": -1463338792.8155673
+    "net": -1030551792.815567
   },
   "granular_activity_breakdown": {
     "entries": [
       {
         "label": "Broad-market ETFs",
-        "bought": 157566000,
+        "bought": 178303000,
         "sold": 261062415.92920354,
-        "net": -103496415.92920354
+        "net": -82759415.92920354
       },
       {
         "label": "E-commerce marketplaces",
@@ -2441,16 +2513,16 @@
         "net": -228890438.48361716
       },
       {
+        "label": "Therapeutics biotech",
+        "bought": 115360669.20503879,
+        "sold": 146617268.36879587,
+        "net": -31256599.163757086
+      },
+      {
         "label": "Aerospace & transport",
         "bought": 0,
         "sold": 223142830.50508773,
         "net": -223142830.50508773
-      },
-      {
-        "label": "Therapeutics biotech",
-        "bought": 11653669.205038788,
-        "sold": 146617268.36879587,
-        "net": -134963599.1637571
       },
       {
         "label": "Edge / power semis",
@@ -2459,16 +2531,16 @@
         "net": 3041993.6928928494
       },
       {
-        "label": "Energy resources",
-        "bought": 121510952.89499691,
+        "label": "Diagnostics & research",
+        "bought": 154106356.11465704,
         "sold": 0,
-        "net": 121510952.89499691
+        "net": 154106356.11465704
       },
       {
-        "label": "Diagnostics & research",
-        "bought": 110444356.11465704,
+        "label": "Energy resources",
+        "bought": 131676952.89499691,
         "sold": 0,
-        "net": 110444356.11465704
+        "net": 131676952.89499691
       },
       {
         "label": "Pharma / generics",
@@ -2478,9 +2550,9 @@
       },
       {
         "label": "Restaurants & staples",
-        "bought": 15352282.225471359,
+        "bought": 27132282.22547136,
         "sold": 76795926.26137304,
-        "net": -61443644.03590168
+        "net": -49663644.03590168
       },
       {
         "label": "EM / country ETFs",
@@ -2490,9 +2562,15 @@
       },
       {
         "label": "Semicap materials",
-        "bought": 0,
+        "bought": 14498000,
         "sold": 71120000,
-        "net": -71120000
+        "net": -56622000
+      },
+      {
+        "label": "Metals & materials",
+        "bought": 51008712.7712766,
+        "sold": 12155441.252329169,
+        "net": 38853271.51894743
       },
       {
         "label": "Power & electrification",
@@ -2507,16 +2585,16 @@
         "net": 44103000
       },
       {
+        "label": "Care delivery",
+        "bought": 27142367.985871397,
+        "sold": 7579000,
+        "net": 19563367.985871397
+      },
+      {
         "label": "Housing & retail",
         "bought": 0,
         "sold": 28943000,
         "net": -28943000
-      },
-      {
-        "label": "Metals & materials",
-        "bought": 12757712.771276597,
-        "sold": 12155441.252329169,
-        "net": 602271.5189474281
       },
       {
         "label": "Banks & credit",
@@ -2541,16 +2619,10 @@
         "bought": 0,
         "sold": 14527452.590294337,
         "net": -14527452.590294337
-      },
-      {
-        "label": "Care delivery",
-        "bought": 3300367.985871398,
-        "sold": 7579000,
-        "net": -4278632.014128602
       }
     ],
-    "total_bought": 649293098.7951001,
+    "total_bought": 915936098.7951001,
     "total_sold": 2112631891.6106672,
-    "net": -1463338792.8155673
+    "net": -1196695792.8155673
   }
 }

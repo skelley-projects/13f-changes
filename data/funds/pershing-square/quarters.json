@@ -3,6 +3,20 @@
   "quarters": [
     {
       "slug": "pershing-square",
+      "period": "2026-Q1",
+      "period_ending": "2026-03-31",
+      "filing_date": "2026-05-15",
+      "accession": "0001172661-26-002336",
+      "edgar_url": "https://www.sec.gov/Archives/edgar/data/1336528/000117266126002336/",
+      "value_units": "USD",
+      "schema_version": "X02",
+      "total_value": 13714299861,
+      "position_count": 11,
+      "summary": "Swapped one mega-cap for another: Alphabet cut 95%, $2.1B into Microsoft. Exited Hilton.",
+      "fetched_at": "2026-08-06T18:00:00.000Z"
+    },
+    {
+      "slug": "pershing-square",
       "period": "2025-Q4",
       "period_ending": "2025-12-31",
       "filing_date": "2026-02-17",

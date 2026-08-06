@@ -3,6 +3,20 @@
   "quarters": [
     {
       "slug": "appaloosa",
+      "period": "2026-Q1",
+      "period_ending": "2026-03-31",
+      "filing_date": "2026-05-15",
+      "accession": "0001656456-26-000002",
+      "edgar_url": "https://www.sec.gov/Archives/edgar/data/1656456/000165645626000002/",
+      "value_units": "USD",
+      "schema_version": "X02",
+      "total_value": 5933477986,
+      "position_count": 31,
+      "summary": "Doubled Amazon, tripled Uber, trimmed Alibaba 33% and cut Microsoft 82%. One new position: SanDisk.",
+      "fetched_at": "2026-08-06T18:00:00.000Z"
+    },
+    {
+      "slug": "appaloosa",
       "period": "2025-Q4",
       "period_ending": "2025-12-31",
       "filing_date": "2026-02-17",

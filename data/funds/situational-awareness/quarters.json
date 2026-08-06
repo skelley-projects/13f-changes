@@ -3,6 +3,20 @@
   "quarters": [
     {
       "slug": "situational-awareness",
+      "period": "2026-Q1",
+      "period_ending": "2026-03-31",
+      "filing_date": "2026-05-18",
+      "accession": "0002045724-26-000008",
+      "edgar_url": "https://www.sec.gov/Archives/edgar/data/2045724/000204572426000008/",
+      "value_units": "USD",
+      "schema_version": "X02",
+      "total_value": 13676657577,
+      "position_count": 42,
+      "summary": "Went all-in on AI silicon: new billion-dollar stakes in Nvidia, Oracle, Broadcom and AMD alongside a $2.0B VanEck Semiconductor ETF sleeve. Funded by cutting CoreWeave 83% and exiting Lumentum and Cipher Mining.",
+      "fetched_at": "2026-08-06T18:00:00.000Z"
+    },
+    {
+      "slug": "situational-awareness",
       "period": "2025-Q4",
       "period_ending": "2025-12-31",
       "filing_date": "2026-02-11",
@@ -12,7 +26,7 @@
       "schema_version": "X02",
       "total_value": 5516758345,
       "position_count": 29,
-      "summary": "Doubled down on AI-power infrastructure: $911M new equity stake in Bloom Energy (after exiting Q3 convertible notes), plus a $479M Lumentum opener and $154M Cipher Mining equity. Exited prior-quarter AI positions worth $299M in NVIDIA, $252M in Vistra, $196M in the Gold Miners ETF, plus the CoreWeave puts — driving a +13pp swing into the AI-power theme.",
+      "summary": "Doubled down on AI-power infrastructure: $911M new equity stake in Bloom Energy (after exiting Q3 convertible notes), plus a $479M Lumentum opener and $154M Cipher Mining equity. Exited prior-quarter AI positions worth $299M in NVIDIA, $252M in Vistra, $196M in the Gold Miners ETF, plus the CoreWeave puts \u2014 driving a +13pp swing into the AI-power theme.",
       "fetched_at": "2026-05-03T22:35:00.000Z"
     },
     {
