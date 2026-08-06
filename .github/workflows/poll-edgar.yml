@@ -3,43 +3,51 @@ name: Poll EDGAR for new 13F filings
 
 on:
   schedule:
-    # Tight polling around each quarter's filing deadline (Q1=May 15,
-    # Q2=Aug 14, Q3=Nov 14, Q4=Feb 14):
-    #   - Day before deadline: every 30 min, all hours
-    #   - Deadline day: every 15 min, 12:00-23:59 UTC (≈ 8am-8pm EDT for
-    #     May/Aug; ≈ 7am-7pm EST for Nov/Feb)
-    #   - Day after deadline: every 30 min, all hours
-    # All other times: no polling. Worst-case detection lag = 30 min on
-    # day before/after, 15 min on day of.
+    # Polling around each quarter's filing deadline (Q1=May 15, Q2=Aug 14,
+    # Q3=Nov 14, Q4=Feb 14). One HOURLY cron per window; the 5-minute
+    # granularity comes from the watch loop inside the job, not from the cron.
     #
-    # Caveat: when the nominal deadline falls on a weekend (Nov 2026,
-    # Feb 2027), the legal deadline rolls to Monday and this schedule
-    # would miss filings made on the rolled deadline day. Adjust manually
-    # via workflow_dispatch or expand the window for those quarters.
+    # This used to ask for '*/15' on deadline day and '*/30' either side.
+    # GitHub deprioritises high-frequency scheduled workflows and silently
+    # drops the runs it will not service: on 2026-05-15 this workflow
+    # requested 48 runs and GitHub delivered 8, so the real worst-case
+    # detection lag was ~90 minutes, not the 15 the old comment claimed.
+    # Hourly schedules are honoured reliably, so asking for less here buys
+    # more actual coverage. Do not raise the frequency; raise
+    # --duration-minutes / lower --interval-seconds below instead.
+    #
+    # Day ranges span deadline-1 through deadline+3 so that a deadline
+    # falling on a weekend (Nov 2026, Feb 2027) is still covered after it
+    # rolls to the following Monday — previously a known manual-fixup gap.
 
-    # Q1 day-before (May 14) and day-after (May 16), every 30 min
-    - cron: '*/30 * 14,16 5 *'
-    # Q1 deadline day (May 15), every 15 min during business hours UTC
-    - cron: '*/15 12-23 15 5 *'
-    # Q2/Q3/Q4 day-before (13) and day-after (15), every 30 min
-    - cron: '*/30 * 13,15 2,8,11 *'
-    # Q2/Q3/Q4 deadline day (14), every 15 min during business hours UTC
-    - cron: '*/15 12-23 14 2,8,11 *'
+    # Q1: May 14-18 (deadline May 15)
+    - cron: '3 * 14-18 5 *'
+    # Q2/Q3/Q4: 13th-17th (deadline the 14th)
+    - cron: '3 * 13-17 2,8,11 *'
   workflow_dispatch:
 
 permissions:
   contents: write
 
+# Overlapping runs would race each other's push of data/_pending.json.
+concurrency:
+  group: poll-edgar
+  cancel-in-progress: false
+
 jobs:
   poll:
     runs-on: ubuntu-latest
+    # Must exceed the watch duration below, with room for setup.
+    timeout-minutes: 70
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-node@v4
         with:
           node-version: 22
       - run: npm ci
-      - run: npm run poll-edgar
+      # Sweep EDGAR every 5 minutes for ~50 minutes, exiting early the moment a
+      # filing is queued. Stays inside the hourly cron so runs never overlap.
+      - run: npm run poll-edgar -- --watch --duration-minutes=50 --interval-seconds=300
       - name: Commit, push, and email if a new filing was queued
         run: |
           if [[ -n "$(git status --porcelain data/_pending.json)" ]]; then
