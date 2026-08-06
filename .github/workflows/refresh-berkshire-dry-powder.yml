@@ -2,21 +2,38 @@ name: Refresh Berkshire dry powder
 
 on:
   schedule:
-    # Berkshire cash/T-bill balances are disclosed in 10-Q/10-K filings, not 13Fs.
-    # Poll every 30 minutes during likely Berkshire reporting windows, plus once
-    # daily year-round as a backstop for unusual filing timing.
-    - cron: '*/30 * 20-29 2 *'
-    - cron: '*/30 * 1-7 3 *'
-    - cron: '*/30 * 1-10 5,8,11 *'
+    # Berkshire cash/T-bill balances are disclosed in 10-Q/10-K filings, not 13Fs,
+    # so this data changes exactly four times a year. Poll hourly during likely
+    # Berkshire reporting windows, plus once daily year-round as a backstop for
+    # unusual filing timing.
+    #
+    # Deliberately hourly, NOT '*/30'. GitHub deprioritises high-frequency
+    # scheduled workflows and silently drops the runs it will not service: at
+    # '*/30' this workflow requested 48 runs/day and GitHub delivered 11-16,
+    # then began failing outright with "The job was not acquired by Runner of
+    # type hosted". The once-daily backstop below, on the same runner pool, has
+    # never been dropped. Raising the frequency here lowers real coverage --
+    # if this ever needs to be tighter, poll inside a single job rather than
+    # asking the scheduler for more runs.
+    - cron: '7 * 20-29 2 *'
+    - cron: '7 * 1-7 3 *'
+    - cron: '7 * 1-10 5,8,11 *'
     - cron: '17 14 * * *'
   workflow_dispatch:
 
 permissions:
   contents: write
 
+# A dropped-then-resumed schedule can otherwise stack overlapping runs that
+# race each other's `git push` of the same file.
+concurrency:
+  group: refresh-berkshire-dry-powder
+  cancel-in-progress: false
+
 jobs:
   refresh:
     runs-on: ubuntu-latest
+    timeout-minutes: 10
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-node@v4
