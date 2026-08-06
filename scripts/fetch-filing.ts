@@ -17,9 +17,12 @@ export interface IndexJson {
 }
 
 export function discoverHoldingsFilename(idx: IndexJson): string {
+  // EDGAR does not normalise filename case: Viking Global's 2026-Q1 holdings
+  // arrived as "MSFS13F033126.XML". Match the extension case-insensitively, or
+  // those filings look like they have no holdings document at all.
   const xmlFiles = idx.directory.item
     .map(i => i.name)
-    .filter(n => n.endsWith('.xml') && n !== 'primary_doc.xml');
+    .filter(n => /\.xml$/i.test(n) && n.toLowerCase() !== 'primary_doc.xml');
   if (xmlFiles.length === 0) throw new Error('No holdings xml in filing index');
   // In practice there's exactly one non-primary XML in a 13F-HR filing.
   // If a filing ever has multiple, the first one wins; revisit if this fires in production.

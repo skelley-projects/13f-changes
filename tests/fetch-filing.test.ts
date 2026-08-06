@@ -15,6 +15,33 @@ describe('discoverHoldingsFilename', () => {
     expect(discoverHoldingsFilename(indexJson)).toBe('form13f_20251231.xml');
   });
 
+  // Regression: Viking Global's 2026-Q1 filing shipped "MSFS13F033126.XML",
+  // which a case-sensitive .xml match skipped entirely.
+  it('finds the holdings XML when the extension is uppercase', () => {
+    const indexJson = {
+      directory: {
+        item: [
+          { name: '0001103804-26-000004-index.html', size: '' },
+          { name: 'primary_doc.xml', size: '2065' },
+          { name: 'MSFS13F033126.XML', size: '42107' },
+        ],
+      },
+    };
+    expect(discoverHoldingsFilename(indexJson)).toBe('MSFS13F033126.XML');
+  });
+
+  it('still excludes primary_doc regardless of its case', () => {
+    const indexJson = {
+      directory: {
+        item: [
+          { name: 'PRIMARY_DOC.XML', size: '2065' },
+          { name: 'holdings.XML', size: '42107' },
+        ],
+      },
+    };
+    expect(discoverHoldingsFilename(indexJson)).toBe('holdings.XML');
+  });
+
   it('throws if no holdings XML candidate is found', () => {
     const indexJson = { directory: { item: [{ name: 'primary_doc.xml' }] } };
     expect(() => discoverHoldingsFilename(indexJson)).toThrow(/holdings xml/i);
