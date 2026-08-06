@@ -1,0 +1,693 @@
+{
+  "slug": "berkshire-hathaway",
+  "current_period": "2026-Q1",
+  "prior_period": "2025-Q4",
+  "totals": {
+    "current_value": 263095703570,
+    "prior_value": 274160086701,
+    "net_flow": -11064383131
+  },
+  "movements": {
+    "new": [
+      {
+        "cusip": "247361702",
+        "ticker": "DAL",
+        "name": "DELTA AIR LINES INC",
+        "title_of_class": "COM NEW",
+        "shares_type": "SH",
+        "put_call": null,
+        "sector": "Industrials",
+        "industry": "Airlines",
+        "tags": [],
+        "current_value": 2646532635,
+        "prior_value": null,
+        "current_shares": 39809456,
+        "prior_shares": null,
+        "delta_value": 2646532635,
+        "delta_shares": 39809456,
+        "delta_pct": null,
+        "current_pct_of_portfolio": 1.0059201268164593
+      },
+      {
+        "cusip": "02079K107",
+        "ticker": "GOOG",
+        "name": "ALPHABET INC-CL C",
+        "title_of_class": "CAP STK CL C",
+        "shares_type": "SH",
+        "put_call": null,
+        "sector": "Communication Services",
+        "industry": "Internet Content & Information",
+        "tags": [],
+        "current_value": 1028454775,
+        "prior_value": null,
+        "current_shares": 3585215,
+        "prior_shares": null,
+        "delta_value": 1028454775,
+        "delta_shares": 3585215,
+        "delta_pct": null,
+        "current_pct_of_portfolio": 0.3909051957309392
+      },
+      {
+        "cusip": "55616P104",
+        "ticker": "M",
+        "name": "MACY'S INC",
+        "title_of_class": "COM",
+        "shares_type": "SH",
+        "put_call": null,
+        "sector": "Consumer Discretionary",
+        "industry": "Department Stores",
+        "tags": [],
+        "current_value": 30067914,
+        "prior_value": null,
+        "current_shares": 1662129,
+        "prior_shares": null,
+        "delta_value": 30067914,
+        "delta_shares": 1662129,
+        "delta_pct": null,
+        "current_pct_of_portfolio": 0.011428508178583785
+      }
+    ],
+    "closed": [
+      {
+        "cusip": "92826C839",
+        "ticker": "V",
+        "name": "VISA INC-CLASS A SHARES",
+        "title_of_class": "COM CL A",
+        "shares_type": "SH",
+        "put_call": null,
+        "sector": "Financials",
+        "industry": "Credit Services",
+        "tags": [],
+        "current_value": null,
+        "prior_value": 2910002197,
+        "current_shares": null,
+        "prior_shares": 8297460,
+        "delta_value": -2910002197,
+        "delta_shares": -8297460,
+        "delta_pct": null,
+        "current_pct_of_portfolio": null
+      },
+      {
+        "cusip": "57636Q104",
+        "ticker": "MA",
+        "name": "MASTERCARD INC - A",
+        "title_of_class": "CL A",
+        "shares_type": "SH",
+        "put_call": null,
+        "sector": "Financials",
+        "industry": "Credit Services",
+        "tags": [],
+        "current_value": null,
+        "prior_value": 2275897610,
+        "current_shares": null,
+        "prior_shares": 3986648,
+        "delta_value": -2275897610,
+        "delta_shares": -3986648,
+        "delta_pct": null,
+        "current_pct_of_portfolio": null
+      },
+      {
+        "cusip": "25754A201",
+        "ticker": "DPZ",
+        "name": "DOMINO'S PIZZA INC",
+        "title_of_class": "COM",
+        "shares_type": "SH",
+        "put_call": null,
+        "sector": "Consumer Discretionary",
+        "industry": "Restaurants",
+        "tags": [],
+        "current_value": null,
+        "prior_value": 1396347000,
+        "current_shares": null,
+        "prior_shares": 3350000,
+        "delta_value": -1396347000,
+        "delta_shares": -3350000,
+        "delta_pct": null,
+        "current_pct_of_portfolio": null
+      },
+      {
+        "cusip": "91324P102",
+        "ticker": "UNH",
+        "name": "UNITEDHEALTH GROUP INC",
+        "title_of_class": "COM",
+        "shares_type": "SH",
+        "put_call": null,
+        "sector": "Health Care",
+        "industry": "Healthcare Plans",
+        "tags": [],
+        "current_value": null,
+        "prior_value": 1018278433,
+        "current_shares": null,
+        "prior_shares": 3084664,
+        "delta_value": -1018278433,
+        "delta_shares": -3084664,
+        "delta_pct": null,
+        "current_pct_of_portfolio": null
+      },
+      {
+        "cusip": "73278L105",
+        "ticker": "POOL",
+        "name": "POOL CORP",
+        "title_of_class": "COM",
+        "shares_type": "SH",
+        "put_call": null,
+        "sector": "Industrials",
+        "industry": "Industrial Distribution",
+        "tags": [],
+        "current_value": null,
+        "prior_value": 702007444,
+        "current_shares": null,
+        "prior_shares": 3068885,
+        "delta_value": -702007444,
+        "delta_shares": -3068885,
+        "delta_pct": null,
+        "current_pct_of_portfolio": null
+      },
+      {
+        "cusip": "G0403H108",
+        "ticker": "AON",
+        "name": "Aon plc",
+        "title_of_class": "SHS CL A",
+        "shares_type": "SH",
+        "put_call": null,
+        "sector": "Financials",
+        "industry": "Insurance Brokers",
+        "tags": [],
+        "current_value": null,
+        "prior_value": 618314219,
+        "current_shares": null,
+        "prior_shares": 1752194,
+        "delta_value": -618314219,
+        "delta_shares": -1752194,
+        "delta_pct": null,
+        "current_pct_of_portfolio": null
+      },
+      {
+        "cusip": "023135106",
+        "ticker": "AMZN",
+        "name": "AMAZON.COM INC",
+        "title_of_class": "COM",
+        "shares_type": "SH",
+        "put_call": null,
+        "sector": "Consumer Discretionary",
+        "industry": "Internet Retail",
+        "tags": [],
+        "current_value": null,
+        "prior_value": 525346320,
+        "current_shares": null,
+        "prior_shares": 2276000,
+        "delta_value": -525346320,
+        "delta_shares": -2276000,
+        "delta_pct": null,
+        "current_pct_of_portfolio": null
+      },
+      {
+        "cusip": "422806208",
+        "ticker": "HEI-A",
+        "name": "HEICO CORP-CLASS A",
+        "title_of_class": "CL A",
+        "shares_type": "SH",
+        "put_call": null,
+        "sector": "Industrials",
+        "industry": "Aerospace & Defense",
+        "tags": [],
+        "current_value": null,
+        "prior_value": 326798907,
+        "current_shares": null,
+        "prior_shares": 1294612,
+        "delta_value": -326798907,
+        "delta_shares": -1294612,
+        "delta_pct": null,
+        "current_pct_of_portfolio": null
+      },
+      {
+        "cusip": "16119P108",
+        "ticker": "CHTR",
+        "name": "CHARTER COMMUNICATIONS INC-A",
+        "title_of_class": "CL A",
+        "shares_type": "SH",
+        "put_call": null,
+        "sector": "Communication Services",
+        "industry": "Telecom Services",
+        "tags": [],
+        "current_value": null,
+        "prior_value": 221459118,
+        "current_shares": null,
+        "prior_shares": 1060882,
+        "delta_value": -221459118,
+        "delta_shares": -1060882,
+        "delta_pct": null,
+        "current_pct_of_portfolio": null
+      },
+      {
+        "cusip": "512816109",
+        "ticker": "LAMR",
+        "name": "LAMAR ADVERTISING CO-A",
+        "title_of_class": "CL A",
+        "shares_type": "SH",
+        "put_call": null,
+        "sector": "Real Estate",
+        "industry": "REIT - Specialty",
+        "tags": [],
+        "current_value": null,
+        "prior_value": 152201058,
+        "current_shares": null,
+        "prior_shares": 1202410,
+        "delta_value": -152201058,
+        "delta_shares": -1202410,
+        "delta_pct": null,
+        "current_pct_of_portfolio": null
+      },
+      {
+        "cusip": "G0176J109",
+        "ticker": null,
+        "name": "ALLEGION PLC",
+        "title_of_class": "ORD SHS",
+        "shares_type": "SH",
+        "put_call": null,
+        "sector": "Unclassified",
+        "industry": "Unclassified",
+        "tags": [],
+        "current_value": null,
+        "prior_value": 124212776,
+        "current_shares": null,
+        "prior_shares": 780133,
+        "delta_value": -124212776,
+        "delta_shares": -780133,
+        "delta_pct": null,
+        "current_pct_of_portfolio": null
+      },
+      {
+        "cusip": "25243Q205",
+        "ticker": "DEO",
+        "name": "DIAGEO PLC-SPONSORED ADR",
+        "title_of_class": "SPON ADR NEW",
+        "shares_type": "SH",
+        "put_call": null,
+        "sector": "Consumer Staples",
+        "industry": "Beverages - Wineries & Distilleries",
+        "tags": [],
+        "current_value": null,
+        "prior_value": 19647993,
+        "current_shares": null,
+        "prior_shares": 227750,
+        "delta_value": -19647993,
+        "delta_shares": -227750,
+        "delta_pct": null,
+        "current_pct_of_portfolio": null
+      },
+      {
+        "cusip": "531229755",
+        "ticker": "FWONK",
+        "name": "LIBERTY MEDIA CORP-FORMULA-C",
+        "title_of_class": "COM LBTY ONE S C",
+        "shares_type": "SH",
+        "put_call": null,
+        "sector": "Communication Services",
+        "industry": "Entertainment",
+        "tags": [],
+        "current_value": null,
+        "prior_value": 12355124,
+        "current_shares": null,
+        "prior_shares": 125420,
+        "delta_value": -12355124,
+        "delta_shares": -125420,
+        "delta_pct": null,
+        "current_pct_of_portfolio": null
+      },
+      {
+        "cusip": "G9001E102",
+        "ticker": null,
+        "name": "LIBERTY LATIN AMERICA LTD",
+        "title_of_class": "COM CL A",
+        "shares_type": "SH",
+        "put_call": null,
+        "sector": "Unclassified",
+        "industry": "Unclassified",
+        "tags": [],
+        "current_value": null,
+        "prior_value": 12010117,
+        "current_shares": null,
+        "prior_shares": 1625185,
+        "delta_value": -12010117,
+        "delta_shares": -1625185,
+        "delta_pct": null,
+        "current_pct_of_portfolio": null
+      },
+      {
+        "cusip": "G9001E128",
+        "ticker": null,
+        "name": "LIBERTY LATIN AMERICA LTD",
+        "title_of_class": "COM CL C",
+        "shares_type": "SH",
+        "put_call": null,
+        "sector": "Unclassified",
+        "industry": "Unclassified",
+        "tags": [],
+        "current_value": null,
+        "prior_value": 9578789,
+        "current_shares": null,
+        "prior_shares": 1284020,
+        "delta_value": -9578789,
+        "delta_shares": -1284020,
+        "delta_pct": null,
+        "current_pct_of_portfolio": null
+      },
+      {
+        "cusip": "047726302",
+        "ticker": "BATRK",
+        "name": "ATLANTA BRAVES HOLDINGS IN-C",
+        "title_of_class": "COM SER C",
+        "shares_type": "SH",
+        "put_call": null,
+        "sector": "Communication Services",
+        "industry": "Entertainment",
+        "tags": [],
+        "current_value": null,
+        "prior_value": 143282,
+        "current_shares": null,
+        "prior_shares": 3632,
+        "delta_value": -143282,
+        "delta_shares": -3632,
+        "delta_pct": null,
+        "current_pct_of_portfolio": null
+      }
+    ],
+    "increased": [
+      {
+        "cusip": "166764100",
+        "ticker": "CVX",
+        "name": "CHEVRON CORP",
+        "title_of_class": "COM",
+        "shares_type": "SH",
+        "put_call": null,
+        "sector": "Energy",
+        "industry": "Oil & Gas Integrated",
+        "tags": [],
+        "current_value": 12052286868,
+        "prior_value": 295370580,
+        "current_shares": 58251749,
+        "prior_shares": 1938000,
+        "delta_value": 11756916288,
+        "delta_shares": 56313749,
+        "delta_pct": 2905.766202270382,
+        "current_pct_of_portfolio": 4.58095160979827
+      },
+      {
+        "cusip": "02079K305",
+        "ticker": "GOOGL",
+        "name": "ALPHABET INC-CL A",
+        "title_of_class": "CAP STK CL A",
+        "shares_type": "SH",
+        "put_call": null,
+        "sector": "Communication Services",
+        "industry": "Internet Content & Information",
+        "tags": [],
+        "current_value": 11871367661,
+        "prior_value": 5585842446,
+        "current_shares": 41283098,
+        "prior_shares": 17846142,
+        "delta_value": 6285525215,
+        "delta_shares": 23436956,
+        "delta_pct": 131.3278578641815,
+        "current_pct_of_portfolio": 4.51218606002111
+      },
+      {
+        "cusip": "650111107",
+        "ticker": "NYT",
+        "name": "NEW YORK TIMES CO-A",
+        "title_of_class": "CL A",
+        "shares_type": "SH",
+        "put_call": null,
+        "sector": "Communication Services",
+        "industry": "Publishing",
+        "tags": [],
+        "current_value": 1150997376,
+        "prior_value": 254475948,
+        "current_shares": 13746535,
+        "prior_shares": 3665744,
+        "delta_value": 896521428,
+        "delta_shares": 10080791,
+        "delta_pct": 274.99986360204093,
+        "current_pct_of_portfolio": 0.4374823915335289
+      },
+      {
+        "cusip": "526057104",
+        "ticker": "LEN",
+        "name": "LENNAR CORP-A",
+        "title_of_class": "CL A",
+        "shares_type": "SH",
+        "put_call": null,
+        "sector": "Consumer Discretionary",
+        "industry": "Residential Construction",
+        "tags": [],
+        "current_value": 877052911,
+        "prior_value": 724837660,
+        "current_shares": 10099642,
+        "prior_shares": 7050950,
+        "delta_value": 152215251,
+        "delta_shares": 3048692,
+        "delta_pct": 43.23803175458626,
+        "current_pct_of_portfolio": 0.3333588876971717
+      },
+      {
+        "cusip": "526057302",
+        "ticker": "LEN-B",
+        "name": "LENNAR CORP - B SHS",
+        "title_of_class": "CL B",
+        "shares_type": "SH",
+        "put_call": null,
+        "sector": "Consumer Discretionary",
+        "industry": "Residential Construction",
+        "tags": [],
+        "current_value": 19995576,
+        "prior_value": 17214818,
+        "current_shares": 237703,
+        "prior_shares": 180980,
+        "delta_value": 2780758,
+        "delta_shares": 56723,
+        "delta_pct": 31.342137252735107,
+        "current_pct_of_portfolio": 0.007600114988073121
+      }
+    ],
+    "decreased": [
+      {
+        "cusip": "21036P108",
+        "ticker": "STZ",
+        "name": "CONSTELLATION BRANDS INC-A",
+        "title_of_class": "CL A",
+        "shares_type": "SH",
+        "put_call": null,
+        "sector": "Consumer Staples",
+        "industry": "Beverages - Brewers",
+        "tags": [],
+        "current_value": 94933500,
+        "prior_value": 1793480000,
+        "current_shares": 632890,
+        "prior_shares": 13000000,
+        "delta_value": -1698546500,
+        "delta_shares": -12367110,
+        "delta_pct": -95.13161538461539,
+        "current_pct_of_portfolio": 0.03608325742755496
+      },
+      {
+        "cusip": "670346105",
+        "ticker": "NUE",
+        "name": "NUCOR CORP",
+        "title_of_class": "COM",
+        "shares_type": "SH",
+        "put_call": null,
+        "sector": "Materials",
+        "industry": "Steel",
+        "tags": [],
+        "current_value": 660686383,
+        "prior_value": 1045167939,
+        "current_shares": 3907075,
+        "prior_shares": 6407749,
+        "delta_value": -384481556,
+        "delta_shares": -2500674,
+        "delta_pct": -39.025779567832636,
+        "current_pct_of_portfolio": 0.25112017187472463
+      },
+      {
+        "cusip": "530909308",
+        "ticker": "LLYVK",
+        "name": "LIBERTY LIVE HOLDINGS-C",
+        "title_of_class": "COM SHS SER C",
+        "shares_type": "SH",
+        "put_call": null,
+        "sector": "Communication Services",
+        "industry": "Entertainment",
+        "tags": [],
+        "current_value": 135263268,
+        "prior_value": 119971273,
+        "current_shares": 1437289,
+        "prior_shares": 1442656,
+        "delta_value": 15291995,
+        "delta_shares": -5367,
+        "delta_pct": -0.3720221591287181,
+        "current_pct_of_portfolio": 0.05141219189997584
+      }
+    ],
+    "activity": [],
+    "unchanged_count": 18,
+    "unchanged_value": 52835965001
+  },
+  "sector_breakdown": {
+    "current": [
+      {
+        "label": "Financials",
+        "value": 95283346887,
+        "pct": 36.216230669707095
+      },
+      {
+        "label": "Information Technology",
+        "value": 60075987090,
+        "pct": 22.83427143614149
+      },
+      {
+        "label": "Consumer Staples",
+        "value": 41456460557,
+        "pct": 15.757178849547412
+      },
+      {
+        "label": "Energy",
+        "value": 34678557621,
+        "pct": 13.180966906885777
+      },
+      {
+        "label": "Communication Services",
+        "value": 22230621277,
+        "pct": 8.44963295688531
+      },
+      {
+        "label": "Health Care",
+        "value": 4626158909,
+        "pct": 1.758355931406972
+      },
+      {
+        "label": "Industrials",
+        "value": 3058646326,
+        "pct": 1.1625603476212631
+      },
+      {
+        "label": "Consumer Discretionary",
+        "value": 1025238520,
+        "pct": 0.38968272992995573
+      },
+      {
+        "label": "Materials",
+        "value": 660686383,
+        "pct": 0.25112017187472463
+      }
+    ],
+    "prior": [
+      {
+        "label": "Financials",
+        "value": 117362542198,
+        "pct": 42.80803366027383
+      },
+      {
+        "label": "Information Technology",
+        "value": 64145826629,
+        "pct": 23.397215619849753
+      },
+      {
+        "label": "Consumer Staples",
+        "value": 40797772330,
+        "pct": 14.881003584775709
+      },
+      {
+        "label": "Energy",
+        "value": 30731522774,
+        "pct": 11.209335080024218
+      },
+      {
+        "label": "Communication Services",
+        "value": 10270714915,
+        "pct": 3.746247325272143
+      },
+      {
+        "label": "Health Care",
+        "value": 5271757847,
+        "pct": 1.9228757586254335
+      },
+      {
+        "label": "Consumer Discretionary",
+        "value": 2744783058,
+        "pct": 1.0011607054215266
+      },
+      {
+        "label": "Industrials",
+        "value": 1486295034,
+        "pct": 0.5421267011857049
+      },
+      {
+        "label": "Materials",
+        "value": 1045167939,
+        "pct": 0.3812254189063866
+      },
+      {
+        "label": "Real Estate",
+        "value": 152201058,
+        "pct": 0.05551539607076031
+      },
+      {
+        "label": "Unclassified",
+        "value": 151502919,
+        "pct": 0.05526074959453512
+      }
+    ],
+    "deltas": [
+      {
+        "label": "Financials",
+        "delta_pct_pts": -6.591802990566734
+      },
+      {
+        "label": "Communication Services",
+        "delta_pct_pts": 4.703385631613167
+      },
+      {
+        "label": "Energy",
+        "delta_pct_pts": 1.9716318268615591
+      },
+      {
+        "label": "Consumer Staples",
+        "delta_pct_pts": 0.8761752647717032
+      },
+      {
+        "label": "Industrials",
+        "delta_pct_pts": 0.6204336464355582
+      },
+      {
+        "label": "Consumer Discretionary",
+        "delta_pct_pts": -0.6114779754915709
+      },
+      {
+        "label": "Information Technology",
+        "delta_pct_pts": -0.5629441837082645
+      },
+      {
+        "label": "Health Care",
+        "delta_pct_pts": -0.16451982721846137
+      },
+      {
+        "label": "Materials",
+        "delta_pct_pts": -0.13010524703166199
+      },
+      {
+        "label": "Real Estate",
+        "delta_pct_pts": -0.05551539607076031
+      },
+      {
+        "label": "Unclassified",
+        "delta_pct_pts": -0.05526074959453512
+      }
+    ]
+  },
+  "theme_breakdown": null,
+  "granular_breakdown": null,
+  "granular_coverage_pct": null,
+  "theme_activity_breakdown": null,
+  "granular_activity_breakdown": null
+}

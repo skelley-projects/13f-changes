@@ -1,0 +1,2556 @@
+{
+  "slug": "duquesne",
+  "current_period": "2026-Q1",
+  "prior_period": "2025-Q4",
+  "totals": {
+    "current_value": 3376828000,
+    "prior_value": 4494450000,
+    "net_flow": -1117622000
+  },
+  "movements": {
+    "new": [
+      {
+        "cusip": "11135F101",
+        "ticker": "AVGO",
+        "name": "BROADCOM INC",
+        "title_of_class": "COM",
+        "shares_type": "SH",
+        "put_call": null,
+        "sector": "Information Technology",
+        "industry": "Semiconductors",
+        "tags": [],
+        "current_value": 60650000,
+        "prior_value": null,
+        "current_shares": 195955,
+        "prior_shares": null,
+        "delta_value": 60650000,
+        "delta_shares": 195955,
+        "delta_pct": null,
+        "current_pct_of_portfolio": 1.79606423543041
+      },
+      {
+        "cusip": "37950E259",
+        "ticker": "ARGT",
+        "name": "GLOBAL X MSCI ARGENTINA ETF",
+        "title_of_class": "GB MSCI AR ETF",
+        "shares_type": "SH",
+        "put_call": null,
+        "sector": "Financials",
+        "industry": "Emerging Markets ETF",
+        "tags": [
+          "market-beta-em",
+          "em-country-etfs"
+        ],
+        "current_value": 36152000,
+        "prior_value": null,
+        "current_shares": 387400,
+        "prior_shares": null,
+        "delta_value": 36152000,
+        "delta_shares": 387400,
+        "delta_pct": null,
+        "current_pct_of_portfolio": 1.0705905068306707
+      },
+      {
+        "cusip": "142152107",
+        "ticker": "CAI",
+        "name": "CARIS LIFE SCIENCES INC",
+        "title_of_class": "COM",
+        "shares_type": "SH",
+        "put_call": null,
+        "sector": "Health Care",
+        "industry": "Biotechnology",
+        "tags": [],
+        "current_value": 33873000,
+        "prior_value": null,
+        "current_shares": 1894450,
+        "prior_shares": null,
+        "delta_value": 33873000,
+        "delta_shares": 1894450,
+        "delta_pct": null,
+        "current_pct_of_portfolio": 1.0031011351481331
+      },
+      {
+        "cusip": "76155X100",
+        "ticker": "RVMD",
+        "name": "REVOLUTION MEDICINES INC",
+        "title_of_class": "COM",
+        "shares_type": "SH",
+        "put_call": null,
+        "sector": "Health Care",
+        "industry": "Biotechnology",
+        "tags": [],
+        "current_value": 30717000,
+        "prior_value": null,
+        "current_shares": 315860,
+        "prior_shares": null,
+        "delta_value": 30717000,
+        "delta_shares": 315860,
+        "delta_pct": null,
+        "current_pct_of_portfolio": 0.9096406450076817
+      },
+      {
+        "cusip": "80004C200",
+        "ticker": "SNDK",
+        "name": "SANDISK CORP",
+        "title_of_class": "COM",
+        "shares_type": "SH",
+        "put_call": null,
+        "sector": "Information Technology",
+        "industry": "Computer Hardware",
+        "tags": [
+          "semis-ai-hardware",
+          "storage-hardware"
+        ],
+        "current_value": 24241000,
+        "prior_value": null,
+        "current_shares": 38155,
+        "prior_shares": null,
+        "delta_value": 24241000,
+        "delta_shares": 38155,
+        "delta_pct": null,
+        "current_pct_of_portfolio": 0.7178630359615592
+      },
+      {
+        "cusip": "444859102",
+        "ticker": "HUM",
+        "name": "HUMANA INC",
+        "title_of_class": "COM",
+        "shares_type": "SH",
+        "put_call": null,
+        "sector": "Health Care",
+        "industry": "Healthcare Plans",
+        "tags": [],
+        "current_value": 23842000,
+        "prior_value": null,
+        "current_shares": 137505,
+        "prior_shares": null,
+        "delta_value": 23842000,
+        "delta_shares": 137505,
+        "delta_pct": null,
+        "current_pct_of_portfolio": 0.7060472135388596
+      },
+      {
+        "cusip": "90138F102",
+        "ticker": "TWLO",
+        "name": "TWILIO INC - A",
+        "title_of_class": "CL A",
+        "shares_type": "SH",
+        "put_call": null,
+        "sector": "Information Technology",
+        "industry": "Software - Infrastructure",
+        "tags": [],
+        "current_value": 22869000,
+        "prior_value": null,
+        "current_shares": 181760,
+        "prior_shares": null,
+        "delta_value": 22869000,
+        "delta_shares": 181760,
+        "delta_pct": null,
+        "current_pct_of_portfolio": 0.6772331904378902
+      },
+      {
+        "cusip": "466313103",
+        "ticker": "JBL",
+        "name": "JABIL INC",
+        "title_of_class": "COM",
+        "shares_type": "SH",
+        "put_call": null,
+        "sector": "Information Technology",
+        "industry": "Electronic Components",
+        "tags": [],
+        "current_value": 21835000,
+        "prior_value": null,
+        "current_shares": 82200,
+        "prior_shares": null,
+        "delta_value": 21835000,
+        "delta_shares": 82200,
+        "delta_pct": null,
+        "current_pct_of_portfolio": 0.6466127383449793
+      },
+      {
+        "cusip": "46428R107",
+        "ticker": "GSG",
+        "name": "ISHARES S&P GSCI COMMODITY-INDEXED TRUST",
+        "title_of_class": "UNIT BEN INT",
+        "shares_type": "SH",
+        "put_call": null,
+        "sector": "Energy",
+        "industry": "Commodity ETF",
+        "tags": [],
+        "current_value": 20737000,
+        "prior_value": null,
+        "current_shares": 643000,
+        "prior_shares": null,
+        "delta_value": 20737000,
+        "delta_shares": 643000,
+        "delta_pct": null,
+        "current_pct_of_portfolio": 0.6140970164900315
+      },
+      {
+        "cusip": "G54950103",
+        "ticker": "LIN",
+        "name": "Linde plc",
+        "title_of_class": "SHS",
+        "shares_type": "SH",
+        "put_call": null,
+        "sector": "Materials",
+        "industry": "Specialty Chemicals",
+        "tags": [],
+        "current_value": 20425000,
+        "prior_value": null,
+        "current_shares": 41200,
+        "prior_shares": null,
+        "delta_value": 20425000,
+        "delta_shares": 41200,
+        "delta_pct": null,
+        "current_pct_of_portfolio": 0.604857576400101
+      },
+      {
+        "cusip": "G7997R103",
+        "ticker": "STX",
+        "name": "SEAGATE TECHNOLOGY HOLDINGS PLC",
+        "title_of_class": "ORD SHS",
+        "shares_type": "SH",
+        "put_call": null,
+        "sector": "Information Technology",
+        "industry": "Computer Hardware",
+        "tags": [
+          "semis-ai-hardware",
+          "storage-hardware"
+        ],
+        "current_value": 19862000,
+        "prior_value": null,
+        "current_shares": 50700,
+        "prior_shares": null,
+        "delta_value": 19862000,
+        "delta_shares": 50700,
+        "delta_pct": null,
+        "current_pct_of_portfolio": 0.5881851252121814
+      },
+      {
+        "cusip": "67080N101",
+        "ticker": "NUVB",
+        "name": "NUVATION BIO INC",
+        "title_of_class": "COM CL A",
+        "shares_type": "SH",
+        "put_call": null,
+        "sector": "Health Care",
+        "industry": "Biotechnology",
+        "tags": [],
+        "current_value": 19476000,
+        "prior_value": null,
+        "current_shares": 4539800,
+        "prior_shares": null,
+        "delta_value": 19476000,
+        "delta_shares": 4539800,
+        "delta_pct": null,
+        "current_pct_of_portfolio": 0.5767542794598954
+      },
+      {
+        "cusip": "458140100",
+        "ticker": "INTC",
+        "name": "INTEL CORP",
+        "title_of_class": "COM",
+        "shares_type": "SH",
+        "put_call": null,
+        "sector": "Information Technology",
+        "industry": "Semiconductors",
+        "tags": [],
+        "current_value": 18155000,
+        "prior_value": null,
+        "current_shares": 411400,
+        "prior_shares": null,
+        "delta_value": 18155000,
+        "delta_shares": 411400,
+        "delta_pct": null,
+        "current_pct_of_portfolio": 0.5376347270278499
+      },
+      {
+        "cusip": "07782B104",
+        "ticker": "BLTE",
+        "name": "BELITE BIO INC - ADR",
+        "title_of_class": "ADS",
+        "shares_type": "SH",
+        "put_call": null,
+        "sector": "Health Care",
+        "industry": "Biotechnology",
+        "tags": [],
+        "current_value": 16917000,
+        "prior_value": null,
+        "current_shares": 106100,
+        "prior_shares": null,
+        "delta_value": 16917000,
+        "delta_shares": 106100,
+        "delta_pct": null,
+        "current_pct_of_portfolio": 0.5009731025684458
+      },
+      {
+        "cusip": "042068205",
+        "ticker": "ARM",
+        "name": "ARM HOLDINGS PLC-ADR",
+        "title_of_class": "SPONSORED ADS",
+        "shares_type": "SH",
+        "put_call": null,
+        "sector": "Information Technology",
+        "industry": "Semiconductors",
+        "tags": [
+          "semis-ai-hardware",
+          "edge-power-semiconductors"
+        ],
+        "current_value": 16142000,
+        "prior_value": null,
+        "current_shares": 106700,
+        "prior_shares": null,
+        "delta_value": 16142000,
+        "delta_shares": 106700,
+        "delta_pct": null,
+        "current_pct_of_portfolio": 0.4780225702937787
+      },
+      {
+        "cusip": "68062P106",
+        "ticker": "OLMA",
+        "name": "OLEMA PHARMACEUTICALS INC",
+        "title_of_class": "COM",
+        "shares_type": "SH",
+        "put_call": null,
+        "sector": "Health Care",
+        "industry": "Biotechnology",
+        "tags": [],
+        "current_value": 14714000,
+        "prior_value": null,
+        "current_shares": 986827,
+        "prior_shares": null,
+        "delta_value": 14714000,
+        "delta_shares": 986827,
+        "delta_pct": null,
+        "current_pct_of_portfolio": 0.43573436372832725
+      },
+      {
+        "cusip": "74743L100",
+        "ticker": "Q",
+        "name": "QNITY ELECTRONICS INC",
+        "title_of_class": "COMMON STOCK",
+        "shares_type": "SH",
+        "put_call": null,
+        "sector": "Information Technology",
+        "industry": "Semiconductor Equipment & Materials",
+        "tags": [],
+        "current_value": 14498000,
+        "prior_value": null,
+        "current_shares": 125655,
+        "prior_shares": null,
+        "delta_value": 14498000,
+        "delta_shares": 125655,
+        "delta_pct": null,
+        "current_pct_of_portfolio": 0.42933782828145234
+      },
+      {
+        "cusip": "98420N105",
+        "ticker": "XENE",
+        "name": "XENON PHARMACEUTICALS INC",
+        "title_of_class": "COM",
+        "shares_type": "SH",
+        "put_call": null,
+        "sector": "Health Care",
+        "industry": "Biotechnology",
+        "tags": [],
+        "current_value": 13875000,
+        "prior_value": null,
+        "current_shares": 238600,
+        "prior_shares": null,
+        "delta_value": 13875000,
+        "delta_shares": 238600,
+        "delta_pct": null,
+        "current_pct_of_portfolio": 0.410888561691623
+      },
+      {
+        "cusip": "N4732M103",
+        "ticker": "JBS",
+        "name": "JBS N.V.",
+        "title_of_class": "CL A SHS",
+        "shares_type": "SH",
+        "put_call": null,
+        "sector": "Consumer Staples",
+        "industry": "Packaged Foods",
+        "tags": [],
+        "current_value": 11780000,
+        "prior_value": null,
+        "current_shares": 655900,
+        "prior_shares": null,
+        "delta_value": 11780000,
+        "delta_shares": 655900,
+        "delta_pct": null,
+        "current_pct_of_portfolio": 0.3488480905749419
+      },
+      {
+        "cusip": "18915M107",
+        "ticker": "NET",
+        "name": "CLOUDFLARE INC - CLASS A",
+        "title_of_class": "CL A COM",
+        "shares_type": "SH",
+        "put_call": null,
+        "sector": "Information Technology",
+        "industry": "Software - Infrastructure",
+        "tags": [],
+        "current_value": 10840000,
+        "prior_value": null,
+        "current_shares": 52535,
+        "prior_shares": null,
+        "delta_value": 10840000,
+        "delta_shares": 52535,
+        "delta_pct": null,
+        "current_pct_of_portfolio": 0.32101131594502297
+      },
+      {
+        "cusip": "N53745100",
+        "ticker": "LYB",
+        "name": "LyondellBasell Industries NV",
+        "title_of_class": "SHS - A -",
+        "shares_type": "SH",
+        "put_call": null,
+        "sector": "Materials",
+        "industry": "Specialty Chemicals",
+        "tags": [],
+        "current_value": 10588000,
+        "prior_value": null,
+        "current_shares": 131435,
+        "prior_shares": null,
+        "delta_value": 10588000,
+        "delta_shares": 131435,
+        "delta_pct": null,
+        "current_pct_of_portfolio": 0.31354869125700213
+      },
+      {
+        "cusip": "92837L109",
+        "ticker": "VIST",
+        "name": "VISTA ENERGY SAB DE CV",
+        "title_of_class": "SPONSORED ADS",
+        "shares_type": "SH",
+        "put_call": null,
+        "sector": "Energy",
+        "industry": "Oil & Gas E&P",
+        "tags": [],
+        "current_value": 10166000,
+        "prior_value": null,
+        "current_shares": 134700,
+        "prior_shares": null,
+        "delta_value": 10166000,
+        "delta_shares": 134700,
+        "delta_pct": null,
+        "current_pct_of_portfolio": 0.30105175626357045
+      },
+      {
+        "cusip": "90184D100",
+        "ticker": "TWST",
+        "name": "TWIST BIOSCIENCE CORP",
+        "title_of_class": "COM",
+        "shares_type": "SH",
+        "put_call": null,
+        "sector": "Health Care",
+        "industry": "Diagnostics & Research",
+        "tags": [],
+        "current_value": 9789000,
+        "prior_value": null,
+        "current_shares": 206000,
+        "prior_shares": null,
+        "delta_value": 9789000,
+        "delta_shares": 206000,
+        "delta_pct": null,
+        "current_pct_of_portfolio": 0.28988743282157103
+      },
+      {
+        "cusip": "19247G107",
+        "ticker": "COHR",
+        "name": "COHERENT CORP",
+        "title_of_class": "COM",
+        "shares_type": "SH",
+        "put_call": null,
+        "sector": "Information Technology",
+        "industry": "Scientific & Technical Instruments",
+        "tags": [],
+        "current_value": 9624000,
+        "prior_value": null,
+        "current_shares": 40400,
+        "prior_shares": null,
+        "delta_value": 9624000,
+        "delta_shares": 40400,
+        "delta_pct": null,
+        "current_pct_of_portfolio": 0.2850011904663193
+      },
+      {
+        "cusip": "15101Q207",
+        "ticker": "CLS",
+        "name": "CELESTICA INC",
+        "title_of_class": "COM",
+        "shares_type": "SH",
+        "put_call": null,
+        "sector": "Information Technology",
+        "industry": "Electronic Components",
+        "tags": [],
+        "current_value": 9373000,
+        "prior_value": null,
+        "current_shares": 33275,
+        "prior_shares": null,
+        "delta_value": 9373000,
+        "delta_shares": 33275,
+        "delta_pct": null,
+        "current_pct_of_portfolio": 0.2775681793683303
+      },
+      {
+        "cusip": "23306J309",
+        "ticker": "DBVT",
+        "name": "DBV TECHNOLOGIES SA-SPON ADR",
+        "title_of_class": "ADS",
+        "shares_type": "SH",
+        "put_call": null,
+        "sector": "Health Care",
+        "industry": "Biotechnology",
+        "tags": [],
+        "current_value": 8008000,
+        "prior_value": null,
+        "current_shares": 383363,
+        "prior_shares": null,
+        "delta_value": 8008000,
+        "delta_shares": 383363,
+        "delta_pct": null,
+        "current_pct_of_portfolio": 0.23714562897488414
+      },
+      {
+        "cusip": "595112103",
+        "ticker": "MU",
+        "name": "MICRON TECHNOLOGY INC",
+        "title_of_class": "COM",
+        "shares_type": "SH",
+        "put_call": null,
+        "sector": "Information Technology",
+        "industry": "Semiconductors",
+        "tags": [],
+        "current_value": 7905000,
+        "prior_value": null,
+        "current_shares": 23400,
+        "prior_shares": null,
+        "delta_value": 7905000,
+        "delta_shares": 23400,
+        "delta_pct": null,
+        "current_pct_of_portfolio": 0.23409542920160578
+      },
+      {
+        "cusip": "55024U109",
+        "ticker": "LITE",
+        "name": "LUMENTUM HOLDINGS INC",
+        "title_of_class": "COM",
+        "shares_type": "SH",
+        "put_call": null,
+        "sector": "Information Technology",
+        "industry": "Communication Equipment",
+        "tags": [],
+        "current_value": 4893000,
+        "prior_value": null,
+        "current_shares": 6963,
+        "prior_shares": null,
+        "delta_value": 4893000,
+        "delta_shares": 6963,
+        "delta_pct": null,
+        "current_pct_of_portfolio": 0.14489929602573776
+      },
+      {
+        "cusip": "83443Q103",
+        "ticker": "SOLS",
+        "name": "SOLSTICE ADV MATERIALS INC",
+        "title_of_class": "COM SHS",
+        "shares_type": "SH",
+        "put_call": null,
+        "sector": "Materials",
+        "industry": "Specialty Chemicals",
+        "tags": [],
+        "current_value": 4762000,
+        "prior_value": null,
+        "current_shares": 62525,
+        "prior_shares": null,
+        "delta_value": 4762000,
+        "delta_shares": 62525,
+        "delta_pct": null,
+        "current_pct_of_portfolio": 0.1410199157315682
+      },
+      {
+        "cusip": "960413102",
+        "ticker": "WLK",
+        "name": "WESTLAKE CORP",
+        "title_of_class": "COM",
+        "shares_type": "SH",
+        "put_call": null,
+        "sector": "Materials",
+        "industry": "Specialty Chemicals",
+        "tags": [],
+        "current_value": 2476000,
+        "prior_value": null,
+        "current_shares": 21194,
+        "prior_shares": null,
+        "delta_value": 2476000,
+        "delta_shares": 21194,
+        "delta_pct": null,
+        "current_pct_of_portfolio": 0.07332324891880783
+      }
+    ],
+    "closed": [
+      {
+        "cusip": "81369Y605",
+        "ticker": "XLF",
+        "name": "FINANCIAL SELECT SECTOR SPDR ETF",
+        "title_of_class": "STATE STREET FIN",
+        "shares_type": "SH",
+        "put_call": null,
+        "sector": "Financials",
+        "industry": "Diversified Financials ETF",
+        "tags": [
+          "financials-credit",
+          "financial-etfs"
+        ],
+        "current_value": null,
+        "prior_value": 300994000,
+        "current_shares": null,
+        "prior_shares": 5495600,
+        "delta_value": -300994000,
+        "delta_shares": -5495600,
+        "delta_pct": null,
+        "current_pct_of_portfolio": null
+      },
+      {
+        "cusip": "02079K305",
+        "ticker": "GOOGL",
+        "name": "ALPHABET INC-CL A",
+        "title_of_class": "CAP STK CL A",
+        "shares_type": "SH",
+        "put_call": null,
+        "sector": "Communication Services",
+        "industry": "Internet Content & Information",
+        "tags": [
+          "consumer-platforms",
+          "digital-media-apps"
+        ],
+        "current_value": null,
+        "prior_value": 120505000,
+        "current_shares": null,
+        "prior_shares": 385000,
+        "delta_value": -120505000,
+        "delta_shares": -385000,
+        "delta_pct": null,
+        "current_pct_of_portfolio": null
+      },
+      {
+        "cusip": "19240Q201",
+        "ticker": "COGT",
+        "name": "COGENT BIOSCIENCES INC",
+        "title_of_class": "COM",
+        "shares_type": "SH",
+        "put_call": null,
+        "sector": "Health Care",
+        "industry": "Biotechnology",
+        "tags": [
+          "health-care",
+          "therapeutics-biotech"
+        ],
+        "current_value": null,
+        "prior_value": 78658000,
+        "current_shares": null,
+        "prior_shares": 2214470,
+        "delta_value": -78658000,
+        "delta_shares": -2214470,
+        "delta_pct": null,
+        "current_pct_of_portfolio": null
+      },
+      {
+        "cusip": "29362U104",
+        "ticker": "ENTG",
+        "name": "ENTEGRIS INC",
+        "title_of_class": "COM",
+        "shares_type": "SH",
+        "put_call": null,
+        "sector": "Information Technology",
+        "industry": "Semiconductor Equipment & Materials",
+        "tags": [
+          "semis-ai-hardware",
+          "semicap-materials"
+        ],
+        "current_value": null,
+        "prior_value": 71120000,
+        "current_shares": null,
+        "prior_shares": 844160,
+        "delta_value": -71120000,
+        "delta_shares": -844160,
+        "delta_pct": null,
+        "current_pct_of_portfolio": null
+      },
+      {
+        "cusip": "256163106",
+        "ticker": "DOCU",
+        "name": "DOCUSIGN INC",
+        "title_of_class": "COM",
+        "shares_type": "SH",
+        "put_call": null,
+        "sector": "Information Technology",
+        "industry": "Software - Application",
+        "tags": [
+          "consumer-platforms",
+          "digital-media-apps"
+        ],
+        "current_value": null,
+        "prior_value": 69705000,
+        "current_shares": null,
+        "prior_shares": 1019085,
+        "delta_value": -69705000,
+        "delta_shares": -1019085,
+        "delta_pct": null,
+        "current_pct_of_portfolio": null
+      },
+      {
+        "cusip": "464287234",
+        "ticker": "EEM",
+        "name": "ISHARES MSCI EMERGING MARKETS ETF",
+        "title_of_class": "MSCI EMG MKT ETF",
+        "shares_type": "SH",
+        "put_call": null,
+        "sector": "Financials",
+        "industry": "Emerging Markets ETF",
+        "tags": [
+          "market-beta-em",
+          "em-country-etfs"
+        ],
+        "current_value": null,
+        "prior_value": 49376000,
+        "current_shares": null,
+        "prior_shares": 902500,
+        "delta_value": -49376000,
+        "delta_shares": -902500,
+        "delta_pct": null,
+        "current_pct_of_portfolio": null
+      },
+      {
+        "cusip": "247361702",
+        "ticker": "DAL",
+        "name": "DELTA AIR LINES INC",
+        "title_of_class": "COM NEW",
+        "shares_type": "SH",
+        "put_call": null,
+        "sector": "Industrials",
+        "industry": "Airlines",
+        "tags": [
+          "industrial-real-assets",
+          "aerospace-transport"
+        ],
+        "current_value": null,
+        "prior_value": 45173000,
+        "current_shares": null,
+        "prior_shares": 650910,
+        "delta_value": -45173000,
+        "delta_shares": -650910,
+        "delta_pct": null,
+        "current_pct_of_portfolio": null
+      },
+      {
+        "cusip": "682189105",
+        "ticker": "ON",
+        "name": "ON SEMICONDUCTOR",
+        "title_of_class": "COM",
+        "shares_type": "SH",
+        "put_call": null,
+        "sector": "Information Technology",
+        "industry": "Semiconductors",
+        "tags": [
+          "semis-ai-hardware",
+          "edge-power-semiconductors"
+        ],
+        "current_value": null,
+        "prior_value": 29038000,
+        "current_shares": null,
+        "prior_shares": 536260,
+        "delta_value": -29038000,
+        "delta_shares": -536260,
+        "delta_pct": null,
+        "current_pct_of_portfolio": null
+      },
+      {
+        "cusip": "G3643J108",
+        "ticker": "FLUT",
+        "name": "FLUTTER ENTERTAINMENT PLC",
+        "title_of_class": "SHS",
+        "shares_type": "SH",
+        "put_call": null,
+        "sector": "Consumer Discretionary",
+        "industry": "Gambling",
+        "tags": [
+          "consumer-platforms",
+          "digital-media-apps"
+        ],
+        "current_value": null,
+        "prior_value": 24782000,
+        "current_shares": null,
+        "prior_shares": 115245,
+        "delta_value": -24782000,
+        "delta_shares": -115245,
+        "delta_pct": null,
+        "current_pct_of_portfolio": null
+      },
+      {
+        "cusip": "00835Q202",
+        "ticker": "AEVA",
+        "name": "AEVA TECHNOLOGIES INC",
+        "title_of_class": "COM NEW",
+        "shares_type": "SH",
+        "put_call": null,
+        "sector": "Information Technology",
+        "industry": "Software - Infrastructure",
+        "tags": [
+          "consumer-platforms",
+          "digital-media-apps"
+        ],
+        "current_value": null,
+        "prior_value": 24234000,
+        "current_shares": null,
+        "prior_shares": 1824862,
+        "delta_value": -24234000,
+        "delta_shares": -1824862,
+        "delta_pct": null,
+        "current_pct_of_portfolio": null
+      },
+      {
+        "cusip": "38141G104",
+        "ticker": "GS",
+        "name": "GOLDMAN SACHS GROUP INC",
+        "title_of_class": "COM",
+        "shares_type": "SH",
+        "put_call": null,
+        "sector": "Financials",
+        "industry": "Capital Markets",
+        "tags": [
+          "financials-credit",
+          "banks-credit"
+        ],
+        "current_value": null,
+        "prior_value": 24173000,
+        "current_shares": null,
+        "prior_shares": 27500,
+        "delta_value": -24173000,
+        "delta_shares": -27500,
+        "delta_pct": null,
+        "current_pct_of_portfolio": null
+      },
+      {
+        "cusip": "74967X103",
+        "ticker": "RH",
+        "name": "RH",
+        "title_of_class": "COM",
+        "shares_type": "SH",
+        "put_call": null,
+        "sector": "Consumer Discretionary",
+        "industry": "Specialty Retail",
+        "tags": [
+          "consumer-platforms",
+          "housing-retail"
+        ],
+        "current_value": null,
+        "prior_value": 15801000,
+        "current_shares": null,
+        "prior_shares": 88200,
+        "delta_value": -15801000,
+        "delta_shares": -88200,
+        "delta_pct": null,
+        "current_pct_of_portfolio": null
+      },
+      {
+        "cusip": "169656105",
+        "ticker": "CMG",
+        "name": "CHIPOTLE MEXICAN GRILL INC",
+        "title_of_class": "COM",
+        "shares_type": "SH",
+        "put_call": null,
+        "sector": "Consumer Discretionary",
+        "industry": "Restaurants",
+        "tags": [
+          "consumer-platforms",
+          "restaurants-staples"
+        ],
+        "current_value": null,
+        "prior_value": 14501000,
+        "current_shares": null,
+        "prior_shares": 391930,
+        "delta_value": -14501000,
+        "delta_shares": -391930,
+        "delta_pct": null,
+        "current_pct_of_portfolio": null
+      },
+      {
+        "cusip": "98954M200",
+        "ticker": "Z",
+        "name": "ZILLOW GROUP INC - C",
+        "title_of_class": "CL C CAP STK",
+        "shares_type": "SH",
+        "put_call": null,
+        "sector": "Communication Services",
+        "industry": "Internet Content & Information",
+        "tags": [
+          "consumer-platforms",
+          "housing-retail"
+        ],
+        "current_value": null,
+        "prior_value": 13142000,
+        "current_shares": null,
+        "prior_shares": 192640,
+        "delta_value": -13142000,
+        "delta_shares": -192640,
+        "delta_pct": null,
+        "current_pct_of_portfolio": null
+      },
+      {
+        "cusip": "171757206",
+        "ticker": "CDTX",
+        "name": "CIDARA THERAPEUTICS INC",
+        "title_of_class": "COM NEW",
+        "shares_type": "SH",
+        "put_call": null,
+        "sector": "Health Care",
+        "industry": "Biotechnology",
+        "tags": [
+          "health-care",
+          "therapeutics-biotech"
+        ],
+        "current_value": null,
+        "prior_value": 10933000,
+        "current_shares": null,
+        "prior_shares": 49495,
+        "delta_value": -10933000,
+        "delta_shares": -49495,
+        "delta_pct": null,
+        "current_pct_of_portfolio": null
+      },
+      {
+        "cusip": "718172109",
+        "ticker": "PM",
+        "name": "PHILIP MORRIS INTERNATIONAL",
+        "title_of_class": "COM",
+        "shares_type": "SH",
+        "put_call": null,
+        "sector": "Consumer Staples",
+        "industry": "Tobacco",
+        "tags": [
+          "consumer-platforms",
+          "restaurants-staples"
+        ],
+        "current_value": null,
+        "prior_value": 10811000,
+        "current_shares": null,
+        "prior_shares": 67400,
+        "delta_value": -10811000,
+        "delta_shares": -67400,
+        "delta_pct": null,
+        "current_pct_of_portfolio": null
+      },
+      {
+        "cusip": "02376R102",
+        "ticker": "AAL",
+        "name": "AMERICAN AIRLINES GROUP INC",
+        "title_of_class": "COM",
+        "shares_type": "SH",
+        "put_call": null,
+        "sector": "Industrials",
+        "industry": "Airlines",
+        "tags": [
+          "industrial-real-assets",
+          "aerospace-transport"
+        ],
+        "current_value": null,
+        "prior_value": 9808000,
+        "current_shares": null,
+        "prior_shares": 639785,
+        "delta_value": -9808000,
+        "delta_shares": -639785,
+        "delta_pct": null,
+        "current_pct_of_portfolio": null
+      },
+      {
+        "cusip": "04010E109",
+        "ticker": "AGX",
+        "name": "ARGAN INC",
+        "title_of_class": "COM",
+        "shares_type": "SH",
+        "put_call": null,
+        "sector": "Industrials",
+        "industry": "Engineering & Construction",
+        "tags": [
+          "industrial-real-assets",
+          "power-electrification"
+        ],
+        "current_value": null,
+        "prior_value": 9400000,
+        "current_shares": null,
+        "prior_shares": 30000,
+        "delta_value": -9400000,
+        "delta_shares": -30000,
+        "delta_pct": null,
+        "current_pct_of_portfolio": null
+      },
+      {
+        "cusip": "25809K105",
+        "ticker": "DASH",
+        "name": "DOORDASH INC - A",
+        "title_of_class": "CL A",
+        "shares_type": "SH",
+        "put_call": null,
+        "sector": "Consumer Discretionary",
+        "industry": "Internet Retail",
+        "tags": [
+          "consumer-platforms",
+          "ecommerce-marketplaces"
+        ],
+        "current_value": null,
+        "prior_value": 8131000,
+        "current_shares": null,
+        "prior_shares": 35900,
+        "delta_value": -8131000,
+        "delta_shares": -35900,
+        "delta_pct": null,
+        "current_pct_of_portfolio": null
+      },
+      {
+        "cusip": "74340E103",
+        "ticker": "PGNY",
+        "name": "PROGYNY INC",
+        "title_of_class": "COM",
+        "shares_type": "SH",
+        "put_call": null,
+        "sector": "Health Care",
+        "industry": "Healthcare Plans",
+        "tags": [
+          "health-care",
+          "care-delivery"
+        ],
+        "current_value": null,
+        "prior_value": 7579000,
+        "current_shares": null,
+        "prior_shares": 295115,
+        "delta_value": -7579000,
+        "delta_shares": -295115,
+        "delta_pct": null,
+        "current_pct_of_portfolio": null
+      },
+      {
+        "cusip": "97785W106",
+        "ticker": "WOLF",
+        "name": "WOLFSPEED INC",
+        "title_of_class": "COMMON STOCK",
+        "shares_type": "SH",
+        "put_call": null,
+        "sector": "Information Technology",
+        "industry": "Semiconductors",
+        "tags": [
+          "semis-ai-hardware",
+          "edge-power-semiconductors"
+        ],
+        "current_value": null,
+        "prior_value": 3254000,
+        "current_shares": null,
+        "prior_shares": 186900,
+        "delta_value": -3254000,
+        "delta_shares": -186900,
+        "delta_pct": null,
+        "current_pct_of_portfolio": null
+      },
+      {
+        "cusip": "64073B103",
+        "ticker": "NP",
+        "name": "NEPTUNE INSURANCE HOLDI-CL A",
+        "title_of_class": "CL A",
+        "shares_type": "SH",
+        "put_call": null,
+        "sector": "Financials",
+        "industry": "Insurance Brokers",
+        "tags": [
+          "financials-credit",
+          "banks-credit"
+        ],
+        "current_value": null,
+        "prior_value": 583000,
+        "current_shares": null,
+        "prior_shares": 20000,
+        "delta_value": -583000,
+        "delta_shares": -20000,
+        "delta_pct": null,
+        "current_pct_of_portfolio": null
+      }
+    ],
+    "increased": [
+      {
+        "cusip": "984245100",
+        "ticker": "YPF",
+        "name": "YPF S.A.-SPONSORED ADR",
+        "title_of_class": "SPON ADR CL D",
+        "shares_type": "SH",
+        "put_call": null,
+        "sector": "Energy",
+        "industry": "Oil & Gas Integrated",
+        "tags": [
+          "industrial-real-assets",
+          "energy-resources"
+        ],
+        "current_value": 149566000,
+        "prior_value": 21949000,
+        "current_shares": 3235962,
+        "prior_shares": 606990,
+        "delta_value": 127617000,
+        "delta_shares": 2628972,
+        "delta_pct": 433.1161963129541,
+        "current_pct_of_portfolio": 4.429186206700489
+      },
+      {
+        "cusip": "861012102",
+        "ticker": "STM",
+        "name": "STMICROELECTRONICS NV-NY SHS",
+        "title_of_class": "NY REGISTRY",
+        "shares_type": "SH",
+        "put_call": null,
+        "sector": "Information Technology",
+        "industry": "Semiconductors",
+        "tags": [
+          "semis-ai-hardware",
+          "edge-power-semiconductors"
+        ],
+        "current_value": 90275000,
+        "prior_value": 20066000,
+        "current_shares": 2612880,
+        "prior_shares": 773555,
+        "delta_value": 70209000,
+        "delta_shares": 1839325,
+        "delta_pct": 237.77559449554332,
+        "current_pct_of_portfolio": 2.6733668401233346
+      },
+      {
+        "cusip": "632307104",
+        "ticker": "NTRA",
+        "name": "NATERA INC",
+        "title_of_class": "COM",
+        "shares_type": "SH",
+        "put_call": null,
+        "sector": "Health Care",
+        "industry": "Diagnostics & Research",
+        "tags": [
+          "health-care",
+          "diagnostics-research"
+        ],
+        "current_value": 612691000,
+        "prior_value": 575327000,
+        "current_shares": 3063606,
+        "prior_shares": 2511357,
+        "delta_value": 37364000,
+        "delta_shares": 552249,
+        "delta_pct": 21.990063539353425,
+        "current_pct_of_portfolio": 18.14398009019115
+      },
+      {
+        "cusip": "81141R100",
+        "ticker": "SE",
+        "name": "SEA LTD-ADR",
+        "title_of_class": "SPONSORD ADS",
+        "shares_type": "SH",
+        "put_call": null,
+        "sector": "Consumer Discretionary",
+        "industry": "Internet Retail",
+        "tags": [
+          "consumer-platforms",
+          "ecommerce-marketplaces"
+        ],
+        "current_value": 91083000,
+        "prior_value": 120441000,
+        "current_shares": 1099905,
+        "prior_shares": 944120,
+        "delta_value": -29358000,
+        "delta_shares": 155785,
+        "delta_pct": 16.500550777443546,
+        "current_pct_of_portfolio": 2.6972946208690525
+      },
+      {
+        "cusip": "013872106",
+        "ticker": "AA",
+        "name": "ALCOA CORP",
+        "title_of_class": "COM",
+        "shares_type": "SH",
+        "put_call": null,
+        "sector": "Materials",
+        "industry": "Aluminum",
+        "tags": [
+          "industrial-real-assets",
+          "metals-materials"
+        ],
+        "current_value": 99057000,
+        "prior_value": 73123000,
+        "current_shares": 1493390,
+        "prior_shares": 1376050,
+        "delta_value": 25934000,
+        "delta_shares": 117340,
+        "delta_pct": 8.527306420551579,
+        "current_pct_of_portfolio": 2.9334333877828542
+      },
+      {
+        "cusip": "G0896C103",
+        "ticker": "TBBB",
+        "name": "BBB FOODS INC",
+        "title_of_class": "CL A COM",
+        "shares_type": "SH",
+        "put_call": null,
+        "sector": "Consumer Staples",
+        "industry": "Grocery Stores",
+        "tags": [
+          "consumer-platforms",
+          "restaurants-staples"
+        ],
+        "current_value": 109972000,
+        "prior_value": 89323000,
+        "current_shares": 3109202,
+        "prior_shares": 2675152,
+        "delta_value": 20649000,
+        "delta_shares": 434050,
+        "delta_pct": 16.225246266380378,
+        "current_pct_of_portfolio": 3.256665722980264
+      },
+      {
+        "cusip": "023135106",
+        "ticker": "AMZN",
+        "name": "AMAZON.COM INC",
+        "title_of_class": "COM",
+        "shares_type": "SH",
+        "put_call": "Call",
+        "sector": "Consumer Discretionary",
+        "industry": "Internet Retail",
+        "tags": [
+          "consumer-platforms",
+          "ecommerce-marketplaces"
+        ],
+        "current_value": 41654000,
+        "prior_value": 23082000,
+        "current_shares": 200000,
+        "prior_shares": 100000,
+        "delta_value": 18572000,
+        "delta_shares": 100000,
+        "delta_pct": 100,
+        "current_pct_of_portfolio": 1.2335244791857922
+      },
+      {
+        "cusip": "000899104",
+        "ticker": "ADMA",
+        "name": "ADMA BIOLOGICS INC",
+        "title_of_class": "COM",
+        "shares_type": "SH",
+        "put_call": null,
+        "sector": "Health Care",
+        "industry": "Biotechnology",
+        "tags": [
+          "health-care",
+          "therapeutics-biotech"
+        ],
+        "current_value": 13926000,
+        "prior_value": 4600000,
+        "current_shares": 1545610,
+        "prior_shares": 252200,
+        "delta_value": 9326000,
+        "delta_shares": 1293410,
+        "delta_pct": 512.8509119746234,
+        "current_pct_of_portfolio": 0.4123988547832463
+      },
+      {
+        "cusip": "77543R102",
+        "ticker": "ROKU",
+        "name": "ROKU INC",
+        "title_of_class": "COM CL A",
+        "shares_type": "SH",
+        "put_call": null,
+        "sector": "Communication Services",
+        "industry": "Entertainment",
+        "tags": [
+          "consumer-platforms",
+          "digital-media-apps"
+        ],
+        "current_value": 70983000,
+        "prior_value": 63248000,
+        "current_shares": 750190,
+        "prior_shares": 582980,
+        "delta_value": 7735000,
+        "delta_shares": 167210,
+        "delta_pct": 28.681944492092352,
+        "current_pct_of_portfolio": 2.1020614612292956
+      },
+      {
+        "cusip": "68404L201",
+        "ticker": "OPCH",
+        "name": "OPTION CARE HEALTH INC",
+        "title_of_class": "COM NEW",
+        "shares_type": "SH",
+        "put_call": null,
+        "sector": "Health Care",
+        "industry": "Medical Care Facilities",
+        "tags": [
+          "health-care",
+          "care-delivery"
+        ],
+        "current_value": 50301000,
+        "prior_value": 55626000,
+        "current_shares": 1868550,
+        "prior_shares": 1745950,
+        "delta_value": -5325000,
+        "delta_shares": 122600,
+        "delta_pct": 7.021965119276039,
+        "current_pct_of_portfolio": 1.4895931921910148
+      },
+      {
+        "cusip": "185899101",
+        "ticker": "CLF",
+        "name": "CLEVELAND-CLIFFS INC",
+        "title_of_class": "COM",
+        "shares_type": "SH",
+        "put_call": null,
+        "sector": "Materials",
+        "industry": "Steel",
+        "tags": [
+          "industrial-real-assets",
+          "metals-materials"
+        ],
+        "current_value": 19549000,
+        "prior_value": 23182000,
+        "current_shares": 2313455,
+        "prior_shares": 1745655,
+        "delta_value": -3633000,
+        "delta_shares": 567800,
+        "delta_pct": 32.52647287121453,
+        "current_pct_of_portfolio": 0.578916071532219
+      },
+      {
+        "cusip": "84265V105",
+        "ticker": "SCCO",
+        "name": "SOUTHERN COPPER CORP",
+        "title_of_class": "COM",
+        "shares_type": "SH",
+        "put_call": null,
+        "sector": "Materials",
+        "industry": "Copper",
+        "tags": [
+          "industrial-real-assets",
+          "metals-materials"
+        ],
+        "current_value": 20964000,
+        "prior_value": 17334000,
+        "current_shares": 121843,
+        "prior_shares": 120817,
+        "delta_value": 3630000,
+        "delta_shares": 1026,
+        "delta_pct": 0.8492182391550859,
+        "current_pct_of_portfolio": 0.6208193014272566
+      },
+      {
+        "cusip": "91332U101",
+        "ticker": "U",
+        "name": "UNITY SOFTWARE INC",
+        "title_of_class": "COM",
+        "shares_type": "SH",
+        "put_call": null,
+        "sector": "Information Technology",
+        "industry": "Software - Application",
+        "tags": [
+          "consumer-platforms",
+          "digital-media-apps"
+        ],
+        "current_value": 16209000,
+        "prior_value": 18111000,
+        "current_shares": 738785,
+        "prior_shares": 410020,
+        "delta_value": -1902000,
+        "delta_shares": 328765,
+        "delta_pct": 80.18267401590167,
+        "current_pct_of_portfolio": 0.4800066808259112
+      }
+    ],
+    "decreased": [
+      {
+        "cusip": "023135106",
+        "ticker": "AMZN",
+        "name": "AMAZON.COM INC",
+        "title_of_class": "COM",
+        "shares_type": "SH",
+        "put_call": null,
+        "sector": "Consumer Discretionary",
+        "industry": "Internet Retail",
+        "tags": [
+          "consumer-platforms",
+          "ecommerce-marketplaces"
+        ],
+        "current_value": 9539000,
+        "prior_value": 170331000,
+        "current_shares": 45800,
+        "prior_shares": 737940,
+        "delta_value": -160792000,
+        "delta_shares": -692140,
+        "delta_pct": -93.79353334959481,
+        "current_pct_of_portfolio": 0.2824840353136138
+      },
+      {
+        "cusip": "881624209",
+        "ticker": "TEVA",
+        "name": "TEVA PHARMACEUTICAL-SP ADR",
+        "title_of_class": "SPONSORED ADS",
+        "shares_type": "SH",
+        "put_call": null,
+        "sector": "Health Care",
+        "industry": "Drug Manufacturers - Specialty & Generic",
+        "tags": [
+          "health-care",
+          "pharma-generics"
+        ],
+        "current_value": 71604000,
+        "prior_value": 183355000,
+        "current_shares": 2377285,
+        "prior_shares": 5874870,
+        "delta_value": -111751000,
+        "delta_shares": -3497585,
+        "delta_pct": -59.53467906523889,
+        "current_pct_of_portfolio": 2.1204515006390614
+      },
+      {
+        "cusip": "22266T109",
+        "ticker": "CPNG",
+        "name": "COUPANG INC",
+        "title_of_class": "CL A",
+        "shares_type": "SH",
+        "put_call": null,
+        "sector": "Consumer Discretionary",
+        "industry": "Internet Retail",
+        "tags": [
+          "consumer-platforms",
+          "ecommerce-marketplaces"
+        ],
+        "current_value": 50362000,
+        "prior_value": 159773000,
+        "current_shares": 2667485,
+        "prior_shares": 6772909,
+        "delta_value": -109411000,
+        "delta_shares": -4105424,
+        "delta_pct": -60.615372213032835,
+        "current_pct_of_portfolio": 1.4913996211829563
+      },
+      {
+        "cusip": "980745103",
+        "ticker": "WWD",
+        "name": "WOODWARD INC",
+        "title_of_class": "COM",
+        "shares_type": "SH",
+        "put_call": null,
+        "sector": "Industrials",
+        "industry": "Aerospace & Defense",
+        "tags": [
+          "industrial-real-assets",
+          "aerospace-transport"
+        ],
+        "current_value": 75648000,
+        "prior_value": 178650000,
+        "current_shares": 211355,
+        "prior_shares": 590930,
+        "delta_value": -103002000,
+        "delta_shares": -379575,
+        "delta_pct": -64.23349635320596,
+        "current_pct_of_portfolio": 2.2402088587277764
+      },
+      {
+        "cusip": "58733R102",
+        "ticker": "MELI",
+        "name": "MERCADOLIBRE INC",
+        "title_of_class": "COM",
+        "shares_type": "SH",
+        "put_call": null,
+        "sector": "Consumer Discretionary",
+        "industry": "Internet Retail",
+        "tags": [
+          "consumer-platforms",
+          "ecommerce-marketplaces"
+        ],
+        "current_value": 4782000,
+        "prior_value": 94970000,
+        "current_shares": 2766,
+        "prior_shares": 47149,
+        "delta_value": -90188000,
+        "delta_shares": -44383,
+        "delta_pct": -94.13349169653651,
+        "current_pct_of_portfolio": 0.14161218753220478
+      },
+      {
+        "cusip": "457669307",
+        "ticker": "INSM",
+        "name": "INSMED INC",
+        "title_of_class": "COM PAR $.01",
+        "shares_type": "SH",
+        "put_call": null,
+        "sector": "Health Care",
+        "industry": "Biotechnology",
+        "tags": [
+          "health-care",
+          "therapeutics-biotech"
+        ],
+        "current_value": 188717000,
+        "prior_value": 257884000,
+        "current_shares": 1154090,
+        "prior_shares": 1481752,
+        "delta_value": -69167000,
+        "delta_shares": -327662,
+        "delta_pct": -22.11314713933236,
+        "current_pct_of_portfolio": 5.588587870036614
+      },
+      {
+        "cusip": "76131D103",
+        "ticker": "QSR",
+        "name": "RESTAURANT BRANDS INTERN",
+        "title_of_class": "COM",
+        "shares_type": "SH",
+        "put_call": null,
+        "sector": "Consumer Discretionary",
+        "industry": "Restaurants",
+        "tags": [
+          "consumer-platforms",
+          "restaurants-staples"
+        ],
+        "current_value": 33583000,
+        "prior_value": 82490000,
+        "current_shares": 454435,
+        "prior_shares": 1209000,
+        "delta_value": -48907000,
+        "delta_shares": -754565,
+        "delta_pct": -62.41232423490488,
+        "current_pct_of_portfolio": 0.9945131940389028
+      },
+      {
+        "cusip": "093712107",
+        "ticker": "BE",
+        "name": "BLOOM ENERGY CORP- A",
+        "title_of_class": "COM CL A",
+        "shares_type": "SH",
+        "put_call": null,
+        "sector": "Industrials",
+        "industry": "Electrical Equipment & Parts",
+        "tags": [
+          "industrial-real-assets",
+          "power-electrification"
+        ],
+        "current_value": 18470000,
+        "prior_value": 64346000,
+        "current_shares": 136320,
+        "prior_shares": 740545,
+        "delta_value": -45876000,
+        "delta_shares": -604225,
+        "delta_pct": -81.59193566900053,
+        "current_pct_of_portfolio": 0.5469630078878758
+      },
+      {
+        "cusip": "929740108",
+        "ticker": "WAB",
+        "name": "WABTEC CORP",
+        "title_of_class": "COM",
+        "shares_type": "SH",
+        "put_call": null,
+        "sector": "Industrials",
+        "industry": "Railroads",
+        "tags": [
+          "industrial-real-assets",
+          "aerospace-transport"
+        ],
+        "current_value": 23715000,
+        "prior_value": 64058000,
+        "current_shares": 94895,
+        "prior_shares": 300110,
+        "delta_value": -40343000,
+        "delta_shares": -205215,
+        "delta_pct": -68.37992735996801,
+        "current_pct_of_portfolio": 0.7022862876048173
+      },
+      {
+        "cusip": "518415104",
+        "ticker": "LSCC",
+        "name": "LATTICE SEMICONDUCTOR CORP",
+        "title_of_class": "COM",
+        "shares_type": "SH",
+        "put_call": null,
+        "sector": "Information Technology",
+        "industry": "Semiconductors",
+        "tags": [
+          "semis-ai-hardware",
+          "edge-power-semiconductors"
+        ],
+        "current_value": 29974000,
+        "prior_value": 68133000,
+        "current_shares": 323135,
+        "prior_shares": 925970,
+        "delta_value": -38159000,
+        "delta_shares": -602835,
+        "delta_pct": -65.10308109333995,
+        "current_pct_of_portfolio": 0.887637747614033
+      },
+      {
+        "cusip": "464287655",
+        "ticker": "IWM",
+        "name": "ISHARES RUSSELL 2000 ETF",
+        "title_of_class": "RUSSELL 2000 ETF",
+        "shares_type": "SH",
+        "put_call": "Call",
+        "sector": "Industrials",
+        "industry": "Diversified ETF",
+        "tags": [
+          "market-beta-em",
+          "broad-market-etfs"
+        ],
+        "current_value": 19592000,
+        "prior_value": 55632000,
+        "current_shares": 79000,
+        "prior_shares": 226000,
+        "delta_value": -36040000,
+        "delta_shares": -147000,
+        "delta_pct": -65.04424778761062,
+        "current_pct_of_portfolio": 0.5801894559035876
+      },
+      {
+        "cusip": "349381103",
+        "ticker": "FIGR",
+        "name": "FIGURE TECHNOLOGY SOLUT-CL A",
+        "title_of_class": "COM CL A",
+        "shares_type": "SH",
+        "put_call": null,
+        "sector": "Financials",
+        "industry": "Capital Markets",
+        "tags": [
+          "financials-credit",
+          "fintech-capital-markets"
+        ],
+        "current_value": 39057000,
+        "prior_value": 62885000,
+        "current_shares": 1150415,
+        "prior_shares": 1539785,
+        "delta_value": -23828000,
+        "delta_shares": -389370,
+        "delta_pct": -25.287296603097186,
+        "current_pct_of_portfolio": 1.156617985873133
+      },
+      {
+        "cusip": "86384P109",
+        "ticker": "STUB",
+        "name": "STUBHUB HOLDINGS INC-CLASS A",
+        "title_of_class": "CL A",
+        "shares_type": "SH",
+        "put_call": null,
+        "sector": "Communication Services",
+        "industry": "Internet Content & Information",
+        "tags": [
+          "consumer-platforms",
+          "digital-media-apps"
+        ],
+        "current_value": 8531000,
+        "prior_value": 31197000,
+        "current_shares": 1367177,
+        "prior_shares": 2305751,
+        "delta_value": -22666000,
+        "delta_shares": -938574,
+        "delta_pct": -40.70578306157083,
+        "current_pct_of_portfolio": 0.25263353656153054
+      },
+      {
+        "cusip": "74623V103",
+        "ticker": "PCT",
+        "name": "PURECYCLE TECHNOLOGIES INC",
+        "title_of_class": "COM",
+        "shares_type": "SH",
+        "put_call": null,
+        "sector": "Industrials",
+        "industry": "Pollution & Treatment Controls",
+        "tags": [
+          "industrial-real-assets",
+          "industrial-tech"
+        ],
+        "current_value": 4999000,
+        "prior_value": 24726000,
+        "current_shares": 963189,
+        "prior_shares": 2878434,
+        "delta_value": -19727000,
+        "delta_shares": -1915245,
+        "delta_pct": -66.5377423974286,
+        "current_pct_of_portfolio": 0.1480383365691116
+      },
+      {
+        "cusip": "G25508105",
+        "ticker": "CRH",
+        "name": "CRH PLC",
+        "title_of_class": "ORD",
+        "shares_type": "SH",
+        "put_call": null,
+        "sector": "Materials",
+        "industry": "Building Materials",
+        "tags": [
+          "industrial-real-assets",
+          "metals-materials"
+        ],
+        "current_value": 39689000,
+        "prior_value": 59274000,
+        "current_shares": 377555,
+        "prior_shares": 474955,
+        "delta_value": -19585000,
+        "delta_shares": -97400,
+        "delta_pct": -20.507205945826446,
+        "current_pct_of_portfolio": 1.1753337747732489
+      },
+      {
+        "cusip": "464286400",
+        "ticker": "EWZ",
+        "name": "ISHARES MSCI BRAZIL ETF",
+        "title_of_class": "MSCI BRAZIL ETF",
+        "shares_type": "SH",
+        "put_call": null,
+        "sector": "Financials",
+        "industry": "Emerging Markets ETF",
+        "tags": [
+          "market-beta-em",
+          "em-country-etfs"
+        ],
+        "current_value": 131915000,
+        "prior_value": 112865000,
+        "current_shares": 3436170,
+        "prior_shares": 3552575,
+        "delta_value": 19050000,
+        "delta_shares": -116405,
+        "delta_pct": -3.2766373686692045,
+        "current_pct_of_portfolio": 3.906476729048681
+      },
+      {
+        "cusip": "910047109",
+        "ticker": "UAL",
+        "name": "UNITED AIRLINES HOLDINGS INC",
+        "title_of_class": "COM",
+        "shares_type": "SH",
+        "put_call": null,
+        "sector": "Industrials",
+        "industry": "Airlines",
+        "tags": [
+          "industrial-real-assets",
+          "aerospace-transport"
+        ],
+        "current_value": 24168000,
+        "prior_value": 38958000,
+        "current_shares": 262495,
+        "prior_shares": 348400,
+        "delta_value": -14790000,
+        "delta_shares": -85905,
+        "delta_pct": -24.657003444316878,
+        "current_pct_of_portfolio": 0.7157012438892357
+      },
+      {
+        "cusip": "234264109",
+        "ticker": "DAKT",
+        "name": "DAKTRONICS INC",
+        "title_of_class": "COM",
+        "shares_type": "SH",
+        "put_call": null,
+        "sector": "Information Technology",
+        "industry": "Electronic Components",
+        "tags": [
+          "industrial-real-assets",
+          "industrial-tech"
+        ],
+        "current_value": 11000000,
+        "prior_value": 16863000,
+        "current_shares": 562637,
+        "prior_shares": 852960,
+        "delta_value": -5863000,
+        "delta_shares": -290323,
+        "delta_pct": -34.03711780153817,
+        "current_pct_of_portfolio": 0.3257494903501156
+      },
+      {
+        "cusip": "874039100",
+        "ticker": "TSM",
+        "name": "TAIWAN SEMICONDUCTOR-SP ADR",
+        "title_of_class": "SPONSORED ADS",
+        "shares_type": "SH",
+        "put_call": null,
+        "sector": "Information Technology",
+        "industry": "Semiconductors",
+        "tags": [
+          "semis-ai-hardware",
+          "ai-foundry"
+        ],
+        "current_value": 167380000,
+        "prior_value": 165038000,
+        "current_shares": 495280,
+        "prior_shares": 543085,
+        "delta_value": 2342000,
+        "delta_shares": -47805,
+        "delta_pct": -8.802489481388733,
+        "current_pct_of_portfolio": 4.956722699527486
+      }
+    ],
+    "activity": [
+      {
+        "key": "ticker:RSP",
+        "ticker": "RSP",
+        "name": "INVESCO S&P 500 EQUAL WEIGHT ETF",
+        "sector": "Information Technology",
+        "industry": "Diversified ETF",
+        "tags": [
+          "market-beta-em",
+          "broad-market-etfs"
+        ],
+        "bought": [
+          {
+            "cusip": "46137V357",
+            "ticker": "RSP",
+            "name": "INVESCO S&P 500 EQUAL WEIGHT ETF",
+            "title_of_class": "S&P500 EQL WGT",
+            "shares_type": "SH",
+            "put_call": "Call",
+            "sector": "Information Technology",
+            "industry": "Diversified ETF",
+            "tags": [
+              "market-beta-em",
+              "broad-market-etfs"
+            ],
+            "current_value": 157566000,
+            "prior_value": null,
+            "current_shares": 821000,
+            "prior_shares": null,
+            "delta_value": 157566000,
+            "delta_shares": 821000,
+            "delta_pct": null,
+            "current_pct_of_portfolio": 4.666094926955119
+          }
+        ],
+        "sold": [
+          {
+            "cusip": "46137V357",
+            "ticker": "RSP",
+            "name": "INVESCO S&P 500 EQUAL WEIGHT ETF",
+            "title_of_class": "S&P500 EQL WGT",
+            "shares_type": "SH",
+            "put_call": null,
+            "sector": "Information Technology",
+            "industry": "Diversified ETF",
+            "tags": [
+              "market-beta-em",
+              "broad-market-etfs"
+            ],
+            "current_value": null,
+            "prior_value": 224877000,
+            "current_shares": null,
+            "prior_shares": 1173925,
+            "delta_value": -224877000,
+            "delta_shares": -1173925,
+            "delta_pct": null,
+            "current_pct_of_portfolio": null
+          }
+        ],
+        "current_value": 157566000,
+        "prior_value": 224877000,
+        "net_delta_value": -67311000
+      }
+    ],
+    "unchanged_count": 7,
+    "unchanged_value": 351123000
+  },
+  "sector_breakdown": {
+    "current": [
+      {
+        "label": "Health Care",
+        "value": 1224811000,
+        "pct": 36.27105082047413
+      },
+      {
+        "label": "Information Technology",
+        "value": 771822000,
+        "pct": 22.85642028554608
+      },
+      {
+        "label": "Financials",
+        "value": 369437000,
+        "pct": 10.940355860588696
+      },
+      {
+        "label": "Consumer Discretionary",
+        "value": 231003000,
+        "pct": 6.8408281381225216
+      },
+      {
+        "label": "Materials",
+        "value": 224314000,
+        "pct": 6.642742834399621
+      },
+      {
+        "label": "Energy",
+        "value": 180469000,
+        "pct": 5.344334979454091
+      },
+      {
+        "label": "Industrials",
+        "value": 166592000,
+        "pct": 4.933387190582404
+      },
+      {
+        "label": "Consumer Staples",
+        "value": 121752000,
+        "pct": 3.6055138135552065
+      },
+      {
+        "label": "Communication Services",
+        "value": 86628000,
+        "pct": 2.5653660772772557
+      }
+    ],
+    "prior": [
+      {
+        "label": "Health Care",
+        "value": 1298552000,
+        "pct": 28.89234500328183
+      },
+      {
+        "label": "Information Technology",
+        "value": 771812000,
+        "pct": 17.17255726507137
+      },
+      {
+        "label": "Consumer Discretionary",
+        "value": 714302000,
+        "pct": 15.892979118690832
+      },
+      {
+        "label": "Financials",
+        "value": 685200000,
+        "pct": 15.24546941227514
+      },
+      {
+        "label": "Industrials",
+        "value": 490751000,
+        "pct": 10.919044599450434
+      },
+      {
+        "label": "Communication Services",
+        "value": 234697000,
+        "pct": 5.221929268319816
+      },
+      {
+        "label": "Materials",
+        "value": 177053000,
+        "pct": 3.939369667033786
+      },
+      {
+        "label": "Consumer Staples",
+        "value": 100134000,
+        "pct": 2.2279478022894903
+      },
+      {
+        "label": "Energy",
+        "value": 21949000,
+        "pct": 0.48835786358731326
+      }
+    ],
+    "deltas": [
+      {
+        "label": "Consumer Discretionary",
+        "delta_pct_pts": -9.05215098056831
+      },
+      {
+        "label": "Health Care",
+        "delta_pct_pts": 7.3787058171923015
+      },
+      {
+        "label": "Industrials",
+        "delta_pct_pts": -5.98565740886803
+      },
+      {
+        "label": "Information Technology",
+        "delta_pct_pts": 5.6838630204747105
+      },
+      {
+        "label": "Energy",
+        "delta_pct_pts": 4.855977115866778
+      },
+      {
+        "label": "Financials",
+        "delta_pct_pts": -4.3051135516864445
+      },
+      {
+        "label": "Materials",
+        "delta_pct_pts": 2.7033731673658346
+      },
+      {
+        "label": "Communication Services",
+        "delta_pct_pts": -2.6565631910425607
+      },
+      {
+        "label": "Consumer Staples",
+        "delta_pct_pts": 1.3775660112657162
+      }
+    ]
+  },
+  "theme_breakdown": {
+    "current": [
+      {
+        "label": "Health care",
+        "value": 1053600000,
+        "pct": 31.200878457534703
+      },
+      {
+        "label": "Market beta & EM",
+        "value": 566069000,
+        "pct": 16.763335295727234
+      },
+      {
+        "label": "Industrial & real assets",
+        "value": 493629000,
+        "pct": 14.618126833821563
+      },
+      {
+        "label": "Consumer platforms",
+        "value": 443812000,
+        "pct": 13.142866619205954
+      },
+      {
+        "label": "Semis & AI hardware",
+        "value": 347874000,
+        "pct": 10.301798018732372
+      },
+      {
+        "label": "Financials & credit",
+        "value": 39057000,
+        "pct": 1.156617985873133
+      }
+    ],
+    "prior": [
+      {
+        "label": "Health care",
+        "value": 1298552000,
+        "pct": 28.89234500328183
+      },
+      {
+        "label": "Consumer platforms",
+        "value": 1161183000,
+        "pct": 25.835930981543903
+      },
+      {
+        "label": "Industrial & real assets",
+        "value": 650984000,
+        "pct": 14.484174926854232
+      },
+      {
+        "label": "Market beta & EM",
+        "value": 638447000,
+        "pct": 14.2052308958827
+      },
+      {
+        "label": "Financials & credit",
+        "value": 388635000,
+        "pct": 8.646997964155792
+      },
+      {
+        "label": "Semis & AI hardware",
+        "value": 356649000,
+        "pct": 7.935320228281547
+      }
+    ],
+    "deltas": [
+      {
+        "label": "Consumer platforms",
+        "delta_pct_pts": -12.69306436233795
+      },
+      {
+        "label": "Financials & credit",
+        "delta_pct_pts": -7.490379978282659
+      },
+      {
+        "label": "Market beta & EM",
+        "delta_pct_pts": 2.5581043998445345
+      },
+      {
+        "label": "Semis & AI hardware",
+        "delta_pct_pts": 2.3664777904508245
+      },
+      {
+        "label": "Health care",
+        "delta_pct_pts": 2.308533454252874
+      },
+      {
+        "label": "Industrial & real assets",
+        "delta_pct_pts": 0.13395190696733117
+      }
+    ]
+  },
+  "granular_breakdown": {
+    "current": [
+      {
+        "label": "Diagnostics & research",
+        "value": 612691000,
+        "pct": 18.14398009019115
+      },
+      {
+        "label": "EM / country ETFs",
+        "value": 330380000,
+        "pct": 9.783737874715563
+      },
+      {
+        "label": "Therapeutics biotech",
+        "value": 319004000,
+        "pct": 9.446853674513477
+      },
+      {
+        "label": "Broad-market ETFs",
+        "value": 235689000,
+        "pct": 6.979597421011671
+      },
+      {
+        "label": "E-commerce marketplaces",
+        "value": 197420000,
+        "pct": 5.84631494408362
+      },
+      {
+        "label": "Metals & materials",
+        "value": 186063000,
+        "pct": 5.509993402092141
+      },
+      {
+        "label": "AI foundry",
+        "value": 167380000,
+        "pct": 4.956722699527486
+      },
+      {
+        "label": "Energy resources",
+        "value": 149566000,
+        "pct": 4.429186206700489
+      },
+      {
+        "label": "Restaurants & staples",
+        "value": 143555000,
+        "pct": 4.251178917019168
+      },
+      {
+        "label": "Edge / power semis",
+        "value": 136391000,
+        "pct": 4.039027158031146
+      },
+      {
+        "label": "Aerospace & transport",
+        "value": 123531000,
+        "pct": 3.6581963902218293
+      },
+      {
+        "label": "Digital media & apps",
+        "value": 102837000,
+        "pct": 3.045372758103167
+      },
+      {
+        "label": "Pharma / generics",
+        "value": 71604000,
+        "pct": 2.1204515006390614
+      },
+      {
+        "label": "Care delivery",
+        "value": 50301000,
+        "pct": 1.4895931921910148
+      },
+      {
+        "label": "Storage hardware",
+        "value": 44103000,
+        "pct": 1.3060481611737407
+      },
+      {
+        "label": "Fintech / capital markets",
+        "value": 39057000,
+        "pct": 1.156617985873133
+      },
+      {
+        "label": "Power & electrification",
+        "value": 18470000,
+        "pct": 0.5469630078878758
+      },
+      {
+        "label": "Industrial tech",
+        "value": 15999000,
+        "pct": 0.47378782691922716
+      }
+    ],
+    "prior": [
+      {
+        "label": "E-commerce marketplaces",
+        "value": 576728000,
+        "pct": 12.83200391594077
+      },
+      {
+        "label": "Diagnostics & research",
+        "value": 575327000,
+        "pct": 12.800832137413924
+      },
+      {
+        "label": "Therapeutics biotech",
+        "value": 476665000,
+        "pct": 10.605635839757923
+      },
+      {
+        "label": "Digital media & apps",
+        "value": 358387000,
+        "pct": 7.973990143399082
+      },
+      {
+        "label": "Broad-market ETFs",
+        "value": 341882000,
+        "pct": 7.606759447763353
+      },
+      {
+        "label": "Aerospace & transport",
+        "value": 336647000,
+        "pct": 7.4902824594777995
+      },
+      {
+        "label": "Financial ETFs",
+        "value": 300994000,
+        "pct": 6.697015207644983
+      },
+      {
+        "label": "EM / country ETFs",
+        "value": 296565000,
+        "pct": 6.598471448119348
+      },
+      {
+        "label": "Restaurants & staples",
+        "value": 197125000,
+        "pct": 4.385964912280701
+      },
+      {
+        "label": "Pharma / generics",
+        "value": 183355000,
+        "pct": 4.079587046245925
+      },
+      {
+        "label": "Metals & materials",
+        "value": 177053000,
+        "pct": 3.939369667033786
+      },
+      {
+        "label": "AI foundry",
+        "value": 165038000,
+        "pct": 3.672039960395599
+      },
+      {
+        "label": "Edge / power semis",
+        "value": 120491000,
+        "pct": 2.6808842016264505
+      },
+      {
+        "label": "Power & electrification",
+        "value": 73746000,
+        "pct": 1.6408236825418014
+      },
+      {
+        "label": "Semicap materials",
+        "value": 71120000,
+        "pct": 1.5823960662594976
+      },
+      {
+        "label": "Care delivery",
+        "value": 63205000,
+        "pct": 1.4062899798640547
+      },
+      {
+        "label": "Fintech / capital markets",
+        "value": 62885000,
+        "pct": 1.3991700875524258
+      },
+      {
+        "label": "Industrial tech",
+        "value": 41589000,
+        "pct": 0.9253412542135301
+      },
+      {
+        "label": "Housing & retail",
+        "value": 28943000,
+        "pct": 0.6439720099233499
+      },
+      {
+        "label": "Banks & credit",
+        "value": 24756000,
+        "pct": 0.550812668958382
+      },
+      {
+        "label": "Energy resources",
+        "value": 21949000,
+        "pct": 0.48835786358731326
+      }
+    ],
+    "deltas": [
+      {
+        "label": "E-commerce marketplaces",
+        "delta_pct_pts": -6.985688971857151
+      },
+      {
+        "label": "Financial ETFs",
+        "delta_pct_pts": -6.697015207644983
+      },
+      {
+        "label": "Diagnostics & research",
+        "delta_pct_pts": 5.343147952777226
+      },
+      {
+        "label": "Digital media & apps",
+        "delta_pct_pts": -4.928617385295915
+      },
+      {
+        "label": "Energy resources",
+        "delta_pct_pts": 3.940828343113176
+      },
+      {
+        "label": "Aerospace & transport",
+        "delta_pct_pts": -3.83208606925597
+      },
+      {
+        "label": "EM / country ETFs",
+        "delta_pct_pts": 3.1852664265962147
+      },
+      {
+        "label": "Pharma / generics",
+        "delta_pct_pts": -1.959135545606864
+      },
+      {
+        "label": "Semicap materials",
+        "delta_pct_pts": -1.5823960662594976
+      },
+      {
+        "label": "Metals & materials",
+        "delta_pct_pts": 1.5706237350583545
+      },
+      {
+        "label": "Edge / power semis",
+        "delta_pct_pts": 1.3581429564046958
+      },
+      {
+        "label": "Storage hardware",
+        "delta_pct_pts": 1.3060481611737407
+      },
+      {
+        "label": "AI foundry",
+        "delta_pct_pts": 1.284682739131887
+      },
+      {
+        "label": "Therapeutics biotech",
+        "delta_pct_pts": -1.158782165244446
+      },
+      {
+        "label": "Power & electrification",
+        "delta_pct_pts": -1.0938606746539257
+      },
+      {
+        "label": "Housing & retail",
+        "delta_pct_pts": -0.6439720099233499
+      },
+      {
+        "label": "Broad-market ETFs",
+        "delta_pct_pts": -0.627162026751682
+      },
+      {
+        "label": "Banks & credit",
+        "delta_pct_pts": -0.550812668958382
+      },
+      {
+        "label": "Industrial tech",
+        "delta_pct_pts": -0.4515534272943029
+      },
+      {
+        "label": "Fintech / capital markets",
+        "delta_pct_pts": -0.24255210167929286
+      },
+      {
+        "label": "Restaurants & staples",
+        "delta_pct_pts": -0.13478599526153356
+      },
+      {
+        "label": "Care delivery",
+        "delta_pct_pts": 0.08330321232696014
+      }
+    ]
+  },
+  "granular_coverage_pct": 87.18362321089495,
+  "theme_activity_breakdown": {
+    "entries": [
+      {
+        "label": "Consumer platforms",
+        "bought": 72114363.8890411,
+        "sold": 711799948.4029194,
+        "net": -639685584.5138783
+      },
+      {
+        "label": "Market beta & EM",
+        "bought": 193718000,
+        "sold": 314136592.695352,
+        "net": -120418592.69535202
+      },
+      {
+        "label": "Industrial & real assets",
+        "bought": 134268665.6662735,
+        "sold": 319391220.0430535,
+        "net": -185122554.37678
+      },
+      {
+        "label": "Health care",
+        "bought": 125398393.30556723,
+        "sold": 263356079.1688646,
+        "net": -137957685.86329737
+      },
+      {
+        "label": "Financials & credit",
+        "bought": 0,
+        "sold": 341651916.46885765,
+        "net": -341651916.46885765
+      },
+      {
+        "label": "Semis & AI hardware",
+        "bought": 123793675.93421817,
+        "sold": 162296134.83161965,
+        "net": -38502458.89740148
+      }
+    ],
+    "total_bought": 649293098.7951,
+    "total_sold": 2112631891.6106672,
+    "net": -1463338792.8155673
+  },
+  "granular_activity_breakdown": {
+    "entries": [
+      {
+        "label": "Broad-market ETFs",
+        "bought": 157566000,
+        "sold": 261062415.92920354,
+        "net": -103496415.92920354
+      },
+      {
+        "label": "E-commerce marketplaces",
+        "bought": 33727537.00546865,
+        "sold": 354136038.99982804,
+        "net": -320408501.9943594
+      },
+      {
+        "label": "Financial ETFs",
+        "bought": 0,
+        "sold": 300994000,
+        "net": -300994000
+      },
+      {
+        "label": "Digital media & apps",
+        "bought": 23034544.65810108,
+        "sold": 251924983.14171824,
+        "net": -228890438.48361716
+      },
+      {
+        "label": "Aerospace & transport",
+        "bought": 0,
+        "sold": 223142830.50508773,
+        "net": -223142830.50508773
+      },
+      {
+        "label": "Therapeutics biotech",
+        "bought": 11653669.205038788,
+        "sold": 146617268.36879587,
+        "net": -134963599.1637571
+      },
+      {
+        "label": "Edge / power semis",
+        "bought": 79690675.93421817,
+        "sold": 76648682.24132532,
+        "net": 3041993.6928928494
+      },
+      {
+        "label": "Energy resources",
+        "bought": 121510952.89499691,
+        "sold": 0,
+        "net": 121510952.89499691
+      },
+      {
+        "label": "Diagnostics & research",
+        "bought": 110444356.11465704,
+        "sold": 0,
+        "net": 110444356.11465704
+      },
+      {
+        "label": "Pharma / generics",
+        "bought": 0,
+        "sold": 109159810.80006877,
+        "net": -109159810.80006877
+      },
+      {
+        "label": "Restaurants & staples",
+        "bought": 15352282.225471359,
+        "sold": 76795926.26137304,
+        "net": -61443644.03590168
+      },
+      {
+        "label": "EM / country ETFs",
+        "bought": 36152000,
+        "sold": 53074176.7661485,
+        "net": -16922176.7661485
+      },
+      {
+        "label": "Semicap materials",
+        "bought": 0,
+        "sold": 71120000,
+        "net": -71120000
+      },
+      {
+        "label": "Power & electrification",
+        "bought": 0,
+        "sold": 61901146.92557508,
+        "net": -61901146.92557508
+      },
+      {
+        "label": "Storage hardware",
+        "bought": 44103000,
+        "sold": 0,
+        "net": 44103000
+      },
+      {
+        "label": "Housing & retail",
+        "bought": 0,
+        "sold": 28943000,
+        "net": -28943000
+      },
+      {
+        "label": "Metals & materials",
+        "bought": 12757712.771276597,
+        "sold": 12155441.252329169,
+        "net": 602271.5189474281
+      },
+      {
+        "label": "Banks & credit",
+        "bought": 0,
+        "sold": 24756000,
+        "net": -24756000
+      },
+      {
+        "label": "Industrial tech",
+        "bought": 0,
+        "sold": 22191801.36006158,
+        "net": -22191801.36006158
+      },
+      {
+        "label": "Fintech / capital markets",
+        "bought": 0,
+        "sold": 15901916.468857665,
+        "net": -15901916.468857665
+      },
+      {
+        "label": "AI foundry",
+        "bought": 0,
+        "sold": 14527452.590294337,
+        "net": -14527452.590294337
+      },
+      {
+        "label": "Care delivery",
+        "bought": 3300367.985871398,
+        "sold": 7579000,
+        "net": -4278632.014128602
+      }
+    ],
+    "total_bought": 649293098.7951001,
+    "total_sold": 2112631891.6106672,
+    "net": -1463338792.8155673
+  }
+}

@@ -1,0 +1,291 @@
+{
+  "slug": "pershing-square",
+  "current_period": "2026-Q1",
+  "prior_period": "2025-Q4",
+  "totals": {
+    "current_value": 13714299861,
+    "prior_value": 15526737802,
+    "net_flow": -1812437941
+  },
+  "movements": {
+    "new": [
+      {
+        "cusip": "594918104",
+        "ticker": "MSFT",
+        "name": "MICROSOFT CORP",
+        "title_of_class": "COM",
+        "shares_type": "SH",
+        "put_call": null,
+        "sector": "Information Technology",
+        "industry": "Software - Infrastructure",
+        "tags": [],
+        "current_value": 2092970053,
+        "prior_value": null,
+        "current_shares": 5654078,
+        "prior_shares": null,
+        "delta_value": 2092970053,
+        "delta_shares": 5654078,
+        "delta_pct": null,
+        "current_pct_of_portfolio": 15.261224227361964
+      }
+    ],
+    "closed": [
+      {
+        "cusip": "43300A203",
+        "ticker": "HLT",
+        "name": "HILTON WORLDWIDE HOLDINGS IN",
+        "title_of_class": "COM",
+        "shares_type": "SH",
+        "put_call": null,
+        "sector": "Consumer Discretionary",
+        "industry": "Lodging",
+        "tags": [],
+        "current_value": null,
+        "prior_value": 869983734,
+        "current_shares": null,
+        "prior_shares": 3028664,
+        "delta_value": -869983734,
+        "delta_shares": -3028664,
+        "delta_pct": null,
+        "current_pct_of_portfolio": null
+      }
+    ],
+    "increased": [
+      {
+        "cusip": "023135106",
+        "ticker": "AMZN",
+        "name": "AMAZON.COM INC",
+        "title_of_class": "COM",
+        "shares_type": "SH",
+        "put_call": null,
+        "sector": "Consumer Discretionary",
+        "industry": "Internet Retail",
+        "tags": [],
+        "current_value": 2385104083,
+        "prior_value": 2217677936,
+        "current_shares": 11451981,
+        "prior_shares": 9607824,
+        "delta_value": 167426147,
+        "delta_shares": 1844157,
+        "delta_pct": 19.19432537481952,
+        "current_pct_of_portfolio": 17.391365998804158
+      }
+    ],
+    "decreased": [
+      {
+        "cusip": "02079K107",
+        "ticker": "GOOG",
+        "name": "ALPHABET INC-CL C",
+        "title_of_class": "CAP STK CL C",
+        "shares_type": "SH",
+        "put_call": null,
+        "sector": "Communication Services",
+        "industry": "Internet Content & Information",
+        "tags": [],
+        "current_value": 89421720,
+        "prior_value": 1934222720,
+        "current_shares": 311726,
+        "prior_shares": 6163871,
+        "delta_value": -1844801000,
+        "delta_shares": -5852145,
+        "delta_pct": -94.94269104593526,
+        "current_pct_of_portfolio": 0.6520327024078915
+      },
+      {
+        "cusip": "11271J107",
+        "ticker": "BN",
+        "name": "BROOKFIELD CORP",
+        "title_of_class": "CL A LTD VT SH",
+        "shares_type": "SH",
+        "put_call": null,
+        "sector": "Financials",
+        "industry": "Asset Management",
+        "tags": [],
+        "current_value": 2415946008,
+        "prior_value": 2817787754,
+        "current_shares": 59697208,
+        "prior_shares": 61403089,
+        "delta_value": -401841746,
+        "delta_shares": -1705881,
+        "delta_pct": -2.778168049493406,
+        "current_pct_of_portfolio": 17.616254803282665
+      },
+      {
+        "cusip": "90353T100",
+        "ticker": "UBER",
+        "name": "UBER TECHNOLOGIES INC",
+        "title_of_class": "COM",
+        "shares_type": "SH",
+        "put_call": null,
+        "sector": "Information Technology",
+        "industry": "Software - Application",
+        "tags": [],
+        "current_value": 2154934398,
+        "prior_value": 2468273945,
+        "current_shares": 29958771,
+        "prior_shares": 30207734,
+        "delta_value": -313339547,
+        "delta_shares": -248963,
+        "delta_pct": -0.8241697308378046,
+        "current_pct_of_portfolio": 15.713047110250871
+      },
+      {
+        "cusip": "30303M102",
+        "ticker": "META",
+        "name": "META PLATFORMS INC-CLASS A",
+        "title_of_class": "CL A",
+        "shares_type": "SH",
+        "put_call": null,
+        "sector": "Communication Services",
+        "industry": "Internet Content & Information",
+        "tags": [],
+        "current_value": 1522358404,
+        "prior_value": 1764796161,
+        "current_shares": 2660861,
+        "prior_shares": 2673569,
+        "delta_value": -242437757,
+        "delta_shares": -12708,
+        "delta_pct": -0.47531969438604355,
+        "current_pct_of_portfolio": 11.100518578634862
+      },
+      {
+        "cusip": "02079K305",
+        "ticker": "GOOGL",
+        "name": "ALPHABET INC-CL A",
+        "title_of_class": "CAP STK CL A",
+        "shares_type": "SH",
+        "put_call": null,
+        "sector": "Communication Services",
+        "industry": "Internet Content & Information",
+        "tags": [],
+        "current_value": 9310043,
+        "prior_value": 212306961,
+        "current_shares": 32376,
+        "prior_shares": 678297,
+        "delta_value": -202996918,
+        "delta_shares": -645921,
+        "delta_pct": -95.22686964559772,
+        "current_pct_of_portfolio": 0.06788566018215343
+      },
+      {
+        "cusip": "76131D103",
+        "ticker": "QSR",
+        "name": "RESTAURANT BRANDS INTERN",
+        "title_of_class": "COM",
+        "shares_type": "SH",
+        "put_call": null,
+        "sector": "Consumer Discretionary",
+        "industry": "Restaurants",
+        "tags": [],
+        "current_value": 1673501194,
+        "prior_value": 1560199922,
+        "current_shares": 22645483,
+        "prior_shares": 22866773,
+        "delta_value": 113301272,
+        "delta_shares": -221290,
+        "delta_pct": -0.967736024667757,
+        "current_pct_of_portfolio": 12.20260028555314
+      }
+    ],
+    "activity": [],
+    "unchanged_count": 3,
+    "unchanged_value": 1370753958
+  },
+  "sector_breakdown": {
+    "current": [
+      {
+        "label": "Information Technology",
+        "value": 4247904451,
+        "pct": 30.974271337612834
+      },
+      {
+        "label": "Consumer Discretionary",
+        "value": 4058605277,
+        "pct": 29.593966284357297
+      },
+      {
+        "label": "Financials",
+        "value": 2415946008,
+        "pct": 17.616254803282665
+      },
+      {
+        "label": "Communication Services",
+        "value": 1621090167,
+        "pct": 11.820436941224905
+      },
+      {
+        "label": "Real Estate",
+        "value": 1300492363,
+        "pct": 9.482747031791767
+      },
+      {
+        "label": "Industrials",
+        "value": 70261595,
+        "pct": 0.512323601730528
+      }
+    ],
+    "prior": [
+      {
+        "label": "Consumer Discretionary",
+        "value": 4647861592,
+        "pct": 29.9345661095746
+      },
+      {
+        "label": "Communication Services",
+        "value": 3911325842,
+        "pct": 25.19090546821871
+      },
+      {
+        "label": "Financials",
+        "value": 2817787754,
+        "pct": 18.147970230018572
+      },
+      {
+        "label": "Information Technology",
+        "value": 2468273945,
+        "pct": 15.896925525992081
+      },
+      {
+        "label": "Real Estate",
+        "value": 1603149276,
+        "pct": 10.325087577594685
+      },
+      {
+        "label": "Industrials",
+        "value": 78339393,
+        "pct": 0.5045450886013486
+      }
+    ],
+    "deltas": [
+      {
+        "label": "Information Technology",
+        "delta_pct_pts": 15.077345811620752
+      },
+      {
+        "label": "Communication Services",
+        "delta_pct_pts": -13.370468526993804
+      },
+      {
+        "label": "Real Estate",
+        "delta_pct_pts": -0.8423405458029176
+      },
+      {
+        "label": "Financials",
+        "delta_pct_pts": -0.5317154267359072
+      },
+      {
+        "label": "Consumer Discretionary",
+        "delta_pct_pts": -0.3405998252173035
+      },
+      {
+        "label": "Industrials",
+        "delta_pct_pts": 0.007778513129179432
+      }
+    ]
+  },
+  "theme_breakdown": null,
+  "granular_breakdown": null,
+  "granular_coverage_pct": null,
+  "theme_activity_breakdown": null,
+  "granular_activity_breakdown": null
+}
