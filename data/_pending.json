@@ -8,6 +8,15 @@
       "filing_date": "2026-08-14",
       "edgar_url": "https://www.sec.gov/Archives/edgar/data/1167483/000091957426005427/",
       "discovered_at": "2026-08-14T18:06:36.761Z"
+    },
+    {
+      "slug": "appaloosa",
+      "cik": "0001656456",
+      "accession": "0001656456-26-000003",
+      "period_ending": "",
+      "filing_date": "2026-08-14",
+      "edgar_url": "https://www.sec.gov/Archives/edgar/data/1656456/000165645626000003/",
+      "discovered_at": "2026-08-14T20:07:40.662Z"
     }
   ]
 }
