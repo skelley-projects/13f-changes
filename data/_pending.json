@@ -53,6 +53,51 @@
       "filing_date": "2026-08-14",
       "edgar_url": "https://www.sec.gov/Archives/edgar/data/1067983/000119312526352200/",
       "discovered_at": "2026-08-14T20:34:09.949Z"
+    },
+    {
+      "slug": "duquesne",
+      "cik": "0001536411",
+      "accession": "0001536411-26-000006",
+      "period_ending": "",
+      "filing_date": "2026-08-14",
+      "edgar_url": "https://www.sec.gov/Archives/edgar/data/1536411/000153641126000006/",
+      "discovered_at": "2026-08-14T21:27:25.514Z"
+    },
+    {
+      "slug": "millennium",
+      "cik": "0001273087",
+      "accession": "0001273087-26-000007",
+      "period_ending": "",
+      "filing_date": "2026-08-14",
+      "edgar_url": "https://www.sec.gov/Archives/edgar/data/1273087/000127308726000007/",
+      "discovered_at": "2026-08-14T21:27:25.624Z"
+    },
+    {
+      "slug": "third-point",
+      "cik": "0001040273",
+      "accession": "0001040273-26-000003",
+      "period_ending": "",
+      "filing_date": "2026-08-14",
+      "edgar_url": "https://www.sec.gov/Archives/edgar/data/1040273/000104027326000003/",
+      "discovered_at": "2026-08-14T21:27:25.835Z"
+    },
+    {
+      "slug": "viking-global",
+      "cik": "0001103804",
+      "accession": "0001103804-26-000006",
+      "period_ending": "",
+      "filing_date": "2026-08-14",
+      "edgar_url": "https://www.sec.gov/Archives/edgar/data/1103804/000110380426000006/",
+      "discovered_at": "2026-08-14T21:27:25.958Z"
+    },
+    {
+      "slug": "aqr",
+      "cik": "0001167557",
+      "accession": "0001167557-26-000226",
+      "period_ending": "",
+      "filing_date": "2026-08-14",
+      "edgar_url": "https://www.sec.gov/Archives/edgar/data/1167557/000116755726000226/",
+      "discovered_at": "2026-08-14T21:27:26.037Z"
     }
   ]
 }
