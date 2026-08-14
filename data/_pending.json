@@ -17,6 +17,42 @@
       "filing_date": "2026-08-14",
       "edgar_url": "https://www.sec.gov/Archives/edgar/data/1656456/000165645626000003/",
       "discovered_at": "2026-08-14T20:07:40.662Z"
+    },
+    {
+      "slug": "situational-awareness",
+      "cik": "0002045724",
+      "accession": "0000935836-26-000418",
+      "period_ending": "",
+      "filing_date": "2026-08-14",
+      "edgar_url": "https://www.sec.gov/Archives/edgar/data/2045724/000093583626000418/",
+      "discovered_at": "2026-08-14T20:33:42.747Z"
+    },
+    {
+      "slug": "citadel",
+      "cik": "0001423053",
+      "accession": "0001104659-26-097200",
+      "period_ending": "",
+      "filing_date": "2026-08-14",
+      "edgar_url": "https://www.sec.gov/Archives/edgar/data/1423053/000110465926097200/",
+      "discovered_at": "2026-08-14T20:33:43.867Z"
+    },
+    {
+      "slug": "coatue",
+      "cik": "0001135730",
+      "accession": "0000919574-26-005478",
+      "period_ending": "",
+      "filing_date": "2026-08-14",
+      "edgar_url": "https://www.sec.gov/Archives/edgar/data/1135730/000091957426005478/",
+      "discovered_at": "2026-08-14T20:34:11.917Z"
+    },
+    {
+      "slug": "berkshire-hathaway",
+      "cik": "0001067983",
+      "accession": "0001193125-26-352200",
+      "period_ending": "",
+      "filing_date": "2026-08-14",
+      "edgar_url": "https://www.sec.gov/Archives/edgar/data/1067983/000119312526352200/",
+      "discovered_at": "2026-08-14T20:34:09.949Z"
     }
   ]
 }
