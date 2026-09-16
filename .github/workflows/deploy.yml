@@ -4,6 +4,12 @@ on:
   push:
     branches: [main]
   workflow_dispatch:
+  # Callable by the data-refresh workflows. They cannot rely on their own
+  # `git push` to trigger the `push` event above: pushes made with the default
+  # GITHUB_TOKEN never start another workflow run (GitHub blocks that to avoid
+  # recursive CI). Between 2026-08-06 and 2026-09-16 that silently left the
+  # live site serving 41-day-old data while ~40 bot commits landed on main.
+  workflow_call:
 
 jobs:
   deploy:

@@ -37,6 +37,8 @@ concurrency:
 jobs:
   poll:
     runs-on: ubuntu-latest
+    outputs:
+      committed: ${{ steps.commit.outputs.committed }}
     # Must exceed the watch duration below, with room for setup.
     timeout-minutes: 70
     steps:
@@ -49,6 +51,7 @@ jobs:
       # filing is queued. Stays inside the hourly cron so runs never overlap.
       - run: npm run poll-edgar -- --watch --duration-minutes=50 --interval-seconds=300
       - name: Commit, push, and email if a new filing was queued
+        id: commit
         run: |
           if [[ -n "$(git status --porcelain data/_pending.json)" ]]; then
             git config user.name "github-actions[bot]"
@@ -57,8 +60,19 @@ jobs:
             git commit -m "chore: queue new 13F filing(s) for review"
             git push
             npm run remind
+            echo "committed=true" >> "$GITHUB_OUTPUT"
+          else
+            echo "committed=false" >> "$GITHUB_OUTPUT"
           fi
         env:
           RESEND_API_KEY: ${{ secrets.RESEND_API_KEY }}
           EMAIL_TO: ${{ secrets.EMAIL_TO }}
           EMAIL_FROM: ${{ secrets.EMAIL_FROM }}
+
+  # Pushes made with the default GITHUB_TOKEN do not fire deploy.yml's `push`
+  # trigger, so the deploy has to be called explicitly.
+  deploy:
+    needs: poll
+    if: needs.poll.outputs.committed == 'true'
+    uses: ./.github/workflows/deploy.yml
+    secrets: inherit
