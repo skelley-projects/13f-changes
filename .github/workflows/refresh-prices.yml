@@ -2,7 +2,7 @@ name: Refresh latest prices
 
 on:
   schedule:
-    # 6pm EST on weekdays. The committed JSON snapshot triggers deploy.yml.
+    # 6pm EST on weekdays.
     - cron: '0 23 * * 1-5'
   workflow_dispatch:
 
@@ -12,6 +12,8 @@ permissions:
 jobs:
   refresh:
     runs-on: ubuntu-latest
+    outputs:
+      committed: ${{ steps.commit.outputs.committed }}
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-node@v4
@@ -20,6 +22,7 @@ jobs:
       - run: npm run refresh-prices
       - run: npm run refresh-segment-metrics
       - name: Commit price snapshot if changed
+        id: commit
         run: |
           if [[ -n "$(git status --porcelain data/prices/latest.json data/segments/metrics.json)" ]]; then
             git config user.name "github-actions[bot]"
@@ -27,4 +30,15 @@ jobs:
             git add data/prices/latest.json data/segments/metrics.json
             git commit -m "chore: refresh latest market snapshots"
             git push
+            echo "committed=true" >> "$GITHUB_OUTPUT"
+          else
+            echo "committed=false" >> "$GITHUB_OUTPUT"
           fi
+
+  # This push was made with the default GITHUB_TOKEN, so it does NOT fire
+  # deploy.yml's `push` trigger. The deploy has to be called explicitly.
+  deploy:
+    needs: refresh
+    if: needs.refresh.outputs.committed == 'true'
+    uses: ./.github/workflows/deploy.yml
+    secrets: inherit

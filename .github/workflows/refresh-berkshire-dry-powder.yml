@@ -34,6 +34,8 @@ jobs:
   refresh:
     runs-on: ubuntu-latest
     timeout-minutes: 10
+    outputs:
+      committed: ${{ steps.commit.outputs.committed }}
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-node@v4
@@ -42,6 +44,7 @@ jobs:
       - run: npm run refresh-dry-powder
       - run: npm run validate
       - name: Commit dry powder snapshot if changed
+        id: commit
         run: |
           if [[ -n "$(git status --porcelain data/funds/berkshire-hathaway/dry-powder.json)" ]]; then
             git config user.name "github-actions[bot]"
@@ -49,4 +52,15 @@ jobs:
             git add data/funds/berkshire-hathaway/dry-powder.json
             git commit -m "chore: refresh berkshire dry powder"
             git push
+            echo "committed=true" >> "$GITHUB_OUTPUT"
+          else
+            echo "committed=false" >> "$GITHUB_OUTPUT"
           fi
+
+  # Pushes made with the default GITHUB_TOKEN do not fire deploy.yml's `push`
+  # trigger, so the deploy has to be called explicitly.
+  deploy:
+    needs: refresh
+    if: needs.refresh.outputs.committed == 'true'
+    uses: ./.github/workflows/deploy.yml
+    secrets: inherit
