@@ -167,6 +167,27 @@
       "id": "cloud-software",
       "label": "Cloud software",
       "description": "B2B cloud and developer infrastructure software (CDN, edge, communications APIs)."
+    },
+    {
+      "id": "crypto-hpc",
+      "label": "Crypto / HPC miners",
+      "description": "Bitcoin miners, crypto-treasury vehicles, and the power/datacenter portfolios they are converting toward HPC and AI hosting."
+    },
+    {
+      "id": "autos-mobility",
+      "label": "Autos & mobility",
+      "description": "Vehicle manufacturers plus the autonomy and sensing suppliers (lidar, self-driving stacks) selling into them."
+    },
+    {
+      "id": "it-distribution",
+      "label": "IT distribution & services",
+      "description": "Resellers, integrators and managed-service providers that move hardware and software into enterprises, as distinct from the software vendors themselves."
+    },
+    {
+      "id": "datacenter-reits",
+      "label": "Datacenter REITs",
+      "parent": "industrial-real-assets",
+      "description": "Public datacenter and colocation REITs held as a real-asset expression of compute demand."
     }
   ],
   "assignments": {
@@ -175,8 +196,7 @@
       "therapeutics-biotech"
     ],
     "00835Q202": [
-      "consumer-platforms",
-      "digital-media-apps"
+      "autos-mobility"
     ],
     "013872106": [
       "industrial-real-assets",
@@ -603,6 +623,149 @@
     ],
     "18915M107": [
       "cloud-software"
+    ],
+    "35137L105": [
+      "consumer-platforms",
+      "digital-media-apps"
+    ],
+    "12514G108": [
+      "it-distribution"
+    ],
+    "G11448100": [
+      "crypto-hpc"
+    ],
+    "88160R101": [
+      "autos-mobility"
+    ],
+    "343412102": [
+      "industrial-real-assets",
+      "power-electrification"
+    ],
+    "007903107": [
+      "semis-ai-hardware"
+    ],
+    "697435105": [
+      "cloud-software"
+    ],
+    "44812J104": [
+      "crypto-hpc"
+    ],
+    "35137L204": [
+      "consumer-platforms",
+      "digital-media-apps"
+    ],
+    "149568107": [
+      "consumer-platforms",
+      "housing-retail"
+    ],
+    "44916Y106": [
+      "crypto-hpc"
+    ],
+    "750917106": [
+      "semis-ai-hardware"
+    ],
+    "76243J105": [
+      "health-care",
+      "therapeutics-biotech"
+    ],
+    "830830105": [
+      "consumer-platforms",
+      "housing-retail"
+    ],
+    "767292105": [
+      "crypto-hpc"
+    ],
+    "29444U700": [
+      "industrial-real-assets",
+      "datacenter-reits"
+    ],
+    "512807306": [
+      "semis-ai-hardware",
+      "semicap-materials"
+    ],
+    "24477V105": [
+      "health-care",
+      "therapeutics-biotech"
+    ],
+    "88025U109": [
+      "health-care",
+      "diagnostics-research"
+    ],
+    "532457108": [
+      "health-care",
+      "pharma-generics"
+    ],
+    "759916109": [
+      "health-care",
+      "diagnostics-research"
+    ],
+    "77311W101": [
+      "financials-credit",
+      "banks-credit"
+    ],
+    "056752108": [
+      "consumer-platforms",
+      "digital-media-apps"
+    ],
+    "146869102": [
+      "consumer-platforms",
+      "ecommerce-marketplaces"
+    ],
+    "75734B100": [
+      "consumer-platforms",
+      "digital-media-apps"
+    ],
+    "883556102": [
+      "health-care",
+      "diagnostics-research"
+    ],
+    "235851102": [
+      "health-care",
+      "diagnostics-research"
+    ],
+    "315616102": [
+      "cloud-software"
+    ],
+    "83056P715": [
+      "industrial-real-assets",
+      "metals-materials"
+    ],
+    "61225M102": [
+      "health-care",
+      "therapeutics-biotech"
+    ],
+    "75943R102": [
+      "health-care",
+      "therapeutics-biotech"
+    ],
+    "12510Q100": [
+      "cloud-software"
+    ],
+    "91823B109": [
+      "financials-credit",
+      "banks-credit"
+    ],
+    "63942X106": [
+      "semis-ai-hardware",
+      "edge-power-semiconductors"
+    ],
+    "G3730V105": [
+      "industrial-real-assets",
+      "aerospace-transport"
+    ],
+    "07373V105": [
+      "health-care",
+      "therapeutics-biotech"
+    ],
+    "051774107": [
+      "autos-mobility"
+    ],
+    "Q4982L109": [
+      "crypto-hpc"
+    ],
+    "399909100": [
+      "financials-credit",
+      "banks-credit"
     ]
   }
 }

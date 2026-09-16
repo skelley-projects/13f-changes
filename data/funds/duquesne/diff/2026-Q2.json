@@ -62,7 +62,10 @@
         "put_call": null,
         "sector": "Communication Services",
         "industry": "Entertainment",
-        "tags": [],
+        "tags": [
+          "consumer-platforms",
+          "digital-media-apps"
+        ],
         "current_value": 114992000,
         "prior_value": null,
         "current_shares": 2204600,
@@ -81,7 +84,9 @@
         "put_call": null,
         "sector": "Information Technology",
         "industry": "Information Technology Services",
-        "tags": [],
+        "tags": [
+          "it-distribution"
+        ],
         "current_value": 104629000,
         "prior_value": null,
         "current_shares": 743950,
@@ -100,7 +105,9 @@
         "put_call": null,
         "sector": "Information Technology",
         "industry": "IT Services",
-        "tags": [],
+        "tags": [
+          "crypto-hpc"
+        ],
         "current_value": 64670000,
         "prior_value": null,
         "current_shares": 4074993,
@@ -141,7 +148,9 @@
         "put_call": "Call",
         "sector": "Consumer Discretionary",
         "industry": "Auto Manufacturers",
-        "tags": [],
+        "tags": [
+          "autos-mobility"
+        ],
         "current_value": 52996000,
         "prior_value": null,
         "current_shares": 126000,
@@ -160,7 +169,10 @@
         "put_call": null,
         "sector": "Industrials",
         "industry": "Engineering & Construction",
-        "tags": [],
+        "tags": [
+          "industrial-real-assets",
+          "power-electrification"
+        ],
         "current_value": 51457000,
         "prior_value": null,
         "current_shares": 982200,
@@ -201,7 +213,9 @@
         "put_call": null,
         "sector": "Information Technology",
         "industry": "Semiconductors",
-        "tags": [],
+        "tags": [
+          "semis-ai-hardware"
+        ],
         "current_value": 42348000,
         "prior_value": null,
         "current_shares": 72900,
@@ -220,7 +234,9 @@
         "put_call": null,
         "sector": "Information Technology",
         "industry": "Software - Infrastructure",
-        "tags": [],
+        "tags": [
+          "cloud-software"
+        ],
         "current_value": 39780000,
         "prior_value": null,
         "current_shares": 116650,
@@ -239,7 +255,9 @@
         "put_call": null,
         "sector": "Financials",
         "industry": "Capital Markets",
-        "tags": [],
+        "tags": [
+          "crypto-hpc"
+        ],
         "current_value": 36267000,
         "prior_value": null,
         "current_shares": 314150,
@@ -258,7 +276,9 @@
         "put_call": "Call",
         "sector": "Information Technology",
         "industry": "Information Technology Services",
-        "tags": [],
+        "tags": [
+          "it-distribution"
+        ],
         "current_value": 35160000,
         "prior_value": null,
         "current_shares": 250000,
@@ -277,7 +297,10 @@
         "put_call": null,
         "sector": "Communication Services",
         "industry": "Entertainment",
-        "tags": [],
+        "tags": [
+          "consumer-platforms",
+          "digital-media-apps"
+        ],
         "current_value": 29631000,
         "prior_value": null,
         "current_shares": 632600,
@@ -318,7 +341,10 @@
         "put_call": null,
         "sector": "Consumer Discretionary",
         "industry": "Residential Construction",
-        "tags": [],
+        "tags": [
+          "consumer-platforms",
+          "housing-retail"
+        ],
         "current_value": 24268000,
         "prior_value": null,
         "current_shares": 39500,
@@ -337,7 +363,9 @@
         "put_call": null,
         "sector": "Financials",
         "industry": "Capital Markets",
-        "tags": [],
+        "tags": [
+          "crypto-hpc"
+        ],
         "current_value": 23150000,
         "prior_value": null,
         "current_shares": 2941500,
@@ -356,7 +384,9 @@
         "put_call": null,
         "sector": "Information Technology",
         "industry": "Semiconductors",
-        "tags": [],
+        "tags": [
+          "semis-ai-hardware"
+        ],
         "current_value": 22964000,
         "prior_value": null,
         "current_shares": 173000,
@@ -375,7 +405,10 @@
         "put_call": null,
         "sector": "Health Care",
         "industry": "Biotechnology",
-        "tags": [],
+        "tags": [
+          "health-care",
+          "therapeutics-biotech"
+        ],
         "current_value": 22608000,
         "prior_value": null,
         "current_shares": 203618,
@@ -394,7 +427,10 @@
         "put_call": null,
         "sector": "Consumer Discretionary",
         "industry": "Residential Construction",
-        "tags": [],
+        "tags": [
+          "consumer-platforms",
+          "housing-retail"
+        ],
         "current_value": 22418000,
         "prior_value": null,
         "current_shares": 254400,
@@ -436,8 +472,7 @@
         "sector": "Information Technology",
         "industry": "Software - Infrastructure",
         "tags": [
-          "consumer-platforms",
-          "digital-media-apps"
+          "autos-mobility"
         ],
         "current_value": 20683000,
         "prior_value": null,
@@ -457,7 +492,9 @@
         "put_call": null,
         "sector": "Financials",
         "industry": "Capital Markets",
-        "tags": [],
+        "tags": [
+          "crypto-hpc"
+        ],
         "current_value": 20666000,
         "prior_value": null,
         "current_shares": 754800,
@@ -476,7 +513,10 @@
         "put_call": null,
         "sector": "Real Estate",
         "industry": "REIT - Specialty",
-        "tags": [],
+        "tags": [
+          "industrial-real-assets",
+          "datacenter-reits"
+        ],
         "current_value": 19232000,
         "prior_value": null,
         "current_shares": 18450,
@@ -495,7 +535,10 @@
         "put_call": null,
         "sector": "Information Technology",
         "industry": "Semiconductor Equipment & Materials",
-        "tags": [],
+        "tags": [
+          "semis-ai-hardware",
+          "semicap-materials"
+        ],
         "current_value": 18893000,
         "prior_value": null,
         "current_shares": 43600,
@@ -514,7 +557,10 @@
         "put_call": null,
         "sector": "Health Care",
         "industry": "Biotechnology",
-        "tags": [],
+        "tags": [
+          "health-care",
+          "therapeutics-biotech"
+        ],
         "current_value": 16774000,
         "prior_value": null,
         "current_shares": 356600,
@@ -555,7 +601,10 @@
         "put_call": null,
         "sector": "Health Care",
         "industry": "Health Information Services",
-        "tags": [],
+        "tags": [
+          "health-care",
+          "diagnostics-research"
+        ],
         "current_value": 15455000,
         "prior_value": null,
         "current_shares": 403100,
@@ -574,7 +623,10 @@
         "put_call": null,
         "sector": "Health Care",
         "industry": "Drug Manufacturers - General",
-        "tags": [],
+        "tags": [
+          "health-care",
+          "pharma-generics"
+        ],
         "current_value": 14849000,
         "prior_value": null,
         "current_shares": 12380,
@@ -593,7 +645,10 @@
         "put_call": null,
         "sector": "Health Care",
         "industry": "Medical Instruments & Supplies",
-        "tags": [],
+        "tags": [
+          "health-care",
+          "diagnostics-research"
+        ],
         "current_value": 10560000,
         "prior_value": null,
         "current_shares": 77400,
@@ -612,7 +667,10 @@
         "put_call": null,
         "sector": "Financials",
         "industry": "Mortgage Finance",
-        "tags": [],
+        "tags": [
+          "financials-credit",
+          "banks-credit"
+        ],
         "current_value": 10272000,
         "prior_value": null,
         "current_shares": 652220,
@@ -631,7 +689,10 @@
         "put_call": null,
         "sector": "Communication Services",
         "industry": "Internet Content & Information",
-        "tags": [],
+        "tags": [
+          "consumer-platforms",
+          "digital-media-apps"
+        ],
         "current_value": 10080000,
         "prior_value": null,
         "current_shares": 88200,
@@ -650,7 +711,10 @@
         "put_call": null,
         "sector": "Consumer Discretionary",
         "industry": "Auto & Truck Dealerships",
-        "tags": [],
+        "tags": [
+          "consumer-platforms",
+          "ecommerce-marketplaces"
+        ],
         "current_value": 9939000,
         "prior_value": null,
         "current_shares": 151000,
@@ -669,7 +733,10 @@
         "put_call": null,
         "sector": "Communication Services",
         "industry": "Internet Content & Information",
-        "tags": [],
+        "tags": [
+          "consumer-platforms",
+          "digital-media-apps"
+        ],
         "current_value": 9816000,
         "prior_value": null,
         "current_shares": 56550,
@@ -688,7 +755,10 @@
         "put_call": null,
         "sector": "Health Care",
         "industry": "Diagnostics & Research",
-        "tags": [],
+        "tags": [
+          "health-care",
+          "diagnostics-research"
+        ],
         "current_value": 9626000,
         "prior_value": null,
         "current_shares": 19200,
@@ -707,7 +777,10 @@
         "put_call": null,
         "sector": "Health Care",
         "industry": "Diagnostics & Research",
-        "tags": [],
+        "tags": [
+          "health-care",
+          "diagnostics-research"
+        ],
         "current_value": 9581000,
         "prior_value": null,
         "current_shares": 50300,
@@ -726,7 +799,9 @@
         "put_call": null,
         "sector": "Information Technology",
         "industry": "Software - Infrastructure",
-        "tags": [],
+        "tags": [
+          "cloud-software"
+        ],
         "current_value": 9151000,
         "prior_value": null,
         "current_shares": 22000,
@@ -745,7 +820,10 @@
         "put_call": null,
         "sector": "Materials",
         "industry": "Other Industrial Metals & Mining",
-        "tags": [],
+        "tags": [
+          "industrial-real-assets",
+          "metals-materials"
+        ],
         "current_value": 8003000,
         "prior_value": null,
         "current_shares": 300200,
@@ -764,7 +842,10 @@
         "put_call": null,
         "sector": "Health Care",
         "industry": "Biotechnology",
-        "tags": [],
+        "tags": [
+          "health-care",
+          "therapeutics-biotech"
+        ],
         "current_value": 7202000,
         "prior_value": null,
         "current_shares": 297600,
@@ -783,7 +864,10 @@
         "put_call": null,
         "sector": "Health Care",
         "industry": "Biotechnology",
-        "tags": [],
+        "tags": [
+          "health-care",
+          "therapeutics-biotech"
+        ],
         "current_value": 6530000,
         "prior_value": null,
         "current_shares": 349000,
@@ -802,7 +886,9 @@
         "put_call": null,
         "sector": "Information Technology",
         "industry": "Software - Application",
-        "tags": [],
+        "tags": [
+          "cloud-software"
+        ],
         "current_value": 6042000,
         "prior_value": null,
         "current_shares": 1170900,
@@ -821,7 +907,10 @@
         "put_call": null,
         "sector": "Financials",
         "industry": "Mortgage Finance",
-        "tags": [],
+        "tags": [
+          "financials-credit",
+          "banks-credit"
+        ],
         "current_value": 5915000,
         "prior_value": null,
         "current_shares": 2583000,
@@ -840,7 +929,10 @@
         "put_call": null,
         "sector": "Information Technology",
         "industry": "Semiconductors",
-        "tags": [],
+        "tags": [
+          "semis-ai-hardware",
+          "edge-power-semiconductors"
+        ],
         "current_value": 5575000,
         "prior_value": null,
         "current_shares": 311100,
@@ -859,7 +951,10 @@
         "put_call": null,
         "sector": "Industrials",
         "industry": "Aerospace & Defense",
-        "tags": [],
+        "tags": [
+          "industrial-real-assets",
+          "aerospace-transport"
+        ],
         "current_value": 5465000,
         "prior_value": null,
         "current_shares": 20200,
@@ -878,7 +973,10 @@
         "put_call": null,
         "sector": "Health Care",
         "industry": "Biotechnology",
-        "tags": [],
+        "tags": [
+          "health-care",
+          "therapeutics-biotech"
+        ],
         "current_value": 5272000,
         "prior_value": null,
         "current_shares": 153600,
@@ -897,7 +995,9 @@
         "put_call": null,
         "sector": "Consumer Discretionary",
         "industry": "Auto Parts",
-        "tags": [],
+        "tags": [
+          "autos-mobility"
+        ],
         "current_value": 4322000,
         "prior_value": null,
         "current_shares": 633700,
@@ -916,7 +1016,9 @@
         "put_call": null,
         "sector": "Information Technology",
         "industry": "IT Services",
-        "tags": [],
+        "tags": [
+          "crypto-hpc"
+        ],
         "current_value": 3983000,
         "prior_value": null,
         "current_shares": 87100,
@@ -935,7 +1037,10 @@
         "put_call": null,
         "sector": "Financials",
         "industry": "Banks - Regional",
-        "tags": [],
+        "tags": [
+          "financials-credit",
+          "banks-credit"
+        ],
         "current_value": 2977000,
         "prior_value": null,
         "current_shares": 59500,
@@ -2188,18 +2293,18 @@
     "current": [
       {
         "label": "Health care",
-        "value": 1519649000,
-        "pct": 29.16313557695703
+        "value": 1638106000,
+        "pct": 31.436408912470426
       },
       {
         "label": "Consumer platforms",
-        "value": 783252000,
-        "pct": 15.031158028546557
+        "value": 983713000,
+        "pct": 18.87814593226142
       },
       {
         "label": "Semis & AI hardware",
-        "value": 762829000,
-        "pct": 14.6392262614818
+        "value": 852609000,
+        "pct": 16.36216775132531
       },
       {
         "label": "Market beta & EM",
@@ -2208,8 +2313,33 @@
       },
       {
         "label": "Industrial & real assets",
-        "value": 560303000,
-        "pct": 10.75260955205824
+        "value": 644460000,
+        "pct": 12.367641708003445
+      },
+      {
+        "label": "Crypto / HPC miners",
+        "value": 148736000,
+        "pct": 2.8543486905030573
+      },
+      {
+        "label": "IT distribution & services",
+        "value": 139789000,
+        "pct": 2.68264945337196
+      },
+      {
+        "label": "Autos & mobility",
+        "value": 78001000,
+        "pct": 1.4968941763119148
+      },
+      {
+        "label": "Cloud software",
+        "value": 54973000,
+        "pct": 1.0549706228688722
+      },
+      {
+        "label": "Financials & credit",
+        "value": 19164000,
+        "pct": 0.3677706695406667
       }
     ],
     "prior": [
@@ -2251,32 +2381,44 @@
     ],
     "deltas": [
       {
-        "label": "Health care",
-        "delta_pct_pts": -7.107915243517102
-      },
-      {
-        "label": "Industrial & real assets",
-        "delta_pct_pts": -5.299318470334372
+        "label": "Consumer platforms",
+        "delta_pct_pts": 5.386431222480525
       },
       {
         "label": "Market beta & EM",
         "delta_pct_pts": -4.878430228874333
       },
       {
-        "label": "Consumer platforms",
-        "delta_pct_pts": 1.539443318765663
+        "label": "Health care",
+        "delta_pct_pts": -4.834641908003704
       },
       {
-        "label": "Financials & credit",
-        "delta_pct_pts": -1.156617985873133
+        "label": "Industrial & real assets",
+        "delta_pct_pts": -3.6842863143891673
       },
       {
-        "label": "Cloud software",
-        "delta_pct_pts": -0.9982445063829133
+        "label": "Crypto / HPC miners",
+        "delta_pct_pts": 2.8543486905030573
+      },
+      {
+        "label": "IT distribution & services",
+        "delta_pct_pts": 2.68264945337196
       },
       {
         "label": "Semis & AI hardware",
-        "delta_pct_pts": -0.013785381397257268
+        "delta_pct_pts": 1.7091561084462512
+      },
+      {
+        "label": "Autos & mobility",
+        "delta_pct_pts": 1.4968941763119148
+      },
+      {
+        "label": "Financials & credit",
+        "delta_pct_pts": -0.7888473163324663
+      },
+      {
+        "label": "Cloud software",
+        "delta_pct_pts": 0.05672611648595893
       }
     ]
   },
@@ -2284,18 +2426,23 @@
     "current": [
       {
         "label": "Diagnostics & research",
-        "value": 898682000,
-        "pct": 17.24634110019544
+        "value": 943904000,
+        "pct": 18.114183159158497
       },
       {
         "label": "Therapeutics biotech",
-        "value": 599792000,
-        "pct": 11.510431299579187
+        "value": 658178000,
+        "pct": 12.630899798420836
       },
       {
         "label": "E-commerce marketplaces",
-        "value": 390293000,
-        "pct": 7.489997804583355
+        "value": 400232000,
+        "pct": 7.680734221018581
+      },
+      {
+        "label": "Digital media & apps",
+        "value": 359407000,
+        "pct": 6.897273691692882
       },
       {
         "label": "Broad-market ETFs",
@@ -2314,18 +2461,13 @@
       },
       {
         "label": "Edge / power semis",
-        "value": 242335000,
-        "pct": 4.650579482526479
-      },
-      {
-        "label": "Digital media & apps",
-        "value": 215571000,
-        "pct": 4.136959455413852
+        "value": 247910000,
+        "pct": 4.7575676625874905
       },
       {
         "label": "Aerospace & transport",
-        "value": 208406000,
-        "pct": 3.999458054492391
+        "value": 213871000,
+        "pct": 4.104335257009597
       },
       {
         "label": "Storage hardware",
@@ -2334,8 +2476,8 @@
       },
       {
         "label": "Metals & materials",
-        "value": 156863000,
-        "pct": 3.010311549580338
+        "value": 164866000,
+        "pct": 3.163894761244602
       },
       {
         "label": "Energy resources",
@@ -2349,8 +2491,18 @@
       },
       {
         "label": "Housing & retail",
-        "value": 48701000,
-        "pct": 0.9346065214621166
+        "value": 95387000,
+        "pct": 1.8305437724627203
+      },
+      {
+        "label": "Semicap materials",
+        "value": 60691000,
+        "pct": 1.1647030737368294
+      },
+      {
+        "label": "Power & electrification",
+        "value": 51457000,
+        "pct": 0.9874961042868965
       },
       {
         "label": "Industrial tech",
@@ -2358,14 +2510,19 @@
         "pct": 0.8389024759079889
       },
       {
-        "label": "Semicap materials",
-        "value": 41798000,
-        "pct": 0.8021330852358998
+        "label": "Pharma / generics",
+        "value": 36024000,
+        "pct": 0.6913259548910966
       },
       {
-        "label": "Pharma / generics",
-        "value": 21175000,
-        "pct": 0.40636317718240533
+        "label": "Datacenter REITs",
+        "value": 19232000,
+        "pct": 0.3690756374768368
+      },
+      {
+        "label": "Banks & credit",
+        "value": 19164000,
+        "pct": 0.3677706695406667
       }
     ],
     "prior": [
@@ -2471,8 +2628,12 @@
         "delta_pct_pts": -4.133361046033288
       },
       {
+        "label": "Digital media & apps",
+        "delta_pct_pts": 3.851900933589715
+      },
+      {
         "label": "Metals & materials",
-        "delta_pct_pts": -3.632431284819283
+        "delta_pct_pts": -3.4788480731550186
       },
       {
         "label": "Storage hardware",
@@ -2483,12 +2644,16 @@
         "delta_pct_pts": -2.1956404057298746
       },
       {
-        "label": "Diagnostics & research",
-        "delta_pct_pts": -2.1906275579654135
-      },
-      {
         "label": "Restaurants & staples",
         "delta_pct_pts": -2.1304327605068747
+      },
+      {
+        "label": "E-commerce marketplaces",
+        "delta_pct_pts": 1.8344192769349617
+      },
+      {
+        "label": "Housing & retail",
+        "delta_pct_pts": 1.8305437724627203
       },
       {
         "label": "Energy resources",
@@ -2496,84 +2661,96 @@
       },
       {
         "label": "Pharma / generics",
-        "delta_pct_pts": -1.714088323456656
+        "delta_pct_pts": -1.4291255457479648
       },
       {
-        "label": "E-commerce marketplaces",
-        "delta_pct_pts": 1.6436828604997356
+        "label": "Diagnostics & research",
+        "delta_pct_pts": -1.3227854990023573
       },
       {
         "label": "Fintech / capital markets",
         "delta_pct_pts": -1.156617985873133
       },
       {
-        "label": "Digital media & apps",
-        "delta_pct_pts": 1.0915866973106847
-      },
-      {
-        "label": "Therapeutics biotech",
-        "delta_pct_pts": -1.0075589563651501
-      },
-      {
-        "label": "Housing & retail",
-        "delta_pct_pts": 0.9346065214621166
-      },
-      {
         "label": "Broad-market ETFs",
         "delta_pct_pts": -0.7450691828410481
       },
       {
-        "label": "Edge / power semis",
-        "delta_pct_pts": 0.6115523244953325
+        "label": "Semicap materials",
+        "delta_pct_pts": 0.735365245455377
       },
       {
-        "label": "Power & electrification",
-        "delta_pct_pts": -0.5469630078878758
+        "label": "Edge / power semis",
+        "delta_pct_pts": 0.7185405045563442
       },
       {
         "label": "AI foundry",
         "delta_pct_pts": 0.4476292917768223
       },
       {
-        "label": "Semicap materials",
-        "delta_pct_pts": 0.37279525695444743
+        "label": "Aerospace & transport",
+        "delta_pct_pts": 0.44613886678776726
+      },
+      {
+        "label": "Power & electrification",
+        "delta_pct_pts": 0.4405330963990207
+      },
+      {
+        "label": "Datacenter REITs",
+        "delta_pct_pts": 0.3690756374768368
+      },
+      {
+        "label": "Banks & credit",
+        "delta_pct_pts": 0.3677706695406667
       },
       {
         "label": "Industrial tech",
         "delta_pct_pts": 0.3651146489887618
       },
       {
-        "label": "Aerospace & transport",
-        "delta_pct_pts": 0.3412616642705615
+        "label": "Therapeutics biotech",
+        "delta_pct_pts": 0.11290954247649942
       }
     ]
   },
-  "granular_coverage_pct": 82.08513150238656,
+  "granular_coverage_pct": 90.65775373566262,
   "theme_activity_breakdown": {
     "entries": [
       {
         "label": "Consumer platforms",
-        "bought": 397703832.53938544,
+        "bought": 598164832.5393854,
         "sold": 114915857.30518068,
-        "net": 282787975.23420477
-      },
-      {
-        "label": "Industrial & real assets",
-        "bought": 190672411.87315157,
-        "sold": 190737233.05390975,
-        "net": -64821.180758178234
+        "net": 483248975.23420477
       },
       {
         "label": "Health care",
-        "bought": 238172865.87735873,
+        "bought": 356629865.8773588,
         "sold": 136710983.90138328,
-        "net": 101461881.97597545
+        "net": 219918881.9759755
+      },
+      {
+        "label": "Industrial & real assets",
+        "bought": 274829411.8731516,
+        "sold": 190737233.05390975,
+        "net": 84092178.81924185
       },
       {
         "label": "Semis & AI hardware",
-        "bought": 171860181.57089227,
+        "bought": 261640181.5708923,
         "sold": 176369430.94937694,
-        "net": -4509249.378484666
+        "net": 85270750.62151536
+      },
+      {
+        "label": "Crypto / HPC miners",
+        "bought": 148736000,
+        "sold": 0,
+        "net": 148736000
+      },
+      {
+        "label": "IT distribution & services",
+        "bought": 139789000,
+        "sold": 0,
+        "net": 139789000
       },
       {
         "label": "Market beta & EM",
@@ -2582,53 +2759,59 @@
         "net": 65037803.71552384
       },
       {
-        "label": "Financials & credit",
-        "bought": 0,
-        "sold": 39057000,
-        "net": -39057000
+        "label": "Cloud software",
+        "bought": 54973000,
+        "sold": 33709000,
+        "net": 21264000
       },
       {
-        "label": "Cloud software",
-        "bought": 0,
-        "sold": 33709000,
-        "net": -33709000
+        "label": "Autos & mobility",
+        "bought": 78001000,
+        "sold": 0,
+        "net": 78001000
+      },
+      {
+        "label": "Financials & credit",
+        "bought": 19164000,
+        "sold": 39057000,
+        "net": -19893000
       }
     ],
-    "total_bought": 1089652622.1638184,
+    "total_bought": 2023170622.1638184,
     "total_sold": 717705031.7973571,
-    "net": 371947590.3664612
+    "net": 1305465590.3664613
   },
   "granular_activity_breakdown": {
     "entries": [
       {
         "label": "Digital media & apps",
-        "bought": 169032000,
+        "bought": 312868000,
         "sold": 69212710.45335183,
-        "net": 99819289.54664817
+        "net": 243655289.54664817
       },
       {
         "label": "Therapeutics biotech",
-        "bought": 204865941.77779013,
+        "bought": 263251941.77779013,
         "sold": 0,
-        "net": 204865941.77779013
+        "net": 263251941.77779013
       },
       {
         "label": "Aerospace & transport",
-        "bought": 128864361.77253254,
+        "bought": 134329361.77253252,
         "sold": 61169449.719433494,
-        "net": 67694912.05309904
+        "net": 73159912.05309904
       },
       {
         "label": "E-commerce marketplaces",
-        "bought": 179970832.53938544,
+        "bought": 189909832.53938544,
         "sold": 4782000,
-        "net": 175188832.53938544
+        "net": 185127832.53938544
       },
       {
         "label": "Metals & materials",
-        "bought": 36910587.56299195,
+        "bought": 44913587.56299195,
         "sold": 106611443.94297539,
-        "net": -69700856.37998344
+        "net": -61697856.37998344
       },
       {
         "label": "Broad-market ETFs",
@@ -2637,10 +2820,22 @@
         "net": 70506330.3030303
       },
       {
+        "label": "Housing & retail",
+        "bought": 95387000,
+        "sold": 0,
+        "net": 95387000
+      },
+      {
+        "label": "Diagnostics & research",
+        "bought": 78528924.09956859,
+        "sold": 9789000,
+        "net": 68739924.09956859
+      },
+      {
         "label": "Edge / power semis",
-        "bought": 36696150.02836075,
+        "bought": 42271150.02836075,
         "sold": 41866433.177132145,
-        "net": -5170283.148771398
+        "net": 404716.85122860223
       },
       {
         "label": "Care delivery",
@@ -2655,16 +2850,16 @@
         "net": 66736502.22775521
       },
       {
-        "label": "Pharma / generics",
-        "bought": 0,
-        "sold": 52778983.901383296,
-        "net": -52778983.901383296
+        "label": "Power & electrification",
+        "bought": 51457000,
+        "sold": 18470000,
+        "net": 32987000
       },
       {
-        "label": "Housing & retail",
-        "bought": 48701000,
-        "sold": 0,
-        "net": 48701000
+        "label": "Pharma / generics",
+        "bought": 14849000,
+        "sold": 52778983.901383296,
+        "net": -37929983.901383296
       },
       {
         "label": "AI foundry",
@@ -2673,16 +2868,16 @@
         "net": 45082531.54253154
       },
       {
-        "label": "Diagnostics & research",
-        "bought": 33306924.09956859,
-        "sold": 9789000,
-        "net": 23517924.09956859
-      },
-      {
         "label": "Restaurants & staples",
         "bought": 0,
         "sold": 40921146.85182886,
         "net": -40921146.85182886
+      },
+      {
+        "label": "Semicap materials",
+        "bought": 40170000,
+        "sold": 0,
+        "net": 40170000
       },
       {
         "label": "Fintech / capital markets",
@@ -2697,16 +2892,16 @@
         "net": 24897462.537627116
       },
       {
-        "label": "Semicap materials",
-        "bought": 21277000,
+        "label": "Datacenter REITs",
+        "bought": 19232000,
         "sold": 0,
-        "net": 21277000
+        "net": 19232000
       },
       {
-        "label": "Power & electrification",
-        "bought": 0,
-        "sold": 18470000,
-        "net": -18470000
+        "label": "Banks & credit",
+        "bought": 19164000,
+        "sold": 0,
+        "net": 19164000
       },
       {
         "label": "EM / country ETFs",
@@ -2721,8 +2916,8 @@
         "net": -4486339.391500889
       }
     ],
-    "total_bought": 1089652622.1638184,
+    "total_bought": 1536359622.1638184,
     "total_sold": 551561031.7973571,
-    "net": 538091590.3664613
+    "net": 984798590.3664613
   }
 }

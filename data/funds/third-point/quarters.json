@@ -3,6 +3,20 @@
   "quarters": [
     {
       "slug": "third-point",
+      "period": "2026-Q2",
+      "period_ending": "2026-06-30",
+      "filing_date": "2026-08-14",
+      "accession": "0001040273-26-000003",
+      "edgar_url": "https://www.sec.gov/Archives/edgar/data/1040273/000104027326000003/",
+      "value_units": "USD",
+      "schema_version": "X02",
+      "total_value": 4679571988,
+      "position_count": 43,
+      "summary": "More than doubled the book. Warner Bros Discovery opened straight into the top slot at $533M (11.4%), alongside new Keysight, Block and Flex positions and $316M more Alphabet. Exited Meta, Nvidia, KLA and the SPDR gold trust.",
+      "fetched_at": "2026-09-16T22:38:39.747Z"
+    },
+    {
+      "slug": "third-point",
       "period": "2026-Q1",
       "period_ending": "2026-03-31",
       "filing_date": "2026-05-15",
