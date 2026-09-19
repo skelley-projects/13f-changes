@@ -1,0 +1,390 @@
+{
+  "slug": "berkshire-hathaway",
+  "current_period": "2026-Q2",
+  "prior_period": "2026-Q1",
+  "totals": {
+    "current_value": 299253556246,
+    "prior_value": 263095703570,
+    "net_flow": 36157852676
+  },
+  "movements": {
+    "new": [
+      {
+        "cusip": "23331A109",
+        "ticker": "DHI",
+        "name": "DR HORTON INC",
+        "title_of_class": "COM",
+        "shares_type": "SH",
+        "put_call": null,
+        "sector": "Consumer Discretionary",
+        "industry": "Residential Construction",
+        "tags": [],
+        "current_value": 580504,
+        "prior_value": null,
+        "current_shares": 3564,
+        "prior_shares": null,
+        "delta_value": 580504,
+        "delta_shares": 3564,
+        "delta_pct": null,
+        "current_pct_of_portfolio": 0.0001939839938018312
+      }
+    ],
+    "closed": [
+      {
+        "cusip": "21036P108",
+        "ticker": "STZ",
+        "name": "CONSTELLATION BRANDS INC-A",
+        "title_of_class": "CL A",
+        "shares_type": "SH",
+        "put_call": null,
+        "sector": "Consumer Staples",
+        "industry": "Beverages - Brewers",
+        "tags": [],
+        "current_value": null,
+        "prior_value": 94933500,
+        "current_shares": null,
+        "prior_shares": 632890,
+        "delta_value": -94933500,
+        "delta_shares": -632890,
+        "delta_pct": null,
+        "current_pct_of_portfolio": null
+      }
+    ],
+    "increased": [
+      {
+        "cusip": "02079K305",
+        "ticker": "GOOGL",
+        "name": "ALPHABET INC-CL A",
+        "title_of_class": "CAP STK CL A",
+        "shares_type": "SH",
+        "put_call": null,
+        "sector": "Communication Services",
+        "industry": "Internet Content & Information",
+        "tags": [],
+        "current_value": 23523689772,
+        "prior_value": 11871367661,
+        "current_shares": 65824467,
+        "prior_shares": 41283098,
+        "delta_value": 11652322111,
+        "delta_shares": 24541369,
+        "delta_pct": 59.44652942470549,
+        "current_pct_of_portfolio": 7.8607887127872464
+      },
+      {
+        "cusip": "02079K107",
+        "ticker": "GOOG",
+        "name": "ALPHABET INC-CL C",
+        "title_of_class": "CAP STK CL C",
+        "shares_type": "SH",
+        "put_call": null,
+        "sector": "Communication Services",
+        "industry": "Internet Content & Information",
+        "tags": [],
+        "current_value": 9606489032,
+        "prior_value": 1028454775,
+        "current_shares": 27188433,
+        "prior_shares": 3585215,
+        "delta_value": 8578034257,
+        "delta_shares": 23603218,
+        "delta_pct": 658.3487461700345,
+        "current_pct_of_portfolio": 3.2101503328846093
+      },
+      {
+        "cusip": "247361702",
+        "ticker": "DAL",
+        "name": "DELTA AIR LINES INC",
+        "title_of_class": "COM NEW",
+        "shares_type": "SH",
+        "put_call": null,
+        "sector": "Industrials",
+        "industry": "Airlines",
+        "tags": [],
+        "current_value": 5368591200,
+        "prior_value": 2646532635,
+        "current_shares": 57320000,
+        "prior_shares": 39809456,
+        "delta_value": 2722058565,
+        "delta_shares": 17510544,
+        "delta_pct": 43.985891191278775,
+        "current_pct_of_portfolio": 1.7939941190161746
+      },
+      {
+        "cusip": "526057104",
+        "ticker": "LEN",
+        "name": "LENNAR CORP-A",
+        "title_of_class": "CL A",
+        "shares_type": "SH",
+        "put_call": null,
+        "sector": "Consumer Discretionary",
+        "industry": "Residential Construction",
+        "tags": [],
+        "current_value": 1119030921,
+        "prior_value": 877052911,
+        "current_shares": 12366349,
+        "prior_shares": 10099642,
+        "delta_value": 241978010,
+        "delta_shares": 2266707,
+        "delta_pct": 22.443439084276452,
+        "current_pct_of_portfolio": 0.37394072606445683
+      },
+      {
+        "cusip": "650111107",
+        "ticker": "NYT",
+        "name": "NEW YORK TIMES CO-A",
+        "title_of_class": "CL A",
+        "shares_type": "SH",
+        "put_call": null,
+        "sector": "Communication Services",
+        "industry": "Publishing",
+        "tags": [],
+        "current_value": 1000714000,
+        "prior_value": 1150997376,
+        "current_shares": 14300000,
+        "prior_shares": 13746535,
+        "delta_value": -150283376,
+        "delta_shares": 553465,
+        "delta_pct": 4.026214606080733,
+        "current_pct_of_portfolio": 0.3344033777086905
+      },
+      {
+        "cusip": "55616P104",
+        "ticker": "M",
+        "name": "MACY'S INC",
+        "title_of_class": "COM",
+        "shares_type": "SH",
+        "put_call": null,
+        "sector": "Consumer Discretionary",
+        "industry": "Department Stores",
+        "tags": [],
+        "current_value": 130170294,
+        "prior_value": 30067914,
+        "current_shares": 5527401,
+        "prior_shares": 1662129,
+        "delta_value": 100102380,
+        "delta_shares": 3865272,
+        "delta_pct": 232.5494591575022,
+        "current_pct_of_portfolio": 0.04349832818460948
+      },
+      {
+        "cusip": "526057302",
+        "ticker": "LEN-B",
+        "name": "LENNAR CORP - B SHS",
+        "title_of_class": "CL B",
+        "shares_type": "SH",
+        "put_call": null,
+        "sector": "Consumer Discretionary",
+        "industry": "Residential Construction",
+        "tags": [],
+        "current_value": 26445959,
+        "prior_value": 19995576,
+        "current_shares": 298117,
+        "prior_shares": 237703,
+        "delta_value": 6450383,
+        "delta_shares": 60414,
+        "delta_pct": 25.415749906395796,
+        "current_pct_of_portfolio": 0.008837308178306233
+      }
+    ],
+    "decreased": [
+      {
+        "cusip": "23918K108",
+        "ticker": "DVA",
+        "name": "DAVITA INC",
+        "title_of_class": "COM",
+        "shares_type": "SH",
+        "put_call": null,
+        "sector": "Health Care",
+        "industry": "Medical Care Facilities",
+        "tags": [],
+        "current_value": 3093940590,
+        "prior_value": 2324865095,
+        "current_shares": 13906601,
+        "prior_shares": 15126977,
+        "delta_value": 769075495,
+        "delta_shares": -1220376,
+        "delta_pct": -8.067547137805525,
+        "current_pct_of_portfolio": 1.0338859891297802
+      },
+      {
+        "cusip": "670346105",
+        "ticker": "NUE",
+        "name": "NUCOR CORP",
+        "title_of_class": "COM",
+        "shares_type": "SH",
+        "put_call": null,
+        "sector": "Materials",
+        "industry": "Steel",
+        "tags": [],
+        "current_value": 413814258,
+        "prior_value": 660686383,
+        "current_shares": 1857752,
+        "prior_shares": 3907075,
+        "delta_value": -246872125,
+        "delta_shares": -2049323,
+        "delta_pct": -52.45159102397574,
+        "current_pct_of_portfolio": 0.13828215216257142
+      },
+      {
+        "cusip": "14040H105",
+        "ticker": "COF",
+        "name": "CAPITAL ONE FINANCIAL CORP",
+        "title_of_class": "COM",
+        "shares_type": "SH",
+        "put_call": null,
+        "sector": "Financials",
+        "industry": "Credit Services",
+        "tags": [],
+        "current_value": 373531971,
+        "prior_value": 389852910,
+        "current_shares": 1861888,
+        "prior_shares": 2137000,
+        "delta_value": -16320939,
+        "delta_shares": -275112,
+        "delta_pct": -12.873748245203556,
+        "current_pct_of_portfolio": 0.12482123042606041
+      }
+    ],
+    "activity": [],
+    "unchanged_count": 18,
+    "unchanged_value": 57246392525
+  },
+  "sector_breakdown": {
+    "current": [
+      {
+        "label": "Financials",
+        "value": 103533791946,
+        "pct": 34.59734722781056
+      },
+      {
+        "label": "Information Technology",
+        "value": 68211791135,
+        "pct": 22.79397845448721
+      },
+      {
+        "label": "Communication Services",
+        "value": 44172944308,
+        "pct": 14.761042395662571
+      },
+      {
+        "label": "Consumer Staples",
+        "value": 42365164401,
+        "pct": 14.156946013424786
+      },
+      {
+        "label": "Energy",
+        "value": 26854347194,
+        "pct": 8.973777130963988
+      },
+      {
+        "label": "Health Care",
+        "value": 6425268898,
+        "pct": 2.1470985937818354
+      },
+      {
+        "label": "Industrials",
+        "value": 5814183817,
+        "pct": 1.9428954796515359
+      },
+      {
+        "label": "Consumer Discretionary",
+        "value": 1462250289,
+        "pct": 0.48863255205494166
+      },
+      {
+        "label": "Materials",
+        "value": 413814258,
+        "pct": 0.13828215216257142
+      }
+    ],
+    "prior": [
+      {
+        "label": "Financials",
+        "value": 95283346887,
+        "pct": 36.216230669707095
+      },
+      {
+        "label": "Information Technology",
+        "value": 60075987090,
+        "pct": 22.83427143614149
+      },
+      {
+        "label": "Consumer Staples",
+        "value": 41456460557,
+        "pct": 15.757178849547412
+      },
+      {
+        "label": "Energy",
+        "value": 34678557621,
+        "pct": 13.180966906885777
+      },
+      {
+        "label": "Communication Services",
+        "value": 22230621277,
+        "pct": 8.44963295688531
+      },
+      {
+        "label": "Health Care",
+        "value": 4626158909,
+        "pct": 1.758355931406972
+      },
+      {
+        "label": "Industrials",
+        "value": 3058646326,
+        "pct": 1.1625603476212631
+      },
+      {
+        "label": "Consumer Discretionary",
+        "value": 1025238520,
+        "pct": 0.38968272992995573
+      },
+      {
+        "label": "Materials",
+        "value": 660686383,
+        "pct": 0.25112017187472463
+      }
+    ],
+    "deltas": [
+      {
+        "label": "Communication Services",
+        "delta_pct_pts": 6.311409438777261
+      },
+      {
+        "label": "Energy",
+        "delta_pct_pts": -4.207189775921789
+      },
+      {
+        "label": "Financials",
+        "delta_pct_pts": -1.6188834418965357
+      },
+      {
+        "label": "Consumer Staples",
+        "delta_pct_pts": -1.6002328361226255
+      },
+      {
+        "label": "Industrials",
+        "delta_pct_pts": 0.7803351320302727
+      },
+      {
+        "label": "Health Care",
+        "delta_pct_pts": 0.3887426623748633
+      },
+      {
+        "label": "Materials",
+        "delta_pct_pts": -0.11283801971215321
+      },
+      {
+        "label": "Consumer Discretionary",
+        "delta_pct_pts": 0.09894982212498593
+      },
+      {
+        "label": "Information Technology",
+        "delta_pct_pts": -0.04029298165427875
+      }
+    ]
+  },
+  "theme_breakdown": null,
+  "granular_breakdown": null,
+  "granular_coverage_pct": null,
+  "theme_activity_breakdown": null,
+  "granular_activity_breakdown": null
+}
