@@ -3,6 +3,20 @@
   "quarters": [
     {
       "slug": "viking-global",
+      "period": "2026-Q2",
+      "period_ending": "2026-06-30",
+      "filing_date": "2026-08-14",
+      "accession": "0001103804-26-000006",
+      "edgar_url": "https://www.sec.gov/Archives/edgar/data/1103804/000110380426000006/",
+      "value_units": "USD",
+      "schema_version": "X02",
+      "total_value": 35079228595,
+      "position_count": 90,
+      "summary": "High-turnover, flat-value quarter: 34 new names against 21 exits. Ferrari ($817M), MSCI ($650M), Union Pacific ($557M) and Digital Realty ($415M) came in; Apple ($912M), CSX and Alphabet went out. Tesla trimmed $697M, Disney $593M.",
+      "fetched_at": "2026-09-16T22:38:39.747Z"
+    },
+    {
+      "slug": "viking-global",
       "period": "2026-Q1",
       "period_ending": "2026-03-31",
       "filing_date": "2026-05-15",
