@@ -3,6 +3,20 @@
   "quarters": [
     {
       "slug": "appaloosa",
+      "period": "2026-Q2",
+      "period_ending": "2026-06-30",
+      "filing_date": "2026-08-14",
+      "accession": "0001656456-26-000003",
+      "edgar_url": "https://www.sec.gov/Archives/edgar/data/1656456/000165645626000003/",
+      "value_units": "USD",
+      "schema_version": "X02",
+      "total_value": 7725383349,
+      "position_count": 27,
+      "summary": "Rotated into megacap and airlines: new Apple ($242M), Boeing ($173M), American Airlines ($136M) and CoreWeave ($107M), plus $339M more TSMC (10.2%) and $292M more Amazon (15.4%). Alibaba trimmed $243M; SanDisk and Corning exited.",
+      "fetched_at": "2026-09-16T22:38:39.747Z"
+    },
+    {
+      "slug": "appaloosa",
       "period": "2026-Q1",
       "period_ending": "2026-03-31",
       "filing_date": "2026-05-15",
