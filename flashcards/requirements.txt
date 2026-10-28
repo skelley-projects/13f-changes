@@ -1,0 +1,11 @@
+# Core dependencies
+anthropic>=0.69.0      # Claude API client
+pypdf>=4.0.0           # PDF text extraction
+Flask>=3.0.0           # Local review web app
+
+# Optional — OCR fallback for scanned/image-only PDFs.
+# The tool runs fine without these; it only needs them when a PDF has no
+# embedded text. Installing them also requires the Tesseract binary and
+# Poppler to be present on your system (e.g. `brew install tesseract poppler`).
+# pytesseract>=0.3.10
+# pdf2image>=1.17.0
