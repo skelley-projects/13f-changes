@@ -39,13 +39,13 @@
     {
       "id": "photonics",
       "label": "Photonics",
-      "description": "Optical interconnects, transceivers, silicon photonics, lasers \u2014 components specific to high-bandwidth data center networking.",
+      "description": "Optical interconnects, transceivers, silicon photonics, lasers — components specific to high-bandwidth data center networking.",
       "parent": "ai-compute"
     },
     {
       "id": "hbm-memory",
       "label": "HBM memory",
-      "description": "High-bandwidth memory (HBM) chips and the DRAM makers producing them \u2014 a known supply bottleneck for AI accelerators.",
+      "description": "High-bandwidth memory (HBM) chips and the DRAM makers producing them — a known supply bottleneck for AI accelerators.",
       "parent": "ai-compute"
     },
     {
@@ -322,6 +322,27 @@
     ],
     "433921103": [
       "bitcoin-hpc-miners"
+    ],
+    "N97284108": [
+      "ai-infra-datacenter",
+      "accelerated-cloud"
+    ],
+    "861012102": [
+      "ai-compute",
+      "specialty-foundry"
+    ],
+    "486917107": [
+      "bitcoin-mining",
+      "bitcoin-hpc-miners",
+      "ai-infra-datacenter",
+      "ai-datacenter-hosting"
+    ],
+    "928298108": [
+      "ai-compute"
+    ],
+    "15675D103": [
+      "ai-compute",
+      "gpu-accelerator"
     ]
   }
 }

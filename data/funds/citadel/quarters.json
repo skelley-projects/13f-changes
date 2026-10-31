@@ -3,6 +3,20 @@
   "quarters": [
     {
       "slug": "citadel",
+      "period": "2026-Q2",
+      "period_ending": "2026-06-30",
+      "filing_date": "2026-08-14",
+      "accession": "0001104659-26-097200",
+      "edgar_url": "https://www.sec.gov/Archives/edgar/data/1423053/000110465926097200/",
+      "value_units": "USD",
+      "schema_version": "X02",
+      "total_value": 875096281441,
+      "position_count": 16127,
+      "summary": "Book grew 41% to $875B across 16,127 positions, most of it options overlay rather than directional equity. The quarter's signature was Micron — $16.6B more calls against $12.8B more puts — alongside $18.2B more SPY calls and $11.7B more QQQ calls. SpaceX came in new at $3.3B split across stock, calls and puts. Gold-trust calls cut $4.6B.",
+      "fetched_at": "2026-09-16T22:55:51.029Z"
+    },
+    {
+      "slug": "citadel",
       "period": "2026-Q1",
       "period_ending": "2026-03-31",
       "filing_date": "2026-05-15",

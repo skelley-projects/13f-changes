@@ -3,6 +3,20 @@
   "quarters": [
     {
       "slug": "aqr",
+      "period": "2026-Q2",
+      "period_ending": "2026-06-30",
+      "filing_date": "2026-08-14",
+      "accession": "0001167557-26-000226",
+      "edgar_url": "https://www.sec.gov/Archives/edgar/data/1167557/000116755726000226/",
+      "value_units": "USD",
+      "schema_version": "X02",
+      "total_value": 286847511937,
+      "position_count": 21077,
+      "summary": "Book up 31% to $287B with almost no turnover at the name level — 214 new positions against 86 exits, out of 21,077. The movement was all in sizing: Micron added $4.3B, General Motors $1.1B and Capital One $1.0B, against $1.8B off Broadcom, $1.5B off PG&E and $1.3B off Alphabet Class C.",
+      "fetched_at": "2026-09-16T22:55:51.029Z"
+    },
+    {
+      "slug": "aqr",
       "period": "2026-Q1",
       "period_ending": "2026-03-31",
       "filing_date": "2026-05-15",
