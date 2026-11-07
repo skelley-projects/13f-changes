@@ -3,6 +3,20 @@
   "quarters": [
     {
       "slug": "millennium",
+      "period": "2026-Q2",
+      "period_ending": "2026-06-30",
+      "filing_date": "2026-08-14",
+      "accession": "0001273087-26-000007",
+      "edgar_url": "https://www.sec.gov/Archives/edgar/data/1273087/000127308726000007/",
+      "value_units": "USD",
+      "schema_version": "X02",
+      "total_value": 276293649404,
+      "position_count": 5798,
+      "summary": "Book up 15% to $276B. SpaceX opened at $3.0B of stock, the single largest new position. Added $3.2B of SPY stock and $2.5B of SPY calls plus $2.4B of iShares Core S&P 500; Micron puts grew $2.7B. Exited the Lumentum converts ($842M) and the Exxon put ($780M).",
+      "fetched_at": "2026-09-16T22:55:51.029Z"
+    },
+    {
+      "slug": "millennium",
       "period": "2026-Q1",
       "period_ending": "2026-03-31",
       "filing_date": "2026-05-15",
