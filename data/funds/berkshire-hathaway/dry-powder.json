@@ -3,21 +3,21 @@
   "source": "SEC Form 10-Q",
   "source_filing": {
     "form": "10-Q",
-    "period_ending": "2026-06-30",
-    "filing_date": "2026-08-10",
-    "accession": "0001193125-26-341032",
-    "url": "https://www.sec.gov/Archives/edgar/data/1067983/000119312526341032/brka-20260630.htm"
+    "period_ending": "2026-09-30",
+    "filing_date": "2026-11-09",
+    "accession": "0001193125-26-452412",
+    "url": "https://www.sec.gov/Archives/edgar/data/1067983/000119312526452412/brka-20260930.htm"
   },
   "context": "Berkshire Insurance and Other balance sheet. This is not sourced from the 13F.",
   "currency": "USD",
   "values": {
     "current": {
-      "period_ending": "2026-06-30",
-      "cash_and_equivalents": 35096000000,
-      "short_term_treasury_bills": 324905000000,
-      "total_dry_powder": 360001000000,
-      "equity_securities": 323779000000,
-      "dry_powder_to_equities": 1.1118726044616853
+      "period_ending": "2026-09-30",
+      "cash_and_equivalents": 36034000000,
+      "short_term_treasury_bills": 336735000000,
+      "total_dry_powder": 372769000000,
+      "equity_securities": 335515000000,
+      "dry_powder_to_equities": 1.1110352741308138
     },
     "prior": {
       "period_ending": "2025-12-31",
@@ -34,18 +34,6 @@
     "granularity": "This is the most granular reliable cash/T-bill view available from public filings; 13Fs do not disclose cash."
   },
   "history": [
-    {
-      "period_ending": "2020-09-30",
-      "filing_date": "2020-11-09",
-      "accession": "0001564590-20-052144",
-      "form": "10-Q",
-      "url": "https://www.sec.gov/Archives/edgar/data/1067983/000156459020052144/brka-10q_20200930.htm",
-      "cash_and_equivalents": 23078000000,
-      "short_term_treasury_bills": 118906000000,
-      "total_dry_powder": 141984000000,
-      "equity_securities": 245317000000,
-      "dry_powder_to_equities": 0.5787776631868154
-    },
     {
       "period_ending": "2020-12-31",
       "filing_date": "2021-03-01",
@@ -321,6 +309,18 @@
       "total_dry_powder": 360001000000,
       "equity_securities": 323779000000,
       "dry_powder_to_equities": 1.1118726044616853
+    },
+    {
+      "period_ending": "2026-09-30",
+      "filing_date": "2026-11-09",
+      "accession": "0001193125-26-452412",
+      "form": "10-Q",
+      "url": "https://www.sec.gov/Archives/edgar/data/1067983/000119312526452412/brka-20260930.htm",
+      "cash_and_equivalents": 36034000000,
+      "short_term_treasury_bills": 336735000000,
+      "total_dry_powder": 372769000000,
+      "equity_securities": 335515000000,
+      "dry_powder_to_equities": 1.1110352741308138
     }
   ],
   "notes": [
@@ -329,5 +329,5 @@
     "The figures used here are the Insurance and Other rows for cash and cash equivalents and short-term investments in U.S. Treasury Bills.",
     "The site checks for newly filed Berkshire 10-Q/10-K disclosures automatically and redeploys when this file changes."
   ],
-  "fetched_at": "2026-08-10T10:26:17.579Z"
+  "fetched_at": "2026-11-09T18:41:18.141Z"
 }
