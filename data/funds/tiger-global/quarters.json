@@ -3,6 +3,20 @@
   "quarters": [
     {
       "slug": "tiger-global",
+      "period": "2026-Q2",
+      "period_ending": "2026-06-30",
+      "filing_date": "2026-08-14",
+      "accession": "0000919574-26-005427",
+      "edgar_url": "https://www.sec.gov/Archives/edgar/data/1167483/000091957426005427/",
+      "value_units": "USD",
+      "schema_version": "X02",
+      "total_value": 23981506027,
+      "position_count": 46,
+      "summary": "Swapped software for AI silicon: new Cerebras ($663M), AMD ($392M) and Seagate ($275M), plus $521M into Intel. Paid for by cutting Alphabet $982M and exiting AppLovin, Zillow, Netflix and Zscaler.",
+      "fetched_at": "2026-09-16T22:38:39.747Z"
+    },
+    {
+      "slug": "tiger-global",
       "period": "2026-Q1",
       "period_ending": "2026-03-31",
       "filing_date": "2026-05-15",
