@@ -98,6 +98,105 @@
       "filing_date": "2026-08-14",
       "edgar_url": "https://www.sec.gov/Archives/edgar/data/1167557/000116755726000226/",
       "discovered_at": "2026-08-14T21:27:26.037Z"
+    },
+    {
+      "slug": "situational-awareness",
+      "cik": "0002045724",
+      "accession": "0000935836-26-000610",
+      "period_ending": "",
+      "filing_date": "2026-11-16",
+      "edgar_url": "https://www.sec.gov/Archives/edgar/data/2045724/000093583626000610/",
+      "discovered_at": "2026-11-17T02:21:29.702Z"
+    },
+    {
+      "slug": "duquesne",
+      "cik": "0001536411",
+      "accession": "0001536411-26-000011",
+      "period_ending": "",
+      "filing_date": "2026-11-16",
+      "edgar_url": "https://www.sec.gov/Archives/edgar/data/1536411/000153641126000011/",
+      "discovered_at": "2026-11-17T02:21:29.573Z"
+    },
+    {
+      "slug": "citadel",
+      "cik": "0001423053",
+      "accession": "0001104659-26-128228",
+      "period_ending": "",
+      "filing_date": "2026-11-16",
+      "edgar_url": "https://www.sec.gov/Archives/edgar/data/1423053/000110465926128228/",
+      "discovered_at": "2026-11-17T02:21:29.582Z"
+    },
+    {
+      "slug": "millennium",
+      "cik": "0001273087",
+      "accession": "0001273087-26-000011",
+      "period_ending": "",
+      "filing_date": "2026-11-16",
+      "edgar_url": "https://www.sec.gov/Archives/edgar/data/1273087/000127308726000011/",
+      "discovered_at": "2026-11-17T02:21:29.532Z"
+    },
+    {
+      "slug": "coatue",
+      "cik": "0001135730",
+      "accession": "0000919574-26-007862",
+      "period_ending": "",
+      "filing_date": "2026-11-16",
+      "edgar_url": "https://www.sec.gov/Archives/edgar/data/1135730/000091957426007862/",
+      "discovered_at": "2026-11-17T02:21:29.709Z"
+    },
+    {
+      "slug": "appaloosa",
+      "cik": "0001656456",
+      "accession": "0001656456-26-000004",
+      "period_ending": "",
+      "filing_date": "2026-11-16",
+      "edgar_url": "https://www.sec.gov/Archives/edgar/data/1656456/000165645626000004/",
+      "discovered_at": "2026-11-17T02:21:29.832Z"
+    },
+    {
+      "slug": "tiger-global",
+      "cik": "0001167483",
+      "accession": "0000919574-26-008062",
+      "period_ending": "",
+      "filing_date": "2026-11-16",
+      "edgar_url": "https://www.sec.gov/Archives/edgar/data/1167483/000091957426008062/",
+      "discovered_at": "2026-11-17T02:21:29.735Z"
+    },
+    {
+      "slug": "third-point",
+      "cik": "0001040273",
+      "accession": "0001040273-26-000004",
+      "period_ending": "",
+      "filing_date": "2026-11-16",
+      "edgar_url": "https://www.sec.gov/Archives/edgar/data/1040273/000104027326000004/",
+      "discovered_at": "2026-11-17T02:21:29.893Z"
+    },
+    {
+      "slug": "viking-global",
+      "cik": "0001103804",
+      "accession": "0001103804-26-000010",
+      "period_ending": "",
+      "filing_date": "2026-11-16",
+      "edgar_url": "https://www.sec.gov/Archives/edgar/data/1103804/000110380426000010/",
+      "discovered_at": "2026-11-17T02:21:29.913Z"
+    },
+    {
+      "slug": "aqr",
+      "cik": "0001167557",
+      "accession": "0001167557-26-000324",
+      "period_ending": "",
+      "filing_date": "2026-11-16",
+      "edgar_url": "https://www.sec.gov/Archives/edgar/data/1167557/000116755726000324/",
+      "discovered_at": "2026-11-17T02:21:30.087Z"
+    },
+    {
+      "slug": "berkshire-hathaway",
+      "cik": "0001067983",
+      "accession": "0001193125-26-463399",
+      "period_ending": "",
+      "filing_date": "2026-11-16",
+      "edgar_url": "https://www.sec.gov/Archives/edgar/data/1067983/000119312526463399/",
+      "discovered_at": "2026-11-17T02:21:29.999Z"
     }
   ]
 }
